@@ -281,26 +281,26 @@ export default createGlobalStyle`
     }
   }
 
-  .playStore {
+  .macAppStore {
     height: 75px;
     margin-right: 24px;
   }
 
   @media only screen and (max-width: 992px) {
-    .playStore {
+    .macAppStore {
       margin-right: 24px;
       margin-bottom: 0px;
     }
   }
 
   @media only screen and (max-width: 528px) {
-    .playStore {
+    .macAppStore {
       margin-right: 0px;
       margin-bottom: 24px;
     }
   }
 
-  .appStore {
+  .iosAppStore {
     height: 75px;
   }
 
