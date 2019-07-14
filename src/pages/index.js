@@ -142,7 +142,7 @@ const IndexPage = ({ data }) => (
               {configs.iosappstore_link && (
                 <a className="iosAppStoreLink" href={configs.iosappstore_link}>
                   <Img
-                    fixed={data.appStore.childImageSharp.fixed}
+                    fixed={data.iosAppStore.childImageSharp.fixed}
                     className="iosAppStore"
                   />
                 </a>
