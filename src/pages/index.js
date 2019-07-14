@@ -139,19 +139,19 @@ const IndexPage = ({ data }) => (
               <p className="appDescription">{configs.app_description}</p>
             </div>
             <div className="downloadButtonsContainer">
-              {configs.playstore_link && (
-                <a className="playStoreLink" href={configs.playstore_link}>
+              {configs.iosappstore_link && (
+                <a className="iosAppStoreLink" href={configs.iosappstore_link}>
                   <Img
-                    fixed={data.playStore.childImageSharp.fixed}
-                    className="playStore"
+                    fixed={data.appStore.childImageSharp.fixed}
+                    className="iosAppStore"
                   />
                 </a>
               )}
-              {configs.appstore_link && (
-                <a className="appStoreLink" href={configs.appstore_link}>
+              {configs.macappstore_link && (
+                <a className="macAppStoreLink" href={configs.macappstore_link}>
                   <Img
-                    fixed={data.appStore.childImageSharp.fixed}
-                    className="appStore"
+                    fixed={data.macAppStore.childImageSharp.fixed}
+                    className="macAppStore"
                   />
                 </a>
               )}
@@ -269,14 +269,14 @@ export const query = graphql`
         }
       }
     }
-    appStore: file(relativePath: { eq: "appstore.png" }) {
+    iosAppStore: file(relativePath: { eq: "iosappstore.png" }) {
       childImageSharp {
         fixed(width: 220) {
           ...GatsbyImageSharpFixed
         }
       }
     }
-    playStore: file(relativePath: { eq: "playstore.png" }) {
+    macAppStore: file(relativePath: { eq: "macappstore.png" }) {
       childImageSharp {
         fixed(height: 75) {
           ...GatsbyImageSharpFixed
