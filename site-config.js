@@ -7,7 +7,7 @@ module.exports = {
   video_or_screenshot   : "screenshot",                                           // "screenshot" or "video"
   app_url               : "https://agalp.imedadel.me",                            // Domain of your website without path_prefix.
   path_prefix           : "/",                                                    // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
-  app_name              : "AGALP",
+  app_name              : "Countdowns",
   app_price             : "Free",
   app_description       : "Automatically generate GatsbyJS app landing pages.",
   app_keywords          : ["automatic", "gatsbyjs", "app", "landing page"],
