@@ -188,12 +188,12 @@ export const query = graphql`
     }
     macAppStore: file(relativePath: { eq: "macappstore.png" }) {
       childImageSharp {
-        fixed(height: 75) {
+        fixed(width: 286) {
           ...GatsbyImageSharpFixed
         }
       }
     }
-    iphoneScreen: file(relativePath: { glob: "screenshot/*.{png,jpg}" }) {
+    iphoneScreen: file(relativePath: { eq: "screenshot.png" }) {
       childImageSharp {
         fluid(maxWidth: 350) {
           ...GatsbyImageSharpFluid
@@ -215,34 +215,6 @@ export const query = graphql`
       }
     }
     iphonePreviewBlack: file(relativePath: { eq: "black.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 400) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    iphonePreviewBlue: file(relativePath: { eq: "blue.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 400) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    iphonePreviewCoral: file(relativePath: { eq: "coral.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 400) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    iphonePreviewWhite: file(relativePath: { eq: "white.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 400) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    iphonePreviewYellow: file(relativePath: { eq: "yellow.png" }) {
       childImageSharp {
         fluid(maxWidth: 400) {
           ...GatsbyImageSharpFluid
