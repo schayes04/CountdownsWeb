@@ -58,7 +58,6 @@ export default createGlobalStyle`
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    border-radius: 0px 0px 40px 40px;
   }
 
   .headerImage {
@@ -72,12 +71,6 @@ export default createGlobalStyle`
   }
   .headerImage img {
     z-index: -1;
-    border-radius: 0px 0px 40px 40px;
-  }
-
-  .headerBackground {
-    height: 115px;
-    background-color: ${configs.header_background};
   }
 
   .container {
@@ -88,7 +81,7 @@ export default createGlobalStyle`
     padding-left: 15px;
     padding-right: 15px;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 115px 876px auto auto;
+    grid-template-rows: 0px 876px auto auto;
     grid-column-gap: 30px;
     grid-template-areas:
       "h h h h h h h h h h h h"
@@ -100,7 +93,7 @@ export default createGlobalStyle`
   @media only screen and (max-width: 1070px) {
     .container {
       // Set up the container for the site content
-      grid-template-rows: 115px 811px auto auto;
+      grid-template-rows: 0px 811px auto auto;
     }
   }
 
@@ -108,7 +101,7 @@ export default createGlobalStyle`
     .container {
       grid-column-gap: 0px;
       grid-template-columns: 1;
-      grid-template-rows: 115px auto auto auto auto;
+      grid-template-rows: 0px auto auto auto auto;
       grid-template-areas:
         "h h h h h h h h h h h h"
         "i i i i i i i i i i i i"
@@ -121,65 +114,6 @@ export default createGlobalStyle`
   header {
     grid-area: h;
     display: flex;
-  }
-
-  .logo {
-    display: flex;
-    width: 100%;
-    justify-content: flex-start;
-    align-items: center;
-    height: 115px;
-  }
-
-  .logo > p {
-    color: ${configs.topbar_title_color};
-    display: flex;
-    font-weight: bold;
-    padding-bottom: 1px;
-  }
-
-  .headerIcon {
-    width: 50px;
-    height: 50px;
-    -webkit-clip-path: url(#shape);
-    clip-path: url(#shape);
-    margin-right: 15px;
-  }
-
-  // Navigation Links
-  nav {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 115px;
-  }
-
-  nav > ul {
-    color: #fff;
-    display: flex;
-    list-style-type: none;
-  }
-
-  nav > ul li {
-    padding-left: 50px;
-    text-align: right;
-  }
-
-  nav > ul li:first-child {
-    padding-left: 0px;
-  }
-
-  nav > ul li a:link,
-  nav > ul li a:visited {
-    text-decoration: none;
-    color: rgba(${configs.topbar_title_color}, 0.6);
-  }
-
-  nav > ul li a:hover,
-  nav > ul li a:active {
-    text-decoration: none;
-    color: rgba(${configs.topbar_title_color}, 1);
   }
 
   // App Title, Price, Description and Links
@@ -197,11 +131,6 @@ export default createGlobalStyle`
       padding-top: 50px;
       justify-content: center;
     }
-  }
-
-  .appIconShadow {
-    display: flex;
-    filter: drop-shadow(0px 5px 10px rgba(#000, 0.1)) drop-shadow(0px 1px 1px rgba(#000, 0.2));
   }
 
   .appIconLarge {
@@ -321,20 +250,6 @@ export default createGlobalStyle`
     margin-top: 23px;
   }
 
-  .videoContainer {
-    width: 349px;
-    height: 755px;
-    -webkit-clip-path: url(#screenMask);
-    clip-path: url(#screenMask);
-    margin-left: 26px;
-    margin-top: 23px;
-  }
-
-  .videoContainer > video {
-    width: 349px;
-    height: 755px;
-  }
-
   @media only screen and (max-width: 1070px) {
     .iphonePreview {
       background-size: 370px auto;
@@ -344,18 +259,6 @@ export default createGlobalStyle`
       width: 322px;
       margin-left: 24px;
       margin-top: 22px;
-    }
-
-    .videoContainer {
-      width: 322px;
-      height: 698px;
-      margin-left: 24px;
-      margin-top: 22px;
-    }
-
-    .videoContainer > video {
-      width: 322px;
-      height: 698px;
     }
   }
 
@@ -376,18 +279,6 @@ export default createGlobalStyle`
       clip-path: url(#screenMask);
       margin: 0px;
       margin-top: 17px;
-    }
-
-    .videoContainer {
-      width: 226px;
-      height: 488px;
-      margin-left: 0px;
-      margin-top: 17px;
-    }
-
-    .videoContainer > video {
-      width: 226px;
-      height: 488px;
     }
   }
 

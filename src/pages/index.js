@@ -23,50 +23,11 @@ const IndexPage = ({ data }) => (
     >
       <div className="headerBackground">
         <div className="container">
-          <header>
-            <div className="logo">
-              <div className="appIconShadow">
-                <svg width="0" height="0">
-                  <defs>
-                    <clipPath id="shape">
-                      <path
-                        id="shape"
-                        d="M6181.23,233.709v-1.792c0-.5-0.02-1-0.02-1.523a24.257,24.257,0,0,0-.28-3.3,11.207,11.207,0,0,0-1.04-3.132,10.683,10.683,0,0,0-1.95-2.679,10.384,10.384,0,0,0-2.68-1.943,10.806,10.806,0,0,0-3.13-1.038,19.588,19.588,0,0,0-3.3-.285c-0.5-.017-1-0.017-1.52-0.017h-22.39c-0.51,0-1.01.017-1.53,0.017a24.041,24.041,0,0,0-3.3.285,11.009,11.009,0,0,0-3.13,1.038,10.491,10.491,0,0,0-4.62,4.622,10.893,10.893,0,0,0-1.04,3.132,19.2,19.2,0,0,0-.28,3.3c-0.02.5-.02,1-0.02,1.523v22.392c0,0.5.02,1,.02,1.524a24.257,24.257,0,0,0,.28,3.3,10.9,10.9,0,0,0,1.04,3.132,10.491,10.491,0,0,0,4.62,4.622,11.04,11.04,0,0,0,3.13,1.038,19.891,19.891,0,0,0,3.3.285c0.51,0.017,1.01.017,1.53,0.017h22.39c0.5,0,1-.017,1.52-0.017a24.221,24.221,0,0,0,3.3-.285,10.836,10.836,0,0,0,3.13-1.038,10.408,10.408,0,0,0,2.68-1.943,10.683,10.683,0,0,0,1.95-2.679,11.217,11.217,0,0,0,1.04-3.132,20.257,20.257,0,0,0,.28-3.3c0.02-.5.02-1,0.02-1.524v-20.6h0Z"
-                        transform="translate(-6131 -218)"
-                      />
-                    </clipPath>
-                  </defs>
-                </svg>
-                <Img
-                  fluid={data.headerIcon.childImageSharp.fluid}
-                  className="headerIcon"
-                />
-              </div>
-              <p className="headerName">{configs.app_name}</p>
-            </div>
-            <nav>
-              <ul>
-                {configs.presskit_download_link && (
-                  <li>
-                    <a href={configs.presskit_download_link}>Press Kit</a>
-                  </li>
-                )}
-              </ul>
-            </nav>
-          </header>
           <div
             className="iphonePreview"
             style={{
               backgroundImage: `url(${
-                configs.device_color === "black"
-                  ? data.iphonePreviewBlack.childImageSharp.fluid.src
-                  : configs.device_color === "blue"
-                  ? data.iphonePreviewBlue.childImageSharp.fluid.src
-                  : configs.device_color === "coral"
-                  ? data.iphonePreviewCoral.childImageSharp.fluid.src
-                  : configs.device_color === "white"
-                  ? data.iphonePreviewWhite.childImageSharp.fluid.src
-                  : data.iphonePreviewYellow.childImageSharp.fluid.src
+                data.iphonePreviewBlack.childImageSharp.fluid.src
               })`,
             }}
           >
@@ -86,31 +47,11 @@ const IndexPage = ({ data }) => (
                 />
               </clipPath>
             </svg>
-            {configs.video_or_screenshot === "video" && (
-              <div className="videoContainer">
-                <video
-                  className="screenvideo"
-                  autoPlay="autoplay"
-                  controls="controls"
-                >
-                  <source
-                    src={data.videoScreen.publicURL}
-                    type={`video/${
-                      data.videoScreen.extension === "mov"
-                        ? `mp4`
-                        : data.videoScreen.extension
-                    }`}
-                  />
-                </video>
-              </div>
-            )}
 
-            {configs.video_or_screenshot === "screenshot" && (
-              <Img
-                fluid={data.iphoneScreen.childImageSharp.fluid}
-                className="iphoneScreen"
-              />
-            )}
+            <Img
+              fluid={data.iphoneScreen.childImageSharp.fluid}
+              className="iphoneScreen"
+            />
           </div>
           <div className="appInfo">
             <div className="appIconShadow">
@@ -190,7 +131,7 @@ const IndexPage = ({ data }) => (
               ) : (
                 `${configs.your_name}`
               )}
-              {configs.your_city && ` in ${configs.your_city}`}
+              .
             </p>
             <div className="footerIcons">
               {configs.facebook_username && (
@@ -205,18 +146,6 @@ const IndexPage = ({ data }) => (
                 </a>
               )}
 
-              {configs.linkedin_username && (
-                <a
-                  href={`https://www.linkedin.com/in/${configs.linkedin_username}`}
-                  aria-label="LinkedIn"
-                >
-                  <span className="fa-stack fa-1x">
-                    <i className="socialIconBack fas fa-circle fa-stack-2x" />
-                    <i className="socialIconTop fab fa-linkedin fa-stack-1x" />
-                  </span>
-                </a>
-              )}
-
               {configs.twitter_username && (
                 <a
                   href={`https://twitter.com/${configs.twitter_username}`}
@@ -225,18 +154,6 @@ const IndexPage = ({ data }) => (
                   <span className="fa-stack fa-1x">
                     <i className="socialIconBack fas fa-circle fa-stack-2x" />
                     <i className="socialIconTop fab fa-twitter fa-stack-1x" />
-                  </span>
-                </a>
-              )}
-
-              {configs.github_username && (
-                <a
-                  href={`https://github.com/${configs.github_username}`}
-                  aria-label="GitHub"
-                >
-                  <span className="fa-stack fa-1x">
-                    <i className="socialIconBack fas fa-circle fa-stack-2x" />
-                    <i className="socialIconTop fab fa-github fa-stack-1x" />
                   </span>
                 </a>
               )}
@@ -262,13 +179,6 @@ export default IndexPage
 
 export const query = graphql`
   query {
-    headerIcon: file(relativePath: { eq: "icon.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 50) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
     iosAppStore: file(relativePath: { eq: "iosappstore.png" }) {
       childImageSharp {
         fixed(width: 220) {
@@ -289,13 +199,6 @@ export const query = graphql`
           ...GatsbyImageSharpFluid
         }
       }
-    }
-    videoScreen: file(
-      extension: { ne: "txt" }
-      relativePath: { glob: "videos/*" }
-    ) {
-      publicURL
-      extension
     }
     appIconLarge: file(relativePath: { eq: "icon.png" }) {
       childImageSharp {

@@ -2,26 +2,19 @@ module.exports = {
   // App Info
   iosappstore_link      : "https://apps.apple.com/app/apple-store/id917514700?pt=487792&ct=ShareLink&mt=8",                                  // Enter App Store URL.
   macappstore_link      : "https://apps.apple.com/app/apple-store/id917514700?pt=487792&ct=ShareLink&mt=8",                                  // Enter Google Play Store URL.
-  presskit_download_link: "https://imedadel.me",                                  // Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
-  video_or_screenshot   : "screenshot",                                           // "screenshot" or "video"
   app_url               : "https://agalp.imedadel.me",                            // Domain of your website without path_prefix.
   path_prefix           : "/",                                                    // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
   app_name              : "Countdowns",
   app_price             : "Free",
-  app_description       : "Automatically generate GatsbyJS app landing pages.",
-  app_keywords          : ["automatic", "gatsbyjs", "app", "landing page"],
+  app_description       : "Countdowns is a Mac & iOS app desigend to help you count down to those important moments in life. Perfect for birthdays, holidays, weddings, anniversaries, vacation, retirement, and other special events!",
+  app_keywords          : ["countdown app", "ios countdown", "mac countdown", "days until", "countdown", "widget", "birthday", "holiday", "wedding", "vacation", "counter", "retirement", "until", "christmas", "xmas", "event", "day"],
 
-  // Personal Info
-  your_name              : "Imed Adel",
-  your_link              : "https://imedadel.me",
-  your_city              : "Sousse",
-  email_address          : "hello@imedadel.me",
-  linkedin_username      : null,
-  facebook_username      : null,
-  instagram_username     : "ed_adel",
-  twitter_username       : "Imed_Adel",
-  github_username        : "ImedAdel",
-  youtube_username       : null,
+  // Personal Info\
+  your_name              : "Shayes Apps",
+  your_link              : "https://shayesapps.com",
+  email_address          : "support@shayesapps.com",
+  facebook_username      : "shayesapps",
+  twitter_username       : "shayesapps",
 
   // Features List
   features               : [
@@ -79,10 +72,7 @@ module.exports = {
       fontawesome_icon_name: "info-circle",
     },
   ],
-  header_background             : "rgba(0, 0, 0, 0.1)",
-  topbar_title_color            : "#ffffff",
   cover_overlay_color_rgba      : "rgba(54, 59, 61, 0.8)",
-  device_color                  : "black",                          // Set to "black", "blue", "coral", "white", or "yellow"
   body_background_color         : "ffffff",
   primary_text_color            : "#000",
   content_width                 : "1170px",
