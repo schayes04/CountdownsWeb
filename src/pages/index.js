@@ -168,7 +168,6 @@ const IndexPage = ({ data }) => (
               )}
             </div>
           </footer>
-          {/*TODO: Add App Store API */}
         </div>
       </div>
     </div>

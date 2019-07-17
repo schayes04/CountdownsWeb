@@ -64,7 +64,6 @@ export default createGlobalStyle`
     position: unset !important;
     height: 0 !important;
     display: block !important;
-    
   }
   .headerImage > div{
     padding-bottom: 0 !important;
@@ -208,6 +207,10 @@ export default createGlobalStyle`
     .downloadButtonsContainer {
       text-align: center;
     }
+  }
+
+  .macAppStoreLink {
+    padding: 20px;
   }
 
   .macAppStore {
@@ -395,7 +398,7 @@ export default createGlobalStyle`
     width: 100%;
     text-align: center;
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 20px;
   }
 
   .footerIcons {

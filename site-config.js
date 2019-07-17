@@ -19,57 +19,57 @@ module.exports = {
   // Features List
   features               : [
     {
-      title: "GitHub Pages GatsbyJS Starter",
+      title: "Unlimited Countdowns",
       description:
-        "Designed for GitHub Pages and Netlify. Fork. Edit site-config.js. Upload screenshot/video. Push to gh-pages branch. Voilà!",
+        "Unlimited countdowns which can count up or down",
+      fontawesome_icon_name: "clock",
+    },
+    {
+      title: "Customizable Units",
+      description:
+        "Pick the units you want for each individual countdown",
+      fontawesome_icon_name: "cog",
+    },
+    {
+      title: "Recurring Events",
+      description:
+        "Track recurring events like birthdays, anniversaries, and more",
+      fontawesome_icon_name: "redo",
+    },
+    {
+      title: "Calendar Integration",
+      description:
+        "Import events directly from your calendar",
+      fontawesome_icon_name: "calendar-alt",
+    },
+    {
+      title: "iCloud Sync",
+      description: "Sync countdowns and list between all your devices",
+      fontawesome_icon_name: "cloud",
+    },
+    {
+      title: "Notifications",
+      description:
+        "Choose when to be notified before each countdown",
+      fontawesome_icon_name: "dot-circle",
+    },
+    {
+      title: "Lists",
+      description:
+        "Create your own lists to categorize your countdowns",
+      fontawesome_icon_name: "list-ul",
+    },
+    {
+      title: "Siri Integration",
+      description:
+        "Check on your countdowns with just your voice",
       fontawesome_icon_name: "magic",
     },
     {
-      title: "iPhone Device Preview",
+      title: "Apple Watch",
       description:
-        "Preview your app in the context of an iPhone device. Five different device colors included.",
-      fontawesome_icon_name: "mobile",
-    },
-    {
-      title: "Video Support",
-      description:
-        "Preview app video on the iPhone device simply by placing your video files in the videos folder.",
-      fontawesome_icon_name: "play-circle",
-    },
-    {
-      title: "Optimized Performance",
-      description:
-        "No need to worry about page performance or optimizing images and videos. Everything is already configured for the best performance possible!",
-      fontawesome_icon_name: "sync",
-    },
-    {
-      title: "Easy to Tweak",
-      description:
-        "Tweak accent color, images, icons and transparency via the site-config.js file. No HTML/CSS needed.",
-      fontawesome_icon_name: "adjust",
-    },
-    {
-      title: "Feature List",
-      description:
-        "Add features (like this one) to your site via the site-config.js file. No HTML/CSS needed.",
+        "Support for Apple Watch & Complications",
       fontawesome_icon_name: "star",
-    },
-    {
-      title: "Deploy to Netlify",
-      description: "Easily deploy your GatsbyJS landing page to Netlify.",
-      fontawesome_icon_name: "arrow-alt-circle-down",
-    },
-    {
-      title: "Social Links",
-      description:
-        "Easily add social media accounts and contact info in the footer via the site-config.js file. No HTML/CSS needed.",
-      fontawesome_icon_name: "link",
-    },
-    {
-      title: "FontAwesome Support",
-      description:
-        "Pick custom Font Awesome icons for the feature list via the site-config.js file. No HTML/CSS needed.",
-      fontawesome_icon_name: "info-circle",
     },
   ],
   cover_overlay_color_rgba      : "rgba(54, 59, 61, 0.8)",
