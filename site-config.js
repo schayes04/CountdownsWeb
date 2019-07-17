@@ -1,23 +1,18 @@
 module.exports = {
-  // App Info
-  iosappstore_link      : "https://apps.apple.com/app/apple-store/id917514700?pt=487792&ct=ShareLink&mt=8",                                  // Enter App Store URL.
-  macappstore_link      : "https://apps.apple.com/app/apple-store/id917514700?pt=487792&ct=ShareLink&mt=8",                                  // Enter Google Play Store URL.
-  app_url               : "https://agalp.imedadel.me",                            // Domain of your website without path_prefix.
-  path_prefix           : "/",                                                    // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
+  iosappstore_link      : "https://apps.apple.com/app/apple-store/id917514700?pt=487792&ct=ShareLink&mt=8",
+  macappstore_link      : "https://apps.apple.com/app/apple-store/id917514700?pt=487792&ct=ShareLink&mt=8",
+  app_url               : "https://countdowns-app.com",
+  path_prefix           : "/",
   app_name              : "Countdowns",
   app_price             : "Free",
-  app_description       : "Countdowns is a Mac & iOS app desigend to help you count down to those important moments in life. Perfect for birthdays, holidays, weddings, anniversaries, vacation, retirement, and other special events!",
+  app_description       : "Countdowns is a Mac & iOS app designed to help you count down to those important moments in life. Perfect for birthdays, holidays, weddings, anniversaries, vacation, retirement, and other special events!",
   app_keywords          : ["countdown app", "ios countdown", "mac countdown", "days until", "countdown", "widget", "birthday", "holiday", "wedding", "vacation", "counter", "retirement", "until", "christmas", "xmas", "event", "day"],
-
-  // Personal Info\
-  your_name              : "Shayes Apps",
-  your_link              : "https://shayesapps.com",
-  email_address          : "support@shayesapps.com",
-  facebook_username      : "shayesapps",
-  twitter_username       : "shayesapps",
-
-  // Features List
-  features               : [
+  your_name             : "Shayes Apps",
+  your_link             : "https://shayesapps.com",
+  email_address         : "support@shayesapps.com",
+  facebook_username     : "shayesapps",
+  twitter_username      : "shayesapps",
+  features              : [
     {
       title: "Unlimited Countdowns",
       description:
@@ -72,7 +67,8 @@ module.exports = {
       fontawesome_icon_name: "star",
     },
   ],
-  cover_overlay_color_rgba      : "rgba(54, 59, 61, 0.8)",
+  cover_overlay_color_rgba1     : "rgba(20, 38, 48, 1.0)",
+  cover_overlay_color_rgba2     : "rgba(36, 59, 85, 0.85)",
   body_background_color         : "ffffff",
   primary_text_color            : "#000",
   content_width                 : "1170px",

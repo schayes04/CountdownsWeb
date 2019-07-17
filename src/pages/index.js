@@ -16,9 +16,9 @@ const IndexPage = ({ data }) => (
     <div
       className="imageWrapper"
       style={{
-        backgroundImage: `linear-gradient(${configs.cover_overlay_color_rgba},${
-          configs.cover_overlay_color_rgba
-        }),url(${data.headerImage.childImageSharp.fluid.src})`,
+        backgroundImage: `linear-gradient(${configs.cover_overlay_color_rgba1},${
+          configs.cover_overlay_color_rgba2
+        })`,
       }}
     >
       <div className="headerBackground">
@@ -202,13 +202,6 @@ export const query = graphql`
     appIconLarge: file(relativePath: { eq: "icon.png" }) {
       childImageSharp {
         fluid(maxWidth: 120) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    headerImage: file(relativePath: { eq: "headerimage.png" }) {
-      childImageSharp {
-        fluid(maxHeight: 714) {
           ...GatsbyImageSharpFluid
         }
       }

@@ -295,7 +295,7 @@ export default createGlobalStyle`
     justify-content: flex-start;
     flex-grow: 1;
     flex-wrap: wrap;
-    margin-top: 93px;
+    margin-top: 75px;
   }
 
   .feature {
