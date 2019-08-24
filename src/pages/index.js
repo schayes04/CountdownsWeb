@@ -88,14 +88,14 @@ const IndexPage = ({ data }) => (
                   />
                 </a>
               )}
-              {configs.macappstore_link && (
+              {/* {configs.macappstore_link && (
                 <a className="macAppStoreLink" href={configs.macappstore_link}>
                   <Img
                     fixed={data.macAppStore.childImageSharp.fixed}
                     className="macAppStore"
                   />
                 </a>
-              )}
+              )} */}
             </div>
           </div>
           <div className="features">
