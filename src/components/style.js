@@ -209,10 +209,6 @@ export default createGlobalStyle`
     }
   }
 
-  .macAppStoreLink {
-    padding: 20px;
-  }
-
   .macAppStore {
     height: 75px;
     margin-right: 24px;
@@ -234,6 +230,7 @@ export default createGlobalStyle`
 
   .iosAppStore {
     height: 75px;
+    margin-right: 24px;
   }
 
   // iPhone Device Preview
