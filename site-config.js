@@ -7,7 +7,7 @@ module.exports = {
   app_price             : "Free",
   app_description       : "Countdowns is an app for iOS & macOS designed to help you count down to those important moments in life. Perfect for birthdays, holidays, weddings, anniversaries, vacation, retirement, and other special events!",
   app_keywords          : ["countdown app", "ios countdown", "mac countdown", "days until", "countdown", "widget", "birthday", "holiday", "wedding", "vacation", "counter", "retirement", "until", "christmas", "xmas", "event", "day"],
-  your_name             : "Shayes Apps",
+  your_name             : "Shayes Apps LLC",
   your_link             : "https://shayesapps.com",
   email_address         : "support@shayesapps.com",
   facebook_username     : "shayesapps",
