@@ -1,6 +1,6 @@
 module.exports = {
   iosappstore_link      : "https://apps.apple.com/app/apple-store/id917514700?pt=487792&ct=ShareLink&mt=8",
-  macappstore_link      : "https://apps.apple.com/us/app/countdowns-track-events/id1473361042?ls=1&mt=12",
+  macappstore_link      : "https://apps.apple.com/app/apple-store/id917514700?pt=487792&ct=ShareLink&mt=8",
   app_url               : "https://countdowns-app.com",
   path_prefix           : "/",
   app_name              : "Countdowns",
