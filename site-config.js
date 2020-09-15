@@ -20,6 +20,12 @@ module.exports = {
       fontawesome_icon_name: "clock",
     },
     {
+      title: "Widgets",
+      description:
+        "See countdowns right on your home screen (iOS 14 required)",
+      fontawesome_icon_name: "th-large",
+    },
+    {
       title: "Customizable Units",
       description:
         "Pick the units you want for each individual countdown",
