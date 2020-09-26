@@ -73,7 +73,7 @@ module.exports = {
       fontawesome_icon_name: "star",
     },
     {
-      title: "Languages",
+      title: "Localized",
       description:
         "Available in 15+ languages",
       fontawesome_icon_name: "globe",
