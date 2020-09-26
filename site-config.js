@@ -72,6 +72,12 @@ module.exports = {
         "Support for Apple Watch & Complications",
       fontawesome_icon_name: "star",
     },
+    {
+      title: "Languages",
+      description:
+        "Available in 15+ languages",
+      fontawesome_icon_name: "globe",
+    }
   ],
   cover_overlay_color_rgba1     : "rgba(20, 38, 48, 1.0)",
   cover_overlay_color_rgba2     : "rgba(36, 59, 85, 0.85)",
