@@ -22,7 +22,7 @@ module.exports = {
     {
       title: "Widgets",
       description:
-        "See countdowns right on your home screen (iOS 14 required)",
+        "See countdowns right on your home screen (iOS 14/macOS Big Sur)",
       fontawesome_icon_name: "th-large",
     },
     {
@@ -59,6 +59,12 @@ module.exports = {
       description:
         "Create your own lists to categorize your countdowns",
       fontawesome_icon_name: "list-ul",
+    },
+    {
+      title: "Archive",
+      description:
+        "Keep and view past countdowns",
+      fontawesome_icon_name: "archive",
     },
     {
       title: "Siri Integration",
