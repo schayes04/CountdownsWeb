@@ -22,7 +22,7 @@ module.exports = {
     {
       title: "Widgets",
       description:
-        "See countdowns right on your home screen (iOS 14/macOS Big Sur)",
+        "See countdowns right on your home screen",
       fontawesome_icon_name: "th-large",
     },
     {
