@@ -368,20 +368,6 @@ nav > ul li a:active {
 	margin-top: 23px;
 }
 
-.videoContainer {
-	width: 349px;
-	height: 755px;
-	-webkit-clip-path: url(#screenMask);
-	clip-path: url(#screenMask);
-	margin-left: 26px;
-	margin-top: 23px;
-}
-
-.videoContainer > video {
-	width: 349px;
-	height: 755px;
-}
-
 @media only screen and (max-width: 1070px) {
 
 	.iphonePreview {
@@ -392,18 +378,6 @@ nav > ul li a:active {
 		width: 322px;
 		margin-left: 24px;
 		margin-top: 22px;
-	}
-
-	.videoContainer {
-		width: 322px;
-		height: 698px;
-		margin-left: 24px;
-		margin-top: 22px;
-	}
-	
-	.videoContainer > video {
-		width: 322px;
-		height: 698px;
 	}
 	
 } 
@@ -426,18 +400,6 @@ nav > ul li a:active {
 		clip-path: url(#screenMask);
 		margin: 0px;
 		margin-top: 17px;
-	}
-
-	.videoContainer {
-		width: 226px;
-		height: 488px;
-		margin-left: 0px;
-		margin-top: 17px;
-	}
-
-	.videoContainer > video {
-		width: 226px;
-		height: 488px;
 	}
 	
 } 
