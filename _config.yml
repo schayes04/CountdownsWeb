@@ -34,7 +34,7 @@ features                                  :
     fontawesome_icon_name                 : clock
     
   - title                                 : Widgets
-    description                           : See countdowns right on your Home or Lock Screen
+    description                           : See countdowns right on your Home Screen or Lock Screen
     fontawesome_icon_name                 : th-large
 
   - title                                 : Customizable Units
