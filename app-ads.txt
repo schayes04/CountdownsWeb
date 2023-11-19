@@ -42,3 +42,5 @@ gamoshi.io, 267-b5310, RESELLER, 20e30b2ae1f670f2
 sonobi.com, 94997de4e6, RESELLER, d1a215d9eb5aee9e
 e-planning.net, ef8dc1dee54baf18, RESELLER, c1ba615865ed87b2
 opera.com, pub5479493704320, RESELLER, 55a0c5fd61378de3
+smartadserver.com, 4194-OB, RESELLER, 060d053dcf45cbf3
+smartadserver.com, 4194, RESELLER, 060d053dcf45cbf3
