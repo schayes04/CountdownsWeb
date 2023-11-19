@@ -56,3 +56,4 @@ smaato.com, 1100004890, DIRECT, 07bcf65f187117b4
 adcolony.com, 496220845654deec, RESELLER, 1ad675c9de6b5176
 appnexus.com, 2764, RESELLER
 appnexus.com, 8790, RESELLER, f5ab79cb980f11d1
+pubmatic.com, 159856, DIRECT, 5d62403b186f2ace
