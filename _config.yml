@@ -87,8 +87,6 @@ topbar_title_color                        : "#ffffff"
 cover_overlay_color_1                     : "#142630"
 cover_overlay_color_2                     : "#243b55"
 
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
-
 body_background_color                     : "#ffffff"
 
 link_color                                : "#1d63ea"
