@@ -1,5 +1,6 @@
 #page title
 page_title                                : Countdowns
+url                                       : https://countdowns-app.com
 
 # App Info
 ios_app_id                                : 917514700
@@ -11,7 +12,7 @@ presskit_download_link                    : assets/Countdowns_Press_Kit.zip
 app_icon                                  : assets/appicon.png
 app_name                                  : Countdowns
 app_price                                 : Free
-app_description                           : Countdowns is an app for iOS & macOS designed to help you count down to those important moments in life. Perfect for birthdays, holidays, weddings, anniversaries, vacations, retirement, and other special events!
+app_description                           : Countdowns helps you count down to important moments, or count up from meaningful dates, on iPhone, iPad, Mac, and Apple Watch. Perfect for birthdays, holidays, weddings, anniversaries, vacations, retirement, and more!
 
 enable_smart_app_banner                   : true
 
@@ -19,9 +20,8 @@ enable_smart_app_banner                   : true
 
 # Information About Yourself
 your_name                                 : Shayes Apps
-your_link                                 : https://shayesapps.com                              
-email_address                             : support@shayesapps.com
-facebook_username                         : shayesapps    
+your_link                                 : https://shayesapps.com
+facebook_username                         : shayesapps
 instagram_username                        : shayesapps
 mastodon_link                             : https://indieapps.space/@shayesapps
 
@@ -30,92 +30,40 @@ mastodon_link                             : https://indieapps.space/@shayesapps
 features                                  :
 
   - title                                 : Unlimited Countdowns
-    description                           : Unlimited countdowns which can count up or down
-    fontawesome_icon_name                 : clock
+    description                           : Create unlimited countdowns that count down to future dates or count up from past milestones
     
   - title                                 : Widgets
     description                           : See countdowns right on your Home Screen or Lock Screen
-    fontawesome_icon_name                 : th-large
 
   - title                                 : Customizable Units
-    description                           : Pick the units you want for each individual countdown
-    fontawesome_icon_name                 : cog
+    description                           : Show years, months, weeks, days, hours, minutes, seconds, or any mix that fits the event
 
   - title                                 : Recurring Events
-    description                           : Track recurring events like birthdays, anniversaries, and more
-    fontawesome_icon_name                 : redo
+    description                           : Build simple repeats or advanced recurring schedules for dates that keep coming back
 
-  - title                                 : Calendar Integration
-    description                           : Import events directly from your calendar
-    fontawesome_icon_name                 : calendar-alt
+  - title                                 : Event Import
+    description                           : Import dates from Calendar, Contacts, and Reminders
   
   - title                                 : iCloud Sync
-    description                           : Sync countdowns and lists between all your devices
-    fontawesome_icon_name                 : cloud
+    description                           : Sync countdowns and lists across your devices
 
   - title                                 : Notifications
-    description                           : Choose when to be notified before each countdown
-    fontawesome_icon_name                 : dot-circle
+    description                           : Choose when to be reminded before each countdown
 
   - title                                 : Lists
-    description                           : Create your own lists to categorize your countdowns
-    fontawesome_icon_name                 : list-ul
+    description                           : Organize countdowns into custom lists
 
   - title                                 : Archive
     description                           : Keep and view past countdowns
-    fontawesome_icon_name                 : archive
 
-  - title                                 : Siri Integration
-    description                           : Check on your countdowns with just your voice
-    fontawesome_icon_name                 : magic
+  - title                                 : Siri Shortcuts
+    description                           : Use Shortcuts to check countdowns with your voice
 
   - title                                 : Apple Watch
-    description                           : Support for Apple Watch & Complications
-    fontawesome_icon_name                 : star
+    description                           : View countdowns on Apple Watch with complications
 
   - title                                 : Localized
-    description                           : Available in 20 languages
-    fontawesome_icon_name                 : globe
-
-
-
-# Theme Settings
-topbar_color                              : "#000000"
-topbar_transparency                       : 0.1
-topbar_title_color                        : "#ffffff"
-
-cover_overlay_color_1                     : "#142630"
-cover_overlay_color_2                     : "#243b55"
-
-body_background_color                     : "#ffffff"
-
-link_color                                : "#1d63ea"
-
-app_title_color                           : "#ffffff"
-app_price_color                           : "#ffffff"
-app_description_color                     : "#ffffff"
-
-feature_title_color                       : "#000000"
-feature_text_color                        : "#666666"
-
-feature_icons_foreground_color            : "#1d63ea"
-feature_icons_background_color            : "#e6e6e6"
-
-social_icons_foreground_color             : "#666666"
-social_icons_background_color             : "#e6e6e6"
-
-footer_text_color                         : "#666666"
-
-
-
-
-
-
-
-
-
-
-
+    description                           : Available in 20+ languages
 
 
 ####################################################
@@ -131,11 +79,23 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - .bundle
+  - .sass-cache
 
 collections:
-  pages:
+  guide_pages:
     output: true
     permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: guide_pages
+    values:
+      layout: guide-page
+      include_software_schema: true
 
 # Markdown rendering
 markdown: kramdown

@@ -1,0 +1,60 @@
+---
+layout: default
+title: "Countdown Ideas"
+meta_title: "Countdown Ideas for Weddings, Birthdays, Vacations, Holidays, and Events"
+description: "Browse countdown ideas for weddings, birthdays, vacations, holidays, anniversaries, retirement, widgets, and more."
+permalink: /countdown-ideas/
+include_in_sitemap: true
+image: /assets/promo.png
+---
+
+<section class="guide-hero guide-hero--index">
+	<div class="site-container guide-hero__grid">
+		<div class="guide-hero__copy">
+			<p class="section-kicker">Countdown ideas</p>
+			<h1>Countdown ideas for every date worth tracking</h1>
+			<p>Explore ways to use Countdowns for celebrations, trips, milestones, holidays, widgets, and the everyday dates you want to keep visible.</p>
+			<div class="hero__actions">
+				<a class="app-store-badge" href="{{ site.appstore_link }}" aria-label="Download {{ site.app_name }} on the App Store">
+					<img src="{{ '/assets/appstore.png' | relative_url }}" alt="Download on the App Store">
+				</a>
+			</div>
+		</div>
+		<div class="guide-hero__media">
+			<img src="{{ '/assets/screenshots/colors.png' | relative_url }}" alt="Colorful countdowns in {{ site.app_name }}">
+		</div>
+	</div>
+</section>
+
+<section class="section section--ideas">
+	<div class="site-container">
+		<div class="section-heading">
+			<p class="section-kicker">Browse all</p>
+			<h2>Choose a countdown type to start with.</h2>
+			<p>Each guide focuses on a different intent, with practical setup ideas and links to related countdown pages.</p>
+		</div>
+		<div class="guide-link-grid guide-link-grid--wide">
+			{% assign idea_pages = site.guide_pages | sort: "nav_order" %}
+			{% for idea in idea_pages %}
+				<a class="guide-link-card" href="{{ idea.url | relative_url }}">
+					<span>{{ idea.kicker | default: "Countdown guide" }}</span>
+					<strong>{{ idea.short_title | default: idea.title }}</strong>
+					<p>{{ idea.card_description | default: idea.description }}</p>
+				</a>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
+<section class="final-cta">
+	<div class="site-container final-cta__inner">
+		<div>
+			<p class="section-kicker">Start counting</p>
+			<h2>Create your own countdown.</h2>
+			<p>{{ site.app_description }}</p>
+		</div>
+		<a class="app-store-badge" href="{{ site.appstore_link }}" aria-label="Download {{ site.app_name }} on the App Store">
+			<img src="{{ '/assets/appstore.png' | relative_url }}" alt="Download on the App Store">
+		</a>
+	</div>
+</section>

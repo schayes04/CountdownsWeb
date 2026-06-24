@@ -1,65 +1,81 @@
-// Layout and grids
-$content-width: 1170px;
-
-// Fonts and sizes
+// Layout and type
+$content-width: 1180px;
 $font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-$primary-text-color: #000000;
 
-html {
-	font-size: 62.5%;
-	font-family: $font;
-	line-height: 1;
+:root {
+	--ink: #07111f;
+	--muted: #536273;
+	--soft: #f4f8fc;
+	--soft-blue: #eaf7ff;
+	--line: rgba(8, 29, 54, 0.12);
+	--blue: #0a84ff;
+	--blue-dark: #0067d8;
+	--cyan: #21c7f3;
+	--mint: #33d18f;
+	--violet: #8b5cf6;
+	--coral: #ff6b57;
+	--white: #ffffff;
+	--shadow: 0 24px 80px rgba(8, 29, 54, 0.16);
 }
 
-body {
-	font-size: 2rem;
-	background-color: $body-color;
-}
-
-.subPageBody {
-	background-color: #fff;
-}
-
-h1 {
-	font-size: 3rem;
-}
-
-h2 {
-	font-size: 2rem;
-}
-
-h3 {
-    font-size: 2rem;
-}
-
-// Better font rendering
-body {
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	background-color: $body-color;
-}
-
-a:link,
-a:hover,
-a:visited,
-a:active {
-	color: $accent-color;
-	text-decoration: none;
-}
-
-// Shadows
-$drop-shadow: 	drop-shadow(0px 5px 10px rgba(#000, 0.1)) 
-				drop-shadow(0px 1px 1px rgba(#000, 0.2)
-				);
-
-// Various resets
 *,
 *::before,
 *::after {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+}
 
+html {
+	font-family: $font;
+	scroll-behavior: smooth;
+	text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
 	margin: 0;
+	background: var(--white);
+	color: var(--ink);
+	font-family: $font;
+	font-size: 16px;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+dl,
+dd,
+ul {
+	margin: 0;
+}
+
+ul {
 	padding: 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--blue-dark);
+}
+
+strong {
+	font-weight: 700;
+}
+
+::selection {
+	background: rgba(10, 132, 255, 0.18);
 }
