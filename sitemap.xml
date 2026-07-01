@@ -5,20 +5,14 @@ layout: null
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>{{ "/" | absolute_url }}</loc>
-		<changefreq>weekly</changefreq>
-		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>{{ "/countdown-ideas/" | absolute_url }}</loc>
-		<changefreq>weekly</changefreq>
-		<priority>0.7</priority>
 	</url>
 	{% assign sitemap_pages = site.guide_pages | sort: "nav_order" %}
 	{% for sitemap_page in sitemap_pages %}
 		<url>
 			<loc>{{ sitemap_page.url | absolute_url }}</loc>
-			<changefreq>monthly</changefreq>
-			<priority>0.8</priority>
 		</url>
 	{% endfor %}
 </urlset>
