@@ -1,17 +1,60 @@
+{% assign current_locale = page.locale | default: "en" %}
+{% assign locale = site.data.locales | where: "code", current_locale | first %}
+{% assign t = site.data.strings[current_locale] | default: site.data.strings.en %}
+{% assign locale_prefix = "" %}
+{% if locale.folder and locale.folder != "" %}
+	{% assign locale_prefix = "/" | append: locale.folder %}
+{% endif %}
+{% assign home_path = locale_prefix | append: "/" %}
+{% assign ideas_path = locale_prefix | append: "/countdown-ideas/" %}
+{% assign canonical_key = page.canonical_key | default: page.slug %}
+{% if canonical_key == nil %}
+	{% if page.url == "/" %}
+		{% assign canonical_key = "home" %}
+	{% elsif page.url == "/countdown-ideas/" %}
+		{% assign canonical_key = "countdown-ideas" %}
+	{% endif %}
+{% endif %}
 <header class="site-header">
 	<div class="site-header__inner">
-		<a class="site-brand" href="{{ '/' | relative_url }}" target="_self" aria-label="{{ site.app_name }} home">
+		<a class="site-brand" href="{{ home_path | relative_url }}" target="_self" aria-label="{{ site.app_name }} {{ t.home }}">
 			<img class="site-brand__icon" src="{{ site.app_icon | relative_url }}" alt="">
 			<span>{{ site.app_name }}</span>
 		</a>
-		<nav class="site-nav" aria-label="Primary">
-			<a href="{{ '/#features' | relative_url }}" target="_self">Features</a>
-			<a href="{{ '/#widgets' | relative_url }}" target="_self">Widgets</a>
-			<a href="{{ '/countdown-ideas/' | relative_url }}" target="_self">Ideas</a>
+		<nav class="site-nav" aria-label="{{ t.primary_nav }}">
+			<a class="site-nav__optional" href="{{ home_path | append: '#features' | relative_url }}" target="_self">{{ t.features }}</a>
+			<a class="site-nav__optional" href="{{ home_path | append: '#widgets' | relative_url }}" target="_self">{{ t.widgets }}</a>
+			<a href="{{ ideas_path | relative_url }}" target="_self">{{ t.ideas }}</a>
 			{% if site.presskit_download_link %}
-				<a class="site-nav__optional" href="{{ site.presskit_download_link | relative_url }}">Press Kit</a>
+				<a class="site-nav__optional" href="{{ site.presskit_download_link | relative_url }}">{{ t.press_kit }}</a>
 			{% endif %}
-			<a class="site-nav__cta" href="{{ site.appstore_link }}">Download</a>
+			<details class="language-menu">
+				<summary>{{ locale.native_name | default: t.language }}</summary>
+				<div class="language-menu__list">
+					{% for alt_locale in site.data.locales %}
+						{% assign alt_path = "/" %}
+						{% if canonical_key == "home" %}
+							{% if alt_locale.folder and alt_locale.folder != "" %}
+								{% assign alt_path = "/" | append: alt_locale.folder | append: "/" %}
+							{% endif %}
+						{% elsif canonical_key == "countdown-ideas" %}
+							{% if alt_locale.folder and alt_locale.folder != "" %}
+								{% assign alt_path = "/" | append: alt_locale.folder | append: "/countdown-ideas/" %}
+							{% else %}
+								{% assign alt_path = "/countdown-ideas/" %}
+							{% endif %}
+						{% elsif canonical_key %}
+							{% if alt_locale.folder and alt_locale.folder != "" %}
+								{% assign alt_path = "/" | append: alt_locale.folder | append: "/" | append: canonical_key | append: "/" %}
+							{% else %}
+								{% assign alt_path = "/" | append: canonical_key | append: "/" %}
+							{% endif %}
+						{% endif %}
+						<a href="{{ alt_path | relative_url }}" hreflang="{{ alt_locale.html_lang }}">{{ alt_locale.native_name }}</a>
+					{% endfor %}
+				</div>
+			</details>
+			<a class="site-nav__cta" href="{{ site.appstore_link }}">{{ t.download }}</a>
 		</nav>
 	</div>
 </header>

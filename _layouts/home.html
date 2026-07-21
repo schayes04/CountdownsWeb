@@ -2,34 +2,42 @@
 layout: default
 ---
 
+{% assign current_locale = page.locale | default: "en" %}
+{% assign locale = site.data.locales | where: "code", current_locale | first %}
+{% assign t = site.data.strings[current_locale] | default: site.data.strings.en %}
+{% assign locale_prefix = "" %}
+{% if locale.folder and locale.folder != "" %}
+	{% assign locale_prefix = "/" | append: locale.folder %}
+{% endif %}
+
 <section class="hero">
 	<div class="site-container hero__grid">
 		<div class="hero__content">
 			<div class="hero__eyebrow">
 				<img src="{{ site.app_icon | relative_url }}" alt="">
-				<span>For iPhone, iPad, Mac, and Apple Watch</span>
+				<span>{{ t.hero_eyebrow }}</span>
 			</div>
 			<h1>{{ site.app_name }}</h1>
 			<p class="hero__lead">
-				Count down to what is next, or count up from what changed. Build customizable timers for birthdays, holidays, habits, trips, game days, and everything else worth tracking.
+				{{ t.hero_lead }}
 			</p>
 			<div class="hero__actions">
 				<a class="app-store-badge" href="{{ site.appstore_link }}" aria-label="Download {{ site.app_name }} on the App Store">
-					<img src="{{ '/assets/appstore.png' | relative_url }}" alt="Download on the App Store">
+					<img src="{{ '/assets/appstore.png' | relative_url }}" alt="{{ t.download_badge }}">
 				</a>
 			</div>
 			<dl class="hero__facts" aria-label="{{ site.app_name }} highlights">
 				<div>
-					<dt>{{ site.app_price }}</dt>
-					<dd>download</dd>
+					<dt>{{ t.free }}</dt>
+					<dd>{{ t.download_label }}</dd>
 				</div>
 				<div>
 					<dt>20+</dt>
-					<dd>languages</dd>
+					<dd>{{ t.languages_label }}</dd>
 				</div>
 				<div>
-					<dt>Widgets</dt>
-					<dd>Home + Lock Screen</dd>
+					<dt>{{ t.widgets }}</dt>
+					<dd>{{ t.home_lock_screen }}</dd>
 				</div>
 			</dl>
 		</div>
@@ -43,27 +51,24 @@ layout: default
 
 <section class="intro-band" aria-label="Popular countdown examples">
 	<div class="site-container intro-band__inner">
-		<p>Weddings</p>
-		<p>Birthdays</p>
-		<p>Vacations</p>
-		<p>Retirement</p>
-		<p>Game Day</p>
-		<p>New Habits</p>
+		{% for example in t.examples %}
+			<p>{{ example }}</p>
+		{% endfor %}
 	</div>
 </section>
 
 <section id="widgets" class="section section--split">
 	<div class="site-container split-grid">
 		<div class="section-copy">
-			<p class="section-kicker">Widgets everywhere</p>
-			<h2>Keep the moments that matter where you can see them.</h2>
+			<p class="section-kicker">{{ t.widgets_kicker }}</p>
+			<h2>{{ t.widgets_heading }}</h2>
 			<p>
-				Put countdowns on your Home Screen and Lock Screen, then choose the style that fits the occasion. Big events, custom recurring schedules, and favorite lists all stay glanceable.
+				{{ t.widgets_body }}
 			</p>
 			<ul class="check-list">
-				<li>Home Screen widgets for favorite countdowns and lists.</li>
-				<li>Lock Screen widgets for quick progress checks.</li>
-				<li>Apple Watch support with complications.</li>
+				{% for bullet in t.widget_bullets %}
+					<li>{{ bullet }}</li>
+				{% endfor %}
 			</ul>
 		</div>
 		<div class="screenshot-pair">
@@ -76,21 +81,20 @@ layout: default
 <section id="features" class="section">
 	<div class="site-container">
 		<div class="section-heading">
-			<p class="section-kicker">Built for real life</p>
-			<h2>Flexible enough for every kind of timer.</h2>
+			<p class="section-kicker">{{ t.features_kicker }}</p>
+			<h2>{{ t.features_heading }}</h2>
 			<p>
-				Track celebrations, deadlines, routines, and milestones with the controls that make each countdown feel personal.
+				{{ t.features_body }}
 			</p>
 		</div>
 		<div class="feature-grid">
-			{% for feature in site.features %}
-				{% if feature.title %}
+			{% for feature_title in t.feature_titles %}
+				{% assign feature_description = t.feature_descriptions[forloop.index0] %}
 					<article class="feature-card">
 						<span class="feature-card__index">{{ forloop.index }}</span>
-						<h3>{{ feature.title }}</h3>
-						<p>{{ feature.description }}</p>
+						<h3>{{ feature_title }}</h3>
+						<p>{{ feature_description }}</p>
 					</article>
-				{% endif %}
 			{% endfor %}
 		</div>
 	</div>
@@ -104,24 +108,18 @@ layout: default
 			<img src="{{ '/assets/screenshots/compact-display.png' | relative_url }}" alt="{{ site.app_name }} compact countdown list" loading="lazy">
 		</div>
 		<div class="section-copy">
-			<p class="section-kicker">Personal by default</p>
-			<h2>Choose the units, colors, icons, lists, and notifications that fit the event.</h2>
+			<p class="section-kicker">{{ t.personal_kicker }}</p>
+			<h2>{{ t.personal_heading }}</h2>
 			<p>
-				Count in years, months, weeks, days, hours, minutes, or seconds. Import dates from Calendar, Contacts, and Reminders, organize countdowns into lists, and keep everything synced across devices.
+				{{ t.personal_body }}
 			</p>
 			<div class="mini-feature-list">
-				<div>
-					<strong>Recurring events</strong>
-					<span>Create simple repeats or advanced recurring schedules for the dates that keep coming back.</span>
-				</div>
-				<div>
-					<strong>Custom notifications</strong>
-					<span>Choose when to be reminded before a countdown arrives.</span>
-				</div>
-				<div>
-					<strong>Archive</strong>
-					<span>Keep past countdowns without cluttering the main list.</span>
-				</div>
+				{% for mini_title in t.mini_titles %}
+					<div>
+						<strong>{{ mini_title }}</strong>
+						<span>{{ t.mini_bodies[forloop.index0] }}</span>
+					</div>
+				{% endfor %}
 			</div>
 		</div>
 	</div>
@@ -130,10 +128,10 @@ layout: default
 <section class="section section--pricing">
 	<div class="site-container pricing-grid">
 		<div>
-			<p class="section-kicker">Free to start</p>
-			<h2>Download Countdowns for free.</h2>
+			<p class="section-kicker">{{ t.pricing_kicker }}</p>
+			<h2>{{ t.pricing_heading }}</h2>
 			<p>
-				Optional monthly, annual, and one-time purchases unlock additional features like iCloud sync, compact mode, lists, directional indicators, custom sounds, and archive.
+				{{ t.pricing_body }}
 			</p>
 		</div>
 		<img src="{{ '/assets/screenshots/normal-display.png' | relative_url }}" alt="{{ site.app_name }} countdown list with detailed units" loading="lazy">
@@ -143,24 +141,32 @@ layout: default
 <section id="countdown-ideas" class="section section--ideas">
 	<div class="site-container">
 		<div class="section-heading">
-			<p class="section-kicker">Countdown ideas</p>
-			<h2>Plan every kind of countdown from one app.</h2>
+			<p class="section-kicker">{{ t.ideas_kicker }}</p>
+			<h2>{{ t.ideas_heading }}</h2>
 			<p>
-				Build timers for the moments people ask about most, then customize each one with the units, colors, widgets, lists, and notifications that fit the event.
+				{{ t.ideas_body }}
 			</p>
 		</div>
 		<div class="guide-link-grid">
 			{% assign idea_pages = site.guide_pages | sort: "nav_order" %}
 			{% for idea in idea_pages limit: 8 %}
-				<a class="guide-link-card" href="{{ idea.url | relative_url }}">
-					<span>{{ idea.kicker | default: "Countdown guide" }}</span>
-					<strong>{{ idea.short_title | default: idea.title }}</strong>
-					<p>{{ idea.card_description | default: idea.description }}</p>
+				{% assign guide_topics = site.data.guide_topics[current_locale] | default: site.data.guide_topics.en %}
+				{% assign guide_topic = guide_topics[idea.slug] | default: idea.short_title | default: idea.title %}
+				{% assign guide_topic_lower = guide_topic | downcase %}
+				{% if locale_prefix == "" %}
+					{% assign guide_url = idea.url %}
+				{% else %}
+					{% assign guide_url = locale_prefix | append: idea.url %}
+				{% endif %}
+				<a class="guide-link-card" href="{{ guide_url | relative_url }}">
+					<span>{{ t.guide_default_kicker }}</span>
+					<strong>{{ guide_topic }}</strong>
+					<p>{{ t.guide_description | replace: "TOPIC", guide_topic | replace: "TOPIC_LOWER", guide_topic_lower }}</p>
 				</a>
 			{% endfor %}
 		</div>
 		<div class="section-action">
-			<a class="button button--secondary" href="{{ '/countdown-ideas/' | relative_url }}" target="_self">Browse All Ideas</a>
+			<a class="button button--secondary" href="{{ locale_prefix | append: '/countdown-ideas/' | relative_url }}" target="_self">{{ t.browse_all_ideas }}</a>
 		</div>
 	</div>
 </section>
@@ -168,12 +174,12 @@ layout: default
 <section id="download" class="final-cta">
 	<div class="site-container final-cta__inner">
 		<div>
-			<p class="section-kicker">Start counting</p>
-			<h2>Make the next big day feel closer.</h2>
-			<p>{{ site.app_description }}</p>
+			<p class="section-kicker">{{ t.start_counting }}</p>
+			<h2>{{ t.home_cta_heading }}</h2>
+			<p>{{ t.app_description }}</p>
 		</div>
 		<a class="app-store-badge" href="{{ site.appstore_link }}" aria-label="Download {{ site.app_name }} on the App Store">
-			<img src="{{ '/assets/appstore.png' | relative_url }}" alt="Download on the App Store">
+			<img src="{{ '/assets/appstore.png' | relative_url }}" alt="{{ t.download_badge }}">
 		</a>
 	</div>
 </section>

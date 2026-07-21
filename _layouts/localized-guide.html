@@ -1,0 +1,156 @@
+---
+layout: default
+---
+
+{% assign current_locale = page.locale | default: "en" %}
+{% assign locale = site.data.locales | where: "code", current_locale | first %}
+{% assign t = site.data.strings[current_locale] | default: site.data.strings.en %}
+{% assign guide_topics = site.data.guide_topics[current_locale] | default: site.data.guide_topics.en %}
+{% assign guide_page = site.guide_pages | where: "slug", page.guide_slug | first %}
+{% assign guide_topic = guide_topics[page.guide_slug] | default: guide_page.short_title | default: guide_page.title %}
+{% assign guide_topic_lower = guide_topic | downcase %}
+{% assign page_screenshot = guide_page.screenshot | default: '/assets/screenshots/home-screen-widgets.png' %}
+{% assign locale_prefix = "" %}
+{% if locale.folder and locale.folder != "" %}
+	{% assign locale_prefix = "/" | append: locale.folder %}
+{% endif %}
+
+<nav class="breadcrumbs site-container" aria-label="Breadcrumb">
+	<a href="{{ locale_prefix | append: '/' | relative_url }}" target="_self">{{ t.home }}</a>
+	<span aria-hidden="true">/</span>
+	<a href="{{ locale_prefix | append: '/countdown-ideas/' | relative_url }}" target="_self">{{ t.breadcrumb_ideas }}</a>
+	<span aria-hidden="true">/</span>
+	<span>{{ guide_topic }}</span>
+</nav>
+
+<section class="guide-hero">
+	<div class="site-container guide-hero__grid">
+		<div class="guide-hero__copy">
+			<p class="section-kicker">{{ t.guide_default_kicker }}</p>
+			<h1>{{ t.guide_h1 | replace: "TOPIC", guide_topic | replace: "TOPIC_LOWER", guide_topic_lower }}</h1>
+			<p>{{ t.guide_hero | replace: "TOPIC", guide_topic | replace: "TOPIC_LOWER", guide_topic_lower }}</p>
+			<div class="hero__actions">
+				<a class="app-store-badge" href="{{ site.appstore_link }}" aria-label="{{ t.download_badge }}">
+					<img src="{{ '/assets/appstore.png' | relative_url }}" alt="{{ t.download_badge }}">
+				</a>
+			</div>
+		</div>
+		<div class="guide-hero__media">
+			<img src="{{ page_screenshot | relative_url }}" alt="{{ guide_topic }}">
+		</div>
+	</div>
+</section>
+
+<section class="section section--guide-benefits">
+	<div class="site-container">
+		<div class="section-heading">
+			<p class="section-kicker">{{ t.why_it_helps }}</p>
+			<h2>{{ t.guide_benefits_heading | replace: "TOPIC", guide_topic | replace: "TOPIC_LOWER", guide_topic_lower }}</h2>
+		</div>
+		<div class="guide-feature-grid">
+			{% for benefit_title in t.benefit_titles %}
+				<article class="guide-feature-card">
+					<span>{{ forloop.index }}</span>
+					<h3>{{ benefit_title }}</h3>
+					<p>{{ t.benefit_descriptions[forloop.index0] }}</p>
+				</article>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
+<section class="section guide-detail">
+	<div class="site-container guide-detail__grid">
+		<article class="guide-prose">
+			<h2>{{ t.guide_body_h2_1 }}</h2>
+			<p>{{ t.guide_body_p1 | replace: "TOPIC", guide_topic | replace: "TOPIC_LOWER", guide_topic_lower }}</p>
+			<p>{{ t.guide_body_p2 | replace: "TOPIC", guide_topic | replace: "TOPIC_LOWER", guide_topic_lower }}</p>
+			<h2>{{ t.guide_body_h2_2 }}</h2>
+			<p>{{ t.guide_body_p3 | replace: "TOPIC", guide_topic | replace: "TOPIC_LOWER", guide_topic_lower }}</p>
+		</article>
+		<aside class="guide-aside" aria-label="{{ site.app_name }}">
+			<div class="guide-aside__panel">
+				<img src="{{ site.app_icon | relative_url }}" alt="">
+				<h2>{{ site.app_name }}</h2>
+				<p>{{ t.app_description }}</p>
+				<ul>
+					{% for bullet in t.aside_bullets %}
+						<li>{{ bullet }}</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</aside>
+	</div>
+</section>
+
+<section class="section section--split">
+	<div class="site-container guide-steps-grid">
+		<div class="section-copy">
+			<p class="section-kicker">{{ t.how_to_use }}</p>
+			<h2>{{ t.guide_steps_heading | replace: "TOPIC", guide_topic | replace: "TOPIC_LOWER", guide_topic_lower }}</h2>
+			<p>{{ t.steps_intro }}</p>
+		</div>
+		<ol class="guide-step-list">
+			{% for step_title in t.step_titles %}
+				<li>
+					<strong>{{ step_title }}</strong>
+					<span>{{ t.step_descriptions[forloop.index0] }}</span>
+				</li>
+			{% endfor %}
+		</ol>
+	</div>
+</section>
+
+<section class="section section--faq">
+	<div class="site-container guide-faq">
+		<div class="section-heading">
+			<p class="section-kicker">{{ t.faq }}</p>
+			<h2>{{ t.guide_faq_heading | replace: "TOPIC", guide_topic | replace: "TOPIC_LOWER", guide_topic_lower }}</h2>
+		</div>
+		<div class="guide-faq__list">
+			{% for question in t.faq_questions %}
+				<details>
+					<summary>{{ question }}</summary>
+					<p>{{ t.faq_answers[forloop.index0] }}</p>
+				</details>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
+{% if guide_page.related_pages %}
+	<section class="section section--related">
+		<div class="site-container">
+			<div class="section-heading">
+				<p class="section-kicker">{{ t.more_ideas }}</p>
+				<h2>{{ t.related_heading }}</h2>
+			</div>
+			<div class="guide-link-grid">
+				{% for related in site.guide_pages %}
+					{% if guide_page.related_pages contains related.slug %}
+						{% assign related_topic = guide_topics[related.slug] | default: related.short_title | default: related.title %}
+						{% assign related_topic_lower = related_topic | downcase %}
+						<a class="guide-link-card" href="{{ locale_prefix | append: related.url | relative_url }}">
+							<span>{{ t.guide_default_kicker }}</span>
+							<strong>{{ related_topic }}</strong>
+							<p>{{ t.guide_description | replace: "TOPIC", related_topic | replace: "TOPIC_LOWER", related_topic_lower }}</p>
+						</a>
+					{% endif %}
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+{% endif %}
+
+<section class="final-cta">
+	<div class="site-container final-cta__inner">
+		<div>
+			<p class="section-kicker">{{ t.start_counting }}</p>
+			<h2>{{ t.guide_cta_heading | replace: "TOPIC", guide_topic | replace: "TOPIC_LOWER", guide_topic_lower }}</h2>
+			<p>{{ t.guide_cta_text | replace: "TOPIC", guide_topic | replace: "TOPIC_LOWER", guide_topic_lower }}</p>
+		</div>
+		<a class="app-store-badge" href="{{ site.appstore_link }}" aria-label="{{ t.download_badge }}">
+			<img src="{{ '/assets/appstore.png' | relative_url }}" alt="{{ t.download_badge }}">
+		</a>
+	</div>
+</section>

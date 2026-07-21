@@ -3,16 +3,22 @@ layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	<url>
-		<loc>{{ "/" | absolute_url }}</loc>
-	</url>
-	<url>
-		<loc>{{ "/countdown-ideas/" | absolute_url }}</loc>
-	</url>
 	{% assign sitemap_pages = site.guide_pages | sort: "nav_order" %}
-	{% for sitemap_page in sitemap_pages %}
+	{% for locale in site.data.locales %}
+		{% assign locale_prefix = "" %}
+		{% if locale.folder and locale.folder != "" %}
+			{% assign locale_prefix = "/" | append: locale.folder %}
+		{% endif %}
 		<url>
-			<loc>{{ sitemap_page.url | absolute_url }}</loc>
+			<loc>{{ locale_prefix | append: "/" | absolute_url }}</loc>
 		</url>
+		<url>
+			<loc>{{ locale_prefix | append: "/countdown-ideas/" | absolute_url }}</loc>
+		</url>
+		{% for sitemap_page in sitemap_pages %}
+			<url>
+				<loc>{{ locale_prefix | append: sitemap_page.url | absolute_url }}</loc>
+			</url>
+		{% endfor %}
 	{% endfor %}
 </urlset>

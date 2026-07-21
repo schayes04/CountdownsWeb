@@ -1,8 +1,30 @@
 <head>
-	{% assign default_title = site.page_title | append: " - Countdown timers for Apple devices" %}
+	{% assign current_locale = page.locale | default: "en" %}
+	{% assign locale = site.data.locales | where: "code", current_locale | first %}
+	{% assign t = site.data.strings[current_locale] | default: site.data.strings.en %}
+	{% assign default_title = site.page_title | append: " - " | append: t.title_suffix %}
 	{% assign meta_title = page.meta_title | default: page.title | default: default_title %}
-	{% assign meta_description = page.description | default: site.app_description %}
+	{% assign meta_description = page.description | default: t.app_description | default: site.app_description %}
 	{% assign meta_image = page.image | default: '/assets/promo.png' %}
+	{% assign canonical_key = page.canonical_key | default: page.slug %}
+	{% if canonical_key == nil %}
+		{% if page.url == "/" %}
+			{% assign canonical_key = "home" %}
+		{% elsif page.url == "/countdown-ideas/" %}
+			{% assign canonical_key = "countdown-ideas" %}
+		{% endif %}
+	{% endif %}
+	{% if canonical_key == "countdown-ideas" %}
+		{% assign meta_title = t.ideas_meta_title | default: meta_title %}
+		{% assign meta_description = t.ideas_description | default: meta_description %}
+	{% endif %}
+	{% if page.guide_slug %}
+		{% assign guide_topics = site.data.guide_topics[current_locale] | default: site.data.guide_topics.en %}
+		{% assign guide_topic = guide_topics[page.guide_slug] | default: site.data.guide_topics.en[page.guide_slug] %}
+		{% assign guide_topic_lower = guide_topic | downcase %}
+		{% assign meta_title = t.guide_meta_title | replace: "TOPIC", guide_topic | replace: "TOPIC_LOWER", guide_topic_lower %}
+		{% assign meta_description = t.guide_description | replace: "TOPIC", guide_topic | replace: "TOPIC_LOWER", guide_topic_lower %}
+	{% endif %}
 
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -11,6 +33,37 @@
 	<title>{{ meta_title }}</title>
 	<meta name="description" content="{{ meta_description }}">
 	<link rel="canonical" href="{{ page.url | absolute_url }}">
+	{% if canonical_key %}
+		{% for alt_locale in site.data.locales %}
+			{% assign alt_path = "/" %}
+			{% if canonical_key == "home" %}
+				{% if alt_locale.folder and alt_locale.folder != "" %}
+					{% assign alt_path = "/" | append: alt_locale.folder | append: "/" %}
+				{% endif %}
+			{% elsif canonical_key == "countdown-ideas" %}
+				{% if alt_locale.folder and alt_locale.folder != "" %}
+					{% assign alt_path = "/" | append: alt_locale.folder | append: "/countdown-ideas/" %}
+				{% else %}
+					{% assign alt_path = "/countdown-ideas/" %}
+				{% endif %}
+			{% else %}
+				{% if alt_locale.folder and alt_locale.folder != "" %}
+					{% assign alt_path = "/" | append: alt_locale.folder | append: "/" | append: canonical_key | append: "/" %}
+				{% else %}
+					{% assign alt_path = "/" | append: canonical_key | append: "/" %}
+				{% endif %}
+			{% endif %}
+			<link rel="alternate" hreflang="{{ alt_locale.html_lang }}" href="{{ alt_path | absolute_url }}">
+		{% endfor %}
+		{% if canonical_key == "home" %}
+			{% assign default_path = "/" %}
+		{% elsif canonical_key == "countdown-ideas" %}
+			{% assign default_path = "/countdown-ideas/" %}
+		{% else %}
+			{% assign default_path = "/" | append: canonical_key | append: "/" %}
+		{% endif %}
+		<link rel="alternate" hreflang="x-default" href="{{ default_path | absolute_url }}">
+	{% endif %}
 	{% if page.noindex %}
 		<meta name="robots" content="noindex">
 	{% endif %}

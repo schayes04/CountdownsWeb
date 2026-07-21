@@ -1,0 +1,287 @@
+---
+en:
+  wedding-countdown-app: Wedding countdown
+  birthday-countdown-app: Birthday countdown
+  vacation-countdown-app: Vacation countdown
+  retirement-countdown-app: Retirement countdown
+  holiday-countdown-app: Holiday countdown
+  anniversary-countdown-app: Anniversary countdown
+  christmas-countdown-app: Christmas countdown
+  theme-park-trip-countdown-app: Theme park trip countdown
+  pregnancy-countdown-app: Pregnancy countdown
+  event-countdown-app: Event countdown
+  iphone-countdown-widget: iPhone countdown widget
+  lock-screen-countdown-widget: Lock Screen countdown widget
+es:
+  wedding-countdown-app: Cuenta atrás de boda
+  birthday-countdown-app: Cuenta atrás de cumpleaños
+  vacation-countdown-app: Cuenta atrás de vacaciones
+  retirement-countdown-app: Cuenta atrás de jubilación
+  holiday-countdown-app: Cuenta atrás de festivos
+  anniversary-countdown-app: Cuenta atrás de aniversario
+  christmas-countdown-app: Cuenta atrás de Navidad
+  theme-park-trip-countdown-app: Cuenta atrás de parque temático
+  pregnancy-countdown-app: Cuenta atrás de embarazo
+  event-countdown-app: Cuenta atrás de eventos
+  iphone-countdown-widget: Widget de cuenta atrás para iPhone
+  lock-screen-countdown-widget: Widget de cuenta atrás en pantalla de bloqueo
+fr:
+  wedding-countdown-app: Compte à rebours de mariage
+  birthday-countdown-app: Compte à rebours d’anniversaire
+  vacation-countdown-app: Compte à rebours de vacances
+  retirement-countdown-app: Compte à rebours de retraite
+  holiday-countdown-app: Compte à rebours de fêtes
+  anniversary-countdown-app: Compte à rebours d’anniversaire important
+  christmas-countdown-app: Compte à rebours de Noël
+  theme-park-trip-countdown-app: Compte à rebours de parc à thème
+  pregnancy-countdown-app: Compte à rebours de grossesse
+  event-countdown-app: Compte à rebours d’événement
+  iphone-countdown-widget: Widget de compte à rebours iPhone
+  lock-screen-countdown-widget: Widget de compte à rebours d’écran verrouillé
+ar:
+  wedding-countdown-app: عدّ تنازلي للزفاف
+  birthday-countdown-app: عدّ تنازلي لعيد الميلاد
+  vacation-countdown-app: عدّ تنازلي للعطلة
+  retirement-countdown-app: عدّ تنازلي للتقاعد
+  holiday-countdown-app: عدّ تنازلي للأعياد
+  anniversary-countdown-app: عدّ تنازلي للذكرى
+  christmas-countdown-app: عدّ تنازلي لعيد الميلاد المجيد
+  theme-park-trip-countdown-app: عدّ تنازلي لرحلة مدينة الملاهي
+  pregnancy-countdown-app: عدّ تنازلي للحمل
+  event-countdown-app: عدّ تنازلي للحدث
+  iphone-countdown-widget: أداة عدّ تنازلي للآيفون
+  lock-screen-countdown-widget: أداة عدّ تنازلي لشاشة القفل
+ca:
+  wedding-countdown-app: Compte enrere de casament
+  birthday-countdown-app: Compte enrere d’aniversari
+  vacation-countdown-app: Compte enrere de vacances
+  retirement-countdown-app: Compte enrere de jubilació
+  holiday-countdown-app: Compte enrere de festius
+  anniversary-countdown-app: Compte enrere d’aniversari especial
+  christmas-countdown-app: Compte enrere de Nadal
+  theme-park-trip-countdown-app: Compte enrere de parc temàtic
+  pregnancy-countdown-app: Compte enrere d’embaràs
+  event-countdown-app: Compte enrere d’esdeveniment
+  iphone-countdown-widget: Giny de compte enrere per a iPhone
+  lock-screen-countdown-widget: Giny de compte enrere de pantalla bloquejada
+da:
+  wedding-countdown-app: Bryllupsnedtælling
+  birthday-countdown-app: Fødselsdagsnedtælling
+  vacation-countdown-app: Ferienedtælling
+  retirement-countdown-app: Pensionsnedtælling
+  holiday-countdown-app: Helligdagsnedtælling
+  anniversary-countdown-app: Jubilæumsnedtælling
+  christmas-countdown-app: Julenedtælling
+  theme-park-trip-countdown-app: Forlystelsespark-nedtælling
+  pregnancy-countdown-app: Graviditetsnedtælling
+  event-countdown-app: Begivenhedsnedtælling
+  iphone-countdown-widget: iPhone-nedtællingswidget
+  lock-screen-countdown-widget: Låseskærms-nedtællingswidget
+de:
+  wedding-countdown-app: Hochzeits-Countdown
+  birthday-countdown-app: Geburtstags-Countdown
+  vacation-countdown-app: Urlaubs-Countdown
+  retirement-countdown-app: Ruhestands-Countdown
+  holiday-countdown-app: Feiertags-Countdown
+  anniversary-countdown-app: Jahrestags-Countdown
+  christmas-countdown-app: Weihnachts-Countdown
+  theme-park-trip-countdown-app: Freizeitpark-Reise-Countdown
+  pregnancy-countdown-app: Schwangerschafts-Countdown
+  event-countdown-app: Event-Countdown
+  iphone-countdown-widget: iPhone-Countdown-Widget
+  lock-screen-countdown-widget: Sperrbildschirm-Countdown-Widget
+fi:
+  wedding-countdown-app: Häälaskuri
+  birthday-countdown-app: Syntymäpäivälaskuri
+  vacation-countdown-app: Lomalaskuri
+  retirement-countdown-app: Eläkelaskuri
+  holiday-countdown-app: Juhlapyhälaskuri
+  anniversary-countdown-app: Vuosipäivälaskuri
+  christmas-countdown-app: Joululaskuri
+  theme-park-trip-countdown-app: Huvipuistomatkan laskuri
+  pregnancy-countdown-app: Raskauslaskuri
+  event-countdown-app: Tapahtumalaskuri
+  iphone-countdown-widget: iPhonen laskuriwidget
+  lock-screen-countdown-widget: Lukitusnäytön laskuriwidget
+it:
+  wedding-countdown-app: Conto alla rovescia matrimonio
+  birthday-countdown-app: Conto alla rovescia compleanno
+  vacation-countdown-app: Conto alla rovescia vacanza
+  retirement-countdown-app: Conto alla rovescia pensione
+  holiday-countdown-app: Conto alla rovescia festività
+  anniversary-countdown-app: Conto alla rovescia anniversario
+  christmas-countdown-app: Conto alla rovescia Natale
+  theme-park-trip-countdown-app: Conto alla rovescia parco a tema
+  pregnancy-countdown-app: Conto alla rovescia gravidanza
+  event-countdown-app: Conto alla rovescia evento
+  iphone-countdown-widget: Widget conto alla rovescia iPhone
+  lock-screen-countdown-widget: Widget conto alla rovescia schermata di blocco
+ja:
+  wedding-countdown-app: 結婚式カウントダウン
+  birthday-countdown-app: 誕生日カウントダウン
+  vacation-countdown-app: 旅行カウントダウン
+  retirement-countdown-app: 退職カウントダウン
+  holiday-countdown-app: 祝日カウントダウン
+  anniversary-countdown-app: 記念日カウントダウン
+  christmas-countdown-app: クリスマスカウントダウン
+  theme-park-trip-countdown-app: テーマパーク旅行カウントダウン
+  pregnancy-countdown-app: 妊娠カウントダウン
+  event-countdown-app: イベントカウントダウン
+  iphone-countdown-widget: iPhoneカウントダウンウィジェット
+  lock-screen-countdown-widget: ロック画面カウントダウンウィジェット
+ko:
+  wedding-countdown-app: 결혼식 카운트다운
+  birthday-countdown-app: 생일 카운트다운
+  vacation-countdown-app: 휴가 카운트다운
+  retirement-countdown-app: 은퇴 카운트다운
+  holiday-countdown-app: 휴일 카운트다운
+  anniversary-countdown-app: 기념일 카운트다운
+  christmas-countdown-app: 크리스마스 카운트다운
+  theme-park-trip-countdown-app: 테마파크 여행 카운트다운
+  pregnancy-countdown-app: 임신 카운트다운
+  event-countdown-app: 이벤트 카운트다운
+  iphone-countdown-widget: iPhone 카운트다운 위젯
+  lock-screen-countdown-widget: 잠금 화면 카운트다운 위젯
+nb:
+  wedding-countdown-app: Bryllupsnedtelling
+  birthday-countdown-app: Fødselsdagsnedtelling
+  vacation-countdown-app: Ferienedtelling
+  retirement-countdown-app: Pensjonsnedtelling
+  holiday-countdown-app: Høytidsnedtelling
+  anniversary-countdown-app: Jubileumsnedtelling
+  christmas-countdown-app: Julenedtelling
+  theme-park-trip-countdown-app: Temaparktur-nedtelling
+  pregnancy-countdown-app: Graviditetsnedtelling
+  event-countdown-app: Arrangementsnedtelling
+  iphone-countdown-widget: iPhone-nedtellingswidget
+  lock-screen-countdown-widget: Låst skjerm-nedtellingswidget
+nl:
+  wedding-countdown-app: Bruiloft aftellen
+  birthday-countdown-app: Verjaardag aftellen
+  vacation-countdown-app: Vakantie aftellen
+  retirement-countdown-app: Pensioen aftellen
+  holiday-countdown-app: Feestdag aftellen
+  anniversary-countdown-app: Jubileum aftellen
+  christmas-countdown-app: Kerst aftellen
+  theme-park-trip-countdown-app: Pretparkreis aftellen
+  pregnancy-countdown-app: Zwangerschap aftellen
+  event-countdown-app: Evenement aftellen
+  iphone-countdown-widget: iPhone aftelwidget
+  lock-screen-countdown-widget: Toegangsscherm aftelwidget
+pl:
+  wedding-countdown-app: Odliczanie do ślubu
+  birthday-countdown-app: Odliczanie do urodzin
+  vacation-countdown-app: Odliczanie do wakacji
+  retirement-countdown-app: Odliczanie do emerytury
+  holiday-countdown-app: Odliczanie do święta
+  anniversary-countdown-app: Odliczanie do rocznicy
+  christmas-countdown-app: Odliczanie do Bożego Narodzenia
+  theme-park-trip-countdown-app: Odliczanie do parku rozrywki
+  pregnancy-countdown-app: Odliczanie ciąży
+  event-countdown-app: Odliczanie wydarzenia
+  iphone-countdown-widget: Widżet odliczania iPhone
+  lock-screen-countdown-widget: Widżet odliczania ekranu blokady
+pt:
+  wedding-countdown-app: Contagem para casamento
+  birthday-countdown-app: Contagem para aniversário
+  vacation-countdown-app: Contagem para férias
+  retirement-countdown-app: Contagem para reforma
+  holiday-countdown-app: Contagem para feriado
+  anniversary-countdown-app: Contagem para data especial
+  christmas-countdown-app: Contagem para o Natal
+  theme-park-trip-countdown-app: Contagem para parque temático
+  pregnancy-countdown-app: Contagem para gravidez
+  event-countdown-app: Contagem para evento
+  iphone-countdown-widget: Widget de contagem para iPhone
+  lock-screen-countdown-widget: Widget de contagem do ecrã bloqueado
+pt-BR:
+  wedding-countdown-app: Contagem regressiva de casamento
+  birthday-countdown-app: Contagem regressiva de aniversário
+  vacation-countdown-app: Contagem regressiva de férias
+  retirement-countdown-app: Contagem regressiva de aposentadoria
+  holiday-countdown-app: Contagem regressiva de feriado
+  anniversary-countdown-app: Contagem regressiva de data especial
+  christmas-countdown-app: Contagem regressiva de Natal
+  theme-park-trip-countdown-app: Contagem regressiva de parque temático
+  pregnancy-countdown-app: Contagem regressiva de gravidez
+  event-countdown-app: Contagem regressiva de evento
+  iphone-countdown-widget: Widget de contagem regressiva para iPhone
+  lock-screen-countdown-widget: Widget de contagem regressiva da tela bloqueada
+ru:
+  wedding-countdown-app: Отсчет до свадьбы
+  birthday-countdown-app: Отсчет до дня рождения
+  vacation-countdown-app: Отсчет до отпуска
+  retirement-countdown-app: Отсчет до пенсии
+  holiday-countdown-app: Отсчет до праздника
+  anniversary-countdown-app: Отсчет до годовщины
+  christmas-countdown-app: Отсчет до Рождества
+  theme-park-trip-countdown-app: Отсчет до поездки в парк
+  pregnancy-countdown-app: Отсчет беременности
+  event-countdown-app: Отсчет до события
+  iphone-countdown-widget: Виджет отсчета для iPhone
+  lock-screen-countdown-widget: Виджет отсчета экрана блокировки
+sk:
+  wedding-countdown-app: Odpočítavanie svadby
+  birthday-countdown-app: Odpočítavanie narodenín
+  vacation-countdown-app: Odpočítavanie dovolenky
+  retirement-countdown-app: Odpočítavanie dôchodku
+  holiday-countdown-app: Odpočítavanie sviatku
+  anniversary-countdown-app: Odpočítavanie výročia
+  christmas-countdown-app: Odpočítavanie Vianoc
+  theme-park-trip-countdown-app: Odpočítavanie výletu do parku
+  pregnancy-countdown-app: Odpočítavanie tehotenstva
+  event-countdown-app: Odpočítavanie udalosti
+  iphone-countdown-widget: Widget odpočítavania pre iPhone
+  lock-screen-countdown-widget: Widget odpočítavania na zamknutej obrazovke
+sv:
+  wedding-countdown-app: Bröllopsnedräkning
+  birthday-countdown-app: Födelsedagsnedräkning
+  vacation-countdown-app: Semesternedräkning
+  retirement-countdown-app: Pensionsnedräkning
+  holiday-countdown-app: Helgnedräkning
+  anniversary-countdown-app: Årsdagsnedräkning
+  christmas-countdown-app: Julnedräkning
+  theme-park-trip-countdown-app: Temaparksresa nedräkning
+  pregnancy-countdown-app: Graviditetsnedräkning
+  event-countdown-app: Evenemangsnedräkning
+  iphone-countdown-widget: iPhone-nedräkningswidget
+  lock-screen-countdown-widget: Låsskärmsnedräkningswidget
+tr:
+  wedding-countdown-app: Düğün geri sayımı
+  birthday-countdown-app: Doğum günü geri sayımı
+  vacation-countdown-app: Tatil geri sayımı
+  retirement-countdown-app: Emeklilik geri sayımı
+  holiday-countdown-app: Bayram geri sayımı
+  anniversary-countdown-app: Yıl dönümü geri sayımı
+  christmas-countdown-app: Noel geri sayımı
+  theme-park-trip-countdown-app: Tema parkı gezisi geri sayımı
+  pregnancy-countdown-app: Hamilelik geri sayımı
+  event-countdown-app: Etkinlik geri sayımı
+  iphone-countdown-widget: iPhone geri sayım widget’ı
+  lock-screen-countdown-widget: Kilit ekranı geri sayım widget’ı
+zh-Hans:
+  wedding-countdown-app: 婚礼倒计时
+  birthday-countdown-app: 生日倒计时
+  vacation-countdown-app: 假期倒计时
+  retirement-countdown-app: 退休倒计时
+  holiday-countdown-app: 节日倒计时
+  anniversary-countdown-app: 纪念日倒计时
+  christmas-countdown-app: 圣诞倒计时
+  theme-park-trip-countdown-app: 主题乐园旅行倒计时
+  pregnancy-countdown-app: 孕期倒计时
+  event-countdown-app: 活动倒计时
+  iphone-countdown-widget: iPhone 倒计时小组件
+  lock-screen-countdown-widget: 锁定屏幕倒计时小组件
+zh-Hant:
+  wedding-countdown-app: 婚禮倒數
+  birthday-countdown-app: 生日倒數
+  vacation-countdown-app: 假期倒數
+  retirement-countdown-app: 退休倒數
+  holiday-countdown-app: 節日倒數
+  anniversary-countdown-app: 紀念日倒數
+  christmas-countdown-app: 聖誕倒數
+  theme-park-trip-countdown-app: 主題樂園旅行倒數
+  pregnancy-countdown-app: 孕期倒數
+  event-countdown-app: 活動倒數
+  iphone-countdown-widget: iPhone 倒數小工具
+  lock-screen-countdown-widget: 鎖定畫面倒數小工具

@@ -1,10 +1,13 @@
 <!doctype html>
-<html lang="en-us">
+{% assign current_locale = page.locale | default: "en" %}
+{% assign locale = site.data.locales | where: "code", current_locale | first %}
+<html lang="{{ locale.html_lang | default: 'en-US' }}" dir="{{ locale.dir | default: 'ltr' }}">
 
 {% include head.html %}
 
 <body>
-	<a class="skip-link" href="#main" target="_self">Skip to content</a>
+	{% assign t = site.data.strings[current_locale] | default: site.data.strings.en %}
+	<a class="skip-link" href="#main" target="_self">{{ t.skip }}</a>
 	{% include header.html %}
 
 	<main id="main">

@@ -1,17 +1,25 @@
+{% assign current_locale = page.locale | default: "en" %}
+{% assign locale = site.data.locales | where: "code", current_locale | first %}
+{% assign t = site.data.strings[current_locale] | default: site.data.strings.en %}
+{% assign locale_prefix = "" %}
+{% if locale.folder and locale.folder != "" %}
+	{% assign locale_prefix = "/" | append: locale.folder %}
+{% endif %}
+{% assign home_path = locale_prefix | append: "/" %}
 <footer class="site-footer">
 	<div class="site-footer__inner">
 		<div>
-			<a class="site-brand site-brand--footer" href="{{ '/' | relative_url }}" target="_self" aria-label="{{ site.app_name }} home">
+			<a class="site-brand site-brand--footer" href="{{ home_path | relative_url }}" target="_self" aria-label="{{ site.app_name }} {{ t.home }}">
 				<img class="site-brand__icon" src="{{ site.app_icon | relative_url }}" alt="">
 				<span>{{ site.app_name }}</span>
 			</a>
 			{% if site.your_name %}
-				<p class="footerText">Made by {% if site.your_link %}<a href="{{ site.your_link }}" target="_blank" rel="noopener">{% endif %}{{ site.your_name }}{% if site.your_link %}</a>{% endif %}</p>
+				<p class="footerText">{{ t.made_by }} {% if site.your_link %}<a href="{{ site.your_link }}" target="_blank" rel="noopener">{% endif %}{{ site.your_name }}{% if site.your_link %}</a>{% endif %}</p>
 			{% endif %}
 		</div>
 		<div class="site-footer__links">
-			<nav class="footerLinks" aria-label="Company links">
-				<a href="https://shayesapps.com/support" target="_blank" rel="noopener">Support</a>
+			<nav class="footerLinks" aria-label="{{ t.company_links }}">
+				<a href="https://shayesapps.com/support" target="_blank" rel="noopener">{{ t.support }}</a>
 				{% if site.facebook_username %}
 					<a href="https://facebook.com/{{ site.facebook_username }}" target="_blank" rel="noopener">Facebook</a>
 				{% endif %}
