@@ -161,7 +161,7 @@ layout: default
 				<a class="guide-link-card" href="{{ guide_url | relative_url }}">
 					<span>{{ t.guide_default_kicker }}</span>
 					<strong>{{ guide_topic }}</strong>
-					<p>{{ t.guide_description | replace: "TOPIC", guide_topic | replace: "TOPIC_LOWER", guide_topic_lower }}</p>
+					<p>{{ t.guide_description | replace: "TOPIC_LOWER", guide_topic_lower | replace: "TOPIC", guide_topic }}</p>
 				</a>
 			{% endfor %}
 		</div>

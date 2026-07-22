@@ -22,8 +22,8 @@
 		{% assign guide_topics = site.data.guide_topics[current_locale] | default: site.data.guide_topics.en %}
 		{% assign guide_topic = guide_topics[page.guide_slug] | default: site.data.guide_topics.en[page.guide_slug] %}
 		{% assign guide_topic_lower = guide_topic | downcase %}
-		{% assign meta_title = t.guide_meta_title | replace: "TOPIC", guide_topic | replace: "TOPIC_LOWER", guide_topic_lower %}
-		{% assign meta_description = t.guide_description | replace: "TOPIC", guide_topic | replace: "TOPIC_LOWER", guide_topic_lower %}
+		{% assign meta_title = t.guide_meta_title | replace: "TOPIC_LOWER", guide_topic_lower | replace: "TOPIC", guide_topic %}
+		{% assign meta_description = t.guide_description | replace: "TOPIC_LOWER", guide_topic_lower | replace: "TOPIC", guide_topic %}
 	{% endif %}
 
 	<meta charset="utf-8">
