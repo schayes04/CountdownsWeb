@@ -42,6 +42,11 @@
 	gap: 24px;
 }
 
+.site-header--resource .site-header__inner {
+	min-height: 56px;
+	justify-content: flex-start;
+}
+
 .site-brand {
 	display: inline-flex;
 	align-items: center;
@@ -59,6 +64,16 @@
 	height: 40px;
 	border-radius: 8px;
 	box-shadow: 0 12px 28px rgba(35, 133, 214, 0.25);
+}
+
+.site-header--resource .site-brand__icon {
+	width: 32px;
+	height: 32px;
+	border-radius: 7px;
+}
+
+.site-header--resource .site-brand span {
+	display: inline;
 }
 
 .site-nav {
@@ -1044,7 +1059,7 @@
 
 .resource-nav {
 	position: sticky;
-	top: 104px;
+	top: 88px;
 	padding: 20px;
 	border: 1px solid rgba(20, 24, 31, 0.10);
 	border-radius: 8px;
@@ -1093,7 +1108,7 @@
 .resource-prose h3,
 .resource-prose h4 {
 	color: var(--ink);
-	scroll-margin-top: 104px;
+	scroll-margin-top: 88px;
 }
 
 .resource-prose h2 {

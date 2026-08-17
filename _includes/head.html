@@ -82,7 +82,7 @@
 	<meta name="twitter:description" content="{{ meta_description }}">
 	<meta name="twitter:image" content="{{ meta_image | absolute_url }}">
 
-	{% if site.enable_smart_app_banner %}
+	{% if site.enable_smart_app_banner and page.layout != "resource-page" %}
 		<meta name="apple-itunes-app" content="app-id={{ site.ios_app_id }}">
 	{% endif %}
 

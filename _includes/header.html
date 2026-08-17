@@ -15,12 +15,13 @@
 		{% assign canonical_key = "countdown-ideas" %}
 	{% endif %}
 {% endif %}
-<header class="site-header">
+<header class="site-header{% if page.layout == "resource-page" %} site-header--resource{% endif %}">
 	<div class="site-header__inner">
 		<a class="site-brand" href="{{ home_path | relative_url }}" target="_self" aria-label="{{ site.app_name }} {{ t.home }}">
 			<img class="site-brand__icon" src="{{ site.app_icon | relative_url }}" alt="">
 			<span>{{ site.app_name }}</span>
 		</a>
+		{% unless page.layout == "resource-page" %}
 		<nav class="site-nav" aria-label="{{ t.primary_nav }}">
 			<a class="site-nav__optional" href="{{ home_path | append: '#features' | relative_url }}" target="_self">{{ t.features }}</a>
 			<a class="site-nav__optional" href="{{ home_path | append: '#widgets' | relative_url }}" target="_self">{{ t.widgets }}</a>
@@ -58,5 +59,6 @@
 			{% endunless %}
 			<a class="site-nav__cta" href="{{ site.appstore_link }}">{{ t.download }}</a>
 		</nav>
+		{% endunless %}
 	</div>
 </header>
