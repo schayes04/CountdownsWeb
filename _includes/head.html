@@ -33,7 +33,7 @@
 	<title>{{ meta_title }}</title>
 	<meta name="description" content="{{ meta_description }}">
 	<link rel="canonical" href="{{ page.url | absolute_url }}">
-	{% if canonical_key %}
+	{% if canonical_key and page.localized != false %}
 		{% for alt_locale in site.data.locales %}
 			{% assign alt_path = "/" %}
 			{% if canonical_key == "home" %}

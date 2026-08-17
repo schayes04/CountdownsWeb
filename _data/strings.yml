@@ -8,7 +8,8 @@ en:
   ideas: Ideas
   press_kit: Press Kit
   download: Download
-  support: Support
+  support: Help Center
+  policies: Policies
   company_links: Company links
   made_by: Made by
   language: Language
@@ -187,6 +188,7 @@ es:
   press_kit: Kit de prensa
   download: Descargar
   support: Soporte
+  policies: Políticas
   company_links: Enlaces de la empresa
   made_by: Creado por
   language: Idioma
@@ -359,6 +361,7 @@ fr:
   press_kit: Kit presse
   download: Télécharger
   support: Assistance
+  policies: Politiques
   company_links: Liens de l’entreprise
   made_by: Créé par
   language: Langue
@@ -532,6 +535,7 @@ ar:
   press_kit: ملف الصحافة
   download: تنزيل
   support: الدعم
+  policies: السياسات
   company_links: روابط الشركة
   made_by: من تطوير
   language: اللغة
@@ -699,6 +703,7 @@ ca:
   press_kit: Kit de premsa
   download: Descarregar
   support: Suport
+  policies: Polítiques
   company_links: Enllaços de l'empresa
   made_by: Creat per
   language: Idioma
@@ -869,6 +874,7 @@ da:
   press_kit: Pressekit
   download: Hent
   support: Support
+  policies: Politikker
   company_links: Firmalinks
   made_by: Lavet af
   language: Sprog
@@ -1036,6 +1042,7 @@ de:
   press_kit: Pressemappe
   download: Laden
   support: Support
+  policies: Richtlinien
   company_links: Unternehmenslinks
   made_by: Erstellt von
   language: Sprache
@@ -1207,6 +1214,7 @@ fi:
   press_kit: Lehdistöpaketti
   download: Lataa
   support: Tuki
+  policies: Käytännöt
   company_links: Yrityksen linkit
   made_by: Tekijä
   language: Kieli
@@ -1378,6 +1386,7 @@ it:
   press_kit: Kit stampa
   download: Scarica
   support: Supporto
+  policies: Normative
   company_links: Link aziendali
   made_by: Creato da
   language: Lingua
@@ -1545,6 +1554,7 @@ ja:
   press_kit: プレスキット
   download: ダウンロード
   support: サポート
+  policies: ポリシー
   company_links: 会社リンク
   made_by: 制作
   language: 言語
@@ -1693,6 +1703,7 @@ ko:
   press_kit: 프레스 키트
   download: 다운로드
   support: 지원
+  policies: 정책
   company_links: 회사 링크
   made_by: 제작
   language: 언어
@@ -1847,6 +1858,7 @@ nb:
   press_kit: Pressepakke
   download: Last ned
   support: Kundestøtte
+  policies: Retningslinjer
   company_links: Firmalenker
   made_by: Laget av
   language: Språk
@@ -2010,6 +2022,7 @@ nl:
   press_kit: Perskit
   download: Download
   support: Support
+  policies: Beleid
   company_links: Bedrijfslinks
   made_by: Gemaakt door
   language: Taal
@@ -2179,6 +2192,7 @@ pl:
   press_kit: Materiały prasowe
   download: Pobierz
   support: Pomoc
+  policies: Zasady
   company_links: Linki firmowe
   made_by: Autor
   language: Język
@@ -2347,6 +2361,7 @@ pt:
   press_kit: Kit de imprensa
   download: Descarregar
   support: Suporte
+  policies: Políticas
   company_links: Ligações da empresa
   made_by: Criado por
   language: Idioma
@@ -2515,6 +2530,7 @@ pt-BR:
   press_kit: Kit de imprensa
   download: Baixar
   support: Suporte
+  policies: Políticas
   company_links: Links da empresa
   made_by: Criado por
   language: Idioma
@@ -2684,6 +2700,7 @@ ru:
   press_kit: Пресс-кит
   download: Скачать
   support: Поддержка
+  policies: Политики
   company_links: Ссылки компании
   made_by: Создано
   language: Язык
@@ -2852,6 +2869,7 @@ sk:
   press_kit: Press kit
   download: Stiahnuť
   support: Podpora
+  policies: Zásady
   company_links: Odkazy spoločnosti
   made_by: Vytvoril
   language: Jazyk
@@ -3019,6 +3037,7 @@ sv:
   press_kit: Presskit
   download: Hämta
   support: Support
+  policies: Policyer
   company_links: Företagslänkar
   made_by: Skapad av
   language: Språk
@@ -3185,6 +3204,7 @@ tr:
   press_kit: Basın kiti
   download: İndir
   support: Destek
+  policies: Politikalar
   company_links: Şirket bağlantıları
   made_by: Geliştiren
   language: Dil
@@ -3358,6 +3378,7 @@ zh-Hans:
   press_kit: 媒体资料
   download: 下载
   support: 支持
+  policies: 政策
   company_links: 公司链接
   made_by: 制作
   language: 语言
@@ -3506,6 +3527,7 @@ zh-Hant:
   press_kit: 媒體資料
   download: 下載
   support: 支援
+  policies: 政策
   company_links: 公司連結
   made_by: 製作
   language: 語言

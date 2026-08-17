@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<nav class="breadcrumbs site-container" aria-label="Breadcrumb">
+	<a href="{{ '/' | relative_url }}" target="_self">Home</a>
+	<span aria-hidden="true">/</span>
+	<span>{{ page.short_title | default: page.title }}</span>
+</nav>
+
+<section class="resource-hero">
+	<div class="site-container resource-hero__inner">
+		{% if page.kicker %}
+			<p class="section-kicker">{{ page.kicker }}</p>
+		{% endif %}
+		<h1>{{ page.h1 | default: page.title }}</h1>
+		{% if page.intro %}
+			<p>{{ page.intro }}</p>
+		{% endif %}
+	</div>
+</section>
+
+<section class="resource-body">
+	<div class="site-container resource-body__grid">
+		{% if page.sections %}
+			<nav class="resource-nav" aria-label="{{ page.toc_title | default: 'On this page' }}">
+				<p>{{ page.toc_title | default: "On this page" }}</p>
+				<ul>
+					{% for section in page.sections %}
+						<li><a href="#{{ section.id }}">{{ section.label | default: section.title }}</a></li>
+					{% endfor %}
+				</ul>
+			</nav>
+		{% endif %}
+
+		<article class="resource-prose">
+			{{ content }}
+		</article>
+	</div>
+</section>
