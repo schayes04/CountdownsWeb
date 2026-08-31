@@ -99,6 +99,20 @@ If you have feedback regarding bugs or improvements, open an issue, @ me on Twit
 
 I'd love to see the sites you create using this little tool.
 
+## Localized app names
+
+Each entry in `_data/locales.yml` defines the app's localized `app_name`, sourced from `CFBundleDisplayName` in the native app's `Countdown/Supporting Files/InfoPlist.xcstrings` catalog (verified at commit `e1beaa05d97abcfa1097156ef53ecd1a2eb03351`). These are the app's display names, not translations invented for the website or the longer App Store marketing titles. English, German, and Dutch retain **Countdowns**; the other languages use their native app names.
+
+Shared branding and metadata use this name, falling back to `_config.yml`'s `app_name` for an unknown locale. Keep app references in `_data/strings.yml` and `_data/screenshot_alts.yml` in sync when a name changes; complete translated sentences preserve the grammar around each name.
+
+After building, check branding, copy, accessibility text, and metadata across every home, ideas, and guide page:
+
+```sh
+bundle exec ruby scripts/validate-app-names.rb --site _site
+```
+
+When the native repository is available, also pass `--native-catalog "/path/to/Countdowns/Countdown/Supporting Files/InfoPlist.xcstrings"` to verify the names directly against the app's catalog.
+
 ## Localized App Store badges
 
 Pages use the shared `_includes/app-store-badge.html` include to select official Apple artwork from `_data/app_store_badges.yml`. SVGs are stored locally in `assets/app-store-badges/`, with English as the fallback for an unknown locale. Badge labels use the existing `download_badge` translations.

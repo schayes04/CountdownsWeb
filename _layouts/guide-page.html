@@ -3,6 +3,8 @@ layout: default
 ---
 
 {% assign current_locale = page.locale | default: "en" %}
+{% assign locale = site.data.locales | where: "code", current_locale | first %}
+{% assign app_name = locale.app_name | default: site.app_name %}
 {% assign screenshot_scene = site.data.screenshots.guides[page.slug] %}
 
 <nav class="breadcrumbs site-container" aria-label="Breadcrumb">
@@ -54,10 +56,10 @@ layout: default
 		<article class="guide-prose">
 			{{ content }}
 		</article>
-		<aside class="guide-aside" aria-label="{{ site.app_name }} highlights">
+		<aside class="guide-aside" aria-label="{{ app_name | escape }} highlights">
 			<div class="guide-aside__panel">
 				<img src="{{ site.app_icon | relative_url }}" alt="">
-				<h2>{{ site.app_name }}</h2>
+				<h2>{{ app_name | escape }}</h2>
 				<p>{{ page.aside_text | default: site.app_description }}</p>
 				<ul>
 					<li>Widgets for Home Screen and Lock Screen</li>

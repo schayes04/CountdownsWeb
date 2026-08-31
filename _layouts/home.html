@@ -5,6 +5,7 @@ layout: default
 {% assign current_locale = page.locale | default: "en" %}
 {% assign locale = site.data.locales | where: "code", current_locale | first %}
 {% assign t = site.data.strings[current_locale] | default: site.data.strings.en %}
+{% assign app_name = locale.app_name | default: site.app_name %}
 {% assign locale_prefix = "" %}
 {% if locale.folder and locale.folder != "" %}
 	{% assign locale_prefix = "/" | append: locale.folder %}
@@ -17,14 +18,14 @@ layout: default
 				<img src="{{ site.app_icon | relative_url }}" alt="">
 				<span>{{ t.hero_eyebrow }}</span>
 			</div>
-			<h1>{{ site.app_name }}</h1>
+			<h1>{{ app_name | escape }}</h1>
 			<p class="hero__lead">
 				{{ t.hero_lead }}
 			</p>
 			<div class="hero__actions">
 				{% include app-store-badge.html locale=current_locale %}
 			</div>
-			<dl class="hero__facts" aria-label="{{ site.app_name }} highlights">
+			<dl class="hero__facts" aria-label="{{ app_name | escape }} highlights">
 				<div>
 					<dt>{{ t.free }}</dt>
 					<dd>{{ t.download_label }}</dd>
@@ -40,7 +41,7 @@ layout: default
 			</dl>
 		</div>
 
-		<div class="hero__visual" aria-label="{{ site.app_name }} Home Screen widgets preview">
+		<div class="hero__visual" aria-label="{{ app_name | escape }} Home Screen widgets preview">
 			{% include screenshot.html scene="colors" locale=current_locale class="hero__phone hero__phone--secondary" decorative=true %}
 			{% include screenshot.html scene="home-screen-widgets" locale=current_locale class="hero__phone hero__phone--primary" loading="eager" %}
 		</div>

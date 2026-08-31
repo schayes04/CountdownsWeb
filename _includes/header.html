@@ -1,6 +1,7 @@
 {% assign current_locale = page.locale | default: "en" %}
 {% assign locale = site.data.locales | where: "code", current_locale | first %}
 {% assign t = site.data.strings[current_locale] | default: site.data.strings.en %}
+{% assign app_name = locale.app_name | default: site.app_name %}
 {% assign locale_prefix = "" %}
 {% if locale.folder and locale.folder != "" %}
 	{% assign locale_prefix = "/" | append: locale.folder %}
@@ -17,9 +18,9 @@
 {% endif %}
 <header class="site-header{% if page.layout == "resource-page" %} site-header--resource{% endif %}">
 	<div class="site-header__inner">
-		<a class="site-brand" href="{{ home_path | relative_url }}" target="_self" aria-label="{{ site.app_name }} {{ t.home }}">
+		<a class="site-brand" href="{{ home_path | relative_url }}" target="_self" aria-label="{{ app_name | escape }} {{ t.home | escape }}">
 			<img class="site-brand__icon" src="{{ site.app_icon | relative_url }}" alt="">
-			<span>{{ site.app_name }}</span>
+			<span>{{ app_name | escape }}</span>
 		</a>
 		{% unless page.layout == "resource-page" %}
 		<nav class="site-nav" aria-label="{{ t.primary_nav }}">

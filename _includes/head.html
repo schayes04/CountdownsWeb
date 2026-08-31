@@ -2,7 +2,8 @@
 	{% assign current_locale = page.locale | default: "en" %}
 	{% assign locale = site.data.locales | where: "code", current_locale | first %}
 	{% assign t = site.data.strings[current_locale] | default: site.data.strings.en %}
-	{% assign default_title = site.page_title | append: " - " | append: t.title_suffix %}
+	{% assign app_name = locale.app_name | default: site.app_name %}
+	{% assign default_title = app_name | append: " - " | append: t.title_suffix %}
 	{% assign meta_title = page.meta_title | default: page.title | default: default_title %}
 	{% assign meta_description = page.description | default: t.app_description | default: site.app_description %}
 	{% assign meta_image = page.image | default: '/assets/promo.png' %}
@@ -30,8 +31,8 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>{{ meta_title }}</title>
-	<meta name="description" content="{{ meta_description }}">
+	<title>{{ meta_title | escape }}</title>
+	<meta name="description" content="{{ meta_description | escape }}">
 	<link rel="canonical" href="{{ page.url | absolute_url }}">
 	{% if canonical_key and page.localized != false %}
 		{% for alt_locale in site.data.locales %}
@@ -73,13 +74,13 @@
 	<meta name="theme-color" content="#0a84ff">
 
 	<meta property="og:type" content="{{ page.og_type | default: 'website' }}">
-	<meta property="og:title" content="{{ meta_title }}">
-	<meta property="og:description" content="{{ meta_description }}">
+	<meta property="og:title" content="{{ meta_title | escape }}">
+	<meta property="og:description" content="{{ meta_description | escape }}">
 	<meta property="og:image" content="{{ meta_image | absolute_url }}">
 	<meta property="og:url" content="{{ page.url | absolute_url }}">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="{{ meta_title }}">
-	<meta name="twitter:description" content="{{ meta_description }}">
+	<meta name="twitter:title" content="{{ meta_title | escape }}">
+	<meta name="twitter:description" content="{{ meta_description | escape }}">
 	<meta name="twitter:image" content="{{ meta_image | absolute_url }}">
 
 	{% if site.enable_smart_app_banner and page.layout != "resource-page" %}
@@ -97,7 +98,7 @@
 		{
 			"@context": "https://schema.org",
 			"@type": "SoftwareApplication",
-			"name": {{ site.app_name | jsonify }},
+			"name": {{ app_name | jsonify }},
 			"operatingSystem": "iOS, iPadOS, macOS, watchOS",
 			"applicationCategory": "LifestyleApplication",
 			"description": {{ meta_description | jsonify }},

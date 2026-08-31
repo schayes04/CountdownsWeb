@@ -1,133 +1,156 @@
 ---
+# App names match CFBundleDisplayName in the native iOS InfoPlist.xcstrings catalog.
 - code: en
   folder: ''
   name: English
   native_name: English
+  app_name: Countdowns
   html_lang: en-US
   dir: ltr
 - code: ar
   folder: ar
   name: Arabic
   native_name: العربية
+  app_name: العدادات التنازلية
   html_lang: ar
   dir: rtl
 - code: ca
   folder: ca
   name: Catalan
   native_name: Català
+  app_name: Comptes Enrere
   html_lang: ca
   dir: ltr
 - code: da
   folder: da
   name: Danish
   native_name: Dansk
+  app_name: Nedtællinger
   html_lang: da
   dir: ltr
 - code: de
   folder: de
   name: German
   native_name: Deutsch
+  app_name: Countdowns
   html_lang: de
   dir: ltr
 - code: es
   folder: es
   name: Spanish
   native_name: Español
+  app_name: Cuentas atrás
   html_lang: es
   dir: ltr
 - code: fi
   folder: fi
   name: Finnish
   native_name: Suomi
+  app_name: Laskurit
   html_lang: fi
   dir: ltr
 - code: fr
   folder: fr
   name: French
   native_name: Français
+  app_name: Compte à rebours
   html_lang: fr
   dir: ltr
 - code: it
   folder: it
   name: Italian
   native_name: Italiano
+  app_name: Contatore
   html_lang: it
   dir: ltr
 - code: ja
   folder: ja
   name: Japanese
   native_name: 日本語
+  app_name: カウントダウン
   html_lang: ja
   dir: ltr
 - code: ko
   folder: ko
   name: Korean
   native_name: 한국어
+  app_name: 카운트다운
   html_lang: ko
   dir: ltr
 - code: nb
   folder: nb
   name: Norwegian Bokmål
   native_name: Norsk bokmål
+  app_name: Nedtellinger
   html_lang: nb
   dir: ltr
 - code: nl
   folder: nl
   name: Dutch
   native_name: Nederlands
+  app_name: Countdowns
   html_lang: nl
   dir: ltr
 - code: pl
   folder: pl
   name: Polish
   native_name: Polski
+  app_name: Odliczanie
   html_lang: pl
   dir: ltr
 - code: pt
   folder: pt
   name: Portuguese
   native_name: Português
+  app_name: Contagem
   html_lang: pt
   dir: ltr
 - code: pt-BR
   folder: pt-br
   name: Brazilian Portuguese
   native_name: Português do Brasil
+  app_name: Contagens
   html_lang: pt-BR
   dir: ltr
 - code: ru
   folder: ru
   name: Russian
   native_name: Русский
+  app_name: Таймеры
   html_lang: ru
   dir: ltr
 - code: sk
   folder: sk
   name: Slovak
   native_name: Slovenčina
+  app_name: Odpočty
   html_lang: sk
   dir: ltr
 - code: sv
   folder: sv
   name: Swedish
   native_name: Svenska
+  app_name: Nedräkningar
   html_lang: sv
   dir: ltr
 - code: tr
   folder: tr
   name: Turkish
   native_name: Türkçe
+  app_name: Geri Sayım
   html_lang: tr
   dir: ltr
 - code: zh-Hans
   folder: zh-hans
   name: Simplified Chinese
   native_name: 简体中文
+  app_name: 时光仪
   html_lang: zh-Hans
   dir: ltr
 - code: zh-Hant
   folder: zh-hant
   name: Traditional Chinese
   native_name: 繁體中文
+  app_name: 倒數日
   html_lang: zh-Hant
   dir: ltr

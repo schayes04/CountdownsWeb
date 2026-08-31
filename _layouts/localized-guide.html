@@ -5,6 +5,7 @@ layout: default
 {% assign current_locale = page.locale | default: "en" %}
 {% assign locale = site.data.locales | where: "code", current_locale | first %}
 {% assign t = site.data.strings[current_locale] | default: site.data.strings.en %}
+{% assign app_name = locale.app_name | default: site.app_name %}
 {% assign guide_topics = site.data.guide_topics[current_locale] | default: site.data.guide_topics.en %}
 {% assign guide_page = site.guide_pages | where: "slug", page.guide_slug | first %}
 {% assign guide_topic = guide_topics[page.guide_slug] | default: guide_page.short_title | default: guide_page.title %}
@@ -66,10 +67,10 @@ layout: default
 			<h2>{{ t.guide_body_h2_2 }}</h2>
 			<p>{{ t.guide_body_p3 | replace: "TOPIC_LOWER", guide_topic_lower | replace: "TOPIC", guide_topic }}</p>
 		</article>
-		<aside class="guide-aside" aria-label="{{ site.app_name }}">
+		<aside class="guide-aside" aria-label="{{ app_name | escape }}">
 			<div class="guide-aside__panel">
 				<img src="{{ site.app_icon | relative_url }}" alt="">
-				<h2>{{ site.app_name }}</h2>
+				<h2>{{ app_name | escape }}</h2>
 				<p>{{ t.app_description }}</p>
 				<ul>
 					{% for bullet in t.aside_bullets %}
