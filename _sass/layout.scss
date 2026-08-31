@@ -1358,6 +1358,10 @@
 		gap: 2px;
 	}
 
+	.site-nav__optional {
+		display: none;
+	}
+
 	.hero,
 	.hero__grid {
 		min-height: auto;
@@ -1533,10 +1537,6 @@
 	}
 
 	.site-brand span {
-		display: none;
-	}
-
-	.site-nav__optional {
 		display: none;
 	}
 

@@ -6,7 +6,9 @@ require 'nokogiri'
 require 'optparse'
 require 'pathname'
 require 'yaml'
+
 class AppNameValidator
+  # Native CFBundleDisplayName baseline; update together with locales.yml.
   EXPECTED = {
     'en' => 'Countdowns', 'ar' => 'العدادات التنازلية', 'ca' => 'Comptes Enrere',
     'da' => 'Nedtællinger', 'de' => 'Countdowns', 'es' => 'Cuentas atrás',
@@ -19,19 +21,28 @@ class AppNameValidator
   }.freeze
   BRAND_FIELDS = %w[app_description pricing_heading ideas_index_body guide_body_p1 guide_cta_text].freeze
   ROUTES = ['countdown-ideas'].freeze
+
   def initialize(source:, site:, native_catalog: nil, verbose: false)
     @source, @site = Pathname(source).expand_path, Pathname(site).expand_path
     @native_catalog, @verbose = native_catalog && Pathname(native_catalog).expand_path, verbose
     @errors, @counts = Hash.new { |h, k| h[k] = [] }, Hash.new(0)
   end
-  def check(group, condition, message); @errors[group] << message unless condition; end
+
+  def check(group, condition, message)
+    @errors[group] << message unless condition
+  end
+
   def read_yaml(path)
     YAML.safe_load(@source.join(path).read, permitted_classes: [Symbol]) || {}
   rescue Errno::ENOENT, Psych::Exception => error
     check(:source, false, "#{path}: #{error.message.lines.first.strip}")
     {}
   end
-  def mapping(value); value.is_a?(Hash) ? value : {}; end
+
+  def mapping(value)
+    value.is_a?(Hash) ? value : {}
+  end
+
   def validate_source
     data = read_yaml('_data/locales.yml')
     @locales = data.is_a?(Array) ? data : []
@@ -50,6 +61,7 @@ class AppNameValidator
     end
     validate_native_catalog if @native_catalog
   end
+
   def validate_strings(code, expected)
     return unless expected
     strings = mapping(@strings[code])
@@ -63,23 +75,17 @@ class AppNameValidator
     check(:strings, value.is_a?(String) && value.include?(expected), "#{code}: strings.faq_answers[1] must contain #{expected.inspect}")
     check(:strings, !value.to_s.include?('Countdowns'), "#{code}: strings.faq_answers[1] still contains stale Countdowns") unless expected == 'Countdowns'
   end
+
   def validate_screenshot_alts(code, expected)
     return unless expected
-    values = []
-    collect_strings(@screenshot_alts[code], values)
+    values = mapping(@screenshot_alts[code]).values.select { |value| value.is_a?(String) }
     check(:strings, !values.empty?, "#{code}: screenshot alt catalog is empty")
     values.each_with_index do |value, index|
       check(:strings, value.include?(expected), "#{code}: screenshot alt #{index + 1} must contain #{expected.inspect}")
       check(:strings, !value.include?('Countdowns'), "#{code}: screenshot alt #{index + 1} still contains stale Countdowns") unless expected == 'Countdowns'
     end
   end
-  def collect_strings(value, result)
-    case value
-    when Hash then value.each_value { |item| collect_strings(item, result) }
-    when Array then value.each { |item| collect_strings(item, result) }
-    when String then result << value
-    end
-  end
+
   def validate_native_catalog
     valid = @native_catalog.file? && @native_catalog.extname == '.xcstrings'
     check(:native, valid, "native catalog must be an existing .xcstrings file: #{@native_catalog}")
@@ -92,6 +98,7 @@ class AppNameValidator
   rescue JSON::ParserError, SystemCallError, TypeError, NoMethodError => error
     check(:native, false, "cannot read native catalog: #{error.message}")
   end
+
   def native_values(file)
     json = JSON.parse(file.read)
     localizations = json.dig('strings', 'CFBundleDisplayName', 'localizations') || {}
@@ -100,22 +107,23 @@ class AppNameValidator
       result << [locale, value] if value
     end
   end
-  def route_file(locale, slug)
-    slug.to_s.empty? ? @site.join(locale['folder'].to_s, 'index.html') : @site.join(locale['folder'].to_s, slug.to_s, 'index.html')
-  end
+
   def validate_route(locale, slug)
     code, expected = locale['code'], EXPECTED[locale['code']]
     route = '/' + [locale['folder'], slug].reject { |part| part.to_s.empty? }.join('/')
     route += '/' unless route.end_with?('/')
-    file = route_file(locale, slug)
+    file = slug.to_s.empty? ? @site.join(locale['folder'].to_s, 'index.html') : @site.join(locale['folder'].to_s, slug.to_s, 'index.html')
     @counts[:routes] += 1
     unless file.file?
       check(:routes, false, "Missing built route: #{route}")
       return
     end
     @counts[:html] += 1
-    validate_document(Nokogiri::HTML(file.read), route, code, expected, homepage: slug.to_s.empty?, guide: @guides.include?(slug), schema_required: true)
+    # The English ideas index does not opt into SoftwareApplication structured data.
+    schema_required = code != 'en' || slug != 'countdown-ideas'
+    validate_document(Nokogiri::HTML(file.read), route, code, expected, homepage: slug.to_s.empty?, guide: @guides.include?(slug), schema_required: schema_required)
   end
+
   def validate_document(doc, route, code, expected, homepage:, guide: false, schema_required: false)
     header, footer = doc.css('.site-header .site-brand'), doc.css('.site-footer .site-brand')
     [header, footer].each_with_index do |brands, index|
@@ -161,6 +169,7 @@ class AppNameValidator
   rescue SystemCallError => error
     check(:routes, false, "#{route}: cannot read built HTML: #{error.message}")
   end
+
   def reject_stale_brand(doc, route, expected)
     stale = []
     stale << 'body text' if doc.at_css('body')&.text.to_s.include?('Countdowns')
@@ -169,6 +178,7 @@ class AppNameValidator
     stale += doc.css('script[type="application/ld+json"]').filter_map { |node| node.text.include?('Countdowns') ? 'JSON-LD' : nil }
     check(:stale, stale.empty?, "#{route}: stale Countdowns in #{stale.uniq.join(', ')}; expected #{expected.inspect}")
   end
+
   def validate_liquid_fallbacks
     fallback_name = 'Fallback & "Name" <test>'
     cases = [
@@ -191,11 +201,14 @@ class AppNameValidator
   def locales_with_app_name(value)
     locales = Marshal.load(Marshal.dump(@locales))
     locale = locales.find { |entry| entry['code'] == 'fr' }
-    locale['app_name'] = value if locale
+    if locale
+      value.nil? ? locale.delete('app_name') : locale['app_name'] = value
+    end
     locales
   end
 
   def assert_fallback_brand(label, html, expected)
+    @counts[:renders] += 1
     doc = Nokogiri::HTML.fragment(html)
     brands = doc.css('.site-brand')
     check(:liquid, brands.size == 1, "Liquid #{label}: expected one site brand")
@@ -208,6 +221,7 @@ class AppNameValidator
   end
 
   def assert_fallback_head(label, html, expected)
+    @counts[:renders] += 1
     doc = Nokogiri::HTML(html)
     check(:liquid, doc.at_css('title')&.text.to_s.include?(expected), "Liquid #{label}: title fallback mismatch")
     schemas = doc.css('script[type="application/ld+json"]').each_with_object([]) do |script, result|
@@ -230,6 +244,7 @@ class AppNameValidator
                             'app_description' => app_name, 'appstore_link' => 'https://example.test/app' }, 'page' => page }
     Liquid::Template.parse(@source.join(path).read).render!(payload, registers: { site: site })
   end
+
   def run
     @guides = @source.glob('_guide_pages/*.md').map { |path| path.basename('.md').to_s }.sort
     validate_source
@@ -243,20 +258,27 @@ class AppNameValidator
       validate_document(Nokogiri::HTML(file.read), "/#{name}/", 'en', EXPECTED['en'], homepage: false) if file
     end
     validate_liquid_fallbacks
-    puts "Checked #{@counts[:html]}/#{@counts[:routes]} locale routes and #{@guides.size} guides."
-    @errors.each { |group, errors| next if errors.empty?; warn "#{group}: #{errors.size} failure(s)"; (@verbose ? errors : errors.first(12)).each { |e| warn "  #{e}" } }
+    puts "Checked #{EXPECTED.size} app names, #{@counts[:html]}/#{@counts[:routes]} locale routes, and #{@counts[:renders]} fallback/escaping renders."
+    @errors.each do |group, errors|
+      next if errors.empty?
+
+      warn "#{group}: #{errors.size} failure(s)"
+      (@verbose ? errors : errors.first(12)).each { |error| warn "  #{error}" }
+      warn "  ... #{errors.size - 12} more (use --verbose)" if !@verbose && errors.size > 12
+    end
     total = @errors.values.sum(&:size)
     puts(total.zero? ? 'PASS: all app-name validation checks passed.' : "FAIL: #{total} app-name validation errors.")
     total.zero?
   end
 end
+
 if $PROGRAM_NAME == __FILE__
   options = { source: File.expand_path('..', __dir__) }
   parser = OptionParser.new do |opts|
     opts.banner = 'Usage: bundle exec ruby scripts/validate-app-names.rb [--site BUILD_DIR] [--source SOURCE_DIR] [--native-catalog PATH] [--verbose]'
     opts.on('--site PATH', 'Built Jekyll directory (default: SOURCE/_site)') { |v| options[:site] = v }
     opts.on('--source PATH', 'Source root (default: repository root)') { |v| options[:source] = v }
-    opts.on('--native-catalog PATH', 'Optional .xcstrings or InfoPlist.strings catalog') { |v| options[:native_catalog] = v }
+    opts.on('--native-catalog PATH', 'Optional CFBundleDisplayName .xcstrings file') { |v| options[:native_catalog] = v }
     opts.on('--verbose', 'Print every failure') { options[:verbose] = true }
     opts.on('-h', '--help', 'Show usage') { puts opts; exit }
   end

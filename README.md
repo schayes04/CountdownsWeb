@@ -103,7 +103,7 @@ I'd love to see the sites you create using this little tool.
 
 Each entry in `_data/locales.yml` defines the app's localized `app_name`, sourced from `CFBundleDisplayName` in the native app's `Countdown/Supporting Files/InfoPlist.xcstrings` catalog (verified at commit `e1beaa05d97abcfa1097156ef53ecd1a2eb03351`). These are the app's display names, not translations invented for the website or the longer App Store marketing titles. English, German, and Dutch retain **Countdowns**; the other languages use their native app names.
 
-Shared branding and metadata use this name, falling back to `_config.yml`'s `app_name` for an unknown locale. Keep app references in `_data/strings.yml` and `_data/screenshot_alts.yml` in sync when a name changes; complete translated sentences preserve the grammar around each name.
+Shared branding and metadata use this name, falling back to `_config.yml`'s `app_name` for an unknown locale. Keep app references in `_data/strings.yml`, `_data/screenshot_alts.yml`, and the validator's native-name baseline in sync when a name changes; complete translated sentences preserve the grammar around each name.
 
 After building, check branding, copy, accessibility text, and metadata across every home, ideas, and guide page:
 
