@@ -115,4 +115,4 @@ iCloud 同步在使用当前软件时效果最佳。在每台设备上安装最�
 ## 联系我们
 {: #contact}
 
-我们始终欢迎问题、疑问、建议、评论和想法。请发送电子邮件至 [support@shayesapps.com](mailto:support@shayesapps.com)，我们会尽力在几天内回复。
+我们始终欢迎问题、疑问、建议、评论和想法。请发送电子邮件至 [support@shayesapps.com](mailto:support@shayesapps.com)，我们会尽力在几天内回复。电子邮件支持仅提供英语服务。

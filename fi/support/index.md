@@ -115,4 +115,4 @@ Jos jokin on pielessä, anna meille mahdollisuus korjata asia. Vain Apple voi my
 ## Yhteystiedot
 {: #contact}
 
-Kysymykset, ongelmat, ehdotukset, kommentit ja ideat ovat aina tervetulleita. Lähetä sähköpostia osoitteeseen [support@shayesapps.com](mailto:support@shayesapps.com), niin teemme parhaamme vastataksemme muutaman päivän kuluessa.
+Kysymykset, ongelmat, ehdotukset, kommentit ja ideat ovat aina tervetulleita. Lähetä sähköpostia osoitteeseen [support@shayesapps.com](mailto:support@shayesapps.com), niin teemme parhaamme vastataksemme muutaman päivän kuluessa. Sähköpostitukea on saatavilla vain englanniksi.

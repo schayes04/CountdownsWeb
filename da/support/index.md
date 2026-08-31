@@ -115,4 +115,4 @@ Hvis noget er galt, bedes du give os en chance for at rette op på det. Kun Appl
 ## Kontakt
 {: #contact}
 
-Spørgsmål, problemer, forslag, kommentarer og idéer er altid velkomne. Send en e-mail til [support@shayesapps.com](mailto:support@shayesapps.com), så gør vi vores bedste for at svare inden for et par dage.
+Spørgsmål, problemer, forslag, kommentarer og idéer er altid velkomne. Send en e-mail til [support@shayesapps.com](mailto:support@shayesapps.com), så gør vi vores bedste for at svare inden for et par dage. Support via e-mail er kun tilgængelig på engelsk.

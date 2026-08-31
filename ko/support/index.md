@@ -115,4 +115,4 @@ iPhone과 Apple Watch를 모두 재시동하세요. 이렇게 하면 일반적�
 ## 문의
 {: #contact}
 
-질문, 문제, 제안, 의견, 아이디어는 언제나 환영합니다. [support@shayesapps.com](mailto:support@shayesapps.com)으로 이메일을 보내 주시면 며칠 안에 답변드릴 수 있도록 최선을 다하겠습니다.
+질문, 문제, 제안, 의견, 아이디어는 언제나 환영합니다. [support@shayesapps.com](mailto:support@shayesapps.com)으로 이메일을 보내 주시면 며칠 안에 답변드릴 수 있도록 최선을 다하겠습니다. 이메일 지원은 영어로만 제공됩니다.

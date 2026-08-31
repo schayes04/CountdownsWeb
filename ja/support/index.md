@@ -115,4 +115,4 @@ iPhoneとApple Watchの両方を再起動します。これにより通常、一
 ## お問い合わせ
 {: #contact}
 
-質問、問題、提案、コメント、アイデアはいつでも歓迎します。[support@shayesapps.com](mailto:support@shayesapps.com)までメールでご連絡ください。数日以内に回答できるよう最善を尽くします。
+質問、問題、提案、コメント、アイデアはいつでも歓迎します。[support@shayesapps.com](mailto:support@shayesapps.com)までメールでご連絡ください。数日以内に回答できるよう最善を尽くします。メールでのサポートは英語のみで対応しています。

@@ -115,4 +115,4 @@ Hvis noe er galt, ber vi om at du gir oss en sjanse til å rette opp i det. Bare
 ## Kontakt
 {: #contact}
 
-Spørsmål, problemer, forslag, kommentarer og ideer er alltid velkomne. Send e-post til [support@shayesapps.com](mailto:support@shayesapps.com), så skal vi gjøre vårt beste for å svare innen noen få dager.
+Spørsmål, problemer, forslag, kommentarer og ideer er alltid velkomne. Send e-post til [support@shayesapps.com](mailto:support@shayesapps.com), så skal vi gjøre vårt beste for å svare innen noen få dager. Brukerstøtte via e-post er kun tilgjengelig på engelsk.

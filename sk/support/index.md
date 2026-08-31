@@ -115,4 +115,4 @@ Ak niečo nie je v poriadku, dajte nám šancu to napraviť. Refundácie za nák
 ## Kontakt
 {: #contact}
 
-Otázky, problémy, návrhy, komentáre a nápady sú vždy vítané. Napíšte na adresu [support@shayesapps.com](mailto:support@shayesapps.com) a urobíme všetko pre to, aby sme odpovedali do niekoľkých dní.
+Otázky, problémy, návrhy, komentáre a nápady sú vždy vítané. Napíšte na adresu [support@shayesapps.com](mailto:support@shayesapps.com) a urobíme všetko pre to, aby sme odpovedali do niekoľkých dní. Podpora e-mailom je dostupná iba v angličtine.

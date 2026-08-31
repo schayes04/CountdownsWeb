@@ -115,4 +115,4 @@ Bir şeyler ters gittiyse, lütfen düzeltmemiz için bize fırsat verin. App St
 ## İletişim
 {: #contact}
 
-Sorular, sorunlar, öneriler, yorumlar ve fikirler her zaman memnuniyetle karşılanır. [support@shayesapps.com](mailto:support@shayesapps.com) adresine e-posta gönderin; birkaç gün içinde yanıt vermek için elimizden geleni yapacağız.
+Sorular, sorunlar, öneriler, yorumlar ve fikirler her zaman memnuniyetle karşılanır. [support@shayesapps.com](mailto:support@shayesapps.com) adresine e-posta gönderin; birkaç gün içinde yanıt vermek için elimizden geleni yapacağız. E-posta desteği yalnızca İngilizce olarak sunulmaktadır.

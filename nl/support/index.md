@@ -115,4 +115,4 @@ Als er iets mis is, geef ons dan de kans om het recht te zetten. Alleen Apple ka
 ## Contact
 {: #contact}
 
-Vragen, problemen, suggesties, opmerkingen en ideeën zijn altijd welkom. E-mail [support@shayesapps.com](mailto:support@shayesapps.com), dan doen we ons best om binnen een paar dagen te antwoorden.
+Vragen, problemen, suggesties, opmerkingen en ideeën zijn altijd welkom. E-mail [support@shayesapps.com](mailto:support@shayesapps.com), dan doen we ons best om binnen een paar dagen te antwoorden. Ondersteuning per e-mail is alleen beschikbaar in het Engels.

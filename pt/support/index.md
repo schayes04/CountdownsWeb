@@ -115,4 +115,4 @@ Se algo estiver errado, dê-nos a oportunidade de o corrigir. Só a Apple pode e
 ## Contacto
 {: #contact}
 
-Perguntas, problemas, sugestões, comentários e ideias são sempre bem-vindos. Envie um email para [support@shayesapps.com](mailto:support@shayesapps.com) e faremos o nosso melhor para responder dentro de alguns dias.
+Perguntas, problemas, sugestões, comentários e ideias são sempre bem-vindos. Envie um email para [support@shayesapps.com](mailto:support@shayesapps.com) e faremos o nosso melhor para responder dentro de alguns dias. O apoio por email está disponível apenas em inglês.

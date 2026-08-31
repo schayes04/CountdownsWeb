@@ -115,4 +115,4 @@ Si quelque chose ne va pas, donnez-nous la possibilité de corriger la situation
 ## Contact
 {: #contact}
 
-Vos questions, problèmes, suggestions, commentaires et idées sont toujours les bienvenus. Envoyez un e-mail à [support@shayesapps.com](mailto:support@shayesapps.com), et nous ferons de notre mieux pour vous répondre sous quelques jours.
+Vos questions, problèmes, suggestions, commentaires et idées sont toujours les bienvenus. Envoyez un e-mail à [support@shayesapps.com](mailto:support@shayesapps.com), et nous ferons de notre mieux pour vous répondre sous quelques jours. L’assistance par e-mail est disponible uniquement en anglais.

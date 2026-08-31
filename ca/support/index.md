@@ -115,4 +115,4 @@ Si alguna cosa no funciona bé, dona'ns l'oportunitat de solucionar-ho. Només A
 ## Contacte
 {: #contact}
 
-Les preguntes, els problemes, els suggeriments, els comentaris i les idees són sempre benvinguts. Envia un correu electrònic a [support@shayesapps.com](mailto:support@shayesapps.com) i farem tot el possible per respondre en pocs dies.
+Les preguntes, els problemes, els suggeriments, els comentaris i les idees són sempre benvinguts. Envia un correu electrònic a [support@shayesapps.com](mailto:support@shayesapps.com) i farem tot el possible per respondre en pocs dies. L’assistència per correu electrònic només està disponible en anglès.
