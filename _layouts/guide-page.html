@@ -2,8 +2,8 @@
 layout: default
 ---
 
-{% assign page_screenshot = page.screenshot | default: '/assets/screenshots/home-screen-widgets.png' %}
-{% assign page_screenshot_alt = page.screenshot_alt | default: site.app_name %}
+{% assign current_locale = page.locale | default: "en" %}
+{% assign screenshot_scene = site.data.screenshots.guides[page.slug] %}
 
 <nav class="breadcrumbs site-container" aria-label="Breadcrumb">
 	<a href="{{ '/' | relative_url }}" target="_self">Home</a>
@@ -20,13 +20,11 @@ layout: default
 			<h1>{{ page.h1 | default: page.title }}</h1>
 			<p>{{ page.hero_copy | default: page.description }}</p>
 			<div class="hero__actions">
-				<a class="app-store-badge" href="{{ site.appstore_link }}" aria-label="Download {{ site.app_name }} on the App Store">
-					<img src="{{ '/assets/appstore.png' | relative_url }}" alt="Download on the App Store">
-				</a>
+				{% include app-store-badge.html locale=current_locale %}
 			</div>
 		</div>
 		<div class="guide-hero__media">
-			<img src="{{ page_screenshot | relative_url }}" alt="{{ page_screenshot_alt }}">
+			{% include screenshot.html scene=screenshot_scene locale=current_locale loading="eager" %}
 		</div>
 	</div>
 </section>
@@ -139,8 +137,6 @@ layout: default
 			<h2>{{ page.cta_heading | default: "Make the date feel closer." }}</h2>
 			<p>{{ page.cta_text | default: site.app_description }}</p>
 		</div>
-		<a class="app-store-badge" href="{{ site.appstore_link }}" aria-label="Download {{ site.app_name }} on the App Store">
-			<img src="{{ '/assets/appstore.png' | relative_url }}" alt="Download on the App Store">
-		</a>
+		{% include app-store-badge.html locale=current_locale %}
 	</div>
 </section>

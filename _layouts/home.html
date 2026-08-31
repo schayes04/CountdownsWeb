@@ -22,9 +22,7 @@ layout: default
 				{{ t.hero_lead }}
 			</p>
 			<div class="hero__actions">
-				<a class="app-store-badge" href="{{ site.appstore_link }}" aria-label="Download {{ site.app_name }} on the App Store">
-					<img src="{{ '/assets/appstore.png' | relative_url }}" alt="{{ t.download_badge }}">
-				</a>
+				{% include app-store-badge.html locale=current_locale %}
 			</div>
 			<dl class="hero__facts" aria-label="{{ site.app_name }} highlights">
 				<div>
@@ -43,8 +41,8 @@ layout: default
 		</div>
 
 		<div class="hero__visual" aria-label="{{ site.app_name }} Home Screen widgets preview">
-			<img class="hero__phone hero__phone--secondary" src="{{ '/assets/screenshots/colors.png' | relative_url }}" alt="" aria-hidden="true">
-			<img class="hero__phone hero__phone--primary" src="{{ '/assets/screenshots/home-screen-widgets.png' | relative_url }}" alt="{{ site.app_name }} Home Screen widgets on iPhone">
+			{% include screenshot.html scene="colors" locale=current_locale class="hero__phone hero__phone--secondary" decorative=true %}
+			{% include screenshot.html scene="home-screen-widgets" locale=current_locale class="hero__phone hero__phone--primary" loading="eager" %}
 		</div>
 	</div>
 </section>
@@ -72,8 +70,8 @@ layout: default
 			</ul>
 		</div>
 		<div class="screenshot-pair">
-			<img src="{{ '/assets/screenshots/lock-screen-widgets.png' | relative_url }}" alt="{{ site.app_name }} Lock Screen widgets on iPhone" loading="lazy">
-			<img src="{{ '/assets/screenshots/home-screen-widgets.png' | relative_url }}" alt="{{ site.app_name }} Home Screen widgets on iPhone" loading="lazy">
+			{% include screenshot.html scene="lock-screen-widgets" locale=current_locale %}
+			{% include screenshot.html scene="home-screen-widgets" locale=current_locale %}
 		</div>
 	</div>
 </section>
@@ -103,9 +101,9 @@ layout: default
 <section class="section section--showcase">
 	<div class="site-container showcase-grid">
 		<div class="showcase-media">
-			<img src="{{ '/assets/screenshots/editing.png' | relative_url }}" alt="Editing a countdown in {{ site.app_name }}" loading="lazy">
-			<img src="{{ '/assets/screenshots/settings.png' | relative_url }}" alt="{{ site.app_name }} settings screen" loading="lazy">
-			<img src="{{ '/assets/screenshots/compact-display.png' | relative_url }}" alt="{{ site.app_name }} compact countdown list" loading="lazy">
+			{% include screenshot.html scene="editing" locale=current_locale %}
+			{% include screenshot.html scene="settings" locale=current_locale %}
+			{% include screenshot.html scene="compact-display" locale=current_locale %}
 		</div>
 		<div class="section-copy">
 			<p class="section-kicker">{{ t.personal_kicker }}</p>
@@ -134,7 +132,7 @@ layout: default
 				{{ t.pricing_body }}
 			</p>
 		</div>
-		<img src="{{ '/assets/screenshots/normal-display.png' | relative_url }}" alt="{{ site.app_name }} countdown list with detailed units" loading="lazy">
+		{% include screenshot.html scene="normal-display" locale=current_locale %}
 	</div>
 </section>
 
@@ -178,8 +176,6 @@ layout: default
 			<h2>{{ t.home_cta_heading }}</h2>
 			<p>{{ t.app_description }}</p>
 		</div>
-		<a class="app-store-badge" href="{{ site.appstore_link }}" aria-label="Download {{ site.app_name }} on the App Store">
-			<img src="{{ '/assets/appstore.png' | relative_url }}" alt="{{ t.download_badge }}">
-		</a>
+		{% include app-store-badge.html locale=current_locale %}
 	</div>
 </section>

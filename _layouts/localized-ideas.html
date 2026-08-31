@@ -18,13 +18,11 @@ layout: default
 			<h1>{{ t.ideas_index_heading }}</h1>
 			<p>{{ t.ideas_index_body }}</p>
 			<div class="hero__actions">
-				<a class="app-store-badge" href="{{ site.appstore_link }}" aria-label="{{ t.download_badge }}">
-					<img src="{{ '/assets/appstore.png' | relative_url }}" alt="{{ t.download_badge }}">
-				</a>
+				{% include app-store-badge.html locale=current_locale %}
 			</div>
 		</div>
 		<div class="guide-hero__media">
-			<img src="{{ '/assets/screenshots/colors.png' | relative_url }}" alt="{{ t.ideas_title }}">
+			{% include screenshot.html scene="colors" locale=current_locale loading="eager" %}
 		</div>
 	</div>
 </section>
@@ -63,8 +61,6 @@ layout: default
 			<h2>{{ t.create_own }}</h2>
 			<p>{{ t.app_description }}</p>
 		</div>
-		<a class="app-store-badge" href="{{ site.appstore_link }}" aria-label="{{ t.download_badge }}">
-			<img src="{{ '/assets/appstore.png' | relative_url }}" alt="{{ t.download_badge }}">
-		</a>
+		{% include app-store-badge.html locale=current_locale %}
 	</div>
 </section>

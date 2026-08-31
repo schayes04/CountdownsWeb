@@ -9,8 +9,6 @@ short_title: "iPhone widget"
 kicker: "iPhone widget"
 card_description: "Put favorite countdowns on the iPhone Home Screen for quick progress checks."
 image: /assets/promo.png
-screenshot: /assets/screenshots/home-screen-widgets.png
-screenshot_alt: "Countdown widgets on an iPhone Home Screen"
 h1: "An iPhone countdown widget for the dates you check most"
 hero_copy: "Add countdowns to your iPhone Home Screen so birthdays, trips, weddings, deadlines, and milestones stay easy to see."
 benefits_heading: "Make important dates glanceable."

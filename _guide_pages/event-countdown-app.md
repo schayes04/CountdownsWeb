@@ -9,8 +9,6 @@ short_title: "Event countdown"
 kicker: "Event countdown"
 card_description: "Build countdowns for launches, parties, deadlines, trips, games, and personal milestones."
 image: /assets/promo.png
-screenshot: /assets/screenshots/editing.png
-screenshot_alt: "Editing an event countdown in Countdowns"
 h1: "An event countdown app for everything worth tracking"
 hero_copy: "Create flexible countdowns for deadlines, launches, parties, games, trips, school dates, and personal milestones."
 benefits_heading: "One countdown app for many kinds of dates."

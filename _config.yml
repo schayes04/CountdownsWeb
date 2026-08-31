@@ -83,6 +83,8 @@ exclude:
   - Gemfile.lock
   - .bundle
   - .sass-cache
+  - tools
+  - scripts
 
 collections:
   guide_pages:

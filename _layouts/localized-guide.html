@@ -9,7 +9,7 @@ layout: default
 {% assign guide_page = site.guide_pages | where: "slug", page.guide_slug | first %}
 {% assign guide_topic = guide_topics[page.guide_slug] | default: guide_page.short_title | default: guide_page.title %}
 {% assign guide_topic_lower = guide_topic | downcase %}
-{% assign page_screenshot = guide_page.screenshot | default: '/assets/screenshots/home-screen-widgets.png' %}
+{% assign screenshot_scene = site.data.screenshots.guides[page.guide_slug] %}
 {% assign locale_prefix = "" %}
 {% if locale.folder and locale.folder != "" %}
 	{% assign locale_prefix = "/" | append: locale.folder %}
@@ -30,13 +30,11 @@ layout: default
 			<h1>{{ t.guide_h1 | replace: "TOPIC_LOWER", guide_topic_lower | replace: "TOPIC", guide_topic }}</h1>
 			<p>{{ t.guide_hero | replace: "TOPIC_LOWER", guide_topic_lower | replace: "TOPIC", guide_topic }}</p>
 			<div class="hero__actions">
-				<a class="app-store-badge" href="{{ site.appstore_link }}" aria-label="{{ t.download_badge }}">
-					<img src="{{ '/assets/appstore.png' | relative_url }}" alt="{{ t.download_badge }}">
-				</a>
+				{% include app-store-badge.html locale=current_locale %}
 			</div>
 		</div>
 		<div class="guide-hero__media">
-			<img src="{{ page_screenshot | relative_url }}" alt="{{ guide_topic }}">
+			{% include screenshot.html scene=screenshot_scene locale=current_locale loading="eager" %}
 		</div>
 	</div>
 </section>
@@ -149,8 +147,6 @@ layout: default
 			<h2>{{ t.guide_cta_heading | replace: "TOPIC_LOWER", guide_topic_lower | replace: "TOPIC", guide_topic }}</h2>
 			<p>{{ t.guide_cta_text | replace: "TOPIC_LOWER", guide_topic_lower | replace: "TOPIC", guide_topic }}</p>
 		</div>
-		<a class="app-store-badge" href="{{ site.appstore_link }}" aria-label="{{ t.download_badge }}">
-			<img src="{{ '/assets/appstore.png' | relative_url }}" alt="{{ t.download_badge }}">
-		</a>
+		{% include app-store-badge.html locale=current_locale %}
 	</div>
 </section>

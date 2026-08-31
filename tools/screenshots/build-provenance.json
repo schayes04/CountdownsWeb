@@ -1,0 +1,213 @@
+{
+  "nativePatchSHA256": "f76eba4f8014fe0957b550ffc6e19c61a62b0fc0b573cb709c99095b7dd1ea74",
+  "patchMatchesCaptureSource": true,
+  "note": "The app-only simulator predates widget timeline instrumentation. Its main Debug dylib matches the widget-capture build; widget captures use binaries that exactly match the current build. Five Arabic compact-list screenshots were subsequently recaptured from the separately built revision below. Per-image source commits are recorded in capture-manifest.json.",
+  "baselineSourceCommit": "c882f8c9f6588b836113d7d205e1ba193995644c",
+  "baselineObservedAt": "2026-08-30T23:54:35.814367+00:00",
+  "baselineBinariesBySurface": {
+    "app": {
+      "main": {
+        "info": {
+          "CFBundleIdentifier": "com.shayesapps.countdownApp",
+          "CFBundleExecutable": "Countdown",
+          "CFBundleShortVersionString": "12.0.0",
+          "CFBundleVersion": "1",
+          "DTXcode": "2700",
+          "DTXcodeBuild": "27A5252f",
+          "DTSDKName": "iphonesimulator27.0",
+          "DTSDKBuild": "24A5422a",
+          "DTPlatformName": "iphonesimulator",
+          "DTPlatformVersion": "27.0",
+          "DTPlatformBuild": "24A5422a",
+          "MinimumOSVersion": "17.0"
+        },
+        "binariesSHA256": {
+          "Countdown": "22e1515de73a7ca8ec5c2935fbc5ee4c665e59803908566ff29e126cf2d30ee9",
+          "Countdown.debug.dylib": "6c0c216f24c68cc0a8024f08d44dbba37d631e163c35b1a4195a80a433881826"
+        }
+      },
+      "widget": {
+        "info": {
+          "CFBundleIdentifier": "com.shayesapps.countdownApp.WidgetKit",
+          "CFBundleExecutable": "WidgetKitExtension",
+          "CFBundleShortVersionString": "12.0.0",
+          "CFBundleVersion": "1",
+          "DTXcode": "2700",
+          "DTXcodeBuild": "27A5252f",
+          "DTSDKName": "iphonesimulator27.0",
+          "DTSDKBuild": "24A5422a",
+          "DTPlatformName": "iphonesimulator",
+          "DTPlatformVersion": "27.0",
+          "DTPlatformBuild": "24A5422a",
+          "MinimumOSVersion": "17.0"
+        },
+        "binariesSHA256": {
+          "WidgetKitExtension": "d250fdc4c691fafa06960f88b9ff22c0f5c9eebe0cbebd56b969050436ccebb9",
+          "WidgetKitExtension.debug.dylib": "481173fd7b8a97a7be9677e677492e9c3ad2b5d6a79c773b980bf76448224a57"
+        }
+      }
+    },
+    "home-screen": {
+      "main": {
+        "info": {
+          "CFBundleIdentifier": "com.shayesapps.countdownApp",
+          "CFBundleExecutable": "Countdown",
+          "CFBundleShortVersionString": "12.0.0",
+          "CFBundleVersion": "1",
+          "DTXcode": "2700",
+          "DTXcodeBuild": "27A5252f",
+          "DTSDKName": "iphonesimulator27.0",
+          "DTSDKBuild": "24A5422a",
+          "DTPlatformName": "iphonesimulator",
+          "DTPlatformVersion": "27.0",
+          "DTPlatformBuild": "24A5422a",
+          "MinimumOSVersion": "17.0"
+        },
+        "binariesSHA256": {
+          "Countdown": "f1bfdca5d7ea0676c4fc6861f4f09eed62cc4516e1d580b044b3b26d94d503fb",
+          "Countdown.debug.dylib": "6c0c216f24c68cc0a8024f08d44dbba37d631e163c35b1a4195a80a433881826"
+        }
+      },
+      "widget": {
+        "info": {
+          "CFBundleIdentifier": "com.shayesapps.countdownApp.WidgetKit",
+          "CFBundleExecutable": "WidgetKitExtension",
+          "CFBundleShortVersionString": "12.0.0",
+          "CFBundleVersion": "1",
+          "DTXcode": "2700",
+          "DTXcodeBuild": "27A5252f",
+          "DTSDKName": "iphonesimulator27.0",
+          "DTSDKBuild": "24A5422a",
+          "DTPlatformName": "iphonesimulator",
+          "DTPlatformVersion": "27.0",
+          "DTPlatformBuild": "24A5422a",
+          "MinimumOSVersion": "17.0"
+        },
+        "binariesSHA256": {
+          "WidgetKitExtension": "2944e864d34429f3857233770bd69340d0956480017b4c6530af552e04108851",
+          "WidgetKitExtension.debug.dylib": "0298cef1c7daf2821ce571241884f91d4fd9280ff1da52fcc8a57c477f2e7960"
+        }
+      }
+    },
+    "lock-screen": {
+      "main": {
+        "info": {
+          "CFBundleIdentifier": "com.shayesapps.countdownApp",
+          "CFBundleExecutable": "Countdown",
+          "CFBundleShortVersionString": "12.0.0",
+          "CFBundleVersion": "1",
+          "DTXcode": "2700",
+          "DTXcodeBuild": "27A5252f",
+          "DTSDKName": "iphonesimulator27.0",
+          "DTSDKBuild": "24A5422a",
+          "DTPlatformName": "iphonesimulator",
+          "DTPlatformVersion": "27.0",
+          "DTPlatformBuild": "24A5422a",
+          "MinimumOSVersion": "17.0"
+        },
+        "binariesSHA256": {
+          "Countdown": "f1bfdca5d7ea0676c4fc6861f4f09eed62cc4516e1d580b044b3b26d94d503fb",
+          "Countdown.debug.dylib": "6c0c216f24c68cc0a8024f08d44dbba37d631e163c35b1a4195a80a433881826"
+        }
+      },
+      "widget": {
+        "info": {
+          "CFBundleIdentifier": "com.shayesapps.countdownApp.WidgetKit",
+          "CFBundleExecutable": "WidgetKitExtension",
+          "CFBundleShortVersionString": "12.0.0",
+          "CFBundleVersion": "1",
+          "DTXcode": "2700",
+          "DTXcodeBuild": "27A5252f",
+          "DTSDKName": "iphonesimulator27.0",
+          "DTSDKBuild": "24A5422a",
+          "DTPlatformName": "iphonesimulator",
+          "DTPlatformVersion": "27.0",
+          "DTPlatformBuild": "24A5422a",
+          "MinimumOSVersion": "17.0"
+        },
+        "binariesSHA256": {
+          "WidgetKitExtension": "2944e864d34429f3857233770bd69340d0956480017b4c6530af552e04108851",
+          "WidgetKitExtension.debug.dylib": "0298cef1c7daf2821ce571241884f91d4fd9280ff1da52fcc8a57c477f2e7960"
+        }
+      }
+    }
+  },
+  "revisions": [
+    {
+      "observedAt": "2026-08-31T01:12:46.565644+00:00",
+      "sourceCommit": "e1beaa05d97abcfa1097156ef53ecd1a2eb03351",
+      "arabicFixCommit": "8732552f07ba0de98084d168f20e8295cd961132",
+      "sourceArchiveSHA256": "50cae21b3b05a15b64aa99457ead238fde96405657a926b752f8dfa1cb6e72d9",
+      "nativePatchSHA256": "f76eba4f8014fe0957b550ffc6e19c61a62b0fc0b573cb709c99095b7dd1ea74",
+      "patchMatchesCaptureSource": true,
+      "configuration": "Debug",
+      "codeSigningAllowed": true,
+      "codeSignIdentity": "-",
+      "appVersion": "12.0.0",
+      "buildVersion": "1",
+      "captures": {
+        "app": {
+          "main": {
+            "info": {
+              "CFBundleIdentifier": "com.shayesapps.countdownApp",
+              "CFBundleExecutable": "Countdown",
+              "CFBundleShortVersionString": "12.0.0",
+              "CFBundleVersion": "1",
+              "DTXcode": "2700",
+              "DTXcodeBuild": "27A5252f",
+              "DTSDKName": "iphonesimulator27.0",
+              "DTSDKBuild": "24A5422a",
+              "DTPlatformName": "iphonesimulator",
+              "DTPlatformVersion": "27.0",
+              "DTPlatformBuild": "24A5422a",
+              "MinimumOSVersion": "17.0"
+            },
+            "binariesSHA256": {
+              "Countdown": "528fff26a19c633e67df00b91dc6e13dfb16290eea1cf28412f07be25acb39c1",
+              "Countdown.debug.dylib": "2b9894dbfea520440d475e4c5be8e3a0cc5a108d8148c3f51e15160cb2e674b3"
+            },
+            "infoPlistSHA256": "31d4af2c518d02058dc7ce4e26c562547d16ebceeb190a6ac6342b52d70a2a0c",
+            "installedBinariesMatchBuild": true,
+            "signatureVerified": true
+          },
+          "widget": {
+            "info": {
+              "CFBundleIdentifier": "com.shayesapps.countdownApp.WidgetKit",
+              "CFBundleExecutable": "WidgetKitExtension",
+              "CFBundleShortVersionString": "12.0.0",
+              "CFBundleVersion": "1",
+              "DTXcode": "2700",
+              "DTXcodeBuild": "27A5252f",
+              "DTSDKName": "iphonesimulator27.0",
+              "DTSDKBuild": "24A5422a",
+              "DTPlatformName": "iphonesimulator",
+              "DTPlatformVersion": "27.0",
+              "DTPlatformBuild": "24A5422a",
+              "MinimumOSVersion": "17.0"
+            },
+            "binariesSHA256": {
+              "WidgetKitExtension": "22f8075a392ba992f7e5e30b58162f42f096094d1b04b1bd834076e397541549",
+              "WidgetKitExtension.debug.dylib": "3bd11620fa0921fec9fe26a71961fd615e5ee8ceeba402aaf61175d7d3f7789b"
+            },
+            "infoPlistSHA256": "5dcbb5e300798a8ec123d587f6eb6b2a76455bcf5270fba54fa539fc9d8bbcc5",
+            "installedBinariesMatchBuild": true,
+            "signatureVerified": true
+          }
+        }
+      },
+      "captureDriverSHA256": "cd1ad0e70e071ba15017fad77517751cc2c4513058a47d02fb7e19eb8cb8ae81",
+      "buildResult": {
+        "status": "success",
+        "errors": 0,
+        "warnings": 51
+      },
+      "scope": [
+        "ar/compact-display",
+        "ar/colors",
+        "ar/birthday-countdown-app",
+        "ar/holiday-countdown-app",
+        "ar/pregnancy-countdown-app"
+      ]
+    }
+  ]
+}

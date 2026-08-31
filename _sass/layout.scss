@@ -253,7 +253,8 @@
 }
 
 .app-store-badge img {
-	width: 176px;
+	display: block;
+	width: auto;
 	height: 60px;
 	object-fit: contain;
 }
@@ -323,9 +324,68 @@
 	transform: translate3d(0, 0, 0);
 }
 
+// Match the approved 440px sample frame. Percentage screen margins keep the
+// bezel proportional at every size without applying parent offsets to the img.
+.screenshot-phone {
+	position: relative;
+	width: 100%;
+	max-width: 100%;
+	min-width: 0;
+	border: 2px solid #6b6e72;
+	border-radius: 15.8% / 7.4%;
+	background: #050505;
+	box-shadow: inset 0 0 0 2px #202124, 0 14px 28px #22222216;
+}
+
+.screenshot-phone > img {
+	display: block;
+	width: 95.87156%;
+	height: auto;
+	margin: 2.06422%;
+	border-radius: 14.2% / 6.5%;
+}
+
+.screenshot-phone__island {
+	position: absolute;
+	top: 2.35%;
+	left: 50%;
+	width: 29%;
+	height: 3.8%;
+	border-radius: 999px;
+	background: #000;
+	transform: translateX(-50%);
+	pointer-events: none;
+}
+
+.screenshot-phone::before,
+.screenshot-phone::after {
+	content: "";
+	position: absolute;
+	width: 3px;
+	background: #515459;
+	pointer-events: none;
+}
+
+.screenshot-phone::before {
+	top: 27%;
+	right: -5px;
+	height: 9%;
+	border-radius: 0 2px 2px 0;
+}
+
+.screenshot-phone::after {
+	top: 17%;
+	left: -5px;
+	height: 15%;
+	border-radius: 2px 0 0 2px;
+	// The sample's upper button is 75px above this one at a 440px width.
+	background: linear-gradient(#515459, #515459) bottom / 100% 46.667% no-repeat,
+		linear-gradient(#515459, #515459) top / 100% 46.667% no-repeat;
+}
+
 .hero__phone {
 	position: absolute;
-	width: auto;
+	width: calc(var(--screenshot-height) * 0.4727);
 	backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
 }
@@ -333,14 +393,14 @@
 .hero__phone--primary {
 	right: -16px;
 	bottom: -42px;
-	max-height: min(720px, 68vh);
+	--screenshot-height: min(720px, 68vh);
 	z-index: 2;
 }
 
 .hero__phone--secondary {
 	right: min(42%, 350px);
 	bottom: 16px;
-	max-height: min(570px, 54vh);
+	--screenshot-height: min(570px, 54vh);
 	opacity: 0.98;
 	transform: translate3d(0, 0, 0) rotate(-5deg);
 	z-index: 1;
@@ -492,16 +552,16 @@
 	align-items: end;
 }
 
-.screenshot-pair img,
-.showcase-media img,
-.pricing-grid img {
+.screenshot-pair > .screenshot-phone,
+.showcase-media > .screenshot-phone,
+.pricing-grid > .screenshot-phone {
 	width: 100%;
 	backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
 	transform: translate3d(0, 0, 0);
 }
 
-.screenshot-pair img:first-child {
+.screenshot-pair > .screenshot-phone:first-child {
 	margin-bottom: 72px;
 }
 
@@ -578,15 +638,15 @@
 	align-items: center;
 }
 
-.showcase-media img:nth-child(1) {
+.showcase-media > .screenshot-phone:nth-child(1) {
 	margin-bottom: 54px;
 }
 
-.showcase-media img:nth-child(2) {
+.showcase-media > .screenshot-phone:nth-child(2) {
 	margin-top: 54px;
 }
 
-.showcase-media img:nth-child(3) {
+.showcase-media > .screenshot-phone:nth-child(3) {
 	margin-bottom: 10px;
 }
 
@@ -616,9 +676,9 @@
 	margin-top: 5px;
 }
 
-.pricing-grid img {
-	max-height: 520px;
-	width: auto;
+.pricing-grid > .screenshot-phone {
+	--screenshot-height: 520px;
+	width: calc(var(--screenshot-height) * 0.4727);
 	justify-self: center;
 }
 
@@ -778,9 +838,9 @@
 	justify-content: center;
 }
 
-.guide-hero__media img {
-	width: auto;
-	max-height: 560px;
+.guide-hero__media > .screenshot-phone {
+	width: calc(var(--screenshot-height) * 0.4727);
+	--screenshot-height: 560px;
 	backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
 	transform: translate3d(0, 0, 0);
@@ -1264,12 +1324,12 @@
 
 	.hero__phone--primary {
 		right: -42px;
-		max-height: min(620px, 64vh);
+		--screenshot-height: min(620px, 64vh);
 	}
 
 	.hero__phone--secondary {
 		right: min(44%, 300px);
-		max-height: min(500px, 50vh);
+		--screenshot-height: min(500px, 50vh);
 	}
 
 	.hero h1 {
@@ -1346,7 +1406,7 @@
 		left: 46%;
 		right: auto;
 		bottom: -38px;
-		max-height: clamp(320px, 54vw, 430px);
+		--screenshot-height: clamp(320px, 54vw, 430px);
 		transform: translate3d(0, 0, 0);
 	}
 
@@ -1355,7 +1415,7 @@
 		left: auto;
 		right: 38%;
 		bottom: -14px;
-		max-height: clamp(280px, 46vw, 360px);
+		--screenshot-height: clamp(280px, 46vw, 360px);
 	}
 
 	.intro-band__inner {
@@ -1405,8 +1465,8 @@
 		font-size: 19px;
 	}
 
-	.guide-hero__media img {
-		max-height: 430px;
+	.guide-hero__media > .screenshot-phone {
+		--screenshot-height: 430px;
 	}
 
 	.guide-aside {
@@ -1450,12 +1510,12 @@
 		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
 
-	.showcase-media img:nth-child(n) {
+	.showcase-media > .screenshot-phone:nth-child(n) {
 		margin: 0;
 	}
 
-	.pricing-grid img {
-		max-height: 430px;
+	.pricing-grid > .screenshot-phone {
+		--screenshot-height: 430px;
 	}
 
 	.final-cta__inner {
@@ -1498,10 +1558,6 @@
 		height: 52px;
 	}
 
-	.app-store-badge img {
-		width: 153px;
-	}
-
 	.button {
 		min-height: 44px;
 		padding: 0 15px;
@@ -1531,13 +1587,13 @@
 	.hero__phone--primary {
 		left: 46%;
 		bottom: -28px;
-		max-height: clamp(270px, 72vw, 315px);
+		--screenshot-height: clamp(270px, 72vw, 315px);
 	}
 
 	.hero__phone--secondary {
 		right: 38%;
 		bottom: -12px;
-		max-height: clamp(235px, 62vw, 280px);
+		--screenshot-height: clamp(235px, 62vw, 280px);
 	}
 
 	.intro-band__inner {
@@ -1565,7 +1621,7 @@
 		gap: 12px;
 	}
 
-	.screenshot-pair img:first-child {
+	.screenshot-pair > .screenshot-phone:first-child {
 		margin-bottom: 34px;
 	}
 

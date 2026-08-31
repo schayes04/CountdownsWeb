@@ -87,7 +87,8 @@
 	{% endif %}
 
 	{% if page.layout == "home" %}
-		<link rel="preload" as="image" href="{{ '/assets/screenshots/home-screen-widgets.png' | relative_url }}">
+		{% assign home_screenshot = site.data.screenshots.locales[current_locale]["home-screen-widgets"] %}
+		<link rel="preload" as="image" href="{{ home_screenshot | relative_url }}" fetchpriority="high">
 	{% endif %}
 	<link rel="stylesheet" href="{{ '/main.css' | relative_url }}">
 

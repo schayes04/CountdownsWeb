@@ -99,6 +99,20 @@ If you have feedback regarding bugs or improvements, open an issue, @ me on Twit
 
 I'd love to see the sites you create using this little tool.
 
+## Localized App Store badges
+
+Pages use the shared `_includes/app-store-badge.html` include to select official Apple artwork from `_data/app_store_badges.yml`. SVGs are stored locally in `assets/app-store-badges/`, with English as the fallback for an unknown locale. Badge labels use the existing `download_badge` translations.
+
+Keep Apple's SVG artwork unmodified and follow the [App Store badge guidelines](https://developer.apple.com/app-store/marketing/guidelines/#section-badges). The download endpoint is recorded in the locale map; note that Arabic uses `ar-ar`, Norwegian Bokmål uses `no-no`, and Portuguese and Chinese each have separate regional/script variants.
+
+After building the site, validate the artwork, locale fallback, accessible labels, and every home/ideas/guide page with:
+
+```sh
+bundle exec ruby scripts/validate-app-store-badges.rb --site _site
+```
+
+For a build using a subdirectory, pass the same `--baseurl /prefix` to the validator.
+
 ## Credits
 - [Jekyll](https://github.com/jekyll/jekyll)
 - [FontAwesome](https://fontawesome.github.io/Font-Awesome/)

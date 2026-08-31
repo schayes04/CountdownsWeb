@@ -9,8 +9,6 @@ short_title: "Retirement countdown"
 kicker: "Retirement countdown"
 card_description: "Count down to the last workday, final shift, or first day of retirement."
 image: /assets/promo.png
-screenshot: /assets/screenshots/normal-display.png
-screenshot_alt: "Retirement countdown in a detailed countdown list"
 h1: "A retirement countdown app for the milestone ahead"
 hero_copy: "Track the last workday, final shift, or first day of retirement with a countdown that stays visible across Apple devices."
 benefits_heading: "Make a long-term milestone easy to follow."

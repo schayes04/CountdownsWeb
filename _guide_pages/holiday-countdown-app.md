@@ -9,8 +9,6 @@ short_title: "Holiday countdown"
 kicker: "Holiday countdown"
 card_description: "Create recurring countdowns for holidays, long weekends, travel, and family plans."
 image: /assets/promo.png
-screenshot: /assets/screenshots/colors.png
-screenshot_alt: "Colorful holiday countdowns in Countdowns"
 h1: "A holiday countdown app for the dates that keep coming back"
 hero_copy: "Create recurring countdowns for holidays, school breaks, long weekends, and seasonal plans."
 benefits_heading: "Keep seasonal plans from getting buried."

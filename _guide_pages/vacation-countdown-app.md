@@ -9,8 +9,6 @@ short_title: "Vacation countdown"
 kicker: "Vacation countdown"
 card_description: "Track the trip date, departure time, packing deadlines, and return home."
 image: /assets/promo.png
-screenshot: /assets/screenshots/home-screen-widgets.png
-screenshot_alt: "Vacation countdown widget on an iPhone Home Screen"
 h1: "A vacation countdown app for the trip you keep thinking about"
 hero_copy: "Count down to flights, road trips, hotel check-ins, cruises, and family vacations with widgets and reminders."
 benefits_heading: "Turn travel anticipation into a useful plan."

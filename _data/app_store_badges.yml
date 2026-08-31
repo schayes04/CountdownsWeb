@@ -1,0 +1,25 @@
+# Official Apple artwork, stored locally and unmodified.
+# Source: https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/{locale}?size=250x83
+# Widths are rounded intrinsic dimensions for HTML layout hints; CSS preserves the SVG aspect ratio.
+en: { file: en-us.svg, width: 120 }
+ar: { file: ar-ar.svg, width: 120 }
+ca: { file: ca-es.svg, width: 126 }
+da: { file: da-dk.svg, width: 120 }
+de: { file: de-de.svg, width: 120 }
+es: { file: es-es.svg, width: 120 }
+fi: { file: fi-fi.svg, width: 143 }
+fr: { file: fr-fr.svg, width: 127 }
+it: { file: it-it.svg, width: 120 }
+ja: { file: ja-jp.svg, width: 109 }
+ko: { file: ko-kr.svg, width: 130 }
+nb: { file: no-no.svg, width: 120 }
+nl: { file: nl-nl.svg, width: 120 }
+pl: { file: pl-pl.svg, width: 120 }
+pt: { file: pt-pt.svg, width: 120 }
+pt-BR: { file: pt-br.svg, width: 120 }
+ru: { file: ru-ru.svg, width: 120 }
+sk: { file: sk-sk.svg, width: 120 }
+sv: { file: sv-se.svg, width: 120 }
+tr: { file: tr-tr.svg, width: 151 }
+zh-Hans: { file: zh-cn.svg, width: 109 }
+zh-Hant: { file: zh-tw.svg, width: 109 }

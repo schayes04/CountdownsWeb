@@ -9,8 +9,6 @@ short_title: "Lock Screen widget"
 kicker: "Lock Screen widget"
 card_description: "Check the next event without opening the app by using an iPhone Lock Screen widget."
 image: /assets/promo.png
-screenshot: /assets/screenshots/lock-screen-widgets.png
-screenshot_alt: "Countdown widgets on an iPhone Lock Screen"
 h1: "A Lock Screen countdown widget for quick progress checks"
 hero_copy: "Put countdowns on your iPhone Lock Screen so the next trip, birthday, holiday, deadline, or milestone is visible at a glance."
 benefits_heading: "Fast countdown checks without opening an app."

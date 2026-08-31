@@ -9,8 +9,6 @@ short_title: "Anniversary countdown"
 kicker: "Anniversary countdown"
 card_description: "Track anniversaries, relationship milestones, work anniversaries, and special recurring dates."
 image: /assets/promo.png
-screenshot: /assets/screenshots/home-screen-widgets.png
-screenshot_alt: "Anniversary countdown widget on an iPhone Home Screen"
 h1: "An anniversary countdown app for dates worth remembering"
 hero_copy: "Create recurring anniversary countdowns and keep them visible with widgets, reminders, colors, and lists."
 benefits_heading: "Remember the date before the day arrives."

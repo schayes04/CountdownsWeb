@@ -9,8 +9,6 @@ short_title: "Theme park countdown"
 kicker: "Theme park trip"
 card_description: "Track park days, travel dates, dining windows, packing, and the final wake-up."
 image: /assets/promo.png
-screenshot: /assets/screenshots/home-screen-widgets.png
-screenshot_alt: "Theme park trip countdown widget on an iPhone Home Screen"
 h1: "A theme park trip countdown app for every part of the vacation"
 hero_copy: "Count down to park days, flights, hotel check-ins, dining plans, packing, and the moment the trip begins."
 benefits_heading: "Keep the trip exciting and organized."

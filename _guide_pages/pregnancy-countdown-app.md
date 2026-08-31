@@ -9,8 +9,6 @@ short_title: "Pregnancy countdown"
 kicker: "Pregnancy countdown"
 card_description: "Track the due date, appointments, milestones, and family preparation dates."
 image: /assets/promo.png
-screenshot: /assets/screenshots/compact-display.png
-screenshot_alt: "Pregnancy due date countdown in Countdowns"
 h1: "A pregnancy countdown app for the due date and the milestones before it"
 hero_copy: "Count down to the due date, appointments, nursery deadlines, family visits, and other personal pregnancy milestones."
 benefits_heading: "Keep important dates organized."

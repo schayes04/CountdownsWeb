@@ -9,8 +9,6 @@ short_title: "Wedding countdown"
 kicker: "Wedding countdown"
 card_description: "Track the ceremony date, planning milestones, and every celebration before the big day."
 image: /assets/promo.png
-screenshot: /assets/screenshots/home-screen-widgets.png
-screenshot_alt: "Countdowns Home Screen widgets for wedding planning"
 h1: "A wedding countdown app for every day before the date"
 hero_copy: "Keep the wedding date close with a countdown that can live on your Home Screen, Lock Screen, Apple Watch, iPad, and Mac."
 benefits_heading: "Keep the date visible while plans move fast."
