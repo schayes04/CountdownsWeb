@@ -1,0 +1,62 @@
+---
+# Provider-supported language routes, audited 2026-08-31.
+# Apple Support uses its own language/region codes (e.g. no-no, not nb-no).
+apple_support:
+  articles:
+    iphone_widgets: '118610'
+    iphone_wallpaper: '102638'
+    mac_widgets: guide/mac-help/mchl52be5da5/mac
+    refunds: '118223'
+  locales:
+    en: en-us
+    ar: ar-sa
+    ca: en-us # These standalone articles are not available in Catalan.
+    da: da-dk
+    de: de-de
+    es: es-es
+    fi: fi-fi
+    fr: fr-fr
+    it: it-it
+    ja: ja-jp
+    ko: ko-kr
+    nb: no-no
+    nl: nl-nl
+    pl: pl-pl
+    pt: pt-pt
+    pt-BR: pt-br
+    ru: ru-ru
+    sk: sk-sk
+    sv: sv-se
+    tr: tr-tr
+    zh-Hans: zh-cn
+    zh-Hant: zh-tw
+  guide_locale_overrides:
+    en: '' # English user guides use the unprefixed route.
+    ca: ca-es # The Mac user guide is available in Catalan.
+
+# Language hints do not choose a country/storefront. Apple can fall back to a
+# language supported by the visitor's storefront and device/account settings.
+app_store:
+  language_hints:
+    en: en-US
+    ar: ar
+    ca: ca
+    da: da-DK
+    de: de-DE
+    es: es-ES
+    fi: fi-FI
+    fr: fr-FR
+    it: it-IT
+    ja: ja-JP
+    ko: ko
+    nb: nb-NO # The public App Store does not accept no as its language hint.
+    nl: nl-NL
+    pl: pl-PL
+    pt: pt-PT
+    pt-BR: pt-BR
+    ru: ru
+    sk: sk-SK
+    sv: sv-SE
+    tr: tr-TR
+    zh-Hans: zh-Hans-CN
+    zh-Hant: zh-Hant-TW # A bare zh-Hant hint can fall back to Simplified Chinese.

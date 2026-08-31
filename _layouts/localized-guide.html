@@ -16,7 +16,7 @@ layout: default
 	{% assign locale_prefix = "/" | append: locale.folder %}
 {% endif %}
 
-<nav class="breadcrumbs site-container" aria-label="Breadcrumb">
+<nav class="breadcrumbs site-container" aria-label="{{ t.breadcrumb_label | escape }}">
 	<a href="{{ locale_prefix | append: '/' | relative_url }}" target="_self">{{ t.home }}</a>
 	<span aria-hidden="true">/</span>
 	<a href="{{ locale_prefix | append: '/countdown-ideas/' | relative_url }}" target="_self">{{ t.breadcrumb_ideas }}</a>

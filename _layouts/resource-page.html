@@ -2,8 +2,13 @@
 layout: default
 ---
 
-<nav class="breadcrumbs site-container" aria-label="Breadcrumb">
-	<a href="{{ '/' | relative_url }}" target="_self">Home</a>
+{% assign current_locale = page.locale | default: "en" %}
+{% assign locale = site.data.locales | where: "code", current_locale | first %}
+{% assign t = site.data.strings[current_locale] | default: site.data.strings.en %}
+{% capture resource_home_path %}{% include locale-url.html locale=locale key="home" %}{% endcapture %}
+
+<nav class="breadcrumbs site-container" aria-label="{{ t.breadcrumb_label | escape }}">
+	<a href="{{ resource_home_path | relative_url }}" target="_self">{{ t.home }}</a>
 	<span aria-hidden="true">/</span>
 	<span>{{ page.short_title | default: page.title }}</span>
 </nav>
@@ -23,8 +28,8 @@ layout: default
 <section class="resource-body">
 	<div class="site-container resource-body__grid">
 		{% if page.sections %}
-			<nav class="resource-nav" aria-label="{{ page.toc_title | default: 'On this page' }}">
-				<p>{{ page.toc_title | default: "On this page" }}</p>
+			<nav class="resource-nav" aria-label="{{ page.toc_title | default: t.on_this_page | escape }}">
+				<p>{{ page.toc_title | default: t.on_this_page }}</p>
 				<ul>
 					{% for section in page.sections %}
 						<li><a href="#{{ section.id }}">{{ section.label | default: section.title }}</a></li>

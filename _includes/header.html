@@ -22,43 +22,21 @@
 			<img class="site-brand__icon" src="{{ site.app_icon | relative_url }}" alt="">
 			<span>{{ app_name | escape }}</span>
 		</a>
-		{% unless page.layout == "resource-page" %}
-		<nav class="site-nav" aria-label="{{ t.primary_nav }}">
-			<a class="site-nav__optional" href="{{ home_path | append: '#features' | relative_url }}" target="_self">{{ t.features }}</a>
-			<a class="site-nav__optional" href="{{ home_path | append: '#widgets' | relative_url }}" target="_self">{{ t.widgets }}</a>
-			<a href="{{ ideas_path | relative_url }}" target="_self">{{ t.ideas }}</a>
-			{% if site.presskit_download_link %}
-				<a class="site-nav__optional" href="{{ site.presskit_download_link | relative_url }}">{{ t.press_kit }}</a>
-			{% endif %}
-			{% unless page.localized == false %}
-				<details class="language-menu">
-					<summary>{{ locale.native_name | default: t.language }}</summary>
-					<div class="language-menu__list">
-						{% for alt_locale in site.data.locales %}
-							{% assign alt_path = "/" %}
-							{% if canonical_key == "home" %}
-								{% if alt_locale.folder and alt_locale.folder != "" %}
-									{% assign alt_path = "/" | append: alt_locale.folder | append: "/" %}
-								{% endif %}
-							{% elsif canonical_key == "countdown-ideas" %}
-								{% if alt_locale.folder and alt_locale.folder != "" %}
-									{% assign alt_path = "/" | append: alt_locale.folder | append: "/countdown-ideas/" %}
-								{% else %}
-									{% assign alt_path = "/countdown-ideas/" %}
-								{% endif %}
-							{% elsif canonical_key %}
-								{% if alt_locale.folder and alt_locale.folder != "" %}
-									{% assign alt_path = "/" | append: alt_locale.folder | append: "/" | append: canonical_key | append: "/" %}
-								{% else %}
-									{% assign alt_path = "/" | append: canonical_key | append: "/" %}
-								{% endif %}
-							{% endif %}
-							<a href="{{ alt_path | relative_url }}" hreflang="{{ alt_locale.html_lang }}">{{ alt_locale.native_name }}</a>
-						{% endfor %}
-					</div>
-				</details>
-			{% endunless %}
-			<a class="site-nav__cta" href="{{ site.appstore_link }}">{{ t.download }}</a>
+		{% unless page.layout == "resource-page" and page.localized == false %}
+		<nav class="site-nav" aria-label="{{ t.primary_nav | escape }}">
+			<div class="site-nav__inline">
+				{% include navigation-items.html %}
+			</div>
+			<details class="navigation-menu">
+				<summary aria-label="{{ t.menu | escape }}">
+					<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true" focusable="false">
+						<path d="M4 6h16M4 12h16M4 18h16" />
+					</svg>
+				</summary>
+				<div class="navigation-menu__panel">
+					{% include navigation-items.html %}
+				</div>
+			</details>
 		</nav>
 		{% endunless %}
 	</div>

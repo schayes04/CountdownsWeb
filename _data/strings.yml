@@ -1,5 +1,11 @@
 ---
 en:
+  menu: "Menu"
+  breadcrumb_label: Breadcrumb
+  on_this_page: On this page
+  app_highlights_label: APP_NAME highlights
+  home_widgets_preview_label: APP_NAME Home Screen widgets preview
+  countdown_examples_label: Popular countdown examples
   skip: Skip to content
   home: Home
   primary_nav: Primary
@@ -179,6 +185,12 @@ en:
   guide_cta_heading: Start your TOPIC_LOWER today.
   guide_cta_text: Download Countdowns and keep the next important date visible.
 es:
+  menu: "Menú"
+  breadcrumb_label: "Ruta de navegación"
+  on_this_page: "En esta página"
+  app_highlights_label: "Lo más destacado de APP_NAME"
+  home_widgets_preview_label: "Vista previa de los widgets de pantalla de inicio de APP_NAME"
+  countdown_examples_label: "Ejemplos populares de cuentas atrás"
   skip: Saltar al contenido
   home: Inicio
   primary_nav: Principal
@@ -352,6 +364,12 @@ es:
   guide_cta_heading: Empieza tu TOPIC hoy.
   guide_cta_text: Descarga Cuentas atrás y mantén visible la próxima fecha importante.
 fr:
+  menu: "Menu"
+  breadcrumb_label: "Fil d’Ariane"
+  on_this_page: "Sur cette page"
+  app_highlights_label: "Points forts de APP_NAME"
+  home_widgets_preview_label: "Aperçu des widgets d’écran d’accueil de APP_NAME"
+  countdown_examples_label: "Exemples populaires de comptes à rebours"
   skip: Aller au contenu
   home: Accueil
   primary_nav: Navigation principale
@@ -526,6 +544,12 @@ fr:
   guide_cta_heading: Commencez votre TOPIC aujourd’hui.
   guide_cta_text: Téléchargez Compte à rebours et gardez la prochaine date importante visible.
 ar:
+  menu: "القائمة"
+  breadcrumb_label: "مسار التنقل"
+  on_this_page: "في هذه الصفحة"
+  app_highlights_label: "أبرز ميزات APP_NAME"
+  home_widgets_preview_label: "معاينة أدوات APP_NAME للشاشة الرئيسية"
+  countdown_examples_label: "أمثلة شائعة للعدادات التنازلية"
   skip: الانتقال إلى المحتوى
   home: الرئيسية
   primary_nav: التنقل الرئيسي
@@ -694,6 +718,12 @@ ar:
   guide_cta_heading: ابدأ TOPIC اليوم.
   guide_cta_text: نزّل تطبيق العدادات التنازلية وأبقِ التاريخ المهم القادم مرئيًا.
 ca:
+  menu: "Menú"
+  breadcrumb_label: "Ruta de navegació"
+  on_this_page: "En aquesta pàgina"
+  app_highlights_label: "Aspectes destacats d’APP_NAME"
+  home_widgets_preview_label: "Vista prèvia dels ginys de la pantalla d’inici d’APP_NAME"
+  countdown_examples_label: "Exemples populars de comptes enrere"
   skip: Vés al contingut
   home: Inici
   primary_nav: Navegació principal
@@ -865,6 +895,12 @@ ca:
   guide_cta_heading: Comença el teu TOPIC avui.
   guide_cta_text: Descarrega Comptes Enrere i mantén visible la propera data important.
 da:
+  menu: "Menu"
+  breadcrumb_label: "Brødkrumme"
+  on_this_page: "På denne side"
+  app_highlights_label: "APP_NAME-højdepunkter"
+  home_widgets_preview_label: "Forhåndsvisning af APP_NAME-widgets til hjemmeskærmen"
+  countdown_examples_label: "Populære eksempler på nedtællinger"
   skip: Gå til indhold
   home: Hjem
   primary_nav: Primær navigation
@@ -1033,6 +1069,12 @@ da:
   guide_cta_heading: Start din TOPIC i dag.
   guide_cta_text: Hent Nedtællinger, og hold den næste vigtige dato synlig.
 de:
+  menu: "Menü"
+  breadcrumb_label: "Navigationspfad"
+  on_this_page: "Auf dieser Seite"
+  app_highlights_label: "Highlights von APP_NAME"
+  home_widgets_preview_label: "Vorschau der APP_NAME-Home-Bildschirm-Widgets"
+  countdown_examples_label: "Beliebte Countdown-Beispiele"
   skip: Zum Inhalt springen
   home: Startseite
   primary_nav: Hauptnavigation
@@ -1205,6 +1247,12 @@ de:
   guide_cta_heading: Starte deinen TOPIC heute.
   guide_cta_text: Lade Countdowns und halte das nächste wichtige Datum sichtbar.
 fi:
+  menu: "Valikko"
+  breadcrumb_label: "Murupolku"
+  on_this_page: "Tällä sivulla"
+  app_highlights_label: "APP_NAME:n kohokohdat"
+  home_widgets_preview_label: "APP_NAME:n Koti-valikon widgetien esikatselu"
+  countdown_examples_label: "Suosittuja laskuriesimerkkejä"
   skip: Siirry sisältöön
   home: Etusivu
   primary_nav: Päänavigaatio
@@ -1377,6 +1425,12 @@ fi:
   guide_cta_heading: Aloita TOPIC tänään.
   guide_cta_text: Lataa Laskurit-sovellus ja pidä seuraava tärkeä päivä näkyvissä.
 it:
+  menu: "Menu"
+  breadcrumb_label: "Percorso di navigazione"
+  on_this_page: "In questa pagina"
+  app_highlights_label: "Punti salienti di APP_NAME"
+  home_widgets_preview_label: "Anteprima dei widget della schermata Home di APP_NAME"
+  countdown_examples_label: "Esempi popolari di contatori"
   skip: Vai al contenuto
   home: Home
   primary_nav: Navigazione principale
@@ -1545,6 +1599,12 @@ it:
   guide_cta_heading: Inizia il tuo TOPIC oggi.
   guide_cta_text: Scarica Contatore e tieni visibile la prossima data importante.
 ja:
+  menu: "メニュー"
+  breadcrumb_label: "パンくずリスト"
+  on_this_page: "このページの内容"
+  app_highlights_label: "APP_NAMEの特長"
+  home_widgets_preview_label: "APP_NAMEのホーム画面ウィジェットのプレビュー"
+  countdown_examples_label: "人気のカウントダウン例"
   skip: コンテンツへ移動
   home: ホーム
   primary_nav: メインナビゲーション
@@ -1694,6 +1754,12 @@ ja:
   guide_cta_heading: 今日からTOPICを始めましょう。
   guide_cta_text: カウントダウンをダウンロードして、次の大切な日を見える場所に置きましょう。
 ko:
+  menu: "메뉴"
+  breadcrumb_label: "이동 경로"
+  on_this_page: "이 페이지의 내용"
+  app_highlights_label: "APP_NAME 주요 기능"
+  home_widgets_preview_label: "APP_NAME 홈 화면 위젯 미리보기"
+  countdown_examples_label: "인기 카운트다운 예시"
   skip: 콘텐츠로 건너뛰기
   home: 홈
   primary_nav: 기본 내비게이션
@@ -1849,6 +1915,12 @@ ko:
   guide_cta_heading: 오늘 TOPIC을 시작하세요.
   guide_cta_text: 카운트다운을 다운로드하고 다음 중요한 날짜를 보이게 두세요.
 nb:
+  menu: "Meny"
+  breadcrumb_label: "Brødsmule"
+  on_this_page: "På denne siden"
+  app_highlights_label: "Høydepunkter i APP_NAME"
+  home_widgets_preview_label: "Forhåndsvisning av APP_NAME-widgeter for Hjem-skjermen"
+  countdown_examples_label: "Populære eksempler på nedtellinger"
   skip: Gå til innhold
   home: Hjem
   primary_nav: Hovednavigasjon
@@ -2013,6 +2085,12 @@ nb:
   guide_cta_heading: Start din TOPIC i dag.
   guide_cta_text: Last ned Nedtellinger og hold neste viktige dato synlig.
 nl:
+  menu: "Menu"
+  breadcrumb_label: "Kruimelpad"
+  on_this_page: "Op deze pagina"
+  app_highlights_label: "Hoogtepunten van APP_NAME"
+  home_widgets_preview_label: "Voorvertoning van APP_NAME-widgets voor het beginscherm"
+  countdown_examples_label: "Populaire voorbeelden van aftellingen"
   skip: Naar inhoud springen
   home: Home
   primary_nav: Hoofdnavigatie
@@ -2183,6 +2261,12 @@ nl:
   guide_cta_heading: Start je TOPIC vandaag.
   guide_cta_text: Download Countdowns en houd de volgende belangrijke datum zichtbaar.
 pl:
+  menu: "Menu"
+  breadcrumb_label: "Okruszki"
+  on_this_page: "Na tej stronie"
+  app_highlights_label: "Najważniejsze funkcje APP_NAME"
+  home_widgets_preview_label: "Podgląd widżetów APP_NAME na ekranie początkowym"
+  countdown_examples_label: "Popularne przykłady odliczania"
   skip: Przejdź do treści
   home: Strona główna
   primary_nav: Nawigacja główna
@@ -2352,6 +2436,12 @@ pl:
   guide_cta_heading: Zacznij TOPIC już dziś.
   guide_cta_text: Pobierz aplikację Odliczanie i trzymaj następną ważną datę na widoku.
 pt:
+  menu: "Menu"
+  breadcrumb_label: "Navegação estrutural"
+  on_this_page: "Nesta página"
+  app_highlights_label: "Destaques de APP_NAME"
+  home_widgets_preview_label: "Pré-visualização dos widgets do ecrã principal de APP_NAME"
+  countdown_examples_label: "Exemplos de contagens populares"
   skip: Ir para o conteúdo
   home: Início
   primary_nav: Navegação principal
@@ -2521,6 +2611,12 @@ pt:
   guide_cta_heading: Começa a tua TOPIC hoje.
   guide_cta_text: Descarrega a aplicação Contagem e mantém a próxima data importante visível.
 pt-BR:
+  menu: "Menu"
+  breadcrumb_label: "Caminho de navegação"
+  on_this_page: "Nesta página"
+  app_highlights_label: "Destaques do APP_NAME"
+  home_widgets_preview_label: "Prévia dos widgets da tela de Início do APP_NAME"
+  countdown_examples_label: "Exemplos populares de contagens"
   skip: Ir para o conteúdo
   home: Início
   primary_nav: Navegação principal
@@ -2691,6 +2787,12 @@ pt-BR:
   guide_cta_heading: Comece sua TOPIC hoje.
   guide_cta_text: Baixe o app Contagens e mantenha a próxima data importante visível.
 ru:
+  menu: "Меню"
+  breadcrumb_label: "Навигационная цепочка"
+  on_this_page: "На этой странице"
+  app_highlights_label: "Особенности APP_NAME"
+  home_widgets_preview_label: "Предпросмотр виджетов APP_NAME для экрана «Домой»"
+  countdown_examples_label: "Популярные примеры таймеров"
   skip: Перейти к содержимому
   home: Главная
   primary_nav: Основная навигация
@@ -2860,6 +2962,12 @@ ru:
   guide_cta_heading: Начните TOPIC сегодня.
   guide_cta_text: Скачайте приложение «Таймеры» и держите следующую важную дату на виду.
 sk:
+  menu: "Menu"
+  breadcrumb_label: "Navigačná cesta"
+  on_this_page: "Na tejto stránke"
+  app_highlights_label: "Najdôležitejšie funkcie APP_NAME"
+  home_widgets_preview_label: "Ukážka widgetov APP_NAME na ploche"
+  countdown_examples_label: "Obľúbené príklady odpočtov"
   skip: Prejsť na obsah
   home: Domov
   primary_nav: Hlavná navigácia
@@ -3028,6 +3136,12 @@ sk:
   guide_cta_heading: Začni TOPIC ešte dnes.
   guide_cta_text: Stiahni si aplikáciu Odpočty a maj ďalší dôležitý dátum stále viditeľný.
 sv:
+  menu: "Meny"
+  breadcrumb_label: "Brödsmula"
+  on_this_page: "På den här sidan"
+  app_highlights_label: "Höjdpunkter i APP_NAME"
+  home_widgets_preview_label: "Förhandsvisning av APP_NAME-widgetar på hemskärmen"
+  countdown_examples_label: "Populära exempel på nedräkningar"
   skip: Gå till innehåll
   home: Hem
   primary_nav: Huvudnavigering
@@ -3195,6 +3309,12 @@ sv:
   guide_cta_heading: Starta din TOPIC idag.
   guide_cta_text: Hämta Nedräkningar och håll nästa viktiga datum synligt.
 tr:
+  menu: "Menü"
+  breadcrumb_label: "Gezinti yolu"
+  on_this_page: "Bu sayfada"
+  app_highlights_label: "APP_NAME öne çıkan özellikleri"
+  home_widgets_preview_label: "APP_NAME Ana Ekran widget'ları önizlemesi"
+  countdown_examples_label: "Popüler geri sayım örnekleri"
   skip: İçeriğe geç
   home: Ana sayfa
   primary_nav: Ana gezinme
@@ -3369,6 +3489,12 @@ tr:
   guide_cta_heading: TOPIC bugün başlatın.
   guide_cta_text: Geri Sayım'ı indirin ve bir sonraki önemli tarihi görünür tutun.
 zh-Hans:
+  menu: "菜单"
+  breadcrumb_label: "面包屑导航"
+  on_this_page: "本页内容"
+  app_highlights_label: "APP_NAME 亮点"
+  home_widgets_preview_label: "APP_NAME 主屏幕小组件预览"
+  countdown_examples_label: "热门倒计时示例"
   skip: 跳到内容
   home: 首页
   primary_nav: 主导航
@@ -3518,6 +3644,12 @@ zh-Hans:
   guide_cta_heading: 今天开始你的 TOPIC。
   guide_cta_text: 下载 时光仪，让下一个重要日期保持可见。
 zh-Hant:
+  menu: "選單"
+  breadcrumb_label: "導覽路徑"
+  on_this_page: "本頁內容"
+  app_highlights_label: "APP_NAME 重點特色"
+  home_widgets_preview_label: "APP_NAME 主畫面小工具預覽"
+  countdown_examples_label: "熱門倒數範例"
   skip: 跳到內容
   home: 首頁
   primary_nav: 主要導覽

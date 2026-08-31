@@ -7,6 +7,7 @@
 	{% assign locale_prefix = "/" | append: locale.folder %}
 {% endif %}
 {% assign home_path = locale_prefix | append: "/" %}
+{% capture support_path %}{% include locale-url.html locale=locale key="support" %}{% endcapture %}
 <footer class="site-footer">
 	<div class="site-footer__inner">
 		<div>
@@ -20,12 +21,12 @@
 		</div>
 		<div class="site-footer__links">
 			<nav class="footerLinks" aria-label="{{ t.company_links }}">
-				<a href="{{ '/support' | relative_url }}">{{ t.support }}</a>
+				<a href="{{ support_path | relative_url }}">{{ t.support }}</a>
 				{% if site.facebook_username %}
-					<a href="https://facebook.com/{{ site.facebook_username }}" target="_blank" rel="noopener">Facebook</a>
+					<a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank" rel="noopener">Facebook</a>
 				{% endif %}
 				{% if site.instagram_username %}
-					<a href="https://instagram.com/{{ site.instagram_username }}" target="_blank" rel="noopener">Instagram</a>
+					<a href="https://www.instagram.com/{{ site.instagram_username }}" target="_blank" rel="noopener">Instagram</a>
 				{% endif %}
 				{% if site.mastodon_link %}
 					<a rel="me noopener" href="{{ site.mastodon_link }}" target="_blank">Mastodon</a>

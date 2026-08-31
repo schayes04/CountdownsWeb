@@ -4,10 +4,11 @@ layout: default
 
 {% assign current_locale = page.locale | default: "en" %}
 {% assign locale = site.data.locales | where: "code", current_locale | first %}
+{% assign t = site.data.strings[current_locale] | default: site.data.strings.en %}
 {% assign app_name = locale.app_name | default: site.app_name %}
 {% assign screenshot_scene = site.data.screenshots.guides[page.slug] %}
 
-<nav class="breadcrumbs site-container" aria-label="Breadcrumb">
+<nav class="breadcrumbs site-container" aria-label="{{ t.breadcrumb_label | escape }}">
 	<a href="{{ '/' | relative_url }}" target="_self">Home</a>
 	<span aria-hidden="true">/</span>
 	<a href="{{ '/countdown-ideas/' | relative_url }}" target="_self">Countdown Ideas</a>
@@ -56,7 +57,7 @@ layout: default
 		<article class="guide-prose">
 			{{ content }}
 		</article>
-		<aside class="guide-aside" aria-label="{{ app_name | escape }} highlights">
+		<aside class="guide-aside" aria-label="{{ t.app_highlights_label | replace: 'APP_NAME', app_name | escape }}">
 			<div class="guide-aside__panel">
 				<img src="{{ site.app_icon | relative_url }}" alt="">
 				<h2>{{ app_name | escape }}</h2>

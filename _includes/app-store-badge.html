@@ -3,6 +3,7 @@
 {%- assign badge_strings = site.data.strings[badge_locale] | default: site.data.strings.en -%}
 {%- assign badge_label = badge_strings.download_badge | default: site.data.strings.en.download_badge -%}
 {%- assign badge_path = "/assets/app-store-badges/" | append: badge.file -%}
-<a class="app-store-badge" href="{{ site.appstore_link | escape }}" aria-label="{{ badge_label | escape }}">
+{%- capture badge_href -%}{%- include app-store-url.html locale=badge_locale -%}{%- endcapture -%}
+<a class="app-store-badge" href="{{ badge_href | escape }}" aria-label="{{ badge_label | escape }}">
 	<img src="{{ badge_path | relative_url }}" alt="{{ badge_label | escape }}" width="{{ badge.width }}" height="40">
 </a>

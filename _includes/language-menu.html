@@ -1,0 +1,9 @@
+<details class="language-menu">
+	<summary aria-label="{{ t.language | escape }}: {{ locale.native_name | default: t.language | escape }}">{{ locale.native_name | default: t.language }}</summary>
+	<div class="language-menu__list">
+		{% for menu_locale in site.data.locales %}
+			{% capture menu_path %}{% include locale-url.html locale=menu_locale key=canonical_key %}{% endcapture %}
+			<a href="{{ menu_path | relative_url }}" hreflang="{{ menu_locale.html_lang }}" lang="{{ menu_locale.html_lang }}" dir="{{ menu_locale.dir }}"{% if menu_locale.code == current_locale %} aria-current="page"{% endif %}>{{ menu_locale.native_name }}</a>
+		{% endfor %}
+	</div>
+</details>

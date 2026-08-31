@@ -1,0 +1,12 @@
+{%- comment -%}Keep English Support's existing extensionless URL; other translated routes use directories.{%- endcomment -%}
+{%- assign route_prefix = "" -%}
+{%- if include.locale.folder and include.locale.folder != "" -%}
+	{%- assign route_prefix = "/" | append: include.locale.folder -%}
+{%- endif -%}
+{%- if include.key == "home" or include.key == nil or include.key == "" -%}
+	{{- route_prefix | append: "/" -}}
+{%- elsif include.key == "support" and route_prefix == "" -%}
+	{{- "/support" -}}
+{%- else -%}
+	{{- route_prefix | append: "/" | append: include.key | append: "/" -}}
+{%- endif -%}

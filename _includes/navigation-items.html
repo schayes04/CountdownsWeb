@@ -1,0 +1,11 @@
+<a href="{{ home_path | append: '#features' | relative_url }}" target="_self">{{ t.features }}</a>
+<a href="{{ home_path | append: '#widgets' | relative_url }}" target="_self">{{ t.widgets }}</a>
+<a href="{{ ideas_path | relative_url }}" target="_self">{{ t.ideas }}</a>
+{% if site.presskit_download_link %}
+	<a href="{{ site.presskit_download_link | relative_url }}">{{ t.press_kit }}</a>
+{% endif %}
+{% unless page.localized == false %}
+	{% include language-menu.html %}
+{% endunless %}
+{% capture navigation_app_store_url %}{% include app-store-url.html %}{% endcapture %}
+<a class="site-nav__cta" href="{{ navigation_app_store_url | escape }}">{{ t.download }}</a>

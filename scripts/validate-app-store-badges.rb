@@ -39,6 +39,9 @@ class AppStoreBadgeValidator
     codes = @locales.map { |locale| locale['code'] }
     check(:manifest, @manifest.keys.sort == codes.sort, 'Badge map keys must exactly match locales.yml codes')
     check(:manifest, codes.uniq.size == codes.size, 'Locale codes must be unique')
+    hints = app_store_language_hints
+    check(:manifest, hints.keys.sort == codes.sort, 'App Store language-hint keys must exactly match locales.yml codes')
+    check(:manifest, hints.values.all? { |hint| !hint.to_s.empty? }, 'App Store language hints must not be empty')
 
     contents = {}
     @manifest.each do |code, entry|
@@ -86,6 +89,21 @@ class AppStoreBadgeValidator
     "/assets/app-store-badges/#{entry['file']}"
   end
 
+  def app_store_language_hints
+    mapping(mapping(@external_links['app_store'])['language_hints'])
+  end
+
+  def expected_app_store_href(locale_code, appstore_link: @config_appstore_link)
+    appstore_link = appstore_link.to_s
+    canonical_link = "https://apps.apple.com/app/apple-store/id#{@ios_app_id}"
+    return appstore_link unless appstore_link == canonical_link
+
+    hints = app_store_language_hints
+    hint = hints[locale_code.to_s]
+    hint = hints['en'] if hint.to_s.empty?
+    "#{appstore_link}?l=#{hint}"
+  end
+
   def validate_route(locale, slug)
     @counts[:routes] += 1
     route = '/' + [locale['folder'], slug].reject { |part| part.to_s.empty? }.join('/')
@@ -99,7 +117,7 @@ class AppStoreBadgeValidator
     doc = Nokogiri::HTML(file.read)
     links = doc.css('a.app-store-badge')
     check(:routes, links.size == 2, "#{route}: expected exactly 2 .app-store-badge links, found #{links.size}")
-    expected_href = @config_appstore_link.to_s
+    expected_href = expected_app_store_href(locale['code'])
     expected_label = localized_label(locale['code'])
     expected_src = @baseurl + expected_path(locale)
     links.each_with_index do |link, index|
@@ -123,11 +141,16 @@ class AppStoreBadgeValidator
     strings['download_badge'].to_s.empty? ? mapping(@strings['en'])['download_badge'].to_s : strings['download_badge']
   end
 
-  def render_include(page: {}, include_data: {}, strings: @strings, manifest: @manifest, appstore_link: @config_appstore_link)
+  def render_include(page: {}, include_data: {}, strings: @strings, manifest: @manifest, external_links: @external_links,
+                     ios_app_id: @ios_app_id, appstore_link: @config_appstore_link)
     config = Jekyll.configuration('source' => @source.to_s, 'quiet' => true, 'baseurl' => '/badge-test')
     site = Jekyll::Site.new(config)
     payload = {
-      'site' => { 'data' => { 'app_store_badges' => manifest, 'strings' => strings }, 'appstore_link' => appstore_link },
+      'site' => {
+        'data' => { 'app_store_badges' => manifest, 'external_links' => external_links, 'strings' => strings },
+        'appstore_link' => appstore_link,
+        'ios_app_id' => ios_app_id
+      },
       'page' => page,
       'include' => include_data
     }
@@ -158,26 +181,33 @@ class AppStoreBadgeValidator
     en_label = localized_label('en')
     fr_label = localized_label('fr')
     ja_label = localized_label('ja')
-    assert_rendered_badge(render_include, expected_file: en['file'], expected_width: en['width'], expected_label: en_label, expected_href: @config_appstore_link)
-    assert_rendered_badge(render_include(page: { 'locale' => 'xx' }), expected_file: en['file'], expected_width: en['width'], expected_label: en_label, expected_href: @config_appstore_link)
-    assert_rendered_badge(render_include(page: { 'locale' => 'fr' }), expected_file: fr['file'], expected_width: fr['width'], expected_label: fr_label, expected_href: @config_appstore_link)
-    assert_rendered_badge(render_include(page: { 'locale' => 'fr' }, include_data: { 'locale' => 'ja' }), expected_file: ja['file'], expected_width: ja['width'], expected_label: ja_label, expected_href: @config_appstore_link)
+    assert_rendered_badge(render_include, expected_file: en['file'], expected_width: en['width'], expected_label: en_label, expected_href: expected_app_store_href('en'))
+    assert_rendered_badge(render_include(page: { 'locale' => 'xx' }), expected_file: en['file'], expected_width: en['width'], expected_label: en_label, expected_href: expected_app_store_href('xx'))
+    assert_rendered_badge(render_include(page: { 'locale' => '' }), expected_file: en['file'], expected_width: en['width'], expected_label: en_label, expected_href: expected_app_store_href(''))
+    assert_rendered_badge(render_include(page: { 'locale' => 'fr' }), expected_file: fr['file'], expected_width: fr['width'], expected_label: fr_label, expected_href: expected_app_store_href('fr'))
+    assert_rendered_badge(render_include(page: { 'locale' => 'fr' }, include_data: { 'locale' => 'ja' }), expected_file: ja['file'], expected_width: ja['width'], expected_label: ja_label, expected_href: expected_app_store_href('ja'))
 
     missing_label_strings = Marshal.load(Marshal.dump(@strings))
     missing_label_strings['fr'] = mapping(missing_label_strings['fr']).reject { |key, _| key == 'download_badge' }
-    assert_rendered_badge(render_include(page: { 'locale' => 'fr' }, strings: missing_label_strings), expected_file: fr['file'], expected_width: fr['width'], expected_label: en_label, expected_href: @config_appstore_link)
+    assert_rendered_badge(render_include(page: { 'locale' => 'fr' }, strings: missing_label_strings), expected_file: fr['file'], expected_width: fr['width'], expected_label: en_label, expected_href: expected_app_store_href('fr'))
 
     custom_href = 'https://example.test/app?a=1&b="quoted"<tag>'
     custom_label = 'Use & enjoy <Countdowns> "now"'
     custom_strings = Marshal.load(Marshal.dump(@strings))
     custom_strings['fr'] = mapping(custom_strings['fr']).merge('download_badge' => custom_label)
     assert_rendered_badge(render_include(page: { 'locale' => 'fr' }, strings: custom_strings, appstore_link: custom_href), expected_file: fr['file'], expected_width: fr['width'], expected_label: custom_label, expected_href: custom_href)
+
+    country_override = "https://apps.apple.com/us/app/apple-store/id#{@ios_app_id}"
+    assert_rendered_badge(render_include(page: { 'locale' => 'ja' }, appstore_link: country_override), expected_file: ja['file'], expected_width: ja['width'], expected_label: ja_label, expected_href: country_override)
   rescue StandardError => error
     check(:liquid, false, "Liquid regression tests failed: #{error.class}: #{error.message}")
   end
 
   def run
-    @config_appstore_link = read_yaml('_config.yml')['appstore_link']
+    config = read_yaml('_config.yml')
+    @config_appstore_link = config['appstore_link']
+    @ios_app_id = config['ios_app_id']
+    @external_links = mapping(read_yaml('_data/external_links.yml'))
     @strings = mapping(read_yaml('_data/strings.yml'))
     validate_manifest
     guides = @source.glob('_guide_pages/*.md').map { |path| path.basename('.md').to_s }.sort

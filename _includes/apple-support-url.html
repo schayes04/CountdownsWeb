@@ -1,0 +1,18 @@
+{%- assign support_link_data = site.data.external_links.apple_support -%}
+{%- assign support_link_code = include.locale | default: page.locale | default: "en" -%}
+{%- unless support_link_data.locales[support_link_code] -%}
+  {%- assign support_link_code = "en" -%}
+{%- endunless -%}
+{%- assign support_link_locale = support_link_data.locales[support_link_code] -%}
+{%- if include.key == "mac_widgets" -%}
+  {%- assign support_guide_override = support_link_data.guide_locale_overrides[support_link_code] -%}
+  {%- if support_guide_override != nil -%}
+    {%- assign support_link_locale = support_guide_override -%}
+  {%- endif -%}
+{%- endif -%}
+{%- assign support_link_path = support_link_data.articles[include.key] -%}
+{%- if support_link_path -%}
+  {{- "https://support.apple.com/" -}}
+  {%- if support_link_locale != "" -%}{{- support_link_locale | append: "/" -}}{%- endif -%}
+  {{- support_link_path -}}
+{%- endif -%}

@@ -25,7 +25,7 @@ layout: default
 			<div class="hero__actions">
 				{% include app-store-badge.html locale=current_locale %}
 			</div>
-			<dl class="hero__facts" aria-label="{{ app_name | escape }} highlights">
+			<dl class="hero__facts" aria-label="{{ t.app_highlights_label | replace: 'APP_NAME', app_name | escape }}">
 				<div>
 					<dt>{{ t.free }}</dt>
 					<dd>{{ t.download_label }}</dd>
@@ -41,14 +41,14 @@ layout: default
 			</dl>
 		</div>
 
-		<div class="hero__visual" aria-label="{{ app_name | escape }} Home Screen widgets preview">
+		<div class="hero__visual" aria-label="{{ t.home_widgets_preview_label | replace: 'APP_NAME', app_name | escape }}">
 			{% include screenshot.html scene="colors" locale=current_locale class="hero__phone hero__phone--secondary" decorative=true %}
 			{% include screenshot.html scene="home-screen-widgets" locale=current_locale class="hero__phone hero__phone--primary" loading="eager" %}
 		</div>
 	</div>
 </section>
 
-<section class="intro-band" aria-label="Popular countdown examples">
+<section class="intro-band" aria-label="{{ t.countdown_examples_label | escape }}">
 	<div class="site-container intro-band__inner">
 		{% for example in t.examples %}
 			<p>{{ example }}</p>

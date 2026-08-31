@@ -1,7 +1,8 @@
 ---
 layout: resource-page
 locale: en
-localized: false
+canonical_key: support
+source_version: '2026-08-17'
 permalink: /support
 title: Help Center
 meta_title: Countdowns Help Center | iCloud, Widgets & Apple Watch Help
@@ -80,9 +81,9 @@ Install the latest version of Countdowns and update both iOS and watchOS to the 
 
 ### Installation guides
 
-- [How to add and edit widgets on your iPhone](https://support.apple.com/en-us/118610)
-- [Change your iPhone wallpaper](https://support.apple.com/en-us/102638)
-- [Add and customize widgets on Mac](https://support.apple.com/guide/mac-help/mchl52be5da5/mac)
+- [How to add and edit widgets on your iPhone]({% include apple-support-url.html key="iphone_widgets" %})
+- [Change your iPhone wallpaper]({% include apple-support-url.html key="iphone_wallpaper" %})
+- [Add and customize widgets on Mac]({% include apple-support-url.html key="mac_widgets" %})
 
 If Countdowns does not appear in the widget gallery, restart your device and make sure you have opened the app at least once.
 
@@ -109,7 +110,7 @@ Countdowns supports at least the current major operating-system version and the 
 ## Refunds
 {: #refunds}
 
-If something is wrong, please give us a chance to make it right. Only Apple can issue refunds for App Store purchases. To request one, follow [Apple's refund process](https://support.apple.com/en-us/118223).
+If something is wrong, please give us a chance to make it right. Only Apple can issue refunds for App Store purchases. To request one, follow [Apple's refund process]({% include apple-support-url.html key="refunds" %}).
 
 ## Contact
 {: #contact}

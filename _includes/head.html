@@ -36,33 +36,11 @@
 	<link rel="canonical" href="{{ page.url | absolute_url }}">
 	{% if canonical_key and page.localized != false %}
 		{% for alt_locale in site.data.locales %}
-			{% assign alt_path = "/" %}
-			{% if canonical_key == "home" %}
-				{% if alt_locale.folder and alt_locale.folder != "" %}
-					{% assign alt_path = "/" | append: alt_locale.folder | append: "/" %}
-				{% endif %}
-			{% elsif canonical_key == "countdown-ideas" %}
-				{% if alt_locale.folder and alt_locale.folder != "" %}
-					{% assign alt_path = "/" | append: alt_locale.folder | append: "/countdown-ideas/" %}
-				{% else %}
-					{% assign alt_path = "/countdown-ideas/" %}
-				{% endif %}
-			{% else %}
-				{% if alt_locale.folder and alt_locale.folder != "" %}
-					{% assign alt_path = "/" | append: alt_locale.folder | append: "/" | append: canonical_key | append: "/" %}
-				{% else %}
-					{% assign alt_path = "/" | append: canonical_key | append: "/" %}
-				{% endif %}
-			{% endif %}
+			{% capture alt_path %}{% include locale-url.html locale=alt_locale key=canonical_key %}{% endcapture %}
 			<link rel="alternate" hreflang="{{ alt_locale.html_lang }}" href="{{ alt_path | absolute_url }}">
 		{% endfor %}
-		{% if canonical_key == "home" %}
-			{% assign default_path = "/" %}
-		{% elsif canonical_key == "countdown-ideas" %}
-			{% assign default_path = "/countdown-ideas/" %}
-		{% else %}
-			{% assign default_path = "/" | append: canonical_key | append: "/" %}
-		{% endif %}
+		{% assign default_locale = site.data.locales | where: "code", "en" | first %}
+		{% capture default_path %}{% include locale-url.html locale=default_locale key=canonical_key %}{% endcapture %}
 		<link rel="alternate" hreflang="x-default" href="{{ default_path | absolute_url }}">
 	{% endif %}
 	{% if page.noindex %}
@@ -92,6 +70,7 @@
 		<link rel="preload" as="image" href="{{ home_screenshot | relative_url }}" fetchpriority="high">
 	{% endif %}
 	<link rel="stylesheet" href="{{ '/main.css' | relative_url }}">
+	<script src="{{ '/assets/header.js' | relative_url }}" defer></script>
 
 	{% if page.include_software_schema %}
 		<script type="application/ld+json">

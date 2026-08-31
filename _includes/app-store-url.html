@@ -1,0 +1,11 @@
+{%- assign store_link_url = site.appstore_link -%}
+{%- assign store_link_default = "https://apps.apple.com/app/apple-store/id" | append: site.ios_app_id -%}
+{%- if store_link_url == store_link_default -%}
+  {%- assign store_link_locale = include.locale | default: page.locale | default: "en" -%}
+  {%- assign store_link_hints = site.data.external_links.app_store.language_hints -%}
+  {%- assign store_link_hint = store_link_hints[store_link_locale] | default: store_link_hints.en -%}
+  {%- if store_link_hint -%}
+    {%- assign store_link_url = store_link_url | append: "?l=" | append: store_link_hint -%}
+  {%- endif -%}
+{%- endif -%}
+{{- store_link_url -}}

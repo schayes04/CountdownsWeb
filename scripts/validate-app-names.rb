@@ -20,7 +20,7 @@ class AppNameValidator
     'zh-Hant' => '倒數日'
   }.freeze
   BRAND_FIELDS = %w[app_description pricing_heading ideas_index_body guide_body_p1 guide_cta_text].freeze
-  ROUTES = ['countdown-ideas'].freeze
+  ROUTES = %w[countdown-ideas support].freeze
 
   def initialize(source:, site:, native_catalog: nil, verbose: false)
     @source, @site = Pathname(source).expand_path, Pathname(site).expand_path
@@ -113,6 +113,10 @@ class AppNameValidator
     route = '/' + [locale['folder'], slug].reject { |part| part.to_s.empty? }.join('/')
     route += '/' unless route.end_with?('/')
     file = slug.to_s.empty? ? @site.join(locale['folder'].to_s, 'index.html') : @site.join(locale['folder'].to_s, slug.to_s, 'index.html')
+    if code == 'en' && slug == 'support'
+      route = '/support'
+      file = @site.join('support.html')
+    end
     @counts[:routes] += 1
     unless file.file?
       check(:routes, false, "Missing built route: #{route}")
@@ -120,7 +124,7 @@ class AppNameValidator
     end
     @counts[:html] += 1
     # The English ideas index does not opt into SoftwareApplication structured data.
-    schema_required = code != 'en' || slug != 'countdown-ideas'
+    schema_required = slug != 'support' && (code != 'en' || slug != 'countdown-ideas')
     validate_document(Nokogiri::HTML(file.read), route, code, expected, homepage: slug.to_s.empty?, guide: @guides.include?(slug), schema_required: schema_required)
   end
 
@@ -145,8 +149,9 @@ class AppNameValidator
     check(:metadata, software_schemas.size == 1, "#{route}: expected exactly one SoftwareApplication JSON-LD block") if schema_required
     if homepage
       check(:surfaces, doc.at_css('h1')&.text.to_s.strip == expected, "#{route}: homepage h1 mismatch")
-      %w[.hero__facts .hero__visual].each do |selector|
-        check(:surfaces, doc.at_css(selector)&.[]('aria-label').to_s.start_with?(expected), "#{route}: #{selector} aria-label lacks localized name")
+      { '.hero__facts' => 'app_highlights_label', '.hero__visual' => 'home_widgets_preview_label' }.each do |selector, key|
+        label = @strings.dig(code, key).to_s.gsub('APP_NAME', expected)
+        check(:surfaces, label.include?(expected) && doc.at_css(selector)&.[]('aria-label').to_s == label, "#{route}: #{selector} aria-label must use the translated label and app name")
       end
       %w[title meta[property="og:title"] meta[name="twitter:title"]].each do |selector|
         value = selector == 'title' ? doc.at_css(selector)&.text : doc.at_css(selector)&.[]('content')
@@ -249,10 +254,10 @@ class AppNameValidator
     @guides = @source.glob('_guide_pages/*.md').map { |path| path.basename('.md').to_s }.sort
     validate_source
     routes = ['', *ROUTES, *@guides]
-    check(:source, routes.size == 14, "Expected 12 guide pages plus home and ideas (found #{@guides.size} guides)")
-    check(:routes, @locales.size * routes.size == 308, "Expected 308 locale routes (found #{@locales.size * routes.size})")
+    check(:source, routes.size == 15, "Expected 12 guide pages plus home, ideas, and support (found #{@guides.size} guides)")
+    check(:routes, @locales.size * routes.size == 330, "Expected 330 locale routes (found #{@locales.size * routes.size})")
     @locales.each { |locale| routes.each { |slug| validate_route(locale, slug) } }
-    %w[support policies].each do |name|
+    %w[policies].each do |name|
       file = [@site.join("#{name}.html"), @site.join(name, 'index.html')].find(&:file?)
       check(:routes, file, "Missing English resource route: /#{name}/")
       validate_document(Nokogiri::HTML(file.read), "/#{name}/", 'en', EXPECTED['en'], homepage: false) if file
