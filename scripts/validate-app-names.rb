@@ -14,7 +14,7 @@ class AppNameValidator
     'da' => 'Nedtællinger', 'de' => 'Countdowns', 'es' => 'Cuentas atrás',
     'fi' => 'Laskurit', 'fr' => 'Compte à rebours', 'it' => 'Contatore',
     'ja' => 'カウントダウン', 'ko' => '카운트다운', 'nb' => 'Nedtellinger',
-    'nl' => 'Countdowns', 'pl' => 'Odliczanie', 'pt' => 'Contagem',
+    'nl' => 'Aftellingen', 'pl' => 'Odliczanie', 'pt' => 'Contagem',
     'pt-BR' => 'Contagens', 'ru' => 'Таймеры', 'sk' => 'Odpočty',
     'sv' => 'Nedräkningar', 'tr' => 'Geri Sayım', 'zh-Hans' => '时光仪',
     'zh-Hant' => '倒數日'

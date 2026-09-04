@@ -4,9 +4,9 @@ locale: nl
 canonical_key: support
 permalink: /nl/support/
 title: Helpcentrum
-meta_title: Countdowns Helpcentrum | Hulp met iCloud, widgets en Apple Watch
-description: Krijg hulp met iCloud- en Apple Watch-synchronisatie van Countdowns, widgets, Gezinsdeling, ondersteunde besturingssystemen, terugbetalingen en meer.
-intro: Vind antwoorden op veelgestelde vragen over Countdowns en volg de stappen voor probleemoplossing voor je Apple-apparaten.
+meta_title: Aftellingen Helpcentrum | Hulp met iCloud, widgets en Apple Watch
+description: Krijg hulp met iCloud- en Apple Watch-synchronisatie van Aftellingen, widgets, Gezinsdeling, ondersteunde besturingssystemen, terugbetalingen en meer.
+intro: Vind antwoorden op veelgestelde vragen over Aftellingen en volg de stappen voor probleemoplossing voor je Apple-apparaten.
 sections:
   - id: icloud-sync
     title: iCloud-synchronisatie
@@ -38,8 +38,8 @@ Als je aftellingen niet op je apparaten worden gesynchroniseerd, volg je deze st
 - Tik bovenaan op je naam.
 - Zorg dat de weergegeven Apple Account dezelfde is als die je op je andere apparaten gebruikt.
 - Tik op **iCloud**.
-- Zoek **Countdowns** in **Bewaard in iCloud** (voorheen **Apps die iCloud gebruiken**) en zorg dat deze is ingeschakeld.
-- Zorg dat **iCloud Drive** is ingeschakeld en dat Countdowns is ingeschakeld onder **Apps die synchroniseren met iCloud Drive**.
+- Zoek **Aftellingen** in **Bewaard in iCloud** (voorheen **Apps die iCloud gebruiken**) en zorg dat deze is ingeschakeld.
+- Zorg dat **iCloud Drive** is ingeschakeld en dat de app Aftellingen is ingeschakeld onder **Apps die synchroniseren met iCloud Drive**.
 
 #### Mac
 
@@ -48,8 +48,8 @@ Als je aftellingen niet op je apparaten worden gesynchroniseerd, volg je deze st
 - Zorg dat de weergegeven Apple Account dezelfde is als die je op je andere apparaten gebruikt.
 - Klik op **iCloud**.
 - Klik op **Toon alles** onder **Bewaard in iCloud** (voorheen **Toon meer apps** onder **Apps die iCloud gebruiken**).
-- Zoek **Countdowns** in de lijst en zorg dat deze is ingeschakeld.
-- Zorg dat **iCloud Drive** is ingeschakeld en dat Countdowns is ingeschakeld onder **Apps die synchroniseren met iCloud Drive**.
+- Zoek **Aftellingen** in de lijst en zorg dat deze is ingeschakeld.
+- Zorg dat **iCloud Drive** is ingeschakeld en dat de app Aftellingen is ingeschakeld onder **Apps die synchroniseren met iCloud Drive**.
 
 ### 2. Controleer je iCloud-opslag
 
@@ -57,11 +57,11 @@ Voor synchronisatie is voldoende vrije iCloud-opslag nodig. Controleer of je acc
 
 ### 3. Werk je software bij
 
-iCloud-synchronisatie werkt het best met actuele software. Installeer de nieuwste versie van Countdowns op elk apparaat, samen met de nieuwste beschikbare versies van iOS, iPadOS en macOS.
+iCloud-synchronisatie werkt het best met actuele software. Installeer de nieuwste versie van Aftellingen op elk apparaat, samen met de nieuwste beschikbare versies van iOS, iPadOS en macOS.
 
 ### 4. Start je apparaten opnieuw op
 
-Start elk betrokken apparaat opnieuw op, open Countdowns vervolgens opnieuw en geef wijzigingen wat tijd om te synchroniseren.
+Start elk betrokken apparaat opnieuw op, open Aftellingen vervolgens opnieuw en geef wijzigingen wat tijd om te synchroniseren.
 
 ## Apple Watch-synchronisatie
 {: #apple-watch-sync}
@@ -74,7 +74,7 @@ Start zowel je iPhone als Apple Watch opnieuw op. Dit lost tijdelijke synchronis
 
 ### 2. Werk je software bij
 
-Installeer de nieuwste versie van Countdowns en werk zowel iOS als watchOS bij naar de nieuwste versies die voor je apparaten beschikbaar zijn.
+Installeer de nieuwste versie van Aftellingen en werk zowel iOS als watchOS bij naar de nieuwste versies die voor je apparaten beschikbaar zijn.
 
 ## Widgets
 {: #widgets}
@@ -85,7 +85,7 @@ Installeer de nieuwste versie van Countdowns en werk zowel iOS als watchOS bij n
 - [Je iPhone-achtergrond wijzigen]({% include apple-support-url.html key="iphone_wallpaper" %})
 - [Widgets toevoegen en aanpassen op Mac]({% include apple-support-url.html key="mac_widgets" %})
 
-Als Countdowns niet in de widgetgalerie staat, start je apparaat dan opnieuw op en zorg dat je de app minstens één keer hebt geopend.
+Als de app Aftellingen niet in de widgetgalerie staat, start je apparaat dan opnieuw op en zorg dat je de app minstens één keer hebt geopend.
 
 Als een widget niet wordt bijgewerkt, probeer dan het volgende:
 
@@ -95,17 +95,17 @@ Door je apparaat opnieuw op te starten, worden tijdelijke widgetproblemen meesta
 
 ### 2. Werk je software bij
 
-Installeer de nieuwste versie van Countdowns en werk iOS, iPadOS of macOS bij naar de nieuwste versie die voor je apparaat beschikbaar is.
+Installeer de nieuwste versie van Aftellingen en werk iOS, iPadOS of macOS bij naar de nieuwste versie die voor je apparaat beschikbaar is.
 
 ## Gezinsdeling
 {: #family-sharing}
 
-Countdowns ondersteunt Gezinsdeling voor abonnementen en aankopen in de app. Zorg dat het delen van aankopen is geconfigureerd voor je Apple-gezinsgroep en dat elk gezinslid is ingelogd met de juiste Apple Account.
+De app Aftellingen ondersteunt Gezinsdeling voor abonnementen en aankopen in de app. Zorg dat het delen van aankopen is geconfigureerd voor je Apple-gezinsgroep en dat elk gezinslid is ingelogd met de juiste Apple Account.
 
 ## Ondersteunde OS-versies
 {: #supported-os-versions}
 
-Countdowns ondersteunt minstens de huidige hoofdversie van het besturingssysteem en de twee voorafgaande hoofdversies op elk ondersteund Apple-platform.
+De app Aftellingen ondersteunt minstens de huidige hoofdversie van het besturingssysteem en de twee voorafgaande hoofdversies op elk ondersteund Apple-platform.
 
 ## Terugbetalingen
 {: #refunds}

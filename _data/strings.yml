@@ -2105,7 +2105,7 @@ nl:
   made_by: Gemaakt door
   language: Taal
   download_badge: Download in de App Store
-  app_description: Countdowns helpt je aftellen naar belangrijke momenten, of optellen
+  app_description: De app Aftellingen helpt je aftellen naar belangrijke momenten, of optellen
     vanaf betekenisvolle datums, op iPhone, iPad, Mac en Apple Watch. Perfect voor
     verjaardagen, feestdagen, bruiloften, reizen, pensioen en meer.
   title_suffix: Afteltimers voor Apple-apparaten
@@ -2177,7 +2177,7 @@ nl:
   - Kies wanneer je een melding wilt voordat de datum aankomt.
   - Bewaar oude aftellingen zonder de hoofdlijst te vullen.
   pricing_kicker: Gratis beginnen
-  pricing_heading: Download Countdowns gratis.
+  pricing_heading: Download Aftellingen gratis.
   pricing_body: Optionele maandelijkse, jaarlijkse en eenmalige aankopen ontgrendelen
     iCloud, compacte modus, lijsten, richtingindicatoren, aangepaste geluiden en archief.
   ideas_kicker: Aftelideeën
@@ -2193,7 +2193,7 @@ nl:
   ideas_description: Bekijk aftelideeën voor bruiloften, verjaardagen, vakanties,
     feestdagen, pensioen, widgets en meer.
   ideas_index_heading: Aftelideeën voor elke belangrijke datum
-  ideas_index_body: Ontdek manieren om Countdowns te gebruiken voor vieringen, reizen,
+  ideas_index_body: Ontdek manieren om Aftellingen te gebruiken voor vieringen, reizen,
     mijlpalen, feestdagen, widgets en dagelijkse datums.
   browse_all: Alles bekijken
   choose_type: Kies een afteltype om mee te beginnen.
@@ -2247,11 +2247,11 @@ nl:
   - Kan ik de aftelling aanpassen?
   faq_answers:
   - Ja. Je kunt onbeperkte aftellingen maken en ze in lijsten organiseren.
-  - Ja. Countdowns ondersteunt beginschermwidgets, toegangsschermwidgets en Apple
+  - Ja. De app Aftellingen ondersteunt beginschermwidgets, toegangsschermwidgets en Apple
     Watch-complicaties.
   - Ja. Je kunt eenheden, kleuren, iconen, lijsten, meldingen en meer aanpassen.
   guide_body_h2_1: Houd de belangrijke datum in beeld
-  guide_body_p1: Een TOPIC werkt het best wanneer hij makkelijk te zien is. Countdowns
+  guide_body_p1: Een TOPIC werkt het best wanneer hij makkelijk te zien is. De app Aftellingen
     maakt er een timer van die je kunt bekijken op de apparaten die je al gebruikt.
   guide_body_p2: Maak één timer voor de hoofddatum en voeg mijlpalen, herinneringen
     en plandatums toe.
@@ -2259,7 +2259,7 @@ nl:
   guide_body_p3: Kies jaren, maanden, weken, dagen, uren, minuten of seconden. Gebruik
     kleuren, iconen, lijsten, widgets, meldingen en archief voor en na de datum.
   guide_cta_heading: Start je TOPIC vandaag.
-  guide_cta_text: Download Countdowns en houd de volgende belangrijke datum zichtbaar.
+  guide_cta_text: Download Aftellingen en houd de volgende belangrijke datum zichtbaar.
 pl:
   menu: "Menu"
   breadcrumb_label: "Okruszki"
