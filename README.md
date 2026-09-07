@@ -101,7 +101,7 @@ I'd love to see the sites you create using this little tool.
 
 ## Localized app names
 
-Each entry in `_data/locales.yml` defines the app's localized `app_name`, sourced from `CFBundleDisplayName` in the native app's `Countdown/Supporting Files/InfoPlist.xcstrings` catalog. These are the app's display names, not translations invented for the website or the longer App Store marketing titles. English and German retain **Countdowns**; Dutch uses **Aftellingen**; the other languages use their native app names.
+Each entry in `_data/locales.yml` defines the app's localized `app_name`, sourced from `CFBundleDisplayName` in the native app's `Countdown/Supporting Files/InfoPlist.xcstrings` catalog. These are the app's display names, not translations invented for the website or the longer App Store marketing titles. English and German retain **Countdowns**; Dutch uses **Aftellingen**; Hindi uses **काउंटडाउन**; the other languages use their native app names.
 
 Shared branding and metadata use this name, falling back to `_config.yml`'s `app_name` for an unknown locale. Keep app references in `_data/strings.yml`, `_data/screenshot_alts.yml`, and the validator's native-name baseline in sync when a name changes; complete translated sentences preserve the grammar around each name.
 
@@ -121,22 +121,22 @@ The shared `_includes/locale-url.html` helper keeps language switching, alternat
 
 The header keeps the app name visible. At widths of 1120px or less, all navigation moves into a single disclosure menu; its nested language list stays within the scrollable panel. Desktop and compact navigation share `_includes/navigation-items.html`. The native disclosures work without JavaScript; `assets/header.js` adds outside-click dismissal, Escape/focus handling, and breakpoint cleanup. Keep its media query in sync with `_sass/layout.scss`.
 
-After building, validate all 330 localized routes, Support content structure, language links, accessibility labels, internal links, and the sitemap:
+After building, validate all 345 localized routes, Support content structure, language links, accessibility labels, internal links, and the sitemap:
 
 ```sh
 bundle exec ruby scripts/validate-localization.rb --site _site
 node scripts/validate-header.js
 ```
 
-For a build using a subdirectory, pass the same `--baseurl /prefix` to the localization validator. Browser checks should also cover narrow screens, long localized names, Arabic right-to-left layout, and keyboard navigation.
+For a build using a subdirectory, pass the same `--baseurl /prefix` to the localization validator. Browser checks should also cover narrow screens, long localized names, Devanagari line height, Arabic right-to-left layout, and keyboard navigation.
 
 ## External-link audit and localization
 
-The 2026-08-31 audit covered all 331 generated HTML pages, including the English policies page: 20,446 internal anchors and 2,713 external anchors (114 unique destinations, including email). All internal page and fragment links resolved. Apple Support's 85 unique target URLs were checked with real GET requests, redirects, and rendered language metadata, not just URL patterns or HTTP status.
+The 2026-09-07 offline audit covered all 346 generated HTML pages, including the English policies page: 22,065 internal anchors and 2,836 external anchors (116 unique destinations, including email). All internal page and fragment links resolved. Apple Support's 86 unique target URLs include the 85 destinations checked with real GET requests, redirects, and rendered language metadata on 2026-08-31 plus the separately verified Hindi Mac guide.
 
 Support links use `_includes/apple-support-url.html` and `_data/external_links.yml`. Keep the article keys shared across translations; the include selects Apple's supported language/region code. This preserves European/Brazilian Portuguese and Simplified/Traditional Chinese and maps Norwegian Bokmål to Apple's `no-no` routes. Unknown locales fall back to English.
 
-Catalan is a per-article exception: Apple's [Mac widgets guide](https://support.apple.com/ca-es/guide/mac-help/mchl52be5da5/mac) is available in Catalan, but the three standalone articles do not advertise Catalan versions. Those links use English and are labeled “en anglès” with `hreflang="en"`.
+Catalan is a per-article exception: Apple's [Mac widgets guide](https://support.apple.com/ca-es/guide/mac-help/mchl52be5da5/mac) is available in Catalan, but the three standalone articles do not advertise Catalan versions. Those links use English and are labeled “en anglès” with `hreflang="en"`. Hindi follows the same pattern: the [Mac widgets guide](https://support.apple.com/hi-in/guide/mac-help/mchl52be5da5/mac) is available in Hindi, while the three standalone articles currently render English; those links are labeled “अंग्रेज़ी में” with `hreflang="en"`.
 
 | Other destination | Audit result and language handling |
 | --- | --- |
@@ -152,7 +152,7 @@ The social, developer, RevenueCat, and Google destinations returned HTTP 200 dur
 
 `_includes/app-store-url.html` applies the audited hints in `external_links.yml` to the standard country-neutral `appstore_link` for `ios_app_id`. Explicit configuration overrides (including campaign, fragment, country-specific, or custom URLs) are preserved unchanged. Unknown locales fall back to the English hint. Use the exact `zh-Hant-TW` hint for Traditional Chinese and `nb-NO` for Norwegian Bokmål: the shorter `zh-Hant` and `no` forms did not select the intended languages in the audit. These remain best-effort hints, not promises about the visitor's final storefront language.
 
-All 22 emitted App Store URLs were checked. The final verification sweep returned 19 HTTP 200 responses and three Apple rate-limit responses (`it`, `pt`, `pt-BR`); those three exact URLs had already returned valid pages earlier in the audit. There were no observed 404 or server-error responses. Avoid repeated high-volume checks, and distinguish temporary rate limits from broken URLs.
+The original 22 emitted App Store URLs were checked in the 2026-08-31 sweep. Hindi adds `?l=hi`, which returned a valid App Store page on 2026-09-07; Apple currently renders that listing in English until Hindi metadata is available. The earlier sweep returned 19 HTTP 200 responses and three temporary Apple rate-limit responses (`it`, `pt`, `pt-BR`), after those exact URLs had already returned valid pages. No 404 or server-error response was observed.
 
 After building, run the offline external-link regression checks along with the localization validator:
 
@@ -167,7 +167,7 @@ New external destinations must be audited before being added to the validator's 
 
 Pages use the shared `_includes/app-store-badge.html` include to select official Apple artwork from `_data/app_store_badges.yml`. SVGs are stored locally in `assets/app-store-badges/`, with English as the fallback for an unknown locale. Badge labels use the existing `download_badge` translations.
 
-Keep Apple's SVG artwork unmodified and follow the [App Store badge guidelines](https://developer.apple.com/app-store/marketing/guidelines/#section-badges). The artwork download endpoint is recorded in the badge map; note that Arabic uses `ar-ar`, Norwegian Bokmål uses `no-no`, and Portuguese and Chinese each have separate regional/script variants. These artwork codes are separate from the App Store link hints above.
+Keep Apple's SVG artwork unmodified and follow the [App Store badge guidelines](https://developer.apple.com/app-store/marketing/guidelines/#section-badges). The artwork download endpoint is recorded in the badge map; note that Arabic uses `ar-ar`, Norwegian Bokmål uses `no-no`, and Portuguese and Chinese each have separate regional/script variants. Apple's `hi-in` badge endpoint currently returns the exact English artwork, so Hindi deliberately reuses the single unmodified `en-us.svg` source. These artwork codes are separate from the App Store link hints above.
 
 After building the site, validate the artwork, locale fallback, accessible labels, and every home/ideas/guide page with:
 

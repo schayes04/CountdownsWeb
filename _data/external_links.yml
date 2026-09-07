@@ -16,6 +16,7 @@ apple_support:
     es: es-es
     fi: fi-fi
     fr: fr-fr
+    hi: en-us # These standalone articles are not currently available in Hindi.
     it: it-it
     ja: ja-jp
     ko: ko-kr
@@ -33,6 +34,7 @@ apple_support:
   guide_locale_overrides:
     en: '' # English user guides use the unprefixed route.
     ca: ca-es # The Mac user guide is available in Catalan.
+    hi: hi-in # The Mac user guide is available in Hindi.
 
 # Language hints do not choose a country/storefront. Apple can fall back to a
 # language supported by the visitor's storefront and device/account settings.
@@ -46,6 +48,7 @@ app_store:
     es: es-ES
     fi: fi-FI
     fr: fr-FR
+    hi: hi
     it: it-IT
     ja: ja-JP
     ko: ko

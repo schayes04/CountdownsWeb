@@ -56,6 +56,13 @@
   app_name: Compte à rebours
   html_lang: fr
   dir: ltr
+- code: hi
+  folder: hi
+  name: Hindi
+  native_name: हिन्दी
+  app_name: काउंटडाउन
+  html_lang: hi
+  dir: ltr
 - code: it
   folder: it
   name: Italian

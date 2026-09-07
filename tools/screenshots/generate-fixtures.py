@@ -20,7 +20,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_DIR = SCRIPT_DIR.parents[1]
 APPLE_LOCALES = {
     "en": "en_US", "ar": "ar_SA@calendar=gregorian", "ca": "ca_ES", "da": "da_DK",
-    "de": "de_DE", "es": "es_ES", "fi": "fi_FI", "fr": "fr_FR",
+    "de": "de_DE", "es": "es_ES", "fi": "fi_FI", "fr": "fr_FR", "hi": "hi_IN",
     "it": "it_IT", "ja": "ja_JP", "ko": "ko_KR", "nb": "nb_NO",
     "nl": "nl_NL", "pl": "pl_PL", "pt": "pt_PT", "pt-BR": "pt_BR",
     "ru": "ru_RU", "sk": "sk_SK", "sv": "sv_SE", "tr": "tr_TR",

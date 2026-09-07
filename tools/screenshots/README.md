@@ -1,21 +1,24 @@
 # Version 12 website screenshots
 
 Reproduce real native captures with Python 3's standard library and Xcode's
-Simulator tools. This is not a publishing pipeline. **All 374 revised captures are
-complete, visually reviewed, and installed, with zero pending:** 220 app + 110 Home
-widget + 44 Lock widget PNGs, covering 17 scenes in each of 22 languages with
-lifetime Pro access. The completed manifest records 324 `pass` and 50
-`pass_with_notes` reviews, including the Arabic fix and French replacement below.
+Simulator tools. This is not a publishing pipeline. **All 391 revised captures are
+complete, visually reviewed, and installed, with zero pending:** 230 app + 115 Home
+widget + 46 Lock widget PNGs, covering 17 scenes in each of 23 languages with
+lifetime Pro access. The completed manifest records 339 `pass` and 52
+`pass_with_notes` reviews, including the Hindi addition, Arabic fix, and French
+replacement below.
 
-[`capture-manifest.json`](capture-manifest.json) records every image hash, fixture
-and capture-evidence hashes, lifetime Pro state, visual review, and native UI notes.
+[`capture-manifest.json`](capture-manifest.json) records every raw-capture image
+hash, fixture and capture-evidence hashes, lifetime Pro state, visual review, and
+native UI notes. Hindi records also include the losslessly recompressed website
+file's published hash.
 [`build-provenance.json`](build-provenance.json) records installed app/widget binary
 hashes and capture-source patch information. Its `baselineBinariesBySurface`
-preserves the original builds; `revisions` separately records the new Arabic build,
-source-archive hash, signing verification, and installed binary hashes. Baseline
-app-only captures predate widget timeline instrumentation; their main Debug dylib
-matches the baseline widget-capture build. The revised Arabic images use their own
-binary proof. No deployment or publishing is part of this workflow.
+preserves the original builds; `revisions` separately records the Arabic and Hindi
+builds, source-archive hashes, signing verification, and installed binary hashes.
+Baseline app-only captures predate widget timeline instrumentation; their main Debug
+dylib matches the baseline widget-capture build. The revised Arabic and new Hindi
+images use their own binary proof. No deployment or publishing is part of this workflow.
 
 ## Per-capture source provenance
 
@@ -24,15 +27,19 @@ Five Arabic app scenes were recaptured from
 trailing-text alignment fix `8732552f07ba0de98084d168f20e8295cd961132`:
 `compact-display`, `colors`,
 `birthday-countdown-app`, `holiday-countdown-app`, and `pregnancy-countdown-app`.
-The other 369 captures retain baseline
+Seventeen Hindi app and widget scenes were captured from
+`a864f816db62c03aaf5d2ae622dc9be783ce31b3`, which includes native Hindi support and
+the localized **काउंटडाउन** display name. The other 369 captures retain baseline
 `c882f8c9f6588b836113d7d205e1ba193995644c`. This includes the French
 `christmas-countdown-app` replacement, reviewed and promoted without the native
 black island seen in its earlier capture.
 
-The manifest's per-image `sourceCommit` and `captureRevisions` identify these five
-replacements; the corresponding `build-provenance.json` revision has exactly that
-scope. All installed image hashes match the revised manifest. Its
-`runtimeFilesSHA256` values preserve the tools used at capture time. The later
+The manifest's per-image `sourceCommit` and `captureRevisions` identify the five
+Arabic replacements and 17 Hindi additions; the corresponding
+`build-provenance.json` revisions have exactly those scopes. The manifest keeps
+raw capture hashes, and the 17 Hindi records also keep the current website-file
+hashes after lossless recompression. Its `runtimeFilesSHA256` values preserve the
+tools used at capture time. The later
 folder cleanup changed only the fixture generator's expected website paths;
 the generated fixtures and screenshot bytes are unchanged. Keep the original
 runtime hashes as capture provenance. Do not describe all captures as coming
@@ -42,8 +49,9 @@ The coordinating review verified that the newer widget-icon changes do not affec
 the captured styles: medium/large Home widgets use `ListCountdownView` with
 20-point list artwork; basic Lock widgets use `LockScreenConfigurationProvider`
 and circular `showProgress: false`, retaining 20-point artwork. The progress
-provider is not used by these captures. All 154 widget images retain valid baseline
-provenance; the Arabic app fix did not require a widget reshoot.
+provider is not used by these captures. The original 154 widget images retain valid
+baseline provenance, and the seven Hindi widget images carry separate build and
+timeline proof; the Arabic app fix did not require a widget reshoot.
 
 ## Isolated native build and fresh simulators
 
@@ -57,7 +65,9 @@ revised Arabic scenes, set `SOURCE_COMMIT` to
 `e1beaa05d97abcfa1097156ef53ecd1a2eb03351` before the archive command, apply the same
 verified capture patch to a fresh temporary tree, and build separately. Limit that
 app capture to `--locales ar` and the five scenes listed above; retain separate
-evidence and the revision's binary provenance.
+evidence and the revision's binary provenance. For Hindi, use
+`a864f816db62c03aaf5d2ae622dc9be783ce31b3`, capture all 17 scenes with `--locales hi`,
+and record the app and both widget surfaces under one signed build revision.
 
 ```sh
 WEBSITE_ROOT="$PWD"
@@ -94,11 +104,11 @@ it does not make a production purchase or change production entitlements.
 
 ## Fixtures and coverage
 
-`_data/screenshots.yml` defines **22 locales × 17 scenes = 374 PNG paths**, native
+`_data/screenshots.yml` defines **23 locales × 17 scenes = 391 PNG paths**, native
 size **1206 × 2622**, and 12 guide mappings. Exact CLI/manifest locale codes:
 
 ```text
-en ar ca da de es fi fr it ja ko nb nl pl pt pt-BR ru sk sv tr zh-Hans zh-Hant
+en ar ca da de es fi fr hi it ja ko nb nl pl pt pt-BR ru sk sv tr zh-Hans zh-Hant
 ```
 
 Paths are `/assets/screenshots/<folder>/<scene>.png`. Use the locale folder
@@ -108,11 +118,11 @@ Keep the app version in the manifests rather than in the image directory name.
 The seven superseded root-level PNGs and unused guide screenshot fields have been
 removed; Git preserves the old images. The separate press-kit ZIP is unchanged.
 
-| Family | `--scenes` value | Images across 22 locales |
+| Family | `--scenes` value | Images across 23 locales |
 | --- | --- | --- |
-| App | `normal-display,compact-display,colors,editing,settings,birthday-countdown-app,holiday-countdown-app,retirement-countdown-app,pregnancy-countdown-app,event-countdown-app` | 220 |
-| Home widgets | `home-screen-widgets,wedding-countdown-app,vacation-countdown-app,anniversary-countdown-app,theme-park-trip-countdown-app` | 110 |
-| Lock widgets | `lock-screen-widgets,christmas-countdown-app` | 44 |
+| App | `normal-display,compact-display,colors,editing,settings,birthday-countdown-app,holiday-countdown-app,retirement-countdown-app,pregnancy-countdown-app,event-countdown-app` | 230 |
+| Home widgets | `home-screen-widgets,wedding-countdown-app,vacation-countdown-app,anniversary-countdown-app,theme-park-trip-countdown-app` | 115 |
+| Lock widgets | `lock-screen-widgets,christmas-countdown-app` | 46 |
 
 Generate fixtures for the capture machine's **current local date**. Generation is
 deterministic for the supplied date and `fixtures/localizations.json`; the helpers
@@ -124,7 +134,7 @@ FIXTURES=/private/tmp/countdowns-v12-fixtures
 python3 tools/screenshots/generate-fixtures.py --date "$(date +%F)" --output "$FIXTURES"
 ```
 
-The generator writes 374 fixture JSON files and `batch-index.json`. Use the index's
+The generator writes 391 fixture JSON files and `batch-index.json`. Use the index's
 Apple locale identifiers, including **`ar_SA@calendar=gregorian` for Arabic**;
 plain `ar_SA` can change calendar behavior. Preserve exact locale codes in arguments.
 
@@ -169,14 +179,14 @@ and recaptured. **Independent pixel QA remains mandatory**: verify the localized
 date, all three widget families, and the saved surface rather than the gallery or
 editor. Timeline readiness and resume fields do not replace visual review.
 
-**Arabic, Korean, and Traditional Chinese Lock clock exceptions:** iOS ignores the
-requested 09:41 override on the observed `ar`, `ko`, and `zh-Hant` Lock surfaces.
-Traditional Chinese captures retain native 8:55/8:56 clocks; a Korean capture showed
-9:00. Other locales, including Simplified Chinese (`zh-Hans`), were observed at
-09:41. Full-size visual review verified the localized date, all three widgets, and
-layout for the accepted exceptions. They retain authentic capture-time clocks with
-`pass_with_notes`; the existing manifest records `clockOverrideEffective: false`
-for both Lock scenes in each of `ar`, `ko`, and `zh-Hant`.
+**Arabic, Hindi, Korean, and Traditional Chinese Lock clock exceptions:** iOS ignores
+the requested 09:41 override on the observed `ar`, `hi`, `ko`, and `zh-Hant` Lock
+surfaces. Hindi retains native 11:25/11:26 clocks, Traditional Chinese retains
+8:55/8:56, and a Korean capture showed 9:00. Other locales, including Simplified
+Chinese (`zh-Hans`), were observed at 09:41. Full-size visual review verified the
+localized date, all three widgets, and layout for the accepted exceptions. They
+retain authentic capture-time clocks with `pass_with_notes`; the manifest records
+`clockOverrideEffective: false` for both Lock scenes in each affected locale.
 The user did not require 09:41. No image editing or app-code change is needed to
 force it. `statusBarTimeUTC` records the requested override, not proof of the visible
 clock. Independent pixel QA remains mandatory for each accepted image, including
@@ -226,7 +236,7 @@ python3 tools/screenshots/capture-widgets.py \
   --allow-simulator-settings --scenes "$LOCK_SCENES"
 ```
 
-Both helpers accept `--locales en,de` (default all 22), `--scenes` subsets, and
+Both helpers accept `--locales en,de` (default all 23), `--scenes` subsets, and
 `--resume` for matching image/fixture hashes and valid saved proofs. Settle defaults
 are two seconds for app scenes and four for widgets. Use fresh output/evidence
 folders after native patch changes; resume does not establish patch identity.
@@ -276,9 +286,11 @@ SHA-256 hashes, and the supplied source commit. Missing proof fails the batch be
 writing that capture. Timeline evidence is **`timeline-data`**, with
 `renderingVerified: false`: it proves provider data, not pixels.
 
-Each PNG comes directly from `simctl io screenshot`, checked as **1206 × 2622**
-before atomic replacement. Keep PNGs **unframed and unmodified**: no resizing,
-compositing, fake widget UI, or baked-in device frame. Separately review every locale
+Each raw PNG comes directly from `simctl io screenshot`, checked as **1206 ×
+2622** before atomic replacement. Checked-in PNGs may be losslessly recompressed
+after preserving the raw evidence and hash; decoded pixels and dimensions must stay
+unchanged. Keep PNGs **unframed**: no resizing, compositing, fake widget UI, or
+baked-in device frame. Separately review every locale
 and scene for correct language, event selection, layout, and saved widget surface.
 Verify build provenance separately; a recorded source-commit argument is not proof
 of the installed binary. Promote only reviewed PNGs to the exact manifest paths.
@@ -303,23 +315,26 @@ rbenv exec bundle exec ruby scripts/validate-screenshots.rb \
   --site /private/tmp/countdowns-v12-site-preview-final-01a05493 --baseurl /preview
 ```
 
-The validator checks all 374 source paths/dimensions and localized alts, plus image
-and preload paths across **308 routes** (22 × home, ideas, and 12 guides), including
+The validator checks all 391 source paths/dimensions and localized alts, plus image
+and preload paths across **322 routes** (23 × home, ideas, and 12 guides), including
 locale leakage, framing, and loading/accessibility attributes. `--verbose` lists all
 failures. Missing files remain failures and must never be replaced with another
 locale's capture.
 
-The **revised final** root and `/preview` builds and validators all exited **0**,
-including the five new Arabic images and French Christmas replacement. Each
-validator checked **374 source PNG paths, 374 localized alts, 308/308 routes, and
-2,002 image/preload references**, with zero failures. All 374 built PNG hashes in
-each output match the revised capture manifest, with 369 baseline and five newer
-Arabic source commits. The public-output audit found no tools, scripts, capture
-manifests, or private evidence in either build. Fresh build and validator logs,
-command exit codes, and audit results replace the pre-revision results in
-`/private/tmp/countdowns-v12-final-validation-01a05493`. This records capture and
-static integration validation; final browser review is a separate check, not a
-deployment or publishing step.
+The **2026-09-07 final** root and `/preview` builds and validators all exited **0**,
+including the 17 Hindi additions, five revised Arabic images, and French Christmas
+replacement. Each validator checked **391 source PNG paths, 391 localized alts,
+322/322 routes, and 2,093 image/preload references**, with zero failures. The 17
+Hindi built PNGs in each output match their `publishedImageSHA256` values; their
+`imageSHA256` values retain the raw simulator bytes. Root and preview outputs match
+the checked-in published files. The other 374 `imageSHA256` values remain capture-
+time hashes from before the site's earlier lossless PNG recompression, so byte
+equality is not expected for those published files. The public-output audit found no
+tools, scripts, capture manifests, or private evidence in either build. The Hindi homepage,
+Help Center, and longest guide were also reviewed in a browser at desktop and
+390-pixel widths, including Devanagari line height and responsive navigation. This
+records capture and static integration validation; browser review remains separate
+from deployment or publishing.
 
 Jekyll excludes `tools` and `scripts`; keep evidence outside public assets too.
 This workflow does not deploy, publish, push, or modify the original native app.

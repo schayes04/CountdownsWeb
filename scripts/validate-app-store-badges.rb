@@ -54,10 +54,10 @@ class AppStoreBadgeValidator
 
       bytes = path.binread
       digest = Digest::SHA256.hexdigest(bytes)
-      if contents.key?(digest)
+      if contents.key?(digest) && contents[digest] != file
         check(:sources, false, "#{code}: #{file} duplicates #{contents[digest]}")
       end
-      contents[digest] = file
+      contents[digest] ||= file
       @counts[:sources] += 1
       validate_svg(path, entry, code)
     rescue SystemCallError => error

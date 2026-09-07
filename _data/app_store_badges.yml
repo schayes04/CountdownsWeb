@@ -9,6 +9,7 @@ de: { file: de-de.svg, width: 120 }
 es: { file: es-es.svg, width: 120 }
 fi: { file: fi-fi.svg, width: 143 }
 fr: { file: fr-fr.svg, width: 127 }
+hi: { file: en-us.svg, width: 120 } # Apple's hi-in endpoint currently returns the English artwork.
 it: { file: it-it.svg, width: 120 }
 ja: { file: ja-jp.svg, width: 109 }
 ko: { file: ko-kr.svg, width: 130 }

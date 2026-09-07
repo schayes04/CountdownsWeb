@@ -12,7 +12,7 @@ class AppNameValidator
   EXPECTED = {
     'en' => 'Countdowns', 'ar' => 'العدادات التنازلية', 'ca' => 'Comptes Enrere',
     'da' => 'Nedtællinger', 'de' => 'Countdowns', 'es' => 'Cuentas atrás',
-    'fi' => 'Laskurit', 'fr' => 'Compte à rebours', 'it' => 'Contatore',
+    'fi' => 'Laskurit', 'fr' => 'Compte à rebours', 'hi' => 'काउंटडाउन', 'it' => 'Contatore',
     'ja' => 'カウントダウン', 'ko' => '카운트다운', 'nb' => 'Nedtellinger',
     'nl' => 'Aftellingen', 'pl' => 'Odliczanie', 'pt' => 'Contagem',
     'pt-BR' => 'Contagens', 'ru' => 'Таймеры', 'sk' => 'Odpočty',
@@ -255,7 +255,7 @@ class AppNameValidator
     validate_source
     routes = ['', *ROUTES, *@guides]
     check(:source, routes.size == 15, "Expected 12 guide pages plus home, ideas, and support (found #{@guides.size} guides)")
-    check(:routes, @locales.size * routes.size == 330, "Expected 330 locale routes (found #{@locales.size * routes.size})")
+    check(:routes, @locales.size * routes.size == 345, "Expected 345 locale routes (found #{@locales.size * routes.size})")
     @locales.each { |locale| routes.each { |slug| validate_route(locale, slug) } }
     %w[policies].each do |name|
       file = [@site.join("#{name}.html"), @site.join(name, 'index.html')].find(&:file?)
