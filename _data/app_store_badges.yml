@@ -1,6 +1,7 @@
 # Official Apple artwork, stored locally and unmodified.
-# Source: https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/{locale}?size=250x83
-# Widths are rounded intrinsic dimensions for HTML layout hints; CSS preserves the SVG aspect ratio.
+# Primary source: https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/{locale}?size=250x83
+# Hindi source: Apple's current Download Artwork (All Versions) archive linked from its App Store marketing guidelines.
+# Widths use each SVG's aspect ratio at 40px display height; CSS preserves that aspect ratio.
 en: { file: en-us.svg, width: 120 }
 ar: { file: ar-ar.svg, width: 120 }
 ca: { file: ca-es.svg, width: 126 }
@@ -9,7 +10,7 @@ de: { file: de-de.svg, width: 120 }
 es: { file: es-es.svg, width: 120 }
 fi: { file: fi-fi.svg, width: 143 }
 fr: { file: fr-fr.svg, width: 127 }
-hi: { file: en-us.svg, width: 120 } # Apple's hi-in endpoint currently returns the English artwork.
+hi: { file: hi-in.svg, width: 107 }
 it: { file: it-it.svg, width: 120 }
 ja: { file: ja-jp.svg, width: 109 }
 ko: { file: ko-kr.svg, width: 130 }

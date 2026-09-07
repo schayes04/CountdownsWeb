@@ -167,7 +167,7 @@ New external destinations must be audited before being added to the validator's 
 
 Pages use the shared `_includes/app-store-badge.html` include to select official Apple artwork from `_data/app_store_badges.yml`. SVGs are stored locally in `assets/app-store-badges/`, with English as the fallback for an unknown locale. Badge labels use the existing `download_badge` translations.
 
-Keep Apple's SVG artwork unmodified and follow the [App Store badge guidelines](https://developer.apple.com/app-store/marketing/guidelines/#section-badges). The artwork download endpoint is recorded in the badge map; note that Arabic uses `ar-ar`, Norwegian Bokmål uses `no-no`, and Portuguese and Chinese each have separate regional/script variants. Apple's `hi-in` badge endpoint currently returns the exact English artwork, so Hindi deliberately reuses the single unmodified `en-us.svg` source. These artwork codes are separate from the App Store link hints above.
+Keep Apple's SVG artwork unmodified and follow the [App Store badge guidelines](https://developer.apple.com/app-store/marketing/guidelines/#section-badges). The artwork download endpoint is recorded in the badge map; note that Arabic uses `ar-ar`, Norwegian Bokmål uses `no-no`, and Portuguese and Chinese each have separate regional/script variants. Apple's legacy `hi-in` API endpoint currently returns English artwork, so Hindi uses the untouched black SVG from Apple's current Download Artwork (All Versions) archive instead. These artwork codes are separate from the App Store link hints above.
 
 After building the site, validate the artwork, locale fallback, accessible labels, and every home/ideas/guide page with:
 

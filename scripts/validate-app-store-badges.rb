@@ -54,10 +54,10 @@ class AppStoreBadgeValidator
 
       bytes = path.binread
       digest = Digest::SHA256.hexdigest(bytes)
-      if contents.key?(digest) && contents[digest] != file
+      if contents.key?(digest)
         check(:sources, false, "#{code}: #{file} duplicates #{contents[digest]}")
       end
-      contents[digest] ||= file
+      contents[digest] = file
       @counts[:sources] += 1
       validate_svg(path, entry, code)
     rescue SystemCallError => error
@@ -74,12 +74,15 @@ class AppStoreBadgeValidator
     width = root['width'].to_s[/[-+]?\d*\.?\d+/]&.to_f
     height = root['height'].to_s[/[-+]?\d*\.?\d+/]&.to_f
     viewbox = root['viewBox'].to_s.split.map(&:to_f)
-    check(:sources, width && viewbox.size == 4, "#{code}: #{path.basename} must declare width and viewBox")
-    if width && viewbox.size == 4
-      check(:sources, width.round == entry['width'].to_i && viewbox[2].round == entry['width'].to_i,
-            "#{code}: #{path.basename} width/viewBox #{width}/#{viewbox[2]} does not round to #{entry['width']}")
+    valid_geometry = width&.positive? && height&.positive? && viewbox.size == 4 &&
+                     viewbox[2].positive? && viewbox[3].positive?
+    check(:sources, valid_geometry, "#{code}: #{path.basename} must declare positive width, height, and viewBox")
+    if valid_geometry
+      display_width = width * 40.0 / height
+      viewbox_width = viewbox[2] * 40.0 / viewbox[3]
+      check(:sources, display_width.round == entry['width'].to_i && viewbox_width.round == entry['width'].to_i,
+            "#{code}: #{path.basename} aspect ratio renders at #{display_width}/#{viewbox_width}px, expected #{entry['width']}")
     end
-    check(:sources, height && height.round == 40, "#{code}: #{path.basename} height must round to 40")
   rescue Nokogiri::XML::SyntaxError => error
     check(:sources, false, "#{code}: invalid SVG #{path.basename}: #{error.message.lines.first.strip}")
   end
@@ -177,14 +180,17 @@ class AppStoreBadgeValidator
   def validate_liquid_include
     en = mapping(@manifest['en'])
     fr = mapping(@manifest['fr'])
+    hi = mapping(@manifest['hi'])
     ja = mapping(@manifest['ja'])
     en_label = localized_label('en')
     fr_label = localized_label('fr')
+    hi_label = localized_label('hi')
     ja_label = localized_label('ja')
     assert_rendered_badge(render_include, expected_file: en['file'], expected_width: en['width'], expected_label: en_label, expected_href: expected_app_store_href('en'))
     assert_rendered_badge(render_include(page: { 'locale' => 'xx' }), expected_file: en['file'], expected_width: en['width'], expected_label: en_label, expected_href: expected_app_store_href('xx'))
     assert_rendered_badge(render_include(page: { 'locale' => '' }), expected_file: en['file'], expected_width: en['width'], expected_label: en_label, expected_href: expected_app_store_href(''))
     assert_rendered_badge(render_include(page: { 'locale' => 'fr' }), expected_file: fr['file'], expected_width: fr['width'], expected_label: fr_label, expected_href: expected_app_store_href('fr'))
+    assert_rendered_badge(render_include(page: { 'locale' => 'hi' }), expected_file: hi['file'], expected_width: hi['width'], expected_label: hi_label, expected_href: expected_app_store_href('hi'))
     assert_rendered_badge(render_include(page: { 'locale' => 'fr' }, include_data: { 'locale' => 'ja' }), expected_file: ja['file'], expected_width: ja['width'], expected_label: ja_label, expected_href: expected_app_store_href('ja'))
 
     missing_label_strings = Marshal.load(Marshal.dump(@strings))
