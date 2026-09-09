@@ -158,7 +158,6 @@ class LocalizationValidator
     folder = locale['folder'].to_s
     path = case key
            when 'home' then folder.empty? ? '/' : "/#{folder}/"
-           when 'support' then folder.empty? ? '/support' : "/#{folder}/support/"
            else
              "/#{[folder, key].reject(&:empty?).join('/')}/"
            end

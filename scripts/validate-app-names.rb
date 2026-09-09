@@ -113,10 +113,6 @@ class AppNameValidator
     route = '/' + [locale['folder'], slug].reject { |part| part.to_s.empty? }.join('/')
     route += '/' unless route.end_with?('/')
     file = slug.to_s.empty? ? @site.join(locale['folder'].to_s, 'index.html') : @site.join(locale['folder'].to_s, slug.to_s, 'index.html')
-    if code == 'en' && slug == 'support'
-      route = '/support'
-      file = @site.join('support.html')
-    end
     @counts[:routes] += 1
     unless file.file?
       check(:routes, false, "Missing built route: #{route}")

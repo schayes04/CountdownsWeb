@@ -3,7 +3,7 @@ layout: resource-page
 locale: en
 canonical_key: support
 source_version: '2026-08-17'
-permalink: /support
+permalink: /support/
 title: Help Center
 meta_title: Countdowns Help Center | iCloud, Widgets & Apple Watch Help
 description: Get help with Countdowns iCloud and Apple Watch sync, widgets, Family Sharing, supported operating systems, refunds, and more.

@@ -115,7 +115,7 @@ When the native repository is available, also pass `--native-catalog "/path/to/C
 
 ## Localized Support and navigation
 
-`support.md` is the English Help Center source. Its existing `/support` URL is preserved; translations live at `<locale folder>/support/index.md` and use directory URLs. Keep the section IDs and order, troubleshooting steps, external-link destinations (using their localized equivalents), and `source_version` aligned with English when updating translations. Keep native app names intact, adapting the surrounding grammar as needed. Policies remain English-only and opt out of localization with `localized: false`.
+`support.md` is the English Help Center source. It uses the directory URL `/support/`, allowing requests to `/support` to redirect to it. Translations live at `<locale folder>/support/index.md` and also use directory URLs. Keep the section IDs and order, troubleshooting steps, external-link destinations (using their localized equivalents), and `source_version` aligned with English when updating translations. Keep native app names intact, adapting the surrounding grammar as needed. Policies remain English-only and opt out of localization with `localized: false`.
 
 The shared `_includes/locale-url.html` helper keeps language switching, alternate links, the footer's Help Center link, and sitemap routes consistent. Shared accessibility text and the menu label are translated in `_data/strings.yml`.
 
