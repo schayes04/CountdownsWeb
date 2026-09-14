@@ -7,7 +7,7 @@ title: Central de ajuda
 meta_title: "Central de ajuda do Contagens | Ajuda com iCloud, widgets e Apple Watch"
 description: "Obtenha ajuda com a sincronização do iCloud e do Apple Watch do Contagens, widgets, Compartilhamento Familiar, versões compatíveis dos sistemas operacionais, reembolsos e muito mais."
 intro: "Encontre respostas para perguntas comuns sobre o Contagens e siga as etapas de solução de problemas para seus dispositivos Apple."
-source_version: '2026-08-17'
+source_version: '2026-09-14'
 sections:
   - id: icloud-sync
     title: Sincronização do iCloud
@@ -19,6 +19,8 @@ sections:
     title: Compartilhamento Familiar
   - id: supported-os-versions
     title: "Versões compatíveis do sistema operacional"
+  - id: subscriptions
+    title: "Gerenciar ou cancelar assinaturas"
   - id: refunds
     title: Reembolsos
   - id: contact
@@ -106,6 +108,11 @@ Contagens oferece suporte ao Compartilhamento Familiar para assinaturas e compra
 {: #supported-os-versions}
 
 Contagens oferece suporte a pelo menos a versão principal atual do sistema operacional e às duas versões principais anteriores em cada plataforma Apple compatível.
+
+## Gerenciar ou cancelar assinaturas
+{: #subscriptions}
+
+Para gerenciar ou cancelar sua assinatura do Contagens, abra os ajustes de assinaturas da sua Conta Apple. Para saber como cancelar, siga [as instruções da Apple]({% include apple-support-url.html key="subscriptions" %}).
 
 ## Reembolsos
 {: #refunds}

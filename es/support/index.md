@@ -7,7 +7,7 @@ title: Centro de ayuda
 meta_title: "Centro de ayuda de Cuentas atrás | Ayuda sobre iCloud, widgets y Apple Watch"
 description: "Obtén ayuda con la sincronización de iCloud y Apple Watch de Cuentas atrás, widgets, En familia, versiones de sistemas operativos compatibles, reembolsos y más."
 intro: "Encuentra respuestas a preguntas frecuentes sobre Cuentas atrás y sigue los pasos para solucionar problemas en tus dispositivos Apple."
-source_version: '2026-08-17'
+source_version: '2026-09-14'
 sections:
   - id: icloud-sync
     title: Sincronización con iCloud
@@ -19,6 +19,8 @@ sections:
     title: En familia
   - id: supported-os-versions
     title: "Versiones de SO compatibles"
+  - id: subscriptions
+    title: "Gestionar o cancelar suscripciones"
   - id: refunds
     title: Reembolsos
   - id: contact
@@ -106,6 +108,11 @@ Cuentas atrás admite En familia para suscripciones y compras dentro de la app. 
 {: #supported-os-versions}
 
 Cuentas atrás admite, como mínimo, la versión principal actual del sistema operativo y las dos versiones principales anteriores en cada plataforma Apple compatible.
+
+## Gestionar o cancelar suscripciones
+{: #subscriptions}
+
+Para gestionar o cancelar tu suscripción a Cuentas atrás, abre los ajustes de suscripciones de tu cuenta de Apple. Para conocer los pasos de cancelación, sigue [las instrucciones de Apple]({% include apple-support-url.html key="subscriptions" %}).
 
 ## Reembolsos
 {: #refunds}

@@ -18,11 +18,13 @@ sections:
     title: Familiedeling
   - id: supported-os-versions
     title: Støttede OS-versjoner
+  - id: subscriptions
+    title: "Administrere eller si opp abonnementer"
   - id: refunds
     title: Refusjoner
   - id: contact
     title: Kontakt
-source_version: '2026-08-17'
+source_version: '2026-09-14'
 ---
 
 ## iCloud-synkronisering
@@ -106,6 +108,11 @@ Nedtellinger støtter Familiedeling for abonnementer og kjøp i appen. Kontrolle
 {: #supported-os-versions}
 
 Nedtellinger støtter minst gjeldende hovedversjon av operativsystemet og de to foregående hovedversjonene på hver støttede Apple-plattform.
+
+## Administrere eller si opp abonnementer
+{: #subscriptions}
+
+For å administrere eller si opp abonnementet ditt på Nedtellinger åpner du abonnementsinnstillingene for Apple-kontoen din. Følg [Apples instruksjoner]({% include apple-support-url.html key="subscriptions" %}) for å se hvordan du sier opp abonnementet.
 
 ## Refusjoner
 {: #refunds}

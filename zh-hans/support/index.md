@@ -7,7 +7,7 @@ title: 帮助中心
 meta_title: 时光仪帮助中心 | iCloud、小组件与 Apple Watch 帮助
 description: 获取有关时光仪 iCloud 和 Apple Watch 同步、小组件、家人共享、支持的操作系统版本、退款等方面的帮助。
 intro: 查找有关时光仪的常见问题解答，并按照步骤排查 Apple 设备的问题。
-source_version: '2026-08-17'
+source_version: '2026-09-14'
 sections:
   - id: icloud-sync
     title: iCloud 同步
@@ -19,6 +19,8 @@ sections:
     title: 家人共享
   - id: supported-os-versions
     title: 支持的操作系统版本
+  - id: subscriptions
+    title: "管理或取消订阅"
   - id: refunds
     title: 退款
   - id: contact
@@ -106,6 +108,11 @@ iCloud 同步在使用当前软件时效果最佳。在每台设备上安装最�
 {: #supported-os-versions}
 
 时光仪在每个受支持的 Apple 平台上至少支持当前主要操作系统版本及之前两个主要版本。
+
+## 管理或取消订阅
+{: #subscriptions}
+
+要管理或取消时光仪订阅，请打开 Apple 账户的订阅设置。有关取消订阅的步骤，请参阅 [Apple 的说明]({% include apple-support-url.html key="subscriptions" %})。
 
 ## 退款
 {: #refunds}

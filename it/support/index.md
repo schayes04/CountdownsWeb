@@ -7,7 +7,7 @@ title: Centro assistenza
 meta_title: "Centro assistenza Contatore | Aiuto per iCloud, widget e Apple Watch"
 description: "Ricevi assistenza per la sincronizzazione iCloud e Apple Watch di Contatore, i widget, la condivisione in famiglia, le versioni dei sistemi operativi supportate, i rimborsi e altro ancora."
 intro: "Trova le risposte alle domande più frequenti su Contatore e segui i passaggi per risolvere i problemi sui tuoi dispositivi Apple."
-source_version: '2026-08-17'
+source_version: '2026-09-14'
 sections:
   - id: icloud-sync
     title: Sincronizzazione iCloud
@@ -19,6 +19,8 @@ sections:
     title: In famiglia
   - id: supported-os-versions
     title: "Versioni del sistema operativo supportate"
+  - id: subscriptions
+    title: "Gestire o annullare gli abbonamenti"
   - id: refunds
     title: Rimborsi
   - id: contact
@@ -106,6 +108,11 @@ Contatore supporta In famiglia per gli abbonamenti e gli acquisti in-app. Assicu
 {: #supported-os-versions}
 
 Contatore supporta almeno la versione principale corrente del sistema operativo e le due versioni principali precedenti su ogni piattaforma Apple supportata.
+
+## Gestire o annullare gli abbonamenti
+{: #subscriptions}
+
+Per gestire o annullare il tuo abbonamento a Contatore, apri le impostazioni degli abbonamenti del tuo Apple Account. Per conoscere i passaggi per l’annullamento, segui [le istruzioni di Apple]({% include apple-support-url.html key="subscriptions" %}).
 
 ## Rimborsi
 {: #refunds}

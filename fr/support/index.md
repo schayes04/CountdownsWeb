@@ -7,7 +7,7 @@ title: Centre d’assistance
 meta_title: "Centre d’assistance Compte à rebours | Aide iCloud, widgets et Apple Watch"
 description: "Obtenez de l’aide concernant la synchronisation iCloud et Apple Watch de Compte à rebours, les widgets, le partage familial, les versions de systèmes d’exploitation prises en charge, les remboursements, et plus encore."
 intro: "Trouvez les réponses aux questions fréquentes sur Compte à rebours et suivez les étapes de dépannage pour vos appareils Apple."
-source_version: '2026-08-17'
+source_version: '2026-09-14'
 sections:
   - id: icloud-sync
     title: Synchronisation iCloud
@@ -19,6 +19,8 @@ sections:
     title: Partage familial
   - id: supported-os-versions
     title: "Versions des OS prises en charge"
+  - id: subscriptions
+    title: "Gérer ou résilier des abonnements"
   - id: refunds
     title: Remboursements
   - id: contact
@@ -106,6 +108,11 @@ Compte à rebours prend en charge le partage familial pour les abonnements et le
 {: #supported-os-versions}
 
 Compte à rebours prend en charge au minimum la version majeure actuelle du système d’exploitation et les deux versions majeures précédentes sur chaque plateforme Apple prise en charge.
+
+## Gérer ou résilier des abonnements
+{: #subscriptions}
+
+Pour gérer ou résilier votre abonnement à Compte à rebours, ouvrez les réglages des abonnements de votre compte Apple. Pour connaître les étapes de résiliation, suivez [les instructions d’Apple]({% include apple-support-url.html key="subscriptions" %}).
 
 ## Remboursements
 {: #refunds}

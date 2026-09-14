@@ -7,7 +7,7 @@ title: 도움말 센터
 meta_title: 카운트다운 도움말 센터 | iCloud, 위젯 및 Apple Watch 도움말
 description: 카운트다운의 iCloud 및 Apple Watch 동기화, 위젯, 가족 공유, 지원되는 운영 체제 버전, 환불 등에 관한 도움말을 확인하세요.
 intro: 카운트다운에 관한 일반적인 질문의 답변을 찾고 Apple 기기의 문제 해결 단계를 따르세요.
-source_version: '2026-08-17'
+source_version: '2026-09-14'
 sections:
   - id: icloud-sync
     title: iCloud 동기화
@@ -19,6 +19,8 @@ sections:
     title: 가족 공유
   - id: supported-os-versions
     title: 지원되는 운영 체제 버전
+  - id: subscriptions
+    title: "구독 관리 또는 취소"
   - id: refunds
     title: 환불
   - id: contact
@@ -106,6 +108,11 @@ iPhone과 Apple Watch를 모두 재시동하세요. 이렇게 하면 일반적�
 {: #supported-os-versions}
 
 카운트다운은 지원되는 각 Apple 플랫폼에서 현재 주요 운영 체제 버전과 그 이전의 두 주요 버전을 최소한 지원합니다.
+
+## 구독 관리 또는 취소
+{: #subscriptions}
+
+카운트다운 구독을 관리하거나 취소하려면 Apple 계정의 구독 설정을 여세요. 취소 방법은 [Apple의 안내]({% include apple-support-url.html key="subscriptions" %})를 따르세요.
 
 ## 환불
 {: #refunds}

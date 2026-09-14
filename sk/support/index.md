@@ -18,11 +18,13 @@ sections:
     title: Rodinné zdieľanie
   - id: supported-os-versions
     title: Podporované verzie OS
+  - id: subscriptions
+    title: "Správa alebo zrušenie predplatného"
   - id: refunds
     title: Refundácie
   - id: contact
     title: Kontakt
-source_version: '2026-08-17'
+source_version: '2026-09-14'
 ---
 
 ## Synchronizácia s iCloudom
@@ -106,6 +108,11 @@ Odpočty podporujú Rodinné zdieľanie pre predplatné a nákupy v apke. Uistit
 {: #supported-os-versions}
 
 Odpočty podporujú aspoň aktuálnu hlavnú verziu operačného systému a dve predchádzajúce hlavné verzie na každej podporovanej platforme Apple.
+
+## Správa alebo zrušenie predplatného
+{: #subscriptions}
+
+Ak chcete spravovať alebo zrušiť predplatné aplikácie Odpočty, otvorte nastavenia predplatného svojho Apple účtu. Postup zrušenia nájdete v [pokynoch spoločnosti Apple]({% include apple-support-url.html key="subscriptions" %}).
 
 ## Refundácie
 {: #refunds}

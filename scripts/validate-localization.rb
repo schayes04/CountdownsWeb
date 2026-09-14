@@ -14,7 +14,7 @@ class LocalizationValidator
   ].freeze
   APP_LABELS = %w[app_highlights_label home_widgets_preview_label].freeze
   ROUTE_KEYS = ['home', 'countdown-ideas', 'support'].freeze
-  APPLE_ARTICLE_KEYS = %w[iphone_widgets iphone_wallpaper mac_widgets refunds].freeze
+  APPLE_ARTICLE_KEYS = %w[iphone_widgets iphone_wallpaper mac_widgets subscriptions refunds].freeze
   ENGLISH_APPLE_FALLBACK_LOCALES = %w[ca hi].freeze
 
   def initialize(source:, site:, baseurl: '', verbose: false)
@@ -470,7 +470,7 @@ class LocalizationValidator
     @apple_articles = apple['articles'].is_a?(Hash) ? apple['articles'] : {}
     @apple_locales = apple['locales'].is_a?(Hash) ? apple['locales'] : {}
     @apple_guide_overrides = apple['guide_locale_overrides'].is_a?(Hash) ? apple['guide_locale_overrides'] : {}
-    check(:external_links, @apple_articles.keys.sort == APPLE_ARTICLE_KEYS.sort, 'apple_support.articles keys must match the four supported article keys')
+    check(:external_links, @apple_articles.keys.sort == APPLE_ARTICLE_KEYS.sort, 'apple_support.articles keys must match the supported article keys')
     @apple_articles.each do |key, value|
       check(:external_links, value.is_a?(String) && value.match?(%r{\A(?:\d+|guide/[a-z0-9-]+/[a-z0-9-]+/[a-z0-9-]+)\z}), "apple_support.articles.#{key} must be a safe Apple Support path")
     end
@@ -501,6 +501,9 @@ class LocalizationValidator
     cases = [
       ['explicit English article', 'en', 'en', 'iphone_widgets', 'https://support.apple.com/en-us/118610'],
       ['no locale fallback', nil, nil, 'iphone_widgets', 'https://support.apple.com/en-us/118610'],
+      ['localized subscription article', nil, 'fr', 'subscriptions', 'https://support.apple.com/fr-fr/118428'],
+      ['Catalan subscription fallback', nil, 'ca', 'subscriptions', 'https://support.apple.com/en-us/118428'],
+      ['Hindi subscription fallback', nil, 'hi', 'subscriptions', 'https://support.apple.com/en-us/118428'],
       ['page-locale default', nil, 'fr', 'refunds', 'https://support.apple.com/fr-fr/118223'],
       ['empty locale fallback', '', 'de', 'iphone_widgets', 'https://support.apple.com/de-de/118610'],
       ['unknown locale fallback', 'unknown', 'fr', 'iphone_wallpaper', 'https://support.apple.com/en-us/102638'],

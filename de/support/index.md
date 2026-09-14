@@ -7,7 +7,7 @@ title: Hilfe-Center
 meta_title: "Countdowns Hilfe-Center | Hilfe zu iCloud, Widgets und Apple Watch"
 description: "Erhalte Hilfe zur iCloud- und Apple-Watch-Synchronisierung von Countdowns, zu Widgets, Familienfreigabe, unterstützten Betriebssystemversionen, Rückerstattungen und mehr."
 intro: "Finde Antworten auf häufige Fragen zu Countdowns und folge den Schritten zur Fehlerbehebung für deine Apple-Geräte."
-source_version: '2026-08-17'
+source_version: '2026-09-14'
 sections:
   - id: icloud-sync
     title: iCloud-Synchronisierung
@@ -19,6 +19,8 @@ sections:
     title: Familienfreigabe
   - id: supported-os-versions
     title: "Unterstützte Betriebssystemversionen"
+  - id: subscriptions
+    title: "Abonnements verwalten oder kündigen"
   - id: refunds
     title: Rückerstattungen
   - id: contact
@@ -106,6 +108,11 @@ Countdowns unterstützt die Familienfreigabe für Abonnements und In-App-Käufe.
 {: #supported-os-versions}
 
 Countdowns unterstützt auf jeder unterstützten Apple-Plattform mindestens die aktuelle Hauptversion des Betriebssystems und die beiden vorhergehenden Hauptversionen.
+
+## Abonnements verwalten oder kündigen
+{: #subscriptions}
+
+Um dein Countdowns-Abonnement zu verwalten oder zu kündigen, öffne die Abonnementeinstellungen deines Apple Accounts. Die Schritte zur Kündigung findest du in [Apples Anleitung]({% include apple-support-url.html key="subscriptions" %}).
 
 ## Rückerstattungen
 {: #refunds}

@@ -7,7 +7,7 @@ title: 支援中心
 meta_title: 倒數日支援中心 | iCloud、小工具與 Apple Watch 支援
 description: 取得倒數日 iCloud 和 Apple Watch 同步、小工具、家人共享、支援的作業系統版本、退款等方面的協助。
 intro: 尋找倒數日常見問題的解答，並依照疑難排解步驟處理您的 Apple 裝置。
-source_version: '2026-08-17'
+source_version: '2026-09-14'
 sections:
   - id: icloud-sync
     title: iCloud 同步
@@ -19,6 +19,8 @@ sections:
     title: 家人共享
   - id: supported-os-versions
     title: 支援的作業系統版本
+  - id: subscriptions
+    title: "管理或取消訂閱"
   - id: refunds
     title: 退款
   - id: contact
@@ -106,6 +108,11 @@ iCloud 同步在使用目前的軟體時效果最佳。在每部裝置上安裝�
 {: #supported-os-versions}
 
 倒數日在每個支援的 Apple 平台上至少支援目前主要作業系統版本及之前兩個主要版本。
+
+## 管理或取消訂閱
+{: #subscriptions}
+
+若要管理或取消倒數日訂閱，請開啟 Apple 帳號的訂閱設定。如需取消訂閱的步驟，請參閱 [Apple 的說明]({% include apple-support-url.html key="subscriptions" %})。
 
 ## 退款
 {: #refunds}

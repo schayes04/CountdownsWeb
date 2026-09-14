@@ -2,7 +2,7 @@
 layout: resource-page
 locale: en
 canonical_key: support
-source_version: '2026-08-17'
+source_version: '2026-09-14'
 permalink: /support/
 title: Help Center
 meta_title: Countdowns Help Center | iCloud, Widgets & Apple Watch Help
@@ -19,6 +19,8 @@ sections:
     title: Family Sharing
   - id: supported-os-versions
     title: Supported OS Versions
+  - id: subscriptions
+    title: "Managing or Cancelling Subscriptions"
   - id: refunds
     title: Refunds
   - id: contact
@@ -106,6 +108,11 @@ Countdowns supports Family Sharing for subscriptions and in-app purchases. Make 
 {: #supported-os-versions}
 
 Countdowns supports at least the current major operating-system version and the two preceding major versions on each supported Apple platform.
+
+## Managing or Cancelling Subscriptions
+{: #subscriptions}
+
+To manage or cancel your Countdowns subscription, open your Apple Account subscription settings. For cancellation steps, follow [Apple’s instructions]({% include apple-support-url.html key="subscriptions" %}).
 
 ## Refunds
 {: #refunds}

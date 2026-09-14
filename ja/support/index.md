@@ -7,7 +7,7 @@ title: ヘルプセンター
 meta_title: カウントダウン ヘルプセンター | iCloud、ウィジェット、Apple Watchのヘルプ
 description: カウントダウンのiCloudとApple Watchの同期、ウィジェット、ファミリー共有、対応OSバージョン、返金などについてのヘルプを確認できます。
 intro: カウントダウンに関するよくある質問への回答と、Appleデバイスのトラブルシューティング手順を確認できます。
-source_version: '2026-08-17'
+source_version: '2026-09-14'
 sections:
   - id: icloud-sync
     title: iCloudの同期
@@ -19,6 +19,8 @@ sections:
     title: ファミリー共有
   - id: supported-os-versions
     title: 対応OSバージョン
+  - id: subscriptions
+    title: "サブスクリプションの管理・解約"
   - id: refunds
     title: 返金
   - id: contact
@@ -106,6 +108,11 @@ iPhoneとApple Watchの両方を再起動します。これにより通常、一
 {: #supported-os-versions}
 
 カウントダウンは、対応する各Appleプラットフォームで、少なくとも現行のメジャーOSバージョンと、その前の2つのメジャーバージョンに対応しています。
+
+## サブスクリプションの管理・解約
+{: #subscriptions}
+
+カウントダウンのサブスクリプションを管理または解約するには、Apple Accountのサブスクリプション設定を開いてください。解約の手順については、[Appleの案内]({% include apple-support-url.html key="subscriptions" %})をご覧ください。
 
 ## 返金
 {: #refunds}

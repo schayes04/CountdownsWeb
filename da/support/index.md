@@ -18,11 +18,13 @@ sections:
     title: Familiedeling
   - id: supported-os-versions
     title: Understøttede OS-versioner
+  - id: subscriptions
+    title: "Administrer eller opsig abonnementer"
   - id: refunds
     title: Refusioner
   - id: contact
     title: Kontakt
-source_version: '2026-08-17'
+source_version: '2026-09-14'
 ---
 
 ## iCloud-synkronisering
@@ -106,6 +108,11 @@ Nedtællinger understøtter Familiedeling for abonnementer og køb i appen. Sør
 {: #supported-os-versions}
 
 Nedtællinger understøtter mindst den aktuelle hovedversion af operativsystemet og de to foregående hovedversioner på hver understøttet Apple-platform.
+
+## Administrer eller opsig abonnementer
+{: #subscriptions}
+
+Hvis du vil administrere eller opsige dit abonnement på Nedtællinger, skal du åbne abonnementsindstillingerne for din Apple-konto. Følg [Apples vejledning]({% include apple-support-url.html key="subscriptions" %}) for at se, hvordan du opsiger abonnementet.
 
 ## Refusioner
 {: #refunds}

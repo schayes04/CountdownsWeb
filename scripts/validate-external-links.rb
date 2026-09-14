@@ -8,7 +8,7 @@ require 'uri'
 require 'yaml'
 
 class ExternalLinksValidator
-  APPLE_ARTICLE_KEYS = %w[iphone_widgets iphone_wallpaper mac_widgets refunds].freeze
+  APPLE_ARTICLE_KEYS = %w[iphone_widgets iphone_wallpaper mac_widgets subscriptions refunds].freeze
   SUPPORT_EMAIL = 'mailto:support@shayesapps.com'.freeze
   REVENUECAT_PRIVACY = 'https://www.revenuecat.com/privacy'.freeze
   ADMOB_PRIVACY = 'https://support.google.com/admob/answer/6128543?hl=en'.freeze
@@ -65,7 +65,7 @@ class ExternalLinksValidator
     @guide_overrides = @apple['guide_locale_overrides'].is_a?(Hash) ? @apple['guide_locale_overrides'] : {}
     codes = @locales.map { |locale| locale['code'].to_s }
     check(:source, codes.length == 23 && codes.uniq.length == 23, 'locales.yml must contain 23 unique locale codes')
-    check(:source, @articles.keys.sort == APPLE_ARTICLE_KEYS.sort, 'apple_support.articles must contain exactly the four audited article keys')
+    check(:source, @articles.keys.sort == APPLE_ARTICLE_KEYS.sort, 'apple_support.articles must contain exactly the audited article keys')
     check(:source, @regions.keys.sort == codes.sort, 'apple_support.locales must cover exactly the configured locales')
     @articles.each do |key, path|
       check(:source, path.is_a?(String) && path.match?(%r{\A(?:\d+|guide/[a-z0-9-]+/[a-z0-9-]+/[a-z0-9-]+)\z}), "apple article #{key} is malformed")

@@ -18,11 +18,13 @@ sections:
     title: Gezinsdeling
   - id: supported-os-versions
     title: Ondersteunde OS-versies
+  - id: subscriptions
+    title: "Abonnementen beheren of opzeggen"
   - id: refunds
     title: Terugbetalingen
   - id: contact
     title: Contact
-source_version: '2026-08-17'
+source_version: '2026-09-14'
 ---
 
 ## iCloud-synchronisatie
@@ -106,6 +108,11 @@ De app Aftellingen ondersteunt Gezinsdeling voor abonnementen en aankopen in de 
 {: #supported-os-versions}
 
 De app Aftellingen ondersteunt minstens de huidige hoofdversie van het besturingssysteem en de twee voorafgaande hoofdversies op elk ondersteund Apple-platform.
+
+## Abonnementen beheren of opzeggen
+{: #subscriptions}
+
+Open de abonnementsinstellingen van je Apple Account om je abonnement op Aftellingen te beheren of op te zeggen. Volg [de instructies van Apple]({% include apple-support-url.html key="subscriptions" %}) voor de stappen om op te zeggen.
 
 ## Terugbetalingen
 {: #refunds}

@@ -18,11 +18,13 @@ sections:
     title: Perhejako
   - id: supported-os-versions
     title: Tuetut käyttöjärjestelmäversiot
+  - id: subscriptions
+    title: "Tilausten hallinta tai peruuttaminen"
   - id: refunds
     title: Hyvitykset
   - id: contact
     title: Yhteystiedot
-source_version: '2026-08-17'
+source_version: '2026-09-14'
 ---
 
 ## iCloud-synkronointi
@@ -106,6 +108,11 @@ Laskurit tukee Perhejakoa tilauksille ja apeissa tehtäville ostoille. Varmista,
 {: #supported-os-versions}
 
 Laskurit tukee vähintään nykyistä käyttöjärjestelmän pääversiota ja kahta sitä edeltävää pääversiota kullakin tuetulla Apple-alustalla.
+
+## Tilausten hallinta tai peruuttaminen
+{: #subscriptions}
+
+Voit hallita tai peruuttaa Laskurit-tilauksesi avaamalla Apple-tilisi tilausasetukset. Katso peruutusohjeet [Applen ohjeista]({% include apple-support-url.html key="subscriptions" %}).
 
 ## Hyvitykset
 {: #refunds}

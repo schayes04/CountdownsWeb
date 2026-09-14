@@ -7,7 +7,7 @@ title: "Centre d'ajuda"
 meta_title: "Centre d'ajuda de Comptes Enrere | Ajuda sobre iCloud, ginys i Apple Watch"
 description: "Obtén ajuda amb la sincronització d'iCloud i Apple Watch de Comptes Enrere, els ginys, Compartir en família, les versions de sistemes operatius compatibles, els reemborsaments i més."
 intro: "Troba respostes a preguntes habituals sobre Comptes Enrere i segueix els passos de resolució de problemes per als teus dispositius Apple."
-source_version: '2026-08-17'
+source_version: '2026-09-14'
 sections:
   - id: icloud-sync
     title: "Sincronització d'iCloud"
@@ -19,6 +19,8 @@ sections:
     title: "Compartir en família"
   - id: supported-os-versions
     title: "Versions de SO compatibles"
+  - id: subscriptions
+    title: "Gestionar o cancel·lar subscripcions"
   - id: refunds
     title: Reemborsaments
   - id: contact
@@ -106,6 +108,11 @@ Comptes Enrere admet Compartir en família per a subscripcions i compres integra
 {: #supported-os-versions}
 
 Comptes Enrere admet com a mínim la versió principal actual del sistema operatiu i les dues versions principals anteriors a cada plataforma Apple compatible.
+
+## Gestionar o cancel·lar subscripcions
+{: #subscriptions}
+
+Per gestionar o cancel·lar la teva subscripció a Comptes Enrere, obre els ajustos de subscripcions del teu compte d’Apple. Per veure els passos de cancel·lació, segueix [les instruccions d’Apple (en anglès)]({% include apple-support-url.html key="subscriptions" %}){: hreflang="en"}.
 
 ## Reemborsaments
 {: #refunds}

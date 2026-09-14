@@ -136,7 +136,7 @@ The 2026-09-07 offline audit covered all 346 generated HTML pages, including the
 
 Support links use `_includes/apple-support-url.html` and `_data/external_links.yml`. Keep the article keys shared across translations; the include selects Apple's supported language/region code. This preserves European/Brazilian Portuguese and Simplified/Traditional Chinese and maps Norwegian Bokmål to Apple's `no-no` routes. Unknown locales fall back to English.
 
-Catalan is a per-article exception: Apple's [Mac widgets guide](https://support.apple.com/ca-es/guide/mac-help/mchl52be5da5/mac) is available in Catalan, but the three standalone articles do not advertise Catalan versions. Those links use English and are labeled “en anglès” with `hreflang="en"`. Hindi follows the same pattern: the [Mac widgets guide](https://support.apple.com/hi-in/guide/mac-help/mchl52be5da5/mac) is available in Hindi, while the three standalone articles currently render English; those links are labeled “अंग्रेज़ी में” with `hreflang="en"`.
+Catalan is a per-article exception: Apple's [Mac widgets guide](https://support.apple.com/ca-es/guide/mac-help/mchl52be5da5/mac) is available in Catalan, but the standalone articles do not offer Catalan content. Those links use English and are labeled “en anglès” with `hreflang="en"`. Hindi follows the same pattern: the [Mac widgets guide](https://support.apple.com/hi-in/guide/mac-help/mchl52be5da5/mac) is available in Hindi, while the standalone articles currently render English; those links are labeled “अंग्रेज़ी में” with `hreflang="en"`.
 
 | Other destination | Audit result and language handling |
 | --- | --- |

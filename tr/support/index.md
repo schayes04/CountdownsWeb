@@ -7,7 +7,7 @@ title: Yardım Merkezi
 meta_title: Geri Sayım Yardım Merkezi | iCloud, Widget'lar ve Apple Watch Yardımı
 description: Geri Sayım için iCloud ve Apple Watch eşzamanlama, widget'lar, Aile Paylaşımı, desteklenen işletim sistemi sürümleri, para iadesi ve daha fazlasıyla ilgili yardım alın.
 intro: Geri Sayım ile ilgili sık sorulan soruların yanıtlarını bulun ve Apple aygıtlarınız için sorun giderme adımlarını izleyin.
-source_version: '2026-08-17'
+source_version: '2026-09-14'
 sections:
   - id: icloud-sync
     title: iCloud Eşzamanlama
@@ -19,6 +19,8 @@ sections:
     title: Aile Paylaşımı
   - id: supported-os-versions
     title: Desteklenen İşletim Sistemi Sürümleri
+  - id: subscriptions
+    title: "Abonelikleri Yönetme veya İptal Etme"
   - id: refunds
     title: Para İadeleri
   - id: contact
@@ -106,6 +108,11 @@ Geri Sayım, abonelikler ve uygulama içi satın alımlar için Aile Paylaşım�
 {: #supported-os-versions}
 
 Geri Sayım, desteklenen her Apple platformunda en az mevcut ana işletim sistemi sürümünü ve ondan önceki iki ana sürümü destekler.
+
+## Abonelikleri Yönetme veya İptal Etme
+{: #subscriptions}
+
+Geri Sayım aboneliğinizi yönetmek veya iptal etmek için Apple Hesabınızın abonelik ayarlarını açın. İptal adımları için [Apple’ın yönergelerini]({% include apple-support-url.html key="subscriptions" %}) izleyin.
 
 ## Para İadeleri
 {: #refunds}

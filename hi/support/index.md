@@ -2,7 +2,7 @@
 layout: resource-page
 locale: hi
 canonical_key: support
-source_version: '2026-08-17'
+source_version: '2026-09-14'
 permalink: /hi/support/
 title: सहायता केंद्र
 meta_title: "काउंटडाउन सहायता केंद्र | iCloud, विजेट और Apple Watch सहायता"
@@ -19,6 +19,8 @@ sections:
     title: Family Sharing
   - id: supported-os-versions
     title: समर्थित OS संस्करण
+  - id: subscriptions
+    title: "सब्सक्रिप्शन प्रबंधित करना या रद्द करना"
   - id: refunds
     title: रिफ़ंड
   - id: contact
@@ -106,6 +108,11 @@ iCloud सिंक नवीनतम सॉफ़्टवेयर के स
 {: #supported-os-versions}
 
 हर समर्थित Apple प्लेटफ़ॉर्म पर काउंटडाउन कम से कम ऑपरेटिंग सिस्टम के मौजूदा प्रमुख संस्करण और उससे पहले के दो प्रमुख संस्करणों का समर्थन करता है।
+
+## सब्सक्रिप्शन प्रबंधित करना या रद्द करना
+{: #subscriptions}
+
+काउंटडाउन का अपना सब्सक्रिप्शन प्रबंधित करने या रद्द करने के लिए, अपने Apple खाते की सब्सक्रिप्शन सेटिंग्स खोलें। रद्द करने के चरणों के लिए, [Apple के निर्देश (अंग्रेज़ी में)]({% include apple-support-url.html key="subscriptions" %}){: hreflang="en"} का पालन करें।
 
 ## रिफ़ंड
 {: #refunds}

@@ -18,11 +18,13 @@ sections:
     title: Chmura rodzinna
   - id: supported-os-versions
     title: Obsługiwane wersje systemu operacyjnego
+  - id: subscriptions
+    title: "Zarządzanie subskrypcjami lub ich anulowanie"
   - id: refunds
     title: Zwroty środków
   - id: contact
     title: Kontakt
-source_version: '2026-08-17'
+source_version: '2026-09-14'
 ---
 
 ## Synchronizacja z iCloud
@@ -106,6 +108,11 @@ Odliczanie obsługuje Chmurę rodzinną dla subskrypcji i zakupów w aplikacji. 
 {: #supported-os-versions}
 
 Odliczanie obsługuje co najmniej bieżącą główną wersję systemu operacyjnego i dwie poprzednie główne wersje na każdej obsługiwanej platformie Apple.
+
+## Zarządzanie subskrypcjami lub ich anulowanie
+{: #subscriptions}
+
+Aby zarządzać subskrypcją aplikacji Odliczanie lub ją anulować, otwórz ustawienia subskrypcji swojego Konta Apple. Aby poznać kroki anulowania, postępuj zgodnie z [instrukcjami Apple]({% include apple-support-url.html key="subscriptions" %}).
 
 ## Zwroty środków
 {: #refunds}

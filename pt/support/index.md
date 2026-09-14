@@ -7,7 +7,7 @@ title: Centro de ajuda
 meta_title: "Centro de ajuda Contagem | Ajuda sobre iCloud, widgets e Apple Watch"
 description: "Obtenha ajuda com a sincronização do iCloud e do Apple Watch do Contagem, widgets, Partilha com a família, versões de sistemas operativos suportadas, reembolsos e muito mais."
 intro: "Encontre respostas a perguntas comuns sobre o Contagem e siga os passos de resolução de problemas para os seus dispositivos Apple."
-source_version: '2026-08-17'
+source_version: '2026-09-14'
 sections:
   - id: icloud-sync
     title: Sincronização do iCloud
@@ -19,6 +19,8 @@ sections:
     title: Partilha com a família
   - id: supported-os-versions
     title: "Versões de SO suportadas"
+  - id: subscriptions
+    title: "Gerir ou cancelar subscrições"
   - id: refunds
     title: Reembolsos
   - id: contact
@@ -106,6 +108,11 @@ Contagem suporta Partilha com a família para subscrições e compras na app. Ce
 {: #supported-os-versions}
 
 Contagem suporta, pelo menos, a versão principal atual do sistema operativo e as duas versões principais anteriores em cada plataforma Apple suportada.
+
+## Gerir ou cancelar subscrições
+{: #subscriptions}
+
+Para gerir ou cancelar a sua subscrição de Contagem, abra as definições de subscrições da sua conta Apple. Para saber como cancelar, siga [as instruções da Apple]({% include apple-support-url.html key="subscriptions" %}).
 
 ## Reembolsos
 {: #refunds}

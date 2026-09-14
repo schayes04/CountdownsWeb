@@ -18,11 +18,13 @@ sections:
     title: Familjedelning
   - id: supported-os-versions
     title: OS-versioner som stöds
+  - id: subscriptions
+    title: "Hantera eller säga upp prenumerationer"
   - id: refunds
     title: Återbetalningar
   - id: contact
     title: Kontakt
-source_version: '2026-08-17'
+source_version: '2026-09-14'
 ---
 
 ## iCloud-synkronisering
@@ -106,6 +108,11 @@ Nedräkningar har stöd för Familjedelning för prenumerationer och köp i appe
 {: #supported-os-versions}
 
 Nedräkningar har stöd för minst den aktuella huvudversionen av operativsystemet och de två föregående huvudversionerna på varje Apple-plattform som stöds.
+
+## Hantera eller säga upp prenumerationer
+{: #subscriptions}
+
+Öppna prenumerationsinställningarna för ditt Apple-konto för att hantera eller säga upp din prenumeration på Nedräkningar. Följ [Apples anvisningar]({% include apple-support-url.html key="subscriptions" %}) för att se hur du säger upp prenumerationen.
 
 ## Återbetalningar
 {: #refunds}
