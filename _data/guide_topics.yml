@@ -298,3 +298,147 @@ hi:
   event-countdown-app: आयोजन का काउंटडाउन
   iphone-countdown-widget: iPhone काउंटडाउन विजेट
   lock-screen-countdown-widget: लॉक स्क्रीन काउंटडाउन विजेट
+
+cs:
+  wedding-countdown-app: Odpočet do svatby
+  birthday-countdown-app: Odpočet do narozenin
+  vacation-countdown-app: Odpočet do dovolené
+  retirement-countdown-app: Odpočet do důchodu
+  holiday-countdown-app: Odpočet do svátku
+  anniversary-countdown-app: Odpočet do výročí
+  christmas-countdown-app: Odpočet do Vánoc
+  theme-park-trip-countdown-app: Odpočet do výletu do zábavního parku
+  pregnancy-countdown-app: Odpočet do porodu
+  event-countdown-app: Odpočet do události
+  iphone-countdown-widget: Widget odpočtu pro iPhone
+  lock-screen-countdown-widget: Widget odpočtu na zamčené obrazovce
+fil:
+  wedding-countdown-app: Bilang paurong sa kasal
+  birthday-countdown-app: Bilang paurong sa kaarawan
+  vacation-countdown-app: Bilang paurong sa bakasyon
+  retirement-countdown-app: Bilang paurong sa pagreretiro
+  holiday-countdown-app: Bilang paurong sa pista opisyal
+  anniversary-countdown-app: Bilang paurong sa anibersaryo
+  christmas-countdown-app: Bilang paurong sa Pasko
+  theme-park-trip-countdown-app: Bilang paurong sa pagpunta sa theme park
+  pregnancy-countdown-app: Bilang paurong sa panganganak
+  event-countdown-app: Bilang paurong sa kaganapan
+  iphone-countdown-widget: Widget ng bilang paurong sa iPhone
+  lock-screen-countdown-widget: Widget ng bilang paurong sa Lock Screen
+el:
+  wedding-countdown-app: Αντίστροφη μέτρηση για γάμο
+  birthday-countdown-app: Αντίστροφη μέτρηση για γενέθλια
+  vacation-countdown-app: Αντίστροφη μέτρηση για διακοπές
+  retirement-countdown-app: Αντίστροφη μέτρηση για συνταξιοδότηση
+  holiday-countdown-app: Αντίστροφη μέτρηση για γιορτή
+  anniversary-countdown-app: Αντίστροφη μέτρηση για επέτειο
+  christmas-countdown-app: Αντίστροφη μέτρηση για Χριστούγεννα
+  theme-park-trip-countdown-app: Αντίστροφη μέτρηση για επίσκεψη σε θεματικό πάρκο
+  pregnancy-countdown-app: Αντίστροφη μέτρηση για τον τοκετό
+  event-countdown-app: Αντίστροφη μέτρηση για εκδήλωση
+  iphone-countdown-widget: Widget αντίστροφης μέτρησης για iPhone
+  lock-screen-countdown-widget: Widget αντίστροφης μέτρησης στην οθόνη κλειδώματος
+he:
+  wedding-countdown-app: ספירה לאחור לחתונה
+  birthday-countdown-app: ספירה לאחור ליום הולדת
+  vacation-countdown-app: ספירה לאחור לחופשה
+  retirement-countdown-app: ספירה לאחור לפרישה
+  holiday-countdown-app: ספירה לאחור לחג
+  anniversary-countdown-app: ספירה לאחור ליום השנה
+  christmas-countdown-app: ספירה לאחור לחג המולד
+  theme-park-trip-countdown-app: ספירה לאחור לביקור בפארק שעשועים
+  pregnancy-countdown-app: ספירה לאחור ללידה
+  event-countdown-app: ספירה לאחור לאירוע
+  iphone-countdown-widget: וידג׳ט ספירה לאחור ל-iPhone
+  lock-screen-countdown-widget: וידג׳ט ספירה לאחור במסך הנעילה
+hu:
+  wedding-countdown-app: Visszaszámlálás az esküvőig
+  birthday-countdown-app: Visszaszámlálás a születésnapig
+  vacation-countdown-app: Visszaszámlálás a nyaralásig
+  retirement-countdown-app: Visszaszámlálás a nyugdíjazásig
+  holiday-countdown-app: Visszaszámlálás az ünnepig
+  anniversary-countdown-app: Visszaszámlálás az évfordulóig
+  christmas-countdown-app: Visszaszámlálás karácsonyig
+  theme-park-trip-countdown-app: Visszaszámlálás a vidámparki kirándulásig
+  pregnancy-countdown-app: Visszaszámlálás a szülésig
+  event-countdown-app: Visszaszámlálás az eseményig
+  iphone-countdown-widget: Visszaszámláló widget iPhone-ra
+  lock-screen-countdown-widget: Visszaszámláló widget a zárolási képernyőn
+id:
+  wedding-countdown-app: Hitung mundur pernikahan
+  birthday-countdown-app: Hitung mundur ulang tahun
+  vacation-countdown-app: Hitung mundur liburan
+  retirement-countdown-app: Hitung mundur pensiun
+  holiday-countdown-app: Hitung mundur hari libur
+  anniversary-countdown-app: Hitung mundur hari jadi
+  christmas-countdown-app: Hitung mundur Natal
+  theme-park-trip-countdown-app: Hitung mundur wisata taman hiburan
+  pregnancy-countdown-app: Hitung mundur kelahiran
+  event-countdown-app: Hitung mundur acara
+  iphone-countdown-widget: Widget hitung mundur iPhone
+  lock-screen-countdown-widget: Widget hitung mundur Layar Terkunci
+ms:
+  wedding-countdown-app: Kiraan detik perkahwinan
+  birthday-countdown-app: Kiraan detik hari lahir
+  vacation-countdown-app: Kiraan detik percutian
+  retirement-countdown-app: Kiraan detik persaraan
+  holiday-countdown-app: Kiraan detik hari kelepasan
+  anniversary-countdown-app: Kiraan detik ulang tahun
+  christmas-countdown-app: Kiraan detik Krismas
+  theme-park-trip-countdown-app: Kiraan detik lawatan taman tema
+  pregnancy-countdown-app: Kiraan detik kelahiran
+  event-countdown-app: Kiraan detik acara
+  iphone-countdown-widget: Widget kiraan detik iPhone
+  lock-screen-countdown-widget: Widget kiraan detik Skrin Kunci
+ro:
+  wedding-countdown-app: Numărătoare inversă până la nuntă
+  birthday-countdown-app: Numărătoare inversă până la ziua de naștere
+  vacation-countdown-app: Numărătoare inversă până la vacanță
+  retirement-countdown-app: Numărătoare inversă până la pensionare
+  holiday-countdown-app: Numărătoare inversă până la sărbătoare
+  anniversary-countdown-app: Numărătoare inversă până la aniversare
+  christmas-countdown-app: Numărătoare inversă până la Crăciun
+  theme-park-trip-countdown-app: Numărătoare inversă până la excursia în parcul tematic
+  pregnancy-countdown-app: Numărătoare inversă până la naștere
+  event-countdown-app: Numărătoare inversă până la eveniment
+  iphone-countdown-widget: Widget de numărătoare inversă pentru iPhone
+  lock-screen-countdown-widget: Widget de numărătoare inversă pe ecranul de blocare
+th:
+  wedding-countdown-app: นับถอยหลังสู่งานแต่งงาน
+  birthday-countdown-app: นับถอยหลังสู่วันเกิด
+  vacation-countdown-app: นับถอยหลังสู่วันพักร้อน
+  retirement-countdown-app: นับถอยหลังสู่วันเกษียณ
+  holiday-countdown-app: นับถอยหลังสู่วันหยุด
+  anniversary-countdown-app: นับถอยหลังสู่วันครบรอบ
+  christmas-countdown-app: นับถอยหลังสู่คริสต์มาส
+  theme-park-trip-countdown-app: นับถอยหลังสู่ทริปสวนสนุก
+  pregnancy-countdown-app: นับถอยหลังสู่วันคลอด
+  event-countdown-app: นับถอยหลังสู่กิจกรรม
+  iphone-countdown-widget: วิดเจ็ตนับถอยหลังสำหรับ iPhone
+  lock-screen-countdown-widget: วิดเจ็ตนับถอยหลังบนหน้าจอล็อค
+vi:
+  wedding-countdown-app: Đếm ngược đến đám cưới
+  birthday-countdown-app: Đếm ngược đến sinh nhật
+  vacation-countdown-app: Đếm ngược đến kỳ nghỉ
+  retirement-countdown-app: Đếm ngược đến ngày nghỉ hưu
+  holiday-countdown-app: Đếm ngược đến ngày lễ
+  anniversary-countdown-app: Đếm ngược đến ngày kỷ niệm
+  christmas-countdown-app: Đếm ngược đến Giáng sinh
+  theme-park-trip-countdown-app: Đếm ngược đến chuyến đi công viên giải trí
+  pregnancy-countdown-app: Đếm ngược đến ngày sinh em bé
+  event-countdown-app: Đếm ngược đến sự kiện
+  iphone-countdown-widget: Tiện ích đếm ngược cho iPhone
+  lock-screen-countdown-widget: Tiện ích đếm ngược trên Màn hình khóa
+uk:
+  wedding-countdown-app: Відлік до весілля
+  birthday-countdown-app: Відлік до дня народження
+  vacation-countdown-app: Відлік до відпустки
+  retirement-countdown-app: Відлік до виходу на пенсію
+  holiday-countdown-app: Відлік до свята
+  anniversary-countdown-app: Відлік до річниці
+  christmas-countdown-app: Відлік до Різдва
+  theme-park-trip-countdown-app: Відлік до поїздки в парк розваг
+  pregnancy-countdown-app: Відлік до пологів
+  event-countdown-app: Відлік до події
+  iphone-countdown-widget: Віджет відліку для iPhone
+  lock-screen-countdown-widget: Віджет відліку на екрані блокування

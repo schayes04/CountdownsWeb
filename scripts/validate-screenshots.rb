@@ -60,7 +60,7 @@ class ScreenshotValidator
     locale_data = read_yaml('_data/locales.yml')
     @locales = locale_data.is_a?(Array) ? locale_data : []
     codes = @locales.map { |locale| locale['code'] }
-    check(:manifest, codes.size == 23 && codes.uniq.size == 23, 'Expected 23 unique locale codes')
+    check(:manifest, codes.size == 34 && codes.uniq.size == 34, 'Expected 34 unique locale codes')
     check(:manifest, @manifest['version'] == 'v12', 'Screenshot version must be v12')
     check(:manifest, @manifest.values_at('width', 'height') == [1206, 2622], 'Screenshot dimensions must be 1206x2622')
     check(:manifest, @manifest['guides'] == GUIDES, 'Guide map must contain the 12 required slug-to-scene mappings')
@@ -214,8 +214,8 @@ class ScreenshotValidator
     @locales.each do |locale|
       ['', 'countdown-ideas', *GUIDES.keys].each { |slug| validate_route(locale, slug) }
     end
-    check(:manifest, @counts[:sources] == 391 && @counts[:alts] == 391, 'Expected 391 source paths and localized alts')
-    check(:routes, @counts[:routes] == 322, 'Expected 322 routes')
+    check(:manifest, @counts[:sources] == 578 && @counts[:alts] == 578, 'Expected 578 source paths and localized alts')
+    check(:routes, @counts[:routes] == 476, 'Expected 476 routes')
     puts "Checked #{@counts[:sources]} source PNG paths, #{@counts[:alts]} localized alts, " \
          "#{@counts[:html]}/#{@counts[:routes]} built routes, #{@counts[:references]} image/preload references."
     @errors.each do |group, errors|

@@ -21,6 +21,13 @@
   app_name: Comptes Enrere
   html_lang: ca
   dir: ltr
+- code: cs
+  folder: cs
+  name: Czech
+  native_name: Čeština
+  app_name: Odpočty
+  html_lang: cs
+  dir: ltr
 - code: da
   folder: da
   name: Danish
@@ -34,6 +41,13 @@
   native_name: Deutsch
   app_name: Countdowns
   html_lang: de
+  dir: ltr
+- code: el
+  folder: el
+  name: Greek
+  native_name: Ελληνικά
+  app_name: Αντίστροφη Μέτρηση
+  html_lang: el
   dir: ltr
 - code: es
   folder: es
@@ -49,6 +63,13 @@
   app_name: Laskurit
   html_lang: fi
   dir: ltr
+- code: fil
+  folder: fil
+  name: Filipino
+  native_name: Filipino
+  app_name: Bilang Paurong
+  html_lang: fil
+  dir: ltr
 - code: fr
   folder: fr
   name: French
@@ -56,12 +77,33 @@
   app_name: Compte à rebours
   html_lang: fr
   dir: ltr
+- code: he
+  folder: he
+  name: Hebrew
+  native_name: עברית
+  app_name: ספירה לאחור
+  html_lang: he
+  dir: rtl
 - code: hi
   folder: hi
   name: Hindi
   native_name: हिन्दी
   app_name: काउंटडाउन
   html_lang: hi
+  dir: ltr
+- code: hu
+  folder: hu
+  name: Hungarian
+  native_name: Magyar
+  app_name: Visszaszámlálók
+  html_lang: hu
+  dir: ltr
+- code: id
+  folder: id
+  name: Indonesian
+  native_name: Bahasa Indonesia
+  app_name: Hitung Mundur
+  html_lang: id
   dir: ltr
 - code: it
   folder: it
@@ -83,6 +125,13 @@
   native_name: 한국어
   app_name: 카운트다운
   html_lang: ko
+  dir: ltr
+- code: ms
+  folder: ms
+  name: Malay
+  native_name: Bahasa Melayu
+  app_name: Kiraan Detik
+  html_lang: ms
   dir: ltr
 - code: nb
   folder: nb
@@ -119,6 +168,13 @@
   app_name: Contagens
   html_lang: pt-BR
   dir: ltr
+- code: ro
+  folder: ro
+  name: Romanian
+  native_name: Română
+  app_name: Numărători inverse
+  html_lang: ro
+  dir: ltr
 - code: ru
   folder: ru
   name: Russian
@@ -140,12 +196,33 @@
   app_name: Nedräkningar
   html_lang: sv
   dir: ltr
+- code: th
+  folder: th
+  name: Thai
+  native_name: ไทย
+  app_name: นับถอยหลัง
+  html_lang: th
+  dir: ltr
 - code: tr
   folder: tr
   name: Turkish
   native_name: Türkçe
   app_name: Geri Sayım
   html_lang: tr
+  dir: ltr
+- code: uk
+  folder: uk
+  name: Ukrainian
+  native_name: Українська
+  app_name: Відліки
+  html_lang: uk
+  dir: ltr
+- code: vi
+  folder: vi
+  name: Vietnamese
+  native_name: Tiếng Việt
+  app_name: Đếm ngược
+  html_lang: vi
   dir: ltr
 - code: zh-Hans
   folder: zh-hans

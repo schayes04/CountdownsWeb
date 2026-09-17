@@ -32,7 +32,19 @@ apple_support:
     tr: tr-tr
     zh-Hans: zh-cn
     zh-Hant: zh-tw
+    cs: cs-cz
+    fil: en-us
+    el: el-gr
+    he: he-il
+    hu: hu-hu
+    id: id-id
+    ms: ms-my
+    ro: ro-ro
+    th: th-th
+    vi: vi-vn
+    uk: uk-ua
   guide_locale_overrides:
+    fil: '' # Apple does not offer these articles or the Mac guide in Filipino.
     en: '' # English user guides use the unprefixed route.
     ca: ca-es # The Mac user guide is available in Catalan.
     hi: hi-in # The Mac user guide is available in Hindi.
@@ -64,3 +76,15 @@ app_store:
     tr: tr-TR
     zh-Hans: zh-Hans-CN
     zh-Hant: zh-Hant-TW # A bare zh-Hant hint can fall back to Simplified Chinese.
+
+    cs: cs
+    fil: fil
+    el: el
+    he: he
+    hu: hu
+    id: id
+    ms: ms
+    ro: ro
+    th: th
+    vi: vi
+    uk: uk

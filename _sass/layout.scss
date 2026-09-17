@@ -305,6 +305,7 @@
 }
 
 .hero__content {
+	min-width: 0;
 	position: relative;
 	z-index: 3;
 	max-width: 650px;
@@ -926,6 +927,7 @@
 }
 
 .guide-hero__copy {
+	min-width: 0;
 	max-width: 760px;
 }
 
@@ -1832,4 +1834,10 @@
 	.hero__lead {
 		font-size: 17px;
 	}
+}
+
+// Keep long localized app names readable without splitting the brand across lines.
+:lang(el) .hero h1,
+:lang(hu) .hero h1 {
+	font-size: clamp(34px, 9vw, 70px);
 }

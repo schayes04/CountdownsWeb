@@ -3953,3 +3953,1983 @@ hi:
   guide_body_p3: वर्ष, महीने, सप्ताह, दिन, घंटे, मिनट या सेकंड चुनें। रंगों, आइकन, सूचियों, विजेट, सूचनाओं और संग्रह की सुविधाओं से हर काउंटडाउन को तारीख आने से पहले और उसके बाद भी उपयोगी रखें।
   guide_cta_heading: आज ही TOPIC_LOWER शुरू करें।
   guide_cta_text: काउंटडाउन डाउनलोड करें और अगली अहम तारीख को सामने रखें।
+
+cs:
+  menu: Nabídka
+  breadcrumb_label: Drobečková navigace
+  on_this_page: Na této stránce
+  app_highlights_label: Hlavní funkce APP_NAME
+  home_widgets_preview_label: Náhled widgetů APP_NAME na ploše
+  countdown_examples_label: Oblíbené příklady odpočtů
+  skip: Přejít na obsah
+  home: Úvod
+  primary_nav: Hlavní navigace
+  features: Funkce
+  widgets: Widgety
+  ideas: Nápady
+  press_kit: Materiály pro média
+  download: Stáhnout
+  support: Centrum nápovědy
+  policies: Zásady
+  company_links: Odkazy společnosti
+  made_by: Vytvořil
+  language: Jazyk
+  download_badge: Stáhnout v App Storu
+  app_description: Odpočty pomáhají odpočítávat čas do důležitých okamžiků nebo počítat
+    čas od významných dat na iPhonu, iPadu, Macu a Apple Watch. Hodí se pro narozeniny,
+    svátky, svatby, výročí, dovolené, důchod a další události.
+  title_suffix: Odpočítávání pro zařízení Apple
+  hero_eyebrow: Pro iPhone, iPad, Mac a Apple Watch
+  hero_lead: Odpočítávejte do budoucích událostí nebo počítejte čas od důležitých
+    změn. Přizpůsobte časovače narozeninám, svátkům, návykům, cestám, zápasům a všemu,
+    co chcete sledovat.
+  free: Zdarma
+  download_label: stažení
+  languages_label: jazyků
+  home_lock_screen: Plocha a zamčená obrazovka
+  examples:
+  - Svatby
+  - Narozeniny
+  - Dovolené
+  - Důchod
+  - Den zápasu
+  - Nové návyky
+  widgets_kicker: Widgety všude
+  widgets_heading: Mějte důležité okamžiky stále na očích.
+  widgets_body: Přidejte odpočty na plochu i zamčenou obrazovku a zvolte styl pro
+    každou příležitost. Velké události, vlastní opakování i oblíbené seznamy uvidíte
+    na první pohled.
+  widget_bullets:
+  - Widgety na plochu pro oblíbené odpočty a seznamy.
+  - Widgety na zamčenou obrazovku pro rychlou kontrolu průběhu.
+  - Podpora Apple Watch s komplikacemi.
+  features_kicker: Pro každodenní život
+  features_heading: Flexibilní pro každý druh odpočtu.
+  features_body: Sledujte oslavy, termíny, rutiny a milníky pomocí nastavení, která
+    každý odpočet přizpůsobí vám.
+  feature_titles:
+  - Neomezené odpočty
+  - Widgety
+  - Přizpůsobitelné jednotky
+  - Opakované události
+  - Import událostí
+  - Synchronizace přes iCloud
+  - Oznámení
+  - Seznamy
+  - Archiv
+  - Zkratky Siri
+  - Apple Watch
+  - Lokalizace
+  feature_descriptions:
+  - Vytvářejte neomezené odpočty do budoucích dat nebo počítejte čas od minulých milníků
+  - Zobrazujte odpočty přímo na ploše nebo zamčené obrazovce
+  - Zobrazujte roky, měsíce, týdny, dny, hodiny, minuty, sekundy nebo jejich kombinaci
+  - Nastavte jednoduché i pokročilé opakování vracejících se událostí
+  - Importujte data z Kalendáře, Kontaktů a Připomínek
+  - Synchronizujte odpočty a seznamy mezi zařízeními
+  - Vyberte, kdy se má zobrazit upozornění před každým odpočtem
+  - Uspořádejte odpočty do vlastních seznamů
+  - Uchovávejte a prohlížejte minulé odpočty
+  - Kontrolujte odpočty hlasem pomocí Zkratek
+  - Zobrazujte odpočty na Apple Watch pomocí komplikací
+  - K dispozici ve více než 30 jazycích
+  personal_kicker: Přizpůsobené vám
+  personal_heading: Vyberte jednotky, barvy, ikony, seznamy a oznámení vhodné pro
+    událost.
+  personal_body: Počítejte roky, měsíce, týdny, dny, hodiny, minuty nebo sekundy.
+    Importujte data z Kalendáře, Kontaktů a Připomínek, uspořádejte odpočty do seznamů
+    a synchronizujte vše mezi zařízeními.
+  mini_titles:
+  - Opakované události
+  - Vlastní oznámení
+  - Archiv
+  mini_bodies:
+  - Nastavte jednoduché i pokročilé opakování pro události, které se vracejí.
+  - Zvolte, kdy chcete dostat upozornění před událostí.
+  - Uchovejte minulé odpočty bez zahlcení hlavního seznamu.
+  pricing_kicker: Začněte zdarma
+  pricing_heading: Stáhněte si Odpočty zdarma.
+  pricing_body: Volitelné měsíční, roční a jednorázové nákupy odemykají funkce jako
+    synchronizace iCloud, kompaktní režim, seznamy, ukazatele směru, vlastní zvuky
+    a archiv.
+  ideas_kicker: Nápady na odpočty
+  ideas_heading: Plánujte všechny odpočty v jedné aplikaci.
+  ideas_body: Vytvářejte odpočty pro oblíbené příležitosti a přizpůsobte jejich jednotky,
+    barvy, widgety, seznamy a oznámení.
+  browse_all_ideas: Prohlédnout všechny nápady
+  start_counting: Začít odpočítávat
+  home_cta_heading: Přibližte si příští velký den.
+  ideas_title: Nápady na odpočty
+  ideas_meta_title: Odpočty do svateb, narozenin, dovolených, svátků a událostí
+  ideas_description: Prohlédněte si nápady na odpočty do svateb, narozenin, dovolených,
+    svátků, výročí, důchodu, widgety a další.
+  ideas_index_heading: Nápady pro každé datum, které stojí za sledování
+  ideas_index_body: Objevte, jak používat Odpočty pro oslavy, cesty, milníky, svátky,
+    widgety i každodenní data, která chcete mít na očích.
+  browse_all: Prohlédnout vše
+  choose_type: Začněte výběrem typu odpočtu.
+  guide_focus: Každý průvodce nabízí praktické nastavení pro jinou příležitost a odkazy
+    na související odpočty.
+  create_own: Vytvořte si vlastní odpočet.
+  breadcrumb_ideas: Nápady na odpočty
+  guide_default_kicker: Průvodce odpočtem
+  why_it_helps: Proč to pomáhá
+  benefits_default_heading: Odpočet pro daný okamžik.
+  how_to_use: Jak na to
+  steps_default_heading: Vytvořte odpočet během několika minut.
+  steps_intro: Začněte datem a přizpůsobte odpočet všem obrazovkám, na kterých sledujete
+    svůj den.
+  faq: Časté dotazy
+  common_questions: Časté otázky
+  more_ideas: Další nápady
+  related_heading: Vytvořte další odpočet ze svého seznamu.
+  cta_default_heading: Přibližte si důležité datum.
+  aside_bullets:
+  - Widgety na plochu i zamčenou obrazovku
+  - Vlastní jednotky, barvy, seznamy a oznámení
+  - Synchronizace iCloud mezi zařízeními Apple
+  guide_meta_title: TOPIC pro iPhone, iPad, Mac a Apple Watch
+  guide_description: Vytvořte si TOPIC_LOWER s widgety, připomínkami, vlastními barvami,
+    seznamy a synchronizací iCloud.
+  guide_h1: TOPIC pro důležitá data
+  guide_hero: Sledujte TOPIC_LOWER a související data s widgety, připomínkami, jednotkami,
+    barvami a seznamy na zařízeních Apple.
+  guide_benefits_heading: Mějte datum na očích a vše uspořádané.
+  benefit_titles:
+  - Odpočty na první pohled
+  - Flexibilní plánování
+  - Vlastní nastavení
+  benefit_descriptions:
+  - Zobrazte důležitá data na ploše, zamčené obrazovce, Apple Watch, iPadu a Macu.
+  - Sledujte hlavní datum i připomínky, milníky, cesty, termíny a opakování.
+  - Vyberte jednotky, barvy, ikony, seznamy a oznámení pro danou událost.
+  guide_steps_heading: Nastavte si odpočet.
+  step_titles:
+  - Přidejte datum
+  - Přizpůsobte odpočet
+  - Mějte ho na očích
+  step_descriptions:
+  - Vytvořte odpočet s důležitým datem a časem.
+  - Vyberte jednotky, barvy, ikony, seznamy a připomínky.
+  - Přidejte widgety nebo komplikace Apple Watch pro rychlý přehled.
+  guide_faq_heading: 'Otázky: TOPIC'
+  faq_questions:
+  - Mohu sledovat více souvisejících dat?
+  - Mohu mít odpočet na ploše nebo zamčené obrazovce?
+  - Mohu odpočet přizpůsobit?
+  faq_answers:
+  - Ano. Můžete vytvářet neomezené odpočty a třídit je do seznamů.
+  - Ano. Odpočty podporují widgety na ploše i zamčené obrazovce a komplikace Apple
+    Watch.
+  - Ano. Můžete přizpůsobit jednotky, barvy, ikony, seznamy, oznámení a další.
+  guide_body_h2_1: Mějte důležité datum na očích
+  guide_body_p1: Odpočet je nejužitečnější, když ho snadno vidíte. Odpočty zobrazí
+    TOPIC_LOWER na obrazovkách, které používáte každý den.
+  guide_body_p2: Vytvořte odpočet pro hlavní datum a přidejte související milníky,
+    připomínky a plánovací data, aby vše zůstalo pohromadě.
+  guide_body_h2_2: Přizpůsobte ho svému plánu
+  guide_body_p3: Vyberte roky, měsíce, týdny, dny, hodiny, minuty či sekundy. Barvy,
+    ikony, seznamy, widgety, oznámení a archiv pomohou před událostí i po ní.
+  guide_cta_heading: 'Začněte ještě dnes: TOPIC.'
+  guide_cta_text: Stáhněte si Odpočty a mějte příští důležité datum na očích.
+fil:
+  menu: Menu
+  breadcrumb_label: Navigasyon ng pahina
+  on_this_page: Sa pahinang ito
+  app_highlights_label: Mga tampok ng APP_NAME
+  home_widgets_preview_label: Preview ng mga widget ng APP_NAME sa Home Screen
+  countdown_examples_label: Mga sikat na halimbawa ng countdown
+  skip: Lumaktaw sa nilalaman
+  home: Home
+  primary_nav: Pangunahing navigasyon
+  features: Mga tampok
+  widgets: Mga widget
+  ideas: Mga ideya
+  press_kit: Press Kit
+  download: I-download
+  support: Sentro ng Tulong
+  policies: Mga patakaran
+  company_links: Mga link ng kumpanya
+  made_by: Ginawa ni
+  language: Wika
+  download_badge: I-download sa App Store
+  app_description: Tinutulungan ka ng Bilang Paurong na magbilang pababa hanggang
+    sa mahahalagang sandali o pataas mula sa makabuluhang petsa sa iPhone, iPad, Mac,
+    at Apple Watch. Para sa kaarawan, pista opisyal, kasal, anibersaryo, bakasyon,
+    pagreretiro, at higit pa!
+  title_suffix: Mga countdown para sa mga Apple device
+  hero_eyebrow: Para sa iPhone, iPad, Mac, at Apple Watch
+  hero_lead: Magbilang hanggang sa susunod na pangyayari o mula sa isang mahalagang
+    pagbabago. Gumawa ng nako-customize na timer para sa kaarawan, pista opisyal,
+    gawi, biyahe, laro, at anumang gusto mong subaybayan.
+  free: Libre
+  download_label: pag-download
+  languages_label: wika
+  home_lock_screen: Home at Lock Screen
+  examples:
+  - Mga kasal
+  - Mga kaarawan
+  - Mga bakasyon
+  - Pagreretiro
+  - Araw ng laro
+  - Mga bagong gawi
+  widgets_kicker: Mga widget saanman
+  widgets_heading: Panatilihing nakikita ang mahahalagang sandali.
+  widgets_body: Maglagay ng countdown sa Home Screen at Lock Screen at piliin ang
+    istilong angkop sa okasyon. Mabilis mong makikita ang malalaking kaganapan, custom
+    na pag-uulit, at mga paboritong listahan.
+  widget_bullets:
+  - Mga widget sa Home Screen para sa paboritong countdown at listahan.
+  - Mga widget sa Lock Screen para mabilis makita ang progreso.
+  - Suporta sa Apple Watch na may mga complication.
+  features_kicker: Para sa tunay na buhay
+  features_heading: Flexible para sa bawat uri ng timer.
+  features_body: Subaybayan ang selebrasyon, deadline, rutina, at milestone gamit
+    ang mga kontrol na nagpapersonal sa bawat countdown.
+  feature_titles:
+  - Walang limitasyong countdown
+  - Mga widget
+  - Nako-customize na unit
+  - Mga paulit-ulit na kaganapan
+  - Pag-import ng kaganapan
+  - Pag-sync sa iCloud
+  - Mga notification
+  - Mga listahan
+  - Archive
+  - Mga Siri Shortcut
+  - Apple Watch
+  - Mga wika
+  feature_descriptions:
+  - Gumawa ng walang limitasyong countdown hanggang sa hinaharap o bilang pataas mula
+    sa nakaraang milestone
+  - Tingnan ang countdown sa Home Screen o Lock Screen
+  - Ipakita ang taon, buwan, linggo, araw, oras, minuto, segundo, o anumang kumbinasyon
+  - Gumawa ng simple o mas detalyadong iskedyul ng pag-uulit
+  - Mag-import ng petsa mula sa Calendar, Contacts, at Reminders
+  - I-sync ang mga countdown at listahan sa lahat ng device
+  - Piliin kung kailan ka papaalalahanan bago ang bawat countdown
+  - Ayusin ang mga countdown sa sariling mga listahan
+  - Itago at tingnan ang mga nakaraang countdown
+  - Gamitin ang Shortcuts para tingnan ang countdown gamit ang boses
+  - Tingnan ang countdown sa Apple Watch gamit ang mga complication
+  - Available sa mahigit 30 wika
+  personal_kicker: Personal mula sa simula
+  personal_heading: Piliin ang mga unit, kulay, icon, listahan, at notification na
+    angkop sa kaganapan.
+  personal_body: Magbilang sa taon, buwan, linggo, araw, oras, minuto, o segundo.
+    Mag-import mula sa Calendar, Contacts, at Reminders, ayusin sa mga listahan, at
+    i-sync sa lahat ng device.
+  mini_titles:
+  - Mga paulit-ulit na kaganapan
+  - Mga custom na notification
+  - Archive
+  mini_bodies:
+  - Gumawa ng simple o mas detalyadong pag-uulit para sa mga petsang bumabalik.
+  - Piliin kung kailan ka papaalalahanan bago dumating ang petsa.
+  - Itago ang mga nakaraang countdown nang hindi napupuno ang pangunahing listahan.
+  pricing_kicker: Libreng magsimula
+  pricing_heading: I-download nang libre ang Bilang Paurong.
+  pricing_body: Ang opsyonal na buwanan, taunang, at minsanang pagbili ay nagbubukas
+    ng iCloud sync, compact mode, mga listahan, direction indicator, custom na tunog,
+    at archive.
+  ideas_kicker: Mga ideya sa countdown
+  ideas_heading: Planuhin ang lahat ng countdown sa iisang app.
+  ideas_body: Gumawa ng timer para sa mga sikat na okasyon at iangkop ang mga unit,
+    kulay, widget, listahan, at notification sa bawat isa.
+  browse_all_ideas: Tingnan ang lahat ng ideya
+  start_counting: Simulang magbilang
+  home_cta_heading: Ilapit ang pakiramdam ng susunod na malaking araw.
+  ideas_title: Mga ideya sa countdown
+  ideas_meta_title: Mga countdown para sa kasal, kaarawan, bakasyon, pista opisyal,
+    at kaganapan
+  ideas_description: Tuklasin ang mga ideya para sa kasal, kaarawan, bakasyon, pista
+    opisyal, anibersaryo, pagreretiro, widget, at higit pa.
+  ideas_index_heading: Mga ideya para sa bawat petsang sulit subaybayan
+  ideas_index_body: Tuklasin ang paggamit ng Bilang Paurong para sa selebrasyon, biyahe,
+    milestone, pista opisyal, widget, at mga pang-araw-araw na petsa.
+  browse_all: Tingnan lahat
+  choose_type: Pumili ng uri ng countdown para magsimula.
+  guide_focus: Bawat gabay ay para sa ibang layunin, may praktikal na ideya sa pag-set
+    up at mga link sa kaugnay na pahina.
+  create_own: Gumawa ng sarili mong countdown.
+  breadcrumb_ideas: Mga ideya sa countdown
+  guide_default_kicker: Gabay sa countdown
+  why_it_helps: Bakit ito nakatutulong
+  benefits_default_heading: Countdown na angkop sa sandali.
+  how_to_use: Paano gamitin
+  steps_default_heading: Gumawa ng countdown sa ilang minuto.
+  steps_intro: Magsimula sa petsa, saka gawing kapaki-pakinabang ang timer sa bawat
+    screen na tinitingnan mo araw-araw.
+  faq: Mga FAQ
+  common_questions: Mga karaniwang tanong
+  more_ideas: Higit pang mga ideya
+  related_heading: Gawin ang susunod na timer sa iyong listahan.
+  cta_default_heading: Gawing mas malapit ang pakiramdam ng petsa.
+  aside_bullets:
+  - Mga widget para sa Home Screen at Lock Screen
+  - Mga custom na unit, kulay, listahan, at notification
+  - Pag-sync sa iCloud sa mga Apple device
+  guide_meta_title: TOPIC para sa iPhone, iPad, Mac, at Apple Watch
+  guide_description: Gumawa ng TOPIC_LOWER na may mga widget, paalala, custom na kulay,
+    listahan, at iCloud sync.
+  guide_h1: TOPIC para sa mahahalagang petsa
+  guide_hero: Subaybayan ang TOPIC_LOWER at kaugnay na mga petsa gamit ang mga widget,
+    paalala, unit, kulay, at listahan sa iyong mga Apple device.
+  guide_benefits_heading: Panatilihing nakikita at organisado ang petsa.
+  benefit_titles:
+  - Countdown sa isang tingin
+  - Flexible na pagpaplano
+  - Personal na setup
+  benefit_descriptions:
+  - Ipakita ang mahahalagang petsa sa Home Screen, Lock Screen, Apple Watch, iPad,
+    at Mac.
+  - Subaybayan ang pangunahing petsa kasama ang mga paalala, milestone, biyahe, deadline,
+    at pag-uulit.
+  - Piliin ang mga unit, kulay, icon, listahan, at notification para sa kaganapan.
+  guide_steps_heading: I-set up ang countdown.
+  step_titles:
+  - Idagdag ang petsa
+  - I-customize ang countdown
+  - Panatilihin itong nakikita
+  step_descriptions:
+  - Gumawa ng countdown gamit ang mahalagang araw at oras.
+  - Piliin ang mga unit, kulay, icon, listahan, at paalala.
+  - Magdagdag ng mga widget o Apple Watch complication para sa mabilisang tingin.
+  guide_faq_heading: Mga tanong tungkol sa TOPIC
+  faq_questions:
+  - Maaari ba akong sumubaybay ng maraming kaugnay na petsa?
+  - Maaari ko bang ilagay ang countdown sa Home Screen o Lock Screen?
+  - Maaari ko bang i-customize ang countdown?
+  faq_answers:
+  - Oo. Maaari kang gumawa ng walang limitasyong countdown at ayusin ang mga ito sa
+    mga listahan.
+  - Oo. Sinusuportahan ng Bilang Paurong ang mga Home Screen at Lock Screen widget
+    at Apple Watch complication.
+  - Oo. Maaari mong baguhin ang mga unit, kulay, icon, listahan, notification, at
+    iba pa.
+  guide_body_h2_1: Panatilihing nakikita ang mahalagang petsa
+  guide_body_p1: Pinakakapaki-pakinabang ang countdown kapag madali itong makita.
+    Ginagawang timer ng Bilang Paurong ang TOPIC_LOWER sa mga screen na gamit mo araw-araw.
+  guide_body_p2: Gumawa ng timer para sa pangunahing petsa, saka idagdag ang mga milestone,
+    paalala, at petsa sa pagpaplano upang magkakasama ang lahat.
+  guide_body_h2_2: Iangkop sa iyong plano
+  guide_body_p3: Pumili ng taon, buwan, linggo, araw, oras, minuto, o segundo. Gumamit
+    ng mga kulay, icon, listahan, widget, notification, at archive bago at pagkatapos
+    ng petsa.
+  guide_cta_heading: Simulan ang TOPIC_LOWER ngayon.
+  guide_cta_text: I-download ang Bilang Paurong at panatilihing nakikita ang susunod
+    na mahalagang petsa.
+el:
+  menu: Μενού
+  breadcrumb_label: Διαδρομή πλοήγησης
+  on_this_page: Σε αυτή τη σελίδα
+  app_highlights_label: Βασικές δυνατότητες του APP_NAME
+  home_widgets_preview_label: Προεπισκόπηση widget του APP_NAME στην οθόνη Αφετηρίας
+  countdown_examples_label: Δημοφιλή παραδείγματα αντίστροφης μέτρησης
+  skip: Μετάβαση στο περιεχόμενο
+  home: Αρχική
+  primary_nav: Κύρια πλοήγηση
+  features: Δυνατότητες
+  widgets: Widget
+  ideas: Ιδέες
+  press_kit: Υλικό τύπου
+  download: Λήψη
+  support: Κέντρο βοήθειας
+  policies: Πολιτικές
+  company_links: Σύνδεσμοι εταιρείας
+  made_by: Δημιουργήθηκε από
+  language: Γλώσσα
+  download_badge: Λήψη από το App Store
+  app_description: Η Αντίστροφη Μέτρηση μετρά τον χρόνο μέχρι σημαντικές στιγμές ή
+    από αξέχαστες ημερομηνίες σε iPhone, iPad, Mac και Apple Watch. Ιδανική για γενέθλια,
+    γιορτές, γάμους, επετείους, διακοπές, συνταξιοδότηση και άλλα!
+  title_suffix: Αντίστροφες μετρήσεις για συσκευές Apple
+  hero_eyebrow: Για iPhone, iPad, Mac και Apple Watch
+  hero_lead: Μετρήστε μέχρι το επόμενο γεγονός ή από μια σημαντική αλλαγή. Δημιουργήστε
+    προσαρμόσιμους μετρητές για γενέθλια, γιορτές, συνήθειες, ταξίδια, αγώνες και
+    ό,τι αξίζει να παρακολουθείτε.
+  free: Δωρεάν
+  download_label: λήψη
+  languages_label: γλώσσες
+  home_lock_screen: Οθόνη Αφετηρίας και κλειδώματος
+  examples:
+  - Γάμοι
+  - Γενέθλια
+  - Διακοπές
+  - Συνταξιοδότηση
+  - Ημέρα αγώνα
+  - Νέες συνήθειες
+  widgets_kicker: Widget παντού
+  widgets_heading: Κρατήστε τις σημαντικές στιγμές σε κοινή θέα.
+  widgets_body: Προσθέστε μετρήσεις στην οθόνη Αφετηρίας και κλειδώματος και επιλέξτε
+    το κατάλληλο στιλ. Μεγάλες εκδηλώσεις, προσαρμοσμένες επαναλήψεις και αγαπημένες
+    λίστες φαίνονται με μια ματιά.
+  widget_bullets:
+  - Widget Αφετηρίας για αγαπημένες μετρήσεις και λίστες.
+  - Widget κλειδώματος για γρήγορο έλεγχο προόδου.
+  - Υποστήριξη Apple Watch με επιπλοκές.
+  features_kicker: Για την καθημερινή ζωή
+  features_heading: Ευελιξία για κάθε είδος μετρητή.
+  features_body: Παρακολουθήστε γιορτές, προθεσμίες, ρουτίνες και ορόσημα με επιλογές
+    που κάνουν κάθε μέτρηση προσωπική.
+  feature_titles:
+  - Απεριόριστες μετρήσεις
+  - Widget
+  - Προσαρμόσιμες μονάδες
+  - Επαναλαμβανόμενα γεγονότα
+  - Εισαγωγή γεγονότων
+  - Συγχρονισμός iCloud
+  - Γνωστοποιήσεις
+  - Λίστες
+  - Αρχείο
+  - Συντομεύσεις Siri
+  - Apple Watch
+  - Γλώσσες
+  feature_descriptions:
+  - Δημιουργήστε απεριόριστες μετρήσεις μέχρι μελλοντικές ημερομηνίες ή από παλιά
+    ορόσημα
+  - Δείτε μετρήσεις στην οθόνη Αφετηρίας ή κλειδώματος
+  - Εμφανίστε έτη, μήνες, εβδομάδες, ημέρες, ώρες, λεπτά, δευτερόλεπτα ή συνδυασμούς
+  - Δημιουργήστε απλές ή σύνθετες επαναλαμβανόμενες προγραμματίσεις
+  - Εισαγάγετε ημερομηνίες από Ημερολόγιο, Επαφές και Υπομνήσεις
+  - Συγχρονίστε μετρήσεις και λίστες μεταξύ συσκευών
+  - Επιλέξτε πότε θα λαμβάνετε υπενθύμιση πριν από κάθε μέτρηση
+  - Οργανώστε μετρήσεις σε δικές σας λίστες
+  - Κρατήστε και δείτε παλιές μετρήσεις
+  - Ελέγξτε μετρήσεις με τη φωνή μέσω Συντομεύσεων
+  - Δείτε μετρήσεις στο Apple Watch με επιπλοκές
+  - Διατίθεται σε περισσότερες από 30 γλώσσες
+  personal_kicker: Προσωπική από την αρχή
+  personal_heading: Επιλέξτε μονάδες, χρώματα, εικονίδια, λίστες και γνωστοποιήσεις
+    για κάθε γεγονός.
+  personal_body: Μετρήστε σε έτη, μήνες, εβδομάδες, ημέρες, ώρες, λεπτά ή δευτερόλεπτα.
+    Εισαγάγετε από Ημερολόγιο, Επαφές και Υπομνήσεις, οργανώστε σε λίστες και συγχρονίστε
+    μεταξύ συσκευών.
+  mini_titles:
+  - Επαναλαμβανόμενα γεγονότα
+  - Προσαρμοσμένες γνωστοποιήσεις
+  - Αρχείο
+  mini_bodies:
+  - Δημιουργήστε απλές ή σύνθετες επαναλήψεις για ημερομηνίες που επιστρέφουν.
+  - Επιλέξτε πότε θα λαμβάνετε υπενθύμιση πριν φτάσει η ημερομηνία.
+  - Κρατήστε παλιές μετρήσεις χωρίς να γεμίζει η κύρια λίστα.
+  pricing_kicker: Ξεκινήστε δωρεάν
+  pricing_heading: Κατεβάστε δωρεάν την Αντίστροφη Μέτρηση.
+  pricing_body: Προαιρετικές μηνιαίες, ετήσιες και εφάπαξ αγορές ξεκλειδώνουν συγχρονισμό
+    iCloud, συμπαγή προβολή, λίστες, δείκτες κατεύθυνσης, προσαρμοσμένους ήχους και
+    αρχείο.
+  ideas_kicker: Ιδέες αντίστροφης μέτρησης
+  ideas_heading: Σχεδιάστε κάθε μέτρηση από μία εφαρμογή.
+  ideas_body: Δημιουργήστε μετρητές για δημοφιλείς περιστάσεις και προσαρμόστε μονάδες,
+    χρώματα, widget, λίστες και γνωστοποιήσεις.
+  browse_all_ideas: Όλες οι ιδέες
+  start_counting: Ξεκινήστε τη μέτρηση
+  home_cta_heading: Φέρτε πιο κοντά την επόμενη μεγάλη μέρα.
+  ideas_title: Ιδέες αντίστροφης μέτρησης
+  ideas_meta_title: Ιδέες για γάμους, γενέθλια, διακοπές, γιορτές και εκδηλώσεις
+  ideas_description: Ανακαλύψτε ιδέες για γάμους, γενέθλια, διακοπές, γιορτές, επετείους,
+    συνταξιοδότηση, widget και άλλα.
+  ideas_index_heading: Ιδέες για κάθε ημερομηνία που αξίζει να παρακολουθείτε
+  ideas_index_body: Ανακαλύψτε πώς η Αντίστροφη Μέτρηση βοηθά σε γιορτές, ταξίδια,
+    ορόσημα, widget και καθημερινές ημερομηνίες.
+  browse_all: Προβολή όλων
+  choose_type: Επιλέξτε έναν τύπο μέτρησης για να ξεκινήσετε.
+  guide_focus: Κάθε οδηγός εξυπηρετεί διαφορετικό σκοπό, με πρακτικές ιδέες ρύθμισης
+    και συνδέσμους σε σχετικές σελίδες.
+  create_own: Δημιουργήστε τη δική σας μέτρηση.
+  breadcrumb_ideas: Ιδέες αντίστροφης μέτρησης
+  guide_default_kicker: Οδηγός αντίστροφης μέτρησης
+  why_it_helps: Γιατί βοηθά
+  benefits_default_heading: Μια μέτρηση που ταιριάζει στη στιγμή.
+  how_to_use: Πώς χρησιμοποιείται
+  steps_default_heading: Δημιουργήστε μια μέτρηση σε λίγα λεπτά.
+  steps_intro: Ξεκινήστε με την ημερομηνία και κάντε τον μετρητή χρήσιμο σε κάθε οθόνη
+    που κοιτάτε καθημερινά.
+  faq: Συχνές ερωτήσεις
+  common_questions: Συνήθεις απορίες
+  more_ideas: Περισσότερες ιδέες
+  related_heading: Δημιουργήστε τον επόμενο μετρητή της λίστας σας.
+  cta_default_heading: Φέρτε την ημερομηνία πιο κοντά.
+  aside_bullets:
+  - Widget Αφετηρίας και κλειδώματος
+  - Προσαρμοσμένες μονάδες, χρώματα, λίστες και γνωστοποιήσεις
+  - Συγχρονισμός iCloud μεταξύ συσκευών Apple
+  guide_meta_title: TOPIC για iPhone, iPad, Mac και Apple Watch
+  guide_description: Δημιουργήστε TOPIC_LOWER με widget, υπομνήσεις, προσαρμοσμένα
+    χρώματα, λίστες και συγχρονισμό iCloud.
+  guide_h1: TOPIC για σημαντικές ημερομηνίες
+  guide_hero: Παρακολουθήστε TOPIC_LOWER και σχετικές ημερομηνίες με widget, υπομνήσεις,
+    ευέλικτες μονάδες, χρώματα και λίστες στις συσκευές Apple.
+  guide_benefits_heading: Κρατήστε την ημερομηνία ορατή και οργανωμένη.
+  benefit_titles:
+  - Μετρήσεις με μια ματιά
+  - Ευέλικτος σχεδιασμός
+  - Προσωπικές ρυθμίσεις
+  benefit_descriptions:
+  - Προσθέστε σημαντικές ημερομηνίες στην Αφετηρία, στο κλείδωμα, στο Apple Watch,
+    στο iPad και στο Mac.
+  - Παρακολουθήστε την κύρια ημερομηνία μαζί με υπομνήσεις, ορόσημα, ταξίδια, προθεσμίες
+    και επαναλήψεις.
+  - Επιλέξτε μονάδες, χρώματα, εικονίδια, λίστες και γνωστοποιήσεις για το γεγονός.
+  guide_steps_heading: Ρυθμίστε τη μέτρησή σας.
+  step_titles:
+  - Προσθέστε ημερομηνία
+  - Προσαρμόστε τη μέτρηση
+  - Κρατήστε την ορατή
+  step_descriptions:
+  - Δημιουργήστε τη μέτρηση με τη σημαντική ημέρα και ώρα.
+  - Επιλέξτε μονάδες, χρώματα, εικονίδια, λίστες και υπομνήσεις.
+  - Προσθέστε widget ή επιπλοκές Apple Watch για γρήγορο έλεγχο.
+  guide_faq_heading: 'Ερωτήσεις: TOPIC'
+  faq_questions:
+  - Μπορώ να παρακολουθώ πολλές σχετικές ημερομηνίες;
+  - Μπορώ να βάλω τη μέτρηση στην Αφετηρία ή στο κλείδωμα;
+  - Μπορώ να προσαρμόσω τη μέτρηση;
+  faq_answers:
+  - Ναι. Μπορείτε να δημιουργήσετε απεριόριστες μετρήσεις και να τις οργανώσετε σε
+    λίστες.
+  - Ναι. Η Αντίστροφη Μέτρηση υποστηρίζει widget Αφετηρίας, widget κλειδώματος και
+    επιπλοκές Apple Watch.
+  - Ναι. Μπορείτε να προσαρμόσετε μονάδες, χρώματα, εικονίδια, λίστες, γνωστοποιήσεις
+    και άλλα.
+  guide_body_h2_1: Κρατήστε τη σημαντική ημερομηνία σε κοινή θέα
+  guide_body_p1: Η μέτρηση είναι πιο χρήσιμη όταν τη βλέπετε εύκολα. Η Αντίστροφη
+    Μέτρηση μετατρέπει το TOPIC_LOWER σε μετρητή στις οθόνες που χρησιμοποιείτε καθημερινά.
+  guide_body_p2: Δημιουργήστε έναν μετρητή για την κύρια ημερομηνία και προσθέστε
+    σχετικά ορόσημα, υπομνήσεις και ημερομηνίες σχεδιασμού.
+  guide_body_h2_2: Προσαρμόστε τον στο σχέδιό σας
+  guide_body_p3: Επιλέξτε έτη, μήνες, εβδομάδες, ημέρες, ώρες, λεπτά ή δευτερόλεπτα.
+    Χρησιμοποιήστε χρώματα, εικονίδια, λίστες, widget, γνωστοποιήσεις και αρχείο πριν
+    και μετά την ημερομηνία.
+  guide_cta_heading: 'Ξεκινήστε σήμερα: TOPIC_LOWER.'
+  guide_cta_text: Κατεβάστε την Αντίστροφη Μέτρηση και κρατήστε την επόμενη σημαντική
+    ημερομηνία ορατή.
+he:
+  menu: תפריט
+  breadcrumb_label: נתיב ניווט
+  on_this_page: בעמוד זה
+  app_highlights_label: התכונות הבולטות של APP_NAME
+  home_widgets_preview_label: תצוגה מקדימה של וידג׳טים של APP_NAME במסך הבית
+  countdown_examples_label: דוגמאות פופולריות לספירה לאחור
+  skip: דילוג לתוכן
+  home: בית
+  primary_nav: ניווט ראשי
+  features: תכונות
+  widgets: וידג׳טים
+  ideas: רעיונות
+  press_kit: ערכת עיתונות
+  download: הורדה
+  support: מרכז עזרה
+  policies: מדיניות
+  company_links: קישורי החברה
+  made_by: נוצר על ידי
+  language: שפה
+  download_badge: להורדה ב-App Store
+  app_description: ספירה לאחור עוזרת לספור את הזמן עד לרגעים חשובים או מתאריכים משמעותיים
+    ב-iPhone, ב-iPad, ב-Mac וב-Apple Watch. מתאימה לימי הולדת, חגים, חתונות, ימי שנה,
+    חופשות, פרישה ועוד!
+  title_suffix: ספירה לאחור למכשירי Apple
+  hero_eyebrow: ל-iPhone, ל-iPad, ל-Mac ול-Apple Watch
+  hero_lead: ספרו את הזמן עד לאירוע הבא או מאז שינוי חשוב. צרו טיימרים מותאמים לימי
+    הולדת, חגים, הרגלים, נסיעות, משחקים וכל מה שכדאי לעקוב אחריו.
+  free: חינם
+  download_label: הורדות
+  languages_label: שפות
+  home_lock_screen: מסך הבית ומסך הנעילה
+  examples:
+  - חתונות
+  - ימי הולדת
+  - חופשות
+  - פרישה
+  - יום משחק
+  - הרגלים חדשים
+  widgets_kicker: וידג׳טים בכל מקום
+  widgets_heading: השאירו את הרגעים החשובים מול העיניים.
+  widgets_body: הוסיפו ספירות למסך הבית ולמסך הנעילה ובחרו סגנון מתאים. אירועים גדולים,
+    חזרות מותאמות ורשימות מועדפות נשארים נגישים במבט חטוף.
+  widget_bullets:
+  - וידג׳טים במסך הבית לספירות ולרשימות מועדפות.
+  - וידג׳טים במסך הנעילה לבדיקת התקדמות מהירה.
+  - תמיכה ב-Apple Watch עם תצוגות מידע.
+  features_kicker: נבנתה לחיי היום-יום
+  features_heading: גמישה לכל סוג של טיימר.
+  features_body: עקבו אחר חגיגות, מועדים, שגרות ואבני דרך באמצעות אפשרויות שהופכות
+    כל ספירה לאישית.
+  feature_titles:
+  - ספירות ללא הגבלה
+  - וידג׳טים
+  - יחידות הניתנות להתאמה
+  - אירועים חוזרים
+  - ייבוא אירועים
+  - סנכרון iCloud
+  - עדכונים
+  - רשימות
+  - ארכיון
+  - קיצורי Siri
+  - Apple Watch
+  - שפות
+  feature_descriptions:
+  - צרו ספירות ללא הגבלה עד לתאריכים עתידיים או מאז אבני דרך בעבר
+  - צפו בספירות ישירות במסך הבית או במסך הנעילה
+  - הציגו שנים, חודשים, שבועות, ימים, שעות, דקות, שניות או שילוב מתאים
+  - צרו חזרות פשוטות או לוחות זמנים חוזרים מתקדמים
+  - ייבאו תאריכים מלוח שנה, אנשי קשר ותזכורות
+  - סנכרנו ספירות ורשימות בין המכשירים
+  - בחרו מתי לקבל תזכורת לפני כל ספירה
+  - ארגנו ספירות ברשימות אישיות
+  - שמרו וצפו בספירות מהעבר
+  - בדקו ספירות בקול באמצעות קיצורים
+  - צפו בספירות ב-Apple Watch באמצעות תצוגות מידע
+  - זמינה ביותר מ-30 שפות
+  personal_kicker: אישית מההתחלה
+  personal_heading: בחרו יחידות, צבעים, סמלים, רשימות ועדכונים שמתאימים לאירוע.
+  personal_body: ספרו בשנים, חודשים, שבועות, ימים, שעות, דקות או שניות. ייבאו מלוח
+    שנה, אנשי קשר ותזכורות, ארגנו ברשימות וסנכרנו בין המכשירים.
+  mini_titles:
+  - אירועים חוזרים
+  - עדכונים מותאמים
+  - ארכיון
+  mini_bodies:
+  - צרו חזרות פשוטות או מתקדמות עבור תאריכים שחוזרים.
+  - בחרו מתי לקבל תזכורת לפני שהמועד מגיע.
+  - שמרו ספירות קודמות בלי להעמיס על הרשימה הראשית.
+  pricing_kicker: מתחילים בחינם
+  pricing_heading: הורידו את ספירה לאחור בחינם.
+  pricing_body: רכישות אופציונליות חודשיות, שנתיות וחד-פעמיות פותחות סנכרון iCloud,
+    מצב קומפקטי, רשימות, מחווני כיוון, צלילים מותאמים וארכיון.
+  ideas_kicker: רעיונות לספירה לאחור
+  ideas_heading: תכננו כל סוג של ספירה באפליקציה אחת.
+  ideas_body: צרו טיימרים לרגעים פופולריים והתאימו לכל אחד יחידות, צבעים, וידג׳טים,
+    רשימות ועדכונים.
+  browse_all_ideas: כל הרעיונות
+  start_counting: התחילו לספור
+  home_cta_heading: קרבו את היום הגדול הבא.
+  ideas_title: רעיונות לספירה לאחור
+  ideas_meta_title: רעיונות לחתונות, ימי הולדת, חופשות, חגים ואירועים
+  ideas_description: גלו רעיונות לחתונות, ימי הולדת, חופשות, חגים, ימי שנה, פרישה,
+    וידג׳טים ועוד.
+  ideas_index_heading: רעיונות לכל תאריך שכדאי לעקוב אחריו
+  ideas_index_body: גלו כיצד להשתמש בספירה לאחור לחגיגות, נסיעות, אבני דרך, חגים,
+    וידג׳טים ותאריכים יומיומיים שחשוב לראות.
+  browse_all: הצגת הכול
+  choose_type: בחרו סוג ספירה כדי להתחיל.
+  guide_focus: כל מדריך מתמקד במטרה אחרת, עם רעיונות מעשיים להגדרה וקישורים לעמודים
+    קשורים.
+  create_own: צרו ספירה משלכם.
+  breadcrumb_ideas: רעיונות לספירה לאחור
+  guide_default_kicker: מדריך לספירה לאחור
+  why_it_helps: למה זה עוזר
+  benefits_default_heading: ספירה שמתאימה לרגע.
+  how_to_use: איך משתמשים
+  steps_default_heading: צרו ספירה בתוך דקות.
+  steps_intro: התחילו בתאריך, ואז הפכו את הטיימר לשימושי בכל מסך שבו אתם בודקים את
+    היום.
+  faq: שאלות נפוצות
+  common_questions: שאלות שכיחות
+  more_ideas: רעיונות נוספים
+  related_heading: צרו את הטיימר הבא ברשימה.
+  cta_default_heading: קרבו את התאריך.
+  aside_bullets:
+  - וידג׳טים למסך הבית ולמסך הנעילה
+  - יחידות, צבעים, רשימות ועדכונים מותאמים
+  - סנכרון iCloud בין מכשירי Apple
+  guide_meta_title: TOPIC ל-iPhone, ל-iPad, ל-Mac ול-Apple Watch
+  guide_description: צרו TOPIC_LOWER עם וידג׳טים, תזכורות, צבעים מותאמים, רשימות וסנכרון
+    iCloud.
+  guide_h1: TOPIC לתאריכים החשובים
+  guide_hero: עקבו אחר TOPIC_LOWER ותאריכים קשורים עם וידג׳טים, תזכורות, יחידות גמישות,
+    צבעים ורשימות במכשירי Apple.
+  guide_benefits_heading: שמרו על התאריך גלוי ומסודר.
+  benefit_titles:
+  - ספירות במבט חטוף
+  - תכנון גמיש
+  - הגדרה אישית
+  benefit_descriptions:
+  - הציגו תאריכים חשובים במסך הבית, במסך הנעילה, ב-Apple Watch, ב-iPad וב-Mac.
+  - עקבו אחר התאריך הראשי, תזכורות, אבני דרך, נסיעות, מועדים וחזרות.
+  - בחרו יחידות, צבעים, סמלים, רשימות ועדכונים המתאימים לאירוע.
+  guide_steps_heading: הגדירו את הספירה.
+  step_titles:
+  - הוסיפו תאריך
+  - התאימו את הספירה
+  - השאירו אותה גלויה
+  step_descriptions:
+  - צרו ספירה עם היום והשעה החשובים.
+  - בחרו יחידות תצוגה, צבעים, סמלים, רשימות ותזכורות.
+  - הוסיפו וידג׳טים או תצוגות מידע ב-Apple Watch לבדיקה מהירה.
+  guide_faq_heading: שאלות על TOPIC
+  faq_questions:
+  - אפשר לעקוב אחר כמה תאריכים קשורים?
+  - אפשר להציג ספירה במסך הבית או במסך הנעילה?
+  - אפשר להתאים את הספירה?
+  faq_answers:
+  - כן. אפשר ליצור ספירות ללא הגבלה ולארגן אותן ברשימות.
+  - כן. ספירה לאחור תומכת בווידג׳טים במסך הבית ובמסך הנעילה ובתצוגות מידע של Apple
+    Watch.
+  - כן. אפשר להתאים יחידות, צבעים, סמלים, רשימות, עדכונים ועוד.
+  guide_body_h2_1: השאירו את התאריך החשוב מול העיניים
+  guide_body_p1: ספירה שימושית במיוחד כשקל לראות אותה. ספירה לאחור הופכת TOPIC_LOWER
+    לטיימר במסכים שבהם אתם משתמשים מדי יום.
+  guide_body_p2: צרו טיימר לתאריך הראשי והוסיפו אבני דרך, תזכורות ותאריכי תכנון קשורים
+    כדי לשמור הכול יחד.
+  guide_body_h2_2: התאימו לתוכנית שלכם
+  guide_body_p3: בחרו שנים, חודשים, שבועות, ימים, שעות, דקות או שניות. השתמשו בצבעים,
+    סמלים, רשימות, וידג׳טים, עדכונים וארכיון לפני התאריך ואחריו.
+  guide_cta_heading: 'התחילו היום: TOPIC_LOWER.'
+  guide_cta_text: הורידו את ספירה לאחור והשאירו את התאריך החשוב הבא מול העיניים.
+hu:
+  menu: Menü
+  breadcrumb_label: Navigációs útvonal
+  on_this_page: Ezen az oldalon
+  app_highlights_label: A APP_NAME fő funkciói
+  home_widgets_preview_label: A APP_NAME Főképernyő-widgetjeinek előnézete
+  countdown_examples_label: Népszerű visszaszámlálási példák
+  skip: Ugrás a tartalomra
+  home: Kezdőlap
+  primary_nav: Fő navigáció
+  features: Funkciók
+  widgets: Widgetek
+  ideas: Ötletek
+  press_kit: Sajtócsomag
+  download: Letöltés
+  support: Súgóközpont
+  policies: Szabályzatok
+  company_links: Céges hivatkozások
+  made_by: Készítette
+  language: Nyelv
+  download_badge: Letöltés az App Store-ból
+  app_description: A Visszaszámlálók segít számolni a fontos pillanatokig hátralévő
+    vagy a jelentős dátumok óta eltelt időt iPhone-on, iPaden, Macen és Apple Watchon.
+    Születésnapokhoz, ünnepekhez, esküvőkhöz, évfordulókhoz, nyaraláshoz, nyugdíjazáshoz
+    és sok máshoz!
+  title_suffix: Visszaszámlálók Apple-eszközökhöz
+  hero_eyebrow: iPhone-ra, iPadre, Macre és Apple Watchra
+  hero_lead: Számoljon a következő eseményig vagy egy fontos változás óta. Készítsen
+    testreszabható időzítőket születésnapokhoz, ünnepekhez, szokásokhoz, utazásokhoz,
+    meccsekhez és minden követésre érdemes alkalomhoz.
+  free: Ingyenes
+  download_label: letöltés
+  languages_label: nyelv
+  home_lock_screen: Főképernyő és zárolási képernyő
+  examples:
+  - Esküvők
+  - Születésnapok
+  - Nyaralások
+  - Nyugdíjazás
+  - Meccsnap
+  - Új szokások
+  widgets_kicker: Widgetek mindenhol
+  widgets_heading: Tartsa szem előtt a fontos pillanatokat.
+  widgets_body: Tegyen visszaszámlálókat a Főképernyőre és a zárolási képernyőre,
+    és válasszon alkalomhoz illő stílust. A nagy események, egyéni ismétlődések és
+    kedvenc listák egy pillantással áttekinthetők.
+  widget_bullets:
+  - Főképernyő-widgetek a kedvenc visszaszámlálókhoz és listákhoz.
+  - Zárolási képernyő-widgetek a haladás gyors ellenőrzéséhez.
+  - Apple Watch-támogatás komplikációkkal.
+  features_kicker: A mindennapokra tervezve
+  features_heading: Mindenféle időzítőhöz elég rugalmas.
+  features_body: Kövesse az ünnepeket, határidőket, rutinokat és mérföldköveket személyre
+    szabható beállításokkal.
+  feature_titles:
+  - Korlátlan visszaszámláló
+  - Widgetek
+  - Testreszabható egységek
+  - Ismétlődő események
+  - Eseményimportálás
+  - iCloud-szinkronizálás
+  - Értesítések
+  - Listák
+  - Archívum
+  - Siri-parancsok
+  - Apple Watch
+  - Lokalizáció
+  feature_descriptions:
+  - Hozzon létre korlátlan visszaszámlálót jövőbeli dátumokig vagy számlálót múltbeli
+    mérföldkövektől
+  - Lássa a visszaszámlálókat a Főképernyőn vagy a zárolási képernyőn
+  - Jelenítsen meg éveket, hónapokat, heteket, napokat, órákat, perceket, másodperceket
+    vagy ezek kombinációját
+  - Állítson be egyszerű vagy összetett ismétlődő ütemezéseket
+  - Importáljon dátumokat a Naptárból, Kontaktokból és Emlékeztetőkből
+  - Szinkronizálja a visszaszámlálókat és listákat az eszközei között
+  - Válassza ki az esemény előtti emlékeztetők időpontját
+  - Rendezze a visszaszámlálókat saját listákba
+  - Őrizze meg és nézze meg a korábbi visszaszámlálókat
+  - Ellenőrizze a visszaszámlálókat hanggal a Parancsok segítségével
+  - Nézze meg a visszaszámlálókat Apple Watchon, komplikációkkal
+  - Több mint 30 nyelven érhető el
+  personal_kicker: Kezdettől személyes
+  personal_heading: Válasszon az eseményhez illő egységeket, színeket, ikonokat, listákat
+    és értesítéseket.
+  personal_body: Számoljon években, hónapokban, hetekben, napokban, órákban, percekben
+    vagy másodpercekben. Importáljon a Naptárból, Kontaktokból és Emlékeztetőkből,
+    rendezzen listákba, és szinkronizáljon eszközei között.
+  mini_titles:
+  - Ismétlődő események
+  - Egyéni értesítések
+  - Archívum
+  mini_bodies:
+  - Állítson be egyszerű vagy összetett ismétlődéseket a visszatérő dátumokhoz.
+  - Válassza ki, mikor kér emlékeztetőt a dátum előtt.
+  - Őrizze meg a múltbeli visszaszámlálókat a fő lista zsúfolása nélkül.
+  pricing_kicker: Kezdje ingyen
+  pricing_heading: Töltse le ingyen a Visszaszámlálók alkalmazást.
+  pricing_body: Az opcionális havi, éves és egyszeri vásárlások iCloud-szinkronizálást,
+    kompakt módot, listákat, irányjelzőket, egyéni hangokat és archívumot nyitnak
+    meg.
+  ideas_kicker: Visszaszámlálási ötletek
+  ideas_heading: Tervezzen minden visszaszámlálót egyetlen appból.
+  ideas_body: Készítsen időzítőket a népszerű alkalmakhoz, és szabja testre az egységeket,
+    színeket, widgeteket, listákat és értesítéseket.
+  browse_all_ideas: Összes ötlet
+  start_counting: Számlálás indítása
+  home_cta_heading: Hozza közelebb a következő nagy napot.
+  ideas_title: Visszaszámlálási ötletek
+  ideas_meta_title: Ötletek esküvőkhöz, születésnapokhoz, nyaralásokhoz, ünnepekhez
+    és eseményekhez
+  ideas_description: Böngésszen esküvői, születésnapi, nyaralási, ünnepi, évfordulós,
+    nyugdíjazási és widgetötleteket.
+  ideas_index_heading: Ötletek minden követésre érdemes dátumhoz
+  ideas_index_body: Fedezze fel a Visszaszámlálók használatát ünnepekhez, utazásokhoz,
+    mérföldkövekhez, widgetekhez és mindennapi dátumokhoz.
+  browse_all: Összes megtekintése
+  choose_type: Kezdésként válasszon visszaszámlálótípust.
+  guide_focus: Minden útmutató más célra összpontosít, gyakorlati beállítási ötletekkel
+    és kapcsolódó oldalakkal.
+  create_own: Készítse el saját visszaszámlálóját.
+  breadcrumb_ideas: Visszaszámlálási ötletek
+  guide_default_kicker: Visszaszámlálási útmutató
+  why_it_helps: Miért hasznos?
+  benefits_default_heading: Az alkalomhoz illő visszaszámláló.
+  how_to_use: Használat
+  steps_default_heading: Készítsen visszaszámlálót percek alatt.
+  steps_intro: Kezdje a dátummal, majd tegye hasznossá az időzítőt minden naponta
+    használt képernyőn.
+  faq: GYIK
+  common_questions: Gyakori kérdések
+  more_ideas: További ötletek
+  related_heading: Készítse el a lista következő időzítőjét.
+  cta_default_heading: Hozza közelebb a dátumot.
+  aside_bullets:
+  - Widgetek a Főképernyőre és a zárolási képernyőre
+  - Egyéni egységek, színek, listák és értesítések
+  - iCloud-szinkronizálás Apple-eszközök között
+  guide_meta_title: TOPIC iPhone-ra, iPadre, Macre és Apple Watchra
+  guide_description: TOPIC Apple-eszközökön, widgetekkel, emlékeztetőkkel, egyéni
+    színekkel, listákkal és iCloud-szinkronizálással.
+  guide_h1: TOPIC a fontos dátumokhoz
+  guide_hero: 'TOPIC Apple-eszközein: widgetekkel, emlékeztetőkkel, rugalmas egységekkel,
+    színekkel és listákkal követheti a fontos dátumokat.'
+  guide_benefits_heading: Tartsa a dátumot láthatóan és rendezetten.
+  benefit_titles:
+  - Visszaszámlálók egy pillantásra
+  - Rugalmas tervezés
+  - Személyes beállítások
+  benefit_descriptions:
+  - Tegye a fontos dátumokat a Főképernyőre, a zárolási képernyőre, Apple Watchra,
+    iPadre és Macre.
+  - Kövesse a fő dátumot, emlékeztetőket, mérföldköveket, utazásokat, határidőket
+    és ismétlődéseket.
+  - Válasszon alkalomhoz illő egységeket, színeket, ikonokat, listákat és értesítéseket.
+  guide_steps_heading: Állítsa be a visszaszámlálót.
+  step_titles:
+  - Dátum hozzáadása
+  - Testreszabás
+  - Tartsa szem előtt
+  step_descriptions:
+  - Készítse el a visszaszámlálót a fontos nappal és időponttal.
+  - Válassza ki az egységeket, színeket, ikonokat, listákat és emlékeztetőket.
+  - Adjon hozzá widgeteket vagy Apple Watch-komplikációkat a gyors áttekintéshez.
+  guide_faq_heading: 'Kérdések: TOPIC'
+  faq_questions:
+  - Követhetek több kapcsolódó dátumot?
+  - Kitehetem a visszaszámlálót a Főképernyőre vagy a zárolási képernyőre?
+  - Testreszabhatom a visszaszámlálót?
+  faq_answers:
+  - Igen. Korlátlan visszaszámlálót hozhat létre és listákba rendezheti őket.
+  - Igen. A Visszaszámlálók támogatja a Főképernyő és a zárolási képernyő widgetjeit,
+    valamint az Apple Watch-komplikációkat.
+  - Igen. Testreszabhatja az egységeket, színeket, ikonokat, listákat, értesítéseket
+    és egyebeket.
+  guide_body_h2_1: Tartsa szem előtt a fontos dátumot
+  guide_body_p1: A visszaszámláló akkor a leghasznosabb, ha könnyen látható. A Visszaszámlálók
+    alkalmazással a naponta használt képernyőkön követheti a fontos dátumokat.
+  guide_body_p2: Készítsen időzítőt a fő dátumhoz, majd adja hozzá a kapcsolódó mérföldköveket,
+    emlékeztetőket és tervezési dátumokat.
+  guide_body_h2_2: Igazítsa a tervéhez
+  guide_body_p3: Válasszon éveket, hónapokat, heteket, napokat, órákat, perceket vagy
+    másodperceket. Használjon színeket, ikonokat, listákat, widgeteket, értesítéseket
+    és archívumot a dátum előtt és után.
+  guide_cta_heading: 'Kezdje el ma: TOPIC_LOWER.'
+  guide_cta_text: Töltse le a Visszaszámlálók alkalmazást, és tartsa szem előtt a
+    következő fontos dátumot.
+id:
+  menu: Menu
+  breadcrumb_label: Navigasi halaman
+  on_this_page: Di halaman ini
+  app_highlights_label: Keunggulan APP_NAME
+  home_widgets_preview_label: Pratinjau widget Layar Utama APP_NAME
+  countdown_examples_label: Contoh hitung mundur populer
+  skip: Lewati ke konten
+  home: Beranda
+  primary_nav: Navigasi utama
+  features: Fitur
+  widgets: Widget
+  ideas: Ide
+  press_kit: Kit Pers
+  download: Unduh
+  support: Pusat Bantuan
+  policies: Kebijakan
+  company_links: Tautan perusahaan
+  made_by: Dibuat oleh
+  language: Bahasa
+  download_badge: Unduh di App Store
+  app_description: Hitung Mundur membantu Anda menghitung waktu menuju momen penting
+    atau sejak tanggal bermakna di iPhone, iPad, Mac, dan Apple Watch. Cocok untuk
+    ulang tahun, hari raya, pernikahan, hari jadi, liburan, pensiun, dan lainnya!
+  title_suffix: Penghitung waktu untuk perangkat Apple
+  hero_eyebrow: Untuk iPhone, iPad, Mac, dan Apple Watch
+  hero_lead: Hitung waktu menuju momen berikutnya atau sejak perubahan penting. Buat
+    penghitung yang dapat disesuaikan untuk ulang tahun, hari raya, kebiasaan, perjalanan,
+    pertandingan, dan apa pun yang ingin Anda pantau.
+  free: Gratis
+  download_label: unduhan
+  languages_label: bahasa
+  home_lock_screen: Layar Utama dan Layar Terkunci
+  examples:
+  - Pernikahan
+  - Ulang tahun
+  - Liburan
+  - Pensiun
+  - Hari pertandingan
+  - Kebiasaan baru
+  widgets_kicker: Widget di mana saja
+  widgets_heading: Tampilkan momen penting di tempat yang mudah dilihat.
+  widgets_body: Pasang hitung mundur di Layar Utama dan Layar Terkunci, lalu pilih
+    gaya yang sesuai. Acara besar, jadwal berulang khusus, dan daftar favorit tetap
+    terlihat sekilas.
+  widget_bullets:
+  - Widget Layar Utama untuk hitung mundur dan daftar favorit.
+  - Widget Layar Terkunci untuk memeriksa kemajuan dengan cepat.
+  - Dukungan Apple Watch dengan komplikasi.
+  features_kicker: Dibuat untuk kehidupan nyata
+  features_heading: Fleksibel untuk segala jenis penghitung.
+  features_body: Pantau perayaan, tenggat, rutinitas, dan pencapaian dengan kontrol
+    yang membuat setiap hitung mundur terasa pribadi.
+  feature_titles:
+  - Hitung mundur tanpa batas
+  - Widget
+  - Unit yang dapat disesuaikan
+  - Acara berulang
+  - Impor acara
+  - Penyelarasan iCloud
+  - Pemberitahuan
+  - Daftar
+  - Arsip
+  - Pintasan Siri
+  - Apple Watch
+  - Bahasa
+  feature_descriptions:
+  - Buat hitung mundur tanpa batas menuju tanggal mendatang atau sejak pencapaian
+    yang telah berlalu
+  - Lihat hitung mundur langsung di Layar Utama atau Layar Terkunci
+  - Tampilkan tahun, bulan, minggu, hari, jam, menit, detik, atau kombinasinya
+  - Buat pengulangan sederhana atau jadwal berulang tingkat lanjut
+  - Impor tanggal dari Kalender, Kontak, dan Pengingat
+  - Selaraskan hitung mundur dan daftar di seluruh perangkat
+  - Pilih kapan ingin diingatkan sebelum setiap hitung mundur
+  - Atur hitung mundur dalam daftar sendiri
+  - Simpan dan lihat hitung mundur yang telah berlalu
+  - Gunakan Pintasan untuk memeriksa hitung mundur dengan suara
+  - Lihat hitung mundur di Apple Watch dengan komplikasi
+  - Tersedia dalam lebih dari 30 bahasa
+  personal_kicker: Pribadi sejak awal
+  personal_heading: Pilih unit, warna, ikon, daftar, dan pemberitahuan yang sesuai
+    dengan acara.
+  personal_body: Hitung dalam tahun, bulan, minggu, hari, jam, menit, atau detik.
+    Impor dari Kalender, Kontak, dan Pengingat, atur dalam daftar, dan selaraskan
+    di seluruh perangkat.
+  mini_titles:
+  - Acara berulang
+  - Pemberitahuan khusus
+  - Arsip
+  mini_bodies:
+  - Buat pengulangan sederhana atau jadwal tingkat lanjut untuk tanggal yang terus
+    berulang.
+  - Pilih kapan ingin diingatkan sebelum waktunya tiba.
+  - Simpan hitung mundur lama tanpa memenuhi daftar utama.
+  pricing_kicker: Mulai gratis
+  pricing_heading: Unduh Hitung Mundur secara gratis.
+  pricing_body: Pembelian opsional bulanan, tahunan, dan sekali bayar membuka penyelarasan
+    iCloud, mode ringkas, daftar, indikator arah, bunyi khusus, dan arsip.
+  ideas_kicker: Ide hitung mundur
+  ideas_heading: Rencanakan semua jenis hitung mundur dari satu aplikasi.
+  ideas_body: Buat penghitung untuk momen populer, lalu sesuaikan unit, warna, widget,
+    daftar, dan pemberitahuan untuk setiap acara.
+  browse_all_ideas: Lihat semua ide
+  start_counting: Mulai menghitung
+  home_cta_heading: Buat hari besar berikutnya terasa lebih dekat.
+  ideas_title: Ide hitung mundur
+  ideas_meta_title: Ide hitung mundur untuk pernikahan, ulang tahun, liburan, hari
+    raya, dan acara
+  ideas_description: Jelajahi ide untuk pernikahan, ulang tahun, liburan, hari raya,
+    hari jadi, pensiun, widget, dan lainnya.
+  ideas_index_heading: Ide untuk setiap tanggal yang layak dipantau
+  ideas_index_body: Jelajahi penggunaan Hitung Mundur untuk perayaan, perjalanan,
+    pencapaian, hari raya, widget, dan tanggal sehari-hari yang ingin tetap terlihat.
+  browse_all: Lihat semua
+  choose_type: Pilih jenis hitung mundur untuk memulai.
+  guide_focus: Setiap panduan membahas kebutuhan berbeda dengan ide pengaturan praktis
+    dan tautan ke halaman terkait.
+  create_own: Buat hitung mundur Anda sendiri.
+  breadcrumb_ideas: Ide hitung mundur
+  guide_default_kicker: Panduan hitung mundur
+  why_it_helps: Manfaatnya
+  benefits_default_heading: Hitung mundur yang sesuai dengan momen.
+  how_to_use: Cara menggunakan
+  steps_default_heading: Buat hitung mundur dalam hitungan menit.
+  steps_intro: Mulai dari tanggal, lalu buat penghitung berguna di setiap layar yang
+    Anda periksa sehari-hari.
+  faq: FAQ
+  common_questions: Pertanyaan umum
+  more_ideas: Ide lainnya
+  related_heading: Buat penghitung berikutnya di daftar Anda.
+  cta_default_heading: Buat tanggal itu terasa lebih dekat.
+  aside_bullets:
+  - Widget Layar Utama dan Layar Terkunci
+  - Unit, warna, daftar, dan pemberitahuan khusus
+  - Penyelarasan iCloud di perangkat Apple
+  guide_meta_title: TOPIC untuk iPhone, iPad, Mac, dan Apple Watch
+  guide_description: Buat TOPIC_LOWER dengan widget, pengingat, warna khusus, daftar,
+    dan penyelarasan iCloud.
+  guide_h1: TOPIC untuk tanggal penting
+  guide_hero: Pantau TOPIC_LOWER dan tanggal terkait dengan widget, pengingat, unit
+    fleksibel, warna, dan daftar di perangkat Apple Anda.
+  guide_benefits_heading: Jaga tanggal tetap terlihat dan teratur.
+  benefit_titles:
+  - Hitung mundur sekilas
+  - Perencanaan fleksibel
+  - Pengaturan pribadi
+  benefit_descriptions:
+  - Tampilkan tanggal penting di Layar Utama, Layar Terkunci, Apple Watch, iPad, dan
+    Mac.
+  - Pantau tanggal utama beserta pengingat, pencapaian, perjalanan, tenggat, dan jadwal
+    berulang.
+  - Pilih unit, warna, ikon, daftar, dan pemberitahuan yang sesuai.
+  guide_steps_heading: Atur hitung mundur Anda.
+  step_titles:
+  - Tambahkan tanggal
+  - Sesuaikan hitung mundur
+  - Jaga agar tetap terlihat
+  step_descriptions:
+  - Buat hitung mundur dengan tanggal dan waktu yang penting.
+  - Pilih unit tampilan, warna, ikon, daftar, dan pengingat.
+  - Tambahkan widget atau komplikasi Apple Watch agar mudah diperiksa.
+  guide_faq_heading: Pertanyaan tentang TOPIC
+  faq_questions:
+  - Bisakah saya memantau beberapa tanggal terkait?
+  - Bisakah hitung mundur ditampilkan di Layar Utama atau Layar Terkunci?
+  - Bisakah saya menyesuaikan hitung mundur?
+  faq_answers:
+  - Ya. Anda dapat membuat hitung mundur tanpa batas dan mengaturnya dalam daftar.
+  - Ya. Hitung Mundur mendukung widget Layar Utama, widget Layar Terkunci, dan komplikasi
+    Apple Watch.
+  - Ya. Anda dapat menyesuaikan unit, warna, ikon, daftar, pemberitahuan, dan lainnya.
+  guide_body_h2_1: Jaga tanggal penting tetap terlihat
+  guide_body_p1: Hitung mundur paling berguna saat mudah dilihat. Hitung Mundur mengubah
+    TOPIC_LOWER menjadi penghitung di layar yang Anda gunakan setiap hari.
+  guide_body_p2: Buat penghitung untuk tanggal utama, lalu tambahkan pencapaian, pengingat,
+    dan tanggal perencanaan terkait agar semuanya tetap bersama.
+  guide_body_h2_2: Sesuaikan dengan rencana Anda
+  guide_body_p3: Pilih tahun, bulan, minggu, hari, jam, menit, atau detik. Gunakan
+    warna, ikon, daftar, widget, pemberitahuan, dan arsip agar tetap berguna sebelum
+    dan sesudah tanggal tiba.
+  guide_cta_heading: Mulai TOPIC_LOWER Anda hari ini.
+  guide_cta_text: Unduh Hitung Mundur dan jaga tanggal penting berikutnya tetap terlihat.
+ms:
+  menu: Menu
+  breadcrumb_label: Navigasi halaman
+  on_this_page: Pada halaman ini
+  app_highlights_label: Sorotan APP_NAME
+  home_widgets_preview_label: Pratonton widget Skrin Utama APP_NAME
+  countdown_examples_label: Contoh kiraan detik popular
+  skip: Langkau ke kandungan
+  home: Utama
+  primary_nav: Navigasi utama
+  features: Ciri
+  widgets: Widget
+  ideas: Idea
+  press_kit: Kit Media
+  download: Muat turun
+  support: Pusat Bantuan
+  policies: Dasar
+  company_links: Pautan syarikat
+  made_by: Dicipta oleh
+  language: Bahasa
+  download_badge: Muat turun di App Store
+  app_description: Kiraan Detik membantu anda mengira masa menuju detik penting atau
+    sejak tarikh bermakna pada iPhone, iPad, Mac dan Apple Watch. Sesuai untuk hari
+    lahir, perayaan, perkahwinan, ulang tahun, percutian, persaraan dan banyak lagi!
+  title_suffix: Pengira masa untuk peranti Apple
+  hero_eyebrow: Untuk iPhone, iPad, Mac dan Apple Watch
+  hero_lead: Kira masa menuju detik seterusnya atau sejak perubahan penting. Cipta
+    pemasa tersuai untuk hari lahir, perayaan, tabiat, perjalanan, perlawanan dan
+    apa sahaja yang mahu dijejaki.
+  free: Percuma
+  download_label: muat turun
+  languages_label: bahasa
+  home_lock_screen: Skrin Utama dan Skrin Kunci
+  examples:
+  - Perkahwinan
+  - Hari lahir
+  - Percutian
+  - Persaraan
+  - Hari perlawanan
+  - Tabiat baharu
+  widgets_kicker: Widget di mana-mana
+  widgets_heading: Letakkan detik penting di tempat yang mudah dilihat.
+  widgets_body: Letakkan kiraan detik pada Skrin Utama dan Skrin Kunci, kemudian pilih
+    gaya yang sesuai. Acara besar, jadual berulang tersuai dan senarai kegemaran dapat
+    dilihat sepintas lalu.
+  widget_bullets:
+  - Widget Skrin Utama untuk kiraan detik dan senarai kegemaran.
+  - Widget Skrin Kunci untuk menyemak kemajuan dengan cepat.
+  - Sokongan Apple Watch dengan komplikasi.
+  features_kicker: Dibina untuk kehidupan sebenar
+  features_heading: Fleksibel untuk setiap jenis pemasa.
+  features_body: Jejaki perayaan, tarikh akhir, rutin dan pencapaian dengan kawalan
+    yang menjadikan setiap kiraan detik milik anda.
+  feature_titles:
+  - Kiraan detik tanpa had
+  - Widget
+  - Unit boleh disesuaikan
+  - Acara berulang
+  - Import acara
+  - Penyegerakan iCloud
+  - Pemberitahuan
+  - Senarai
+  - Arkib
+  - Pintasan Siri
+  - Apple Watch
+  - Bahasa
+  feature_descriptions:
+  - Cipta kiraan detik tanpa had menuju tarikh akan datang atau sejak pencapaian lalu
+  - Lihat kiraan detik pada Skrin Utama atau Skrin Kunci
+  - Paparkan tahun, bulan, minggu, hari, jam, minit, saat atau gabungannya
+  - Cipta pengulangan mudah atau jadual berulang lanjutan
+  - Import tarikh daripada Kalendar, Kenalan dan Peringatan
+  - Segerakkan kiraan detik dan senarai merentas peranti
+  - Pilih masa untuk diingatkan sebelum setiap kiraan detik
+  - Susun kiraan detik dalam senarai tersuai
+  - Simpan dan lihat kiraan detik lalu
+  - Gunakan Pintasan untuk menyemak kiraan detik dengan suara
+  - Lihat kiraan detik pada Apple Watch dengan komplikasi
+  - Tersedia dalam lebih daripada 30 bahasa
+  personal_kicker: Peribadi sejak awal
+  personal_heading: Pilih unit, warna, ikon, senarai dan pemberitahuan yang sesuai
+    dengan acara.
+  personal_body: Kira dalam tahun, bulan, minggu, hari, jam, minit atau saat. Import
+    daripada Kalendar, Kenalan dan Peringatan, susun dalam senarai dan segerakkan
+    merentas peranti.
+  mini_titles:
+  - Acara berulang
+  - Pemberitahuan tersuai
+  - Arkib
+  mini_bodies:
+  - Cipta pengulangan mudah atau jadual lanjutan untuk tarikh yang berulang.
+  - Pilih bila anda mahu diingatkan sebelum masanya tiba.
+  - Simpan kiraan detik lalu tanpa memenuhi senarai utama.
+  pricing_kicker: Mula secara percuma
+  pricing_heading: Muat turun Kiraan Detik secara percuma.
+  pricing_body: Pembelian pilihan bulanan, tahunan dan sekali sahaja membuka penyegerakan
+    iCloud, mod padat, senarai, penunjuk arah, bunyi tersuai dan arkib.
+  ideas_kicker: Idea kiraan detik
+  ideas_heading: Rancang semua jenis kiraan detik dalam satu aplikasi.
+  ideas_body: Cipta pemasa untuk detik popular, kemudian sesuaikan unit, warna, widget,
+    senarai dan pemberitahuannya.
+  browse_all_ideas: Lihat semua idea
+  start_counting: Mula mengira
+  home_cta_heading: Jadikan hari besar seterusnya terasa lebih dekat.
+  ideas_title: Idea kiraan detik
+  ideas_meta_title: Idea kiraan detik untuk perkahwinan, hari lahir, percutian, perayaan
+    dan acara
+  ideas_description: Terokai idea untuk perkahwinan, hari lahir, percutian, perayaan,
+    ulang tahun, persaraan, widget dan banyak lagi.
+  ideas_index_heading: Idea untuk setiap tarikh yang wajar dijejaki
+  ideas_index_body: Terokai penggunaan Kiraan Detik untuk perayaan, perjalanan, pencapaian,
+    cuti, widget dan tarikh harian yang mahu anda lihat.
+  browse_all: Lihat semua
+  choose_type: Pilih jenis kiraan detik untuk bermula.
+  guide_focus: Setiap panduan memfokuskan tujuan berbeza dengan idea persediaan praktikal
+    dan pautan ke halaman berkaitan.
+  create_own: Cipta kiraan detik anda sendiri.
+  breadcrumb_ideas: Idea kiraan detik
+  guide_default_kicker: Panduan kiraan detik
+  why_it_helps: Manfaatnya
+  benefits_default_heading: Kiraan detik yang sesuai dengan saat itu.
+  how_to_use: Cara menggunakan
+  steps_default_heading: Cipta kiraan detik dalam beberapa minit.
+  steps_intro: Mulakan dengan tarikh, kemudian jadikan pemasa berguna pada setiap
+    skrin yang anda semak setiap hari.
+  faq: Soalan lazim
+  common_questions: Soalan biasa
+  more_ideas: Lebih banyak idea
+  related_heading: Cipta pemasa seterusnya dalam senarai anda.
+  cta_default_heading: Jadikan tarikh itu terasa lebih dekat.
+  aside_bullets:
+  - Widget Skrin Utama dan Skrin Kunci
+  - Unit, warna, senarai dan pemberitahuan tersuai
+  - Penyegerakan iCloud merentas peranti Apple
+  guide_meta_title: TOPIC untuk iPhone, iPad, Mac dan Apple Watch
+  guide_description: Cipta TOPIC_LOWER dengan widget, peringatan, warna tersuai, senarai
+    dan penyegerakan iCloud.
+  guide_h1: TOPIC untuk tarikh penting
+  guide_hero: Jejaki TOPIC_LOWER dan tarikh berkaitan dengan widget, peringatan, unit
+    fleksibel, warna dan senarai pada peranti Apple anda.
+  guide_benefits_heading: Pastikan tarikh mudah dilihat dan tersusun.
+  benefit_titles:
+  - Kiraan detik sepintas lalu
+  - Perancangan fleksibel
+  - Persediaan peribadi
+  benefit_descriptions:
+  - Paparkan tarikh penting pada Skrin Utama, Skrin Kunci, Apple Watch, iPad dan Mac.
+  - Jejaki tarikh utama bersama peringatan, pencapaian, perjalanan, tarikh akhir dan
+    jadual berulang.
+  - Pilih unit, warna, ikon, senarai dan pemberitahuan yang sesuai.
+  guide_steps_heading: Sediakan kiraan detik anda.
+  step_titles:
+  - Tambah tarikh
+  - Sesuaikan kiraan detik
+  - Pastikan ia kelihatan
+  step_descriptions:
+  - Cipta kiraan detik dengan hari dan masa yang penting.
+  - Pilih unit paparan, warna, ikon, senarai dan peringatan.
+  - Tambah widget atau komplikasi Apple Watch untuk semakan pantas.
+  guide_faq_heading: Soalan tentang TOPIC
+  faq_questions:
+  - Bolehkah saya menjejaki beberapa tarikh berkaitan?
+  - Bolehkah saya meletakkan kiraan detik pada Skrin Utama atau Skrin Kunci?
+  - Bolehkah saya menyesuaikan kiraan detik?
+  faq_answers:
+  - Ya. Anda boleh mencipta kiraan detik tanpa had dan menyusunnya dalam senarai.
+  - Ya. Kiraan Detik menyokong widget Skrin Utama, widget Skrin Kunci dan komplikasi
+    Apple Watch.
+  - Ya. Anda boleh menyesuaikan unit, warna, ikon, senarai, pemberitahuan dan banyak
+    lagi.
+  guide_body_h2_1: Pastikan tarikh penting sentiasa kelihatan
+  guide_body_p1: Kiraan detik paling berguna apabila mudah dilihat. Kiraan Detik menjadikan
+    TOPIC_LOWER pemasa pada skrin yang anda gunakan setiap hari.
+  guide_body_p2: Cipta pemasa untuk tarikh utama, kemudian tambah pencapaian, peringatan
+    dan tarikh perancangan berkaitan agar semuanya bersama.
+  guide_body_h2_2: Sesuaikan dengan rancangan anda
+  guide_body_p3: Pilih tahun, bulan, minggu, hari, jam, minit atau saat. Gunakan warna,
+    ikon, senarai, widget, pemberitahuan dan arkib sebelum dan selepas tarikh tiba.
+  guide_cta_heading: Mulakan TOPIC_LOWER anda hari ini.
+  guide_cta_text: Muat turun Kiraan Detik dan pastikan tarikh penting seterusnya sentiasa
+    kelihatan.
+ro:
+  menu: Meniu
+  breadcrumb_label: Navigare ierarhică
+  on_this_page: Pe această pagină
+  app_highlights_label: Funcțiile APP_NAME
+  home_widgets_preview_label: Previzualizare widgeturi APP_NAME pe ecranul principal
+  countdown_examples_label: Exemple populare de numărători
+  skip: Sari la conținut
+  home: Acasă
+  primary_nav: Navigare principală
+  features: Funcții
+  widgets: Widgeturi
+  ideas: Idei
+  press_kit: Kit de presă
+  download: Descarcă
+  support: Centru de ajutor
+  policies: Politici
+  company_links: Linkuri ale companiei
+  made_by: Creat de
+  language: Limbă
+  download_badge: Descarcă din App Store
+  app_description: Numărători inverse te ajută să numeri timpul până la momente importante
+    sau de la date semnificative pe iPhone, iPad, Mac și Apple Watch. Ideală pentru
+    zile de naștere, sărbători, nunți, aniversări, vacanțe, pensionare și multe altele!
+  title_suffix: Numărători inverse pentru dispozitive Apple
+  hero_eyebrow: Pentru iPhone, iPad, Mac și Apple Watch
+  hero_lead: Numără timpul până la ce urmează sau de la o schimbare importantă. Creează
+    cronometre personalizabile pentru aniversări, sărbători, obiceiuri, călătorii,
+    meciuri și tot ce merită urmărit.
+  free: Gratuit
+  download_label: descărcare
+  languages_label: limbi
+  home_lock_screen: Ecran principal și ecran blocat
+  examples:
+  - Nunți
+  - Zile de naștere
+  - Vacanțe
+  - Pensionare
+  - Zi de meci
+  - Obiceiuri noi
+  widgets_kicker: Widgeturi peste tot
+  widgets_heading: Păstrează momentele importante la vedere.
+  widgets_body: Pune numărătorile pe ecranul principal și pe cel blocat, apoi alege
+    stilul potrivit. Evenimentele mari, programele recurente personalizate și listele
+    preferate rămân vizibile dintr-o privire.
+  widget_bullets:
+  - Widgeturi pe ecranul principal pentru numărători și liste preferate.
+  - Widgeturi pe ecranul blocat pentru verificarea rapidă a progresului.
+  - Suport Apple Watch cu complicații.
+  features_kicker: Pentru viața de zi cu zi
+  features_heading: Flexibilă pentru orice fel de cronometru.
+  features_body: Urmărește sărbători, termene, rutine și obiective cu opțiuni care
+    personalizează fiecare numărătoare.
+  feature_titles:
+  - Numărători nelimitate
+  - Widgeturi
+  - Unități personalizabile
+  - Evenimente recurente
+  - Import de evenimente
+  - Sincronizare iCloud
+  - Notificări
+  - Liste
+  - Arhivă
+  - Scurtături Siri
+  - Apple Watch
+  - Localizare
+  feature_descriptions:
+  - Creează numărători nelimitate până la date viitoare sau de la momente trecute
+  - Vezi numărătorile direct pe ecranul principal sau pe cel blocat
+  - Afișează ani, luni, săptămâni, zile, ore, minute, secunde sau combinații potrivite
+  - Creează repetări simple sau programe recurente avansate
+  - Importă date din Calendar, Contacte și Mementouri
+  - Sincronizează numărătorile și listele între dispozitive
+  - Alege când să primești un mementou înaintea fiecărei numărători
+  - Organizează numărătorile în liste proprii
+  - Păstrează și vezi numărătorile trecute
+  - Verifică numărătorile vocal cu Scurtături
+  - Vezi numărătorile pe Apple Watch cu complicații
+  - Disponibilă în peste 30 de limbi
+  personal_kicker: Personală de la început
+  personal_heading: Alege unitățile, culorile, pictogramele, listele și notificările
+    potrivite evenimentului.
+  personal_body: Numără în ani, luni, săptămâni, zile, ore, minute sau secunde. Importă
+    din Calendar, Contacte și Mementouri, organizează în liste și sincronizează între
+    dispozitive.
+  mini_titles:
+  - Evenimente recurente
+  - Notificări personalizate
+  - Arhivă
+  mini_bodies:
+  - Creează repetări simple sau programe avansate pentru date recurente.
+  - Alege când să primești un mementou înainte să sosească data.
+  - Păstrează numărătorile trecute fără să aglomerezi lista principală.
+  pricing_kicker: Începe gratuit
+  pricing_heading: Descarcă gratuit Numărători inverse.
+  pricing_body: Achizițiile opționale lunare, anuale și unice deblochează sincronizarea
+    iCloud, modul compact, listele, indicatorii de direcție, sunetele personalizate
+    și arhiva.
+  ideas_kicker: Idei de numărători
+  ideas_heading: Planifică orice numărătoare dintr-o singură aplicație.
+  ideas_body: Creează cronometre pentru momente populare și personalizează unitățile,
+    culorile, widgeturile, listele și notificările fiecăruia.
+  browse_all_ideas: Vezi toate ideile
+  start_counting: Începe numărătoarea
+  home_cta_heading: Fă următoarea zi mare să pară mai aproape.
+  ideas_title: Idei de numărători
+  ideas_meta_title: Idei de numărători pentru nunți, aniversări, vacanțe, sărbători
+    și evenimente
+  ideas_description: Descoperă idei pentru nunți, zile de naștere, vacanțe, sărbători,
+    aniversări, pensionare, widgeturi și altele.
+  ideas_index_heading: Idei pentru fiecare dată care merită urmărită
+  ideas_index_body: Descoperă cum să folosești Numărători inverse pentru sărbători,
+    călătorii, obiective, vacanțe, widgeturi și date cotidiene.
+  browse_all: Vezi tot
+  choose_type: Alege un tip de numărătoare pentru a începe.
+  guide_focus: Fiecare ghid are un scop diferit, cu idei practice de configurare și
+    linkuri către pagini asociate.
+  create_own: Creează propria numărătoare.
+  breadcrumb_ideas: Idei de numărători
+  guide_default_kicker: Ghid pentru numărători
+  why_it_helps: De ce ajută
+  benefits_default_heading: O numărătoare potrivită momentului.
+  how_to_use: Cum se folosește
+  steps_default_heading: Creează numărătoarea în câteva minute.
+  steps_intro: Începe cu data, apoi fă cronometrul util pe fiecare ecran pe care îl
+    verifici zilnic.
+  faq: Întrebări frecvente
+  common_questions: Întrebări uzuale
+  more_ideas: Mai multe idei
+  related_heading: Creează următorul cronometru din listă.
+  cta_default_heading: Fă data să pară mai aproape.
+  aside_bullets:
+  - Widgeturi pentru ecranul principal și ecranul blocat
+  - Unități, culori, liste și notificări personalizate
+  - Sincronizare iCloud între dispozitive Apple
+  guide_meta_title: TOPIC pentru iPhone, iPad, Mac și Apple Watch
+  guide_description: 'TOPIC: widgeturi, mementouri, culori personalizate, liste și
+    sincronizare iCloud.'
+  guide_h1: TOPIC pentru datele importante
+  guide_hero: TOPIC pe dispozitivele Apple. Păstrează datele importante la îndemână
+    cu widgeturi, mementouri, unități flexibile, culori și liste.
+  guide_benefits_heading: Păstrează data vizibilă și organizată.
+  benefit_titles:
+  - Numărători dintr-o privire
+  - Planificare flexibilă
+  - Configurare personală
+  benefit_descriptions:
+  - Pune datele importante pe ecranul principal, ecranul blocat, Apple Watch, iPad
+    și Mac.
+  - Urmărește data principală plus mementouri, obiective, călătorii, termene și programe
+    recurente.
+  - Alege unitățile, culorile, pictogramele, listele și notificările potrivite.
+  guide_steps_heading: Configurează numărătoarea.
+  step_titles:
+  - Adaugă data
+  - Personalizează numărătoarea
+  - Păstreaz-o la vedere
+  step_descriptions:
+  - Creează numărătoarea cu ziua și ora importante.
+  - Alege unitățile, culorile, pictogramele, listele și mementourile.
+  - Adaugă widgeturi sau complicații Apple Watch pentru verificări rapide.
+  guide_faq_heading: Întrebări despre TOPIC
+  faq_questions:
+  - Pot urmări mai multe date asociate?
+  - Pot pune numărătoarea pe ecranul principal sau pe cel blocat?
+  - Pot personaliza numărătoarea?
+  faq_answers:
+  - Da. Poți crea numărători nelimitate și le poți organiza în liste.
+  - Da. Numărători inverse acceptă widgeturi pe ecranul principal și pe cel blocat,
+    precum și complicații Apple Watch.
+  - Da. Poți personaliza unitățile, culorile, pictogramele, listele, notificările
+    și altele.
+  guide_body_h2_1: Păstrează data importantă la vedere
+  guide_body_p1: O numărătoare este mai utilă când o vezi ușor. Cu Numărători inverse,
+    urmărești datele importante direct pe ecranele pe care le folosești zilnic.
+  guide_body_p2: Creează un cronometru pentru data principală, apoi adaugă obiective,
+    mementouri și date de planificare asociate, ca totul să rămână împreună.
+  guide_body_h2_2: Adaptează-l planului tău
+  guide_body_p3: Alege ani, luni, săptămâni, zile, ore, minute sau secunde. Folosește
+    culori, pictograme, liste, widgeturi, notificări și arhiva înainte și după sosirea
+    datei.
+  guide_cta_heading: 'Începe azi: TOPIC_LOWER.'
+  guide_cta_text: Descarcă Numărători inverse și păstrează următoarea dată importantă
+    la vedere.
+th:
+  menu: เมนู
+  breadcrumb_label: เส้นทางนำทาง
+  on_this_page: ในหน้านี้
+  app_highlights_label: จุดเด่นของ APP_NAME
+  home_widgets_preview_label: ตัวอย่างวิดเจ็ต APP_NAME บนหน้าจอโฮม
+  countdown_examples_label: ตัวอย่างการนับถอยหลังยอดนิยม
+  skip: ข้ามไปยังเนื้อหา
+  home: หน้าแรก
+  primary_nav: การนำทางหลัก
+  features: คุณสมบัติ
+  widgets: วิดเจ็ต
+  ideas: ไอเดีย
+  press_kit: ชุดข้อมูลสำหรับสื่อ
+  download: ดาวน์โหลด
+  support: ศูนย์ช่วยเหลือ
+  policies: นโยบาย
+  company_links: ลิงก์บริษัท
+  made_by: สร้างโดย
+  language: ภาษา
+  download_badge: ดาวน์โหลดบน App Store
+  app_description: นับถอยหลังช่วยนับเวลาถึงช่วงเวลาสำคัญหรือตั้งแต่วันที่มีความหมายบน
+    iPhone, iPad, Mac และ Apple Watch เหมาะสำหรับวันเกิด วันหยุด งานแต่งงาน วันครบรอบ
+    วันพักผ่อน วันเกษียณ และอีกมากมาย!
+  title_suffix: ตัวนับเวลาสำหรับอุปกรณ์ Apple
+  hero_eyebrow: สำหรับ iPhone, iPad, Mac และ Apple Watch
+  hero_lead: นับเวลาถึงสิ่งที่จะเกิดขึ้นหรือตั้งแต่การเปลี่ยนแปลงสำคัญ สร้างตัวนับที่ปรับแต่งได้สำหรับวันเกิด
+    วันหยุด นิสัย การเดินทาง วันแข่งขัน และทุกสิ่งที่อยากติดตาม
+  free: ฟรี
+  download_label: การดาวน์โหลด
+  languages_label: ภาษา
+  home_lock_screen: หน้าจอโฮมและหน้าจอล็อค
+  examples:
+  - งานแต่งงาน
+  - วันเกิด
+  - วันพักผ่อน
+  - วันเกษียณ
+  - วันแข่งขัน
+  - นิสัยใหม่
+  widgets_kicker: วิดเจ็ตทุกที่
+  widgets_heading: เก็บช่วงเวลาสำคัญไว้ในที่ที่มองเห็นได้
+  widgets_body: วางการนับถอยหลังบนหน้าจอโฮมและหน้าจอล็อค แล้วเลือกสไตล์ให้เข้ากับโอกาส
+    ดูกิจกรรมใหญ่ ตารางทำซ้ำที่กำหนดเอง และลิสต์โปรดได้ในพริบตา
+  widget_bullets:
+  - วิดเจ็ตหน้าจอโฮมสำหรับการนับถอยหลังและลิสต์โปรด
+  - วิดเจ็ตหน้าจอล็อคสำหรับดูความคืบหน้าอย่างรวดเร็ว
+  - รองรับ Apple Watch พร้อมกลไกหน้าปัด
+  features_kicker: สร้างมาเพื่อชีวิตประจำวัน
+  features_heading: ยืดหยุ่นสำหรับตัวนับทุกประเภท
+  features_body: ติดตามการเฉลิมฉลอง กำหนดส่ง กิจวัตร และเป้าหมายด้วยตัวเลือกที่ทำให้การนับถอยหลังเป็นของคุณ
+  feature_titles:
+  - นับถอยหลังไม่จำกัด
+  - วิดเจ็ต
+  - หน่วยที่ปรับแต่งได้
+  - กิจกรรมที่เกิดซ้ำ
+  - นำเข้ากิจกรรม
+  - การเชื่อมข้อมูล iCloud
+  - การแจ้งเตือน
+  - ลิสต์
+  - คลังถาวร
+  - คำสั่งลัด Siri
+  - Apple Watch
+  - ภาษา
+  feature_descriptions:
+  - สร้างการนับถอยหลังไม่จำกัดถึงวันที่ในอนาคตหรือนับจากเหตุการณ์ในอดีต
+  - ดูการนับถอยหลังบนหน้าจอโฮมหรือหน้าจอล็อค
+  - แสดงปี เดือน สัปดาห์ วัน ชั่วโมง นาที วินาที หรือผสมตามต้องการ
+  - สร้างการทำซ้ำแบบง่ายหรือตารางที่ซับซ้อน
+  - นำเข้าวันที่จากปฏิทิน รายชื่อ และเตือนความจำ
+  - เชื่อมข้อมูลการนับถอยหลังและลิสต์ระหว่างอุปกรณ์
+  - เลือกเวลาที่ต้องการรับการเตือนก่อนแต่ละรายการ
+  - จัดการนับถอยหลังไว้ในลิสต์ของคุณเอง
+  - เก็บและดูการนับถอยหลังที่ผ่านมา
+  - ตรวจสอบการนับถอยหลังด้วยเสียงผ่านคำสั่งลัด
+  - ดูการนับถอยหลังบน Apple Watch พร้อมกลไกหน้าปัด
+  - รองรับมากกว่า 30 ภาษา
+  personal_kicker: เป็นส่วนตัวตั้งแต่เริ่ม
+  personal_heading: เลือกหน่วย สี ไอคอน ลิสต์ และการแจ้งเตือนให้เหมาะกับกิจกรรม
+  personal_body: นับเป็นปี เดือน สัปดาห์ วัน ชั่วโมง นาที หรือวินาที นำเข้าจากปฏิทิน
+    รายชื่อ และเตือนความจำ จัดเป็นลิสต์ และเชื่อมข้อมูลระหว่างอุปกรณ์
+  mini_titles:
+  - กิจกรรมที่เกิดซ้ำ
+  - การแจ้งเตือนที่กำหนดเอง
+  - คลังถาวร
+  mini_bodies:
+  - สร้างการทำซ้ำแบบง่ายหรือขั้นสูงสำหรับวันที่เวียนกลับมา
+  - เลือกเวลารับการเตือนก่อนถึงวันสำคัญ
+  - เก็บการนับถอยหลังที่ผ่านมาโดยไม่ทำให้ลิสต์หลักรก
+  pricing_kicker: เริ่มต้นฟรี
+  pricing_heading: ดาวน์โหลดนับถอยหลังฟรี
+  pricing_body: การซื้อเสริมแบบรายเดือน รายปี หรือครั้งเดียวจะปลดล็อคการเชื่อมข้อมูล
+    iCloud โหมดกะทัดรัด ลิสต์ ตัวบอกทิศทาง เสียงที่กำหนดเอง และคลังถาวร
+  ideas_kicker: ไอเดียนับถอยหลัง
+  ideas_heading: วางแผนการนับถอยหลังทุกแบบในแอปเดียว
+  ideas_body: สร้างตัวนับสำหรับช่วงเวลายอดนิยม แล้วปรับหน่วย สี วิดเจ็ต ลิสต์ และการแจ้งเตือนให้เหมาะกับแต่ละกิจกรรม
+  browse_all_ideas: ดูไอเดียทั้งหมด
+  start_counting: เริ่มนับ
+  home_cta_heading: ทำให้วันสำคัญถัดไปรู้สึกใกล้ขึ้น
+  ideas_title: ไอเดียนับถอยหลัง
+  ideas_meta_title: ไอเดียสำหรับงานแต่งงาน วันเกิด วันพักผ่อน วันหยุด และกิจกรรม
+  ideas_description: สำรวจไอเดียสำหรับงานแต่งงาน วันเกิด วันพักผ่อน วันหยุด วันครบรอบ
+    วันเกษียณ วิดเจ็ต และอีกมากมาย
+  ideas_index_heading: ไอเดียสำหรับทุกวันที่ควรติดตาม
+  ideas_index_body: สำรวจวิธีใช้นับถอยหลังสำหรับการเฉลิมฉลอง การเดินทาง เป้าหมาย วันหยุด
+    วิดเจ็ต และวันที่ในชีวิตประจำวันที่อยากมองเห็นเสมอ
+  browse_all: ดูทั้งหมด
+  choose_type: เลือกประเภทการนับถอยหลังเพื่อเริ่มต้น
+  guide_focus: แต่ละคู่มือเน้นเป้าหมายต่างกัน พร้อมแนวทางตั้งค่าที่ใช้ได้จริงและลิงก์ไปยังหน้าที่เกี่ยวข้อง
+  create_own: สร้างการนับถอยหลังของคุณเอง
+  breadcrumb_ideas: ไอเดียนับถอยหลัง
+  guide_default_kicker: คู่มือนับถอยหลัง
+  why_it_helps: ประโยชน์
+  benefits_default_heading: การนับถอยหลังที่เหมาะกับช่วงเวลา
+  how_to_use: วิธีใช้งาน
+  steps_default_heading: สร้างการนับถอยหลังในไม่กี่นาที
+  steps_intro: เริ่มจากวันที่ แล้วทำให้ตัวนับมีประโยชน์บนทุกหน้าจอที่คุณดูในแต่ละวัน
+  faq: คำถามที่พบบ่อย
+  common_questions: คำถามทั่วไป
+  more_ideas: ไอเดียเพิ่มเติม
+  related_heading: สร้างตัวนับถัดไปในลิสต์ของคุณ
+  cta_default_heading: ทำให้วันที่นั้นรู้สึกใกล้ขึ้น
+  aside_bullets:
+  - วิดเจ็ตหน้าจอโฮมและหน้าจอล็อค
+  - หน่วย สี ลิสต์ และการแจ้งเตือนที่กำหนดเอง
+  - การเชื่อมข้อมูล iCloud ระหว่างอุปกรณ์ Apple
+  guide_meta_title: TOPIC สำหรับ iPhone, iPad, Mac และ Apple Watch
+  guide_description: สร้าง TOPIC_LOWER พร้อมวิดเจ็ต การเตือน สีที่กำหนดเอง ลิสต์ และการเชื่อมข้อมูล
+    iCloud
+  guide_h1: TOPIC สำหรับวันที่สำคัญ
+  guide_hero: ติดตาม TOPIC_LOWER และวันที่เกี่ยวข้องด้วยวิดเจ็ต การเตือน หน่วยที่ยืดหยุ่น
+    สี และลิสต์บนอุปกรณ์ Apple
+  guide_benefits_heading: เก็บวันที่ไว้ให้มองเห็นและเป็นระเบียบ
+  benefit_titles:
+  - ดูการนับถอยหลังได้ทันที
+  - วางแผนได้ยืดหยุ่น
+  - ตั้งค่าเป็นส่วนตัว
+  benefit_descriptions:
+  - แสดงวันที่สำคัญบนหน้าจอโฮม หน้าจอล็อค Apple Watch, iPad และ Mac
+  - ติดตามวันที่หลัก พร้อมการเตือน เป้าหมาย การเดินทาง กำหนดส่ง และตารางทำซ้ำ
+  - เลือกหน่วย สี ไอคอน ลิสต์ และการแจ้งเตือนให้เข้ากับกิจกรรม
+  guide_steps_heading: ตั้งค่าการนับถอยหลัง
+  step_titles:
+  - เพิ่มวันที่
+  - ปรับแต่งการนับถอยหลัง
+  - ทำให้มองเห็นเสมอ
+  step_descriptions:
+  - สร้างการนับถอยหลังด้วยวันและเวลาที่สำคัญ
+  - เลือกหน่วยที่แสดง สี ไอคอน ลิสต์ และการเตือน
+  - เพิ่มวิดเจ็ตหรือกลไกหน้าปัด Apple Watch เพื่อดูได้อย่างรวดเร็ว
+  guide_faq_heading: คำถามเกี่ยวกับ TOPIC
+  faq_questions:
+  - ติดตามหลายวันที่เกี่ยวข้องกันได้หรือไม่?
+  - วางการนับถอยหลังบนหน้าจอโฮมหรือหน้าจอล็อคได้หรือไม่?
+  - ปรับแต่งการนับถอยหลังได้หรือไม่?
+  faq_answers:
+  - ได้ คุณสร้างการนับถอยหลังได้ไม่จำกัดและจัดเป็นลิสต์ได้
+  - ได้ นับถอยหลังรองรับวิดเจ็ตหน้าจอโฮม วิดเจ็ตหน้าจอล็อค และกลไกหน้าปัด Apple Watch
+  - ได้ คุณปรับหน่วย สี ไอคอน ลิสต์ การแจ้งเตือน และอื่นๆ ได้
+  guide_body_h2_1: เก็บวันที่สำคัญไว้ในสายตา
+  guide_body_p1: การนับถอยหลังมีประโยชน์ที่สุดเมื่อมองเห็นง่าย นับถอยหลังเปลี่ยน TOPIC_LOWER
+    เป็นตัวนับบนหน้าจอที่คุณใช้ทุกวัน
+  guide_body_p2: สร้างตัวนับสำหรับวันที่หลัก แล้วเพิ่มเป้าหมาย การเตือน และวันที่วางแผนที่เกี่ยวข้องเพื่อให้ทุกอย่างอยู่ด้วยกัน
+  guide_body_h2_2: ปรับให้เข้ากับแผนของคุณ
+  guide_body_p3: เลือกปี เดือน สัปดาห์ วัน ชั่วโมง นาที หรือวินาที ใช้สี ไอคอน ลิสต์
+    วิดเจ็ต การแจ้งเตือน และคลังถาวรเพื่อให้มีประโยชน์ทั้งก่อนและหลังถึงวันนั้น
+  guide_cta_heading: เริ่ม TOPIC_LOWER วันนี้
+  guide_cta_text: ดาวน์โหลดนับถอยหลังและเก็บวันที่สำคัญถัดไปไว้ในสายตา
+vi:
+  menu: Menu
+  breadcrumb_label: Đường dẫn điều hướng
+  on_this_page: Trên trang này
+  app_highlights_label: Điểm nổi bật của APP_NAME
+  home_widgets_preview_label: Xem trước tiện ích APP_NAME trên Màn hình chính
+  countdown_examples_label: Ví dụ đếm ngược phổ biến
+  skip: Chuyển đến nội dung
+  home: Trang chủ
+  primary_nav: Điều hướng chính
+  features: Tính năng
+  widgets: Tiện ích
+  ideas: Ý tưởng
+  press_kit: Tài liệu báo chí
+  download: Tải về
+  support: Trung tâm trợ giúp
+  policies: Chính sách
+  company_links: Liên kết công ty
+  made_by: Được tạo bởi
+  language: Ngôn ngữ
+  download_badge: Tải về trên App Store
+  app_description: Đếm ngược giúp bạn đếm thời gian đến những khoảnh khắc quan trọng
+    hoặc từ các ngày ý nghĩa trên iPhone, iPad, Mac và Apple Watch. Phù hợp cho sinh
+    nhật, ngày lễ, đám cưới, kỷ niệm, kỳ nghỉ, nghỉ hưu và nhiều hơn nữa!
+  title_suffix: Đếm ngược cho thiết bị Apple
+  hero_eyebrow: Dành cho iPhone, iPad, Mac và Apple Watch
+  hero_lead: Đếm đến sự kiện tiếp theo hoặc từ một thay đổi quan trọng. Tạo bộ đếm
+    tùy chỉnh cho sinh nhật, ngày lễ, thói quen, chuyến đi, trận đấu và mọi điều đáng
+    theo dõi.
+  free: Miễn phí
+  download_label: lượt tải
+  languages_label: ngôn ngữ
+  home_lock_screen: Màn hình chính và Màn hình khóa
+  examples:
+  - Đám cưới
+  - Sinh nhật
+  - Kỳ nghỉ
+  - Nghỉ hưu
+  - Ngày thi đấu
+  - Thói quen mới
+  widgets_kicker: Tiện ích ở mọi nơi
+  widgets_heading: Giữ những khoảnh khắc quan trọng trong tầm mắt.
+  widgets_body: Đặt đếm ngược trên Màn hình chính và Màn hình khóa, rồi chọn phong
+    cách phù hợp. Sự kiện lớn, lịch lặp tùy chỉnh và danh sách yêu thích luôn dễ xem
+    nhanh.
+  widget_bullets:
+  - Tiện ích Màn hình chính cho mục đếm ngược và danh sách yêu thích.
+  - Tiện ích Màn hình khóa để kiểm tra tiến độ nhanh.
+  - Hỗ trợ Apple Watch với tổ hợp.
+  features_kicker: Dành cho cuộc sống thực
+  features_heading: Linh hoạt cho mọi loại bộ đếm.
+  features_body: Theo dõi lễ kỷ niệm, hạn chót, thói quen và cột mốc bằng các tùy
+    chọn giúp mỗi mục đếm ngược mang dấu ấn riêng.
+  feature_titles:
+  - Đếm ngược không giới hạn
+  - Tiện ích
+  - Đơn vị tùy chỉnh
+  - Sự kiện lặp lại
+  - Nhập sự kiện
+  - Đồng bộ hóa iCloud
+  - Thông báo
+  - Danh sách
+  - Kho lưu trữ
+  - Phím tắt Siri
+  - Apple Watch
+  - Ngôn ngữ
+  feature_descriptions:
+  - Tạo đếm ngược không giới hạn đến ngày tương lai hoặc đếm từ cột mốc đã qua
+  - Xem đếm ngược ngay trên Màn hình chính hoặc Màn hình khóa
+  - Hiển thị năm, tháng, tuần, ngày, giờ, phút, giây hoặc kết hợp phù hợp
+  - Tạo lặp lại đơn giản hoặc lịch lặp nâng cao
+  - Nhập ngày từ Lịch, Danh bạ và Lời nhắc
+  - Đồng bộ hóa đếm ngược và danh sách giữa các thiết bị
+  - Chọn thời điểm được nhắc trước mỗi mục đếm ngược
+  - Sắp xếp đếm ngược vào danh sách riêng
+  - Lưu và xem các mục đếm ngược đã qua
+  - Kiểm tra đếm ngược bằng giọng nói qua Phím tắt
+  - Xem đếm ngược trên Apple Watch với tổ hợp
+  - Có hơn 30 ngôn ngữ
+  personal_kicker: Cá nhân ngay từ đầu
+  personal_heading: Chọn đơn vị, màu sắc, biểu tượng, danh sách và thông báo phù hợp
+    với sự kiện.
+  personal_body: Đếm bằng năm, tháng, tuần, ngày, giờ, phút hoặc giây. Nhập từ Lịch,
+    Danh bạ và Lời nhắc, sắp xếp vào danh sách và đồng bộ hóa giữa các thiết bị.
+  mini_titles:
+  - Sự kiện lặp lại
+  - Thông báo tùy chỉnh
+  - Kho lưu trữ
+  mini_bodies:
+  - Tạo lặp lại đơn giản hoặc lịch nâng cao cho những ngày định kỳ.
+  - Chọn thời điểm nhận lời nhắc trước khi đến ngày.
+  - Giữ các mục đếm ngược đã qua mà không làm đầy danh sách chính.
+  pricing_kicker: Bắt đầu miễn phí
+  pricing_heading: Tải Đếm ngược miễn phí.
+  pricing_body: Các giao dịch tùy chọn hàng tháng, hàng năm và một lần mở khóa đồng
+    bộ hóa iCloud, chế độ gọn, danh sách, chỉ báo hướng, âm thanh tùy chỉnh và kho
+    lưu trữ.
+  ideas_kicker: Ý tưởng đếm ngược
+  ideas_heading: Lên kế hoạch cho mọi loại đếm ngược trong một ứng dụng.
+  ideas_body: Tạo bộ đếm cho những dịp phổ biến, rồi tùy chỉnh đơn vị, màu sắc, tiện
+    ích, danh sách và thông báo.
+  browse_all_ideas: Xem tất cả ý tưởng
+  start_counting: Bắt đầu đếm
+  home_cta_heading: Đưa ngày trọng đại tiếp theo đến gần hơn.
+  ideas_title: Ý tưởng đếm ngược
+  ideas_meta_title: Ý tưởng cho đám cưới, sinh nhật, kỳ nghỉ, ngày lễ và sự kiện
+  ideas_description: Khám phá ý tưởng cho đám cưới, sinh nhật, kỳ nghỉ, ngày lễ, kỷ
+    niệm, nghỉ hưu, tiện ích và nhiều hơn nữa.
+  ideas_index_heading: Ý tưởng cho mọi ngày đáng theo dõi
+  ideas_index_body: Khám phá cách dùng Đếm ngược cho lễ kỷ niệm, chuyến đi, cột mốc,
+    ngày lễ, tiện ích và những ngày thường nhật cần ghi nhớ.
+  browse_all: Xem tất cả
+  choose_type: Chọn loại đếm ngược để bắt đầu.
+  guide_focus: Mỗi hướng dẫn tập trung vào một mục đích, với ý tưởng thiết lập thực
+    tế và liên kết đến trang liên quan.
+  create_own: Tạo mục đếm ngược của riêng bạn.
+  breadcrumb_ideas: Ý tưởng đếm ngược
+  guide_default_kicker: Hướng dẫn đếm ngược
+  why_it_helps: Lợi ích
+  benefits_default_heading: Đếm ngược phù hợp với khoảnh khắc.
+  how_to_use: Cách sử dụng
+  steps_default_heading: Tạo đếm ngược trong vài phút.
+  steps_intro: Bắt đầu bằng ngày, rồi làm bộ đếm hữu ích trên mọi màn hình bạn kiểm
+    tra mỗi ngày.
+  faq: Câu hỏi thường gặp
+  common_questions: Câu hỏi phổ biến
+  more_ideas: Thêm ý tưởng
+  related_heading: Tạo bộ đếm tiếp theo trong danh sách.
+  cta_default_heading: Đưa ngày quan trọng đến gần hơn.
+  aside_bullets:
+  - Tiện ích Màn hình chính và Màn hình khóa
+  - Đơn vị, màu sắc, danh sách và thông báo tùy chỉnh
+  - Đồng bộ hóa iCloud giữa thiết bị Apple
+  guide_meta_title: TOPIC cho iPhone, iPad, Mac và Apple Watch
+  guide_description: Tạo TOPIC_LOWER với tiện ích, lời nhắc, màu tùy chỉnh, danh sách
+    và đồng bộ hóa iCloud.
+  guide_h1: TOPIC cho những ngày quan trọng
+  guide_hero: Theo dõi TOPIC_LOWER và ngày liên quan bằng tiện ích, lời nhắc, đơn
+    vị linh hoạt, màu sắc và danh sách trên thiết bị Apple.
+  guide_benefits_heading: Giữ ngày luôn hiển thị và được sắp xếp.
+  benefit_titles:
+  - Xem nhanh đếm ngược
+  - Lên kế hoạch linh hoạt
+  - Thiết lập cá nhân
+  benefit_descriptions:
+  - Đặt ngày quan trọng trên Màn hình chính, Màn hình khóa, Apple Watch, iPad và Mac.
+  - Theo dõi ngày chính cùng lời nhắc, cột mốc, chuyến đi, hạn chót và lịch lặp.
+  - Chọn đơn vị, màu sắc, biểu tượng, danh sách và thông báo phù hợp.
+  guide_steps_heading: Thiết lập mục đếm ngược.
+  step_titles:
+  - Thêm ngày
+  - Tùy chỉnh đếm ngược
+  - Giữ luôn hiển thị
+  step_descriptions:
+  - Tạo đếm ngược với ngày và giờ quan trọng.
+  - Chọn đơn vị hiển thị, màu sắc, biểu tượng, danh sách và lời nhắc.
+  - Thêm tiện ích hoặc tổ hợp Apple Watch để kiểm tra nhanh.
+  guide_faq_heading: Câu hỏi về TOPIC
+  faq_questions:
+  - Tôi có thể theo dõi nhiều ngày liên quan không?
+  - Tôi có thể đặt đếm ngược trên Màn hình chính hoặc Màn hình khóa không?
+  - Tôi có thể tùy chỉnh đếm ngược không?
+  faq_answers:
+  - Có. Bạn có thể tạo đếm ngược không giới hạn và sắp xếp vào danh sách.
+  - Có. Đếm ngược hỗ trợ tiện ích Màn hình chính, Màn hình khóa và tổ hợp Apple Watch.
+  - Có. Bạn có thể tùy chỉnh đơn vị, màu sắc, biểu tượng, danh sách, thông báo và
+    hơn thế nữa.
+  guide_body_h2_1: Giữ ngày quan trọng trong tầm mắt
+  guide_body_p1: Đếm ngược hữu ích nhất khi dễ nhìn thấy. Đếm ngược biến TOPIC_LOWER
+    thành bộ đếm trên những màn hình bạn dùng mỗi ngày.
+  guide_body_p2: Tạo bộ đếm cho ngày chính, rồi thêm cột mốc, lời nhắc và ngày lên
+    kế hoạch liên quan để mọi thứ ở cùng nhau.
+  guide_body_h2_2: Phù hợp với kế hoạch của bạn
+  guide_body_p3: Chọn năm, tháng, tuần, ngày, giờ, phút hoặc giây. Dùng màu sắc, biểu
+    tượng, danh sách, tiện ích, thông báo và kho lưu trữ trước và sau khi đến ngày.
+  guide_cta_heading: Bắt đầu TOPIC_LOWER ngay hôm nay.
+  guide_cta_text: Tải Đếm ngược và giữ ngày quan trọng tiếp theo trong tầm mắt.
+uk:
+  menu: Меню
+  breadcrumb_label: Навігаційний шлях
+  on_this_page: На цій сторінці
+  app_highlights_label: Можливості APP_NAME
+  home_widgets_preview_label: Перегляд віджетів APP_NAME на Початковому екрані
+  countdown_examples_label: Популярні приклади відліків
+  skip: Перейти до вмісту
+  home: Головна
+  primary_nav: Основна навігація
+  features: Можливості
+  widgets: Віджети
+  ideas: Ідеї
+  press_kit: Матеріали для преси
+  download: Завантажити
+  support: Довідковий центр
+  policies: Політики
+  company_links: Посилання компанії
+  made_by: Розробник
+  language: Мова
+  download_badge: Завантажити в App Store
+  app_description: Відліки допомагають рахувати час до важливих подій або від пам’ятних
+    дат на iPhone, iPad, Mac і Apple Watch. Для днів народження, свят, весіль, річниць,
+    відпусток, виходу на пенсію та іншого!
+  title_suffix: Відліки для пристроїв Apple
+  hero_eyebrow: Для iPhone, iPad, Mac і Apple Watch
+  hero_lead: Рахуйте час до наступної події або від важливої зміни. Створюйте власні
+    таймери для днів народження, свят, звичок, подорожей, матчів і всього, за чим
+    варто стежити.
+  free: Безкоштовно
+  download_label: завантажень
+  languages_label: мови
+  home_lock_screen: Початковий і замкнений екрани
+  examples:
+  - Весілля
+  - Дні народження
+  - Відпустки
+  - Вихід на пенсію
+  - День матчу
+  - Нові звички
+  widgets_kicker: Віджети всюди
+  widgets_heading: Тримайте важливі миті перед очима.
+  widgets_body: Додайте відліки на Початковий і замкнений екрани та виберіть відповідний
+    стиль. Великі події, власні повторення й улюблені списки видно з першого погляду.
+  widget_bullets:
+  - Віджети Початкового екрана для улюблених відліків і списків.
+  - Віджети замкненого екрана для швидкої перевірки поступу.
+  - Підтримка Apple Watch з ускладненнями.
+  features_kicker: Для повсякденного життя
+  features_heading: Гнучкість для кожного таймера.
+  features_body: Стежте за святами, термінами, звичками й досягненнями з параметрами,
+    які роблять кожен відлік особистим.
+  feature_titles:
+  - Необмежені відліки
+  - Віджети
+  - Власні одиниці
+  - Повторювані події
+  - Імпорт подій
+  - Синхронізація iCloud
+  - Сповіщення
+  - Списки
+  - Архів
+  - Команди Siri
+  - Apple Watch
+  - Локалізація
+  feature_descriptions:
+  - Створюйте необмежені відліки до майбутніх дат або від минулих подій
+  - Переглядайте відліки на Початковому чи замкненому екрані
+  - Показуйте роки, місяці, тижні, дні, години, хвилини, секунди або їх поєднання
+  - Створюйте прості повторення або складні повторювані розклади
+  - Імпортуйте дати з Календаря, Контактів і Нагадувань
+  - Синхронізуйте відліки та списки між пристроями
+  - Вибирайте час нагадування перед кожним відліком
+  - Упорядковуйте відліки у власних списках
+  - Зберігайте й переглядайте минулі відліки
+  - Перевіряйте відліки голосом за допомогою Команд
+  - Переглядайте відліки на Apple Watch з ускладненнями
+  - Доступно понад 30 мовами
+  personal_kicker: Особисте від самого початку
+  personal_heading: Вибирайте одиниці, кольори, іконки, списки й сповіщення відповідно
+    до події.
+  personal_body: Рахуйте роки, місяці, тижні, дні, години, хвилини чи секунди. Імпортуйте
+    з Календаря, Контактів і Нагадувань, упорядковуйте у списки та синхронізуйте між
+    пристроями.
+  mini_titles:
+  - Повторювані події
+  - Власні сповіщення
+  - Архів
+  mini_bodies:
+  - Створюйте прості або складні повторення для дат, що повертаються.
+  - Вибирайте, коли отримати нагадування перед подією.
+  - Зберігайте минулі відліки, не захаращуючи основний список.
+  pricing_kicker: Почніть безкоштовно
+  pricing_heading: Завантажте Відліки безкоштовно.
+  pricing_body: Необов’язкові місячні, річні й одноразові покупки відкривають синхронізацію
+    iCloud, компактний режим, списки, індикатори напрямку, власні звуки та архів.
+  ideas_kicker: Ідеї для відліків
+  ideas_heading: Плануйте всі відліки в одній програмі.
+  ideas_body: Створюйте таймери для популярних подій і налаштовуйте одиниці, кольори,
+    віджети, списки та сповіщення.
+  browse_all_ideas: Переглянути всі ідеї
+  start_counting: Почати відлік
+  home_cta_heading: Наблизьте наступний важливий день.
+  ideas_title: Ідеї для відліків
+  ideas_meta_title: Ідеї для весіль, днів народження, відпусток, свят і подій
+  ideas_description: Переглядайте ідеї для весіль, днів народження, відпусток, свят,
+    річниць, пенсії, віджетів та іншого.
+  ideas_index_heading: Ідеї для кожної дати, за якою варто стежити
+  ideas_index_body: Дізнайтеся, як використовувати Відліки для свят, подорожей, досягнень,
+    віджетів і повсякденних дат, які хочеться бачити.
+  browse_all: Переглянути все
+  choose_type: Виберіть тип відліку, щоб почати.
+  guide_focus: Кожен посібник присвячений іншій меті, містить практичні налаштування
+    та посилання на пов’язані сторінки.
+  create_own: Створіть власний відлік.
+  breadcrumb_ideas: Ідеї для відліків
+  guide_default_kicker: Посібник із відліків
+  why_it_helps: Чим це корисно
+  benefits_default_heading: Відлік, що відповідає події.
+  how_to_use: Як користуватися
+  steps_default_heading: Створіть відлік за кілька хвилин.
+  steps_intro: Почніть із дати, а потім зробіть таймер корисним на кожному екрані,
+    який переглядаєте щодня.
+  faq: Поширені запитання
+  common_questions: Типові запитання
+  more_ideas: Більше ідей
+  related_heading: Створіть наступний таймер зі свого списку.
+  cta_default_heading: Наблизьте важливу дату.
+  aside_bullets:
+  - Віджети Початкового й замкненого екранів
+  - Власні одиниці, кольори, списки та сповіщення
+  - Синхронізація iCloud між пристроями Apple
+  guide_meta_title: TOPIC для iPhone, iPad, Mac і Apple Watch
+  guide_description: Створіть TOPIC_LOWER з віджетами, нагадуваннями, власними кольорами,
+    списками й синхронізацією iCloud.
+  guide_h1: TOPIC для важливих дат
+  guide_hero: Відстежуйте TOPIC_LOWER і пов’язані дати з віджетами, нагадуваннями,
+    одиницями, кольорами та списками на пристроях Apple.
+  guide_benefits_heading: Тримайте дату на виду й усе впорядкованим.
+  benefit_titles:
+  - Відліки з першого погляду
+  - Гнучке планування
+  - Особисті налаштування
+  benefit_descriptions:
+  - Додайте важливі дати на Початковий і замкнений екрани, Apple Watch, iPad і Mac.
+  - Стежте за основною датою, нагадуваннями, досягненнями, подорожами, термінами й
+    повтореннями.
+  - Вибирайте одиниці, кольори, іконки, списки та сповіщення для події.
+  guide_steps_heading: Налаштуйте відлік.
+  step_titles:
+  - Додайте дату
+  - Налаштуйте відлік
+  - Тримайте його на виду
+  step_descriptions:
+  - Створіть відлік із важливими датою й часом.
+  - Виберіть одиниці, кольори, іконки, списки та нагадування.
+  - Додайте віджети або ускладнення Apple Watch для швидкої перевірки.
+  guide_faq_heading: 'Запитання: TOPIC'
+  faq_questions:
+  - Чи можна стежити за кількома пов’язаними датами?
+  - Чи можна додати відлік на Початковий або замкнений екран?
+  - Чи можна налаштувати відлік?
+  faq_answers:
+  - Так. Можна створити необмежену кількість відліків і впорядкувати їх у списки.
+  - Так. Відліки підтримують віджети Початкового й замкненого екранів та ускладнення
+    Apple Watch.
+  - Так. Можна налаштовувати одиниці, кольори, іконки, списки, сповіщення та інше.
+  guide_body_h2_1: Тримайте важливу дату перед очима
+  guide_body_p1: Відлік найкорисніший, коли його легко побачити. Відліки перетворюють
+    TOPIC_LOWER на таймер на екранах, якими ви користуєтеся щодня.
+  guide_body_p2: Створіть таймер для основної дати й додайте пов’язані досягнення,
+    нагадування та дати планування, щоб усе було разом.
+  guide_body_h2_2: Пристосуйте до свого плану
+  guide_body_p3: Вибирайте роки, місяці, тижні, дні, години, хвилини чи секунди. Кольори,
+    іконки, списки, віджети, сповіщення й архів корисні до події та після неї.
+  guide_cta_heading: 'Почніть сьогодні: TOPIC_LOWER.'
+  guide_cta_text: Завантажте Відліки й тримайте наступну важливу дату перед очима.

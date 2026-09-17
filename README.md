@@ -99,6 +99,31 @@ If you have feedback regarding bugs or improvements, open an issue, @ me on Twit
 
 I'd love to see the sites you create using this little tool.
 
+## September 2026 language expansion
+
+The site now supports 34 languages, including Czech, Filipino, Greek, Hebrew,
+Hungarian, Indonesian, Malay, Romanian, Thai, Vietnamese, and Ukrainian. Each
+language has a home page, ideas index, 12 guides, and a Help Center: 510 localized
+routes, plus the English-only policies page. Hebrew uses right-to-left layout.
+The native app selects its Help Center using its effective app language; Portuguese
+regional variants, Chinese scripts, Norwegian Bokmål, and Filipino aliases map
+to the corresponding website folders, with English as the fallback.
+
+The new pages use official localized Apple download badges (Filipino uses Apple's
+`tl-ph` artwork), native localized app names, and genuine localized app/widget
+screenshots. On September 17, the five Apple Support destinations were checked
+for each new language. Ten languages have localized destinations; Filipino uses
+English articles and the unprefixed English Mac guide, explicitly labeled
+“sa Ingles” with `hreflang="en"`. App Store language hints remain best effort;
+Apple may display English where listing translations are unavailable.
+
+The expansion passed the localization, app-name, badge, and external-link validators
+across all 511 generated pages. Browser checks covered all 11 new home, guide, and
+Help Center layouts at 320px, plus desktop Greek and Hebrew and the mobile language
+menu. Long localized headings wrap within their columns; Greek and Hungarian hero
+type adapts to keep the app name readable. The app-side locale routing passed its
+31-test focused localization suite.
+
 ## Localized app names
 
 Each entry in `_data/locales.yml` defines the app's localized `app_name`, sourced from `CFBundleDisplayName` in the native app's `Countdown/Supporting Files/InfoPlist.xcstrings` catalog. These are the app's display names, not translations invented for the website or the longer App Store marketing titles. English and German retain **Countdowns**; Dutch uses **Aftellingen**; Hindi uses **काउंटडाउन**; the other languages use their native app names.
@@ -121,7 +146,7 @@ The shared `_includes/locale-url.html` helper keeps language switching, alternat
 
 The header keeps the app name visible. At widths of 1120px or less, all navigation moves into a single disclosure menu; its nested language list stays within the scrollable panel. Desktop and compact navigation share `_includes/navigation-items.html`. The native disclosures work without JavaScript; `assets/header.js` adds outside-click dismissal, Escape/focus handling, and breakpoint cleanup. Keep its media query in sync with `_sass/layout.scss`.
 
-After building, validate all 345 localized routes, Support content structure, language links, accessibility labels, internal links, and the sitemap:
+After building, validate all 510 localized routes, Support content structure, language links, accessibility labels, internal links, and the sitemap:
 
 ```sh
 bundle exec ruby scripts/validate-localization.rb --site _site

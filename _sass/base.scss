@@ -53,6 +53,14 @@ ul {
 	margin: 0;
 }
 
+// Localized headings may contain words longer than a narrow column.
+h1,
+h2,
+h3 {
+	overflow-wrap: anywhere;
+	hyphens: auto;
+}
+
 ul {
 	padding: 0;
 }

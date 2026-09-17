@@ -64,7 +64,7 @@ class ExternalLinksValidator
     @regions = @apple['locales'].is_a?(Hash) ? @apple['locales'] : {}
     @guide_overrides = @apple['guide_locale_overrides'].is_a?(Hash) ? @apple['guide_locale_overrides'] : {}
     codes = @locales.map { |locale| locale['code'].to_s }
-    check(:source, codes.length == 23 && codes.uniq.length == 23, 'locales.yml must contain 23 unique locale codes')
+    check(:source, codes.length == 34 && codes.uniq.length == 34, 'locales.yml must contain 34 unique locale codes')
     check(:source, @articles.keys.sort == APPLE_ARTICLE_KEYS.sort, 'apple_support.articles must contain exactly the audited article keys')
     check(:source, @regions.keys.sort == codes.sort, 'apple_support.locales must cover exactly the configured locales')
     @articles.each do |key, path|
@@ -78,11 +78,13 @@ class ExternalLinksValidator
     check(:source, @guide_overrides['en'] == '', 'English Mac guide override must be empty')
     check(:source, @guide_overrides['ca'] == 'ca-es', 'Catalan Mac guide override must be ca-es')
     check(:source, @guide_overrides['hi'] == 'hi-in', 'Hindi Mac guide override must be hi-in')
+    check(:source, @guide_overrides['fil'] == '', 'Filipino Mac guide must retain the English fallback')
+    check(:source, @regions['fil'] == 'en-us', 'Filipino Apple articles must retain the English fallback')
     store = @links['app_store'].is_a?(Hash) ? @links['app_store'] : {}
     @store_hints = store['language_hints'].is_a?(Hash) ? store['language_hints'] : {}
     check(:source, @store_hints.keys.sort == codes.sort, 'app_store.language_hints must cover exactly the configured locales')
     @store_hints.each do |code, hint|
-      check(:source, hint.is_a?(String) && hint.match?(/\A[a-z]{2}(?:-[A-Z][a-z]{3})?(?:-[A-Z]{2})?\z/), "App Store language hint #{code} is malformed")
+      check(:source, hint.is_a?(String) && hint.match?(/\A[a-z]{2,3}(?:-[A-Z][a-z]{3})?(?:-[A-Z]{2})?\z/), "App Store language hint #{code} is malformed")
     end
     {
       'en' => 'en-US', 'nb' => 'nb-NO', 'pt' => 'pt-PT', 'pt-BR' => 'pt-BR',

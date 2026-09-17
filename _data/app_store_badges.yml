@@ -25,3 +25,37 @@ sv: { file: sv-se.svg, width: 120 }
 tr: { file: tr-tr.svg, width: 151 }
 zh-Hans: { file: zh-cn.svg, width: 109 }
 zh-Hant: { file: zh-tw.svg, width: 109 }
+
+cs:
+  file: cs-cz.svg
+  width: 120
+fil:
+  file: tl-ph.svg
+  width: 120
+el:
+  file: el-gr.svg
+  width: 120
+he:
+  file: he-il.svg
+  width: 116
+hu:
+  file: hu-hu.svg
+  width: 151
+id:
+  file: id-id.svg
+  width: 120
+ms:
+  file: ms-my.svg
+  width: 120
+ro:
+  file: ro-ro.svg
+  width: 120
+th:
+  file: th-th.svg
+  width: 120
+vi:
+  file: vi-vn.svg
+  width: 120
+uk:
+  file: uk-ua.svg
+  width: 120

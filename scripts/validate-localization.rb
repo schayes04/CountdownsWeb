@@ -15,7 +15,7 @@ class LocalizationValidator
   APP_LABELS = %w[app_highlights_label home_widgets_preview_label].freeze
   ROUTE_KEYS = ['home', 'countdown-ideas', 'support'].freeze
   APPLE_ARTICLE_KEYS = %w[iphone_widgets iphone_wallpaper mac_widgets subscriptions refunds].freeze
-  ENGLISH_APPLE_FALLBACK_LOCALES = %w[ca hi].freeze
+  ENGLISH_APPLE_FALLBACK_LOCALES = %w[ca hi fil].freeze
 
   def initialize(source:, site:, baseurl: '', verbose: false)
     @source = Pathname(source).expand_path
@@ -35,10 +35,10 @@ class LocalizationValidator
     @route_keys = ROUTE_KEYS + @guide_slugs
     check(:source, @guide_slugs.length == 12, "expected 12 guide slugs, found #{@guide_slugs.length}")
     check(:source, @route_keys.length == 15, "expected 15 page types, found #{@route_keys.length}")
-    check(:source, @locales.length == 23, "expected 23 configured locales, found #{@locales.length}")
+    check(:source, @locales.length == 34, "expected 34 configured locales, found #{@locales.length}")
 
     @routes = @locales.flat_map { |locale| @route_keys.map { |key| route_for(locale, key) } }
-    check(:routes, @routes.length == 345, "expected 345 locale routes, found #{@routes.length}")
+    check(:routes, @routes.length == 510, "expected 510 locale routes, found #{@routes.length}")
     @routes.each { |route| validate_page(route) }
     validate_support_pages
     validate_links
@@ -451,7 +451,7 @@ class LocalizationValidator
     expected = APPLE_ARTICLE_KEYS.map { |key| apple_support_url(locale, key) }.compact.sort
     check(:support, actual == expected, "#{path}: Apple Support URLs must match the locale-aware external-links map")
     return unless ENGLISH_APPLE_FALLBACK_LOCALES.include?(locale)
-    prose.css('a[href]').select { |link| link['href'].start_with?('https://support.apple.com/en-us/') }.each do |link|
+    prose.css('a[href]').select { |link| link['href'].start_with?('https://support.apple.com/en-us/') || (locale == 'fil' && link['href'].start_with?('https://support.apple.com/guide/')) }.each do |link|
       check(:support, link['hreflang'] == 'en' && !link.text.strip.empty?, "#{path}: Support must identify English-only Apple article fallbacks")
     end
   end
@@ -510,6 +510,8 @@ class LocalizationValidator
       ['unknown article key', 'fr', 'fr', 'unknown', ''],
       ['Catalan article fallback', 'ca', 'ca', 'iphone_widgets', 'https://support.apple.com/en-us/118610'],
       ['Catalan Mac guide override', 'ca', 'ca', 'mac_widgets', 'https://support.apple.com/ca-es/guide/mac-help/mchl52be5da5/mac'],
+      ['Filipino article fallback', 'fil', 'fil', 'iphone_widgets', 'https://support.apple.com/en-us/118610'],
+      ['Filipino Mac guide fallback', 'fil', 'fil', 'mac_widgets', 'https://support.apple.com/guide/mac-help/mchl52be5da5/mac'],
       ['Hindi article fallback', 'hi', 'hi', 'iphone_widgets', 'https://support.apple.com/en-us/118610'],
       ['Hindi Mac guide override', 'hi', 'hi', 'mac_widgets', 'https://support.apple.com/hi-in/guide/mac-help/mchl52be5da5/mac'],
       ['unprefixed English Mac guide', 'en', 'en', 'mac_widgets', 'https://support.apple.com/guide/mac-help/mchl52be5da5/mac'],

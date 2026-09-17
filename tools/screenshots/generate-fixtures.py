@@ -19,6 +19,8 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_DIR = SCRIPT_DIR.parents[1]
 APPLE_LOCALES = {
+    "cs": "cs_CZ", "fil": "fil_PH", "el": "el_GR", "he": "he_IL", "hu": "hu_HU",
+    "id": "id_ID", "ms": "ms_MY", "ro": "ro_RO", "th": "th_TH", "vi": "vi_VN", "uk": "uk_UA",
     "en": "en_US", "ar": "ar_SA@calendar=gregorian", "ca": "ca_ES", "da": "da_DK",
     "de": "de_DE", "es": "es_ES", "fi": "fi_FI", "fr": "fr_FR", "hi": "hi_IN",
     "it": "it_IT", "ja": "ja_JP", "ko": "ko_KR", "nb": "nb_NO",

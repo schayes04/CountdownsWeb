@@ -44,7 +44,7 @@ def validate_proof(proof, fixture, apple_locale):
     expected = {
         "scene": fixture["scene"], "requestedLocale": fixture["locale"],
         "screen": fixture["screen"], "isLifetimeUser": True, "isProUser": True,
-        "appVersion": "12.0.0", "theme": "light",
+        "appVersion": "12.1.0", "theme": "light",
         "currentLocaleIdentifier": apple_locale,
     }
     for key, value in expected.items():

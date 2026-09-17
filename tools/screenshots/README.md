@@ -1,12 +1,11 @@
 # Version 12 website screenshots
 
 Reproduce real native captures with Python 3's standard library and Xcode's
-Simulator tools. This is not a publishing pipeline. **All 391 revised captures are
-complete, visually reviewed, and installed, with zero pending:** 230 app + 115 Home
-widget + 46 Lock widget PNGs, covering 17 scenes in each of 23 languages with
-lifetime Pro access. The completed manifest records 339 `pass` and 52
-`pass_with_notes` reviews, including the Hindi addition, Arabic fix, and French
-replacement below.
+Simulator tools. This is not a publishing pipeline. The complete asset set contains
+**34 locales × 17 scenes = 578 PNGs**: 340 app, 170 Home widget, and 68 Lock widget
+captures. The September 2026 addition contributes 187 genuine captures across
+`cs fil el he hu id ms ro th vi uk`, all with lifetime Pro access. Historical
+391-image / 23-language audits below describe the earlier batch, not current coverage.
 
 [`capture-manifest.json`](capture-manifest.json) records every raw-capture image
 hash, fixture and capture-evidence hashes, lifetime Pro state, visual review, and
@@ -19,6 +18,53 @@ builds, source-archive hashes, signing verification, and installed binary hashes
 Baseline app-only captures predate widget timeline instrumentation; their main Debug
 dylib matches the baseline widget-capture build. The revised Arabic and new Hindi
 images use their own binary proof. No deployment or publishing is part of this workflow.
+
+## September 17, 2026: eleven additional languages
+
+The 187 new images use app version **12.1.0**, while the earlier 391 images retain
+12.0.0 provenance. Each image records its own version; the latest version field
+must not be interpreted as the version of every historical capture. Native source
+was copied from the current working tree based on
+`e5540b9fbb2d2d9c97c989e41013b1d4258ce352`, including the uncommitted locale
+additions, into `/private/tmp/countdowns-new-locales-capture/native` before applying
+the unchanged capture patch. It is not a pristine checkout of that commit.
+`native-working-tree.patch`, `source-file-hashes.json`, and their SHA-256 values
+preserve the source state. The signed baseline build covers 185 new captures.
+A second signed build changes only Greek `edit.countdown` to `Επεξεργασία` and
+supplies the two Greek `editing` and `event-countdown-app` replacements. Their
+full-size review verifies the title fits without an ellipsis.
+
+The new revision in `build-provenance.json` records hashes for every installed
+bundle file, exact matches to the corresponding build, and successful
+`codesign --verify --deep --strict` checks. The staging root is
+`/private/tmp/countdowns-new-locales-capture`; fixture JSON, native app proofs,
+widget timeline proofs, contact sheets, source-state patches, and installed-bundle
+provenance stay there, outside public website assets. Raw PNGs are unaltered.
+The manifest records independent pixel review in addition to timeline-data proof.
+
+Two fresh, isolated iPhone 17 Pro / iOS 27 simulators were used. Native Home layout
+has a large custom-color widget above a medium blue widget on one visible page;
+other pages were hidden through the native UI. Both native surfaces use a blue
+wallpaper. Lock contains real inline, rectangular, and circular widgets. Ordinary
+native Dynamic Island pixels are retained where present. No images were fabricated,
+replaced with English captures, reframed, or edited to conceal native behavior.
+
+The Filipino widget content is localized, while some system-owned captions and the
+Lock weekday use iOS's English fallback. Its two circular units have native
+ellipsis truncation, with full numeric counts visible. Hungarian Settings has a
+native secondary-value ellipsis for the display-date setting, and its Christmas
+circular day unit is ellipsized while the full numeric count remains visible. Greek and Malay Lock retain
+authentic capture-time clocks when iOS ignores the requested 09:41 override.
+Vietnamese circular day units and the Ukrainian rectangular birthday name also
+use native ellipses, with dates and numeric counts visible. Additional per-capture native notes and clock outcomes are authoritative in the
+manifest. All new app scenes, including Thai marks and Hebrew RTL, were reviewed;
+Home and Lock captures were reviewed separately from their timeline data.
+
+The fixture generator now has translated sample names and Apple locale mappings
+for all 34 languages. The app capture helper's version guard is 12.1.0 to match the
+current signed native app. The widget helper and native capture patch are unchanged.
+Historical runtime hashes below remain historical proof, while the new revision
+records the exact updated runtime file hashes used for these captures.
 
 ## Per-capture source provenance
 
@@ -86,7 +132,7 @@ and device guards enabled; recreate an invalid simulator instead of bypassing
 checks. Use explicit UUIDs and separate simulators for concurrent capture jobs.
 
 Boot each fresh simulator, then build and install the **signed Debug** app
-(`Countdown` scheme, app version **12.0.0**, bundle `com.shayesapps.countdownApp`).
+(`Countdown` scheme, app version **12.1.0**, bundle `com.shayesapps.countdownApp`).
 Select the Xcode installation containing iOS 27 before running these commands:
 
 ```sh
@@ -104,11 +150,11 @@ it does not make a production purchase or change production entitlements.
 
 ## Fixtures and coverage
 
-`_data/screenshots.yml` defines **23 locales × 17 scenes = 391 PNG paths**, native
+`_data/screenshots.yml` defines **34 locales × 17 scenes = 578 PNG paths**, native
 size **1206 × 2622**, and 12 guide mappings. Exact CLI/manifest locale codes:
 
 ```text
-en ar ca da de es fi fr hi it ja ko nb nl pl pt pt-BR ru sk sv tr zh-Hans zh-Hant
+en ar ca cs da de el es fi fil fr he hi hu id it ja ko ms nb nl pl pt pt-BR ro ru sk sv th tr uk vi zh-Hans zh-Hant
 ```
 
 Paths are `/assets/screenshots/<folder>/<scene>.png`. Use the locale folder
@@ -118,11 +164,11 @@ Keep the app version in the manifests rather than in the image directory name.
 The seven superseded root-level PNGs and unused guide screenshot fields have been
 removed; Git preserves the old images. The separate press-kit ZIP is unchanged.
 
-| Family | `--scenes` value | Images across 23 locales |
+| Family | `--scenes` value | Images across 34 locales |
 | --- | --- | --- |
-| App | `normal-display,compact-display,colors,editing,settings,birthday-countdown-app,holiday-countdown-app,retirement-countdown-app,pregnancy-countdown-app,event-countdown-app` | 230 |
-| Home widgets | `home-screen-widgets,wedding-countdown-app,vacation-countdown-app,anniversary-countdown-app,theme-park-trip-countdown-app` | 115 |
-| Lock widgets | `lock-screen-widgets,christmas-countdown-app` | 46 |
+| App | `normal-display,compact-display,colors,editing,settings,birthday-countdown-app,holiday-countdown-app,retirement-countdown-app,pregnancy-countdown-app,event-countdown-app` | 340 |
+| Home widgets | `home-screen-widgets,wedding-countdown-app,vacation-countdown-app,anniversary-countdown-app,theme-park-trip-countdown-app` | 170 |
+| Lock widgets | `lock-screen-widgets,christmas-countdown-app` | 68 |
 
 Generate fixtures for the capture machine's **current local date**. Generation is
 deterministic for the supplied date and `fixtures/localizations.json`; the helpers
@@ -134,7 +180,7 @@ FIXTURES=/private/tmp/countdowns-v12-fixtures
 python3 tools/screenshots/generate-fixtures.py --date "$(date +%F)" --output "$FIXTURES"
 ```
 
-The generator writes 391 fixture JSON files and `batch-index.json`. Use the index's
+The generator writes 578 fixture JSON files and `batch-index.json`. Use the index's
 Apple locale identifiers, including **`ar_SA@calendar=gregorian` for Arabic**;
 plain `ar_SA` can change calendar behavior. Preserve exact locale codes in arguments.
 
@@ -236,7 +282,7 @@ python3 tools/screenshots/capture-widgets.py \
   --allow-simulator-settings --scenes "$LOCK_SCENES"
 ```
 
-Both helpers accept `--locales en,de` (default all 23), `--scenes` subsets, and
+Both helpers accept `--locales en,de` (default all 34), `--scenes` subsets, and
 `--resume` for matching image/fixture hashes and valid saved proofs. Settle defaults
 are two seconds for app scenes and four for widgets. Use fresh output/evidence
 folders after native patch changes; resume does not establish patch identity.
@@ -275,7 +321,7 @@ proof files. Use only dedicated capture simulators, not personal data stores.
 Fresh captures clear only the app's website capture proof and, for widgets, its
 five website timeline proof files. App readiness has a 35-second deadline and
 requires the exact scene, locale, screen, localized event IDs/names, settings,
-version 12.0.0, light appearance, **both lifetime and Pro access**, and disabled
+version 12.1.0, light appearance, **both lifetime and Pro access**, and disabled
 iCloud sync/end notifications. Pro alone is insufficient.
 
 Widgets additionally wait up to 45 seconds for fresh provider timeline records:
@@ -315,8 +361,8 @@ rbenv exec bundle exec ruby scripts/validate-screenshots.rb \
   --site /private/tmp/countdowns-v12-site-preview-final-01a05493 --baseurl /preview
 ```
 
-The validator checks all 391 source paths/dimensions and localized alts, plus image
-and preload paths across **322 routes** (23 × home, ideas, and 12 guides), including
+The validator checks all 578 source paths/dimensions and localized alts, plus image
+and preload paths across **476 routes** (34 × home, ideas, and 12 guides), including
 locale leakage, framing, and loading/accessibility attributes. `--verbose` lists all
 failures. Missing files remain failures and must never be replaced with another
 locale's capture.

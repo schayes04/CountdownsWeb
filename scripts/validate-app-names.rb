@@ -17,7 +17,18 @@ class AppNameValidator
     'nl' => 'Aftellingen', 'pl' => 'Odliczanie', 'pt' => 'Contagem',
     'pt-BR' => 'Contagens', 'ru' => 'Таймеры', 'sk' => 'Odpočty',
     'sv' => 'Nedräkningar', 'tr' => 'Geri Sayım', 'zh-Hans' => '时光仪',
-    'zh-Hant' => '倒數日'
+    'zh-Hant' => '倒數日',
+    'cs' => 'Odpočty',
+    'fil' => 'Bilang Paurong',
+    'el' => 'Αντίστροφη Μέτρηση',
+    'he' => 'ספירה לאחור',
+    'hu' => 'Visszaszámlálók',
+    'id' => 'Hitung Mundur',
+    'ms' => 'Kiraan Detik',
+    'ro' => 'Numărători inverse',
+    'th' => 'นับถอยหลัง',
+    'vi' => 'Đếm ngược',
+    'uk' => 'Відліки'
   }.freeze
   BRAND_FIELDS = %w[app_description pricing_heading ideas_index_body guide_body_p1 guide_cta_text].freeze
   ROUTES = %w[countdown-ideas support].freeze
@@ -251,7 +262,7 @@ class AppNameValidator
     validate_source
     routes = ['', *ROUTES, *@guides]
     check(:source, routes.size == 15, "Expected 12 guide pages plus home, ideas, and support (found #{@guides.size} guides)")
-    check(:routes, @locales.size * routes.size == 345, "Expected 345 locale routes (found #{@locales.size * routes.size})")
+    check(:routes, @locales.size * routes.size == 510, "Expected 510 locale routes (found #{@locales.size * routes.size})")
     @locales.each { |locale| routes.each { |slug| validate_route(locale, slug) } }
     %w[policies].each do |name|
       file = [@site.join("#{name}.html"), @site.join(name, 'index.html')].find(&:file?)

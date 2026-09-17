@@ -413,3 +413,313 @@ hi:
   pregnancy-countdown-app: काउंटडाउन ऐप में गर्भावस्था के काउंटडाउन, जिनमें बच्चे के आने तक बचे सप्ताह और दिन दिख रहे हैं।
   event-countdown-app: काउंटडाउन ऐप का आयोजन संपादक, जिसमें तारीख और काउंटडाउन को अपनी पसंद के मुताबिक बदलने के विकल्प हैं।
   christmas-countdown-app: iPhone की लॉक स्क्रीन पर काउंटडाउन के विजेट, जिनमें क्रिसमस तक की उलटी गिनती दिख रही है।
+
+cs:
+  normal-display: Odpočty — Podrobný seznam odpočtů se zbývajícím časem.
+  compact-display: Odpočty — Kompaktní seznam několika událostí.
+  colors: Odpočty — Odpočty s různými barvami událostí.
+  editing: Odpočty — Úprava názvu, data a možností odpočtu.
+  settings: Odpočty — Nastavení s doživotním nákupem Pro.
+  home-screen-widgets: Odpočty — Widgety na ploše s nadcházejícími událostmi.
+  lock-screen-widgets: Odpočty — Widgety na zamčené obrazovce s nadcházejícími událostmi.
+  wedding-countdown-app: Odpočty — Odpočet do svatby. Widgety na ploše s nadcházejícími
+    událostmi.
+  vacation-countdown-app: Odpočty — Odpočet do dovolené. Widgety na ploše s nadcházejícími
+    událostmi.
+  anniversary-countdown-app: Odpočty — Odpočet do výročí. Widgety na ploše s nadcházejícími
+    událostmi.
+  theme-park-trip-countdown-app: Odpočty — Odpočet do výletu do zábavního parku. Widgety
+    na ploše s nadcházejícími událostmi.
+  birthday-countdown-app: Odpočty — Odpočet do narozenin. Podrobný seznam odpočtů
+    se zbývajícím časem.
+  holiday-countdown-app: Odpočty — Odpočet do svátku. Podrobný seznam odpočtů se zbývajícím
+    časem.
+  retirement-countdown-app: Odpočty — Odpočet do důchodu. Podrobný seznam odpočtů
+    se zbývajícím časem.
+  pregnancy-countdown-app: Odpočty — Odpočet do porodu. Podrobný seznam odpočtů se
+    zbývajícím časem.
+  event-countdown-app: Odpočty — Odpočet do události. Úprava názvu, data a možností
+    odpočtu.
+  christmas-countdown-app: Odpočty — Odpočet do Vánoc. Widgety na zamčené obrazovce
+    s nadcházejícími událostmi.
+fil:
+  normal-display: Bilang Paurong — Detalyadong listahan ng mga bilang paurong at natitirang
+    oras.
+  compact-display: Bilang Paurong — Maikling listahan ng maraming kaganapan.
+  colors: Bilang Paurong — Mga bilang paurong na may magkakaibang kulay.
+  editing: Bilang Paurong — Pag-edit ng pangalan, petsa, at mga opsyon ng bilang paurong.
+  settings: Bilang Paurong — Mga setting at panghabambuhay na pagbili ng Pro.
+  home-screen-widgets: Bilang Paurong — Mga widget sa Home Screen para sa paparating
+    na kaganapan.
+  lock-screen-widgets: Bilang Paurong — Mga widget sa Lock Screen para sa paparating
+    na kaganapan.
+  wedding-countdown-app: Bilang Paurong — Bilang paurong sa kasal. Mga widget sa Home
+    Screen para sa paparating na kaganapan.
+  vacation-countdown-app: Bilang Paurong — Bilang paurong sa bakasyon. Mga widget
+    sa Home Screen para sa paparating na kaganapan.
+  anniversary-countdown-app: Bilang Paurong — Bilang paurong sa anibersaryo. Mga widget
+    sa Home Screen para sa paparating na kaganapan.
+  theme-park-trip-countdown-app: Bilang Paurong — Bilang paurong sa pagpunta sa theme
+    park. Mga widget sa Home Screen para sa paparating na kaganapan.
+  birthday-countdown-app: Bilang Paurong — Bilang paurong sa kaarawan. Detalyadong
+    listahan ng mga bilang paurong at natitirang oras.
+  holiday-countdown-app: Bilang Paurong — Bilang paurong sa pista opisyal. Detalyadong
+    listahan ng mga bilang paurong at natitirang oras.
+  retirement-countdown-app: Bilang Paurong — Bilang paurong sa pagreretiro. Detalyadong
+    listahan ng mga bilang paurong at natitirang oras.
+  pregnancy-countdown-app: Bilang Paurong — Bilang paurong sa panganganak. Detalyadong
+    listahan ng mga bilang paurong at natitirang oras.
+  event-countdown-app: Bilang Paurong — Bilang paurong sa kaganapan. Pag-edit ng pangalan,
+    petsa, at mga opsyon ng bilang paurong.
+  christmas-countdown-app: Bilang Paurong — Bilang paurong sa Pasko. Mga widget sa
+    Lock Screen para sa paparating na kaganapan.
+el:
+  normal-display: Αντίστροφη Μέτρηση — Αναλυτική λίστα μετρήσεων με τον χρόνο που
+    απομένει.
+  compact-display: Αντίστροφη Μέτρηση — Συμπαγής λίστα πολλών εκδηλώσεων.
+  colors: Αντίστροφη Μέτρηση — Μετρήσεις με διαφορετικά χρώματα εκδηλώσεων.
+  editing: Αντίστροφη Μέτρηση — Επεξεργασία ονόματος, ημερομηνίας και επιλογών μέτρησης.
+  settings: Αντίστροφη Μέτρηση — Ρυθμίσεις με εφάπαξ αγορά Pro.
+  home-screen-widgets: Αντίστροφη Μέτρηση — Widget στην οθόνη αφετηρίας με προσεχείς
+    εκδηλώσεις.
+  lock-screen-widgets: Αντίστροφη Μέτρηση — Widget στην οθόνη κλειδώματος με προσεχείς
+    εκδηλώσεις.
+  wedding-countdown-app: Αντίστροφη Μέτρηση — Αντίστροφη μέτρηση για γάμο. Widget
+    στην οθόνη αφετηρίας με προσεχείς εκδηλώσεις.
+  vacation-countdown-app: Αντίστροφη Μέτρηση — Αντίστροφη μέτρηση για διακοπές. Widget
+    στην οθόνη αφετηρίας με προσεχείς εκδηλώσεις.
+  anniversary-countdown-app: Αντίστροφη Μέτρηση — Αντίστροφη μέτρηση για επέτειο.
+    Widget στην οθόνη αφετηρίας με προσεχείς εκδηλώσεις.
+  theme-park-trip-countdown-app: Αντίστροφη Μέτρηση — Αντίστροφη μέτρηση για επίσκεψη
+    σε θεματικό πάρκο. Widget στην οθόνη αφετηρίας με προσεχείς εκδηλώσεις.
+  birthday-countdown-app: Αντίστροφη Μέτρηση — Αντίστροφη μέτρηση για γενέθλια. Αναλυτική
+    λίστα μετρήσεων με τον χρόνο που απομένει.
+  holiday-countdown-app: Αντίστροφη Μέτρηση — Αντίστροφη μέτρηση για γιορτή. Αναλυτική
+    λίστα μετρήσεων με τον χρόνο που απομένει.
+  retirement-countdown-app: Αντίστροφη Μέτρηση — Αντίστροφη μέτρηση για συνταξιοδότηση.
+    Αναλυτική λίστα μετρήσεων με τον χρόνο που απομένει.
+  pregnancy-countdown-app: Αντίστροφη Μέτρηση — Αντίστροφη μέτρηση για τον τοκετό.
+    Αναλυτική λίστα μετρήσεων με τον χρόνο που απομένει.
+  event-countdown-app: Αντίστροφη Μέτρηση — Αντίστροφη μέτρηση για εκδήλωση. Επεξεργασία
+    ονόματος, ημερομηνίας και επιλογών μέτρησης.
+  christmas-countdown-app: Αντίστροφη Μέτρηση — Αντίστροφη μέτρηση για Χριστούγεννα.
+    Widget στην οθόνη κλειδώματος με προσεχείς εκδηλώσεις.
+he:
+  normal-display: ספירה לאחור — רשימה מפורטת של ספירות לאחור עם הזמן שנותר.
+  compact-display: ספירה לאחור — רשימה קומפקטית של כמה אירועים.
+  colors: ספירה לאחור — ספירות לאחור בצבעים שונים לאירועים.
+  editing: ספירה לאחור — עריכת השם, התאריך והאפשרויות של הספירה לאחור.
+  settings: ספירה לאחור — הגדרות עם רכישת Pro לכל החיים.
+  home-screen-widgets: ספירה לאחור — וידג׳טים במסך הבית עם אירועים קרובים.
+  lock-screen-widgets: ספירה לאחור — וידג׳טים במסך הנעילה עם אירועים קרובים.
+  wedding-countdown-app: ספירה לאחור — ספירה לאחור לחתונה. וידג׳טים במסך הבית עם אירועים
+    קרובים.
+  vacation-countdown-app: ספירה לאחור — ספירה לאחור לחופשה. וידג׳טים במסך הבית עם
+    אירועים קרובים.
+  anniversary-countdown-app: ספירה לאחור — ספירה לאחור ליום השנה. וידג׳טים במסך הבית
+    עם אירועים קרובים.
+  theme-park-trip-countdown-app: ספירה לאחור — ספירה לאחור לביקור בפארק שעשועים. וידג׳טים
+    במסך הבית עם אירועים קרובים.
+  birthday-countdown-app: ספירה לאחור — ספירה לאחור ליום הולדת. רשימה מפורטת של ספירות
+    לאחור עם הזמן שנותר.
+  holiday-countdown-app: ספירה לאחור — ספירה לאחור לחג. רשימה מפורטת של ספירות לאחור
+    עם הזמן שנותר.
+  retirement-countdown-app: ספירה לאחור — ספירה לאחור לפרישה. רשימה מפורטת של ספירות
+    לאחור עם הזמן שנותר.
+  pregnancy-countdown-app: ספירה לאחור — ספירה לאחור ללידה. רשימה מפורטת של ספירות
+    לאחור עם הזמן שנותר.
+  event-countdown-app: ספירה לאחור — ספירה לאחור לאירוע. עריכת השם, התאריך והאפשרויות
+    של הספירה לאחור.
+  christmas-countdown-app: ספירה לאחור — ספירה לאחור לחג המולד. וידג׳טים במסך הנעילה
+    עם אירועים קרובים.
+hu:
+  normal-display: Visszaszámlálók — Részletes visszaszámlálólista a hátralévő idővel.
+  compact-display: Visszaszámlálók — Több esemény kompakt listája.
+  colors: Visszaszámlálók — Visszaszámlálók különböző eseményszínekkel.
+  editing: Visszaszámlálók — A visszaszámláló nevének, dátumának és beállításainak
+    szerkesztése.
+  settings: Visszaszámlálók — Beállítások az örökös Pro-vásárlással.
+  home-screen-widgets: Visszaszámlálók — Főképernyős widgetek a közelgő eseményekkel.
+  lock-screen-widgets: Visszaszámlálók — Zárolási képernyős widgetek a közelgő eseményekkel.
+  wedding-countdown-app: Visszaszámlálók — Visszaszámlálás az esküvőig. Főképernyős
+    widgetek a közelgő eseményekkel.
+  vacation-countdown-app: Visszaszámlálók — Visszaszámlálás a nyaralásig. Főképernyős
+    widgetek a közelgő eseményekkel.
+  anniversary-countdown-app: Visszaszámlálók — Visszaszámlálás az évfordulóig. Főképernyős
+    widgetek a közelgő eseményekkel.
+  theme-park-trip-countdown-app: Visszaszámlálók — Visszaszámlálás a vidámparki kirándulásig.
+    Főképernyős widgetek a közelgő eseményekkel.
+  birthday-countdown-app: Visszaszámlálók — Visszaszámlálás a születésnapig. Részletes
+    visszaszámlálólista a hátralévő idővel.
+  holiday-countdown-app: Visszaszámlálók — Visszaszámlálás az ünnepig. Részletes visszaszámlálólista
+    a hátralévő idővel.
+  retirement-countdown-app: Visszaszámlálók — Visszaszámlálás a nyugdíjazásig. Részletes
+    visszaszámlálólista a hátralévő idővel.
+  pregnancy-countdown-app: Visszaszámlálók — Visszaszámlálás a szülésig. Részletes
+    visszaszámlálólista a hátralévő idővel.
+  event-countdown-app: Visszaszámlálók — Visszaszámlálás az eseményig. A visszaszámláló
+    nevének, dátumának és beállításainak szerkesztése.
+  christmas-countdown-app: Visszaszámlálók — Visszaszámlálás karácsonyig. Zárolási
+    képernyős widgetek a közelgő eseményekkel.
+id:
+  normal-display: Hitung Mundur — Daftar hitung mundur terperinci dengan sisa waktu.
+  compact-display: Hitung Mundur — Daftar ringkas beberapa acara.
+  colors: Hitung Mundur — Hitung mundur dengan warna acara yang berbeda.
+  editing: Hitung Mundur — Pengeditan nama, tanggal, dan opsi hitung mundur.
+  settings: Hitung Mundur — Pengaturan dengan pembelian Pro seumur hidup.
+  home-screen-widgets: Hitung Mundur — Widget Layar Utama dengan acara mendatang.
+  lock-screen-widgets: Hitung Mundur — Widget Layar Terkunci dengan acara mendatang.
+  wedding-countdown-app: Hitung Mundur — Hitung mundur pernikahan. Widget Layar Utama
+    dengan acara mendatang.
+  vacation-countdown-app: Hitung Mundur — Hitung mundur liburan. Widget Layar Utama
+    dengan acara mendatang.
+  anniversary-countdown-app: Hitung Mundur — Hitung mundur hari jadi. Widget Layar
+    Utama dengan acara mendatang.
+  theme-park-trip-countdown-app: Hitung Mundur — Hitung mundur wisata taman hiburan.
+    Widget Layar Utama dengan acara mendatang.
+  birthday-countdown-app: Hitung Mundur — Hitung mundur ulang tahun. Daftar hitung
+    mundur terperinci dengan sisa waktu.
+  holiday-countdown-app: Hitung Mundur — Hitung mundur hari libur. Daftar hitung mundur
+    terperinci dengan sisa waktu.
+  retirement-countdown-app: Hitung Mundur — Hitung mundur pensiun. Daftar hitung mundur
+    terperinci dengan sisa waktu.
+  pregnancy-countdown-app: Hitung Mundur — Hitung mundur kelahiran. Daftar hitung
+    mundur terperinci dengan sisa waktu.
+  event-countdown-app: Hitung Mundur — Hitung mundur acara. Pengeditan nama, tanggal,
+    dan opsi hitung mundur.
+  christmas-countdown-app: Hitung Mundur — Hitung mundur Natal. Widget Layar Terkunci
+    dengan acara mendatang.
+ms:
+  normal-display: Kiraan Detik — Senarai kiraan detik terperinci dengan baki masa.
+  compact-display: Kiraan Detik — Senarai padat beberapa acara.
+  colors: Kiraan Detik — Kiraan detik dengan warna acara berbeza.
+  editing: Kiraan Detik — Pengeditan nama, tarikh dan pilihan kiraan detik.
+  settings: Kiraan Detik — Tetapan dengan pembelian Pro seumur hidup.
+  home-screen-widgets: Kiraan Detik — Widget Skrin Utama dengan acara akan datang.
+  lock-screen-widgets: Kiraan Detik — Widget Skrin Kunci dengan acara akan datang.
+  wedding-countdown-app: Kiraan Detik — Kiraan detik perkahwinan. Widget Skrin Utama
+    dengan acara akan datang.
+  vacation-countdown-app: Kiraan Detik — Kiraan detik percutian. Widget Skrin Utama
+    dengan acara akan datang.
+  anniversary-countdown-app: Kiraan Detik — Kiraan detik ulang tahun. Widget Skrin
+    Utama dengan acara akan datang.
+  theme-park-trip-countdown-app: Kiraan Detik — Kiraan detik lawatan taman tema. Widget
+    Skrin Utama dengan acara akan datang.
+  birthday-countdown-app: Kiraan Detik — Kiraan detik hari lahir. Senarai kiraan detik
+    terperinci dengan baki masa.
+  holiday-countdown-app: Kiraan Detik — Kiraan detik hari kelepasan. Senarai kiraan
+    detik terperinci dengan baki masa.
+  retirement-countdown-app: Kiraan Detik — Kiraan detik persaraan. Senarai kiraan
+    detik terperinci dengan baki masa.
+  pregnancy-countdown-app: Kiraan Detik — Kiraan detik kelahiran. Senarai kiraan detik
+    terperinci dengan baki masa.
+  event-countdown-app: Kiraan Detik — Kiraan detik acara. Pengeditan nama, tarikh
+    dan pilihan kiraan detik.
+  christmas-countdown-app: Kiraan Detik — Kiraan detik Krismas. Widget Skrin Kunci
+    dengan acara akan datang.
+ro:
+  normal-display: Numărători inverse — Listă detaliată de numărători inverse cu timpul
+    rămas.
+  compact-display: Numărători inverse — Listă compactă cu mai multe evenimente.
+  colors: Numărători inverse — Numărători inverse cu culori diferite pentru evenimente.
+  editing: Numărători inverse — Editarea numelui, datei și opțiunilor numărătorii
+    inverse.
+  settings: Numărători inverse — Configurări cu achiziția Pro pe viață.
+  home-screen-widgets: Numărători inverse — Widgeturi pe ecranul principal cu evenimente
+    viitoare.
+  lock-screen-widgets: Numărători inverse — Widgeturi pe ecranul de blocare cu evenimente
+    viitoare.
+  wedding-countdown-app: Numărători inverse — Numărătoare inversă până la nuntă. Widgeturi
+    pe ecranul principal cu evenimente viitoare.
+  vacation-countdown-app: Numărători inverse — Numărătoare inversă până la vacanță.
+    Widgeturi pe ecranul principal cu evenimente viitoare.
+  anniversary-countdown-app: Numărători inverse — Numărătoare inversă până la aniversare.
+    Widgeturi pe ecranul principal cu evenimente viitoare.
+  theme-park-trip-countdown-app: Numărători inverse — Numărătoare inversă până la
+    excursia în parcul tematic. Widgeturi pe ecranul principal cu evenimente viitoare.
+  birthday-countdown-app: Numărători inverse — Numărătoare inversă până la ziua de
+    naștere. Listă detaliată de numărători inverse cu timpul rămas.
+  holiday-countdown-app: Numărători inverse — Numărătoare inversă până la sărbătoare.
+    Listă detaliată de numărători inverse cu timpul rămas.
+  retirement-countdown-app: Numărători inverse — Numărătoare inversă până la pensionare.
+    Listă detaliată de numărători inverse cu timpul rămas.
+  pregnancy-countdown-app: Numărători inverse — Numărătoare inversă până la naștere.
+    Listă detaliată de numărători inverse cu timpul rămas.
+  event-countdown-app: Numărători inverse — Numărătoare inversă până la eveniment.
+    Editarea numelui, datei și opțiunilor numărătorii inverse.
+  christmas-countdown-app: Numărători inverse — Numărătoare inversă până la Crăciun.
+    Widgeturi pe ecranul de blocare cu evenimente viitoare.
+th:
+  normal-display: นับถอยหลัง — รายการนับถอยหลังแบบละเอียดพร้อมเวลาที่เหลือ.
+  compact-display: นับถอยหลัง — รายการกิจกรรมหลายรายการแบบกระชับ.
+  colors: นับถอยหลัง — การนับถอยหลังที่ใช้สีต่างกันสำหรับแต่ละกิจกรรม.
+  editing: นับถอยหลัง — การแก้ไขชื่อ วันที่ และตัวเลือกการนับถอยหลัง.
+  settings: นับถอยหลัง — การตั้งค่าพร้อมการซื้อ Pro ตลอดชีพ.
+  home-screen-widgets: นับถอยหลัง — วิดเจ็ตหน้าจอโฮมพร้อมกิจกรรมที่กำลังจะมาถึง.
+  lock-screen-widgets: นับถอยหลัง — วิดเจ็ตหน้าจอล็อคพร้อมกิจกรรมที่กำลังจะมาถึง.
+  wedding-countdown-app: นับถอยหลัง — นับถอยหลังสู่งานแต่งงาน. วิดเจ็ตหน้าจอโฮมพร้อมกิจกรรมที่กำลังจะมาถึง.
+  vacation-countdown-app: นับถอยหลัง — นับถอยหลังสู่วันพักร้อน. วิดเจ็ตหน้าจอโฮมพร้อมกิจกรรมที่กำลังจะมาถึง.
+  anniversary-countdown-app: นับถอยหลัง — นับถอยหลังสู่วันครบรอบ. วิดเจ็ตหน้าจอโฮมพร้อมกิจกรรมที่กำลังจะมาถึง.
+  theme-park-trip-countdown-app: นับถอยหลัง — นับถอยหลังสู่ทริปสวนสนุก. วิดเจ็ตหน้าจอโฮมพร้อมกิจกรรมที่กำลังจะมาถึง.
+  birthday-countdown-app: นับถอยหลัง — นับถอยหลังสู่วันเกิด. รายการนับถอยหลังแบบละเอียดพร้อมเวลาที่เหลือ.
+  holiday-countdown-app: นับถอยหลัง — นับถอยหลังสู่วันหยุด. รายการนับถอยหลังแบบละเอียดพร้อมเวลาที่เหลือ.
+  retirement-countdown-app: นับถอยหลัง — นับถอยหลังสู่วันเกษียณ. รายการนับถอยหลังแบบละเอียดพร้อมเวลาที่เหลือ.
+  pregnancy-countdown-app: นับถอยหลัง — นับถอยหลังสู่วันคลอด. รายการนับถอยหลังแบบละเอียดพร้อมเวลาที่เหลือ.
+  event-countdown-app: นับถอยหลัง — นับถอยหลังสู่กิจกรรม. การแก้ไขชื่อ วันที่ และตัวเลือกการนับถอยหลัง.
+  christmas-countdown-app: นับถอยหลัง — นับถอยหลังสู่คริสต์มาส. วิดเจ็ตหน้าจอล็อคพร้อมกิจกรรมที่กำลังจะมาถึง.
+vi:
+  normal-display: Đếm ngược — Danh sách đếm ngược chi tiết với thời gian còn lại.
+  compact-display: Đếm ngược — Danh sách thu gọn gồm nhiều sự kiện.
+  colors: Đếm ngược — Các mục đếm ngược với màu sự kiện khác nhau.
+  editing: Đếm ngược — Chỉnh sửa tên, ngày và tùy chọn đếm ngược.
+  settings: Đếm ngược — Cài đặt với gói mua Pro trọn đời.
+  home-screen-widgets: Đếm ngược — Tiện ích Màn hình chính với các sự kiện sắp tới.
+  lock-screen-widgets: Đếm ngược — Tiện ích Màn hình khóa với các sự kiện sắp tới.
+  wedding-countdown-app: Đếm ngược — Đếm ngược đến đám cưới. Tiện ích Màn hình chính
+    với các sự kiện sắp tới.
+  vacation-countdown-app: Đếm ngược — Đếm ngược đến kỳ nghỉ. Tiện ích Màn hình chính
+    với các sự kiện sắp tới.
+  anniversary-countdown-app: Đếm ngược — Đếm ngược đến ngày kỷ niệm. Tiện ích Màn
+    hình chính với các sự kiện sắp tới.
+  theme-park-trip-countdown-app: Đếm ngược — Đếm ngược đến chuyến đi công viên giải
+    trí. Tiện ích Màn hình chính với các sự kiện sắp tới.
+  birthday-countdown-app: Đếm ngược — Đếm ngược đến sinh nhật. Danh sách đếm ngược
+    chi tiết với thời gian còn lại.
+  holiday-countdown-app: Đếm ngược — Đếm ngược đến ngày lễ. Danh sách đếm ngược chi
+    tiết với thời gian còn lại.
+  retirement-countdown-app: Đếm ngược — Đếm ngược đến ngày nghỉ hưu. Danh sách đếm
+    ngược chi tiết với thời gian còn lại.
+  pregnancy-countdown-app: Đếm ngược — Đếm ngược đến ngày sinh em bé. Danh sách đếm
+    ngược chi tiết với thời gian còn lại.
+  event-countdown-app: Đếm ngược — Đếm ngược đến sự kiện. Chỉnh sửa tên, ngày và tùy
+    chọn đếm ngược.
+  christmas-countdown-app: Đếm ngược — Đếm ngược đến Giáng sinh. Tiện ích Màn hình
+    khóa với các sự kiện sắp tới.
+uk:
+  normal-display: Відліки — Докладний список відліків із часом, що залишився.
+  compact-display: Відліки — Компактний список кількох подій.
+  colors: Відліки — Відліки з різними кольорами подій.
+  editing: Відліки — Редагування назви, дати й параметрів відліку.
+  settings: Відліки — Налаштування з довічною покупкою Pro.
+  home-screen-widgets: Відліки — Віджети початкового екрана з майбутніми подіями.
+  lock-screen-widgets: Відліки — Віджети екрана блокування з майбутніми подіями.
+  wedding-countdown-app: Відліки — Відлік до весілля. Віджети початкового екрана з
+    майбутніми подіями.
+  vacation-countdown-app: Відліки — Відлік до відпустки. Віджети початкового екрана
+    з майбутніми подіями.
+  anniversary-countdown-app: Відліки — Відлік до річниці. Віджети початкового екрана
+    з майбутніми подіями.
+  theme-park-trip-countdown-app: Відліки — Відлік до поїздки в парк розваг. Віджети
+    початкового екрана з майбутніми подіями.
+  birthday-countdown-app: Відліки — Відлік до дня народження. Докладний список відліків
+    із часом, що залишився.
+  holiday-countdown-app: Відліки — Відлік до свята. Докладний список відліків із часом,
+    що залишився.
+  retirement-countdown-app: Відліки — Відлік до виходу на пенсію. Докладний список
+    відліків із часом, що залишився.
+  pregnancy-countdown-app: Відліки — Відлік до пологів. Докладний список відліків
+    із часом, що залишився.
+  event-countdown-app: Відліки — Відлік до події. Редагування назви, дати й параметрів
+    відліку.
+  christmas-countdown-app: Відліки — Відлік до Різдва. Віджети екрана блокування з
+    майбутніми подіями.
