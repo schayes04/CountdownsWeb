@@ -6,7 +6,8 @@
 	{% assign default_title = app_name | append: " - " | append: t.title_suffix %}
 	{% assign meta_title = page.meta_title | default: page.title | default: default_title %}
 	{% assign meta_description = page.description | default: t.app_description | default: site.app_description %}
-	{% assign meta_image = page.image | default: '/assets/promo.png' %}
+	{% assign locale_image = site.data.social_previews[current_locale] | default: site.data.social_previews.en %}
+	{% assign meta_image = page.image | default: locale_image %}
 	{% assign canonical_key = page.canonical_key | default: page.slug %}
 	{% if canonical_key == nil %}
 		{% if page.url == "/" %}
@@ -55,6 +56,10 @@
 	<meta property="og:title" content="{{ meta_title | escape }}">
 	<meta property="og:description" content="{{ meta_description | escape }}">
 	<meta property="og:image" content="{{ meta_image | absolute_url }}">
+	{% unless page.image %}
+		<meta property="og:image:width" content="1200">
+		<meta property="og:image:height" content="630">
+	{% endunless %}
 	<meta property="og:url" content="{{ page.url | absolute_url }}">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="{{ meta_title | escape }}">

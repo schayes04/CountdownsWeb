@@ -8,7 +8,6 @@ nav_order: 20
 short_title: "Birthday countdown"
 kicker: "Birthday countdown"
 card_description: "Count down to birthdays once, then keep recurring events ready for next time."
-image: /assets/promo.png
 h1: "A birthday countdown app for every celebration"
 hero_copy: "Create birthday countdowns that can repeat on the schedule you need, remind you before the day arrives, and stay visible with widgets."
 benefits_heading: "Remember birthdays before the day sneaks up."

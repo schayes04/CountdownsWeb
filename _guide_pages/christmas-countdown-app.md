@@ -8,7 +8,6 @@ nav_order: 70
 short_title: "Christmas countdown"
 kicker: "Christmas countdown"
 card_description: "Track Christmas Day, shopping deadlines, travel, school breaks, and holiday plans."
-image: /assets/promo.png
 h1: "A Christmas countdown app for the whole season"
 hero_copy: "Count down to Christmas Day, holiday travel, school breaks, gift deadlines, and family gatherings."
 benefits_heading: "Make the season easier to see coming."

@@ -8,7 +8,6 @@ nav_order: 60
 short_title: "Anniversary countdown"
 kicker: "Anniversary countdown"
 card_description: "Track anniversaries, relationship milestones, work anniversaries, and special recurring dates."
-image: /assets/promo.png
 h1: "An anniversary countdown app for dates worth remembering"
 hero_copy: "Create recurring anniversary countdowns and keep them visible with widgets, reminders, colors, and lists."
 benefits_heading: "Remember the date before the day arrives."
