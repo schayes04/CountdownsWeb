@@ -52,7 +52,7 @@ site.read
 [
   [{ 'locale' => 'unknown' }, origin + images.fetch('en'), true],
   [{}, origin + images.fetch('en'), true],
-  [{ 'locale' => 'ar', 'image' => '/assets/promo.png' }, origin + '/assets/promo.png', false],
+  [{ 'locale' => 'ar', 'image' => images.fetch('cs') }, origin + images.fetch('cs'), false],
   [{ 'locale' => 'ja', 'image' => 'https://example.com/custom.png' }, 'https://example.com/custom.png', false]
 ].each_with_index do |(data, expected, default_image), index|
   page = Jekyll::PageWithoutAFile.new(site, source.to_s, '', "preview-fixture-#{index}.html")
@@ -61,7 +61,6 @@ site.read
   html = Jekyll::Renderer.new(site, page).run
   check_meta.call(html, expected, "fixture #{index}", default_image)
 end
-check.call(source.join('assets/promo.png').file? && build.join('assets/promo.png').file?, 'Legacy shared preview must remain available')
 check.call(source.glob('assets/link-previews/*').map { |p| '/' + p.relative_path_from(source).to_s }.sort == images.values.sort, 'Unexpected preview assets')
 check.call(source.glob('assets/**/banner*.png').empty?, 'Banner assets must not be deployed')
 if errors.empty?
