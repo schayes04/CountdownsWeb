@@ -305,6 +305,7 @@
 }
 
 .hero__content {
+	container-type: inline-size;
 	min-width: 0;
 	position: relative;
 	z-index: 3;
@@ -334,7 +335,10 @@
 
 .hero h1 {
 	max-width: 620px;
-	font-size: 94px;
+	--hero-title-max-size: 94px;
+	font-size: var(--hero-title-max-size);
+	font-size: min(var(--hero-title-max-size), 16cqi);
+	hyphens: none;
 	line-height: 0.91;
 	letter-spacing: 0;
 	text-wrap: balance;
@@ -1455,7 +1459,7 @@
 	}
 
 	.hero h1 {
-		font-size: 78px;
+		--hero-title-max-size: 78px;
 	}
 
 	.section h2,
@@ -1496,7 +1500,7 @@
 	}
 
 	.hero h1 {
-		font-size: 64px;
+		--hero-title-max-size: 64px;
 	}
 
 	.hero__lead {
@@ -1673,7 +1677,7 @@
 	}
 
 	.hero h1 {
-		font-size: 54px;
+		--hero-title-max-size: 54px;
 	}
 
 	.app-store-badge,
@@ -1828,7 +1832,7 @@
 
 @media only screen and (max-width: 380px) {
 	.hero h1 {
-		font-size: 48px;
+		--hero-title-max-size: 48px;
 	}
 
 	.hero__lead {
@@ -1836,8 +1840,13 @@
 	}
 }
 
-// Keep long localized app names readable without splitting the brand across lines.
+// Let longer names wrap at spaces, with emergency wrapping for very long words.
 :lang(el) .hero h1,
 :lang(hu) .hero h1 {
-	font-size: clamp(34px, 9vw, 70px);
+	--hero-title-max-size: 70px;
+}
+
+// The Hungarian name is one long word; a slightly smaller scale keeps it intact.
+:lang(hu) .hero h1 {
+	font-size: min(var(--hero-title-max-size), 12cqi);
 }
