@@ -202,6 +202,55 @@ bundle exec ruby scripts/validate-app-store-badges.rb --site _site
 
 For a build using a subdirectory, pass the same `--baseurl /prefix` to the validator.
 
+## Responsive website images
+
+Original screenshots and capture provenance remain unchanged. The website serves
+360, 720, and 1080px WebP derivatives through `<picture>`, with the original PNG
+as the fallback. `_data/responsive_images.json` records the encoder version,
+quality, source hashes, output dimensions, sizes, and hashes for all 578 captures
+and four app icon sizes. Generated assets are checked into the repository;
+GitHub Pages needs no image processing dependency.
+
+To regenerate after replacing a capture or changing `app_icon`, use Ruby, `cwebp`
+from libwebp (the initial generation used 1.6.0), and macOS `sips`:
+
+```sh
+rbenv exec ruby scripts/generate-responsive-images.rb
+rbenv exec ruby scripts/generate-responsive-images.rb --check
+bundle exec jekyll build
+bundle exec ruby scripts/validate-screenshots.rb --site _site
+```
+
+The generator reuses unchanged screenshots only when source/output hashes and
+encoder settings match. Commit the derivatives and manifest together with source
+changes. Keep `_includes/screenshot-sizes.html` synchronized with the phone widths,
+container widths, gaps, and breakpoints in the stylesheet. The hero preload and
+picture share both srcset and sizes helpers to avoid downloading two candidates.
+The screenshot validator uses Nokogiri's HTML5 parser for picture/source semantics;
+it checks original captures, derivative hashes and encoded dimensions, localized
+sources, loading priority, and matching preload attributes. For a subdirectory
+build, pass the same `--baseurl /preview` to Jekyll and the screenshot validator.
+
+September 24, 2026 local browser validation compared three cold loads per version
+in Chromium at 390×844, DPR 3, 150ms latency, 200 KB/s download, and 4× CPU slowdown:
+
+| Measurement | Before | After |
+| --- | ---: | ---: |
+| Initial resource transfer (images, CSS, JS; excludes HTML) | 4,407,405 B | 173,882 B |
+| Hero resource transfer | 1,257,589 B | 54,834 B |
+| Median hero request duration | 13.95 s | 0.76 s |
+| Median LCP (text at this viewport) | 928 ms | 920 ms |
+
+These are local throttled measurements, not production field metrics. Browser
+checks covered English, Arabic, Hebrew, Hindi, Thai, and both Chinese scripts at
+390px and 1440px widths with DPR 1, 2, and 3: no duplicate primary hero requests,
+no screenshot PNG downloads, no broken images, and less than 0.3px image-size
+variation from derivative aspect-ratio rounding. Visual checks covered phone
+framing, gradients, and localized text. Root/subdirectory builds passed screenshot,
+localization, branding, badge, and external-link checks; header checks also passed.
+The optional social-preview validator reports 68 existing filename/hash mismatches
+in both baseline and optimized builds; social-preview assets were not changed.
+
 ## Credits
 - [Jekyll](https://github.com/jekyll/jekyll)
 - [FontAwesome](https://fontawesome.github.io/Font-Awesome/)

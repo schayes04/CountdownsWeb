@@ -19,7 +19,7 @@
 <header class="site-header{% if page.layout == "resource-page" %} site-header--resource{% endif %}">
 	<div class="site-header__inner">
 		<a class="site-brand" href="{{ home_path | relative_url }}" target="_self" aria-label="{{ app_name | escape }} {{ t.home | escape }}">
-			<img class="site-brand__icon" src="{{ site.app_icon | relative_url }}" alt="">
+			<img class="site-brand__icon" src="{{ '/assets/icons/appicon-64.png' | relative_url }}" srcset="{{ '/assets/icons/appicon-64.png' | relative_url }} 64w, {{ '/assets/icons/appicon-128.png' | relative_url }} 128w" sizes="40px" width="40" height="40" alt="">
 			<span>{{ app_name | escape }}</span>
 		</a>
 		{% unless page.layout == "resource-page" and page.localized == false %}

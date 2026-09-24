@@ -1,0 +1,18 @@
+{%- comment -%}
+Keep in sync with layout.scss: frame width includes 4px border; the screen is
+95.87156% of the remaining width. Round upward slightly for source selection.
+{%- endcomment -%}
+{%- case include.role -%}
+{%- when 'primary' -%}
+(max-width: 640px) calc(clamp(122.3609px, 32.6293vw, 142.7623px) - 3.83px), (max-width: 860px) calc(clamp(145.0153px, 24.4720vw, 194.8685px) - 3.83px), (max-width: 1120px) calc(min(280.9804px, 29.0038vh) - 3.83px), calc(min(326.2989px, 30.8166vh) - 3.83px)
+{%- when 'secondary' -%}
+(max-width: 640px) calc(clamp(106.5037px, 28.0975vw, 126.8956px) - 3.83px), (max-width: 860px) calc(clamp(126.8956px, 20.8465vw, 163.1542px) - 3.83px), (max-width: 1120px) calc(min(226.5924px, 22.6592vh) - 3.83px), calc(min(258.3163px, 24.4720vh) - 3.83px)
+{%- when 'pair' -%}
+(max-width: 640px) calc(47.93578vw - 24.92px), (max-width: 860px) calc(47.93578vw - 35.47px), (max-width: 1120px) calc(27.56307vw - 38.38px), calc(min(27.56307vw, 338.48px) - 44.99px)
+{%- when 'showcase' -%}
+(max-width: 640px) calc(31.95719vw - 24.29px), (max-width: 860px) calc(31.95719vw - 29.40px), (max-width: 1120px) calc(19.17432vw - 32.08px), calc(min(19.17432vw, 235.46px) - 36.68px)
+{%- when 'pricing' -%}
+(max-width: 860px) 192px, 232px
+{%- else -%}
+(max-width: 860px) 192px, 250px
+{%- endcase -%}

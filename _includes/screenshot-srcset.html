@@ -1,0 +1,4 @@
+{%- assign responsive_entry = site.data.responsive_images.screenshots[include.path] -%}
+{%- for variant in responsive_entry.variants -%}
+{{- variant.path | relative_url }} {{ variant.width }}w{% unless forloop.last %}, {% endunless %}
+{%- endfor -%}

@@ -3,7 +3,12 @@
 {%- assign screenshot_path = site.data.screenshots.locales[screenshot_locale][screenshot_scene] -%}
 {%- assign screenshot_alt = site.data.screenshot_alts[screenshot_locale][screenshot_scene] -%}
 {%- assign screenshot_loading = include.loading | default: "lazy" -%}
+{%- capture screenshot_srcset -%}{%- include screenshot-srcset.html path=screenshot_path -%}{%- endcapture -%}
+{%- capture screenshot_sizes -%}{%- include screenshot-sizes.html role=include.size_role -%}{%- endcapture -%}
 <div class="screenshot-phone{% if include.class %} {{ include.class | escape }}{% endif %}" data-screenshot-locale="{{ screenshot_locale | escape }}" data-screenshot-scene="{{ screenshot_scene | escape }}"{% if include.decorative == true %} aria-hidden="true"{% endif %}>
-	<img src="{{ screenshot_path | relative_url }}" width="{{ site.data.screenshots.width }}" height="{{ site.data.screenshots.height }}" alt="{% unless include.decorative == true %}{{ screenshot_alt | escape }}{% endunless %}" loading="{{ screenshot_loading | escape }}" decoding="async"{% if screenshot_loading == "eager" %} fetchpriority="high"{% endif %}>
+	<picture>
+		<source type="image/webp" srcset="{{ screenshot_srcset }}" sizes="{{ screenshot_sizes }}">
+		<img src="{{ screenshot_path | relative_url }}" width="{{ site.data.screenshots.width }}" height="{{ site.data.screenshots.height }}" alt="{% unless include.decorative == true %}{{ screenshot_alt | escape }}{% endunless %}" loading="{{ screenshot_loading | escape }}" decoding="async"{% if screenshot_loading == "eager" %} fetchpriority="high"{% endif %}>
+	</picture>
 	<span class="screenshot-phone__island" aria-hidden="true"></span>
 </div>

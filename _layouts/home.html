@@ -15,7 +15,7 @@ layout: default
 	<div class="site-container hero__grid">
 		<div class="hero__content">
 			<div class="hero__eyebrow">
-				<img src="{{ site.app_icon | relative_url }}" alt="">
+				<img src="{{ '/assets/icons/appicon-64.png' | relative_url }}" srcset="{{ '/assets/icons/appicon-64.png' | relative_url }} 64w, {{ '/assets/icons/appicon-128.png' | relative_url }} 128w" sizes="28px" width="28" height="28" alt="">
 				<span>{{ t.hero_eyebrow }}</span>
 			</div>
 			<h1>{{ app_name | escape }}</h1>
@@ -42,8 +42,8 @@ layout: default
 		</div>
 
 		<div class="hero__visual" aria-label="{{ t.home_widgets_preview_label | replace: 'APP_NAME', app_name | escape }}">
-			{% include screenshot.html scene="colors" locale=current_locale class="hero__phone hero__phone--secondary" decorative=true %}
-			{% include screenshot.html scene="home-screen-widgets" locale=current_locale class="hero__phone hero__phone--primary" loading="eager" %}
+			{% include screenshot.html scene="colors" locale=current_locale class="hero__phone hero__phone--secondary" decorative=true size_role="secondary" %}
+			{% include screenshot.html scene="home-screen-widgets" locale=current_locale class="hero__phone hero__phone--primary" loading="eager" size_role="primary" %}
 		</div>
 	</div>
 </section>
@@ -71,8 +71,8 @@ layout: default
 			</ul>
 		</div>
 		<div class="screenshot-pair">
-			{% include screenshot.html scene="lock-screen-widgets" locale=current_locale %}
-			{% include screenshot.html scene="home-screen-widgets" locale=current_locale %}
+			{% include screenshot.html scene="lock-screen-widgets" locale=current_locale size_role="pair" %}
+			{% include screenshot.html scene="home-screen-widgets" locale=current_locale size_role="pair" %}
 		</div>
 	</div>
 </section>
@@ -102,9 +102,9 @@ layout: default
 <section class="section section--showcase">
 	<div class="site-container showcase-grid">
 		<div class="showcase-media">
-			{% include screenshot.html scene="editing" locale=current_locale %}
-			{% include screenshot.html scene="settings" locale=current_locale %}
-			{% include screenshot.html scene="compact-display" locale=current_locale %}
+			{% include screenshot.html scene="editing" locale=current_locale size_role="showcase" %}
+			{% include screenshot.html scene="settings" locale=current_locale size_role="showcase" %}
+			{% include screenshot.html scene="compact-display" locale=current_locale size_role="showcase" %}
 		</div>
 		<div class="section-copy">
 			<p class="section-kicker">{{ t.personal_kicker }}</p>
@@ -133,7 +133,7 @@ layout: default
 				{{ t.pricing_body }}
 			</p>
 		</div>
-		{% include screenshot.html scene="normal-display" locale=current_locale %}
+		{% include screenshot.html scene="normal-display" locale=current_locale size_role="pricing" %}
 	</div>
 </section>
 

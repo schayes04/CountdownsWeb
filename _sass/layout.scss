@@ -452,11 +452,17 @@
 	box-shadow: inset 0 0 0 2px #202124, 0 14px 28px #22222216;
 }
 
-.screenshot-phone > img {
+.screenshot-phone > picture {
 	display: block;
 	width: 95.87156%;
 	height: auto;
 	margin: 2.06422%;
+}
+
+.screenshot-phone > picture > img {
+	display: block;
+	width: 100%;
+	height: auto;
 	border-radius: 14.2% / 6.5%;
 }
 

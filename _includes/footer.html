@@ -12,7 +12,7 @@
 	<div class="site-footer__inner">
 		<div>
 			<a class="site-brand site-brand--footer" href="{{ home_path | relative_url }}" target="_self" aria-label="{{ app_name | escape }} {{ t.home | escape }}">
-				<img class="site-brand__icon" src="{{ site.app_icon | relative_url }}" alt="">
+				<img class="site-brand__icon" src="{{ '/assets/icons/appicon-64.png' | relative_url }}" srcset="{{ '/assets/icons/appicon-64.png' | relative_url }} 64w, {{ '/assets/icons/appicon-128.png' | relative_url }} 128w" sizes="40px" width="40" height="40" alt="">
 				<span>{{ app_name | escape }}</span>
 			</a>
 			{% if site.your_name %}

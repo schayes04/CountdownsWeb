@@ -6,6 +6,8 @@ require 'pathname'
 require 'optparse'
 require 'uri'
 require 'nokogiri'
+require 'json'
+require 'digest'
 
 class ScreenshotValidator
   EVENT_SCENES = %w[
@@ -56,6 +58,7 @@ class ScreenshotValidator
 
   def validate_manifest
     @manifest = mapping(read_yaml('_data/screenshots.yml'))
+    @responsive = JSON.parse(@source.join('_data/responsive_images.json').read)
     @alts = mapping(read_yaml('_data/screenshot_alts.yml'))
     locale_data = read_yaml('_data/locales.yml')
     @locales = locale_data.is_a?(Array) ? locale_data : []
@@ -78,6 +81,7 @@ class ScreenshotValidator
         path = expected_path(locale, scene)
         check(:manifest, entries[scene] == path, "#{code}/#{scene}: expected exact path #{path}, got #{entries[scene].inspect}")
         validate_png(@source.join(path.delete_prefix('/')))
+        validate_derivatives(path)
         @counts[:alts] += 1
         alt = localized_alt(code, scene)
         check(:alts, alt.is_a?(String) && !alt.strip.empty?, "#{code}/#{scene}: missing localized alt text")
@@ -86,6 +90,43 @@ class ScreenshotValidator
           check(:alts, alt.strip != english.to_s.strip, "#{code}/#{scene}: alt text repeats English")
         end
       end
+    end
+  end
+
+  def derivatives(path)
+    mapping(@responsive['screenshots'])[path].to_h.fetch('variants', [])
+  end
+
+  def validate_derivatives(path)
+    entry = mapping(mapping(@responsive['screenshots'])[path])
+    source = @source.join(path.delete_prefix('/'))
+    check(:derivatives, entry['source'] == path && source.file? && entry['source_sha256'] == Digest::SHA256.file(source).hexdigest,
+          "#{path}: missing/stale derivative source")
+    variants = derivatives(path)
+    check(:derivatives, variants.map { |v| v['width'] } == [360, 720, 1080], "#{path}: expected 360/720/1080 variants")
+    variants.each do |variant|
+      expected = path.sub('/screenshots/', '/screenshots-responsive/').sub('.png', "-#{variant['width']}.webp")
+      check(:derivatives, variant['path'] == expected, "#{path}: incorrect derivative path")
+      file = @source.join(expected.delete_prefix('/'))
+      check(:derivatives, file.file?, "Missing derivative #{expected}")
+      next unless file.file?
+      bytes = file.binread
+      check(:derivatives, bytes.bytesize == variant['bytes'] && Digest::SHA256.hexdigest(bytes) == variant['sha256'], "#{expected}: stale size/hash")
+      check(:derivatives, bytes.start_with?('RIFF') && bytes.byteslice(8, 4) == 'WEBP', "#{expected}: invalid WebP")
+      # cwebp's lossy VP8 frame stores its dimensions after the start code.
+      offset = 12
+      dimensions = nil
+      while offset + 8 <= bytes.bytesize
+        kind = bytes.byteslice(offset, 4)
+        length = bytes.byteslice(offset + 4, 4).unpack1('V')
+        if kind == 'VP8 ' && bytes.byteslice(offset + 11, 3) == "\x9d\x01\x2a".b
+          dimensions = bytes.byteslice(offset + 14, 4).unpack('vv').map { |v| v & 0x3fff }
+          break
+        end
+        offset += 8 + length + length % 2
+      end
+      expected_dimensions = [variant['width'], (variant['width'].to_f * 2622 / 1206).round]
+      check(:derivatives, dimensions == expected_dimensions && variant.values_at('width', 'height') == dimensions, "#{expected}: wrong encoded dimensions")
     end
   end
 
@@ -131,9 +172,12 @@ class ScreenshotValidator
            end
     file = @site.join(path).cleanpath
     check(:built_files, file.to_s.start_with?("#{@site}/") && file.file?, "#{route}: missing built image/preload file #{value}")
-    return unless path.include?('assets/screenshots/')
+    return unless path.match?(%r{assets/screenshots(?:-responsive)?/})
 
-    allowed = SCENES.map { |scene| expected_path(locale, scene).delete_prefix('/') }
+    allowed = SCENES.flat_map do |scene|
+      original = expected_path(locale, scene)
+      [original, *derivatives(original).map { |v| v['path'] }].map { |p| p.delete_prefix('/') }
+    end
     check(:routes, allowed.include?(path), "#{route}: legacy, wrong-locale, or unknown screenshot path #{value}")
   rescue URI::InvalidURIError, ArgumentError => error
     check(:routes, false, "#{route}: invalid image/preload URL #{value.inspect}: #{error.message}")
@@ -144,7 +188,7 @@ class ScreenshotValidator
     scene = frame['data-screenshot-scene']
     check(:routes, scene == expected_scene, "#{route}: frame #{index + 1} must use #{expected_scene}, got #{scene.inspect}")
     check(:routes, frame['data-screenshot-locale'] == code, "#{route}: wrong frame locale #{frame['data-screenshot-locale'].inspect}")
-    images = frame.css('> img')
+    images = frame.css('> picture > img')
     check(:routes, images.size == 1, "#{route}: each frame must contain exactly one img")
     check(:routes, frame.at_css('> .screenshot-phone__island[aria-hidden="true"]'), "#{route}: missing decorative phone island")
     image = images.first
@@ -153,6 +197,12 @@ class ScreenshotValidator
     path = @baseurl + expected_path(locale, expected_scene)
     check(:routes, image['src'] == path, "#{route}: expected #{path}, got #{image['src'].inspect}")
     check(:routes, [image['width'], image['height']] == %w[1206 2622], "#{route}: img must declare native 1206x2622 dimensions")
+    sources = frame.css('> picture > source')
+    source = sources.first
+    expected_srcset = derivatives(expected_path(locale, expected_scene)).map { |v| "#{@baseurl}#{v['path']} #{v['width']}w" }.join(', ')
+    check(:routes, sources.size == 1 && source['type'] == 'image/webp' && source['srcset'] == expected_srcset,
+          "#{route}: expected localized WebP srcset #{expected_srcset}")
+    check(:routes, source && !source['sizes'].to_s.empty?, "#{route}: missing responsive sizes")
     decorative = home && index.zero?
     eager = !home || index == 1
     if decorative
@@ -182,7 +232,7 @@ class ScreenshotValidator
       return
     end
     @counts[:html] += 1
-    doc = Nokogiri::HTML(file.read)
+    doc = Nokogiri::HTML5(file.read)
     home = slug.empty?
     scenes = home ? HOME_SCENES : [slug == 'countdown-ideas' ? 'colors' : GUIDES.fetch(slug)]
     frames = doc.css('.screenshot-phone')
@@ -193,9 +243,12 @@ class ScreenshotValidator
     doc.css('img').each do |image|
       validate_reference(image['src'], route, locale)
       if image['src'].to_s.include?('/assets/screenshots/')
-        check(:routes, image.parent['class'].to_s.split.include?('screenshot-phone'), "#{route}: unframed screenshot #{image['src']}")
+        check(:routes, image.parent.name == 'picture' && image.parent.parent['class'].to_s.split.include?('screenshot-phone'), "#{route}: unframed screenshot #{image['src']}")
       end
       image['srcset'].to_s.split(',').each { |candidate| validate_reference(candidate.strip.split.first, route, locale) }
+    end
+    doc.css('picture > source').each do |source|
+      source['srcset'].to_s.split(',').each { |candidate| validate_reference(candidate.strip.split.first, route, locale) }
     end
     preloads = doc.css('link[rel~="preload"][as="image"]')
     preloads.each do |preload|
@@ -203,8 +256,10 @@ class ScreenshotValidator
       preload['imagesrcset'].to_s.split(',').each { |candidate| validate_reference(candidate.strip.split.first, route, locale) }
     end
     if home
-      path = @baseurl + expected_path(locale, 'home-screen-widgets')
+      path = @baseurl + derivatives(expected_path(locale, 'home-screen-widgets'))[1].fetch('path')
       check(:routes, preloads.size == 1 && preloads.first['href'] == path, "#{route}: preload must match the localized primary hero #{path}")
+      hero_source = frames[1]&.at_css('picture > source')
+      check(:routes, preloads.first && hero_source && preloads.first['type'] == 'image/webp' && preloads.first['imagesrcset'] == hero_source['srcset'] && preloads.first['imagesizes'] == hero_source['sizes'], "#{route}: preload must match hero type, srcset and sizes")
       check(:routes, preloads.first && preloads.first['fetchpriority'] == 'high', "#{route}: home preload must have fetchpriority=high")
     end
   end

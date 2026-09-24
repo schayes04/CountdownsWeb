@@ -48,8 +48,8 @@
 		<meta name="robots" content="noindex">
 	{% endif %}
 
-	<link rel="icon" type="image/png" href="{{ site.app_icon | relative_url }}">
-	<link rel="apple-touch-icon" href="{{ site.app_icon | relative_url }}">
+	<link rel="icon" type="image/png" href="{{ '/assets/icons/appicon-32.png' | relative_url }}">
+	<link rel="apple-touch-icon" href="{{ '/assets/icons/appicon-180.png' | relative_url }}">
 	<meta name="theme-color" content="#0a84ff">
 
 	<meta property="og:type" content="{{ page.og_type | default: 'website' }}">
@@ -72,7 +72,7 @@
 
 	{% if page.layout == "home" %}
 		{% assign home_screenshot = site.data.screenshots.locales[current_locale]["home-screen-widgets"] %}
-		<link rel="preload" as="image" href="{{ home_screenshot | relative_url }}" fetchpriority="high">
+		<link rel="preload" as="image" type="image/webp" href="{{ site.data.responsive_images.screenshots[home_screenshot].variants[1].path | relative_url }}" imagesrcset="{% include screenshot-srcset.html path=home_screenshot %}" imagesizes="{% include screenshot-sizes.html role='primary' %}" fetchpriority="high">
 	{% endif %}
 	<link rel="stylesheet" href="{{ '/main.css' | relative_url }}">
 	<script src="{{ '/assets/header.js' | relative_url }}" defer></script>
