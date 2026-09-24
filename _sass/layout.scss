@@ -1521,29 +1521,22 @@
 	}
 
 	.hero__visual {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		align-items: start;
+		gap: 24px;
+		justify-self: center;
+		width: min(100%, 520px);
+		min-height: 0;
+		padding: 0 6px 32px;
+	}
+
+	.hero__phone {
 		position: relative;
 		inset: auto;
-		justify-self: center;
-		width: min(100%, 760px);
-		min-height: 0;
-		height: clamp(280px, 50vw, 390px);
-		margin-top: 0;
-	}
-
-	.hero__phone--primary {
-		left: 46%;
-		right: auto;
-		bottom: -38px;
-		--screenshot-height: clamp(320px, 54vw, 430px);
-		transform: translate3d(0, 0, 0);
-	}
-
-	.hero__phone--secondary {
-		display: block;
-		left: auto;
-		right: 38%;
-		bottom: -14px;
-		--screenshot-height: clamp(280px, 46vw, 360px);
+		width: 100%;
+		transform: none;
+		opacity: 1;
 	}
 
 	.intro-band__inner {
@@ -1714,19 +1707,7 @@
 	}
 
 	.hero__visual {
-		height: clamp(250px, 66vw, 310px);
-	}
-
-	.hero__phone--primary {
-		left: 46%;
-		bottom: -28px;
-		--screenshot-height: clamp(270px, 72vw, 315px);
-	}
-
-	.hero__phone--secondary {
-		right: 38%;
-		bottom: -12px;
-		--screenshot-height: clamp(235px, 62vw, 280px);
+		gap: 16px;
 	}
 
 	.intro-band__inner {
