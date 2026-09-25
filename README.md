@@ -101,13 +101,17 @@ I'd love to see the sites you create using this little tool.
 
 ## September 2026 language expansion
 
-The site now supports 34 languages, including Czech, Filipino, Greek, Hebrew,
-Hungarian, Indonesian, Malay, Romanian, Thai, Vietnamese, and Ukrainian. Each
-language has a home page, ideas index, 12 guides, and a Help Center: 510 localized
+Countdowns supports 33 languages. The site has 34 locale variants, including Czech,
+Filipino, Greek, Hebrew, Hungarian, Indonesian, Malay, Romanian, Thai, Vietnamese,
+and Ukrainian. Each locale has a home page, ideas index, 12 guides, and a Help Center: 510 localized
 routes, plus the English-only policies page. Hebrew uses right-to-left layout.
 The native app selects its Help Center using its effective app language; Portuguese
 regional variants, Chinese scripts, Norwegian Bokmål, and Filipino aliases map
 to the corresponding website folders, with English as the fallback.
+
+The homepage language count uses `app_language_count` in `_config.yml`, separately
+from the number of website locale variants. Apple counts Portuguese and Brazilian
+Portuguese as one language, so the site's 34 locale variants represent 33 languages.
 
 The new pages use official localized Apple download badges (Filipino uses Apple's
 `tl-ph` artwork), native localized app names, and genuine localized app/widget

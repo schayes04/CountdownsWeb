@@ -11,6 +11,7 @@ presskit_download_link                    : assets/Countdowns_Press_Kit.zip
 
 app_icon                                  : assets/appicon.png
 app_name                                  : Countdowns
+app_language_count                        : 33
 app_price                                 : Free
 app_description                           : Countdowns helps you count down to important moments, or count up from meaningful dates, on iPhone, iPad, Mac, and Apple Watch. Perfect for birthdays, holidays, weddings, anniversaries, vacations, retirement, and more!
 
@@ -63,7 +64,7 @@ features                                  :
     description                           : View countdowns on Apple Watch with complications
 
   - title                                 : Localized
-    description                           : Available in 20+ languages
+    description                           : Available in 33 languages
 
 
 ####################################################
