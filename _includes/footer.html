@@ -1,6 +1,7 @@
 {% assign current_locale = page.locale | default: "en" %}
 {% assign locale = site.data.locales | where: "code", current_locale | first %}
 {% assign t = site.data.strings[current_locale] | default: site.data.strings.en %}
+{% assign tool = site.data.tools[current_locale].strings %}
 {% assign app_name = locale.app_name | default: site.app_name %}
 {% assign locale_prefix = "" %}
 {% if locale.folder and locale.folder != "" %}
@@ -9,8 +10,8 @@
 {% assign home_path = locale_prefix | append: "/" %}
 {% capture support_path %}{% include locale-url.html locale=locale key="support" %}{% endcapture %}
 <footer class="site-footer">
-	<div class="site-footer__inner">
-		<div>
+	<div class="site-footer__inner site-footer__inner--with-tools">
+		<div class="site-footer__brand">
 			<a class="site-brand site-brand--footer" href="{{ home_path | relative_url }}" target="_self" aria-label="{{ app_name | escape }} {{ t.home | escape }}">
 				<img class="site-brand__icon" src="{{ '/assets/icons/appicon-64.png' | relative_url }}" srcset="{{ '/assets/icons/appicon-64.png' | relative_url }} 64w, {{ '/assets/icons/appicon-128.png' | relative_url }} 128w" sizes="40px" width="40" height="40" alt="">
 				<span>{{ app_name | escape }}</span>
@@ -19,19 +20,27 @@
 				<p class="footerText">{{ t.made_by }} {% if site.your_link %}<a href="{{ site.your_link }}" target="_blank" rel="noopener">{% endif %}{{ site.your_name }}{% if site.your_link %}</a>{% endif %}</p>
 			{% endif %}
 		</div>
-		<div class="site-footer__links">
-			<nav class="footerLinks" aria-label="{{ t.company_links }}">
-				<a href="{{ support_path | relative_url }}">{{ t.support }}</a>
+			<nav class="site-footer__group" aria-labelledby="footer-tools-heading">
+				<h2 class="site-footer__heading" id="footer-tools-heading">{{ tool.free_tools }}</h2>
+				<ul class="footerLinks">
+					<li><a href="{{ locale_prefix | append: '/when-is/' | relative_url }}">{{ tool.holiday_link }}</a></li>
+					<li><a href="{{ locale_prefix | append: '/anniversary-calculator/' | relative_url }}">{{ tool.calculator_link }}</a></li>
+				</ul>
+			</nav>
+		<nav class="site-footer__group" aria-labelledby="footer-help-heading">
+			<h2 class="site-footer__heading" id="footer-help-heading">{{ tool.help_social }}</h2>
+			<ul class="footerLinks">
+				<li><a href="{{ support_path | relative_url }}">{{ t.support }}</a></li>
 				{% if site.facebook_username %}
-					<a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank" rel="noopener">Facebook</a>
+					<li><a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank" rel="noopener">Facebook</a></li>
 				{% endif %}
 				{% if site.instagram_username %}
-					<a href="https://www.instagram.com/{{ site.instagram_username }}" target="_blank" rel="noopener">Instagram</a>
+					<li><a href="https://www.instagram.com/{{ site.instagram_username }}" target="_blank" rel="noopener">Instagram</a></li>
 				{% endif %}
 				{% if site.mastodon_link %}
-					<a rel="me noopener" href="{{ site.mastodon_link }}" target="_blank">Mastodon</a>
+					<li><a rel="me noopener" href="{{ site.mastodon_link }}" target="_blank">Mastodon</a></li>
 				{% endif %}
-			</nav>
-		</div>
+			</ul>
+		</nav>
 	</div>
 </footer>

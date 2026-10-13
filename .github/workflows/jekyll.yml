@@ -10,6 +10,10 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+  # Refresh the next occurrence and year in crawlable holiday HTML.
+  schedule:
+    - cron: '17 6 * * *'
+
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
@@ -25,6 +29,10 @@ jobs:
         uses: actions/checkout@v7
       - name: Setup Pages
         uses: actions/configure-pages@v6
+      - name: Validate tool dates, country rules, and translations
+        run: |
+          node --test scripts/validate-holiday-dates.mjs scripts/validate-anniversary.mjs scripts/validate-tool-locales.mjs
+          node scripts/generate-holiday-dates.mjs --check
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:

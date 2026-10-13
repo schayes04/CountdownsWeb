@@ -1,0 +1,17 @@
+{%- assign current_locale = page.locale | default: 'en' -%}
+{%- assign locale = site.data.locales | where: 'code', current_locale | first -%}
+{%- assign tools_copy = site.data.tools[current_locale] -%}
+{%- assign t = site.data.strings[current_locale] -%}
+{%- assign tool = tools_copy.strings -%}
+{%- assign calendar = site.data.tool_formats[current_locale] -%}
+{%- assign app_name = locale.app_name -%}
+{%- assign locale_prefix = '' -%}
+{%- unless locale.folder == '' -%}{%- assign locale_prefix = '/' | append: locale.folder -%}{%- endunless -%}
+{%- assign token_app = '{app}' -%}
+{%- assign token_holiday = '{holiday}' -%}
+{%- assign token_year = '{year}' -%}
+{%- assign token_date = '{date}' -%}
+{%- assign token_zone = '{zone}' -%}
+{%- assign token_month = '{month}' -%}
+{%- assign token_day = '{day}' -%}
+{%- assign token_weekday = '{weekday}' -%}

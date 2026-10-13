@@ -1,0 +1,99 @@
+---
+layout: default
+---
+{% include tool-context.html %}
+
+
+<div class="anniversary-page">
+  <section class="calculator-hero">
+    <div class="site-container">
+      <nav class="calculator-breadcrumbs" aria-label="{{ t.breadcrumb_label | escape }}"><a href="{{ locale_prefix | append: '/' | relative_url }}">{{ app_name }}</a><span aria-hidden="true">/</span><span>{{ tool.free_tools }}</span></nav>
+      <div class="calculator-intro">
+        <p class="section-kicker">{{ tool.calculator_kicker }}</p>
+        <h1>{{ tool.calculator_title }}</h1>
+        <p>{{ tool.calculator_intro }}</p>
+      </div>
+
+      <div class="calculator-shell">
+        <form id="anniversary-form" class="calculator-form" novalidate>
+          <h2>{{ tool.start_heading }}</h2>
+          <p>{{ tool.start_intro }}</p>
+          <fieldset id="calculator-fields" disabled>
+            <legend class="calculator-sr-only">{{ tool.choose_dates }}</legend>
+            <div class="calculator-field">
+              <label for="start-date">{{ tool.start_date }}</label>
+              <input id="start-date" name="start" type="date" min="0001-01-01" max="9998-12-31" required aria-describedby="calculator-error">
+            </div>
+            <div class="calculator-field">
+              <div class="calculator-label-row"><label for="asof-date">{{ tool.as_of }}</label><button type="button" id="use-today">{{ tool.use_today }}</button></div>
+              <input id="asof-date" name="asof" type="date" min="0001-01-01" max="9998-12-31" required aria-describedby="calculator-error asof-hint">
+              <p id="asof-hint" class="calculator-hint">{{ tool.as_of_hint }}</p>
+            </div>
+            <div id="leap-day-field" class="calculator-field" hidden>
+              <label for="leap-day">{{ tool.leap_label }}</label>
+              <select id="leap-day" name="leapday"><option value="feb28">{{ tool.feb28 }}</option><option value="mar1">{{ tool.mar1 }}</option></select>
+            </div>
+            <p id="calculator-error" class="calculator-error" role="alert" hidden></p>
+            <button class="calculator-submit" type="submit">{{ tool.calculate }} <span aria-hidden="true">→</span></button>
+          </fieldset>
+          <p id="calculator-loading" class="calculator-hint">{{ tool.calculator_loading }}</p>
+        </form>
+
+        <div class="calculator-output">
+          <div id="calculator-empty" class="calculator-empty">
+            <div class="calculator-calendar" aria-hidden="true"><span>{{ tool.together }}</span><strong>∞</strong></div>
+            <h2>{{ tool.empty_heading }}</h2>
+            <p>{{ tool.empty_body }}</p>
+            <div class="calculator-empty__labels" aria-hidden="true"><span>{{ tool.days_together }}</span><span>{{ tool.next_anniversary }}</span><span>{{ tool.milestones }}</span></div>
+          </div>
+          <section id="calculator-results" aria-labelledby="result-heading" hidden>
+            <h2 id="result-heading" class="calculator-result-heading" tabindex="-1">{{ tool.result_heading }}</h2>
+            <p class="calculator-day-count"><strong id="total-days"></strong><span id="day-unit">{{ tool.days_together }}</span></p>
+            <p id="total-weeks" class="calculator-weeks"></p>
+            <p id="date-range" class="calculator-range"></p>
+            <div class="calculator-anniversary">
+              <div><p class="calculator-eyebrow">{{ tool.next_anniversary }}</p><h3 id="anniversary-label"></h3><p id="anniversary-date"></p></div>
+              <strong id="anniversary-countdown" class="calculator-countdown"></strong>
+            </div>
+            <h3 class="calculator-milestone-heading">{{ tool.more_reasons }}</h3>
+            <ul id="milestone-list" class="calculator-milestones"></ul>
+          </section>
+        </div>
+      </div>
+      <p class="calculator-counting-note">{{ tool.counting_note }}</p>
+    </div>
+  </section>
+
+  <section class="calculator-app site-container" aria-labelledby="app-heading">
+    <img src="{{ '/assets/icons/appicon-128.png' | relative_url }}" width="72" height="72" alt="" loading="lazy">
+    <div><p class="section-kicker">{{ tool.milestone_kicker }}</p><h2 id="app-heading">{{ tool.milestone_title }}</h2><p>{{ tool.milestone_body | replace: token_app, app_name }}</p><a class="calculator-text-link" href="{{ locale_prefix | append: '/anniversary-countdown-app/' | relative_url }}">{{ tool.anniversary_link }} <span aria-hidden="true">→</span></a></div>
+    <div class="calculator-app__download">{% include app-store-badge.html locale=current_locale %}</div>
+  </section>
+
+  <section class="calculator-explainer site-container" aria-labelledby="how-heading">
+    <div><p class="section-kicker">{{ tool.how_kicker }}</p><h2 id="how-heading">{{ tool.how_title }}</h2><p>{{ tool.how_body }}</p><p>{{ tool.example }}</p></div>
+    <div class="calculator-use-cases"><h3>{{ tool.uses_title }}</h3><ul><li><strong>{{ tool.dating }}</strong><span>{{ tool.dating_body }}</span></li><li><strong>{{ tool.wedding }}</strong><span>{{ tool.wedding_body }}</span></li><li><strong>{{ tool.personal }}</strong><span>{{ tool.personal_body }}</span></li></ul></div>
+  </section>
+
+  <section class="calculator-faq site-container" aria-labelledby="faq-heading">
+    <p class="section-kicker">{{ tool.faq_kicker }}</p><h2 id="faq-heading">{{ tool.faq_title }}</h2>
+    {% assign questions = 'days,first,leap,thousand,wedding,app' | split: ',' %}
+    {% for question in questions %}{% assign question_key = 'faq_' | append: question | append: '_q' %}{% assign answer_key = 'faq_' | append: question | append: '_a' %}<details><summary>{{ tool[question_key] }}</summary><p>{{ tool[answer_key] }}</p></details>{% endfor %}
+    <p class="calculator-more"><a href="{{ locale_prefix | append: '/countdown-ideas/' | relative_url }}">{{ tool.more_ideas }}</a></p>
+  </section>
+</div>
+{% include tool-data.html %}
+<script type="module" src="{{ '/assets/anniversary-calculator.js' | relative_url }}"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": {{ tool.calculator_title | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "description": {{ tool.calculator_description | jsonify }},
+  "applicationCategory": "LifestyleApplication",
+  "operatingSystem": "Any",
+  "browserRequirements": "Requires JavaScript",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+}
+</script>

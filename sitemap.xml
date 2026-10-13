@@ -22,6 +22,9 @@ layout: null
 		<url>
 			<loc>{{ support_path | absolute_url }}</loc>
 		</url>
+        {% assign tool_routes = 'when-is,anniversary-calculator' | split: ',' %}
+        {% for tool_route in tool_routes %}<url><loc>{{ tool_route | prepend: '/' | prepend: locale_prefix | append: '/' | absolute_url }}</loc></url>{% endfor %}
+        {% for holiday in site.data.holidays %}<url><loc>{{ holiday.slug | prepend: '/when-is/' | prepend: locale_prefix | append: '/' | absolute_url }}</loc></url>{% endfor %}
 		{% for sitemap_page in sitemap_pages %}
 			<url>
 				<loc>{{ locale_prefix | append: sitemap_page.url | absolute_url }}</loc>

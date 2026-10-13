@@ -12,6 +12,14 @@ class ExternalLinksValidator
   SUPPORT_EMAIL = 'mailto:support@shayesapps.com'.freeze
   REVENUECAT_PRIVACY = 'https://www.revenuecat.com/privacy'.freeze
   ADMOB_PRIVACY = 'https://support.google.com/admob/answer/6128543?hl=en'.freeze
+  # Holiday date references reviewed on 2026-10-12; exact URLs only.
+  HOLIDAY_SOURCES = %w[
+    https://blogs.loc.gov/inside_adams/2016/02/commercialization-of-valentines-day/
+    https://www2.census.gov/programs-surveys/sis/resources/halloween-ff.pdf
+    https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+    https://www.rmg.co.uk/stories/time/when-easter
+    https://americanenglish.state.gov/files/ae/resource_files/mothersday-and-fathersday.pdf
+  ].freeze
 
   def initialize(source:, site:, verbose: false)
     @source = Pathname(source).expand_path
@@ -164,6 +172,8 @@ class ExternalLinksValidator
       @counts[:instagram] += 1
     elsif href == @config['mastodon_link'].to_s
       @counts[:mastodon] += 1
+    elsif page.match?(%r{(?:\A|/)when-is/}) && HOLIDAY_SOURCES.include?(href)
+      @counts[:holiday_sources] += 1
     elsif policy && href == REVENUECAT_PRIVACY
       @counts[:revenuecat] += 1
     elsif policy && href == ADMOB_PRIVACY

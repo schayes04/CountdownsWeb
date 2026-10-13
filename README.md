@@ -99,12 +99,128 @@ If you have feedback regarding bugs or improvements, open an issue, @ me on Twit
 
 I'd love to see the sites you create using this little tool.
 
+## Holiday date and countdown experiment
+
+`/when-is/` links to eight holiday pages: Christmas, Halloween, New Year,
+Thanksgiving, Western Easter, Valentine’s Day, Mother’s Day, and Father’s Day.
+The holiday index, all eight detail pages, and the anniversary calculator are
+available in all 34 site locale variants (33 languages): 340 tool routes. Each
+locale's three-column footer and ideas index link to its own tools. Language
+switching stays on the corresponding page; canonical URLs, translated metadata,
+`hreflang` alternates, and the sitemap cover every translation.
+
+`_data/tools/<locale>.json` holds translated tool copy. Keep its keys and template
+placeholders in sync with English. `scripts/generate-tool-routes.mjs` creates the
+checked-in route stubs, localized Gregorian date patterns, country display names,
+and browser time-zone lookup. Run it when adding locales or changing routes;
+`--check` verifies generated files locally. Intl formatting can change between
+Node/ICU versions, so review generated formatting changes before checking them in.
+Browser results use the page language for dates, numbers, units, and lists.
+
+Holiday pages suggest a country from the browser's IANA time zone, falling back
+to an explicit region in browser language settings when the zone is unavailable
+or UTC. A language alone never implies a country. Visitors can edit the selector;
+their choice is stored on this device and shared between language pages. No IP
+lookup, network geolocation, location permission, or automatic language redirect
+is used. The hub picker offers the US, Canada, UK, Australia, and New Zealand;
+each detail page offers only the countries with supported differences for that
+holiday. Pages without regional variants hide the picker. Unsupported or unknown
+settings default to the US in both the hub and detail pickers, without overwriting
+the saved country. Manual choices are saved silently.
+
+Verified regional rules cover Canadian Thanksgiving, UK Mothering Sunday, and
+Father’s Day in Australia and New Zealand. Other selections retain the explicitly
+labeled US observance for regional holidays; this is not a complete worldwide
+holiday database. Fixed-date holidays retain their stated Gregorian date, and
+Easter remains Western Easter. The date, countdown, year table, explanation,
+source, and hub ordering update together when a regional rule applies. Without
+JavaScript, the page keeps its clearly labeled default observance.
+
+`_data/holidays.json` contains the content, scope, and date rules.
+`assets/holiday-dates.mjs` implements the rules and date-only arithmetic.
+`scripts/generate-holiday-dates.mjs` generates `_data/holiday_dates.json` for
+2020–2120, so GitHub Pages needs no custom Jekyll plugin. Regenerate that file
+after changing rules or adding a holiday. Layout and metadata use the next
+occurrence at build time; the browser refreshes them using the visitor’s local
+date, including midnight and return-to-tab updates. The existing GitHub Pages
+workflow now rebuilds daily at 06:17 UTC to refresh crawlable dates and years.
+After publication, verify scheduled runs remain enabled; GitHub can disable
+scheduled workflows in inactive public repositories. Without JavaScript, the
+page still provides the date and table from the latest build, without a stale
+numeric countdown. The holiday remains “Today” for its entire local date.
+
+Date references were reviewed against OPM, the US Census Bureau, the US
+Department of State, Royal Observatory Greenwich, and the Library of Congress.
+The holiday external-link allowlist records the exact reviewed destinations.
+The calendar shows celebration dates, not substitute observed days off.
+
+### Measurement and rollout
+
+No analytics service or App Store campaign/provider token is configured. The
+holiday module emits `countdowns:holiday` window events with `{ event, holiday,
+placement }`. Supported events are `holiday_view` and
+`holiday_app_store_click`; placements distinguish the widget CTA from the header.
+A future analytics adapter should subscribe before the module loads. These hooks
+alone do **not** collect, persist, or transmit metrics, and do not attribute app
+installs. The existing App Store links retain their locale hints.
+
+After publishing, use Search Console’s `/when-is/` page filter to monitor indexing,
+queries, impressions, and clicks through each relevant holiday season. Connect an
+analytics service before comparing App Store click-through rates; configure valid
+App Store Connect campaign links separately for available install attribution.
+Use those results to select further events or regional date rules.
+
+```sh
+node --test scripts/validate-holiday-dates.mjs scripts/validate-anniversary.mjs scripts/validate-tool-locales.mjs
+node scripts/generate-holiday-dates.mjs --check
+node scripts/generate-tool-routes.mjs --check
+rbenv exec bundle exec jekyll build
+rbenv exec bundle exec ruby scripts/validate-localization.rb --site _site
+rbenv exec bundle exec ruby scripts/validate-external-links.rb --site _site
+```
+
+For browser checks, serve `_site` at `http://127.0.0.1:4100`, then run
+`node scripts/validate-holidays-browser.mjs` with Playwright available. Optional
+`PLAYWRIGHT_MODULE` and `PLAYWRIGHT_CHROMIUM_EXECUTABLE` variables select an existing
+installation; `HOLIDAY_PREVIEW_URL` selects a different preview origin (and optional
+base path). Checks cover all eight pages at 320, 390, and 1440px; hub sorting;
+opposite time zones; midnight/year rollover;
+measurement hooks; and useful content with JavaScript disabled.
+
+## Anniversary calculator experiment
+
+The `/anniversary-calculator/` page and its 33 translated routes target anniversary,
+wedding anniversary, and days-together queries. Each locale links to its calculator
+from the footer and ideas index, with sitemap entries for every translation.
+It uses the site's shared canonical, social metadata, and App Store link helpers.
+
+`assets/anniversary-dates.mjs` contains date-only arithmetic; the page controller
+and styles load only on the calculator page. The original date is day 0. Annual
+anniversaries and day milestones include today when applicable. February 29 offers
+a February 28 or March 1 choice for non-leap years. Dates are neither persisted nor
+transmitted. No analytics provider is configured; calculator use and App Store
+clicks are not currently measured. After publishing, Search Console can be used to
+assess impressions and clicks for this route; event tracking would require a
+separate analytics integration.
+
+```sh
+node --test scripts/validate-anniversary.mjs
+bundle exec jekyll build
+bundle exec ruby scripts/validate-localization.rb --site _site
+bundle exec ruby scripts/validate-external-links.rb --site _site
+```
+
+Preview with `bundle exec jekyll serve` and visit `/anniversary-calculator/`. Test
+empty and reversed dates, February 29, a milestone occurring today,
+keyboard navigation, and narrow mobile screens. On machines with rbenv,
+prefix the Ruby commands with `rbenv exec` to use the installed project gems.
+
 ## September 2026 language expansion
 
 Countdowns supports 33 languages. The site has 34 locale variants, including Czech,
 Filipino, Greek, Hebrew, Hungarian, Indonesian, Malay, Romanian, Thai, Vietnamese,
-and Ukrainian. Each locale has a home page, ideas index, 12 guides, and a Help Center: 510 localized
-routes, plus the English-only policies page. Hebrew uses right-to-left layout.
+and Ukrainian. Each locale now has a home page, ideas index, 12 guides, a Help Center, and ten tool
+pages: 850 localized routes, plus the English-only policies page. Hebrew uses right-to-left layout.
 The native app selects its Help Center using its effective app language; Portuguese
 regional variants, Chinese scripts, Norwegian Bokmål, and Filipino aliases map
 to the corresponding website folders, with English as the fallback.
@@ -150,7 +266,7 @@ The shared `_includes/locale-url.html` helper keeps language switching, alternat
 
 The header keeps the app name visible. At widths of 1120px or less, all navigation moves into a single disclosure menu; its nested language list stays within the scrollable panel. Desktop and compact navigation share `_includes/navigation-items.html`. The native disclosures work without JavaScript; `assets/header.js` adds outside-click dismissal, Escape/focus handling, and breakpoint cleanup. Keep its media query in sync with `_sass/layout.scss`.
 
-After building, validate all 510 localized routes, Support content structure, language links, accessibility labels, internal links, and the sitemap:
+After building, validate all 850 localized routes, tool copy and footer links, Support content structure, language links, accessibility labels, internal links, and the sitemap:
 
 ```sh
 bundle exec ruby scripts/validate-localization.rb --site _site

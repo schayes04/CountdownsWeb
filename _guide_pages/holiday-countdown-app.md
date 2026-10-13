@@ -44,6 +44,8 @@ cta_text: "Download Countdowns and keep holidays, breaks, and seasonal plans in 
 
 ## Track holidays before the calendar gets crowded
 
+Looking for a date? Browse our [free holiday countdowns]({{ '/when-is/' | relative_url }}) for the next holiday, days remaining, and dates for upcoming years.
+
 Holidays often bring several dates at once: travel, school breaks, shopping deadlines, family visits, and the holiday itself. Countdowns keeps those dates visible so the season does not rely on memory alone.
 
 Recurring countdowns are useful for holidays and seasonal plans that come back. Create them once, then keep the next date ready when the current one passes.

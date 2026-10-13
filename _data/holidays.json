@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "christmas", "name": "Christmas", "date_name": "Christmas Day", "scope": "December 25 observance", "icon": "🎄", "theme": "green",
+    "rule": { "type": "fixed", "month": 12, "day": 25 },
+    "answer_prefix": "Christmas Day is on", "rule_label": "December 25, every year", "kicker": "A little closer to Christmas",
+    "intro": "The big day, the weekday, and the days left to get ready. Count down to Christmas morning wherever you are.",
+    "explanation_title": "Same date. A different day of the week.",
+    "explanation": "This countdown follows Christmas Day on December 25 in the Gregorian calendar. The date stays the same each year, while the weekday changes. Christmas Eve is December 24.",
+    "scope_note": "Some Christian communities celebrate Christmas on a different date. This page tracks the December 25 observance, rather than an employer’s observed day off.",
+    "planning": "Make separate countdowns for your last shopping day, your journey home, and Christmas dinner. Each can have its own reminder in the app.",
+    "source_label": "US Office of Personnel Management: holiday dates", "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+    "guide": "christmas-countdown-app", "guide_label": "Explore Christmas countdowns"
+  },
+  {
+    "slug": "halloween", "name": "Halloween", "date_name": "Halloween", "scope": "October 31", "icon": "🎃", "theme": "orange",
+    "rule": { "type": "fixed", "month": 10, "day": 31 },
+    "answer_prefix": "Halloween is on", "rule_label": "October 31, every year", "kicker": "Let the spooky season begin",
+    "intro": "Costumes to plan. Pumpkins to pick. See which day Halloween falls on and how long you have to get ready.",
+    "explanation_title": "Halloween always falls on October 31.",
+    "explanation": "Halloween’s calendar date stays the same each year, but its weekday changes. Use the upcoming dates to see whether the next Halloween falls during the week or on a weekend.",
+    "scope_note": "Local trick-or-treat hours, school celebrations, and Halloween parties may use different dates or times. Check the organizer’s schedule for your plans.",
+    "planning": "Count down to October 31, then add your own costume deadline or party date. Keep the one you’re most excited about on your Home Screen.",
+    "source_label": "US Census Bureau: Halloween (PDF)", "source_url": "https://www2.census.gov/programs-surveys/sis/resources/halloween-ff.pdf",
+    "guide": "holiday-countdown-app", "guide_label": "Explore holiday countdowns"
+  },
+  {
+    "slug": "new-year", "name": "New Year", "date_name": "New Year’s Day", "scope": "Gregorian calendar · January 1", "icon": "✨", "theme": "purple",
+    "rule": { "type": "fixed", "month": 1, "day": 1 },
+    "answer_prefix": "New Year’s Day is on", "rule_label": "January 1, every year", "kicker": "A fresh start is coming",
+    "intro": "Look ahead to January 1. See the next New Year’s date and count the days to a brand-new chapter.",
+    "explanation_title": "A new year starts on January 1.",
+    "explanation": "This page follows the Gregorian calendar. New Year’s Eve is December 31, and New Year’s Day begins at midnight immediately afterward. That moment arrives at different times around the world.",
+    "scope_note": "The countdown uses your device’s local calendar date. It does not follow the midnight celebration in a particular city or the dates of Lunar New Year and other calendars.",
+    "planning": "Add your New Year’s Eve party as its own event with a start time. Use another countdown for a January trip, a personal goal, or the first day of something new.",
+    "source_label": "US Office of Personnel Management: holiday dates", "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+    "guide": "event-countdown-app", "guide_label": "Explore event countdowns"
+  },
+  {
+    "slug": "thanksgiving", "name": "Thanksgiving", "date_name": "Thanksgiving", "scope": "United States", "icon": "🍂", "theme": "orange",
+    "rule": { "type": "weekday", "month": 11, "weekday": 4, "occurrence": 4 },
+    "answer_prefix": "In the United States, Thanksgiving is on", "rule_label": "Fourth Thursday in November", "kicker": "Something to look forward to",
+    "intro": "Start with the date. Make room for the plans. Count the days until Thanksgiving in the United States.",
+    "explanation_title": "Why does Thanksgiving’s date change?",
+    "explanation": "US Thanksgiving falls on the fourth Thursday in November. Because November begins on a different weekday from year to year, Thanksgiving’s date ranges from November 22 to November 28. It is not always the last Thursday of the month.",
+    "scope_note": "This page is for US Thanksgiving. Canadian Thanksgiving follows a different calendar rule and is not the date shown here.",
+    "planning": "Give your travel day, grocery shopping, and family meal their own countdowns. A reminder before each date can help spread the preparation across the week.",
+    "source_label": "US Office of Personnel Management: Thanksgiving dates", "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+    "guide": "holiday-countdown-app", "guide_label": "Explore holiday countdowns"
+  },
+  {
+    "slug": "easter", "name": "Easter", "date_name": "Easter Sunday", "scope": "Western Easter", "icon": "🌷", "theme": "purple",
+    "rule": { "type": "western-easter" },
+    "answer_prefix": "Western Easter Sunday is on", "rule_label": "A Sunday between March 22 and April 25", "kicker": "Looking ahead to Easter",
+    "intro": "Find the next Easter Sunday, see future dates, and count the days until your spring celebration.",
+    "explanation_title": "Why is Easter on a different date each year?",
+    "explanation": "Western Easter uses a church calendar calculation involving an ecclesiastical full moon and a fixed March 21 equinox. It falls on a Sunday between March 22 and April 25. The calculation uses calendar rules rather than the exact full moon visible from your location.",
+    "scope_note": "This page shows Western Christian Easter in the Gregorian calendar. Orthodox Easter may fall on a different Sunday. School breaks and public holidays also vary by location.",
+    "planning": "Keep Easter Sunday separate from your school break, travel dates, and family gathering. Add the dates your school or organizer confirms to the app.",
+    "source_label": "Royal Observatory Greenwich: how Easter is dated", "source_url": "https://www.rmg.co.uk/stories/time/when-easter",
+    "guide": "holiday-countdown-app", "guide_label": "Explore holiday countdowns"
+  },
+  {
+    "slug": "valentines-day", "name": "Valentine’s Day", "date_name": "Valentine’s Day", "scope": "February 14", "icon": "💌", "theme": "pink",
+    "rule": { "type": "fixed", "month": 2, "day": 14 },
+    "answer_prefix": "Valentine’s Day is on", "rule_label": "February 14, every year", "kicker": "A date worth remembering",
+    "intro": "A small surprise or a big night out. Find the date and count the days until Valentine’s Day.",
+    "explanation_title": "February 14, whichever weekday it falls on.",
+    "explanation": "Valentine’s Day is celebrated on February 14 each year. The weekday changes, so the table below can help you plan a meal, a trip, or time together.",
+    "scope_note": "This page follows the February 14 celebration. If you celebrate on a nearby weekend or another date, create a separate countdown for those plans.",
+    "planning": "Add a reminder for your reservation or gift, then keep your celebration date on a widget. You can also count up from the day your own story began.",
+    "source_label": "Library of Congress: Valentine’s Day traditions", "source_url": "https://blogs.loc.gov/inside_adams/2016/02/commercialization-of-valentines-day/",
+    "guide": "anniversary-countdown-app", "guide_label": "Explore anniversary countdowns"
+  },
+  {
+    "slug": "mothers-day", "name": "Mother’s Day", "date_name": "Mother’s Day", "scope": "United States", "icon": "💐", "theme": "pink",
+    "rule": { "type": "weekday", "month": 5, "weekday": 0, "occurrence": 2 },
+    "answer_prefix": "In the United States, Mother’s Day is on", "rule_label": "Second Sunday in May", "kicker": "Time to plan something thoughtful",
+    "intro": "See when Mother’s Day falls in the United States and how many days are left to make your plans.",
+    "explanation_title": "The second Sunday in May.",
+    "explanation": "In the United States, Mother’s Day falls on the second Sunday of May. Its date can range from May 8 to May 14, so it moves on the calendar while staying on a Sunday.",
+    "scope_note": "Mother’s Day dates vary by country. This is the US date; it should not be used for the UK’s Mothering Sunday or assumed to apply everywhere.",
+    "planning": "Plan a visit, a call, or time together. Add a separate reminder for sending a card or arranging flowers so the preparation has its own place on your calendar.",
+    "source_label": "US Department of State: Mother’s Day and Father’s Day (PDF)", "source_url": "https://americanenglish.state.gov/files/ae/resource_files/mothersday-and-fathersday.pdf",
+    "guide": "holiday-countdown-app", "guide_label": "Explore holiday countdowns"
+  },
+  {
+    "slug": "fathers-day", "name": "Father’s Day", "date_name": "Father’s Day", "scope": "United States", "icon": "☀️", "theme": "blue",
+    "rule": { "type": "weekday", "month": 6, "weekday": 0, "occurrence": 3 },
+    "answer_prefix": "In the United States, Father’s Day is on", "rule_label": "Third Sunday in June", "kicker": "Make time for a good day together",
+    "intro": "Find the US Father’s Day date and count the days until a visit, a meal, or a simple moment together.",
+    "explanation_title": "The third Sunday in June.",
+    "explanation": "In the United States, Father’s Day falls on the third Sunday of June. Its date ranges from June 15 to June 21, while the day of the week remains Sunday.",
+    "scope_note": "Father’s Day is observed on other dates in some countries. This page tracks the US observance, so check the local date if you are planning a celebration elsewhere.",
+    "planning": "Add your celebration and any preparation dates separately. A countdown to a visit or a shared activity can be a nice reminder of what’s coming up.",
+    "source_label": "US Department of State: Mother’s Day and Father’s Day (PDF)", "source_url": "https://americanenglish.state.gov/files/ae/resource_files/mothersday-and-fathersday.pdf",
+    "guide": "holiday-countdown-app", "guide_label": "Explore holiday countdowns"
+  }
+]

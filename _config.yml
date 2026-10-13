@@ -94,6 +94,13 @@ collections:
 
 defaults:
   - scope:
+      path: "when-is"
+    values:
+      layout: holiday
+      locale: en
+      localized: true
+      stylesheet: /assets/holiday-countdown.css
+  - scope:
       path: ""
       type: guide_pages
     values:

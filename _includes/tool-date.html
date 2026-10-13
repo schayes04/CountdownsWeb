@@ -1,0 +1,7 @@
+{%- assign display_style = include.style | default: 'full' -%}
+{%- assign display_format = calendar[display_style] -%}
+{%- assign month_index = include.date | date: '%m' | minus: 1 -%}
+{%- assign day_index = include.date | date: '%d' | minus: 1 -%}
+{%- assign weekday_index = include.date | date: '%w' | plus: 0 -%}
+{%- assign year_key = include.date | date: '%Y' -%}
+{{- display_format.pattern | replace: token_month, display_format.months[month_index] | replace: token_day, display_format.days[day_index] | replace: token_weekday, display_format.weekdays[weekday_index] | replace: token_year, display_format.years[year_key] -}}

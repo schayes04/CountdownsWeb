@@ -6,6 +6,7 @@ require 'pathname'
 require 'uri'
 require 'yaml'
 require 'liquid'
+require 'json'
 
 class LocalizationValidator
   REQUIRED_ACCESSIBILITY_LABELS = %w[
@@ -32,13 +33,14 @@ class LocalizationValidator
     return finish unless @locales && !@locales.empty?
 
     @guide_slugs = @source.glob('_guide_pages/*.md').map { |path| path.basename('.md').to_s }.sort
-    @route_keys = ROUTE_KEYS + @guide_slugs
+    @holiday_slugs = JSON.parse(@source.join('_data/holidays.json').read).map { |holiday| holiday['slug'] }
+    @route_keys = ROUTE_KEYS + @guide_slugs + ['when-is', 'anniversary-calculator'] + @holiday_slugs.map { |slug| "when-is/#{slug}" }
     check(:source, @guide_slugs.length == 12, "expected 12 guide slugs, found #{@guide_slugs.length}")
-    check(:source, @route_keys.length == 15, "expected 15 page types, found #{@route_keys.length}")
+    check(:source, @route_keys.length == 25, "expected 25 page types, found #{@route_keys.length}")
     check(:source, @locales.length == 34, "expected 34 configured locales, found #{@locales.length}")
 
     @routes = @locales.flat_map { |locale| @route_keys.map { |key| route_for(locale, key) } }
-    check(:routes, @routes.length == 510, "expected 510 locale routes, found #{@routes.length}")
+    check(:routes, @routes.length == 850, "expected 850 locale routes, found #{@routes.length}")
     @routes.each { |route| validate_page(route) }
     validate_support_pages
     validate_links
@@ -191,6 +193,7 @@ class LocalizationValidator
     validate_language_menu(doc, path, code, key)
     validate_footer_support(doc, path, locale)
     validate_unresolved_tokens(doc, path)
+    validate_tool_page(doc, path, locale, key) if key == 'anniversary-calculator' || key.start_with?('when-is')
     validate_home(doc, path, code) if key == 'home'
     validate_breadcrumb(doc, path, code) if key == 'support' || @guide_slugs.include?(key)
   end
@@ -255,6 +258,30 @@ class LocalizationValidator
   def validate_footer_support(doc, path, locale)
     support = doc.css('.site-footer .footerLinks a').find { |link| url_path(link['href']) == public_route(route_for(locale, 'support')[:path]) }
     check(:pages, !support.nil?, "#{path}: footer Support link is not locale-aware")
+    catalog = JSON.parse(@source.join("_data/tools/#{locale['code']}.json").read)['strings']
+    { 'when-is' => 'holiday_link', 'anniversary-calculator' => 'calculator_link' }.each do |key, label|
+      link = doc.css('.site-footer .footerLinks a').find { |item| url_path(item['href']) == public_route(route_for(locale, key)[:path]) }
+      check(:pages, link && link.text.strip == catalog[label], "#{path}: footer #{key} link must be localized")
+    end
+  end
+
+  def validate_tool_page(doc, path, locale, key)
+    data = JSON.parse(doc.at_css('#tool-data').text)
+    check(:tools, data['locale'] == locale['html_lang'], "#{path}: incorrect tool locale")
+    check(:tools, doc.at_css('h1') && !doc.at_css('h1').text.strip.empty?, "#{path}: missing translated heading")
+    check(:tools, !doc.at_css('title').text.strip.empty? && !doc.at_css('meta[name="description"]')['content'].strip.empty?, "#{path}: missing search metadata")
+    visible = doc.css('h1,h2,h3,p,a,label,button,th,td,caption,title').map(&:text).join(' ')
+    check(:tools, !visible.match?(/\{(?:holiday|year|date|app|duration|zone|scope|region|rule)\}/), "#{path}: unresolved translation placeholder")
+    doc.css('script[type="application/ld+json"]').each { |script| JSON.parse(script.text) }
+    if key.start_with?('when-is/')
+      dates = doc.css('#holiday-date-rows time').map { |node| node['datetime'] }
+      check(:tools, dates.length == 5 && dates.all? { |date| date.match?(/\A\d{4}-\d{2}-\d{2}\z/) }, "#{path}: invalid static date table")
+      check(:tools, doc.at_css('#holiday-country') && data.dig('countries', 'US') && data.dig('countries', 'GB'), "#{path}: country selector or localized country names missing")
+    elsif key == 'anniversary-calculator'
+      check(:tools, doc.at_css('label[for="start-date"]').text == data.dig('strings', 'start_date'), "#{path}: calculator label not translated")
+    end
+  rescue JSON::ParserError, NoMethodError => error
+    add_error(:tools, "#{path}: invalid tool content: #{error.message.lines.first.strip}")
   end
 
   def validate_unresolved_tokens(doc, path)

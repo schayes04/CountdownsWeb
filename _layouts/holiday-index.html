@@ -1,0 +1,32 @@
+---
+layout: default
+---
+{% include tool-context.html %}
+<div class="holiday-page holiday-hub">
+  <section class="holiday-hub__intro site-container">
+    <nav class="holiday-breadcrumbs" aria-label="{{ t.breadcrumb_label | escape }}"><a href="{{ locale_prefix | append: '/' | relative_url }}">{{ app_name }}</a><span aria-hidden="true">/</span><span>{{ tool.holiday_link }}</span></nav>
+    <p class="section-kicker">{{ tool.hub_kicker }}</p>
+    <h1>{{ tool.hub_title }}</h1>
+    <p>{{ tool.hub_intro }}</p>
+    {% include holiday-country.html %}
+  </section>
+  <section class="site-container" aria-label="{{ tool.holiday_link | escape }}">
+    <div class="holiday-card-grid" id="holiday-card-grid">
+      {% assign today = site.time | date: '%Y-%m-%d' %}
+      {% capture sorted_holidays %}{% for holiday in site.data.holidays %}{% assign future = site.data.holiday_dates[holiday.slug] | where_exp: 'date', 'date >= today' %}{{ future | first }}|{{ holiday.slug }},{% endfor %}{% endcapture %}
+      {% assign sorted_holidays = sorted_holidays | split: ',' | sort %}
+      {% for entry in sorted_holidays %}
+        {% assign parts = entry | split: '|' %}{% assign date = parts[0] %}{% assign holiday = site.data.holidays | where: 'slug', parts[1] | first %}{% assign holiday_copy = tools_copy.holidays[holiday.slug] %}
+        <a class="holiday-card holiday-theme--{{ holiday.theme }}" href="{{ holiday.slug | prepend: '/when-is/' | prepend: locale_prefix | append: '/' | relative_url }}" data-holiday-card="{{ holiday.slug }}" data-rule="{{ holiday.rule | jsonify | escape }}">
+          <span class="holiday-card__top"><span class="holiday-symbol" aria-hidden="true">{{ holiday.icon }}</span><span class="holiday-card__remaining" hidden></span></span>
+          <h2>{{ holiday_copy.name }}</h2>
+          <p class="holiday-card__scope">{% if holiday.rule.type == 'fixed' %}{% include tool-date.html date=date style='monthDay' %}{% elsif holiday.slug == 'easter' %}{{ tool.western_easter }}{% else %}{{ calendar.countries.US }}{% endif %}</p>
+          <time datetime="{{ date }}">{% include tool-date.html date=date %}</time><span class="holiday-card__link">{{ tool.see_countdown }} <span aria-hidden="true">→</span></span>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+  <section class="holiday-hub__more site-container"><h2>{{ tool.own_dates }}</h2><p>{{ tool.own_intro }}</p><a class="holiday-text-link" href="{{ locale_prefix | append: '/anniversary-calculator/' | relative_url }}">{{ tool.calculator_link }} <span aria-hidden="true">→</span></a> <a class="holiday-text-link" href="{{ locale_prefix | append: '/countdown-ideas/' | relative_url }}">{{ tool.app_link }} <span aria-hidden="true">→</span></a></section>
+</div>
+{% include tool-data.html %}
+<script type="module" src="{{ '/assets/holiday-countdown.js' | relative_url }}"></script>

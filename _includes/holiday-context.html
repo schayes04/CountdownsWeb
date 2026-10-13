@@ -1,0 +1,27 @@
+{%- include tool-context.html -%}
+{%- assign holiday = site.data.holidays | where: 'slug', page.holiday | first -%}
+{%- assign holiday_copy = tools_copy.holidays[page.holiday] -%}
+{%- assign holiday_today = site.time | date: '%Y-%m-%d' -%}
+{%- assign holiday_dates = site.data.holiday_dates[page.holiday] | where_exp: 'date', 'date >= holiday_today' -%}
+{%- assign holiday_next_date = holiday_dates | first -%}
+{%- capture holiday_year -%}{%- include tool-date.html date=holiday_next_date style='year' -%}{%- endcapture -%}
+{%- capture holiday_full_date -%}{%- include tool-date.html date=holiday_next_date -%}{%- endcapture -%}
+{%- capture holiday_month_day -%}{%- include tool-date.html date=holiday_next_date style='monthDay' -%}{%- endcapture -%}
+{%- assign holiday_heading = tool.holiday_title | replace: token_holiday, holiday_copy.name | replace: token_year, holiday_year -%}
+{%- assign holiday_title = holiday_heading | append: ' ' | append: tool.title_suffix | append: ' | ' | append: app_name -%}
+{%- assign holiday_description = tool.holiday_description | replace: token_holiday, holiday_copy.name | replace: token_date, holiday_full_date -%}
+{%- assign holiday_scope = calendar.countries.US -%}
+{%- case holiday.rule.type -%}
+  {%- when 'fixed' -%}
+    {%- assign holiday_scope = holiday_month_day -%}
+    {%- assign holiday_rule_label = tool.fixed_rule | replace: token_date, holiday_month_day -%}
+  {%- when 'western-easter' -%}
+    {%- assign holiday_scope = tool.western_easter -%}
+    {%- assign holiday_rule_label = tool.easter_rule -%}
+  {%- else -%}
+    {%- case holiday.slug -%}
+      {%- when 'thanksgiving' -%}{%- assign holiday_rule_label = tool.thanksgiving_rule -%}
+      {%- when 'mothers-day' -%}{%- assign holiday_rule_label = tool.mother_rule -%}
+      {%- when 'fathers-day' -%}{%- assign holiday_rule_label = tool.father_rule -%}
+    {%- endcase -%}
+{%- endcase -%}

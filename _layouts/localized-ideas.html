@@ -5,6 +5,7 @@ layout: default
 {% assign current_locale = page.locale | default: "en" %}
 {% assign locale = site.data.locales | where: "code", current_locale | first %}
 {% assign t = site.data.strings[current_locale] | default: site.data.strings.en %}
+{% assign tool = site.data.tools[current_locale].strings %}
 {% assign guide_topics = site.data.guide_topics[current_locale] | default: site.data.guide_topics.en %}
 {% assign locale_prefix = "" %}
 {% if locale.folder and locale.folder != "" %}
@@ -35,6 +36,17 @@ layout: default
 			<p>{{ t.guide_focus }}</p>
 		</div>
 		<div class="guide-link-grid guide-link-grid--wide">
+
+				<a class="guide-link-card" href="{{ locale_prefix | append: '/when-is/' | relative_url }}">
+					<span>{{ tool.holiday_link }}</span>
+					<strong>{{ tool.hub_title }}</strong>
+					<p>{{ tool.hub_description }}</p>
+				</a>
+				<a class="guide-link-card" href="{{ locale_prefix | append: '/anniversary-calculator/' | relative_url }}">
+					<span>{{ tool.free_tools }}</span>
+					<strong>{{ tool.calculator_title }}</strong>
+					<p>{{ tool.calculator_description }}</p>
+				</a>
 			{% assign idea_pages = site.guide_pages | sort: "nav_order" %}
 			{% for idea in idea_pages %}
 				{% assign guide_topic = guide_topics[idea.slug] | default: idea.short_title | default: idea.title %}

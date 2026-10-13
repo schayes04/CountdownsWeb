@@ -1,0 +1,71 @@
+---
+layout: default
+---
+{% include holiday-context.html %}
+<div class="holiday-page holiday-theme--{{ holiday.theme }}" data-holiday="{{ holiday.slug }}">
+  <section class="holiday-hero">
+    <div class="site-container">
+      <nav class="holiday-breadcrumbs" aria-label="{{ t.breadcrumb_label | escape }}"><a href="{{ locale_prefix | append: '/' | relative_url }}">{{ app_name }}</a><span aria-hidden="true">/</span><a href="{{ locale_prefix | append: '/when-is/' | relative_url }}">{{ tool.holiday_link }}</a><span aria-hidden="true">/</span><span>{{ holiday_copy.name }}</span></nav>
+      {% include holiday-country.html %}
+      <div class="holiday-hero__grid">
+        <div class="holiday-intro">
+          <p class="section-kicker">{{ holiday_copy.kicker }}</p>
+          <h1 data-holiday-heading>{{ holiday_heading }}</h1>
+          <p class="holiday-scope" data-holiday-scope>{{ holiday_scope }}</p>
+          <p class="holiday-answer"><strong>{{ holiday_copy.date_name }}</strong><br><time data-holiday-date datetime="{{ holiday_next_date }}">{{ holiday_full_date }}</time></p>
+          <p class="holiday-intro__text" data-holiday-intro>{{ holiday_copy.intro }}</p>
+          <a class="holiday-text-link" href="#upcoming-dates">{% if holiday.rule.type == 'fixed' %}{{ tool.see_weekdays }}{% else %}{{ tool.see_years }}{% endif %} <span aria-hidden="true">↗</span></a>
+        </div>
+        <section class="holiday-counter" aria-labelledby="countdown-heading">
+          <div class="holiday-counter__top"><span class="holiday-symbol" aria-hidden="true">{{ holiday.icon }}</span><span class="holiday-counter__tag">{{ tool.upcoming }}</span></div>
+          <h2 id="countdown-heading">{{ tool.counter_title | replace: token_holiday, holiday_copy.name }}</h2>
+          <div class="holiday-live" hidden>
+            <p class="holiday-counter__number"><strong id="holiday-days"></strong><span id="holiday-unit">{{ tool.remaining_days }}</span></p>
+            <p id="holiday-weeks" class="holiday-counter__weeks"></p>
+          </div>
+          <p id="holiday-fallback" class="holiday-counter__fallback">{{ holiday_rule_label }}<small>{{ tool.enable_countdown }}</small></p>
+          <div class="holiday-counter__date"><span class="holiday-date-tile" aria-hidden="true"><span data-holiday-month>{% include tool-date.html date=holiday_next_date style='month' %}</span><strong data-holiday-day>{% include tool-date.html date=holiday_next_date style='day' %}</strong></span><div><strong>{{ holiday_copy.date_name }}</strong><time data-holiday-date datetime="{{ holiday_next_date }}">{{ holiday_full_date }}</time></div></div>
+          <p class="holiday-counter__note" id="holiday-clock-note">{{ tool.calendar_days | replace: token_zone, '' }}</p>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <section class="holiday-details site-container">
+    <div class="holiday-explanation">
+      <p class="section-kicker">{{ tool.about_date }}</p><h2 id="holiday-explanation-heading">{% if current_locale == 'en' %}{{ holiday_copy.explanation_title }}{% else %}{{ holiday_rule_label }}{% endif %}</h2>
+      <div id="holiday-default-explanation"><p>{{ holiday_copy.explanation }}</p><p class="holiday-scope-note">{{ holiday_copy.scope_note }}</p>
+      </div><p id="holiday-regional-explanation" hidden></p><p class="holiday-source">{{ tool.reference }}: <a id="holiday-source" href="{{ holiday.source_url }}">{{ holiday.source_label }}</a></p>
+    </div>
+    <div class="holiday-upcoming" id="upcoming-dates">
+      <h2>{% if holiday.rule.type == 'fixed' %}{{ tool.weekday_title | replace: token_holiday, holiday_copy.date_name }}{% else %}{{ tool.upcoming_title | replace: token_holiday, holiday_copy.name }}{% endif %}</h2>
+      <table>
+        <caption id="holiday-table-caption">{% unless holiday.rule.type == 'fixed' %}{{ holiday_scope }} · {% endunless %}{{ holiday_rule_label }}</caption>
+        <thead><tr><th scope="col">{{ tool.year }}</th>{% unless holiday.rule.type == 'fixed' %}<th scope="col">{{ tool.date }}</th>{% endunless %}<th scope="col">{{ tool.weekday }}</th></tr></thead>
+        <tbody id="holiday-date-rows">
+          {% for date in holiday_dates limit:5 %}
+          <tr>
+            <th scope="row">{% include tool-date.html date=date style='year' %}</th>
+            {% if holiday.rule.type == 'fixed' %}
+            <td><time datetime="{{ date }}">{% include tool-date.html date=date style='weekday' %}</time></td>
+            {% else %}
+            <td><time datetime="{{ date }}">{% include tool-date.html date=date style='monthDay' %}</time></td><td>{% include tool-date.html date=date style='weekday' %}</td>
+            {% endif %}
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="holiday-app site-container" aria-labelledby="holiday-app-heading" data-holiday-placement="widget">
+    <div class="holiday-app__copy"><p class="section-kicker">{{ tool.app_kicker }}</p><h2 id="holiday-app-heading">{{ tool.app_title }}</h2><p>{{ tool.app_body | replace: token_app, app_name }}</p>{% unless holiday_copy.planning == '' %}<p>{{ holiday_copy.planning }}</p>{% endunless %}<div class="holiday-app__actions">{% include app-store-badge.html locale=current_locale %}<a class="holiday-text-link" href="{{ holiday.guide | prepend: '/' | prepend: locale_prefix | append: '/' | relative_url }}">{{ holiday_copy.guide_label }} <span aria-hidden="true">→</span></a></div><p class="holiday-app__note">{{ t.hero_eyebrow }}</p></div>
+    <div class="holiday-app__preview">{% include screenshot.html scene='home-screen-widgets' locale=current_locale size_role='pricing' %}</div>
+  </section>
+
+  <section class="holiday-related site-container" aria-labelledby="holiday-related-heading"><p class="section-kicker">{{ tool.related_kicker }}</p><h2 id="holiday-related-heading">{{ tool.related_title }}</h2><div class="holiday-related__links">{% for other in site.data.holidays %}{% unless other.slug == holiday.slug %}<a href="{{ other.slug | prepend: '/when-is/' | prepend: locale_prefix | append: '/' | relative_url }}"><span aria-hidden="true">{{ other.icon }}</span> {{ tools_copy.holidays[other.slug].name }} <span aria-hidden="true">↗</span></a>{% endunless %}{% endfor %}</div></section>
+</div>
+{% include tool-data.html %}
+<script id="holiday-data" type="application/json">{{ holiday | jsonify }}</script>
+<script type="module" src="{{ '/assets/holiday-countdown.js' | relative_url }}"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":{{ app_name | jsonify }},"item":{{ locale_prefix | append: '/' | absolute_url | jsonify }}},{"@type":"ListItem","position":2,"name":{{ tool.holiday_link | jsonify }},"item":{{ locale_prefix | append: '/when-is/' | absolute_url | jsonify }}},{"@type":"ListItem","position":3,"name":{{ holiday_copy.name | jsonify }},"item":{{ page.url | absolute_url | jsonify }}}]}</script>

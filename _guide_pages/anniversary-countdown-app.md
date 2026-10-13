@@ -42,6 +42,10 @@ cta_heading: "Keep the next anniversary visible."
 cta_text: "Download Countdowns and make important dates easier to remember."
 ---
 
+## Find your next milestone
+
+Use our free [anniversary and days together calculator]({{ '/anniversary-calculator/' | relative_url }}) to see how many days you’ve been together, your next anniversary, and upcoming milestones. Then add a date in Countdowns to keep it close with widgets and reminders.
+
 ## Useful for recurring and personal milestones
 
 Anniversaries are easy to care about and easy to miss until they are close. A recurring countdown keeps the date visible ahead of time and can reset for the next occurrence after the current one passes.
