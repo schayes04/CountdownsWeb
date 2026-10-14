@@ -80,7 +80,7 @@ en:
   - Keep and view past countdowns
   - Use Shortcuts to check countdowns with your voice
   - View countdowns on Apple Watch with complications
-  - Available in 20+ languages
+  - Available in 33 languages
   personal_kicker: Personal by default
   personal_heading: Choose the units, colors, icons, lists, and notifications that
     fit the event.
@@ -262,7 +262,7 @@ es:
   - Conserva y consulta cuentas pasadas
   - Usa Atajos para consultar cuentas con la voz
   - Ve cuentas en Apple Watch con complicaciones
-  - Disponible en más de 20 idiomas
+  - Disponible en 33 idiomas
   personal_kicker: Personal por defecto
   personal_heading: Elige unidades, colores, iconos, listas y notificaciones para
     cada evento.
@@ -442,7 +442,7 @@ fr:
   - Conservez et consultez les comptes passés
   - Utilisez Raccourcis pour consulter les comptes à la voix
   - Voyez les comptes sur Apple Watch avec complications
-  - Disponible dans plus de 20 langues
+  - Disponible en 33 langues
   personal_kicker: Personnel par défaut
   personal_heading: Choisissez unités, couleurs, icônes, listes et notifications selon
     l’événement.
@@ -621,7 +621,7 @@ ar:
   - احتفظ بالعدّادات الماضية واعرضها لاحقًا.
   - استخدم الاختصارات للتحقق من العدّادات بالصوت.
   - شاهد العدّادات على Apple Watch مع التعقيدات.
-  - متوفر بأكثر من 20 لغة.
+  - متوفر بـ 33 لغة.
   personal_kicker: شخصي افتراضيًا
   personal_heading: اختر الوحدات والألوان والأيقونات والقوائم والإشعارات المناسبة
     لكل حدث.
@@ -794,7 +794,7 @@ ca:
   - Conserva i consulta comptes passats.
   - Fes servir Dreceres per consultar comptes amb la veu.
   - Mira comptes a l'Apple Watch amb complicacions.
-  - Disponible en més de 20 idiomes.
+  - Disponible en 33 idiomes.
   personal_kicker: Personal per defecte
   personal_heading: Tria unitats, colors, icones, llistes i notificacions per a cada
     esdeveniment.
@@ -971,7 +971,7 @@ da:
   - Gem og se tidligere nedtællinger.
   - Brug Genveje til at tjekke nedtællinger med stemmen.
   - Se nedtællinger på Apple Watch med komplikationer.
-  - Tilgængelig på mere end 20 sprog.
+  - Tilgængelig på 33 sprog.
   personal_kicker: Personlig som standard
   personal_heading: Vælg enheder, farver, ikoner, lister og notifikationer, der passer
     til begivenheden.
@@ -1146,7 +1146,7 @@ de:
   - Bewahre vergangene Countdowns auf und sieh sie später an.
   - Nutze Kurzbefehle, um Countdowns per Stimme abzufragen.
   - Sieh Countdowns auf der Apple Watch mit Komplikationen.
-  - Verfügbar in mehr als 20 Sprachen.
+  - Verfügbar in 33 Sprachen.
   personal_kicker: Persönlich von Anfang an
   personal_heading: Wähle Einheiten, Farben, Symbole, Listen und Mitteilungen passend
     zum Ereignis.
@@ -1324,7 +1324,7 @@ fi:
   - Säilytä ja tarkastele menneitä laskureita.
   - Tarkista laskurit äänellä Oikotiet-toiminnon avulla.
   - Näe laskurit Apple Watchissa komplikaatioilla.
-  - Saatavilla yli 20 kielellä.
+  - Saatavilla 33 kielellä.
   personal_kicker: Henkilökohtainen oletuksena
   personal_heading: Valitse yksiköt, värit, kuvakkeet, listat ja ilmoitukset tapahtuman
     mukaan.
@@ -1500,7 +1500,7 @@ it:
   - Conserva e consulta countdown passati.
   - Usa Comandi Rapidi per controllare i countdown con la voce.
   - Vedi i countdown su Apple Watch con complicazioni.
-  - Disponibile in oltre 20 lingue.
+  - Disponibile in 33 lingue.
   personal_kicker: Personale per impostazione predefinita
   personal_heading: Scegli unità, colori, icone, liste e notifiche adatti all'evento.
   personal_body: Conta in anni, mesi, settimane, giorni, ore, minuti o secondi. Importa
@@ -1669,7 +1669,7 @@ ja:
   - 過去のカウントダウンを保存して見返せます。
   - ショートカットで音声からカウントダウンを確認できます。
   - Apple Watchのコンプリケーションで確認できます。
-  - 20以上の言語に対応しています。
+  - 33の言語に対応しています。
   personal_kicker: はじめから自分仕様
   personal_heading: イベントに合わせて単位、色、アイコン、リスト、通知を選べます。
   personal_body: 年、月、週、日、時、分、秒で表示できます。カレンダー、連絡先、リマインダーから日付を読み込み、リストで整理し、デバイス間で同期できます。
@@ -1826,7 +1826,7 @@ ko:
   - 지난 카운트다운을 보관하고 다시 확인하세요.
   - 단축어로 음성으로 카운트다운을 확인하세요.
   - Apple Watch 컴플리케이션으로 카운트다운을 확인하세요.
-  - 20개 이상의 언어로 제공됩니다.
+  - 33개 언어로 제공됩니다.
   personal_kicker: 기본부터 개인화
   personal_heading: 이벤트에 맞는 단위, 색상, 아이콘, 목록, 알림을 선택하세요.
   personal_body: 년, 월, 주, 일, 시간, 분, 초로 계산하세요. 캘린더, 연락처, 미리 알림에서 날짜를 가져오고 목록으로 정리하며
@@ -1989,7 +1989,7 @@ nb:
   - Ta vare på og se tidligere nedtellinger.
   - Bruk Snarveier til å sjekke nedtellinger med stemmen.
   - Se nedtellinger på Apple Watch med komplikasjoner.
-  - Tilgjengelig på mer enn 20 språk.
+  - Tilgjengelig på 33 språk.
   personal_kicker: Personlig fra start
   personal_heading: Velg enheter, farger, ikoner, lister og varsler som passer hendelsen.
   personal_body: Tell i år, måneder, uker, dager, timer, minutter eller sekunder.
@@ -2161,7 +2161,7 @@ nl:
   - Bewaar en bekijk eerdere aftellingen.
   - Gebruik Opdrachten om aftellingen met je stem te bekijken.
   - Bekijk aftellingen op Apple Watch met complicaties.
-  - Beschikbaar in meer dan 20 talen.
+  - Beschikbaar in 33 talen.
   personal_kicker: Standaard persoonlijk
   personal_heading: Kies eenheden, kleuren, iconen, lijsten en meldingen die passen
     bij de gebeurtenis.
@@ -2337,7 +2337,7 @@ pl:
   - Zachowuj i przeglądaj minione odliczania.
   - Używaj Skrótów, aby sprawdzać odliczania głosem.
   - Sprawdzaj odliczania na Apple Watch z komplikacjami.
-  - Dostępne w ponad 20 językach.
+  - Dostępne w 33 językach.
   personal_kicker: Osobiste od początku
   personal_heading: Wybierz jednostki, kolory, ikony, listy i powiadomienia pasujące
     do wydarzenia.
@@ -2511,7 +2511,7 @@ pt:
   - Guarda e consulta contagens passadas.
   - Usa Atalhos para consultar contagens com a voz.
   - Vê contagens no Apple Watch com complicações.
-  - Disponível em mais de 20 idiomas.
+  - Disponível em 33 idiomas.
   personal_kicker: Pessoal por defeito
   personal_heading: Escolhe unidades, cores, ícones, listas e notificações adequadas
     ao evento.
@@ -2686,7 +2686,7 @@ pt-BR:
   - Guarde e reveja contagens passadas.
   - Use Atalhos para consultar contagens com a voz.
   - Veja contagens no Apple Watch com complicações.
-  - Disponível em mais de 20 idiomas.
+  - Disponível em 33 idiomas.
   personal_kicker: Pessoal por padrão
   personal_heading: Escolha unidades, cores, ícones, listas e notificações que combinam
     com o evento.
@@ -2862,7 +2862,7 @@ ru:
   - Храните и просматривайте прошедшие отсчеты.
   - Используйте Быстрые команды, чтобы проверять отсчеты голосом.
   - Просматривайте отсчеты на Apple Watch с расширениями.
-  - Доступно более чем на 20 языках.
+  - Доступно на 33 языках.
   personal_kicker: Сразу под вас
   personal_heading: Выбирайте единицы, цвета, значки, списки и уведомления под событие.
   personal_body: Считайте в годах, месяцах, неделях, днях, часах, минутах или секундах.
@@ -3037,7 +3037,7 @@ sk:
   - Uchovávaj a zobrazuj minulé odpočítavania.
   - Použi Skratky na kontrolu odpočítavaní hlasom.
   - Sleduj odpočítavania na Apple Watch s komplikáciami.
-  - Dostupné vo viac ako 20 jazykoch.
+  - Dostupné v 33 jazykoch.
   personal_kicker: Osobné od začiatku
   personal_heading: Vyber jednotky, farby, ikony, zoznamy a oznámenia podľa udalosti.
   personal_body: Počítaj v rokoch, mesiacoch, týždňoch, dňoch, hodinách, minútach
@@ -3211,7 +3211,7 @@ sv:
   - Spara och se tidigare nedräkningar.
   - Använd Genvägar för att kontrollera nedräkningar med rösten.
   - Se nedräkningar på Apple Watch med komplikationer.
-  - Finns på över 20 språk.
+  - Finns på 33 språk.
   personal_kicker: Personlig från början
   personal_heading: Välj enheter, färger, ikoner, listor och notiser som passar händelsen.
   personal_body: Räkna i år, månader, veckor, dagar, timmar, minuter eller sekunder.
@@ -3386,7 +3386,7 @@ tr:
   - Geçmiş geri sayımları saklayın ve görüntüleyin.
   - Kestirmeler ile geri sayımları sesinizle kontrol edin.
   - Apple Watch'ta komplikasyonlarla geri sayımları görün.
-  - 20'den fazla dilde kullanılabilir.
+  - 33 dilde kullanılabilir.
   personal_kicker: Varsayılan olarak kişisel
   personal_heading: Etkinliğe uyan birimleri, renkleri, simgeleri, listeleri ve bildirimleri
     seçin.
@@ -3559,7 +3559,7 @@ zh-Hans:
   - 保存并查看过去的倒计时。
   - 使用快捷指令通过语音查看倒计时。
   - 在 Apple Watch 上通过复杂功能查看倒计时。
-  - 支持 20 多种语言。
+  - 支持 33 种语言。
   personal_kicker: 默认个性化
   personal_heading: 为每个事件选择合适的单位、颜色、图标、列表和通知。
   personal_body: 可以按年、月、周、天、小时、分钟或秒计时。从日历、通讯录和提醒事项导入日期，整理到列表中，并在设备之间同步。
@@ -3714,7 +3714,7 @@ zh-Hant:
   - 保留並查看過去的倒數。
   - 使用捷徑透過語音查看倒數。
   - 在 Apple Watch 上透過複雜功能查看倒數。
-  - 支援 20 多種語言。
+  - 支援 33 種語言。
   personal_kicker: 預設個人化
   personal_heading: 為每個事件選擇合適的單位、顏色、圖示、列表和通知。
   personal_body: 可以按年、月、週、天、小時、分鐘或秒計時。從行事曆、聯絡人和提醒事項匯入日期，整理到列表中，並在裝置之間同步。
@@ -3869,7 +3869,7 @@ hi:
   - बीते काउंटडाउन सहेजें और देखें
   - अपनी आवाज़ से काउंटडाउन देखने के लिए Shortcuts का इस्तेमाल करें
   - Apple Watch पर कॉम्प्लिकेशन के साथ काउंटडाउन देखें
-  - 20 से ज़्यादा भाषाओं में उपलब्ध
+  - 33 भाषाओं में उपलब्ध
   personal_kicker: शुरुआत से ही अपनी पसंद का
   personal_heading: आयोजन के मुताबिक इकाइयाँ, रंग, आइकन, सूचियाँ और सूचनाएँ चुनें।
   personal_body: वर्ष, महीने, सप्ताह, दिन, घंटे, मिनट या सेकंड में गिनें। कैलेंडर, कॉन्टैक्ट्स और रिमाइंडर से तारीखें आयात करें, काउंटडाउन को सूचियों में व्यवस्थित करें और सभी डिवाइसों पर सब कुछ सिंक रखें।
@@ -4032,7 +4032,7 @@ cs:
   - Uchovávejte a prohlížejte minulé odpočty
   - Kontrolujte odpočty hlasem pomocí Zkratek
   - Zobrazujte odpočty na Apple Watch pomocí komplikací
-  - K dispozici ve více než 30 jazycích
+  - K dispozici ve 33 jazycích
   personal_kicker: Přizpůsobené vám
   personal_heading: Vyberte jednotky, barvy, ikony, seznamy a oznámení vhodné pro
     událost.
@@ -4212,7 +4212,7 @@ fil:
   - Itago at tingnan ang mga nakaraang countdown
   - Gamitin ang Shortcuts para tingnan ang countdown gamit ang boses
   - Tingnan ang countdown sa Apple Watch gamit ang mga complication
-  - Available sa mahigit 30 wika
+  - Available sa 33 wika
   personal_kicker: Personal mula sa simula
   personal_heading: Piliin ang mga unit, kulay, icon, listahan, at notification na
     angkop sa kaganapan.
@@ -4398,7 +4398,7 @@ el:
   - Κρατήστε και δείτε παλιές μετρήσεις
   - Ελέγξτε μετρήσεις με τη φωνή μέσω Συντομεύσεων
   - Δείτε μετρήσεις στο Apple Watch με επιπλοκές
-  - Διατίθεται σε περισσότερες από 30 γλώσσες
+  - Διατίθεται σε 33 γλώσσες
   personal_kicker: Προσωπική από την αρχή
   personal_heading: Επιλέξτε μονάδες, χρώματα, εικονίδια, λίστες και γνωστοποιήσεις
     για κάθε γεγονός.
@@ -4580,7 +4580,7 @@ he:
   - שמרו וצפו בספירות מהעבר
   - בדקו ספירות בקול באמצעות קיצורים
   - צפו בספירות ב-Apple Watch באמצעות תצוגות מידע
-  - זמינה ביותר מ-30 שפות
+  - זמינה ב-33 שפות
   personal_kicker: אישית מההתחלה
   personal_heading: בחרו יחידות, צבעים, סמלים, רשימות ועדכונים שמתאימים לאירוע.
   personal_body: ספרו בשנים, חודשים, שבועות, ימים, שעות, דקות או שניות. ייבאו מלוח
@@ -4758,7 +4758,7 @@ hu:
   - Őrizze meg és nézze meg a korábbi visszaszámlálókat
   - Ellenőrizze a visszaszámlálókat hanggal a Parancsok segítségével
   - Nézze meg a visszaszámlálókat Apple Watchon, komplikációkkal
-  - Több mint 30 nyelven érhető el
+  - 33 nyelven érhető el
   personal_kicker: Kezdettől személyes
   personal_heading: Válasszon az eseményhez illő egységeket, színeket, ikonokat, listákat
     és értesítéseket.
@@ -4943,7 +4943,7 @@ id:
   - Simpan dan lihat hitung mundur yang telah berlalu
   - Gunakan Pintasan untuk memeriksa hitung mundur dengan suara
   - Lihat hitung mundur di Apple Watch dengan komplikasi
-  - Tersedia dalam lebih dari 30 bahasa
+  - Tersedia dalam 33 bahasa
   personal_kicker: Pribadi sejak awal
   personal_heading: Pilih unit, warna, ikon, daftar, dan pemberitahuan yang sesuai
     dengan acara.
@@ -5125,7 +5125,7 @@ ms:
   - Simpan dan lihat kiraan detik lalu
   - Gunakan Pintasan untuk menyemak kiraan detik dengan suara
   - Lihat kiraan detik pada Apple Watch dengan komplikasi
-  - Tersedia dalam lebih daripada 30 bahasa
+  - Tersedia dalam 33 bahasa
   personal_kicker: Peribadi sejak awal
   personal_heading: Pilih unit, warna, ikon, senarai dan pemberitahuan yang sesuai
     dengan acara.
@@ -5306,7 +5306,7 @@ ro:
   - Păstrează și vezi numărătorile trecute
   - Verifică numărătorile vocal cu Scurtături
   - Vezi numărătorile pe Apple Watch cu complicații
-  - Disponibilă în peste 30 de limbi
+  - Disponibilă în 33 de limbi
   personal_kicker: Personală de la început
   personal_heading: Alege unitățile, culorile, pictogramele, listele și notificările
     potrivite evenimentului.
@@ -5487,7 +5487,7 @@ th:
   - เก็บและดูการนับถอยหลังที่ผ่านมา
   - ตรวจสอบการนับถอยหลังด้วยเสียงผ่านคำสั่งลัด
   - ดูการนับถอยหลังบน Apple Watch พร้อมกลไกหน้าปัด
-  - รองรับมากกว่า 30 ภาษา
+  - รองรับ 33 ภาษา
   personal_kicker: เป็นส่วนตัวตั้งแต่เริ่ม
   personal_heading: เลือกหน่วย สี ไอคอน ลิสต์ และการแจ้งเตือนให้เหมาะกับกิจกรรม
   personal_body: นับเป็นปี เดือน สัปดาห์ วัน ชั่วโมง นาที หรือวินาที นำเข้าจากปฏิทิน
@@ -5657,7 +5657,7 @@ vi:
   - Lưu và xem các mục đếm ngược đã qua
   - Kiểm tra đếm ngược bằng giọng nói qua Phím tắt
   - Xem đếm ngược trên Apple Watch với tổ hợp
-  - Có hơn 30 ngôn ngữ
+  - Có 33 ngôn ngữ
   personal_kicker: Cá nhân ngay từ đầu
   personal_heading: Chọn đơn vị, màu sắc, biểu tượng, danh sách và thông báo phù hợp
     với sự kiện.
@@ -5833,7 +5833,7 @@ uk:
   - Зберігайте й переглядайте минулі відліки
   - Перевіряйте відліки голосом за допомогою Команд
   - Переглядайте відліки на Apple Watch з ускладненнями
-  - Доступно понад 30 мовами
+  - Доступно 33 мовами
   personal_kicker: Особисте від самого початку
   personal_heading: Вибирайте одиниці, кольори, іконки, списки й сповіщення відповідно
     до події.
