@@ -1,0 +1,145 @@
+---
+layout: default
+---
+
+{% assign current_locale = page.locale | default: "en" %}
+{% assign locale = site.data.locales | where: "code", current_locale | first %}
+{% assign t = site.data.strings[current_locale] | default: site.data.strings.en %}
+{% assign app_name = locale.app_name | default: site.app_name %}
+{% assign locale_prefix = '/' | append: locale.folder %}
+{% assign screenshot_scene = site.data.screenshots.guides[page.slug] %}
+
+<nav class="breadcrumbs site-container" aria-label="{{ t.breadcrumb_label | escape }}">
+	<a href="{{ locale_prefix | append: '/' | relative_url }}" target="_self">Home</a>
+	<span aria-hidden="true">/</span>
+	<a href="{{ locale_prefix | append: '/countdown-ideas/' | relative_url }}" target="_self">Countdown Ideas</a>
+	<span aria-hidden="true">/</span>
+	<span>{{ page.short_title | default: page.title }}</span>
+</nav>
+
+<section class="guide-hero">
+	<div class="site-container guide-hero__grid">
+		<div class="guide-hero__copy">
+			<p class="section-kicker">{{ page.kicker | default: "Countdown guide" }}</p>
+			<h1>{{ page.h1 | default: page.title }}</h1>
+			<p>{{ page.hero_copy | default: page.description }}</p>
+			<div class="hero__actions">
+				{% include app-store-badge.html locale=current_locale %}
+			</div>
+		</div>
+		<div class="guide-hero__media">
+			{% include screenshot.html scene=screenshot_scene locale=current_locale loading="eager" %}
+		</div>
+	</div>
+</section>
+
+{% if page.benefits %}
+	<section class="section section--guide-benefits">
+		<div class="site-container">
+			<div class="section-heading">
+				<p class="section-kicker">{{ page.benefits_kicker | default: "Why it helps" }}</p>
+				<h2>{{ page.benefits_heading | default: "A countdown that fits the moment." }}</h2>
+			</div>
+			<div class="guide-feature-grid">
+				{% for benefit in page.benefits %}
+					<article class="guide-feature-card">
+						<span>{{ forloop.index }}</span>
+						<h3>{{ benefit.title }}</h3>
+						<p>{{ benefit.description }}</p>
+					</article>
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+{% endif %}
+
+<section class="section guide-detail">
+	<div class="site-container guide-detail__grid">
+		<article class="guide-prose">
+			{{ content }}
+		</article>
+		<aside class="guide-aside" aria-label="{{ t.app_highlights_label | replace: 'APP_NAME', app_name | escape }}">
+			<div class="guide-aside__panel">
+				<img src="{{ site.app_icon | relative_url }}" alt="">
+				<h2>{{ app_name | escape }}</h2>
+				<p>{{ page.aside_text | default: t.app_description }}</p>
+				<ul>
+					{% for bullet in t.aside_bullets %}<li>{{ bullet }}</li>{% endfor %}
+				</ul>
+			</div>
+		</aside>
+	</div>
+</section>
+
+{% if page.steps %}
+	<section class="section section--split">
+		<div class="site-container guide-steps-grid">
+			<div class="section-copy">
+				<p class="section-kicker">{{ page.steps_kicker | default: "How to use it" }}</p>
+				<h2>{{ page.steps_heading | default: "Create the countdown in minutes." }}</h2>
+				<p>{{ page.steps_intro | default: "Start with the date, then make the timer useful everywhere you check your day." }}</p>
+			</div>
+			<ol class="guide-step-list">
+				{% for step in page.steps %}
+					<li>
+						<strong>{{ step.title }}</strong>
+						<span>{{ step.description }}</span>
+					</li>
+				{% endfor %}
+			</ol>
+		</div>
+	</section>
+{% endif %}
+
+{% if page.faq %}
+	<section class="section section--faq">
+		<div class="site-container guide-faq">
+			<div class="section-heading">
+				<p class="section-kicker">FAQ</p>
+				<h2>{{ page.faq_heading | default: "Common questions" }}</h2>
+			</div>
+			<div class="guide-faq__list">
+				{% for item in page.faq %}
+					<details>
+						<summary>{{ item.question }}</summary>
+						<p>{{ item.answer }}</p>
+					</details>
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+{% endif %}
+
+{% if page.related_pages %}
+	<section class="section section--related">
+		<div class="site-container">
+			<div class="section-heading">
+				<p class="section-kicker">More countdown ideas</p>
+				<h2>Build the next timer on your list.</h2>
+			</div>
+			<div class="guide-link-grid">
+				{% for original_related in site.guide_pages %}
+					{% if page.related_pages contains original_related.slug %}
+						{% assign related = site.pages | where: 'locale', current_locale | where: 'slug', original_related.slug | first %}
+						<a class="guide-link-card" href="{{ related.url | relative_url }}">
+							<span>{{ related.kicker | default: "Countdown guide" }}</span>
+							<strong>{{ related.short_title | default: related.title }}</strong>
+							<p>{{ related.card_description | default: related.description }}</p>
+						</a>
+					{% endif %}
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+{% endif %}
+
+<section class="final-cta">
+	<div class="site-container final-cta__inner">
+		<div>
+			<p class="section-kicker">{{ page.cta_kicker | default: "Start counting" }}</p>
+			<h2>{{ page.cta_heading | default: "Make the date feel closer." }}</h2>
+			<p>{{ page.cta_text | default: t.app_description }}</p>
+		</div>
+		{% include app-store-badge.html locale=current_locale %}
+	</div>
+</section>

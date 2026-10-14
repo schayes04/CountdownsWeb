@@ -10,7 +10,7 @@ require 'yaml'
 class AppNameValidator
   # Native CFBundleDisplayName baseline; update together with locales.yml.
   EXPECTED = {
-    'en' => 'Countdowns', 'ar' => 'العدادات التنازلية', 'ca' => 'Comptes Enrere',
+    'en' => 'Countdowns', 'en-CA' => 'Countdowns', 'en-GB' => 'Countdowns', 'en-AU' => 'Countdowns', 'ar' => 'العدادات التنازلية', 'ca' => 'Comptes Enrere',
     'da' => 'Nedtællinger', 'de' => 'Countdowns', 'es' => 'Cuentas atrás',
     'fi' => 'Laskurit', 'fr' => 'Compte à rebours', 'hi' => 'काउंटडाउन', 'it' => 'Contatore',
     'ja' => 'カウントダウン', 'ko' => '카운트다운', 'nb' => 'Nedtellinger',
@@ -177,7 +177,7 @@ class AppNameValidator
         check(:surfaces, asides.first['aria-label'].to_s == expected || asides.first['aria-label'].to_s.start_with?("#{expected} "), "#{route}: guide sidebar aria-label mismatch")
       end
     end
-    reject_stale_brand(doc, route, expected) unless %w[en de nl].include?(code)
+    reject_stale_brand(doc, route, expected) unless expected == 'Countdowns' || code == 'nl'
   rescue SystemCallError => error
     check(:routes, false, "#{route}: cannot read built HTML: #{error.message}")
   end
@@ -262,7 +262,7 @@ class AppNameValidator
     validate_source
     routes = ['', *ROUTES, *@guides]
     check(:source, routes.size == 15, "Expected 12 guide pages plus home, ideas, and support (found #{@guides.size} guides)")
-    check(:routes, @locales.size * routes.size == 510, "Expected 510 locale routes (found #{@locales.size * routes.size})")
+    check(:routes, @locales.size * routes.size == 555, "Expected 555 locale routes (found #{@locales.size * routes.size})")
     @locales.each { |locale| routes.each { |slug| validate_route(locale, slug) } }
     %w[policies].each do |name|
       file = [@site.join("#{name}.html"), @site.join(name, 'index.html')].find(&:file?)

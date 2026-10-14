@@ -1,0 +1,74 @@
+{
+  "allOriginalEnglishPNGsUnchanged": true,
+  "count": 17,
+  "files": {
+    "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/anniversary-countdown-app.png": {
+      "expectedSHA256": "913049084bb61f6d4fec96c47dd863652e57450938918e6ee00c8efc37f17865",
+      "actualSHA256": "913049084bb61f6d4fec96c47dd863652e57450938918e6ee00c8efc37f17865"
+    },
+    "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/birthday-countdown-app.png": {
+      "expectedSHA256": "a00c2be80bfeeed269bc44a9e3015a237360cbbe1e2bea9d82101227f2648546",
+      "actualSHA256": "a00c2be80bfeeed269bc44a9e3015a237360cbbe1e2bea9d82101227f2648546"
+    },
+    "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/christmas-countdown-app.png": {
+      "expectedSHA256": "9f3b3baf8b1ec405320ae5fe9510addc714834564378ed4c37bba79aa4aa6409",
+      "actualSHA256": "9f3b3baf8b1ec405320ae5fe9510addc714834564378ed4c37bba79aa4aa6409"
+    },
+    "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/colors.png": {
+      "expectedSHA256": "9d5ba5cc767139f2dc8ba49bc8849a408426af21afd86017ea99740a1410b961",
+      "actualSHA256": "9d5ba5cc767139f2dc8ba49bc8849a408426af21afd86017ea99740a1410b961"
+    },
+    "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/compact-display.png": {
+      "expectedSHA256": "ef9f0bf6dca4b162c6beb76da88b90efbfca0cdabbe2c9e8b4f987a77589ee2c",
+      "actualSHA256": "ef9f0bf6dca4b162c6beb76da88b90efbfca0cdabbe2c9e8b4f987a77589ee2c"
+    },
+    "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/editing.png": {
+      "expectedSHA256": "370fe99ca697b50f05774c5645412eec79ea15d8ffaba6990307a8ea030f9e9d",
+      "actualSHA256": "370fe99ca697b50f05774c5645412eec79ea15d8ffaba6990307a8ea030f9e9d"
+    },
+    "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/event-countdown-app.png": {
+      "expectedSHA256": "1ec6c82c2bdbafb32578a6b9ea77fe8b5134e7b0d9b2850c36892959e84bdac6",
+      "actualSHA256": "1ec6c82c2bdbafb32578a6b9ea77fe8b5134e7b0d9b2850c36892959e84bdac6"
+    },
+    "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/holiday-countdown-app.png": {
+      "expectedSHA256": "5fd98853a49f69110503306765e2cd5fd006a23e6dcd4e029983541799dae0a6",
+      "actualSHA256": "5fd98853a49f69110503306765e2cd5fd006a23e6dcd4e029983541799dae0a6"
+    },
+    "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/home-screen-widgets.png": {
+      "expectedSHA256": "ce1870bcb53427435a32af4c1e3202a224bdad4d1e40ab802540f281bc39fccb",
+      "actualSHA256": "ce1870bcb53427435a32af4c1e3202a224bdad4d1e40ab802540f281bc39fccb"
+    },
+    "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/lock-screen-widgets.png": {
+      "expectedSHA256": "053dc0d02011c99c4b527cfd8cb3b8a28dbaaededa2b36c033fbea5242f67477",
+      "actualSHA256": "053dc0d02011c99c4b527cfd8cb3b8a28dbaaededa2b36c033fbea5242f67477"
+    },
+    "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/normal-display.png": {
+      "expectedSHA256": "bfdc17c7d7248f9f6824d9bd94c778a5c883c312fdcf2ab43c7576c5a69bb4e2",
+      "actualSHA256": "bfdc17c7d7248f9f6824d9bd94c778a5c883c312fdcf2ab43c7576c5a69bb4e2"
+    },
+    "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/pregnancy-countdown-app.png": {
+      "expectedSHA256": "5ab81dce409389948dae27271385e8090ce721b04a6b383f8695959f84c2a65a",
+      "actualSHA256": "5ab81dce409389948dae27271385e8090ce721b04a6b383f8695959f84c2a65a"
+    },
+    "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/retirement-countdown-app.png": {
+      "expectedSHA256": "35b263a04aa19fd706079e2f9047163abadb5bd652ce98deba1d785ac1b6cd19",
+      "actualSHA256": "35b263a04aa19fd706079e2f9047163abadb5bd652ce98deba1d785ac1b6cd19"
+    },
+    "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/settings.png": {
+      "expectedSHA256": "5306b8c9dd5c0c36f9be9019831be9e1ceea5b36a0f59b8c415b7aca53b009b9",
+      "actualSHA256": "5306b8c9dd5c0c36f9be9019831be9e1ceea5b36a0f59b8c415b7aca53b009b9"
+    },
+    "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/theme-park-trip-countdown-app.png": {
+      "expectedSHA256": "eede259542ddf5d7123aba165d30b966fecc033792142c7ac2fdc02c16427723",
+      "actualSHA256": "eede259542ddf5d7123aba165d30b966fecc033792142c7ac2fdc02c16427723"
+    },
+    "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/vacation-countdown-app.png": {
+      "expectedSHA256": "c994b03fcce6cb701fb2596781b46994b4f576a46ca90c54f5a331b6aa9db268",
+      "actualSHA256": "c994b03fcce6cb701fb2596781b46994b4f576a46ca90c54f5a331b6aa9db268"
+    },
+    "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/wedding-countdown-app.png": {
+      "expectedSHA256": "19d745907936a760d634c373288ae45190a66ee3204a0013e99298fce3f44bcb",
+      "actualSHA256": "19d745907936a760d634c373288ae45190a66ee3204a0013e99298fce3f44bcb"
+    }
+  }
+}

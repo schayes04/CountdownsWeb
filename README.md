@@ -104,7 +104,7 @@ I'd love to see the sites you create using this little tool.
 `/when-is/` links to eight holiday pages: Christmas, Halloween, New Year,
 Thanksgiving, Western Easter, Valentine’s Day, Mother’s Day, and Father’s Day.
 The holiday index, all eight detail pages, and the anniversary calculator are
-available in all 34 site locale variants (33 languages): 340 tool routes. Each
+available in all 37 site locale variants (33 languages): 370 tool routes. Each
 locale's three-column footer and ideas index link to its own tools. Language
 switching stays on the corresponding page; canonical URLs, translated metadata,
 `hreflang` alternates, and the sitemap cover every translation.
@@ -266,7 +266,7 @@ The shared `_includes/locale-url.html` helper keeps language switching, alternat
 
 The header keeps the app name visible. At widths of 1120px or less, all navigation moves into a single disclosure menu; its nested language list stays within the scrollable panel. Desktop and compact navigation share `_includes/navigation-items.html`. The native disclosures work without JavaScript; `assets/header.js` adds outside-click dismissal, Escape/focus handling, and breakpoint cleanup. Keep its media query in sync with `_sass/layout.scss`.
 
-After building, validate all 850 localized routes, tool copy and footer links, Support content structure, language links, accessibility labels, internal links, and the sitemap:
+After building, validate all 925 localized routes, tool copy and footer links, Support content structure, language links, accessibility labels, internal links, and the sitemap:
 
 ```sh
 bundle exec ruby scripts/validate-localization.rb --site _site
@@ -327,7 +327,7 @@ For a build using a subdirectory, pass the same `--baseurl /prefix` to the valid
 Original screenshots and capture provenance remain unchanged. The website serves
 360, 720, and 1080px WebP derivatives through `<picture>`, with the original PNG
 as the fallback. `_data/responsive_images.json` records the encoder version,
-quality, source hashes, output dimensions, sizes, and hashes for all 578 captures
+quality, source hashes, output dimensions, sizes, and hashes for all 601 unique captures
 and four app icon sizes. Generated assets are checked into the repository;
 GitHub Pages needs no image processing dependency.
 
@@ -370,6 +370,43 @@ framing, gradients, and localized text. Root/subdirectory builds passed screensh
 localization, branding, badge, and external-link checks; header checks also passed.
 The optional social-preview validator reports 68 existing filename/hash mismatches
 in both baseline and optimized builds; social-preview assets were not changed.
+
+## October 2026 regional English
+
+English (Canada), English (UK), and English (Australia) are available under
+`/en-ca/`, `/en-gb/`, and `/en-au/`. Each adds 25 pages: home, ideas, 12 guides,
+Help Centre, eight holiday pages, the holiday index, and the anniversary calculator.
+The site now has 37 locale variants and 925 localized routes. These are regional
+English variants, so the app language count remains 33.
+
+The original English source pages, text catalogs, screenshots, and responsive
+images remain unchanged. Shared navigation and alternate-language links expose the
+new variants. Regional guides preserve the full source guide content and use
+`_layouts/regional-guide.html` for local links and spelling. Route keys stay stable
+across languages, including `vacation-countdown-app`; UK/Australia display it as a
+holiday countdown and distinguish the seasonal-celebration guide in navigation.
+
+Canada uses colours, favourites and Help Centre while retaining customize and
+organize. UK/Australia also use customise, organise and holiday for travel.
+Regional tool catalogs and generated date patterns use en-CA, en-GB and en-AU;
+country selection and holiday rules retain their existing behavior. Apple Support
+links use verified regional English destinations. App Store links remain country
+neutral with regional language hints; Apple chooses the final storefront and may
+fall back until regional App Store metadata is available. All three locales reuse
+the unmodified English download badge.
+
+The screenshot map explicitly reuses unaffected English asset paths, including
+the existing WebP derivatives. Canada replaces three scenes; UK and Australia
+replace ten each. Thus 51 regional scene references need only 23 new native PNGs
+and 69 new WebPs, with 28 references reusing originals. Canadian social previews
+reuse the original English image; UK/Australia use the regional Figma exports.
+Native capture provenance and the exact reuse matrix are recorded under
+`tools/screenshots/english-regions-2026-10-13/`.
+
+Run the existing localization, screenshots, branding, badges, external-link and
+tool validators after building. `scripts/generate-responsive-images.rb --check`
+accepts intentional shared image paths. The native app's Help URL mapping must
+match these folders; publish these website routes before releasing that app change.
 
 ## Credits
 - [Jekyll](https://github.com/jekyll/jekyll)

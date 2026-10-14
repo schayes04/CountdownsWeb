@@ -2761,6 +2761,627 @@
         }
       ]
     },
+    "/assets/screenshots/en-au/christmas-countdown-app.png": {
+      "source": "/assets/screenshots/en-au/christmas-countdown-app.png",
+      "source_sha256": "317a7436fb75112728eb69d7b77599092e0b10bd367ecddcdabab0ff11ab3673",
+      "variants": [
+        {
+          "path": "/assets/screenshots-responsive/en-au/christmas-countdown-app-360.webp",
+          "width": 360,
+          "height": 783,
+          "bytes": 6876,
+          "sha256": "beadab2acf0c39ae11da756f08d3dc3bce8793e9b861106c9d09d253cade2643"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-au/christmas-countdown-app-720.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 15912,
+          "sha256": "a9d5e7bcce0a691d0ca6004743c90d2235f44d302b12d3165dae5a9c7e023d9a"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-au/christmas-countdown-app-1080.webp",
+          "width": 1080,
+          "height": 2348,
+          "bytes": 26424,
+          "sha256": "62d6f5850a9726d7c3edf2d9f1a603d18a55669c3fa79f937771ca9ef08ad755"
+        }
+      ]
+    },
+    "/assets/screenshots/en-au/colors.png": {
+      "source": "/assets/screenshots/en-au/colors.png",
+      "source_sha256": "daa606949f4b4a342635fd5731a0eb2d68eec261bbd5f2deb005d9441e2290f9",
+      "variants": [
+        {
+          "path": "/assets/screenshots-responsive/en-au/colors-360.webp",
+          "width": 360,
+          "height": 783,
+          "bytes": 16904,
+          "sha256": "1fd9cf33b0a2fc3eb86670cca365e49133bd50db88581a7dcc9990ba7b6735de"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-au/colors-720.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 39606,
+          "sha256": "4c49e6daac749a141b535fb2169cde3d43c960e04fc3c3a85e783bc871ee2e81"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-au/colors-1080.webp",
+          "width": 1080,
+          "height": 2348,
+          "bytes": 61468,
+          "sha256": "b85322ba0e9547ba1c7dbb8dce2a29505c97f5f7c8d01b2a44d5bef5557017bd"
+        }
+      ]
+    },
+    "/assets/screenshots/en-au/compact-display.png": {
+      "source": "/assets/screenshots/en-au/compact-display.png",
+      "source_sha256": "b5b46f5a1570804a00051bf4194fce430b850eb22729c128e7e2b9259caa13e8",
+      "variants": [
+        {
+          "path": "/assets/screenshots-responsive/en-au/compact-display-360.webp",
+          "width": 360,
+          "height": 783,
+          "bytes": 13746,
+          "sha256": "9f54a2e823310304975a20cd8fcd7e92dd9afb7d3321d5ed2dc13778b7ebf011"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-au/compact-display-720.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 32516,
+          "sha256": "b33f016ffd464c3427c6017969f4644abfdd7c686911c0a3ffbe9611e0d8e2de"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-au/compact-display-1080.webp",
+          "width": 1080,
+          "height": 2348,
+          "bytes": 49658,
+          "sha256": "7de133f4d4dcfa5fa3c3ff267774f9ee14feaa2706a8babdd81c07607279dc24"
+        }
+      ]
+    },
+    "/assets/screenshots/en-au/editing.png": {
+      "source": "/assets/screenshots/en-au/editing.png",
+      "source_sha256": "52ca6a5c6e970f33320de5577134eb5ce5e56d4b5b205e900b3d282e8f4bb9a0",
+      "variants": [
+        {
+          "path": "/assets/screenshots-responsive/en-au/editing-360.webp",
+          "width": 360,
+          "height": 783,
+          "bytes": 14872,
+          "sha256": "a94d4251ed1ec5282da5aac0038d4237c7cc97404e060b147766d34c960ba604"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-au/editing-720.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 32508,
+          "sha256": "027f0986b858bb4a0227b1e34dcb2fe22da360c2662498a250075282e7a85a9c"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-au/editing-1080.webp",
+          "width": 1080,
+          "height": 2348,
+          "bytes": 48062,
+          "sha256": "d508bbc2fb58868ffc7be0e366c8fb7ba7a346dfd74e4eada3961415b83fbc06"
+        }
+      ]
+    },
+    "/assets/screenshots/en-au/event-countdown-app.png": {
+      "source": "/assets/screenshots/en-au/event-countdown-app.png",
+      "source_sha256": "e7a9a35f9bf1b02eb0965891735e7792959cdd52181619d636845847feb4ed9b",
+      "variants": [
+        {
+          "path": "/assets/screenshots-responsive/en-au/event-countdown-app-360.webp",
+          "width": 360,
+          "height": 783,
+          "bytes": 14742,
+          "sha256": "09d0070b25611b8986e6772ffb4f9ee2b1c246fd32f473d439da7b864bbe7434"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-au/event-countdown-app-720.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 32284,
+          "sha256": "4611c2535ad299b6ab8d12a78c060a86fa118eb8864c1aa4bd30321abb182960"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-au/event-countdown-app-1080.webp",
+          "width": 1080,
+          "height": 2348,
+          "bytes": 47942,
+          "sha256": "90279ad22b7aa44061fafae9596829df12a31877ece74e5d40ff8d6083488d02"
+        }
+      ]
+    },
+    "/assets/screenshots/en-au/home-screen-widgets.png": {
+      "source": "/assets/screenshots/en-au/home-screen-widgets.png",
+      "source_sha256": "316ad72fdaa03fc310a1dff960f0a62cf84d6b7a7a4eff5d77f7693a2aa2496d",
+      "variants": [
+        {
+          "path": "/assets/screenshots-responsive/en-au/home-screen-widgets-360.webp",
+          "width": 360,
+          "height": 783,
+          "bytes": 17518,
+          "sha256": "f6b8404d21ab511963e037f033a285432d7f8a9362851cee0f44a368ef669543"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-au/home-screen-widgets-720.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 43402,
+          "sha256": "2f4a936e64117cfb850b9342e4fc9c3fb07e9a55dc7a57e3c773bd951f1ed8eb"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-au/home-screen-widgets-1080.webp",
+          "width": 1080,
+          "height": 2348,
+          "bytes": 70438,
+          "sha256": "a52acaa720e4f4d10b5020a1d82d2c8f6ddc497b50c5814d6ba4be39464e3fcb"
+        }
+      ]
+    },
+    "/assets/screenshots/en-au/lock-screen-widgets.png": {
+      "source": "/assets/screenshots/en-au/lock-screen-widgets.png",
+      "source_sha256": "2f4b38f8a101063c5da627f9d71d66e39fa349f8a42ac934f6b699edfaee1746",
+      "variants": [
+        {
+          "path": "/assets/screenshots-responsive/en-au/lock-screen-widgets-360.webp",
+          "width": 360,
+          "height": 783,
+          "bytes": 7180,
+          "sha256": "61070793ce1701cb4a2f180fdb08a597fe7109e1f24717fb5518fd179e563312"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-au/lock-screen-widgets-720.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 16496,
+          "sha256": "8db9d8e5776e527737565bef8f496416373393cfbae93febbe6c5feae392bf6e"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-au/lock-screen-widgets-1080.webp",
+          "width": 1080,
+          "height": 2348,
+          "bytes": 27164,
+          "sha256": "c93dee9f59a2e777eab2d32b4c49a0dfcbd9743817357c061955a3d7f65e88fb"
+        }
+      ]
+    },
+    "/assets/screenshots/en-au/normal-display.png": {
+      "source": "/assets/screenshots/en-au/normal-display.png",
+      "source_sha256": "d6dd90928cfd0c5dd5a6b2c480984f43bfa903e4e1bc4a6d058f58efe573a100",
+      "variants": [
+        {
+          "path": "/assets/screenshots-responsive/en-au/normal-display-360.webp",
+          "width": 360,
+          "height": 783,
+          "bytes": 11792,
+          "sha256": "a301f6596c77b70a303e386bf644345d464b737610cc150d02051fa5bbb5bf9a"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-au/normal-display-720.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 26542,
+          "sha256": "84dc9cb69d982ccd6f666f7e509b4cc2b0e4ee908da5f57079ce68de11846158"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-au/normal-display-1080.webp",
+          "width": 1080,
+          "height": 2348,
+          "bytes": 40266,
+          "sha256": "29806ea230c0a565896fde96327e0e551b3dcf37e6ca9d85f354f3d2416a16c7"
+        }
+      ]
+    },
+    "/assets/screenshots/en-au/settings.png": {
+      "source": "/assets/screenshots/en-au/settings.png",
+      "source_sha256": "8254610b9db339e6428b114e2c8319f8a9944ce8e380a155007aaba63e3011b6",
+      "variants": [
+        {
+          "path": "/assets/screenshots-responsive/en-au/settings-360.webp",
+          "width": 360,
+          "height": 783,
+          "bytes": 20544,
+          "sha256": "bf9153c46cb50b936e707c30bbb024e475f7b01e9b29e6820a3b7a41f08ee24c"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-au/settings-720.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 44408,
+          "sha256": "704099c8b1ed2f059033366c91d0558a8ae31c5ffd538c8e7f7665e7600d0fad"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-au/settings-1080.webp",
+          "width": 1080,
+          "height": 2348,
+          "bytes": 66150,
+          "sha256": "419acd650d37edde640ae583f3566035a6b24954dd597b7e494ea85c73ed3e83"
+        }
+      ]
+    },
+    "/assets/screenshots/en-au/vacation-countdown-app.png": {
+      "source": "/assets/screenshots/en-au/vacation-countdown-app.png",
+      "source_sha256": "0b21228f5a0c45e33f578ee9d1398344afc17c70c7c70e3be1b8d2b120ebb4e3",
+      "variants": [
+        {
+          "path": "/assets/screenshots-responsive/en-au/vacation-countdown-app-360.webp",
+          "width": 360,
+          "height": 783,
+          "bytes": 13552,
+          "sha256": "4660fc70822616350c8a3a0846b802443d6c9d18c0f7c8884e4e003f281cdff3"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-au/vacation-countdown-app-720.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 33702,
+          "sha256": "110dfa2afe104fbd0d9ed80412fcad1b207d1bd65be9c0e48aaa2d7dc11945b6"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-au/vacation-countdown-app-1080.webp",
+          "width": 1080,
+          "height": 2348,
+          "bytes": 53832,
+          "sha256": "ab6f079bf35a2c4320653c8c3b052d966b29b7d48a43deea86f4c544d61fdd12"
+        }
+      ]
+    },
+    "/assets/screenshots/en-ca/editing.png": {
+      "source": "/assets/screenshots/en-ca/editing.png",
+      "source_sha256": "f42e8ddc6c458fda7a50009ec4a163069d200f41e4d81ad9ec94208f7e3cab9f",
+      "variants": [
+        {
+          "path": "/assets/screenshots-responsive/en-ca/editing-360.webp",
+          "width": 360,
+          "height": 783,
+          "bytes": 14900,
+          "sha256": "a9042566d3b3c716a1beedc2ac65542a64b9ab0db0c14fbfaaba3e868fab55b5"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-ca/editing-720.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 32596,
+          "sha256": "4adf2039b07753a9e5e3cffe8ba00ead1fd993bf5eb9d4d2824566e9a7518e45"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-ca/editing-1080.webp",
+          "width": 1080,
+          "height": 2348,
+          "bytes": 48514,
+          "sha256": "d39b8d2772ddbf569f6237c301beb0e4a9094fe20cd81f65b29ae1bc08e05b76"
+        }
+      ]
+    },
+    "/assets/screenshots/en-ca/event-countdown-app.png": {
+      "source": "/assets/screenshots/en-ca/event-countdown-app.png",
+      "source_sha256": "ce9f6d3a931b9c2db4919ec7cdd49b2bb0265b2fa15e5778f78ecfd9736e8edf",
+      "variants": [
+        {
+          "path": "/assets/screenshots-responsive/en-ca/event-countdown-app-360.webp",
+          "width": 360,
+          "height": 783,
+          "bytes": 14794,
+          "sha256": "1428be5572a55377af94fd07b694dd0a2a2853d812c537fd5eebf51a609d891f"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-ca/event-countdown-app-720.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 32382,
+          "sha256": "dbe286ada73fc6277a6e8cb8b38d13f612dbb8c98a7cb40ed11dadc6bee1edff"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-ca/event-countdown-app-1080.webp",
+          "width": 1080,
+          "height": 2348,
+          "bytes": 48034,
+          "sha256": "74779270d592ddd9bb9ff762bb8b06b3b7fb98b00b8c6837a0558201f6a40c2f"
+        }
+      ]
+    },
+    "/assets/screenshots/en-ca/settings.png": {
+      "source": "/assets/screenshots/en-ca/settings.png",
+      "source_sha256": "ddb62d357156cc6735346aa231d09f4670021574c0dda419bc6522c091ce4835",
+      "variants": [
+        {
+          "path": "/assets/screenshots-responsive/en-ca/settings-360.webp",
+          "width": 360,
+          "height": 783,
+          "bytes": 20540,
+          "sha256": "37a4e0ced8be3022fc7e2a8bee910aa291a17881f250bfc6a775b333b2f17878"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-ca/settings-720.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 44404,
+          "sha256": "dd2d49abe11f8c58ac55ede82162284856308724e453d23b6440b4c276463633"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-ca/settings-1080.webp",
+          "width": 1080,
+          "height": 2348,
+          "bytes": 66102,
+          "sha256": "99c17b1e4d860f91c012b55271877bcb6afdc6d3e58a903da452c291d7799715"
+        }
+      ]
+    },
+    "/assets/screenshots/en-gb/christmas-countdown-app.png": {
+      "source": "/assets/screenshots/en-gb/christmas-countdown-app.png",
+      "source_sha256": "0a83ed21b1c69a3b927a671ebd28351e284a46e3b182c5acbbaa4f8003d63ea7",
+      "variants": [
+        {
+          "path": "/assets/screenshots-responsive/en-gb/christmas-countdown-app-360.webp",
+          "width": 360,
+          "height": 783,
+          "bytes": 7512,
+          "sha256": "4d27bd5ded14edd9347670162969f6fb008b3f66d1b511869e8f0de1c40ecd74"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-gb/christmas-countdown-app-720.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 17496,
+          "sha256": "69aa2a5c9a5cced61447783a7c945e68bea484894ea610b23695ad95f56ceea2"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-gb/christmas-countdown-app-1080.webp",
+          "width": 1080,
+          "height": 2348,
+          "bytes": 28884,
+          "sha256": "7eeebd3842bf041f692f0b22faff4991e09c6e28298e785de4e366a36c7af124"
+        }
+      ]
+    },
+    "/assets/screenshots/en-gb/colors.png": {
+      "source": "/assets/screenshots/en-gb/colors.png",
+      "source_sha256": "daa606949f4b4a342635fd5731a0eb2d68eec261bbd5f2deb005d9441e2290f9",
+      "variants": [
+        {
+          "path": "/assets/screenshots-responsive/en-gb/colors-360.webp",
+          "width": 360,
+          "height": 783,
+          "bytes": 16904,
+          "sha256": "1fd9cf33b0a2fc3eb86670cca365e49133bd50db88581a7dcc9990ba7b6735de"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-gb/colors-720.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 39606,
+          "sha256": "4c49e6daac749a141b535fb2169cde3d43c960e04fc3c3a85e783bc871ee2e81"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-gb/colors-1080.webp",
+          "width": 1080,
+          "height": 2348,
+          "bytes": 61468,
+          "sha256": "b85322ba0e9547ba1c7dbb8dce2a29505c97f5f7c8d01b2a44d5bef5557017bd"
+        }
+      ]
+    },
+    "/assets/screenshots/en-gb/compact-display.png": {
+      "source": "/assets/screenshots/en-gb/compact-display.png",
+      "source_sha256": "b5b46f5a1570804a00051bf4194fce430b850eb22729c128e7e2b9259caa13e8",
+      "variants": [
+        {
+          "path": "/assets/screenshots-responsive/en-gb/compact-display-360.webp",
+          "width": 360,
+          "height": 783,
+          "bytes": 13746,
+          "sha256": "9f54a2e823310304975a20cd8fcd7e92dd9afb7d3321d5ed2dc13778b7ebf011"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-gb/compact-display-720.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 32516,
+          "sha256": "b33f016ffd464c3427c6017969f4644abfdd7c686911c0a3ffbe9611e0d8e2de"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-gb/compact-display-1080.webp",
+          "width": 1080,
+          "height": 2348,
+          "bytes": 49658,
+          "sha256": "7de133f4d4dcfa5fa3c3ff267774f9ee14feaa2706a8babdd81c07607279dc24"
+        }
+      ]
+    },
+    "/assets/screenshots/en-gb/editing.png": {
+      "source": "/assets/screenshots/en-gb/editing.png",
+      "source_sha256": "4c3a0e8ef644a36e87cc0e07f9d09ce9581902f16de24694f09bbd38cb3358b4",
+      "variants": [
+        {
+          "path": "/assets/screenshots-responsive/en-gb/editing-360.webp",
+          "width": 360,
+          "height": 783,
+          "bytes": 14898,
+          "sha256": "758267aa8823a1f4fd17d2bf4f2beaf6151f016054bad0597ba5ea42150360d8"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-gb/editing-720.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 32604,
+          "sha256": "b0e77aec20b5170c3704f2deba711759b611a665f33e0d3d6a76c2359936a0d1"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-gb/editing-1080.webp",
+          "width": 1080,
+          "height": 2348,
+          "bytes": 48904,
+          "sha256": "03e2d09732487e35cd75acb3d5fc827b6cf16ba35752c372c086b21bf1f40572"
+        }
+      ]
+    },
+    "/assets/screenshots/en-gb/event-countdown-app.png": {
+      "source": "/assets/screenshots/en-gb/event-countdown-app.png",
+      "source_sha256": "74ba335de11031327cd539ef1ebcb56ba726703f00d980d32791a7bb38bdea2b",
+      "variants": [
+        {
+          "path": "/assets/screenshots-responsive/en-gb/event-countdown-app-360.webp",
+          "width": 360,
+          "height": 783,
+          "bytes": 14792,
+          "sha256": "c099a8901f5bfe63742b83334506716680ccaf9714d448392b3dcc87875629dc"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-gb/event-countdown-app-720.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 32296,
+          "sha256": "e0774f7dabcb25d3387bcb8c074f81d661b2319139902e8408b2c9f200af39dd"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-gb/event-countdown-app-1080.webp",
+          "width": 1080,
+          "height": 2348,
+          "bytes": 47998,
+          "sha256": "39adf383b0a5753a4633fcb641eb037b666ef9baf8684eba567850efa1bfa118"
+        }
+      ]
+    },
+    "/assets/screenshots/en-gb/home-screen-widgets.png": {
+      "source": "/assets/screenshots/en-gb/home-screen-widgets.png",
+      "source_sha256": "51a21d04708b9fe2b475949b08e8f332c53dacda1224a827a13d19fb0337f823",
+      "variants": [
+        {
+          "path": "/assets/screenshots-responsive/en-gb/home-screen-widgets-360.webp",
+          "width": 360,
+          "height": 783,
+          "bytes": 17570,
+          "sha256": "57e56cc048d7aa7b5ad0efb001f9f36b5742879f69ea296712ff290e49504d02"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-gb/home-screen-widgets-720.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 43676,
+          "sha256": "ed9373c0ff13bd20aa0fc1b621987baa3d4c70733dd4a49d4a5d895673375cbb"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-gb/home-screen-widgets-1080.webp",
+          "width": 1080,
+          "height": 2348,
+          "bytes": 70676,
+          "sha256": "57d3fb98584a19ef17e9f2be2ad3226db184c8eba10bfdd568220adf3998d236"
+        }
+      ]
+    },
+    "/assets/screenshots/en-gb/lock-screen-widgets.png": {
+      "source": "/assets/screenshots/en-gb/lock-screen-widgets.png",
+      "source_sha256": "51bb62746c5938f766153e42833231123b4ef7484b573b7f73e1bc48fb32b2a9",
+      "variants": [
+        {
+          "path": "/assets/screenshots-responsive/en-gb/lock-screen-widgets-360.webp",
+          "width": 360,
+          "height": 783,
+          "bytes": 7888,
+          "sha256": "6718fded764a4dd70204d40a3d71ceed4a2fd1bd302bb709054ab623d587c03a"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-gb/lock-screen-widgets-720.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 18102,
+          "sha256": "7db4782dffdfd149abc42df4264916070a7bda531da9ed6a06e29256b7e1f095"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-gb/lock-screen-widgets-1080.webp",
+          "width": 1080,
+          "height": 2348,
+          "bytes": 29672,
+          "sha256": "af29b2f9f73b0b0a255c04d3c2cdc788bec6a970f371eb7479286bf1e9007fc7"
+        }
+      ]
+    },
+    "/assets/screenshots/en-gb/normal-display.png": {
+      "source": "/assets/screenshots/en-gb/normal-display.png",
+      "source_sha256": "df14d9cda867ad63b7baa4773a85564656ae8b380bdf94a2000ba77202a76969",
+      "variants": [
+        {
+          "path": "/assets/screenshots-responsive/en-gb/normal-display-360.webp",
+          "width": 360,
+          "height": 783,
+          "bytes": 11596,
+          "sha256": "7dec875b69ad9b6d368670513182d7cd0d6e04ade73753b1bf0413615c54d0a6"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-gb/normal-display-720.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 26182,
+          "sha256": "20dd65b88645eff27772c231e9ae3850333429391e1c279a9c10d2770cf72d3b"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-gb/normal-display-1080.webp",
+          "width": 1080,
+          "height": 2348,
+          "bytes": 39682,
+          "sha256": "073119d9b4968c656933408c8ea24d0b86118a2d5628f279cc30c10a4e4d3f17"
+        }
+      ]
+    },
+    "/assets/screenshots/en-gb/settings.png": {
+      "source": "/assets/screenshots/en-gb/settings.png",
+      "source_sha256": "8254610b9db339e6428b114e2c8319f8a9944ce8e380a155007aaba63e3011b6",
+      "variants": [
+        {
+          "path": "/assets/screenshots-responsive/en-gb/settings-360.webp",
+          "width": 360,
+          "height": 783,
+          "bytes": 20544,
+          "sha256": "bf9153c46cb50b936e707c30bbb024e475f7b01e9b29e6820a3b7a41f08ee24c"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-gb/settings-720.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 44408,
+          "sha256": "704099c8b1ed2f059033366c91d0558a8ae31c5ffd538c8e7f7665e7600d0fad"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-gb/settings-1080.webp",
+          "width": 1080,
+          "height": 2348,
+          "bytes": 66150,
+          "sha256": "419acd650d37edde640ae583f3566035a6b24954dd597b7e494ea85c73ed3e83"
+        }
+      ]
+    },
+    "/assets/screenshots/en-gb/vacation-countdown-app.png": {
+      "source": "/assets/screenshots/en-gb/vacation-countdown-app.png",
+      "source_sha256": "b78edca4f6b9a8843579b1816e19607ae3e4fc954ca7fb6f4b676be27d538fe2",
+      "variants": [
+        {
+          "path": "/assets/screenshots-responsive/en-gb/vacation-countdown-app-360.webp",
+          "width": 360,
+          "height": 783,
+          "bytes": 13634,
+          "sha256": "a2bfa6ae2769e840e4775ca1fea247c0b0a120e7547596a8bb62febdac8bdfdb"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-gb/vacation-countdown-app-720.webp",
+          "width": 720,
+          "height": 1565,
+          "bytes": 33916,
+          "sha256": "51afd2c297c285680a2bbdbd32b4ad2101148833159fb217fa6a5a71375a4be7"
+        },
+        {
+          "path": "/assets/screenshots-responsive/en-gb/vacation-countdown-app-1080.webp",
+          "width": 1080,
+          "height": 2348,
+          "bytes": 54122,
+          "sha256": "5cbc50953341c906ce3b4b93f7cc412a2a7448244a7b05606e0e8c307c89e430"
+        }
+      ]
+    },
     "/assets/screenshots/en/anniversary-countdown-app.png": {
       "source": "/assets/screenshots/en/anniversary-countdown-app.png",
       "source_sha256": "913049084bb61f6d4fec96c47dd863652e57450938918e6ee00c8efc37f17865",

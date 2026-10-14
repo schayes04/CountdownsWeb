@@ -1,0 +1,11 @@
+{
+  "captureAppVersionGuard": "12.2.2",
+  "generator": "Original make_scenes logic used unchanged; referenceDate current; en labels retained except GB/AU vacation=Holiday.",
+  "sourceRuntimeFilesSHA256": {
+    "capture-widgets.py": "2dd6f0af4c85da00d1c6fcfbd5c878c92d36f3ed554fbdeaa1fc8ec4288cb0a7",
+    "capture-app.py": "6563c9f1e9dad758dcad27d6e92f28022e74532d02ec1e5b6cad2a3fd8c0e476",
+    "generate-fixtures.py": "aceb859123abacaa5802e53006d273f4ab2813989cc0b863c30943c74fca545b"
+  },
+  "fixtureCount": 51,
+  "widgetRefreshChange": "Use verified low-level down/up touch to reselect existing wallpaper card; high-level AXe tap returned success without action."
+}

@@ -1,0 +1,45 @@
+{
+  "inspectionMethod": "Full saved native PNG opened with view_image original detail; no pixel editing",
+  "reviewed": [
+    "raw/en-au/christmas-countdown-app.png",
+    "raw/en-au/colors.png",
+    "raw/en-au/compact-display.png",
+    "raw/en-au/editing.png",
+    "raw/en-au/event-countdown-app.png",
+    "raw/en-au/home-screen-widgets.png",
+    "raw/en-au/lock-screen-widgets.png",
+    "raw/en-au/normal-display.png",
+    "raw/en-au/settings.png",
+    "raw/en-au/vacation-countdown-app.png",
+    "raw/en-ca/editing.png",
+    "raw/en-ca/event-countdown-app.png",
+    "raw/en-ca/settings.png",
+    "raw/en-gb/christmas-countdown-app.png",
+    "raw/en-gb/colors.png",
+    "raw/en-gb/compact-display.png",
+    "raw/en-gb/editing.png",
+    "raw/en-gb/event-countdown-app.png",
+    "raw/en-gb/home-screen-widgets.png",
+    "raw/en-gb/lock-screen-widgets.png",
+    "raw/en-gb/normal-display.png",
+    "raw/en-gb/settings.png",
+    "raw/en-gb/vacation-countdown-app.png"
+  ],
+  "result": "passed",
+  "checks": [
+    "regional Colours spelling",
+    "Canada Customization; UK/AU Customisation",
+    "native regional dates",
+    "complete fixture composition, no new truncation or overlap",
+    "Status bar 9:41; Pro lifetime; iCloud off via paired native proof",
+    "Home Screen medium blue widget above large custom-colour widget",
+    "All three native Lock Screen widget families rendered",
+    "UK/AU rectangular widget dates use day-month-year",
+    "No missing widgets, clipped event names, or accidental edit/gallery overlays"
+  ],
+  "pending": [],
+  "incidentalDifferences": [
+    "Current native blue/cyan-to-lavender system colour wallpaper replaces legacy blue abstract wallpaper for affected widget scenes only; saved gallery had beige default and this blue card. Parent approved.",
+    "Live countdown seconds and relative fixture dates reflect 2026-10-13."
+  ]
+}

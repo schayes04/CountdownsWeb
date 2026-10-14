@@ -1,0 +1,105 @@
+{
+  "scene": "colors",
+  "locale": "en-GB",
+  "screen": "list",
+  "compact": true,
+  "listsEnabled": true,
+  "showDates": false,
+  "showDirection": false,
+  "lists": [
+    {
+      "id": "website-list-holidays",
+      "name": "Holidays"
+    },
+    {
+      "id": "website-list-milestones",
+      "name": "Milestones"
+    }
+  ],
+  "events": [
+    {
+      "name": "Birthday",
+      "emoji": "🎂",
+      "date": "1988-11-12",
+      "units": [
+        "3"
+      ],
+      "listId": null,
+      "colorIndex": 1,
+      "allowsCountUp": false,
+      "repeatYearly": true,
+      "showOccurrenceNumber": true,
+      "id": "website-event-1"
+    },
+    {
+      "name": "Holiday",
+      "emoji": "✈️",
+      "date": "2026-12-12",
+      "units": [
+        "3"
+      ],
+      "listId": null,
+      "colorIndex": 2,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-2"
+    },
+    {
+      "name": "Our Wedding",
+      "emoji": "💍",
+      "date": "2027-01-31",
+      "units": [
+        "3"
+      ],
+      "listId": null,
+      "colorIndex": 7,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-3"
+    },
+    {
+      "name": "Halloween",
+      "emoji": "🎃",
+      "date": "2026-10-31",
+      "units": [
+        "3"
+      ],
+      "listId": "website-list-holidays",
+      "colorIndex": 6,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-4"
+    },
+    {
+      "name": "Christmas",
+      "emoji": "🎄",
+      "date": "2026-12-25",
+      "units": [
+        "3"
+      ],
+      "listId": "website-list-holidays",
+      "colorIndex": 3,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-5"
+    },
+    {
+      "name": "Together Since",
+      "emoji": "❤️",
+      "date": "2023-10-13",
+      "units": [
+        "3"
+      ],
+      "listId": "website-list-milestones",
+      "colorIndex": 9,
+      "allowsCountUp": true,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-6"
+    }
+  ]
+}

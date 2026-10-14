@@ -1,0 +1,209 @@
+{
+  "locale": "en-AU",
+  "scene": "christmas-countdown-app",
+  "surface": "lock-screen",
+  "captureMethod": "notification-center",
+  "evidenceKind": "timeline-data",
+  "renderingVerified": false,
+  "device": "iPhone 17 Pro",
+  "os": "iOS 27",
+  "simulator": "2F1475EC-A8A5-4627-B5FA-E2D4841516AC",
+  "sourceCommit": "665bf5999e8758227bb924daf5c738aec6b0270e",
+  "referenceDate": "2026-10-13",
+  "fixtureLaunchStartedAt": "2026-10-14T00:48:00.595909+00:00",
+  "capturedAt": "2026-10-14T00:48:27.055328+00:00",
+  "width": 1206,
+  "height": 2622,
+  "imageSHA256": "317a7436fb75112728eb69d7b77599092e0b10bd367ecddcdabab0ff11ab3673",
+  "fixtureSHA256": "0775ed1a0bc39260c62d3d3f57ac563966ce3461cdaa95ff90d81c32b31a9f18",
+  "launchArguments": [
+    "-AppleLanguages",
+    "(en-AU)",
+    "-AppleLocale",
+    "en_AU",
+    "-isProUserKey",
+    "YES",
+    "-isLifetimeUserKey",
+    "YES"
+  ],
+  "nativeProof": {
+    "appBuild": "1",
+    "appVersion": "12.2.2",
+    "capturePreparedAt": "2026-10-14T00:48:04Z",
+    "columns": 1,
+    "compactModeStyle": 3,
+    "currentLocaleIdentifier": "en_AU",
+    "dateStyle": 2,
+    "events": [
+      {
+        "id": "website-event-1",
+        "name": "Christmas"
+      },
+      {
+        "id": "website-event-2",
+        "name": "New Year"
+      },
+      {
+        "id": "website-event-3",
+        "name": "Holidays"
+      }
+    ],
+    "isLifetimeUser": true,
+    "isProUser": true,
+    "preferredLocalizations": [
+      "en-AU",
+      "en-GB",
+      "en"
+    ],
+    "requestedLocale": "en-AU",
+    "scene": "christmas-countdown-app",
+    "screen": "list",
+    "settings": {
+      "archive": false,
+      "archiveOnCompletion": false,
+      "compact": true,
+      "countdownEndNotifications": false,
+      "hideTimeIfMidnight": true,
+      "iCloudSync": false,
+      "listsEnabled": false,
+      "showDates": false,
+      "showDirection": false,
+      "sortByDate": false
+    },
+    "theme": "light",
+    "timeStyle": 1,
+    "widgetConfiguration": {
+      "directionIndicators": false,
+      "homeSelectedIDs": {
+        "systemLarge": [
+          "website-event-1",
+          "website-event-2",
+          "website-event-3"
+        ],
+        "systemMedium": [
+          "website-event-1",
+          "website-event-2",
+          "website-event-3"
+        ],
+        "systemSmall": [
+          "website-event-1"
+        ]
+      },
+      "homeThemes": {
+        "systemLarge": "custom",
+        "systemMedium": "blue",
+        "systemSmall": "purple"
+      },
+      "locale": "en-AU",
+      "lockSelectedIDs": {
+        "accessoryCircular": "website-event-2",
+        "accessoryInline": "website-event-3",
+        "accessoryRectangular": "website-event-1"
+      },
+      "renderingVerified": false,
+      "scene": "christmas-countdown-app",
+      "selectedIDs": [
+        "website-event-1",
+        "website-event-2",
+        "website-event-3"
+      ],
+      "showBackground": true,
+      "showDates": false,
+      "showList": false
+    }
+  },
+  "timelineProofs": {
+    "accessoryRectangular": {
+      "currentLocaleIdentifier": "en_AU",
+      "effectiveConfiguration": {
+        "directionIndicators": null,
+        "showBackground": true,
+        "showDates": null,
+        "theme": null
+      },
+      "events": [
+        {
+          "id": "website-event-1",
+          "name": "Christmas"
+        }
+      ],
+      "evidenceKind": "timeline-data",
+      "family": "accessoryRectangular",
+      "generatedAt": "2026-10-14T00:48:05.981Z",
+      "locale": "en-AU",
+      "preferredLocalizations": [
+        "en-AU",
+        "en-GB",
+        "en"
+      ],
+      "scene": "christmas-countdown-app"
+    },
+    "accessoryCircular": {
+      "currentLocaleIdentifier": "en_AU",
+      "effectiveConfiguration": {
+        "directionIndicators": null,
+        "showBackground": true,
+        "showDates": null,
+        "theme": null
+      },
+      "events": [
+        {
+          "id": "website-event-2",
+          "name": "New Year"
+        }
+      ],
+      "evidenceKind": "timeline-data",
+      "family": "accessoryCircular",
+      "generatedAt": "2026-10-14T00:48:05.522Z",
+      "locale": "en-AU",
+      "preferredLocalizations": [
+        "en-AU",
+        "en-GB",
+        "en"
+      ],
+      "scene": "christmas-countdown-app"
+    },
+    "accessoryInline": {
+      "currentLocaleIdentifier": "en_AU",
+      "effectiveConfiguration": {
+        "directionIndicators": null,
+        "showBackground": true,
+        "showDates": null,
+        "theme": null
+      },
+      "events": [
+        {
+          "id": "website-event-3",
+          "name": "Holidays"
+        }
+      ],
+      "evidenceKind": "timeline-data",
+      "family": "accessoryInline",
+      "generatedAt": "2026-10-14T00:48:06.643Z",
+      "locale": "en-AU",
+      "preferredLocalizations": [
+        "en-AU",
+        "en-GB",
+        "en"
+      ],
+      "scene": "christmas-countdown-app"
+    }
+  },
+  "statusBarTimeUTC": "2026-10-13T13:41:00.000Z",
+  "settleSeconds": 4.0,
+  "deviceState": {
+    "name": "Countdowns V12 New Locales Widgets",
+    "udid": "2F1475EC-A8A5-4627-B5FA-E2D4841516AC",
+    "state": "Booted",
+    "deviceTypeIdentifier": "com.apple.CoreSimulator.SimDeviceType.iPhone-17-Pro",
+    "runtime": "com.apple.CoreSimulator.SimRuntime.iOS-27-0",
+    "AppleLanguages": [
+      "en-AU"
+    ],
+    "AppleLocale": "en_AU"
+  },
+  "appearance": "light",
+  "axe": "/Users/shayes/.npm/_npx/99336612077b7094/node_modules/xcodebuildmcp/bundled/axe",
+  "statusBarOverridePhase": "after-widget-render",
+  "lockScreenRefresh": "wallpaper-gallery-reselect"
+}

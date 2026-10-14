@@ -1,0 +1,28 @@
+{
+  "simulator": "2F1475EC-A8A5-4627-B5FA-E2D4841516AC",
+  "globalPreferenceTransaction": {
+    "simulator": "2F1475EC-A8A5-4627-B5FA-E2D4841516AC",
+    "preferencesPath": "/Users/shayes/Library/Developer/CoreSimulator/Devices/2F1475EC-A8A5-4627-B5FA-E2D4841516AC/data/Library/Preferences/.GlobalPreferences.plist",
+    "originalSHA256": "75309be962b897426218c27c2db0bf8fc27242fa189beb7acc0b3228b9d0bb1b",
+    "startedAt": "2026-10-14T00:45:08.208868+00:00",
+    "restored": true,
+    "restoredAt": "2026-10-14T00:48:34.765189+00:00"
+  },
+  "currentAppleLanguages": [
+    "en-US"
+  ],
+  "currentAppleLocale": "en_US",
+  "originalLocaleRestored": true,
+  "state": "Shutdown",
+  "homeWidgetLayout": "Prepared website baseline retained: medium above large",
+  "wallpaper": "Original simulator blue colour wallpaper retained",
+  "notes": "Final cleanup booted only this dedicated device, cleared its transient status-bar override, then shut it down. Wallpaper, layout and capture images unchanged.",
+  "statusBarClear": {
+    "result": "cleared successfully",
+    "simctlExitCode": 0,
+    "deferredToNextBoot": false,
+    "clearedAt": "2026-10-14T13:05:33.915043+00:00"
+  },
+  "cleanupComplete": true,
+  "noBootedSimulatorsVerified": true
+}

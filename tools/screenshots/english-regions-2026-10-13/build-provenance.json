@@ -1,0 +1,19 @@
+{
+  "appPath": "/private/tmp/countdowns-website-english-regions/build/Build/Products/Debug-iphonesimulator/Countdown.app",
+  "bundleIdentifier": "com.shayesapps.countdownApp",
+  "version": "12.2.2",
+  "scheme": "Countdown",
+  "configuration": "Debug",
+  "derivedData": "/private/tmp/countdowns-website-english-regions/build",
+  "buildResult": "success",
+  "errors": 0,
+  "warnings": 51,
+  "warningScope": "SwiftLint in unchanged website capture instrumentation",
+  "codesignDeepStrict": "passed",
+  "binarySHA256": {
+    "Countdown": "c88e732c3a94e7883623b62ddccdf0ea35bf43e50ff0e2fe0dfb22b34a101edb",
+    "PlugIns/WidgetKitExtension.appex/WidgetKitExtension": "55b500fc912a5424c27053eeb3822c6a0a09b94842bfa1a8c76f13457ab6dedb"
+  },
+  "isolatedSourceOnly": true,
+  "productionSourceModified": false
+}

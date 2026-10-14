@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 # Run after Jekyll: rbenv exec bundle exec ruby scripts/validate-screenshots.rb --site /path/to/build
-# Missing captures/alt translations are failures, never silently replaced with English.
+# Missing captures/alt translations fail; regional English reuse is explicitly audited below.
 require 'yaml'
 require 'pathname'
 require 'optparse'
@@ -21,6 +21,11 @@ class ScreenshotValidator
     'lock-screen-countdown-widget' => 'lock-screen-widgets'
   ).freeze
   HOME_SCENES = %w[colors home-screen-widgets lock-screen-widgets home-screen-widgets editing settings compact-display normal-display].freeze
+  REGIONAL_UPDATES = {
+    'en-CA' => %w[editing settings event-countdown-app],
+    'en-GB' => %w[editing settings event-countdown-app normal-display compact-display colors home-screen-widgets vacation-countdown-app lock-screen-widgets christmas-countdown-app],
+    'en-AU' => %w[editing settings event-countdown-app normal-display compact-display colors home-screen-widgets vacation-countdown-app lock-screen-widgets christmas-countdown-app]
+  }.freeze
   PNG_SIGNATURE = "\x89PNG\r\n\x1a\n".b.freeze
 
   def initialize(source:, site:, baseurl: nil, verbose: false)
@@ -49,6 +54,8 @@ class ScreenshotValidator
 
   def expected_path(locale, scene)
     folder = locale['folder'].to_s.empty? ? 'en' : locale['folder']
+    updates = REGIONAL_UPDATES[locale['code']]
+    folder = 'en' if updates && !updates.include?(scene)
     "/assets/screenshots/#{folder}/#{scene}.png"
   end
 
@@ -63,7 +70,7 @@ class ScreenshotValidator
     locale_data = read_yaml('_data/locales.yml')
     @locales = locale_data.is_a?(Array) ? locale_data : []
     codes = @locales.map { |locale| locale['code'] }
-    check(:manifest, codes.size == 34 && codes.uniq.size == 34, 'Expected 34 unique locale codes')
+    check(:manifest, codes.size == 37 && codes.uniq.size == 37, 'Expected 37 unique locale codes')
     check(:manifest, @manifest['version'] == 'v12', 'Screenshot version must be v12')
     check(:manifest, @manifest.values_at('width', 'height') == [1206, 2622], 'Screenshot dimensions must be 1206x2622')
     check(:manifest, @manifest['guides'] == GUIDES, 'Guide map must contain the 12 required slug-to-scene mappings')
@@ -85,7 +92,7 @@ class ScreenshotValidator
         @counts[:alts] += 1
         alt = localized_alt(code, scene)
         check(:alts, alt.is_a?(String) && !alt.strip.empty?, "#{code}/#{scene}: missing localized alt text")
-        if code != 'en' && alt.is_a?(String)
+        if code != 'en' && !REGIONAL_UPDATES.key?(code) && alt.is_a?(String)
           english = localized_alt('en', scene)
           check(:alts, alt.strip != english.to_s.strip, "#{code}/#{scene}: alt text repeats English")
         end
@@ -269,8 +276,8 @@ class ScreenshotValidator
     @locales.each do |locale|
       ['', 'countdown-ideas', *GUIDES.keys].each { |slug| validate_route(locale, slug) }
     end
-    check(:manifest, @counts[:sources] == 578 && @counts[:alts] == 578, 'Expected 578 source paths and localized alts')
-    check(:routes, @counts[:routes] == 476, 'Expected 476 routes')
+    check(:manifest, @counts[:sources] == 629 && @counts[:alts] == 629, 'Expected 629 source paths and localized alts')
+    check(:routes, @counts[:routes] == 518, 'Expected 518 routes')
     puts "Checked #{@counts[:sources]} source PNG paths, #{@counts[:alts]} localized alts, " \
          "#{@counts[:html]}/#{@counts[:routes]} built routes, #{@counts[:references]} image/preload references."
     @errors.each do |group, errors|

@@ -59,3 +59,15 @@ vi:
 uk:
   file: uk-ua.svg
   width: 120
+
+en-CA:
+  file: en-us.svg
+  width: 120
+
+en-GB:
+  file: en-us.svg
+  width: 120
+
+en-AU:
+  file: en-us.svg
+  width: 120

@@ -32,7 +32,7 @@ end
 if ARGV == ['--check']
   manifest = JSON.parse(File.read(MANIFEST))
   sources = YAML.safe_load_file(File.join(ROOT, '_data/screenshots.yml'))
-  expected = sources.fetch('locales').values.flat_map(&:values).sort
+  expected = sources.fetch('locales').values.flat_map(&:values).uniq.sort
   abort 'Derivative source coverage differs from screenshots.yml' unless manifest.fetch('screenshots').keys.sort == expected
   abort 'Unexpected encoder settings' unless manifest.fetch('widths') == WIDTHS && manifest.fetch('quality') == QUALITY
   icon_source = '/' + YAML.safe_load_file(File.join(ROOT, '_config.yml'), permitted_classes: [Symbol]).fetch('app_icon').delete_prefix('/')

@@ -1,0 +1,54 @@
+{
+  "scene": "vacation-countdown-app",
+  "locale": "en-CA",
+  "screen": "list",
+  "compact": true,
+  "listsEnabled": false,
+  "showDates": false,
+  "showDirection": false,
+  "lists": [],
+  "events": [
+    {
+      "name": "Vacation",
+      "emoji": "✈️",
+      "date": "2026-12-12",
+      "units": [
+        "3"
+      ],
+      "listId": null,
+      "colorIndex": 2,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-1"
+    },
+    {
+      "name": "Start Packing",
+      "emoji": "🧳",
+      "date": "2026-11-27",
+      "units": [
+        "3"
+      ],
+      "listId": null,
+      "colorIndex": 6,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-2"
+    },
+    {
+      "name": "Our Flight",
+      "emoji": "🛫",
+      "date": "2026-12-12",
+      "units": [
+        "3"
+      ],
+      "listId": null,
+      "colorIndex": 1,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-3"
+    }
+  ]
+}

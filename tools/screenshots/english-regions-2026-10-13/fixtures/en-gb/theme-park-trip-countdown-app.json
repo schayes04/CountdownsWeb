@@ -1,0 +1,54 @@
+{
+  "scene": "theme-park-trip-countdown-app",
+  "locale": "en-GB",
+  "screen": "list",
+  "compact": true,
+  "listsEnabled": false,
+  "showDates": false,
+  "showDirection": false,
+  "lists": [],
+  "events": [
+    {
+      "name": "Theme Park Trip",
+      "emoji": "🎢",
+      "date": "2026-11-27",
+      "units": [
+        "3"
+      ],
+      "listId": null,
+      "colorIndex": 9,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-1"
+    },
+    {
+      "name": "Tickets Ready",
+      "emoji": "🎟️",
+      "date": "2026-11-12",
+      "units": [
+        "3"
+      ],
+      "listId": null,
+      "colorIndex": 1,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-2"
+    },
+    {
+      "name": "Park Day",
+      "emoji": "🎡",
+      "date": "2026-11-28",
+      "units": [
+        "3"
+      ],
+      "listId": null,
+      "colorIndex": 6,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-3"
+    }
+  ]
+}

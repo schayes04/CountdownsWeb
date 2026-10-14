@@ -72,7 +72,7 @@ class ExternalLinksValidator
     @regions = @apple['locales'].is_a?(Hash) ? @apple['locales'] : {}
     @guide_overrides = @apple['guide_locale_overrides'].is_a?(Hash) ? @apple['guide_locale_overrides'] : {}
     codes = @locales.map { |locale| locale['code'].to_s }
-    check(:source, codes.length == 34 && codes.uniq.length == 34, 'locales.yml must contain 34 unique locale codes')
+    check(:source, codes.length == 37 && codes.uniq.length == 37, 'locales.yml must contain 37 unique locale codes')
     check(:source, @articles.keys.sort == APPLE_ARTICLE_KEYS.sort, 'apple_support.articles must contain exactly the audited article keys')
     check(:source, @regions.keys.sort == codes.sort, 'apple_support.locales must cover exactly the configured locales')
     @articles.each do |key, path|

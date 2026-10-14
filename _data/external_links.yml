@@ -10,6 +10,9 @@ apple_support:
     refunds: '118223'
   locales:
     en: en-us
+    en-CA: en-ca
+    en-GB: en-gb
+    en-AU: en-au
     ar: ar-sa
     ca: en-us # These standalone articles are not available in Catalan.
     da: da-dk
@@ -54,6 +57,9 @@ apple_support:
 app_store:
   language_hints:
     en: en-US
+    en-CA: en-CA
+    en-GB: en-GB
+    en-AU: en-AU
     ar: ar
     ca: ca
     da: da-DK

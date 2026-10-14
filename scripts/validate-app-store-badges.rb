@@ -54,7 +54,8 @@ class AppStoreBadgeValidator
 
       bytes = path.binread
       digest = Digest::SHA256.hexdigest(bytes)
-      if contents.key?(digest)
+      # Regional English reuses the exact same official English badge file.
+      if contents.key?(digest) && contents[digest] != file
         check(:sources, false, "#{code}: #{file} duplicates #{contents[digest]}")
       end
       contents[digest] = file

@@ -19,6 +19,7 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_DIR = SCRIPT_DIR.parents[1]
 APPLE_LOCALES = {
+    "en-CA": "en_CA", "en-GB": "en_GB", "en-AU": "en_AU",
     "cs": "cs_CZ", "fil": "fil_PH", "el": "el_GR", "he": "he_IL", "hu": "hu_HU",
     "id": "id_ID", "ms": "ms_MY", "ro": "ro_RO", "th": "th_TH", "vi": "vi_VN", "uk": "uk_UA",
     "en": "en_US", "ar": "ar_SA@calendar=gregorian", "ca": "ca_ES", "da": "da_DK",
@@ -36,6 +37,27 @@ SCENES = (
     "holiday-countdown-app", "retirement-countdown-app",
     "pregnancy-countdown-app", "event-countdown-app", "christmas-countdown-app",
 )
+# Regional English intentionally reuses original PNGs when visible content is unchanged.
+REUSED_ENGLISH_SCENES = {
+    "en-CA": (
+        "anniversary-countdown-app", "birthday-countdown-app", "christmas-countdown-app",
+        "colors", "compact-display", "holiday-countdown-app", "home-screen-widgets",
+        "lock-screen-widgets", "normal-display", "pregnancy-countdown-app",
+        "retirement-countdown-app", "theme-park-trip-countdown-app",
+        "vacation-countdown-app", "wedding-countdown-app",
+    ),
+    "en-GB": (
+        "anniversary-countdown-app", "birthday-countdown-app", "holiday-countdown-app",
+        "pregnancy-countdown-app", "retirement-countdown-app",
+        "theme-park-trip-countdown-app", "wedding-countdown-app",
+    ),
+    "en-AU": (
+        "anniversary-countdown-app", "birthday-countdown-app", "holiday-countdown-app",
+        "pregnancy-countdown-app", "retirement-countdown-app",
+        "theme-park-trip-countdown-app", "wedding-countdown-app",
+    ),
+}
+
 LABELS = frozenset((
     "birthday", "vacation", "ourWedding", "holidays", "milestones",
     "halloween", "christmas", "togetherSince", "anniversary", "honeymoon",
@@ -125,7 +147,8 @@ def validate_manifest():
     for code, scenes in entries.items():
         require_keys(scenes, SCENES, f"{code} manifest scenes")
         for scene, path in scenes.items():
-            expected = f"/assets/screenshots/{code.lower()}/{scene}.png"
+            folder = "en" if scene in REUSED_ENGLISH_SCENES.get(code, ()) else code.lower()
+            expected = f"/assets/screenshots/{folder}/{scene}.png"
             if path != expected:
                 raise ValueError(f"{code}/{scene}: expected {expected}, got {path}")
 

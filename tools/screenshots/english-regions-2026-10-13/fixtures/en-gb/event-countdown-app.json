@@ -1,0 +1,26 @@
+{
+  "scene": "event-countdown-app",
+  "locale": "en-GB",
+  "screen": "editor",
+  "compact": true,
+  "listsEnabled": false,
+  "showDates": false,
+  "showDirection": false,
+  "lists": [],
+  "events": [
+    {
+      "name": "Concert Night",
+      "emoji": "🎵",
+      "date": "2027-01-11",
+      "units": [
+        "3"
+      ],
+      "listId": null,
+      "colorIndex": 9,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-1"
+    }
+  ]
+}

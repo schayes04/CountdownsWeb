@@ -29,10 +29,12 @@ end
 locales.each do |locale|
   code = locale.fetch('code')
   path = images.fetch(code)
-  check.call(path.match?(%r{\A/assets/link-previews/#{Regexp.escape(code)}\.[0-9a-f]{12}\.png\z}), "#{code}: invalid image path")
+  image_code = code == 'en-CA' ? 'en' : code
+  check.call(path.match?(%r{\A/assets/link-previews/#{Regexp.escape(image_code)}\.[0-9a-f]{12}\.png\z}), "#{code}: invalid image path")
   original = source.join(path.delete_prefix('/'))
   deployed = build.join(path.delete_prefix('/'))
-  [original, deployed].each do |file|
+  # Reused Canadian artwork is already checked with its English source.
+  (code == 'en-CA' ? [] : [original, deployed]).each do |file|
     check.call(file.file?, "Missing #{file}")
     next unless file.file?
     bytes = file.binread
@@ -61,7 +63,7 @@ site.read
   html = Jekyll::Renderer.new(site, page).run
   check_meta.call(html, expected, "fixture #{index}", default_image)
 end
-check.call(source.glob('assets/link-previews/*').map { |p| '/' + p.relative_path_from(source).to_s }.sort == images.values.sort, 'Unexpected preview assets')
+check.call(source.glob('assets/link-previews/*').map { |p| '/' + p.relative_path_from(source).to_s }.sort == images.values.uniq.sort, 'Unexpected preview assets')
 check.call(source.glob('assets/**/banner*.png').empty?, 'Banner assets must not be deployed')
 if errors.empty?
   puts "PASS: #{locales.size} hashed previews, #{locales.size * (3 + source.glob('_guide_pages/*.md').size)} built home/guide/support/ideas pages, both fallback cases and both explicit overrides."

@@ -1,0 +1,63 @@
+{
+  "scene": "retirement-countdown-app",
+  "locale": "en-GB",
+  "screen": "list",
+  "compact": false,
+  "listsEnabled": false,
+  "showDates": false,
+  "showDirection": false,
+  "lists": [],
+  "events": [
+    {
+      "name": "Retirement",
+      "emoji": "🌅",
+      "date": "2027-04-11",
+      "units": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "listId": null,
+      "colorIndex": 2,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-1"
+    },
+    {
+      "name": "Last Day at Work",
+      "emoji": "💼",
+      "date": "2027-04-10",
+      "units": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "listId": null,
+      "colorIndex": 1,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-2"
+    },
+    {
+      "name": "A New Chapter",
+      "emoji": "⛵",
+      "date": "2027-04-12",
+      "units": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "listId": null,
+      "colorIndex": 9,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-3"
+    }
+  ]
+}

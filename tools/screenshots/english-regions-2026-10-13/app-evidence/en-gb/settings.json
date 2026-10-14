@@ -1,0 +1,129 @@
+{
+  "locale": "en-GB",
+  "scene": "settings",
+  "surface": "app",
+  "device": "iPhone 17 Pro",
+  "os": "iOS 27.0",
+  "simulator": "2F1475EC-A8A5-4627-B5FA-E2D4841516AC",
+  "sourceCommit": "665bf5999e8758227bb924daf5c738aec6b0270e",
+  "referenceDate": "2026-10-13",
+  "captureStartedAt": "2026-10-14T00:42:51.787062+00:00",
+  "capturedAt": "2026-10-14T00:42:58.176127+00:00",
+  "width": 1206,
+  "height": 2622,
+  "imageSHA256": "8254610b9db339e6428b114e2c8319f8a9944ce8e380a155007aaba63e3011b6",
+  "fixtureSHA256": "554cd41c207569219a9ecfb857f3eb948c723dbe8ed9c5ca49609b99184265c0",
+  "launchArguments": [
+    "-AppleLanguages",
+    "(en-GB)",
+    "-AppleLocale",
+    "en_GB",
+    "-isProUserKey",
+    "YES",
+    "-isLifetimeUserKey",
+    "YES"
+  ],
+  "nativeProof": {
+    "appBuild": "1",
+    "appVersion": "12.2.2",
+    "capturePreparedAt": "2026-10-14T00:42:55Z",
+    "columns": 1,
+    "compactModeStyle": 3,
+    "currentLocaleIdentifier": "en_GB",
+    "dateStyle": 2,
+    "events": [
+      {
+        "id": "website-event-1",
+        "name": "Birthday"
+      },
+      {
+        "id": "website-event-2",
+        "name": "Holiday"
+      },
+      {
+        "id": "website-event-3",
+        "name": "Our Wedding"
+      },
+      {
+        "id": "website-event-4",
+        "name": "Halloween"
+      },
+      {
+        "id": "website-event-5",
+        "name": "Christmas"
+      },
+      {
+        "id": "website-event-6",
+        "name": "Together Since"
+      }
+    ],
+    "isLifetimeUser": true,
+    "isProUser": true,
+    "preferredLocalizations": [
+      "en-GB",
+      "en"
+    ],
+    "requestedLocale": "en-GB",
+    "scene": "settings",
+    "screen": "settings",
+    "settings": {
+      "archive": false,
+      "archiveOnCompletion": false,
+      "compact": true,
+      "countdownEndNotifications": false,
+      "hideTimeIfMidnight": true,
+      "iCloudSync": false,
+      "listsEnabled": true,
+      "showDates": false,
+      "showDirection": false,
+      "sortByDate": false
+    },
+    "theme": "light",
+    "timeStyle": 1,
+    "widgetConfiguration": {
+      "directionIndicators": false,
+      "homeSelectedIDs": {
+        "systemLarge": [
+          "website-event-1",
+          "website-event-2",
+          "website-event-3",
+          "website-event-4",
+          "website-event-5",
+          "website-event-6"
+        ],
+        "systemMedium": [
+          "website-event-1",
+          "website-event-2",
+          "website-event-3"
+        ],
+        "systemSmall": [
+          "website-event-1"
+        ]
+      },
+      "homeThemes": {
+        "systemLarge": "custom",
+        "systemMedium": "blue",
+        "systemSmall": "purple"
+      },
+      "locale": "en-GB",
+      "lockSelectedIDs": {
+        "accessoryCircular": "website-event-2",
+        "accessoryInline": "website-event-3",
+        "accessoryRectangular": "website-event-1"
+      },
+      "renderingVerified": false,
+      "scene": "settings",
+      "selectedIDs": [
+        "website-event-1",
+        "website-event-2",
+        "website-event-3",
+        "website-event-4",
+        "website-event-5",
+        "website-event-6"
+      ],
+      "showBackground": true,
+      "showDates": false,
+      "showList": false
+    }
+  }
+}

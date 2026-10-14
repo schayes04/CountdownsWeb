@@ -1,0 +1,227 @@
+{
+  "locale": "en-AU",
+  "scene": "lock-screen-widgets",
+  "surface": "lock-screen",
+  "captureMethod": "notification-center",
+  "evidenceKind": "timeline-data",
+  "renderingVerified": false,
+  "device": "iPhone 17 Pro",
+  "os": "iOS 27",
+  "simulator": "2F1475EC-A8A5-4627-B5FA-E2D4841516AC",
+  "sourceCommit": "665bf5999e8758227bb924daf5c738aec6b0270e",
+  "referenceDate": "2026-10-13",
+  "fixtureLaunchStartedAt": "2026-10-14T00:47:26.791259+00:00",
+  "capturedAt": "2026-10-14T00:47:59.520587+00:00",
+  "width": 1206,
+  "height": 2622,
+  "imageSHA256": "2f4b38f8a101063c5da627f9d71d66e39fa349f8a42ac934f6b699edfaee1746",
+  "fixtureSHA256": "250e268adffa1e7502c7ee4dc1b7a2a1ce3fd8f99f30d7a10f1101da5592fcca",
+  "launchArguments": [
+    "-AppleLanguages",
+    "(en-AU)",
+    "-AppleLocale",
+    "en_AU",
+    "-isProUserKey",
+    "YES",
+    "-isLifetimeUserKey",
+    "YES"
+  ],
+  "nativeProof": {
+    "appBuild": "1",
+    "appVersion": "12.2.2",
+    "capturePreparedAt": "2026-10-14T00:47:29Z",
+    "columns": 1,
+    "compactModeStyle": 3,
+    "currentLocaleIdentifier": "en_AU",
+    "dateStyle": 2,
+    "events": [
+      {
+        "id": "website-event-1",
+        "name": "Birthday"
+      },
+      {
+        "id": "website-event-2",
+        "name": "Holiday"
+      },
+      {
+        "id": "website-event-3",
+        "name": "Our Wedding"
+      },
+      {
+        "id": "website-event-4",
+        "name": "Halloween"
+      },
+      {
+        "id": "website-event-5",
+        "name": "Christmas"
+      },
+      {
+        "id": "website-event-6",
+        "name": "Together Since"
+      }
+    ],
+    "isLifetimeUser": true,
+    "isProUser": true,
+    "preferredLocalizations": [
+      "en-AU",
+      "en-GB",
+      "en"
+    ],
+    "requestedLocale": "en-AU",
+    "scene": "lock-screen-widgets",
+    "screen": "list",
+    "settings": {
+      "archive": false,
+      "archiveOnCompletion": false,
+      "compact": true,
+      "countdownEndNotifications": false,
+      "hideTimeIfMidnight": true,
+      "iCloudSync": false,
+      "listsEnabled": true,
+      "showDates": false,
+      "showDirection": false,
+      "sortByDate": false
+    },
+    "theme": "light",
+    "timeStyle": 1,
+    "widgetConfiguration": {
+      "directionIndicators": false,
+      "homeSelectedIDs": {
+        "systemLarge": [
+          "website-event-1",
+          "website-event-2",
+          "website-event-3",
+          "website-event-4",
+          "website-event-5",
+          "website-event-6"
+        ],
+        "systemMedium": [
+          "website-event-1",
+          "website-event-2",
+          "website-event-3"
+        ],
+        "systemSmall": [
+          "website-event-1"
+        ]
+      },
+      "homeThemes": {
+        "systemLarge": "custom",
+        "systemMedium": "blue",
+        "systemSmall": "purple"
+      },
+      "locale": "en-AU",
+      "lockSelectedIDs": {
+        "accessoryCircular": "website-event-2",
+        "accessoryInline": "website-event-3",
+        "accessoryRectangular": "website-event-1"
+      },
+      "renderingVerified": false,
+      "scene": "lock-screen-widgets",
+      "selectedIDs": [
+        "website-event-1",
+        "website-event-2",
+        "website-event-3",
+        "website-event-4",
+        "website-event-5",
+        "website-event-6"
+      ],
+      "showBackground": true,
+      "showDates": false,
+      "showList": false
+    }
+  },
+  "timelineProofs": {
+    "accessoryRectangular": {
+      "currentLocaleIdentifier": "en_AU",
+      "effectiveConfiguration": {
+        "directionIndicators": null,
+        "showBackground": true,
+        "showDates": null,
+        "theme": null
+      },
+      "events": [
+        {
+          "id": "website-event-1",
+          "name": "Birthday"
+        }
+      ],
+      "evidenceKind": "timeline-data",
+      "family": "accessoryRectangular",
+      "generatedAt": "2026-10-14T00:47:32.197Z",
+      "locale": "en-AU",
+      "preferredLocalizations": [
+        "en-AU",
+        "en-GB",
+        "en"
+      ],
+      "scene": "lock-screen-widgets"
+    },
+    "accessoryCircular": {
+      "currentLocaleIdentifier": "en_AU",
+      "effectiveConfiguration": {
+        "directionIndicators": null,
+        "showBackground": true,
+        "showDates": null,
+        "theme": null
+      },
+      "events": [
+        {
+          "id": "website-event-2",
+          "name": "Holiday"
+        }
+      ],
+      "evidenceKind": "timeline-data",
+      "family": "accessoryCircular",
+      "generatedAt": "2026-10-14T00:47:32.260Z",
+      "locale": "en-AU",
+      "preferredLocalizations": [
+        "en-AU",
+        "en-GB",
+        "en"
+      ],
+      "scene": "lock-screen-widgets"
+    },
+    "accessoryInline": {
+      "currentLocaleIdentifier": "en_AU",
+      "effectiveConfiguration": {
+        "directionIndicators": null,
+        "showBackground": true,
+        "showDates": null,
+        "theme": null
+      },
+      "events": [
+        {
+          "id": "website-event-3",
+          "name": "Our Wedding"
+        }
+      ],
+      "evidenceKind": "timeline-data",
+      "family": "accessoryInline",
+      "generatedAt": "2026-10-14T00:47:32.296Z",
+      "locale": "en-AU",
+      "preferredLocalizations": [
+        "en-AU",
+        "en-GB",
+        "en"
+      ],
+      "scene": "lock-screen-widgets"
+    }
+  },
+  "statusBarTimeUTC": "2026-10-13T13:41:00.000Z",
+  "settleSeconds": 4.0,
+  "deviceState": {
+    "name": "Countdowns V12 New Locales Widgets",
+    "udid": "2F1475EC-A8A5-4627-B5FA-E2D4841516AC",
+    "state": "Booted",
+    "deviceTypeIdentifier": "com.apple.CoreSimulator.SimDeviceType.iPhone-17-Pro",
+    "runtime": "com.apple.CoreSimulator.SimRuntime.iOS-27-0",
+    "AppleLanguages": [
+      "en-AU"
+    ],
+    "AppleLocale": "en_AU"
+  },
+  "appearance": "light",
+  "axe": "/Users/shayes/.npm/_npx/99336612077b7094/node_modules/xcodebuildmcp/bundled/axe",
+  "statusBarOverridePhase": "after-widget-render",
+  "lockScreenRefresh": "wallpaper-gallery-reselect"
+}

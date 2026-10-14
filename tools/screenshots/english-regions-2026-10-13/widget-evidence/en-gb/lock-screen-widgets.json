@@ -1,0 +1,223 @@
+{
+  "locale": "en-GB",
+  "scene": "lock-screen-widgets",
+  "surface": "lock-screen",
+  "captureMethod": "notification-center",
+  "evidenceKind": "timeline-data",
+  "renderingVerified": false,
+  "device": "iPhone 17 Pro",
+  "os": "iOS 27",
+  "simulator": "2F1475EC-A8A5-4627-B5FA-E2D4841516AC",
+  "sourceCommit": "665bf5999e8758227bb924daf5c738aec6b0270e",
+  "referenceDate": "2026-10-13",
+  "fixtureLaunchStartedAt": "2026-10-14T00:45:49.729714+00:00",
+  "capturedAt": "2026-10-14T00:46:18.576732+00:00",
+  "width": 1206,
+  "height": 2622,
+  "imageSHA256": "51bb62746c5938f766153e42833231123b4ef7484b573b7f73e1bc48fb32b2a9",
+  "fixtureSHA256": "98def967f42cd617b036d850d0ec11be3519a8e28003341a1a5088914b3ad274",
+  "launchArguments": [
+    "-AppleLanguages",
+    "(en-GB)",
+    "-AppleLocale",
+    "en_GB",
+    "-isProUserKey",
+    "YES",
+    "-isLifetimeUserKey",
+    "YES"
+  ],
+  "nativeProof": {
+    "appBuild": "1",
+    "appVersion": "12.2.2",
+    "capturePreparedAt": "2026-10-14T00:45:54Z",
+    "columns": 1,
+    "compactModeStyle": 3,
+    "currentLocaleIdentifier": "en_GB",
+    "dateStyle": 2,
+    "events": [
+      {
+        "id": "website-event-1",
+        "name": "Birthday"
+      },
+      {
+        "id": "website-event-2",
+        "name": "Holiday"
+      },
+      {
+        "id": "website-event-3",
+        "name": "Our Wedding"
+      },
+      {
+        "id": "website-event-4",
+        "name": "Halloween"
+      },
+      {
+        "id": "website-event-5",
+        "name": "Christmas"
+      },
+      {
+        "id": "website-event-6",
+        "name": "Together Since"
+      }
+    ],
+    "isLifetimeUser": true,
+    "isProUser": true,
+    "preferredLocalizations": [
+      "en-GB",
+      "en"
+    ],
+    "requestedLocale": "en-GB",
+    "scene": "lock-screen-widgets",
+    "screen": "list",
+    "settings": {
+      "archive": false,
+      "archiveOnCompletion": false,
+      "compact": true,
+      "countdownEndNotifications": false,
+      "hideTimeIfMidnight": true,
+      "iCloudSync": false,
+      "listsEnabled": true,
+      "showDates": false,
+      "showDirection": false,
+      "sortByDate": false
+    },
+    "theme": "light",
+    "timeStyle": 1,
+    "widgetConfiguration": {
+      "directionIndicators": false,
+      "homeSelectedIDs": {
+        "systemLarge": [
+          "website-event-1",
+          "website-event-2",
+          "website-event-3",
+          "website-event-4",
+          "website-event-5",
+          "website-event-6"
+        ],
+        "systemMedium": [
+          "website-event-1",
+          "website-event-2",
+          "website-event-3"
+        ],
+        "systemSmall": [
+          "website-event-1"
+        ]
+      },
+      "homeThemes": {
+        "systemLarge": "custom",
+        "systemMedium": "blue",
+        "systemSmall": "purple"
+      },
+      "locale": "en-GB",
+      "lockSelectedIDs": {
+        "accessoryCircular": "website-event-2",
+        "accessoryInline": "website-event-3",
+        "accessoryRectangular": "website-event-1"
+      },
+      "renderingVerified": false,
+      "scene": "lock-screen-widgets",
+      "selectedIDs": [
+        "website-event-1",
+        "website-event-2",
+        "website-event-3",
+        "website-event-4",
+        "website-event-5",
+        "website-event-6"
+      ],
+      "showBackground": true,
+      "showDates": false,
+      "showList": false
+    }
+  },
+  "timelineProofs": {
+    "accessoryRectangular": {
+      "currentLocaleIdentifier": "en_GB",
+      "effectiveConfiguration": {
+        "directionIndicators": null,
+        "showBackground": true,
+        "showDates": null,
+        "theme": null
+      },
+      "events": [
+        {
+          "id": "website-event-1",
+          "name": "Birthday"
+        }
+      ],
+      "evidenceKind": "timeline-data",
+      "family": "accessoryRectangular",
+      "generatedAt": "2026-10-14T00:46:10.583Z",
+      "locale": "en-GB",
+      "preferredLocalizations": [
+        "en-GB",
+        "en"
+      ],
+      "scene": "lock-screen-widgets"
+    },
+    "accessoryCircular": {
+      "currentLocaleIdentifier": "en_GB",
+      "effectiveConfiguration": {
+        "directionIndicators": null,
+        "showBackground": true,
+        "showDates": null,
+        "theme": null
+      },
+      "events": [
+        {
+          "id": "website-event-2",
+          "name": "Holiday"
+        }
+      ],
+      "evidenceKind": "timeline-data",
+      "family": "accessoryCircular",
+      "generatedAt": "2026-10-14T00:46:11.201Z",
+      "locale": "en-GB",
+      "preferredLocalizations": [
+        "en-GB",
+        "en"
+      ],
+      "scene": "lock-screen-widgets"
+    },
+    "accessoryInline": {
+      "currentLocaleIdentifier": "en_GB",
+      "effectiveConfiguration": {
+        "directionIndicators": null,
+        "showBackground": true,
+        "showDates": null,
+        "theme": null
+      },
+      "events": [
+        {
+          "id": "website-event-3",
+          "name": "Our Wedding"
+        }
+      ],
+      "evidenceKind": "timeline-data",
+      "family": "accessoryInline",
+      "generatedAt": "2026-10-14T00:46:10.145Z",
+      "locale": "en-GB",
+      "preferredLocalizations": [
+        "en-GB",
+        "en"
+      ],
+      "scene": "lock-screen-widgets"
+    }
+  },
+  "statusBarTimeUTC": "2026-10-13T13:41:00.000Z",
+  "settleSeconds": 4.0,
+  "deviceState": {
+    "name": "Countdowns V12 New Locales Widgets",
+    "udid": "2F1475EC-A8A5-4627-B5FA-E2D4841516AC",
+    "state": "Booted",
+    "deviceTypeIdentifier": "com.apple.CoreSimulator.SimDeviceType.iPhone-17-Pro",
+    "runtime": "com.apple.CoreSimulator.SimRuntime.iOS-27-0",
+    "AppleLanguages": [
+      "en-GB"
+    ],
+    "AppleLocale": "en_GB"
+  },
+  "appearance": "light",
+  "axe": "/Users/shayes/.npm/_npx/99336612077b7094/node_modules/xcodebuildmcp/bundled/axe",
+  "statusBarOverridePhase": "after-widget-render",
+  "lockScreenRefresh": "wallpaper-gallery-reselect"
+}

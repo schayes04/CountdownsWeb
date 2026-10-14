@@ -1,0 +1,197 @@
+{
+  "locale": "en-GB",
+  "scene": "vacation-countdown-app",
+  "surface": "home-screen",
+  "captureMethod": "springboard-launch",
+  "evidenceKind": "timeline-data",
+  "renderingVerified": false,
+  "device": "iPhone 17 Pro",
+  "os": "iOS 27",
+  "simulator": "2F1475EC-A8A5-4627-B5FA-E2D4841516AC",
+  "sourceCommit": "665bf5999e8758227bb924daf5c738aec6b0270e",
+  "referenceDate": "2026-10-13",
+  "fixtureLaunchStartedAt": "2026-10-14T00:45:39.126903+00:00",
+  "capturedAt": "2026-10-14T00:45:48.666138+00:00",
+  "width": 1206,
+  "height": 2622,
+  "imageSHA256": "b78edca4f6b9a8843579b1816e19607ae3e4fc954ca7fb6f4b676be27d538fe2",
+  "fixtureSHA256": "5fa2abfcc5d5f152441f70e8eeaeb87853e12672bd293094dcde1fb45cfdb2eb",
+  "launchArguments": [
+    "-AppleLanguages",
+    "(en-GB)",
+    "-AppleLocale",
+    "en_GB",
+    "-isProUserKey",
+    "YES",
+    "-isLifetimeUserKey",
+    "YES"
+  ],
+  "nativeProof": {
+    "appBuild": "1",
+    "appVersion": "12.2.2",
+    "capturePreparedAt": "2026-10-14T00:45:42Z",
+    "columns": 1,
+    "compactModeStyle": 3,
+    "currentLocaleIdentifier": "en_GB",
+    "dateStyle": 2,
+    "events": [
+      {
+        "id": "website-event-1",
+        "name": "Holiday"
+      },
+      {
+        "id": "website-event-2",
+        "name": "Start Packing"
+      },
+      {
+        "id": "website-event-3",
+        "name": "Our Flight"
+      }
+    ],
+    "isLifetimeUser": true,
+    "isProUser": true,
+    "preferredLocalizations": [
+      "en-GB",
+      "en"
+    ],
+    "requestedLocale": "en-GB",
+    "scene": "vacation-countdown-app",
+    "screen": "list",
+    "settings": {
+      "archive": false,
+      "archiveOnCompletion": false,
+      "compact": true,
+      "countdownEndNotifications": false,
+      "hideTimeIfMidnight": true,
+      "iCloudSync": false,
+      "listsEnabled": false,
+      "showDates": false,
+      "showDirection": false,
+      "sortByDate": false
+    },
+    "theme": "light",
+    "timeStyle": 1,
+    "widgetConfiguration": {
+      "directionIndicators": false,
+      "homeSelectedIDs": {
+        "systemLarge": [
+          "website-event-1",
+          "website-event-2",
+          "website-event-3"
+        ],
+        "systemMedium": [
+          "website-event-1",
+          "website-event-2",
+          "website-event-3"
+        ],
+        "systemSmall": [
+          "website-event-1"
+        ]
+      },
+      "homeThemes": {
+        "systemLarge": "custom",
+        "systemMedium": "blue",
+        "systemSmall": "purple"
+      },
+      "locale": "en-GB",
+      "lockSelectedIDs": {
+        "accessoryCircular": "website-event-2",
+        "accessoryInline": "website-event-3",
+        "accessoryRectangular": "website-event-1"
+      },
+      "renderingVerified": false,
+      "scene": "vacation-countdown-app",
+      "selectedIDs": [
+        "website-event-1",
+        "website-event-2",
+        "website-event-3"
+      ],
+      "showBackground": true,
+      "showDates": false,
+      "showList": false
+    }
+  },
+  "timelineProofs": {
+    "systemMedium": {
+      "currentLocaleIdentifier": "en_GB",
+      "effectiveConfiguration": {
+        "darkTheme": "matchLightTheme",
+        "directionIndicators": false,
+        "showDates": false,
+        "showList": false,
+        "theme": "blue"
+      },
+      "events": [
+        {
+          "id": "website-event-1",
+          "name": "Holiday"
+        },
+        {
+          "id": "website-event-2",
+          "name": "Start Packing"
+        },
+        {
+          "id": "website-event-3",
+          "name": "Our Flight"
+        }
+      ],
+      "evidenceKind": "timeline-data",
+      "family": "systemMedium",
+      "generatedAt": "2026-10-14T00:45:44.994Z",
+      "locale": "en-GB",
+      "preferredLocalizations": [
+        "en-GB",
+        "en"
+      ],
+      "scene": "vacation-countdown-app"
+    },
+    "systemLarge": {
+      "currentLocaleIdentifier": "en_GB",
+      "effectiveConfiguration": {
+        "darkTheme": "matchLightTheme",
+        "directionIndicators": false,
+        "showDates": false,
+        "showList": false,
+        "theme": "custom"
+      },
+      "events": [
+        {
+          "id": "website-event-1",
+          "name": "Holiday"
+        },
+        {
+          "id": "website-event-2",
+          "name": "Start Packing"
+        },
+        {
+          "id": "website-event-3",
+          "name": "Our Flight"
+        }
+      ],
+      "evidenceKind": "timeline-data",
+      "family": "systemLarge",
+      "generatedAt": "2026-10-14T00:45:44.863Z",
+      "locale": "en-GB",
+      "preferredLocalizations": [
+        "en-GB",
+        "en"
+      ],
+      "scene": "vacation-countdown-app"
+    }
+  },
+  "statusBarTimeUTC": "2026-10-13T13:41:00.000Z",
+  "settleSeconds": 4.0,
+  "deviceState": {
+    "name": "Countdowns V12 New Locales Widgets",
+    "udid": "2F1475EC-A8A5-4627-B5FA-E2D4841516AC",
+    "state": "Booted",
+    "deviceTypeIdentifier": "com.apple.CoreSimulator.SimDeviceType.iPhone-17-Pro",
+    "runtime": "com.apple.CoreSimulator.SimRuntime.iOS-27-0",
+    "AppleLanguages": [
+      "en-GB"
+    ],
+    "AppleLocale": "en_GB"
+  },
+  "appearance": "light",
+  "axe": "/Users/shayes/.npm/_npx/99336612077b7094/node_modules/xcodebuildmcp/bundled/axe"
+}

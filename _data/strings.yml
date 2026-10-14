@@ -5933,3 +5933,558 @@ uk:
     іконки, списки, віджети, сповіщення й архів корисні до події та після неї.
   guide_cta_heading: 'Почніть сьогодні: TOPIC_LOWER.'
   guide_cta_text: Завантажте Відліки й тримайте наступну важливу дату перед очима.
+
+en-CA:
+  menu: Menu
+  breadcrumb_label: Breadcrumb
+  on_this_page: On this page
+  app_highlights_label: APP_NAME highlights
+  home_widgets_preview_label: APP_NAME Home Screen widgets preview
+  countdown_examples_label: Popular countdown examples
+  skip: Skip to content
+  home: Home
+  primary_nav: Primary
+  features: Features
+  widgets: Widgets
+  ideas: Ideas
+  press_kit: Press Kit
+  download: Download
+  support: Help Centre
+  policies: Policies
+  company_links: Company links
+  made_by: Made by
+  language: Language
+  download_badge: Download on the App Store
+  app_description: >-
+    Countdowns helps you count down to important moments, or count up from meaningful dates, on iPhone,
+    iPad, Mac, and Apple Watch. Perfect for birthdays, holidays, weddings, anniversaries, vacations, retirement,
+    and more!
+  title_suffix: Countdown timers for Apple devices
+  hero_eyebrow: For iPhone, iPad, Mac, and Apple Watch
+  hero_lead: >-
+    Count down to what is next, or count up from what changed. Build customizable timers for birthdays,
+    holidays, habits, trips, game days, and everything else worth tracking.
+  free: Free
+  download_label: download
+  languages_label: languages
+  home_lock_screen: Home + Lock Screen
+  examples:
+  - Weddings
+  - Birthdays
+  - Vacations
+  - Retirement
+  - Game Day
+  - New Habits
+  widgets_kicker: Widgets everywhere
+  widgets_heading: Keep the moments that matter where you can see them.
+  widgets_body: >-
+    Put countdowns on your Home Screen and Lock Screen, then choose the style that fits the occasion.
+    Big events, custom recurring schedules, and favourite lists all stay glanceable.
+  widget_bullets:
+  - Home Screen widgets for favourite countdowns and lists.
+  - Lock Screen widgets for quick progress checks.
+  - Apple Watch support with complications.
+  features_kicker: Built for real life
+  features_heading: Flexible enough for every kind of timer.
+  features_body: >-
+    Track celebrations, deadlines, routines, and milestones with the controls that make each countdown
+    feel personal.
+  feature_titles:
+  - Unlimited Countdowns
+  - Widgets
+  - Customizable Units
+  - Recurring Events
+  - Event Import
+  - iCloud Sync
+  - Notifications
+  - Lists
+  - Archive
+  - Siri Shortcuts
+  - Apple Watch
+  - Localized
+  feature_descriptions:
+  - Create unlimited countdowns that count down to future dates or count up from past milestones
+  - See countdowns right on your Home Screen or Lock Screen
+  - Show years, months, weeks, days, hours, minutes, seconds, or any mix that fits the event
+  - Build simple repeats or advanced recurring schedules for dates that keep coming back
+  - Import dates from Calendar, Contacts, and Reminders
+  - Sync countdowns and lists across your devices
+  - Choose when to be reminded before each countdown
+  - Organize countdowns into custom lists
+  - Keep and view past countdowns
+  - Use Shortcuts to check countdowns with your voice
+  - View countdowns on Apple Watch with complications
+  - Available in 33 languages
+  personal_kicker: Personal by default
+  personal_heading: Choose the units, colours, icons, lists, and notifications that fit the event.
+  personal_body: >-
+    Count in years, months, weeks, days, hours, minutes, or seconds. Import dates from Calendar, Contacts,
+    and Reminders, organize countdowns into lists, and keep everything synced across devices.
+  mini_titles:
+  - Recurring events
+  - Custom notifications
+  - Archive
+  mini_bodies:
+  - Create simple repeats or advanced recurring schedules for the dates that keep coming back.
+  - Choose when to be reminded before a countdown arrives.
+  - Keep past countdowns without cluttering the main list.
+  pricing_kicker: Free to start
+  pricing_heading: Download Countdowns for free.
+  pricing_body: >-
+    Optional monthly, annual, and one-time purchases unlock additional features like iCloud sync, compact
+    mode, lists, directional indicators, custom sounds, and archive.
+  ideas_kicker: Countdown ideas
+  ideas_heading: Plan every kind of countdown from one app.
+  ideas_body: >-
+    Build timers for the moments people ask about most, then customize each one with the units, colours,
+    widgets, lists, and notifications that fit the event.
+  browse_all_ideas: Browse All Ideas
+  start_counting: Start counting
+  home_cta_heading: Make the next big day feel closer.
+  ideas_title: Countdown Ideas
+  ideas_meta_title: Countdown Ideas for Weddings, Birthdays, Vacations, Holidays, and Events
+  ideas_description: >-
+    Browse countdown ideas for weddings, birthdays, vacations, holidays, anniversaries, retirement, widgets,
+    and more.
+  ideas_index_heading: Countdown ideas for every date worth tracking
+  ideas_index_body: >-
+    Explore ways to use Countdowns for celebrations, trips, milestones, holidays, widgets, and the everyday
+    dates you want to keep visible.
+  browse_all: Browse all
+  choose_type: Choose a countdown type to start with.
+  guide_focus: >-
+    Each guide focuses on a different intent, with practical setup ideas and links to related countdown
+    pages.
+  create_own: Create your own countdown.
+  breadcrumb_ideas: Countdown Ideas
+  guide_default_kicker: Countdown guide
+  why_it_helps: Why it helps
+  benefits_default_heading: A countdown that fits the moment.
+  how_to_use: How to use it
+  steps_default_heading: Create the countdown in minutes.
+  steps_intro: Start with the date, then make the timer useful everywhere you check your day.
+  faq: FAQ
+  common_questions: Common questions
+  more_ideas: More countdown ideas
+  related_heading: Build the next timer on your list.
+  cta_default_heading: Make the date feel closer.
+  aside_bullets:
+  - Widgets for Home Screen and Lock Screen
+  - Custom units, colours, lists, and notifications
+  - iCloud sync across Apple devices
+  guide_meta_title: TOPIC App for iPhone, iPad, Mac, and Apple Watch
+  guide_description: TOPIC with widgets, reminders, custom colours, lists, and iCloud sync.
+  guide_h1: A TOPIC_LOWER for the dates that matter
+  guide_hero: >-
+    Track TOPIC_LOWER and related dates with widgets, reminders, flexible units, colours, and lists across
+    your Apple devices.
+  guide_benefits_heading: Keep the date visible and organized.
+  benefit_titles:
+  - Glanceable countdowns
+  - Flexible planning
+  - Personal setup
+  benefit_descriptions:
+  - Put important dates on your Home Screen, Lock Screen, Apple Watch, iPad, and Mac.
+  - Track the main date plus reminders, milestones, travel, deadlines, and repeat schedules.
+  - Choose units, colours, icons, lists, and notifications that fit the event.
+  guide_steps_heading: Set up your countdown.
+  step_titles:
+  - Add the date
+  - Customize the countdown
+  - Keep it visible
+  step_descriptions:
+  - Create the countdown with the day and time that matter.
+  - Choose display units, colours, icons, lists, and reminders.
+  - Add widgets or Apple Watch complications for quick checks.
+  guide_faq_heading: TOPIC questions
+  faq_questions:
+  - Can I track more than one related date?
+  - Can I put the countdown on my Home Screen or Lock Screen?
+  - Can I customize the countdown?
+  faq_answers:
+  - Yes. You can create unlimited countdowns and organize them into lists.
+  - Yes. Countdowns supports Home Screen widgets, Lock Screen widgets, and Apple Watch complications.
+  - Yes. You can customize units, colours, icons, lists, notifications, and more.
+  guide_body_h2_1: Keep the important date in sight
+  guide_body_p1: >-
+    A countdown works best when it is easy to see. Countdowns turns TOPIC_LOWER into a timer you can check
+    on the screens you already use each day.
+  guide_body_p2: >-
+    Create one timer for the main date, then add related milestones, reminders, and planning dates so
+    everything stays together.
+  guide_body_h2_2: Make it fit your plan
+  guide_body_p3: >-
+    Choose years, months, weeks, days, hours, minutes, or seconds. Use colours, icons, lists, widgets,
+    notifications, and archive tools to keep each countdown useful before and after the date arrives.
+  guide_cta_heading: Start your TOPIC_LOWER today.
+  guide_cta_text: Download Countdowns and keep the next important date visible.
+
+en-GB:
+  menu: Menu
+  breadcrumb_label: Breadcrumb
+  on_this_page: On this page
+  app_highlights_label: APP_NAME highlights
+  home_widgets_preview_label: APP_NAME Home Screen widgets preview
+  countdown_examples_label: Popular countdown examples
+  skip: Skip to content
+  home: Home
+  primary_nav: Primary
+  features: Features
+  widgets: Widgets
+  ideas: Ideas
+  press_kit: Press Kit
+  download: Download
+  support: Help Centre
+  policies: Policies
+  company_links: Company links
+  made_by: Made by
+  language: Language
+  download_badge: Download on the App Store
+  app_description: >-
+    Countdowns helps you count down to important moments, or count up from meaningful dates, on iPhone,
+    iPad, Mac, and Apple Watch. Perfect for birthdays, holidays, weddings, anniversaries, trips, retirement,
+    and more!
+  title_suffix: Countdown timers for Apple devices
+  hero_eyebrow: For iPhone, iPad, Mac, and Apple Watch
+  hero_lead: >-
+    Count down to what is next, or count up from what changed. Build customisable timers for birthdays,
+    holidays, habits, trips, game days, and everything else worth tracking.
+  free: Free
+  download_label: download
+  languages_label: languages
+  home_lock_screen: Home + Lock Screen
+  examples:
+  - Weddings
+  - Birthdays
+  - Holidays
+  - Retirement
+  - Game Day
+  - New Habits
+  widgets_kicker: Widgets everywhere
+  widgets_heading: Keep the moments that matter where you can see them.
+  widgets_body: >-
+    Put countdowns on your Home Screen and Lock Screen, then choose the style that fits the occasion.
+    Big events, custom recurring schedules, and favourite lists all stay glanceable.
+  widget_bullets:
+  - Home Screen widgets for favourite countdowns and lists.
+  - Lock Screen widgets for quick progress checks.
+  - Apple Watch support with complications.
+  features_kicker: Built for real life
+  features_heading: Flexible enough for every kind of timer.
+  features_body: >-
+    Track celebrations, deadlines, routines, and milestones with the controls that make each countdown
+    feel personal.
+  feature_titles:
+  - Unlimited Countdowns
+  - Widgets
+  - Customisable Units
+  - Recurring Events
+  - Event Import
+  - iCloud Sync
+  - Notifications
+  - Lists
+  - Archive
+  - Siri Shortcuts
+  - Apple Watch
+  - Localised
+  feature_descriptions:
+  - Create unlimited countdowns that count down to future dates or count up from past milestones
+  - See countdowns right on your Home Screen or Lock Screen
+  - Show years, months, weeks, days, hours, minutes, seconds, or any mix that fits the event
+  - Build simple repeats or advanced recurring schedules for dates that keep coming back
+  - Import dates from Calendar, Contacts, and Reminders
+  - Sync countdowns and lists across your devices
+  - Choose when to be reminded before each countdown
+  - Organise countdowns into custom lists
+  - Keep and view past countdowns
+  - Use Shortcuts to check countdowns with your voice
+  - View countdowns on Apple Watch with complications
+  - Available in 33 languages
+  personal_kicker: Personal by default
+  personal_heading: Choose the units, colours, icons, lists, and notifications that fit the event.
+  personal_body: >-
+    Count in years, months, weeks, days, hours, minutes, or seconds. Import dates from Calendar, Contacts,
+    and Reminders, organise countdowns into lists, and keep everything synced across devices.
+  mini_titles:
+  - Recurring events
+  - Custom notifications
+  - Archive
+  mini_bodies:
+  - Create simple repeats or advanced recurring schedules for the dates that keep coming back.
+  - Choose when to be reminded before a countdown arrives.
+  - Keep past countdowns without cluttering the main list.
+  pricing_kicker: Free to start
+  pricing_heading: Download Countdowns for free.
+  pricing_body: >-
+    Optional monthly, annual, and one-time purchases unlock additional features like iCloud sync, compact
+    mode, lists, directional indicators, custom sounds, and archive.
+  ideas_kicker: Countdown ideas
+  ideas_heading: Plan every kind of countdown from one app.
+  ideas_body: >-
+    Build timers for the moments people ask about most, then customise each one with the units, colours,
+    widgets, lists, and notifications that fit the event.
+  browse_all_ideas: Browse All Ideas
+  start_counting: Start counting
+  home_cta_heading: Make the next big day feel closer.
+  ideas_title: Countdown Ideas
+  ideas_meta_title: Countdown Ideas for Weddings, Birthdays, Holidays, Celebrations, and Events
+  ideas_description: >-
+    Browse countdown ideas for weddings, birthdays, holidays, celebrations, anniversaries, retirement,
+    widgets, and more.
+  ideas_index_heading: Countdown ideas for every date worth tracking
+  ideas_index_body: >-
+    Explore ways to use Countdowns for celebrations, trips, milestones, holidays, widgets, and the everyday
+    dates you want to keep visible.
+  browse_all: Browse all
+  choose_type: Choose a countdown type to start with.
+  guide_focus: >-
+    Each guide focuses on a different intent, with practical setup ideas and links to related countdown
+    pages.
+  create_own: Create your own countdown.
+  breadcrumb_ideas: Countdown Ideas
+  guide_default_kicker: Countdown guide
+  why_it_helps: Why it helps
+  benefits_default_heading: A countdown that fits the moment.
+  how_to_use: How to use it
+  steps_default_heading: Create the countdown in minutes.
+  steps_intro: Start with the date, then make the timer useful everywhere you check your day.
+  faq: FAQ
+  common_questions: Common questions
+  more_ideas: More countdown ideas
+  related_heading: Build the next timer on your list.
+  cta_default_heading: Make the date feel closer.
+  aside_bullets:
+  - Widgets for Home Screen and Lock Screen
+  - Custom units, colours, lists, and notifications
+  - iCloud sync across Apple devices
+  guide_meta_title: TOPIC App for iPhone, iPad, Mac, and Apple Watch
+  guide_description: TOPIC with widgets, reminders, custom colours, lists, and iCloud sync.
+  guide_h1: A TOPIC_LOWER for the dates that matter
+  guide_hero: >-
+    Track TOPIC_LOWER and related dates with widgets, reminders, flexible units, colours, and lists across
+    your Apple devices.
+  guide_benefits_heading: Keep the date visible and organised.
+  benefit_titles:
+  - Glanceable countdowns
+  - Flexible planning
+  - Personal setup
+  benefit_descriptions:
+  - Put important dates on your Home Screen, Lock Screen, Apple Watch, iPad, and Mac.
+  - Track the main date plus reminders, milestones, travel, deadlines, and repeat schedules.
+  - Choose units, colours, icons, lists, and notifications that fit the event.
+  guide_steps_heading: Set up your countdown.
+  step_titles:
+  - Add the date
+  - Customise the countdown
+  - Keep it visible
+  step_descriptions:
+  - Create the countdown with the day and time that matter.
+  - Choose display units, colours, icons, lists, and reminders.
+  - Add widgets or Apple Watch complications for quick checks.
+  guide_faq_heading: TOPIC questions
+  faq_questions:
+  - Can I track more than one related date?
+  - Can I put the countdown on my Home Screen or Lock Screen?
+  - Can I customise the countdown?
+  faq_answers:
+  - Yes. You can create unlimited countdowns and organise them into lists.
+  - Yes. Countdowns supports Home Screen widgets, Lock Screen widgets, and Apple Watch complications.
+  - Yes. You can customise units, colours, icons, lists, notifications, and more.
+  guide_body_h2_1: Keep the important date in sight
+  guide_body_p1: >-
+    A countdown works best when it is easy to see. Countdowns turns TOPIC_LOWER into a timer you can check
+    on the screens you already use each day.
+  guide_body_p2: >-
+    Create one timer for the main date, then add related milestones, reminders, and planning dates so
+    everything stays together.
+  guide_body_h2_2: Make it fit your plan
+  guide_body_p3: >-
+    Choose years, months, weeks, days, hours, minutes, or seconds. Use colours, icons, lists, widgets,
+    notifications, and archive tools to keep each countdown useful before and after the date arrives.
+  guide_cta_heading: Start your TOPIC_LOWER today.
+  guide_cta_text: Download Countdowns and keep the next important date visible.
+
+en-AU:
+  menu: Menu
+  breadcrumb_label: Breadcrumb
+  on_this_page: On this page
+  app_highlights_label: APP_NAME highlights
+  home_widgets_preview_label: APP_NAME Home Screen widgets preview
+  countdown_examples_label: Popular countdown examples
+  skip: Skip to content
+  home: Home
+  primary_nav: Primary
+  features: Features
+  widgets: Widgets
+  ideas: Ideas
+  press_kit: Press Kit
+  download: Download
+  support: Help Centre
+  policies: Policies
+  company_links: Company links
+  made_by: Made by
+  language: Language
+  download_badge: Download on the App Store
+  app_description: >-
+    Countdowns helps you count down to important moments, or count up from meaningful dates, on iPhone,
+    iPad, Mac, and Apple Watch. Perfect for birthdays, holidays, weddings, anniversaries, trips, retirement,
+    and more!
+  title_suffix: Countdown timers for Apple devices
+  hero_eyebrow: For iPhone, iPad, Mac, and Apple Watch
+  hero_lead: >-
+    Count down to what is next, or count up from what changed. Build customisable timers for birthdays,
+    holidays, habits, trips, game days, and everything else worth tracking.
+  free: Free
+  download_label: download
+  languages_label: languages
+  home_lock_screen: Home + Lock Screen
+  examples:
+  - Weddings
+  - Birthdays
+  - Holidays
+  - Retirement
+  - Game Day
+  - New Habits
+  widgets_kicker: Widgets everywhere
+  widgets_heading: Keep the moments that matter where you can see them.
+  widgets_body: >-
+    Put countdowns on your Home Screen and Lock Screen, then choose the style that fits the occasion.
+    Big events, custom recurring schedules, and favourite lists all stay glanceable.
+  widget_bullets:
+  - Home Screen widgets for favourite countdowns and lists.
+  - Lock Screen widgets for quick progress checks.
+  - Apple Watch support with complications.
+  features_kicker: Built for real life
+  features_heading: Flexible enough for every kind of timer.
+  features_body: >-
+    Track celebrations, deadlines, routines, and milestones with the controls that make each countdown
+    feel personal.
+  feature_titles:
+  - Unlimited Countdowns
+  - Widgets
+  - Customisable Units
+  - Recurring Events
+  - Event Import
+  - iCloud Sync
+  - Notifications
+  - Lists
+  - Archive
+  - Siri Shortcuts
+  - Apple Watch
+  - Localised
+  feature_descriptions:
+  - Create unlimited countdowns that count down to future dates or count up from past milestones
+  - See countdowns right on your Home Screen or Lock Screen
+  - Show years, months, weeks, days, hours, minutes, seconds, or any mix that fits the event
+  - Build simple repeats or advanced recurring schedules for dates that keep coming back
+  - Import dates from Calendar, Contacts, and Reminders
+  - Sync countdowns and lists across your devices
+  - Choose when to be reminded before each countdown
+  - Organise countdowns into custom lists
+  - Keep and view past countdowns
+  - Use Shortcuts to check countdowns with your voice
+  - View countdowns on Apple Watch with complications
+  - Available in 33 languages
+  personal_kicker: Personal by default
+  personal_heading: Choose the units, colours, icons, lists, and notifications that fit the event.
+  personal_body: >-
+    Count in years, months, weeks, days, hours, minutes, or seconds. Import dates from Calendar, Contacts,
+    and Reminders, organise countdowns into lists, and keep everything synced across devices.
+  mini_titles:
+  - Recurring events
+  - Custom notifications
+  - Archive
+  mini_bodies:
+  - Create simple repeats or advanced recurring schedules for the dates that keep coming back.
+  - Choose when to be reminded before a countdown arrives.
+  - Keep past countdowns without cluttering the main list.
+  pricing_kicker: Free to start
+  pricing_heading: Download Countdowns for free.
+  pricing_body: >-
+    Optional monthly, annual, and one-time purchases unlock additional features like iCloud sync, compact
+    mode, lists, directional indicators, custom sounds, and archive.
+  ideas_kicker: Countdown ideas
+  ideas_heading: Plan every kind of countdown from one app.
+  ideas_body: >-
+    Build timers for the moments people ask about most, then customise each one with the units, colours,
+    widgets, lists, and notifications that fit the event.
+  browse_all_ideas: Browse All Ideas
+  start_counting: Start counting
+  home_cta_heading: Make the next big day feel closer.
+  ideas_title: Countdown Ideas
+  ideas_meta_title: Countdown Ideas for Weddings, Birthdays, Holidays, Celebrations, and Events
+  ideas_description: >-
+    Browse countdown ideas for weddings, birthdays, holidays, celebrations, anniversaries, retirement,
+    widgets, and more.
+  ideas_index_heading: Countdown ideas for every date worth tracking
+  ideas_index_body: >-
+    Explore ways to use Countdowns for celebrations, trips, milestones, holidays, widgets, and the everyday
+    dates you want to keep visible.
+  browse_all: Browse all
+  choose_type: Choose a countdown type to start with.
+  guide_focus: >-
+    Each guide focuses on a different intent, with practical setup ideas and links to related countdown
+    pages.
+  create_own: Create your own countdown.
+  breadcrumb_ideas: Countdown Ideas
+  guide_default_kicker: Countdown guide
+  why_it_helps: Why it helps
+  benefits_default_heading: A countdown that fits the moment.
+  how_to_use: How to use it
+  steps_default_heading: Create the countdown in minutes.
+  steps_intro: Start with the date, then make the timer useful everywhere you check your day.
+  faq: FAQ
+  common_questions: Common questions
+  more_ideas: More countdown ideas
+  related_heading: Build the next timer on your list.
+  cta_default_heading: Make the date feel closer.
+  aside_bullets:
+  - Widgets for Home Screen and Lock Screen
+  - Custom units, colours, lists, and notifications
+  - iCloud sync across Apple devices
+  guide_meta_title: TOPIC App for iPhone, iPad, Mac, and Apple Watch
+  guide_description: TOPIC with widgets, reminders, custom colours, lists, and iCloud sync.
+  guide_h1: A TOPIC_LOWER for the dates that matter
+  guide_hero: >-
+    Track TOPIC_LOWER and related dates with widgets, reminders, flexible units, colours, and lists across
+    your Apple devices.
+  guide_benefits_heading: Keep the date visible and organised.
+  benefit_titles:
+  - Glanceable countdowns
+  - Flexible planning
+  - Personal setup
+  benefit_descriptions:
+  - Put important dates on your Home Screen, Lock Screen, Apple Watch, iPad, and Mac.
+  - Track the main date plus reminders, milestones, travel, deadlines, and repeat schedules.
+  - Choose units, colours, icons, lists, and notifications that fit the event.
+  guide_steps_heading: Set up your countdown.
+  step_titles:
+  - Add the date
+  - Customise the countdown
+  - Keep it visible
+  step_descriptions:
+  - Create the countdown with the day and time that matter.
+  - Choose display units, colours, icons, lists, and reminders.
+  - Add widgets or Apple Watch complications for quick checks.
+  guide_faq_heading: TOPIC questions
+  faq_questions:
+  - Can I track more than one related date?
+  - Can I put the countdown on my Home Screen or Lock Screen?
+  - Can I customise the countdown?
+  faq_answers:
+  - Yes. You can create unlimited countdowns and organise them into lists.
+  - Yes. Countdowns supports Home Screen widgets, Lock Screen widgets, and Apple Watch complications.
+  - Yes. You can customise units, colours, icons, lists, notifications, and more.
+  guide_body_h2_1: Keep the important date in sight
+  guide_body_p1: >-
+    A countdown works best when it is easy to see. Countdowns turns TOPIC_LOWER into a timer you can check
+    on the screens you already use each day.
+  guide_body_p2: >-
+    Create one timer for the main date, then add related milestones, reminders, and planning dates so
+    everything stays together.
+  guide_body_h2_2: Make it fit your plan
+  guide_body_p3: >-
+    Choose years, months, weeks, days, hours, minutes, or seconds. Use colours, icons, lists, widgets,
+    notifications, and archive tools to keep each countdown useful before and after the date arrives.
+  guide_cta_heading: Start your TOPIC_LOWER today.
+  guide_cta_text: Download Countdowns and keep the next important date visible.

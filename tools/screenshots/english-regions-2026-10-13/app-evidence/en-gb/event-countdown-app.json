@@ -1,0 +1,97 @@
+{
+  "locale": "en-GB",
+  "scene": "event-countdown-app",
+  "surface": "app",
+  "device": "iPhone 17 Pro",
+  "os": "iOS 27.0",
+  "simulator": "2F1475EC-A8A5-4627-B5FA-E2D4841516AC",
+  "sourceCommit": "665bf5999e8758227bb924daf5c738aec6b0270e",
+  "referenceDate": "2026-10-13",
+  "captureStartedAt": "2026-10-14T00:42:58.177319+00:00",
+  "capturedAt": "2026-10-14T00:43:04.853936+00:00",
+  "width": 1206,
+  "height": 2622,
+  "imageSHA256": "74ba335de11031327cd539ef1ebcb56ba726703f00d980d32791a7bb38bdea2b",
+  "fixtureSHA256": "b255f2c6161031bc61642c200d56df9698472380cb29365bf8e1177b0ae69713",
+  "launchArguments": [
+    "-AppleLanguages",
+    "(en-GB)",
+    "-AppleLocale",
+    "en_GB",
+    "-isProUserKey",
+    "YES",
+    "-isLifetimeUserKey",
+    "YES"
+  ],
+  "nativeProof": {
+    "appBuild": "1",
+    "appVersion": "12.2.2",
+    "capturePreparedAt": "2026-10-14T00:43:02Z",
+    "columns": 1,
+    "compactModeStyle": 3,
+    "currentLocaleIdentifier": "en_GB",
+    "dateStyle": 2,
+    "events": [
+      {
+        "id": "website-event-1",
+        "name": "Concert Night"
+      }
+    ],
+    "isLifetimeUser": true,
+    "isProUser": true,
+    "preferredLocalizations": [
+      "en-GB",
+      "en"
+    ],
+    "requestedLocale": "en-GB",
+    "scene": "event-countdown-app",
+    "screen": "editor",
+    "settings": {
+      "archive": false,
+      "archiveOnCompletion": false,
+      "compact": true,
+      "countdownEndNotifications": false,
+      "hideTimeIfMidnight": true,
+      "iCloudSync": false,
+      "listsEnabled": false,
+      "showDates": false,
+      "showDirection": false,
+      "sortByDate": false
+    },
+    "theme": "light",
+    "timeStyle": 1,
+    "widgetConfiguration": {
+      "directionIndicators": false,
+      "homeSelectedIDs": {
+        "systemLarge": [
+          "website-event-1"
+        ],
+        "systemMedium": [
+          "website-event-1"
+        ],
+        "systemSmall": [
+          "website-event-1"
+        ]
+      },
+      "homeThemes": {
+        "systemLarge": "custom",
+        "systemMedium": "blue",
+        "systemSmall": "purple"
+      },
+      "locale": "en-GB",
+      "lockSelectedIDs": {
+        "accessoryCircular": "website-event-1",
+        "accessoryInline": "website-event-1",
+        "accessoryRectangular": "website-event-1"
+      },
+      "renderingVerified": false,
+      "scene": "event-countdown-app",
+      "selectedIDs": [
+        "website-event-1"
+      ],
+      "showBackground": true,
+      "showDates": false,
+      "showList": false
+    }
+  }
+}

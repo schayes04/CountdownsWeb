@@ -1,0 +1,57 @@
+{
+  "scene": "pregnancy-countdown-app",
+  "locale": "en-GB",
+  "screen": "list",
+  "compact": true,
+  "listsEnabled": false,
+  "showDates": false,
+  "showDirection": false,
+  "lists": [],
+  "events": [
+    {
+      "name": "Baby Arrives",
+      "emoji": "👶",
+      "date": "2027-02-19",
+      "units": [
+        "2",
+        "3"
+      ],
+      "listId": null,
+      "colorIndex": 2,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-1"
+    },
+    {
+      "name": "Next Ultrasound",
+      "emoji": "🩺",
+      "date": "2026-10-29",
+      "units": [
+        "2",
+        "3"
+      ],
+      "listId": null,
+      "colorIndex": 1,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-2"
+    },
+    {
+      "name": "Baby Shower",
+      "emoji": "🧸",
+      "date": "2026-12-25",
+      "units": [
+        "2",
+        "3"
+      ],
+      "listId": null,
+      "colorIndex": 9,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-3"
+    }
+  ]
+}

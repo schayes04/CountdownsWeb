@@ -7,6 +7,29 @@
   app_name: Countdowns
   html_lang: en-US
   dir: ltr
+- code: en-CA
+  folder: en-ca
+  name: English (Canada)
+  native_name: English (Canada)
+  app_name: Countdowns
+  html_lang: en-CA
+  dir: ltr
+
+- code: en-GB
+  folder: en-gb
+  name: English (UK)
+  native_name: English (UK)
+  app_name: Countdowns
+  html_lang: en-GB
+  dir: ltr
+
+- code: en-AU
+  folder: en-au
+  name: English (Australia)
+  native_name: English (Australia)
+  app_name: Countdowns
+  html_lang: en-AU
+  dir: ltr
 - code: ar
   folder: ar
   name: Arabic

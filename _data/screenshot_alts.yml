@@ -723,3 +723,72 @@ uk:
     відліку.
   christmas-countdown-app: Відліки — Відлік до Різдва. Віджети екрана блокування з
     майбутніми подіями.
+
+en-CA:
+  normal-display: Detailed countdown list in Countdowns showing time remaining until upcoming events.
+  compact-display: Compact countdown list in Countdowns with multiple events visible at a glance.
+  colors: Colourful countdown list in Countdowns with distinct colours for different events.
+  editing: Countdown editor in Countdowns with event name, date, and customization options.
+  settings: Countdowns settings showing lifetime Pro access.
+  home-screen-widgets: Countdowns widgets on the iPhone Home Screen showing time until upcoming events.
+  lock-screen-widgets: Countdowns widgets on the iPhone Lock Screen showing time until upcoming events.
+  wedding-countdown-app: Countdowns widgets on the iPhone Home Screen counting down to the wedding and
+    honeymoon.
+  vacation-countdown-app: Countdowns widgets on the iPhone Home Screen counting down to a vacation and
+    flight.
+  anniversary-countdown-app: >-
+    Countdowns widgets on the iPhone Home Screen showing time together and counting down to an anniversary.
+  theme-park-trip-countdown-app: Countdowns widgets on the iPhone Home Screen counting down to a theme
+    park trip.
+  birthday-countdown-app: Colourful birthday and birthday party countdowns in Countdowns.
+  holiday-countdown-app: Colourful holiday countdowns in Countdowns.
+  retirement-countdown-app: Detailed retirement and last-workday countdowns in Countdowns.
+  pregnancy-countdown-app: Pregnancy countdowns in Countdowns showing weeks and days until the baby arrives.
+  event-countdown-app: Event editor in Countdowns with date and countdown customization options.
+  christmas-countdown-app: Countdowns widgets on the iPhone Lock Screen counting down to Christmas.
+
+en-GB:
+  normal-display: Detailed countdown list in Countdowns showing time remaining until upcoming events.
+  compact-display: Compact countdown list in Countdowns with multiple events visible at a glance.
+  colors: Colourful countdown list in Countdowns with distinct colours for different events.
+  editing: Countdown editor in Countdowns with event name, date, and customisation options.
+  settings: Countdowns settings showing lifetime Pro access.
+  home-screen-widgets: Countdowns widgets on the iPhone Home Screen showing time until upcoming events.
+  lock-screen-widgets: Countdowns widgets on the iPhone Lock Screen showing time until upcoming events.
+  wedding-countdown-app: Countdowns widgets on the iPhone Home Screen counting down to the wedding and
+    honeymoon.
+  vacation-countdown-app: Countdowns widgets on the iPhone Home Screen counting down to a holiday and
+    flight.
+  anniversary-countdown-app: >-
+    Countdowns widgets on the iPhone Home Screen showing time together and counting down to an anniversary.
+  theme-park-trip-countdown-app: Countdowns widgets on the iPhone Home Screen counting down to a theme
+    park trip.
+  birthday-countdown-app: Colourful birthday and birthday party countdowns in Countdowns.
+  holiday-countdown-app: Colourful holiday countdowns in Countdowns.
+  retirement-countdown-app: Detailed retirement and last-workday countdowns in Countdowns.
+  pregnancy-countdown-app: Pregnancy countdowns in Countdowns showing weeks and days until the baby arrives.
+  event-countdown-app: Event editor in Countdowns with date and countdown customisation options.
+  christmas-countdown-app: Countdowns widgets on the iPhone Lock Screen counting down to Christmas.
+
+en-AU:
+  normal-display: Detailed countdown list in Countdowns showing time remaining until upcoming events.
+  compact-display: Compact countdown list in Countdowns with multiple events visible at a glance.
+  colors: Colourful countdown list in Countdowns with distinct colours for different events.
+  editing: Countdown editor in Countdowns with event name, date, and customisation options.
+  settings: Countdowns settings showing lifetime Pro access.
+  home-screen-widgets: Countdowns widgets on the iPhone Home Screen showing time until upcoming events.
+  lock-screen-widgets: Countdowns widgets on the iPhone Lock Screen showing time until upcoming events.
+  wedding-countdown-app: Countdowns widgets on the iPhone Home Screen counting down to the wedding and
+    honeymoon.
+  vacation-countdown-app: Countdowns widgets on the iPhone Home Screen counting down to a holiday and
+    flight.
+  anniversary-countdown-app: >-
+    Countdowns widgets on the iPhone Home Screen showing time together and counting down to an anniversary.
+  theme-park-trip-countdown-app: Countdowns widgets on the iPhone Home Screen counting down to a theme
+    park trip.
+  birthday-countdown-app: Colourful birthday and birthday party countdowns in Countdowns.
+  holiday-countdown-app: Colourful holiday countdowns in Countdowns.
+  retirement-countdown-app: Detailed retirement and last-workday countdowns in Countdowns.
+  pregnancy-countdown-app: Pregnancy countdowns in Countdowns showing weeks and days until the baby arrives.
+  event-countdown-app: Event editor in Countdowns with date and countdown customisation options.
+  christmas-countdown-app: Countdowns widgets on the iPhone Lock Screen counting down to Christmas.

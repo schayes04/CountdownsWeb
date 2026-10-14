@@ -1,0 +1,63 @@
+{
+  "scene": "normal-display",
+  "locale": "en-AU",
+  "screen": "list",
+  "compact": false,
+  "listsEnabled": false,
+  "showDates": false,
+  "showDirection": false,
+  "lists": [],
+  "events": [
+    {
+      "name": "Birthday",
+      "emoji": "🎂",
+      "date": "1988-11-12",
+      "units": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "listId": null,
+      "colorIndex": null,
+      "allowsCountUp": false,
+      "repeatYearly": true,
+      "showOccurrenceNumber": true,
+      "id": "website-event-1"
+    },
+    {
+      "name": "Holiday",
+      "emoji": "✈️",
+      "date": "2026-12-12",
+      "units": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "listId": null,
+      "colorIndex": null,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-2"
+    },
+    {
+      "name": "Our Wedding",
+      "emoji": "💍",
+      "date": "2027-01-31",
+      "units": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "listId": null,
+      "colorIndex": null,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-3"
+    }
+  ]
+}

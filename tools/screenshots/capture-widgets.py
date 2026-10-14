@@ -398,7 +398,7 @@ def refresh_lock_wallpaper(args):
     env = {key: value for key, value in os.environ.items() if not key.startswith("SIMCTL_CHILD_")}
     commands = [
         ["touch", "-x", "201", "-y", "430", "--down", "--up", "--delay", "1.5"],
-        ["tap", "-x", "201", "-y", "430", "--tap-style", "physical", "--post-delay", "2"],
+        ["touch", "-x", "201", "-y", "430", "--down", "--up", "--delay", "0.1"],
     ]
     for command in commands:
         for attempt in range(3):

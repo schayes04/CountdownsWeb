@@ -442,3 +442,45 @@ uk:
   event-countdown-app: Відлік до події
   iphone-countdown-widget: Віджет відліку для iPhone
   lock-screen-countdown-widget: Віджет відліку на екрані блокування
+
+en-CA:
+  wedding-countdown-app: Wedding countdown
+  birthday-countdown-app: Birthday countdown
+  vacation-countdown-app: Vacation countdown
+  retirement-countdown-app: Retirement countdown
+  holiday-countdown-app: Holiday countdown
+  anniversary-countdown-app: Anniversary countdown
+  christmas-countdown-app: Christmas countdown
+  theme-park-trip-countdown-app: Theme park trip countdown
+  pregnancy-countdown-app: Pregnancy countdown
+  event-countdown-app: Event countdown
+  iphone-countdown-widget: iPhone countdown widget
+  lock-screen-countdown-widget: Lock Screen countdown widget
+
+en-GB:
+  wedding-countdown-app: Wedding countdown
+  birthday-countdown-app: Birthday countdown
+  vacation-countdown-app: Holiday countdown
+  retirement-countdown-app: Retirement countdown
+  holiday-countdown-app: Seasonal celebration countdown
+  anniversary-countdown-app: Anniversary countdown
+  christmas-countdown-app: Christmas countdown
+  theme-park-trip-countdown-app: Theme park trip countdown
+  pregnancy-countdown-app: Pregnancy countdown
+  event-countdown-app: Event countdown
+  iphone-countdown-widget: iPhone countdown widget
+  lock-screen-countdown-widget: Lock Screen countdown widget
+
+en-AU:
+  wedding-countdown-app: Wedding countdown
+  birthday-countdown-app: Birthday countdown
+  vacation-countdown-app: Holiday countdown
+  retirement-countdown-app: Retirement countdown
+  holiday-countdown-app: Seasonal celebration countdown
+  anniversary-countdown-app: Anniversary countdown
+  christmas-countdown-app: Christmas countdown
+  theme-park-trip-countdown-app: Theme park trip countdown
+  pregnancy-countdown-app: Pregnancy countdown
+  event-countdown-app: Event countdown
+  iphone-countdown-widget: iPhone countdown widget
+  lock-screen-countdown-widget: Lock Screen countdown widget

@@ -1,0 +1,61 @@
+---
+title: Holiday Countdown App
+meta_title: Holiday Countdown App for Trips, Travel Dates, and Widgets
+description: >-
+  Count down to holidays, flights, hotel check-ins, and travel plans with customisable widgets and notifications.
+permalink: "/en-gb/vacation-countdown-app/"
+slug: vacation-countdown-app
+nav_order: 30
+short_title: Holiday countdown
+kicker: Holiday countdown
+card_description: Track the trip date, departure time, packing deadlines, and return home.
+h1: A holiday countdown app for the trip you keep thinking about
+hero_copy: >-
+  Count down to flights, road trips, hotel check-ins, cruises, and family holidays with widgets and reminders.
+benefits_heading: Turn travel anticipation into a useful plan.
+benefits:
+- title: Multiple trip dates
+  description: Track departure, check-in, park days, cruise boarding, and the return home as separate
+    countdowns.
+- title: Packing reminders
+  description: Set notifications before the trip so travel tasks do not wait until the last night.
+- title: Widgets for excitement
+  description: Keep the holiday countdown on the Home Screen or Lock Screen while the date gets closer.
+steps_heading: Create a travel countdown setup.
+steps:
+- title: Start with departure
+  description: Add the first travel date, flight time, or road trip departure.
+- title: Add trip milestones
+  description: Create extra countdowns for hotels, activities, tickets, or packing.
+- title: Share the visibility
+  description: Put the countdown on devices you check every day before the trip.
+faq_heading: Holiday countdown questions
+faq:
+- question: Can I track more than one date for a holiday?
+  answer: Yes. You can create separate countdowns for each travel milestone.
+- question: Can I count down in hours instead of days?
+  answer: >-
+    Yes. Choose the units that fit the trip, from years and months to weeks, days, hours, minutes, and
+    seconds.
+- question: Can I use Countdowns on Mac while planning?
+  answer: Countdowns is designed for iOS and macOS, so it can fit both mobile and desktop planning.
+related_pages:
+- theme-park-trip-countdown-app
+- holiday-countdown-app
+- event-countdown-app
+cta_heading: Make the trip feel closer.
+cta_text: Download Countdowns and keep your next holiday in view.
+layout: regional-guide
+locale: en-GB
+canonical_key: vacation-countdown-app
+include_software_schema: true
+---
+## Count down to the parts of the trip that matter
+
+A holiday is rarely one date. There may be a flight, hotel check-in, park reservation, cruise boarding, tour, family visit, and a return date. Countdowns lets you track those moments separately so the trip feels organised instead of abstract.
+
+Use days and weeks early in planning, then switch to hours or minutes when departure is close. Widgets help keep the date visible without opening the app.
+
+## Helpful before and during travel
+
+Countdowns can act as both anticipation and planning support. Set reminders for packing, documents, pet care, or leaving for the airport. After the trip, archive the countdowns so they do not clutter the next plan.

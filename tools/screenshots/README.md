@@ -1,7 +1,7 @@
 # Version 12 website screenshots
 
 Reproduce real native captures with Python 3's standard library and Xcode's
-Simulator tools. This is not a publishing pipeline. The complete asset set contains
+Simulator tools. This is not a publishing pipeline. The original asset set contains
 **34 locales × 17 scenes = 578 PNGs**: 340 app, 170 Home widget, and 68 Lock widget
 captures. The September 2026 addition contributes 187 genuine captures across
 `cs fil el he hu id ms ro th vi uk`, all with lifetime Pro access. Historical
@@ -18,6 +18,26 @@ builds, source-archive hashes, signing verification, and installed binary hashes
 Baseline app-only captures predate widget timeline instrumentation; their main Debug
 dylib matches the baseline widget-capture build. The revised Arabic and new Hindi
 images use their own binary proof. No deployment or publishing is part of this workflow.
+
+## October 13, 2026: regional English
+
+The site now has **37 locale variants × 17 scenes = 629 references**, backed by
+**601 unique native PNGs**. Canada adds three captures; UK and Australia add ten
+each. The other 28 regional references point directly to the original English
+files and their existing responsive derivatives. Original English assets remain
+unchanged.
+
+The regional capture app is version **12.2.2**. The current app helper checks this
+version, and the fixture generator includes `en-CA`, `en-GB`, and `en-AU`. Use
+`--locales en-CA,en-GB,en-AU` to reproduce the regional fixtures. The explicit
+`REUSED_ENGLISH_SCENES` map preserves intentional shared paths.
+
+See [`english-regions-2026-10-13/`](english-regions-2026-10-13/) for the audit,
+binary/source provenance, native capture notes, and new-image hashes. The original
+`capture-manifest.json` remains historical evidence for the 578 original captures.
+Historical counts and versions in the sections below refer to those earlier batches.
+The current screenshot validator checks all 629 references and 518 image-bearing
+routes, including regional reuse.
 
 ## September 17, 2026: eleven additional languages
 

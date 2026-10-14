@@ -1,0 +1,54 @@
+{
+  "scene": "birthday-countdown-app",
+  "locale": "en-AU",
+  "screen": "list",
+  "compact": true,
+  "listsEnabled": false,
+  "showDates": false,
+  "showDirection": false,
+  "lists": [],
+  "events": [
+    {
+      "name": "Birthday",
+      "emoji": "🎂",
+      "date": "1988-11-12",
+      "units": [
+        "3"
+      ],
+      "listId": null,
+      "colorIndex": 1,
+      "allowsCountUp": false,
+      "repeatYearly": true,
+      "showOccurrenceNumber": true,
+      "id": "website-event-1"
+    },
+    {
+      "name": "Birthday Party",
+      "emoji": "🎉",
+      "date": "2026-11-13",
+      "units": [
+        "3"
+      ],
+      "listId": null,
+      "colorIndex": 9,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-2"
+    },
+    {
+      "name": "Time to Celebrate",
+      "emoji": "🥳",
+      "date": "2026-11-13",
+      "units": [
+        "3"
+      ],
+      "listId": null,
+      "colorIndex": 6,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-3"
+    }
+  ]
+}

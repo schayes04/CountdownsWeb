@@ -1,0 +1,332 @@
+{
+  "status": "complete",
+  "nativeCaptureCount": 23,
+  "reusedMappings": 28,
+  "originalEnglishPNGsUnchanged": true,
+  "sourceCommit": "665bf5999e8758227bb924daf5c738aec6b0270e",
+  "pixelEdits": false,
+  "records": [
+    {
+      "locale": "en-CA",
+      "scene": "editing",
+      "path": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/raw/en-ca/editing.png",
+      "sha256": "f42e8ddc6c458fda7a50009ec4a163069d200f41e4d81ad9ec94208f7e3cab9f",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "evidence": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/support/app-evidence/en-ca/editing.json",
+      "nativeProofValidated": true,
+      "visualQA": "passed",
+      "capturedAt": "2026-10-14T00:41:57.329150+00:00"
+    },
+    {
+      "locale": "en-CA",
+      "scene": "event-countdown-app",
+      "path": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/raw/en-ca/event-countdown-app.png",
+      "sha256": "ce9f6d3a931b9c2db4919ec7cdd49b2bb0265b2fa15e5778f78ecfd9736e8edf",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "evidence": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/support/app-evidence/en-ca/event-countdown-app.json",
+      "nativeProofValidated": true,
+      "visualQA": "passed",
+      "capturedAt": "2026-10-14T00:42:11.199148+00:00"
+    },
+    {
+      "locale": "en-CA",
+      "scene": "settings",
+      "path": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/raw/en-ca/settings.png",
+      "sha256": "ddb62d357156cc6735346aa231d09f4670021574c0dda419bc6522c091ce4835",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "evidence": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/support/app-evidence/en-ca/settings.json",
+      "nativeProofValidated": true,
+      "visualQA": "passed",
+      "capturedAt": "2026-10-14T00:42:04.146586+00:00"
+    },
+    {
+      "locale": "en-GB",
+      "scene": "christmas-countdown-app",
+      "path": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/raw/en-gb/christmas-countdown-app.png",
+      "sha256": "0a83ed21b1c69a3b927a671ebd28351e284a46e3b182c5acbbaa4f8003d63ea7",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "evidence": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/support/widget-evidence/en-gb/christmas-countdown-app.json",
+      "nativeProofValidated": true,
+      "visualQA": "passed",
+      "capturedAt": "2026-10-14T00:46:50.462430+00:00"
+    },
+    {
+      "locale": "en-GB",
+      "scene": "colors",
+      "path": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/raw/en-gb/colors.png",
+      "sha256": "daa606949f4b4a342635fd5731a0eb2d68eec261bbd5f2deb005d9441e2290f9",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "evidence": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/support/app-evidence/en-gb/colors.json",
+      "nativeProofValidated": true,
+      "visualQA": "passed",
+      "capturedAt": "2026-10-14T00:42:45.188981+00:00"
+    },
+    {
+      "locale": "en-GB",
+      "scene": "compact-display",
+      "path": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/raw/en-gb/compact-display.png",
+      "sha256": "b5b46f5a1570804a00051bf4194fce430b850eb22729c128e7e2b9259caa13e8",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "evidence": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/support/app-evidence/en-gb/compact-display.json",
+      "nativeProofValidated": true,
+      "visualQA": "passed",
+      "capturedAt": "2026-10-14T00:42:38.828369+00:00"
+    },
+    {
+      "locale": "en-GB",
+      "scene": "editing",
+      "path": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/raw/en-gb/editing.png",
+      "sha256": "4c3a0e8ef644a36e87cc0e07f9d09ce9581902f16de24694f09bbd38cb3358b4",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "evidence": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/support/app-evidence/en-gb/editing.json",
+      "nativeProofValidated": true,
+      "visualQA": "passed",
+      "capturedAt": "2026-10-14T00:42:51.785646+00:00"
+    },
+    {
+      "locale": "en-GB",
+      "scene": "event-countdown-app",
+      "path": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/raw/en-gb/event-countdown-app.png",
+      "sha256": "74ba335de11031327cd539ef1ebcb56ba726703f00d980d32791a7bb38bdea2b",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "evidence": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/support/app-evidence/en-gb/event-countdown-app.json",
+      "nativeProofValidated": true,
+      "visualQA": "passed",
+      "capturedAt": "2026-10-14T00:43:04.853936+00:00"
+    },
+    {
+      "locale": "en-GB",
+      "scene": "home-screen-widgets",
+      "path": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/raw/en-gb/home-screen-widgets.png",
+      "sha256": "51a21d04708b9fe2b475949b08e8f332c53dacda1224a827a13d19fb0337f823",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "evidence": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/support/widget-evidence/en-gb/home-screen-widgets.json",
+      "nativeProofValidated": true,
+      "visualQA": "passed",
+      "capturedAt": "2026-10-14T00:45:38.736677+00:00"
+    },
+    {
+      "locale": "en-GB",
+      "scene": "lock-screen-widgets",
+      "path": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/raw/en-gb/lock-screen-widgets.png",
+      "sha256": "51bb62746c5938f766153e42833231123b4ef7484b573b7f73e1bc48fb32b2a9",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "evidence": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/support/widget-evidence/en-gb/lock-screen-widgets.json",
+      "nativeProofValidated": true,
+      "visualQA": "passed",
+      "capturedAt": "2026-10-14T00:46:18.576732+00:00"
+    },
+    {
+      "locale": "en-GB",
+      "scene": "normal-display",
+      "path": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/raw/en-gb/normal-display.png",
+      "sha256": "df14d9cda867ad63b7baa4773a85564656ae8b380bdf94a2000ba77202a76969",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "evidence": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/support/app-evidence/en-gb/normal-display.json",
+      "nativeProofValidated": true,
+      "visualQA": "passed",
+      "capturedAt": "2026-10-14T00:42:32.343154+00:00"
+    },
+    {
+      "locale": "en-GB",
+      "scene": "settings",
+      "path": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/raw/en-gb/settings.png",
+      "sha256": "8254610b9db339e6428b114e2c8319f8a9944ce8e380a155007aaba63e3011b6",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "evidence": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/support/app-evidence/en-gb/settings.json",
+      "nativeProofValidated": true,
+      "visualQA": "passed",
+      "capturedAt": "2026-10-14T00:42:58.176127+00:00"
+    },
+    {
+      "locale": "en-GB",
+      "scene": "vacation-countdown-app",
+      "path": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/raw/en-gb/vacation-countdown-app.png",
+      "sha256": "b78edca4f6b9a8843579b1816e19607ae3e4fc954ca7fb6f4b676be27d538fe2",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "evidence": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/support/widget-evidence/en-gb/vacation-countdown-app.json",
+      "nativeProofValidated": true,
+      "visualQA": "passed",
+      "capturedAt": "2026-10-14T00:45:48.666138+00:00"
+    },
+    {
+      "locale": "en-AU",
+      "scene": "christmas-countdown-app",
+      "path": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/raw/en-au/christmas-countdown-app.png",
+      "sha256": "317a7436fb75112728eb69d7b77599092e0b10bd367ecddcdabab0ff11ab3673",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "evidence": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/support/widget-evidence/en-au/christmas-countdown-app.json",
+      "nativeProofValidated": true,
+      "visualQA": "passed",
+      "capturedAt": "2026-10-14T00:48:27.055328+00:00"
+    },
+    {
+      "locale": "en-AU",
+      "scene": "colors",
+      "path": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/raw/en-au/colors.png",
+      "sha256": "daa606949f4b4a342635fd5731a0eb2d68eec261bbd5f2deb005d9441e2290f9",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "evidence": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/support/app-evidence/en-au/colors.json",
+      "nativeProofValidated": true,
+      "visualQA": "passed",
+      "capturedAt": "2026-10-14T00:43:22.922200+00:00"
+    },
+    {
+      "locale": "en-AU",
+      "scene": "compact-display",
+      "path": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/raw/en-au/compact-display.png",
+      "sha256": "b5b46f5a1570804a00051bf4194fce430b850eb22729c128e7e2b9259caa13e8",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "evidence": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/support/app-evidence/en-au/compact-display.json",
+      "nativeProofValidated": true,
+      "visualQA": "passed",
+      "capturedAt": "2026-10-14T00:43:16.801552+00:00"
+    },
+    {
+      "locale": "en-AU",
+      "scene": "editing",
+      "path": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/raw/en-au/editing.png",
+      "sha256": "52ca6a5c6e970f33320de5577134eb5ce5e56d4b5b205e900b3d282e8f4bb9a0",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "evidence": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/support/app-evidence/en-au/editing.json",
+      "nativeProofValidated": true,
+      "visualQA": "passed",
+      "capturedAt": "2026-10-14T00:43:29.544399+00:00"
+    },
+    {
+      "locale": "en-AU",
+      "scene": "event-countdown-app",
+      "path": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/raw/en-au/event-countdown-app.png",
+      "sha256": "e7a9a35f9bf1b02eb0965891735e7792959cdd52181619d636845847feb4ed9b",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "evidence": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/support/app-evidence/en-au/event-countdown-app.json",
+      "nativeProofValidated": true,
+      "visualQA": "passed",
+      "capturedAt": "2026-10-14T00:43:42.549896+00:00"
+    },
+    {
+      "locale": "en-AU",
+      "scene": "home-screen-widgets",
+      "path": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/raw/en-au/home-screen-widgets.png",
+      "sha256": "316ad72fdaa03fc310a1dff960f0a62cf84d6b7a7a4eff5d77f7693a2aa2496d",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "evidence": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/support/widget-evidence/en-au/home-screen-widgets.json",
+      "nativeProofValidated": true,
+      "visualQA": "passed",
+      "capturedAt": "2026-10-14T00:47:15.987677+00:00"
+    },
+    {
+      "locale": "en-AU",
+      "scene": "lock-screen-widgets",
+      "path": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/raw/en-au/lock-screen-widgets.png",
+      "sha256": "2f4b38f8a101063c5da627f9d71d66e39fa349f8a42ac934f6b699edfaee1746",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "evidence": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/support/widget-evidence/en-au/lock-screen-widgets.json",
+      "nativeProofValidated": true,
+      "visualQA": "passed",
+      "capturedAt": "2026-10-14T00:47:59.520587+00:00"
+    },
+    {
+      "locale": "en-AU",
+      "scene": "normal-display",
+      "path": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/raw/en-au/normal-display.png",
+      "sha256": "d6dd90928cfd0c5dd5a6b2c480984f43bfa903e4e1bc4a6d058f58efe573a100",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "evidence": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/support/app-evidence/en-au/normal-display.json",
+      "nativeProofValidated": true,
+      "visualQA": "passed",
+      "capturedAt": "2026-10-14T00:43:10.695376+00:00"
+    },
+    {
+      "locale": "en-AU",
+      "scene": "settings",
+      "path": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/raw/en-au/settings.png",
+      "sha256": "8254610b9db339e6428b114e2c8319f8a9944ce8e380a155007aaba63e3011b6",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "evidence": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/support/app-evidence/en-au/settings.json",
+      "nativeProofValidated": true,
+      "visualQA": "passed",
+      "capturedAt": "2026-10-14T00:43:35.916393+00:00"
+    },
+    {
+      "locale": "en-AU",
+      "scene": "vacation-countdown-app",
+      "path": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/raw/en-au/vacation-countdown-app.png",
+      "sha256": "0b21228f5a0c45e33f578ee9d1398344afc17c70c7c70e3be1b8d2b120ebb4e3",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "evidence": "/Users/shayes/Developer/iOS/Countdowns/artifacts/website-english-regions/2026-10-13/support/widget-evidence/en-au/vacation-countdown-app.json",
+      "nativeProofValidated": true,
+      "visualQA": "passed",
+      "capturedAt": "2026-10-14T00:47:26.134714+00:00"
+    }
+  ]
+}

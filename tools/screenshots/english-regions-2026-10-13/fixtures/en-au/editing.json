@@ -1,0 +1,26 @@
+{
+  "scene": "editing",
+  "locale": "en-AU",
+  "screen": "editor",
+  "compact": true,
+  "listsEnabled": false,
+  "showDates": false,
+  "showDirection": false,
+  "lists": [],
+  "events": [
+    {
+      "name": "Our Wedding",
+      "emoji": "💍",
+      "date": "2027-01-31",
+      "units": [
+        "3"
+      ],
+      "listId": null,
+      "colorIndex": 7,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-1"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "referenceDate": "2026-10-13",
+  "fixtureCount": 51,
+  "scenes": [
+    "normal-display",
+    "compact-display",
+    "colors",
+    "editing",
+    "settings",
+    "home-screen-widgets",
+    "lock-screen-widgets",
+    "wedding-countdown-app",
+    "vacation-countdown-app",
+    "anniversary-countdown-app",
+    "theme-park-trip-countdown-app",
+    "birthday-countdown-app",
+    "holiday-countdown-app",
+    "retirement-countdown-app",
+    "pregnancy-countdown-app",
+    "event-countdown-app",
+    "christmas-countdown-app"
+  ],
+  "appleLocales": {
+    "en-CA": "en_CA",
+    "en-GB": "en_GB",
+    "en-AU": "en_AU"
+  },
+  "locales": {
+    "en-CA": {
+      "folder": "en-ca",
+      "fixtures": {
+        "normal-display": "en-ca/normal-display.json",
+        "compact-display": "en-ca/compact-display.json",
+        "colors": "en-ca/colors.json",
+        "settings": "en-ca/settings.json",
+        "home-screen-widgets": "en-ca/home-screen-widgets.json",
+        "lock-screen-widgets": "en-ca/lock-screen-widgets.json",
+        "editing": "en-ca/editing.json",
+        "wedding-countdown-app": "en-ca/wedding-countdown-app.json",
+        "vacation-countdown-app": "en-ca/vacation-countdown-app.json",
+        "anniversary-countdown-app": "en-ca/anniversary-countdown-app.json",
+        "theme-park-trip-countdown-app": "en-ca/theme-park-trip-countdown-app.json",
+        "birthday-countdown-app": "en-ca/birthday-countdown-app.json",
+        "holiday-countdown-app": "en-ca/holiday-countdown-app.json",
+        "retirement-countdown-app": "en-ca/retirement-countdown-app.json",
+        "pregnancy-countdown-app": "en-ca/pregnancy-countdown-app.json",
+        "event-countdown-app": "en-ca/event-countdown-app.json",
+        "christmas-countdown-app": "en-ca/christmas-countdown-app.json"
+      }
+    },
+    "en-GB": {
+      "folder": "en-gb",
+      "fixtures": {
+        "normal-display": "en-gb/normal-display.json",
+        "compact-display": "en-gb/compact-display.json",
+        "colors": "en-gb/colors.json",
+        "settings": "en-gb/settings.json",
+        "home-screen-widgets": "en-gb/home-screen-widgets.json",
+        "lock-screen-widgets": "en-gb/lock-screen-widgets.json",
+        "editing": "en-gb/editing.json",
+        "wedding-countdown-app": "en-gb/wedding-countdown-app.json",
+        "vacation-countdown-app": "en-gb/vacation-countdown-app.json",
+        "anniversary-countdown-app": "en-gb/anniversary-countdown-app.json",
+        "theme-park-trip-countdown-app": "en-gb/theme-park-trip-countdown-app.json",
+        "birthday-countdown-app": "en-gb/birthday-countdown-app.json",
+        "holiday-countdown-app": "en-gb/holiday-countdown-app.json",
+        "retirement-countdown-app": "en-gb/retirement-countdown-app.json",
+        "pregnancy-countdown-app": "en-gb/pregnancy-countdown-app.json",
+        "event-countdown-app": "en-gb/event-countdown-app.json",
+        "christmas-countdown-app": "en-gb/christmas-countdown-app.json"
+      }
+    },
+    "en-AU": {
+      "folder": "en-au",
+      "fixtures": {
+        "normal-display": "en-au/normal-display.json",
+        "compact-display": "en-au/compact-display.json",
+        "colors": "en-au/colors.json",
+        "settings": "en-au/settings.json",
+        "home-screen-widgets": "en-au/home-screen-widgets.json",
+        "lock-screen-widgets": "en-au/lock-screen-widgets.json",
+        "editing": "en-au/editing.json",
+        "wedding-countdown-app": "en-au/wedding-countdown-app.json",
+        "vacation-countdown-app": "en-au/vacation-countdown-app.json",
+        "anniversary-countdown-app": "en-au/anniversary-countdown-app.json",
+        "theme-park-trip-countdown-app": "en-au/theme-park-trip-countdown-app.json",
+        "birthday-countdown-app": "en-au/birthday-countdown-app.json",
+        "holiday-countdown-app": "en-au/holiday-countdown-app.json",
+        "retirement-countdown-app": "en-au/retirement-countdown-app.json",
+        "pregnancy-countdown-app": "en-au/pregnancy-countdown-app.json",
+        "event-countdown-app": "en-au/event-countdown-app.json",
+        "christmas-countdown-app": "en-au/christmas-countdown-app.json"
+      }
+    }
+  }
+}

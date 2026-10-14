@@ -1,0 +1,335 @@
+{
+  "createdAt": "2026-10-14T00:29:41.394465+00:00",
+  "review": "All17 English source PNGs inspected visually and compared with fixture generator/localizations and localized app strings.",
+  "matrix": {
+    "en-CA": {
+      "anniversary-countdown-app": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/anniversary-countdown-app.png",
+        "originalSHA256": "913049084bb61f6d4fec96c47dd863652e57450938918e6ee00c8efc37f17865"
+      },
+      "birthday-countdown-app": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/birthday-countdown-app.png",
+        "originalSHA256": "a00c2be80bfeeed269bc44a9e3015a237360cbbe1e2bea9d82101227f2648546"
+      },
+      "christmas-countdown-app": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/christmas-countdown-app.png",
+        "originalSHA256": "9f3b3baf8b1ec405320ae5fe9510addc714834564378ed4c37bba79aa4aa6409"
+      },
+      "colors": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/colors.png",
+        "originalSHA256": "9d5ba5cc767139f2dc8ba49bc8849a408426af21afd86017ea99740a1410b961"
+      },
+      "compact-display": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/compact-display.png",
+        "originalSHA256": "ef9f0bf6dca4b162c6beb76da88b90efbfca0cdabbe2c9e8b4f987a77589ee2c"
+      },
+      "editing": {
+        "action": "recapture",
+        "reason": "Native Colors becomes Colours; native dates follow locale.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/editing.png",
+        "originalSHA256": "370fe99ca697b50f05774c5645412eec79ea15d8ffaba6990307a8ea030f9e9d"
+      },
+      "event-countdown-app": {
+        "action": "recapture",
+        "reason": "Native Colors becomes Colours; native dates follow locale.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/event-countdown-app.png",
+        "originalSHA256": "1ec6c82c2bdbafb32578a6b9ea77fe8b5134e7b0d9b2850c36892959e84bdac6"
+      },
+      "holiday-countdown-app": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/holiday-countdown-app.png",
+        "originalSHA256": "5fd98853a49f69110503306765e2cd5fd006a23e6dcd4e029983541799dae0a6"
+      },
+      "home-screen-widgets": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/home-screen-widgets.png",
+        "originalSHA256": "ce1870bcb53427435a32af4c1e3202a224bdad4d1e40ab802540f281bc39fccb"
+      },
+      "lock-screen-widgets": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/lock-screen-widgets.png",
+        "originalSHA256": "053dc0d02011c99c4b527cfd8cb3b8a28dbaaededa2b36c033fbea5242f67477"
+      },
+      "normal-display": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/normal-display.png",
+        "originalSHA256": "bfdc17c7d7248f9f6824d9bd94c778a5c883c312fdcf2ab43c7576c5a69bb4e2"
+      },
+      "pregnancy-countdown-app": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/pregnancy-countdown-app.png",
+        "originalSHA256": "5ab81dce409389948dae27271385e8090ce721b04a6b383f8695959f84c2a65a"
+      },
+      "retirement-countdown-app": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/retirement-countdown-app.png",
+        "originalSHA256": "35b263a04aa19fd706079e2f9047163abadb5bd652ce98deba1d785ac1b6cd19"
+      },
+      "settings": {
+        "action": "recapture",
+        "reason": "Native Colors becomes Colours; UK/AU Customization becomes Customisation.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/settings.png",
+        "originalSHA256": "5306b8c9dd5c0c36f9be9019831be9e1ceea5b36a0f59b8c415b7aca53b009b9"
+      },
+      "theme-park-trip-countdown-app": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/theme-park-trip-countdown-app.png",
+        "originalSHA256": "eede259542ddf5d7123aba165d30b966fecc033792142c7ac2fdc02c16427723"
+      },
+      "vacation-countdown-app": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/vacation-countdown-app.png",
+        "originalSHA256": "c994b03fcce6cb701fb2596781b46994b4f576a46ca90c54f5a331b6aa9db268"
+      },
+      "wedding-countdown-app": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/wedding-countdown-app.png",
+        "originalSHA256": "19d745907936a760d634c373288ae45190a66ee3204a0013e99298fce3f44bcb"
+      }
+    },
+    "en-GB": {
+      "anniversary-countdown-app": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/anniversary-countdown-app.png",
+        "originalSHA256": "913049084bb61f6d4fec96c47dd863652e57450938918e6ee00c8efc37f17865"
+      },
+      "birthday-countdown-app": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/birthday-countdown-app.png",
+        "originalSHA256": "a00c2be80bfeeed269bc44a9e3015a237360cbbe1e2bea9d82101227f2648546"
+      },
+      "christmas-countdown-app": {
+        "action": "recapture",
+        "reason": "Regional medium date in rectangular widget.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/christmas-countdown-app.png",
+        "originalSHA256": "9f3b3baf8b1ec405320ae5fe9510addc714834564378ed4c37bba79aa4aa6409"
+      },
+      "colors": {
+        "action": "recapture",
+        "reason": "Vacation sample becomes Holiday (filename remains colors).",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/colors.png",
+        "originalSHA256": "9d5ba5cc767139f2dc8ba49bc8849a408426af21afd86017ea99740a1410b961"
+      },
+      "compact-display": {
+        "action": "recapture",
+        "reason": "Vacation sample becomes Holiday.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/compact-display.png",
+        "originalSHA256": "ef9f0bf6dca4b162c6beb76da88b90efbfca0cdabbe2c9e8b4f987a77589ee2c"
+      },
+      "editing": {
+        "action": "recapture",
+        "reason": "Native Colors becomes Colours; native dates follow locale.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/editing.png",
+        "originalSHA256": "370fe99ca697b50f05774c5645412eec79ea15d8ffaba6990307a8ea030f9e9d"
+      },
+      "event-countdown-app": {
+        "action": "recapture",
+        "reason": "Native Colors becomes Colours; native dates follow locale.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/event-countdown-app.png",
+        "originalSHA256": "1ec6c82c2bdbafb32578a6b9ea77fe8b5134e7b0d9b2850c36892959e84bdac6"
+      },
+      "holiday-countdown-app": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/holiday-countdown-app.png",
+        "originalSHA256": "5fd98853a49f69110503306765e2cd5fd006a23e6dcd4e029983541799dae0a6"
+      },
+      "home-screen-widgets": {
+        "action": "recapture",
+        "reason": "Vacation sample becomes Holiday in real Home widgets.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/home-screen-widgets.png",
+        "originalSHA256": "ce1870bcb53427435a32af4c1e3202a224bdad4d1e40ab802540f281bc39fccb"
+      },
+      "lock-screen-widgets": {
+        "action": "recapture",
+        "reason": "Regional medium date in rectangular widget.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/lock-screen-widgets.png",
+        "originalSHA256": "053dc0d02011c99c4b527cfd8cb3b8a28dbaaededa2b36c033fbea5242f67477"
+      },
+      "normal-display": {
+        "action": "recapture",
+        "reason": "Vacation sample becomes Holiday.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/normal-display.png",
+        "originalSHA256": "bfdc17c7d7248f9f6824d9bd94c778a5c883c312fdcf2ab43c7576c5a69bb4e2"
+      },
+      "pregnancy-countdown-app": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/pregnancy-countdown-app.png",
+        "originalSHA256": "5ab81dce409389948dae27271385e8090ce721b04a6b383f8695959f84c2a65a"
+      },
+      "retirement-countdown-app": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/retirement-countdown-app.png",
+        "originalSHA256": "35b263a04aa19fd706079e2f9047163abadb5bd652ce98deba1d785ac1b6cd19"
+      },
+      "settings": {
+        "action": "recapture",
+        "reason": "Native Colors becomes Colours; UK/AU Customization becomes Customisation.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/settings.png",
+        "originalSHA256": "5306b8c9dd5c0c36f9be9019831be9e1ceea5b36a0f59b8c415b7aca53b009b9"
+      },
+      "theme-park-trip-countdown-app": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/theme-park-trip-countdown-app.png",
+        "originalSHA256": "eede259542ddf5d7123aba165d30b966fecc033792142c7ac2fdc02c16427723"
+      },
+      "vacation-countdown-app": {
+        "action": "recapture",
+        "reason": "Vacation sample becomes Holiday in real Home widgets.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/vacation-countdown-app.png",
+        "originalSHA256": "c994b03fcce6cb701fb2596781b46994b4f576a46ca90c54f5a331b6aa9db268"
+      },
+      "wedding-countdown-app": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/wedding-countdown-app.png",
+        "originalSHA256": "19d745907936a760d634c373288ae45190a66ee3204a0013e99298fce3f44bcb"
+      }
+    },
+    "en-AU": {
+      "anniversary-countdown-app": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/anniversary-countdown-app.png",
+        "originalSHA256": "913049084bb61f6d4fec96c47dd863652e57450938918e6ee00c8efc37f17865"
+      },
+      "birthday-countdown-app": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/birthday-countdown-app.png",
+        "originalSHA256": "a00c2be80bfeeed269bc44a9e3015a237360cbbe1e2bea9d82101227f2648546"
+      },
+      "christmas-countdown-app": {
+        "action": "recapture",
+        "reason": "Regional medium date in rectangular widget.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/christmas-countdown-app.png",
+        "originalSHA256": "9f3b3baf8b1ec405320ae5fe9510addc714834564378ed4c37bba79aa4aa6409"
+      },
+      "colors": {
+        "action": "recapture",
+        "reason": "Vacation sample becomes Holiday (filename remains colors).",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/colors.png",
+        "originalSHA256": "9d5ba5cc767139f2dc8ba49bc8849a408426af21afd86017ea99740a1410b961"
+      },
+      "compact-display": {
+        "action": "recapture",
+        "reason": "Vacation sample becomes Holiday.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/compact-display.png",
+        "originalSHA256": "ef9f0bf6dca4b162c6beb76da88b90efbfca0cdabbe2c9e8b4f987a77589ee2c"
+      },
+      "editing": {
+        "action": "recapture",
+        "reason": "Native Colors becomes Colours; native dates follow locale.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/editing.png",
+        "originalSHA256": "370fe99ca697b50f05774c5645412eec79ea15d8ffaba6990307a8ea030f9e9d"
+      },
+      "event-countdown-app": {
+        "action": "recapture",
+        "reason": "Native Colors becomes Colours; native dates follow locale.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/event-countdown-app.png",
+        "originalSHA256": "1ec6c82c2bdbafb32578a6b9ea77fe8b5134e7b0d9b2850c36892959e84bdac6"
+      },
+      "holiday-countdown-app": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/holiday-countdown-app.png",
+        "originalSHA256": "5fd98853a49f69110503306765e2cd5fd006a23e6dcd4e029983541799dae0a6"
+      },
+      "home-screen-widgets": {
+        "action": "recapture",
+        "reason": "Vacation sample becomes Holiday in real Home widgets.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/home-screen-widgets.png",
+        "originalSHA256": "ce1870bcb53427435a32af4c1e3202a224bdad4d1e40ab802540f281bc39fccb"
+      },
+      "lock-screen-widgets": {
+        "action": "recapture",
+        "reason": "Regional medium date in rectangular widget.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/lock-screen-widgets.png",
+        "originalSHA256": "053dc0d02011c99c4b527cfd8cb3b8a28dbaaededa2b36c033fbea5242f67477"
+      },
+      "normal-display": {
+        "action": "recapture",
+        "reason": "Vacation sample becomes Holiday.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/normal-display.png",
+        "originalSHA256": "bfdc17c7d7248f9f6824d9bd94c778a5c883c312fdcf2ab43c7576c5a69bb4e2"
+      },
+      "pregnancy-countdown-app": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/pregnancy-countdown-app.png",
+        "originalSHA256": "5ab81dce409389948dae27271385e8090ce721b04a6b383f8695959f84c2a65a"
+      },
+      "retirement-countdown-app": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/retirement-countdown-app.png",
+        "originalSHA256": "35b263a04aa19fd706079e2f9047163abadb5bd652ce98deba1d785ac1b6cd19"
+      },
+      "settings": {
+        "action": "recapture",
+        "reason": "Native Colors becomes Colours; UK/AU Customization becomes Customisation.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/settings.png",
+        "originalSHA256": "5306b8c9dd5c0c36f9be9019831be9e1ceea5b36a0f59b8c415b7aca53b009b9"
+      },
+      "theme-park-trip-countdown-app": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/theme-park-trip-countdown-app.png",
+        "originalSHA256": "eede259542ddf5d7123aba165d30b966fecc033792142c7ac2fdc02c16427723"
+      },
+      "vacation-countdown-app": {
+        "action": "recapture",
+        "reason": "Vacation sample becomes Holiday in real Home widgets.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/vacation-countdown-app.png",
+        "originalSHA256": "c994b03fcce6cb701fb2596781b46994b4f576a46ca90c54f5a331b6aa9db268"
+      },
+      "wedding-countdown-app": {
+        "action": "reuse",
+        "reason": "No regional spelling, sample terminology or visible calendar-date differences.",
+        "originalPath": "/Users/shayes/Developer/Web/Countdowns/assets/screenshots/en/wedding-countdown-app.png",
+        "originalSHA256": "19d745907936a760d634c373288ae45190a66ee3204a0013e99298fce3f44bcb"
+      }
+    }
+  },
+  "captureCount": 23,
+  "reuseCount": 28,
+  "sampleTerminology": {
+    "en-CA": {},
+    "en-GB": {
+      "vacation": "Holiday"
+    },
+    "en-AU": {
+      "vacation": "Holiday"
+    }
+  },
+  "notes": [
+    "Keep Next Ultrasound unchanged: valid regional English wording, no mandatory spelling difference.",
+    "Canada medium/full calendar dates use month-day order, matching original English.",
+    "12/24-hour clock preference alone does not force recapture of otherwise unaffected images.",
+    "All new captures retain full fixture composition, native pixels, lifetime Pro, light appearance and disabled iCloud."
+  ]
+}

@@ -37,10 +37,10 @@ class LocalizationValidator
     @route_keys = ROUTE_KEYS + @guide_slugs + ['when-is', 'anniversary-calculator'] + @holiday_slugs.map { |slug| "when-is/#{slug}" }
     check(:source, @guide_slugs.length == 12, "expected 12 guide slugs, found #{@guide_slugs.length}")
     check(:source, @route_keys.length == 25, "expected 25 page types, found #{@route_keys.length}")
-    check(:source, @locales.length == 34, "expected 34 configured locales, found #{@locales.length}")
+    check(:source, @locales.length == 37, "expected 37 configured locales, found #{@locales.length}")
 
     @routes = @locales.flat_map { |locale| @route_keys.map { |key| route_for(locale, key) } }
-    check(:routes, @routes.length == 850, "expected 850 locale routes, found #{@routes.length}")
+    check(:routes, @routes.length == 925, "expected 925 locale routes, found #{@routes.length}")
     @routes.each { |route| validate_page(route) }
     validate_support_pages
     validate_links

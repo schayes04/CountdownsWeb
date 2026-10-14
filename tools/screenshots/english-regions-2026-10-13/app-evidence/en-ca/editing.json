@@ -1,0 +1,97 @@
+{
+  "locale": "en-CA",
+  "scene": "editing",
+  "surface": "app",
+  "device": "iPhone 17 Pro",
+  "os": "iOS 27.0",
+  "simulator": "2F1475EC-A8A5-4627-B5FA-E2D4841516AC",
+  "sourceCommit": "665bf5999e8758227bb924daf5c738aec6b0270e",
+  "referenceDate": "2026-10-13",
+  "captureStartedAt": "2026-10-14T00:41:48.930505+00:00",
+  "capturedAt": "2026-10-14T00:41:57.329150+00:00",
+  "width": 1206,
+  "height": 2622,
+  "imageSHA256": "f42e8ddc6c458fda7a50009ec4a163069d200f41e4d81ad9ec94208f7e3cab9f",
+  "fixtureSHA256": "e59c71a93d835517c38ece247dfbb0e420d7cbba9484d21620569f8a2ffe02fa",
+  "launchArguments": [
+    "-AppleLanguages",
+    "(en-CA)",
+    "-AppleLocale",
+    "en_CA",
+    "-isProUserKey",
+    "YES",
+    "-isLifetimeUserKey",
+    "YES"
+  ],
+  "nativeProof": {
+    "appBuild": "1",
+    "appVersion": "12.2.2",
+    "capturePreparedAt": "2026-10-14T00:41:54Z",
+    "columns": 1,
+    "compactModeStyle": 3,
+    "currentLocaleIdentifier": "en_CA",
+    "dateStyle": 2,
+    "events": [
+      {
+        "id": "website-event-1",
+        "name": "Our Wedding"
+      }
+    ],
+    "isLifetimeUser": true,
+    "isProUser": true,
+    "preferredLocalizations": [
+      "en-CA",
+      "en"
+    ],
+    "requestedLocale": "en-CA",
+    "scene": "editing",
+    "screen": "editor",
+    "settings": {
+      "archive": false,
+      "archiveOnCompletion": false,
+      "compact": true,
+      "countdownEndNotifications": false,
+      "hideTimeIfMidnight": true,
+      "iCloudSync": false,
+      "listsEnabled": false,
+      "showDates": false,
+      "showDirection": false,
+      "sortByDate": false
+    },
+    "theme": "light",
+    "timeStyle": 1,
+    "widgetConfiguration": {
+      "directionIndicators": false,
+      "homeSelectedIDs": {
+        "systemLarge": [
+          "website-event-1"
+        ],
+        "systemMedium": [
+          "website-event-1"
+        ],
+        "systemSmall": [
+          "website-event-1"
+        ]
+      },
+      "homeThemes": {
+        "systemLarge": "custom",
+        "systemMedium": "blue",
+        "systemSmall": "purple"
+      },
+      "locale": "en-CA",
+      "lockSelectedIDs": {
+        "accessoryCircular": "website-event-1",
+        "accessoryInline": "website-event-1",
+        "accessoryRectangular": "website-event-1"
+      },
+      "renderingVerified": false,
+      "scene": "editing",
+      "selectedIDs": [
+        "website-event-1"
+      ],
+      "showBackground": true,
+      "showDates": false,
+      "showList": false
+    }
+  }
+}

@@ -41,4 +41,4 @@ for (const locale of locales) {
   formats[locale.code]=format;
 }
 save('_data/tool_formats.json',JSON.stringify(formats,null,2)+'\n');
-console.log(`${check?'Checked':'Generated'} 340 tool routes and localized date formats.`);
+console.log(`${check?'Checked':'Generated'} ${locales.length * (holidays.length + 2)} tool routes and localized date formats.`);
