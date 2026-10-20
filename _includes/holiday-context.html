@@ -2,7 +2,11 @@
 {%- assign holiday = site.data.holidays | where: 'slug', page.holiday | first -%}
 {%- assign holiday_copy = tools_copy.holidays[page.holiday] -%}
 {%- assign holiday_today = site.time | date: '%Y-%m-%d' -%}
-{%- assign holiday_dates = site.data.holiday_dates[page.holiday] | where_exp: 'date', 'date >= holiday_today' -%}
+{%- assign holiday_country = locale.holiday_country -%}
+{%- assign holiday_region = site.data.holiday_regions[holiday_country][page.holiday] -%}
+{%- assign holiday_dates_key = page.holiday -%}
+{%- if holiday_region -%}{%- assign holiday_dates_key = page.holiday | append: '@' | append: holiday_country -%}{%- endif -%}
+{%- assign holiday_dates = site.data.holiday_dates[holiday_dates_key] | where_exp: 'date', 'date >= holiday_today' -%}
 {%- assign holiday_next_date = holiday_dates | first -%}
 {%- capture holiday_year -%}{%- include tool-date.html date=holiday_next_date style='year' -%}{%- endcapture -%}
 {%- capture holiday_full_date -%}{%- include tool-date.html date=holiday_next_date -%}{%- endcapture -%}
@@ -24,4 +28,8 @@
       {%- when 'mothers-day' -%}{%- assign holiday_rule_label = tool.mother_rule -%}
       {%- when 'fathers-day' -%}{%- assign holiday_rule_label = tool.father_rule -%}
     {%- endcase -%}
+    {%- if holiday_region -%}
+      {%- assign holiday_scope = calendar.countries[holiday_country] -%}
+      {%- assign holiday_rule_label = tool[holiday_region.label] -%}
+    {%- endif -%}
 {%- endcase -%}

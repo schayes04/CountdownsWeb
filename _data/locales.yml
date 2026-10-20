@@ -14,6 +14,8 @@
   app_name: Countdowns
   html_lang: en-CA
   dir: ltr
+  # Regional holiday observances rendered by default on this locale's holiday pages.
+  holiday_country: CA
 
 - code: en-GB
   folder: en-gb
@@ -22,6 +24,8 @@
   app_name: Countdowns
   html_lang: en-GB
   dir: ltr
+  # Regional holiday observances rendered by default on this locale's holiday pages.
+  holiday_country: GB
 
 - code: en-AU
   folder: en-au
@@ -30,6 +34,8 @@
   app_name: Countdowns
   html_lang: en-AU
   dir: ltr
+  # Regional holiday observances rendered by default on this locale's holiday pages.
+  holiday_country: AU
 - code: ar
   folder: ar
   name: Arabic

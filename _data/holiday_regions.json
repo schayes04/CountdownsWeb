@@ -1,0 +1,30 @@
+{
+  "CA": {
+    "thanksgiving": {
+      "label": "canada_thanksgiving_rule",
+      "source": "https://www.canada.ca/en/library-archives/services/public/visit/holiday-closures.html",
+      "source_name": "Library and Archives Canada"
+    }
+  },
+  "GB": {
+    "mothers-day": {
+      "label": "uk_mother_rule",
+      "source": "https://www.churchofengland.org/media/stories-and-features/mothering-sunday-what-are-its-origins-church",
+      "source_name": "Church of England"
+    }
+  },
+  "AU": {
+    "fathers-day": {
+      "label": "australia_father_rule",
+      "source": "https://www.islhd.health.nsw.gov.au/sites/default/files/Health_Promotion/Healthy_schools/2026_Schools_Calendar.pdf",
+      "source_name": "NSW Health"
+    }
+  },
+  "NZ": {
+    "fathers-day": {
+      "label": "australia_father_rule",
+      "source": "https://collections.tepapa.govt.nz/object/1663302",
+      "source_name": "Museum of New Zealand Te Papa Tongarewa"
+    }
+  }
+}

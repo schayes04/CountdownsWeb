@@ -15,7 +15,8 @@ try {
   const saved = localStorage.getItem(storageKey);
   if (saved !== null && (saved === '' || COUNTRIES.includes(saved))) { country = saved; manual = true; }
 } catch { /* The selector also works with storage disabled. */ }
-if (!manual) country = suggestCountry(navigator.languages, Intl.DateTimeFormat().resolvedOptions().timeZone);
+// Regional English pages default to their own country so the page matches its crawlable HTML.
+if (!manual) country = config.holidayCountry || suggestCountry(navigator.languages, Intl.DateTimeFormat().resolvedOptions().timeZone);
 let renderedDay;
 let renderedZone;
 let timer;
@@ -117,7 +118,7 @@ for (const [code, name] of Object.entries(config.countries)) {
 countrySelect.value = availableCountries.includes(country) ? country : 'US';
 countrySelect.closest('.holiday-country').hidden = availableCountries.length === 0;
 const hint=document.getElementById('holiday-country-hint');
-hint.hidden = manual || !availableCountries.includes(country);
+hint.hidden = manual || Boolean(config.holidayCountry) || !availableCountries.includes(country);
 if (hint.hidden) countrySelect.removeAttribute('aria-describedby');
 countrySelect.addEventListener('change',()=>{
   country=availableCountries.includes(countrySelect.value) ? countrySelect.value : 'US';
