@@ -13,14 +13,15 @@ layout: default
   <section class="site-container" aria-label="{{ tool.holiday_link | escape }}">
     <div class="holiday-card-grid" id="holiday-card-grid">
       {% assign today = site.time | date: '%Y-%m-%d' %}
-      {% capture sorted_holidays %}{% for holiday in site.data.holidays %}{% assign future = site.data.holiday_dates[holiday.slug] | where_exp: 'date', 'date >= today' %}{{ future | first }}|{{ holiday.slug }},{% endfor %}{% endcapture %}
+      {% assign holiday_country = locale.holiday_country %}
+      {% capture sorted_holidays %}{% for holiday in site.data.holidays %}{% assign dates_key = holiday.slug %}{% if site.data.holiday_regions[holiday_country][holiday.slug] %}{% assign dates_key = holiday.slug | append: '@' | append: holiday_country %}{% endif %}{% assign future = site.data.holiday_dates[dates_key] | where_exp: 'date', 'date >= today' %}{{ future | first }}|{{ holiday.slug }},{% endfor %}{% endcapture %}
       {% assign sorted_holidays = sorted_holidays | split: ',' | sort %}
       {% for entry in sorted_holidays %}
         {% assign parts = entry | split: '|' %}{% assign date = parts[0] %}{% assign holiday = site.data.holidays | where: 'slug', parts[1] | first %}{% assign holiday_copy = tools_copy.holidays[holiday.slug] %}
         <a class="holiday-card holiday-theme--{{ holiday.theme }}" href="{{ holiday.slug | prepend: '/when-is/' | prepend: locale_prefix | append: '/' | relative_url }}" data-holiday-card="{{ holiday.slug }}" data-rule="{{ holiday.rule | jsonify | escape }}">
           <span class="holiday-card__top"><span class="holiday-symbol" aria-hidden="true">{{ holiday.icon }}</span><span class="holiday-card__remaining" hidden></span></span>
           <h2>{{ holiday_copy.name }}</h2>
-          <p class="holiday-card__scope">{% if holiday.rule.type == 'fixed' %}{% include tool-date.html date=date style='monthDay' %}{% elsif holiday.slug == 'easter' %}{{ tool.western_easter }}{% else %}{{ calendar.countries.US }}{% endif %}</p>
+          <p class="holiday-card__scope">{% if holiday.rule.type == 'fixed' %}{% include tool-date.html date=date style='monthDay' %}{% elsif holiday.slug == 'easter' %}{{ tool.western_easter }}{% elsif site.data.holiday_regions[holiday_country][holiday.slug] %}{{ calendar.countries[holiday_country] }}{% else %}{{ calendar.countries.US }}{% endif %}</p>
           <time datetime="{{ date }}">{% include tool-date.html date=date %}</time><span class="holiday-card__link">{{ tool.see_countdown }} <span aria-hidden="true">→</span></span>
         </a>
       {% endfor %}

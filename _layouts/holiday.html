@@ -13,7 +13,7 @@ layout: default
           <h1 data-holiday-heading>{{ holiday_heading }}</h1>
           <p class="holiday-scope" data-holiday-scope>{{ holiday_scope }}</p>
           <p class="holiday-answer"><strong>{{ holiday_copy.date_name }}</strong><br><time data-holiday-date datetime="{{ holiday_next_date }}">{{ holiday_full_date }}</time></p>
-          <p class="holiday-intro__text" data-holiday-intro>{{ holiday_copy.intro }}</p>
+          <p class="holiday-intro__text" data-holiday-intro>{% if holiday_region %}{{ tool.hub_intro }}{% else %}{{ holiday_copy.intro }}{% endif %}</p>
           <a class="holiday-text-link" href="#upcoming-dates">{% if holiday.rule.type == 'fixed' %}{{ tool.see_weekdays }}{% else %}{{ tool.see_years }}{% endif %} <span aria-hidden="true">↗</span></a>
         </div>
         <section class="holiday-counter" aria-labelledby="countdown-heading">
@@ -34,8 +34,8 @@ layout: default
   <section class="holiday-details site-container">
     <div class="holiday-explanation">
       <p class="section-kicker">{{ tool.about_date }}</p><h2 id="holiday-explanation-heading">{% if current_locale == 'en' %}{{ holiday_copy.explanation_title }}{% else %}{{ holiday_rule_label }}{% endif %}</h2>
-      <div id="holiday-default-explanation"><p>{{ holiday_copy.explanation }}</p><p class="holiday-scope-note">{{ holiday_copy.scope_note }}</p>
-      </div><p id="holiday-regional-explanation" hidden></p><p class="holiday-source">{{ tool.reference }}: <a id="holiday-source" href="{{ holiday.source_url }}">{{ holiday.source_label }}</a></p>
+      <div id="holiday-default-explanation"{% if holiday_region %} hidden{% endif %}><p>{{ holiday_copy.explanation }}</p><p class="holiday-scope-note">{{ holiday_copy.scope_note }}</p>
+      </div>{% capture holiday_regional_scope %}{{ holiday_scope }} · {{ holiday_rule_label }}{% endcapture %}<p id="holiday-regional-explanation"{% unless holiday_region %} hidden{% endunless %}>{% if holiday_region %}{{ tool.regional_about | replace: token_scope, holiday_regional_scope }}{% endif %}</p><p class="holiday-source">{{ tool.reference }}: <a id="holiday-source" href="{{ holiday_region.source | default: holiday.source_url }}">{{ holiday_region.source_name | default: holiday.source_label }}</a></p>
     </div>
     <div class="holiday-upcoming" id="upcoming-dates">
       <h2>{% if holiday.rule.type == 'fixed' %}{{ tool.weekday_title | replace: token_holiday, holiday_copy.date_name }}{% else %}{{ tool.upcoming_title | replace: token_holiday, holiday_copy.name }}{% endif %}</h2>
