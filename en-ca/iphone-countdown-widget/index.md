@@ -40,7 +40,7 @@ faq:
 related_pages:
 - lock-screen-countdown-widget
 - event-countdown-app
-- birthday-countdown-app
+- mac-countdown-widget
 cta_heading: Put your next countdown on the iPhone Home Screen.
 cta_text: Download Countdowns and keep the dates you care about where you can see them.
 layout: regional-guide

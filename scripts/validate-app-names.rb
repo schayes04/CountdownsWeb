@@ -261,8 +261,8 @@ class AppNameValidator
     @guides = @source.glob('_guide_pages/*.md').map { |path| path.basename('.md').to_s }.sort
     validate_source
     routes = ['', *ROUTES, *@guides]
-    check(:source, routes.size == 15, "Expected 12 guide pages plus home, ideas, and support (found #{@guides.size} guides)")
-    check(:routes, @locales.size * routes.size == 555, "Expected 555 locale routes (found #{@locales.size * routes.size})")
+    check(:source, routes.size == 16, "Expected 13 guide pages plus home, ideas, and support (found #{@guides.size} guides)")
+    check(:routes, @locales.size * routes.size == 592, "Expected 592 locale routes (found #{@locales.size * routes.size})")
     @locales.each { |locale| routes.each { |slug| validate_route(locale, slug) } }
     %w[policies].each do |name|
       file = [@site.join("#{name}.html"), @site.join(name, 'index.html')].find(&:file?)

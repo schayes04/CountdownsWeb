@@ -18,7 +18,8 @@ class ScreenshotValidator
   SCENES = (%w[normal-display compact-display colors editing settings home-screen-widgets lock-screen-widgets] + EVENT_SCENES).freeze
   GUIDES = EVENT_SCENES.to_h { |scene| [scene, scene] }.merge(
     'iphone-countdown-widget' => 'home-screen-widgets',
-    'lock-screen-countdown-widget' => 'lock-screen-widgets'
+    'lock-screen-countdown-widget' => 'lock-screen-widgets',
+    'mac-countdown-widget' => 'home-screen-widgets'
   ).freeze
   HOME_SCENES = %w[colors home-screen-widgets lock-screen-widgets home-screen-widgets editing settings compact-display normal-display].freeze
   REGIONAL_UPDATES = {
@@ -277,7 +278,7 @@ class ScreenshotValidator
       ['', 'countdown-ideas', *GUIDES.keys].each { |slug| validate_route(locale, slug) }
     end
     check(:manifest, @counts[:sources] == 629 && @counts[:alts] == 629, 'Expected 629 source paths and localized alts')
-    check(:routes, @counts[:routes] == 518, 'Expected 518 routes')
+    check(:routes, @counts[:routes] == 555, 'Expected 555 routes')
     puts "Checked #{@counts[:sources]} source PNG paths, #{@counts[:alts]} localized alts, " \
          "#{@counts[:html]}/#{@counts[:routes]} built routes, #{@counts[:references]} image/preload references."
     @errors.each do |group, errors|
