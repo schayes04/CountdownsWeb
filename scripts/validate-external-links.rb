@@ -19,6 +19,9 @@ class ExternalLinksValidator
     https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
     https://www.rmg.co.uk/stories/time/when-easter
     https://americanenglish.state.gov/files/ae/resource_files/mothersday-and-fathersday.pdf
+    https://www.canada.ca/en/library-archives/services/public/visit/holiday-closures.html
+    https://www.churchofengland.org/media/stories-and-features/mothering-sunday-what-are-its-origins-church
+    https://www.islhd.health.nsw.gov.au/sites/default/files/Health_Promotion/Healthy_schools/2026_Schools_Calendar.pdf
   ].freeze
 
   def initialize(source:, site:, verbose: false)
