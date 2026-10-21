@@ -1,0 +1,49 @@
+{
+  "purpose": "Countdowns website /mac-countdown-widget/ screenshots",
+  "sourceCommit": "34c2fcf2b45812e09f76c1542065777d37939efe",
+  "sourceNote": "git archive of committed HEAD (uncommitted working-tree changes excluded) + CountdownsWeb tools/screenshots/native-capture.patch, with its simulator gates changed to a MAC_CAPTURE compilation condition, plus Debug-only isolation: bundle IDs com.shayesapps.countdownApp.maccapture(.WidgetKit), app group C75928FBL3.com.shayesapps.countdown.maccapture, no iCloud/push/CloudKit entitlements, keychain write skipped. Full diff in mac-capture-source.patch.",
+  "appVersion": "12.3.0",
+  "appBuild": "1",
+  "configuration": "Debug",
+  "platform": "Mac Catalyst",
+  "macOS": "27.0.1",
+  "xcode": "Xcode 27.1 Build version 27A9275",
+  "signing": "Apple Development (team C75928FBL3), no provisioning profile; codesign --verify --deep --strict passed",
+  "binarySHA256": {
+    "Countdown": "80777cdf8a9b1a80c999ee20a2cc57e5155a3a8de602bba6e83906379b526e62",
+    "Countdown.debug.dylib": "5222e4041e56487cde3b95f35338bd65c79cc8d5d8b87d791fd1b94a6406689e",
+    "WidgetKitExtension": "52be074e368aa9daec8916b59493fb69606e21346669f402d88160e408f96961"
+  },
+  "sourcePatchSHA256": "1d5dccac98568245980e8c2b30dc0874f8ea4f0093ab7b8a0f25958abe072adb",
+  "fixture": {
+    "file": "fixture-en-home-screen-widgets.json",
+    "generator": "CountdownsWeb tools/screenshots/generate-fixtures.py --date 2026-10-20",
+    "sha256": "0e99575454080037b197fb68cdf0d39ea39a1aa6e4aee892fca664344d9d325c"
+  },
+  "launch": "screenshots=true isProUser=true websiteScreenshotFixture=<fixture JSON> Countdown.app/Contents/MacOS/Countdown",
+  "images": [
+    {
+      "file": "mac-app-window.png",
+      "sha256": "64a86f1d52e2afb44aa91f6246a5033ca0f2ecb5b1940752e29400b93153b76a",
+      "pixels": "2048x1536",
+      "capturedAt": "2026-10-20 local",
+      "method": "screencapture -x -o -l<CGWindowID> of the active Countdowns window (window only, no shadow); unedited native pixels"
+    }
+  ],
+  "notCaptured": [
+    "desktop widgets: computer-use access was auto-denied 4 times (likely Computer use is off in the Claude desktop app settings), so Stephen placed the capture build's Medium and Large widgets by hand; they rendered blank, so no widget image was kept"
+  ],
+  "widgetFindings": {
+    "observed": "Capture build widgets placed on the desktop rendered blank.",
+    "checked": [
+      "The capture WidgetKitExtension process (com.shayesapps.countdownApp.maccapture.WidgetKit) was running with no crash report, so it is not crashing on launch.",
+      "Unified log (log show) returned no entries for the extension from this shell, and the group container is TCC-protected, so the timeline evidence files could not be inspected."
+    ],
+    "likelyCause": "The extension signed without a provisioning profile cannot read the team-prefixed app group C75928FBL3.com.shayesapps.countdown.maccapture (UserDefaults suite / container), so ExtensionDataManager gets no countdowns. The app itself could write it because it reads its own process; cross-process sharing on Mac Catalyst likely needs a group entitlement backed by a profile.",
+    "nextAttempt": [
+      "Let Xcode automatic signing register App IDs com.shayesapps.countdownApp.maccapture(.WidgetKit) and a group.com.shayesapps.countdown.maccapture app group (needs Stephen's OK; it changes the developer account), then rebuild with that group.",
+      "Before placing widgets, check Console.app filtered on 'maccapture' for cfprefsd / container errors, and the website-widget-timeline-*.json evidence in the group container.",
+      "Enable Computer use in the Claude desktop app (Settings > This computer > Computer use) so placement and removal can be automated."
+    ]
+  }
+}

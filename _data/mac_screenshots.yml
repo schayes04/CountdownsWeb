@@ -1,0 +1,20 @@
+---
+# Native Mac Catalyst captures (provenance: tools/screenshots/mac-2026-10-21/).
+# Listed locales show the Mac window as the guide hero; every other locale keeps
+# its localized iPhone screenshot. en-GB and en-AU need their own capture
+# ("Holiday" rather than "Vacation"). Regenerate WebP variants with
+# python3 tools/screenshots/mac-derivatives.py.
+width: 2048
+height: 1536
+guides:
+  mac-countdown-widget: app-window
+locales:
+  en:
+    app-window: /assets/screenshots-mac/en/app-window.png
+  en-CA:
+    app-window: /assets/screenshots-mac/en/app-window.png
+alts:
+  en:
+    app-window: "Countdowns app window on a Mac listing countdowns to a birthday, vacation, wedding, Halloween, and Christmas."
+  en-CA:
+    app-window: "Countdowns app window on a Mac listing countdowns to a birthday, vacation, wedding, Halloween, and Christmas."

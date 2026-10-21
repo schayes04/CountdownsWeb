@@ -27,6 +27,11 @@ class ScreenshotValidator
     'en-GB' => %w[editing settings event-countdown-app normal-display compact-display colors home-screen-widgets vacation-countdown-app lock-screen-widgets christmas-countdown-app],
     'en-AU' => %w[editing settings event-countdown-app normal-display compact-display colors home-screen-widgets vacation-countdown-app lock-screen-widgets christmas-countdown-app]
   }.freeze
+  # Native Mac Catalyst captures replace the phone hero on these guides where a
+  # locale has one (_data/mac_screenshots.yml); other locales keep the phone frame.
+  MAC_GUIDES = { 'mac-countdown-widget' => 'app-window' }.freeze
+  MAC_DIMENSIONS = [2048, 1536].freeze
+  MAC_WIDTHS = [480, 960, 1440].freeze
   PNG_SIGNATURE = "\x89PNG\r\n\x1a\n".b.freeze
 
   def initialize(source:, site:, baseurl: nil, verbose: false)
@@ -99,6 +104,60 @@ class ScreenshotValidator
         end
       end
     end
+    validate_mac_manifest
+  end
+
+  def validate_mac_manifest
+    @mac = mapping(read_yaml('_data/mac_screenshots.yml'))
+    @mac_variants = mapping(JSON.parse(@source.join('_data/mac_screenshot_variants.json').read)['screenshots'])
+    check(:manifest, @mac['guides'] == MAC_GUIDES, 'Mac guide map must match MAC_GUIDES')
+    check(:manifest, @mac.values_at('width', 'height') == MAC_DIMENSIONS, 'Mac screenshot dimensions must be 2048x1536')
+    codes = @locales.map { |locale| locale['code'] }
+    mac_locales = mapping(@mac['locales'])
+    check(:manifest, (mac_locales.keys - codes).empty?, 'Mac screenshot locales must exist in locales.yml')
+    mac_locales.each do |code, scenes|
+      check(:manifest, mapping(scenes).keys == MAC_GUIDES.values.uniq, "#{code}: unexpected Mac scenes")
+      mapping(scenes).each do |scene, path|
+        check(:manifest, path.to_s.match?(%r{\A/assets/screenshots-mac/[a-z-]+/[a-z-]+\.png\z}), "#{code}/#{scene}: invalid Mac path #{path.inspect}")
+        validate_png(@source.join(path.to_s.delete_prefix('/')), MAC_DIMENSIONS)
+        validate_mac_derivatives(path.to_s)
+        alt = mapping(mapping(@mac['alts'])[code])[scene]
+        check(:alts, alt.is_a?(String) && !alt.strip.empty?, "#{code}/#{scene}: missing Mac alt text")
+      end
+    end
+  rescue Errno::ENOENT, JSON::ParserError => error
+    check(:manifest, false, "Mac screenshot manifest: #{error.message.lines.first.strip}")
+  end
+
+  def mac_path(locale, slug)
+    scene = MAC_GUIDES[slug]
+    scene && mapping(mapping(@mac['locales'])[locale['code']])[scene]
+  end
+
+  def mac_derivatives(path)
+    mapping(@mac_variants[path]).fetch('variants', [])
+  end
+
+  def validate_mac_derivatives(path)
+    entry = mapping(@mac_variants[path])
+    source = @source.join(path.delete_prefix('/'))
+    check(:derivatives, entry['source'] == path && source.file? && entry['source_sha256'] == Digest::SHA256.file(source).hexdigest,
+          "#{path}: missing/stale Mac derivative source")
+    variants = mac_derivatives(path)
+    check(:derivatives, variants.map { |v| v['width'] } == MAC_WIDTHS, "#{path}: expected 480/960/1440 variants")
+    variants.each do |variant|
+      expected = path.sub('.png', "-#{variant['width']}.webp")
+      check(:derivatives, variant['path'] == expected, "#{path}: incorrect Mac derivative path")
+      file = @source.join(expected.delete_prefix('/'))
+      check(:derivatives, file.file?, "Missing derivative #{expected}")
+      next unless file.file?
+
+      bytes = file.binread
+      check(:derivatives, bytes.bytesize == variant['bytes'] && Digest::SHA256.hexdigest(bytes) == variant['sha256'], "#{expected}: stale size/hash")
+      expected_dimensions = [variant['width'], (variant['width'].to_f * MAC_DIMENSIONS[1] / MAC_DIMENSIONS[0]).round]
+      check(:derivatives, webp_dimensions(bytes) == expected_dimensions && variant.values_at('width', 'height') == expected_dimensions,
+            "#{expected}: wrong encoded dimensions")
+    end
   end
 
   def derivatives(path)
@@ -120,25 +179,30 @@ class ScreenshotValidator
       next unless file.file?
       bytes = file.binread
       check(:derivatives, bytes.bytesize == variant['bytes'] && Digest::SHA256.hexdigest(bytes) == variant['sha256'], "#{expected}: stale size/hash")
-      check(:derivatives, bytes.start_with?('RIFF') && bytes.byteslice(8, 4) == 'WEBP', "#{expected}: invalid WebP")
-      # cwebp's lossy VP8 frame stores its dimensions after the start code.
-      offset = 12
-      dimensions = nil
-      while offset + 8 <= bytes.bytesize
-        kind = bytes.byteslice(offset, 4)
-        length = bytes.byteslice(offset + 4, 4).unpack1('V')
-        if kind == 'VP8 ' && bytes.byteslice(offset + 11, 3) == "\x9d\x01\x2a".b
-          dimensions = bytes.byteslice(offset + 14, 4).unpack('vv').map { |v| v & 0x3fff }
-          break
-        end
-        offset += 8 + length + length % 2
-      end
+      dimensions = webp_dimensions(bytes)
+      check(:derivatives, dimensions, "#{expected}: invalid WebP")
       expected_dimensions = [variant['width'], (variant['width'].to_f * 2622 / 1206).round]
       check(:derivatives, dimensions == expected_dimensions && variant.values_at('width', 'height') == dimensions, "#{expected}: wrong encoded dimensions")
     end
   end
 
-  def validate_png(path)
+  # A lossy VP8 frame stores its dimensions after the start code.
+  def webp_dimensions(bytes)
+    return unless bytes.start_with?('RIFF') && bytes.byteslice(8, 4) == 'WEBP'
+
+    offset = 12
+    while offset + 8 <= bytes.bytesize
+      kind = bytes.byteslice(offset, 4)
+      length = bytes.byteslice(offset + 4, 4).unpack1('V')
+      if kind == 'VP8 ' && bytes.byteslice(offset + 11, 3) == "\x9d\x01\x2a".b
+        return bytes.byteslice(offset + 14, 4).unpack('vv').map { |v| v & 0x3fff }
+      end
+      offset += 8 + length + length % 2
+    end
+    nil
+  end
+
+  def validate_png(path, expected_dimensions = [1206, 2622])
     unless path.file?
       check(:sources, false, "Missing PNG: #{path.relative_path_from(@source)}")
       return
@@ -150,7 +214,7 @@ class ScreenshotValidator
     return unless valid
 
     dimensions = header.byteslice(16, 8).unpack('NN')
-    check(:sources, dimensions == [1206, 2622], "#{path}: dimensions #{dimensions.join('x')}, expected 1206x2622")
+    check(:sources, dimensions == expected_dimensions, "#{path}: dimensions #{dimensions.join('x')}, expected #{expected_dimensions.join('x')}")
   rescue SystemCallError => error
     check(:sources, false, "Cannot read #{path}: #{error.message}")
   end
@@ -180,6 +244,11 @@ class ScreenshotValidator
            end
     file = @site.join(path).cleanpath
     check(:built_files, file.to_s.start_with?("#{@site}/") && file.file?, "#{route}: missing built image/preload file #{value}")
+    if path.start_with?('assets/screenshots-mac/')
+      allowed = mapping(mapping(@mac['locales'])[locale['code']]).values.flat_map { |p| [p, *mac_derivatives(p).map { |v| v['path'] }] }
+      check(:routes, allowed.map { |p| p.delete_prefix('/') }.include?(path), "#{route}: wrong-locale or unknown Mac screenshot path #{value}")
+      return
+    end
     return unless path.match?(%r{assets/screenshots(?:-responsive)?/})
 
     allowed = SCENES.flat_map do |scene|
@@ -230,6 +299,26 @@ class ScreenshotValidator
     end
   end
 
+  def validate_mac_frame(frame, route, locale, scene, path)
+    code = locale['code']
+    check(:routes, frame['data-screenshot-scene'] == scene && frame['data-screenshot-locale'] == code, "#{route}: wrong Mac frame scene or locale")
+    images = frame.css('> .screenshot-mac__screen > picture > img')
+    check(:routes, images.size == 1, "#{route}: Mac frame must contain exactly one img")
+    check(:routes, frame.at_css('> .screenshot-mac__base[aria-hidden="true"]'), "#{route}: missing decorative Mac base")
+    image = images.first
+    return unless image
+
+    check(:routes, image['src'] == @baseurl + path, "#{route}: expected #{@baseurl + path}, got #{image['src'].inspect}")
+    check(:routes, [image['width'], image['height']] == MAC_DIMENSIONS.map(&:to_s), "#{route}: Mac img must declare native 2048x1536 dimensions")
+    source = frame.at_css('> .screenshot-mac__screen > picture > source')
+    expected_srcset = mac_derivatives(path).map { |v| "#{@baseurl}#{v['path']} #{v['width']}w" }.join(', ')
+    check(:routes, source && source['type'] == 'image/webp' && source['srcset'] == expected_srcset && !source['sizes'].to_s.empty?,
+          "#{route}: expected Mac WebP srcset #{expected_srcset}")
+    alt = mapping(mapping(@mac['alts'])[code])[scene]
+    check(:alts, image['alt'] == alt && !alt.to_s.strip.empty?, "#{route}: Mac img must use its nonempty localized alt")
+    check(:routes, image['loading'] == 'eager' && image['fetchpriority'] == 'high', "#{route}: Mac hero must load eagerly with high priority")
+  end
+
   def validate_route(locale, slug)
     @counts[:routes] += 1
     route = '/' + [locale['folder'], slug].reject { |part| part.to_s.empty? }.join('/')
@@ -242,7 +331,14 @@ class ScreenshotValidator
     @counts[:html] += 1
     doc = Nokogiri::HTML5(file.read)
     home = slug.empty?
-    scenes = home ? HOME_SCENES : [slug == 'countdown-ideas' ? 'colors' : GUIDES.fetch(slug)]
+    mac = mac_path(locale, slug)
+    scenes = if home then HOME_SCENES
+             elsif mac then []
+             else [slug == 'countdown-ideas' ? 'colors' : GUIDES.fetch(slug)]
+             end
+    mac_frames = doc.css('.screenshot-mac')
+    check(:routes, mac_frames.size == (mac ? 1 : 0), "#{route}: expected #{mac ? 1 : 0} Mac screenshot frames, found #{mac_frames.size}")
+    validate_mac_frame(mac_frames.first, route, locale, MAC_GUIDES.fetch(slug), mac) if mac && mac_frames.size == 1
     frames = doc.css('.screenshot-phone')
     check(:routes, frames.size == scenes.size, "#{route}: expected #{scenes.size} screenshot frames, found #{frames.size}")
     frames.first(scenes.size).each_with_index do |frame, index|

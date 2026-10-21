@@ -165,7 +165,7 @@ class AppNameValidator
         check(:metadata, value.to_s.include?(expected), "#{route}: #{selector} lacks localized app name")
       end
     end
-    doc.css('.screenshot-phone img').each_with_index do |image, index|
+    doc.css('.screenshot-phone img, .screenshot-mac img').each_with_index do |image, index|
       alt = image['alt'].to_s
       check(:surfaces, alt.empty? || alt.include?(expected), "#{route}: screenshot #{index + 1} alt lacks localized app name")
     end

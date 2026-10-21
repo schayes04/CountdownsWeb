@@ -19,6 +19,12 @@ Baseline app-only captures predate widget timeline instrumentation; their main D
 dylib matches the baseline widget-capture build. The revised Arabic and new Hindi
 images use their own binary proof. No deployment or publishing is part of this workflow.
 
+## October 21, 2026: Mac app window
+
+The Mac guide's hero for `en` and `en-CA` is a native Mac Catalyst window capture,
+kept apart from the iPhone scene set in `assets/screenshots-mac/` and
+`_data/mac_screenshots.yml`. See [`mac-2026-10-21/`](mac-2026-10-21/).
+
 ## October 13, 2026: regional English
 
 The site now has **37 locale variants × 17 scenes = 629 references**, backed by

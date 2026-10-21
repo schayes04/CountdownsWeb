@@ -7,6 +7,8 @@ layout: default
 {% assign t = site.data.strings[current_locale] | default: site.data.strings.en %}
 {% assign app_name = locale.app_name | default: site.app_name %}
 {% assign screenshot_scene = site.data.screenshots.guides[page.slug] %}
+{% assign mac_screenshot_scene = site.data.mac_screenshots.guides[page.slug] %}
+{% assign mac_screenshot_path = site.data.mac_screenshots.locales[current_locale][mac_screenshot_scene] %}
 
 <nav class="breadcrumbs site-container" aria-label="{{ t.breadcrumb_label | escape }}">
 	<a href="{{ '/' | relative_url }}" target="_self">Home</a>
@@ -17,7 +19,7 @@ layout: default
 </nav>
 
 <section class="guide-hero">
-	<div class="site-container guide-hero__grid">
+	<div class="site-container guide-hero__grid{% if mac_screenshot_path %} guide-hero__grid--mac{% endif %}">
 		<div class="guide-hero__copy">
 			<p class="section-kicker">{{ page.kicker | default: "Countdown guide" }}</p>
 			<h1>{{ page.h1 | default: page.title }}</h1>
@@ -27,7 +29,11 @@ layout: default
 			</div>
 		</div>
 		<div class="guide-hero__media">
-			{% include screenshot.html scene=screenshot_scene locale=current_locale loading="eager" %}
+			{% if mac_screenshot_path %}
+				{% include mac-screenshot.html scene=mac_screenshot_scene locale=current_locale loading="eager" %}
+			{% else %}
+				{% include screenshot.html scene=screenshot_scene locale=current_locale loading="eager" %}
+			{% endif %}
 		</div>
 	</div>
 </section>

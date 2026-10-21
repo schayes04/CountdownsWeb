@@ -968,6 +968,70 @@
 	transform: translate3d(0, 0, 0);
 }
 
+// Landscape Mac captures need a wider media column than the phone frame.
+.guide-hero__grid--mac {
+	grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+	gap: 56px;
+}
+
+// Mac guide hero: a native app-window capture on a MacBook-style display.
+// Keep mac-screenshot.html sizes in sync with these proportions.
+.screenshot-mac {
+	width: 100%;
+	max-width: 560px;
+	min-width: 0;
+}
+
+// The window's empty lower half runs off the bottom of the display, so its
+// countdown rows stay legible at hero size. Pixels are unedited.
+.screenshot-mac__screen {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	overflow: hidden;
+	aspect-ratio: 16 / 10;
+	margin: 0 6%;
+	padding-top: 4.5%;
+	border: 12px solid #1d1d1f;
+	border-bottom-width: 14px;
+	border-radius: 18px 18px 4px 4px;
+	background: linear-gradient(155deg, #8ccbf0 0%, #2f86c1 48%, #164a73 100%);
+	box-shadow: 0 0 0 1px #48484a;
+}
+
+.screenshot-mac__screen > picture {
+	display: block;
+	width: 86%;
+}
+
+.screenshot-mac__screen > picture > img {
+	display: block;
+	width: 100%;
+	height: auto;
+	filter: drop-shadow(0 8px 16px rgba(5, 22, 38, 0.38));
+}
+
+.screenshot-mac__base {
+	display: block;
+	position: relative;
+	height: 13px;
+	border-radius: 2px 2px 12px 12px / 2px 2px 9px 9px;
+	background: linear-gradient(#e6e7e9, #a9acb1);
+	box-shadow: 0 16px 28px #22222222;
+}
+
+.screenshot-mac__base::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 15%;
+	height: 5px;
+	border-radius: 0 0 6px 6px;
+	background: #c3c5c9;
+	transform: translateX(-50%);
+}
+
 .section--guide-benefits {
 	background: #ffffff;
 }

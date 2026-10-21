@@ -1,0 +1,38 @@
+{
+  "encoder": "Pillow 12.3.0 (libwebp 1.6.0)",
+  "quality": 85,
+  "widths": [
+    480,
+    960,
+    1440
+  ],
+  "screenshots": {
+    "/assets/screenshots-mac/en/app-window.png": {
+      "source": "/assets/screenshots-mac/en/app-window.png",
+      "source_sha256": "64a86f1d52e2afb44aa91f6246a5033ca0f2ecb5b1940752e29400b93153b76a",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/en/app-window-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 5142,
+          "sha256": "d37a8a313012cf2d579f415652997cb373c01e3da0ad169129682481f3fb5a3f"
+        },
+        {
+          "path": "/assets/screenshots-mac/en/app-window-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 13656,
+          "sha256": "b984ca94e55b910772ca607b12b5706f035048cb76a4083264d1cdcace58bba9"
+        },
+        {
+          "path": "/assets/screenshots-mac/en/app-window-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 24412,
+          "sha256": "924b3062879558cad4cf620de80357961691e3f3677f61abc6da2987ae83abb5"
+        }
+      ]
+    }
+  }
+}
