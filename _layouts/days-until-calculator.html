@@ -1,0 +1,98 @@
+---
+layout: default
+---
+{% include tool-context.html %}
+{% assign quick_holidays = 'christmas,new-year,halloween,valentines-day,easter' | split: ',' %}
+
+<div class="calculator-page days-page">
+  <section class="calculator-hero">
+    <div class="site-container">
+      <nav class="calculator-breadcrumbs" aria-label="{{ t.breadcrumb_label | escape }}"><a href="{{ locale_prefix | append: '/' | relative_url }}">{{ app_name }}</a><span aria-hidden="true">/</span><span>{{ tool.free_tools }}</span></nav>
+      <div class="calculator-intro">
+        <p class="section-kicker">{{ tool.days_kicker }}</p>
+        <h1>{{ tool.days_title }}</h1>
+        <p>{{ tool.days_intro }}</p>
+      </div>
+
+      <div class="calculator-shell">
+        <form id="days-form" class="calculator-form" novalidate>
+          <h2>{{ tool.days_form_heading }}</h2>
+          <p>{{ tool.days_form_intro }}</p>
+          <fieldset id="calculator-fields" disabled>
+            <legend class="calculator-sr-only">{{ tool.choose_dates }}</legend>
+            <div class="calculator-field">
+              <div class="calculator-label-row"><label for="start-date">{{ tool.days_start }}</label><button type="button" id="use-today">{{ tool.use_today }}</button></div>
+              <input id="start-date" name="start" type="date" min="0001-01-01" max="9998-12-31" required aria-describedby="calculator-error">
+            </div>
+            <div class="calculator-field">
+              <label for="end-date">{{ tool.days_end }}</label>
+              <input id="end-date" name="end" type="date" min="0001-01-01" max="9998-12-31" required aria-describedby="calculator-error">
+            </div>
+            <div class="days-quick" role="group" aria-labelledby="days-quick-label">
+              <p id="days-quick-label">{{ tool.days_quick }}</p>
+              {% for slug in quick_holidays %}{% assign holiday = site.data.holidays | where: 'slug', slug | first %}<button type="button" data-rule="{{ holiday.rule | jsonify | escape }}">{{ tools_copy.holidays[slug].name }}</button>{% endfor %}
+            </div>
+            <label class="days-include-end"><input type="checkbox" name="include_end"> <span>{{ tool.days_include_end }}</span></label>
+            <p id="calculator-error" class="calculator-error" role="alert" hidden></p>
+            <button class="calculator-submit" type="submit">{{ tool.calculate }} <span aria-hidden="true">→</span></button>
+          </fieldset>
+          <p id="calculator-loading" class="calculator-hint">{{ tool.calculator_loading }}</p>
+        </form>
+
+        <div class="calculator-output">
+          <div id="calculator-empty" class="calculator-empty">
+            <div class="calculator-calendar" aria-hidden="true"><span>{{ tool.days_calendar }}</span><strong>?</strong></div>
+            <h2>{{ tool.days_empty_heading }}</h2>
+            <p>{{ tool.days_empty_body }}</p>
+            <div class="calculator-empty__labels" aria-hidden="true"><span>{{ tool.days_label_weeks }}</span><span>{{ tool.days_label_months }}</span><span>{{ tool.days_label_weekdays }}</span></div>
+          </div>
+          <section id="calculator-results" aria-labelledby="result-heading" hidden>
+            <h2 id="result-heading" class="calculator-result-heading" tabindex="-1">{{ tool.days_result_heading }}</h2>
+            <p class="calculator-day-count"><strong id="total-days"></strong><span id="day-unit"></span></p>
+            <p id="days-sentence" class="days-sentence"></p>
+            <dl class="days-breakdown">
+              <div><dt>{{ tool.days_label_weeks }}</dt><dd id="days-weeks"></dd></div>
+              <div id="days-months-row"><dt>{{ tool.days_label_months }}</dt><dd id="days-months"></dd></div>
+              <div><dt>{{ tool.days_label_weekdays }}</dt><dd id="days-weekdays"></dd></div>
+              <div><dt id="days-weekend-label"></dt><dd id="days-weekend"></dd></div>
+            </dl>
+          </section>
+        </div>
+      </div>
+      <p class="calculator-counting-note">{{ tool.days_counting_note }}</p>
+    </div>
+  </section>
+
+  <section class="calculator-app site-container" aria-labelledby="app-heading">
+    <img src="{{ '/assets/icons/appicon-128.png' | relative_url }}" width="72" height="72" alt="" loading="lazy">
+    <div><p class="section-kicker">{{ tool.days_app_kicker }}</p><h2 id="app-heading">{{ tool.days_app_title }}</h2><p>{{ tool.days_app_body | replace: token_app, app_name }}</p><a class="calculator-text-link" href="{{ locale_prefix | append: '/event-countdown-app/' | relative_url }}">{{ tool.days_app_link }} <span aria-hidden="true">→</span></a></div>
+    <div class="calculator-app__download">{% include app-store-badge.html locale=current_locale %}</div>
+  </section>
+
+  <section class="calculator-explainer site-container" aria-labelledby="how-heading">
+    <div><p class="section-kicker">{{ tool.how_kicker }}</p><h2 id="how-heading">{{ tool.days_how_title }}</h2><p>{{ tool.days_how_body }}</p><p>{{ tool.days_example }}</p></div>
+    <div class="calculator-use-cases"><h3>{{ tool.days_uses_title }}</h3><ul><li><strong>{{ tool.days_trips }}</strong><span>{{ tool.days_trips_body }}</span></li><li><strong>{{ tool.days_deadlines }}</strong><span>{{ tool.days_deadlines_body }}</span></li><li><strong>{{ tool.days_celebrations }}</strong><span>{{ tool.days_celebrations_body }}</span></li></ul><a class="calculator-text-link" href="{{ locale_prefix | append: '/when-is/' | relative_url }}">{{ tool.holiday_link }} <span aria-hidden="true">→</span></a></div>
+  </section>
+
+  <section class="calculator-faq site-container" aria-labelledby="faq-heading">
+    <p class="section-kicker">{{ tool.faq_kicker }}</p><h2 id="faq-heading">{{ tool.faq_title }}</h2>
+    {% assign questions = 'until,end,weekdays,past,app' | split: ',' %}
+    {% for question in questions %}{% assign question_key = 'days_faq_' | append: question | append: '_q' %}{% assign answer_key = 'days_faq_' | append: question | append: '_a' %}<details><summary>{{ tool[question_key] }}</summary><p>{{ tool[answer_key] | replace: token_app, app_name }}</p></details>{% endfor %}
+    <p class="calculator-more"><a href="{{ locale_prefix | append: '/anniversary-calculator/' | relative_url }}">{{ tool.calculator_link }}</a> · <a href="{{ locale_prefix | append: '/countdown-ideas/' | relative_url }}">{{ tool.more_ideas }}</a></p>
+  </section>
+</div>
+{% include tool-data.html %}
+<script type="module" src="{{ '/assets/days-until-calculator.js' | relative_url }}"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": {{ tool.days_title | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "description": {{ tool.days_description | jsonify }},
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "Any",
+  "browserRequirements": "Requires JavaScript",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+}
+</script>

@@ -103,8 +103,9 @@ I'd love to see the sites you create using this little tool.
 
 `/when-is/` links to eight holiday pages: Christmas, Halloween, New Year,
 Thanksgiving, Western Easter, Valentine’s Day, Mother’s Day, and Father’s Day.
-The holiday index, all eight detail pages, and the anniversary calculator are
-available in all 37 site locale variants (33 languages): 370 tool routes. Each
+The holiday index, all eight detail pages, the anniversary calculator, and the
+days-until calculator are available in all 37 site locale variants (33 languages):
+407 tool routes. Each
 locale's three-column footer and ideas index link to its own tools. Language
 switching stays on the corresponding page; canonical URLs, translated metadata,
 `hreflang` alternates, and the sitemap cover every translation.
@@ -171,7 +172,7 @@ App Store Connect campaign links separately for available install attribution.
 Use those results to select further events or regional date rules.
 
 ```sh
-node --test scripts/validate-holiday-dates.mjs scripts/validate-anniversary.mjs scripts/validate-tool-locales.mjs
+node --test scripts/validate-holiday-dates.mjs scripts/validate-anniversary.mjs scripts/validate-days-until.mjs scripts/validate-tool-locales.mjs
 node scripts/generate-holiday-dates.mjs --check
 node scripts/generate-tool-routes.mjs --check
 rbenv exec bundle exec jekyll build
@@ -214,6 +215,31 @@ Preview with `bundle exec jekyll serve` and visit `/anniversary-calculator/`. Te
 empty and reversed dates, February 29, a milestone occurring today,
 keyboard navigation, and narrow mobile screens. On machines with rbenv,
 prefix the Ruby commands with `rbenv exec` to use the installed project gems.
+
+## Days until calculator
+
+The `/days-until-calculator/` page and its 36 other locale routes target “days until”
+and “days between dates” queries. It shares the anniversary calculator's styles
+(`_sass/calculator.scss`) and is linked from each locale's footer, ideas index, and
+holiday hub, with sitemap entries for every translation.
+
+`assets/days-until-dates.mjs` counts calendar days between two dates and splits the
+span into weeks, calendar months (clamped to shorter months), weekdays, and weekend
+days. The start date counts and the end date does not, so tomorrow is 1 day away; an
+option includes the end date. Reversed dates count the same span backwards. The
+weekend follows the page language's CLDR week data, so Hebrew and Arabic pages use
+Friday–Saturday. Public holidays are not removed from weekdays. Quick picks count
+from today to the next Christmas, New Year, Halloween, Valentine’s Day, or Easter
+using the holiday rules. Dates are neither persisted nor transmitted.
+
+```sh
+node --test scripts/validate-days-until.mjs
+bundle exec jekyll build
+bundle exec ruby scripts/validate-localization.rb --site _site
+```
+
+Preview `/days-until-calculator/` and check the quick picks, the include-end option,
+reversed and identical dates, an empty end date, and narrow mobile screens.
 
 ## September 2026 language expansion
 

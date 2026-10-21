@@ -27,9 +27,9 @@
 		{% assign meta_title = t.guide_meta_title | replace: "TOPIC_LOWER", guide_topic_lower | replace: "TOPIC", guide_topic %}
 		{% assign meta_description = t.guide_description | replace: "TOPIC_LOWER", guide_topic_lower | replace: "TOPIC", guide_topic %}
 	{% endif %}
-	{% if page.canonical_key == 'when-is' or page.canonical_key == 'anniversary-calculator' %}
+	{% if page.canonical_key == 'when-is' or page.canonical_key == 'anniversary-calculator' or page.canonical_key == 'days-until-calculator' %}
         {% include tool-context.html %}
-        {% if page.canonical_key == 'when-is' %}{% assign meta_title = tool.hub_title | append: ' | ' | append: app_name %}{% assign meta_description = tool.hub_description %}{% else %}{% assign meta_title = tool.calculator_title | append: ' | ' | append: app_name %}{% assign meta_description = tool.calculator_description %}{% endif %}
+        {% if page.canonical_key == 'when-is' %}{% assign meta_title = tool.hub_title | append: ' | ' | append: app_name %}{% assign meta_description = tool.hub_description %}{% elsif page.canonical_key == 'days-until-calculator' %}{% assign meta_title = tool.days_title | append: ' | ' | append: app_name %}{% assign meta_description = tool.days_description %}{% else %}{% assign meta_title = tool.calculator_title | append: ' | ' | append: app_name %}{% assign meta_description = tool.calculator_description %}{% endif %}
     {% endif %}
 	{% if page.holiday %}
 		{% include holiday-context.html %}

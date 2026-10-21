@@ -31,7 +31,7 @@ jobs:
         uses: actions/configure-pages@v6
       - name: Validate tool dates, country rules, and translations
         run: |
-          node --test scripts/validate-holiday-dates.mjs scripts/validate-anniversary.mjs scripts/validate-tool-locales.mjs
+          node --test scripts/validate-holiday-dates.mjs scripts/validate-anniversary.mjs scripts/validate-days-until.mjs scripts/validate-tool-locales.mjs
           node scripts/generate-holiday-dates.mjs --check
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1

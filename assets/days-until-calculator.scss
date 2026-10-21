@@ -1,0 +1,24 @@
+---
+---
+
+@import "calculator";
+
+.days-quick { margin: -4px 0 20px; }
+.days-quick p { font-size: 13px; font-weight: 750; margin-bottom: 8px; }
+.days-quick button { min-height: 36px; margin: 0 6px 8px 0; padding: 6px 12px; border: 1px solid #b9cfdd; border-radius: 30px; background: #f4f9fd; color: #12507e; font-size: 13px; font-weight: 650; }
+.days-quick button:hover { background: #e3f0fa; border-color: var(--calculator-blue); }
+.days-include-end { display: flex; align-items: center; gap: 10px; min-height: 44px; margin-bottom: 18px; font-size: 14px; font-weight: 650; cursor: pointer; }
+.days-include-end input { width: 20px; height: 20px; margin: 0; flex-shrink: 0; accent-color: var(--calculator-blue); }
+.days-sentence { margin-top: 12px; font-size: 15px; line-height: 1.5; }
+.days-breakdown { margin: 26px 0 0; border-top: 1px solid #cbdfde; }
+.days-breakdown > div { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, auto); gap: 4px 16px; padding: 12px 0; border-bottom: 1px solid #dbe8e5; font-size: 14px; }
+.days-breakdown > div[hidden] { display: none; }
+.days-breakdown dt { color: var(--muted); }
+.days-breakdown dd { margin: 0; font-weight: 700; text-align: end; font-variant-numeric: tabular-nums; }
+.days-page .calculator-use-cases .calculator-text-link { margin-top: 22px; }
+.days-sentence, .days-breakdown { overflow-wrap: anywhere; }
+
+@media (max-width: 360px) {
+  .days-breakdown > div { grid-template-columns: 1fr; }
+  .days-breakdown dd { text-align: start; }
+}

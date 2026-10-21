@@ -47,6 +47,11 @@ layout: default
 					<strong>{{ tool.calculator_title }}</strong>
 					<p>{{ tool.calculator_description }}</p>
 				</a>
+				<a class="guide-link-card" href="{{ locale_prefix | append: '/days-until-calculator/' | relative_url }}">
+					<span>{{ tool.free_tools }}</span>
+					<strong>{{ tool.days_title }}</strong>
+					<p>{{ tool.days_description }}</p>
+				</a>
 			{% assign idea_pages = site.guide_pages | sort: "nav_order" %}
 			{% for idea in idea_pages %}
 				{% assign guide_topic = guide_topics[idea.slug] | default: idea.short_title | default: idea.title %}

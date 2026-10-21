@@ -20,10 +20,11 @@ for (const locale of locales) {
   for (const [key, layout, extra, stylesheet] of [
     ['when-is', 'holiday-index', '', 'holiday-countdown'],
     ['anniversary-calculator', 'anniversary-calculator', '', 'anniversary-calculator'],
+    ['days-until-calculator', 'days-until-calculator', '', 'days-until-calculator'],
     ...holidays.map(h=>[`when-is/${h.slug}`, 'holiday', `holiday: ${h.slug}\n`, 'holiday-countdown'])
   ]) {
     const route = `${prefix}/${key}/`;
-    const path = locale.code === 'en' && key === 'anniversary-calculator' ? 'anniversary-calculator.html' : `${route.slice(1)}index.html`;
+    const path = locale.code === 'en' && key.endsWith('-calculator') ? `${key}.html` : `${route.slice(1)}index.html`;
     save(path, `---\nlayout: ${layout}\nlocale: ${locale.code}\nlocalized: true\ncanonical_key: ${key}\npermalink: ${route}\nstylesheet: /assets/${stylesheet}.css\n${extra}---\n`);
   }
   const format = {};
@@ -41,4 +42,4 @@ for (const locale of locales) {
   formats[locale.code]=format;
 }
 save('_data/tool_formats.json',JSON.stringify(formats,null,2)+'\n');
-console.log(`${check?'Checked':'Generated'} ${locales.length * (holidays.length + 2)} tool routes and localized date formats.`);
+console.log(`${check?'Checked':'Generated'} ${locales.length * (holidays.length + 3)} tool routes and localized date formats.`);

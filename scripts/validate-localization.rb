@@ -34,13 +34,13 @@ class LocalizationValidator
 
     @guide_slugs = @source.glob('_guide_pages/*.md').map { |path| path.basename('.md').to_s }.sort
     @holiday_slugs = JSON.parse(@source.join('_data/holidays.json').read).map { |holiday| holiday['slug'] }
-    @route_keys = ROUTE_KEYS + @guide_slugs + ['when-is', 'anniversary-calculator'] + @holiday_slugs.map { |slug| "when-is/#{slug}" }
+    @route_keys = ROUTE_KEYS + @guide_slugs + ['when-is', 'anniversary-calculator', 'days-until-calculator'] + @holiday_slugs.map { |slug| "when-is/#{slug}" }
     check(:source, @guide_slugs.length == 13, "expected 13 guide slugs, found #{@guide_slugs.length}")
-    check(:source, @route_keys.length == 26, "expected 26 page types, found #{@route_keys.length}")
+    check(:source, @route_keys.length == 27, "expected 27 page types, found #{@route_keys.length}")
     check(:source, @locales.length == 37, "expected 37 configured locales, found #{@locales.length}")
 
     @routes = @locales.flat_map { |locale| @route_keys.map { |key| route_for(locale, key) } }
-    check(:routes, @routes.length == 962, "expected 962 locale routes, found #{@routes.length}")
+    check(:routes, @routes.length == 999, "expected 999 locale routes, found #{@routes.length}")
     @routes.each { |route| validate_page(route) }
     validate_support_pages
     validate_links
@@ -193,7 +193,7 @@ class LocalizationValidator
     validate_language_menu(doc, path, code, key)
     validate_footer_support(doc, path, locale)
     validate_unresolved_tokens(doc, path)
-    validate_tool_page(doc, path, locale, key) if key == 'anniversary-calculator' || key.start_with?('when-is')
+    validate_tool_page(doc, path, locale, key) if key.end_with?('-calculator') || key.start_with?('when-is')
     validate_home(doc, path, code) if key == 'home'
     validate_breadcrumb(doc, path, code) if key == 'support' || @guide_slugs.include?(key)
   end
@@ -259,7 +259,7 @@ class LocalizationValidator
     support = doc.css('.site-footer .footerLinks a').find { |link| url_path(link['href']) == public_route(route_for(locale, 'support')[:path]) }
     check(:pages, !support.nil?, "#{path}: footer Support link is not locale-aware")
     catalog = JSON.parse(@source.join("_data/tools/#{locale['code']}.json").read)['strings']
-    { 'when-is' => 'holiday_link', 'anniversary-calculator' => 'calculator_link' }.each do |key, label|
+    { 'when-is' => 'holiday_link', 'anniversary-calculator' => 'calculator_link', 'days-until-calculator' => 'days_link' }.each do |key, label|
       link = doc.css('.site-footer .footerLinks a').find { |item| url_path(item['href']) == public_route(route_for(locale, key)[:path]) }
       check(:pages, link && link.text.strip == catalog[label], "#{path}: footer #{key} link must be localized")
     end
@@ -279,6 +279,9 @@ class LocalizationValidator
       check(:tools, doc.at_css('#holiday-country') && data.dig('countries', 'US') && data.dig('countries', 'GB'), "#{path}: country selector or localized country names missing")
     elsif key == 'anniversary-calculator'
       check(:tools, doc.at_css('label[for="start-date"]').text == data.dig('strings', 'start_date'), "#{path}: calculator label not translated")
+    elsif key == 'days-until-calculator'
+      check(:tools, doc.at_css('label[for="end-date"]').text == data.dig('strings', 'days_end'), "#{path}: calculator label not translated")
+      check(:tools, doc.css('.days-quick button[data-rule]').length == 5, "#{path}: expected five holiday quick picks")
     end
   rescue JSON::ParserError, NoMethodError => error
     add_error(:tools, "#{path}: invalid tool content: #{error.message.lines.first.strip}")

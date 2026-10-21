@@ -27,7 +27,7 @@ layout: default
       {% endfor %}
     </div>
   </section>
-  <section class="holiday-hub__more site-container"><h2>{{ tool.own_dates }}</h2><p>{{ tool.own_intro }}</p><a class="holiday-text-link" href="{{ locale_prefix | append: '/anniversary-calculator/' | relative_url }}">{{ tool.calculator_link }} <span aria-hidden="true">→</span></a> <a class="holiday-text-link" href="{{ locale_prefix | append: '/countdown-ideas/' | relative_url }}">{{ tool.app_link }} <span aria-hidden="true">→</span></a></section>
+  <section class="holiday-hub__more site-container"><h2>{{ tool.own_dates }}</h2><p>{{ tool.own_intro }}</p><a class="holiday-text-link" href="{{ locale_prefix | append: '/anniversary-calculator/' | relative_url }}">{{ tool.calculator_link }} <span aria-hidden="true">→</span></a> <a class="holiday-text-link" href="{{ locale_prefix | append: '/days-until-calculator/' | relative_url }}">{{ tool.days_link }} <span aria-hidden="true">→</span></a> <a class="holiday-text-link" href="{{ locale_prefix | append: '/countdown-ideas/' | relative_url }}">{{ tool.app_link }} <span aria-hidden="true">→</span></a></section>
 </div>
 {% include tool-data.html %}
 <script type="module" src="{{ '/assets/holiday-countdown.js' | relative_url }}"></script>

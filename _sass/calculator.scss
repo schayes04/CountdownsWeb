@@ -1,0 +1,121 @@
+// Shared by the anniversary and days-until calculator pages.
+.calculator-page {
+  --calculator-teal: #086c64;
+  --calculator-blue: #0067d8;
+  button, input, select { font-family: inherit; }
+  button { cursor: pointer; }
+  [hidden] { display: none !important; }
+  :is(a, button, input, select, summary):focus-visible { outline: 3px solid var(--calculator-blue); outline-offset: 4px; }
+  h1, h2, h3 { hyphens: none; overflow-wrap: normal; }
+}
+.calculator-hero { padding: 28px 0 52px; background: linear-gradient(155deg, #f2f9ff 0%, #fff 56%, #f1fbf7 100%); }
+.calculator-breadcrumbs { display: flex; gap: 12px; font-size: 13px; color: var(--muted); }
+.calculator-breadcrumbs a:hover { text-decoration: underline; }
+.calculator-intro { max-width: 850px; margin: 44px auto 34px; text-align: center; }
+.calculator-intro h1 { font-size: clamp(36px, 5.1vw, 62px); letter-spacing: -.045em; line-height: 1.06; margin: 12px 0 20px; }
+.calculator-intro > p:last-child { max-width: 640px; margin: 0 auto; font-size: 18px; line-height: 1.65; color: var(--muted); }
+.calculator-shell { display: grid; grid-template-columns: 0.85fr 1.15fr; border: 1px solid #d8e4ed; border-radius: 24px; overflow: hidden; background: #fff; box-shadow: 0 16px 60px rgba(22, 60, 85, .07); }
+.calculator-form { padding: 36px; }
+.calculator-form h2 { font-size: 24px; letter-spacing: -.025em; }
+.calculator-form > p:first-of-type { font-size: 15px; color: var(--muted); margin: 8px 0 26px; }
+.calculator-form fieldset { min-width: 0; border: 0; padding: 0; margin: 0; }
+.calculator-field { margin-bottom: 22px; }
+.calculator-field label { font-size: 14px; font-weight: 750; display: block; }
+.calculator-label-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.calculator-label-row button { padding: 7px 0 7px 8px; margin: -7px 0; min-height: 36px; background: none; border: 0; color: var(--calculator-blue); font-size: 13px; font-weight: 700; }
+.calculator-field input, .calculator-field select { appearance: none; -webkit-appearance: none; display: block; width: 100%; min-width: 0; max-width: 100%; min-height: 54px; margin-top: 9px; padding: 12px 14px; border: 1px solid #aebfcd; border-radius: 10px; color: var(--ink); background: #fff; font-size: 16px; line-height: 1.4; }
+.calculator-field select { appearance: auto; }
+.calculator-field input[aria-invalid="true"] { border-color: #b12f2f; }
+.calculator-hint { margin-top: 8px; color: var(--muted); font-size: 12px; line-height: 1.5; }
+.calculator-error { color: #a82626; font-size: 14px; margin: 12px 0; }
+.calculator-submit { display: flex; align-items: center; justify-content: space-between; width: 100%; min-height: 54px; border: 0; border-radius: 10px; padding: 12px 18px; background: var(--calculator-blue); color: #fff; font-size: 16px; font-weight: 750; }
+.calculator-submit:hover { background: #0056b5; }
+.calculator-submit:disabled { opacity: .5; }
+.calculator-output { padding: 36px; min-width: 0; border-inline-start: 1px solid #d8e4ed; background: linear-gradient(145deg, #eef8ff, #f1fbf8); }
+.calculator-empty { height: 100%; min-height: 390px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+.calculator-calendar { width: 104px; height: 116px; margin-bottom: 26px; background: #fff; border: 1px solid #ccdfeb; border-radius: 16px; box-shadow: 7px 8px 0 #dceee8; transform: rotate(-5deg); overflow: hidden; }
+.calculator-calendar span { display: block; padding: 10px 2px; background: #ddecfa; color: #1e5f9a; font-size: 10px; letter-spacing: .12em; font-weight: 800; }
+.calculator-calendar strong { display: block; font-size: 56px; font-weight: 500; line-height: 1.25; color: var(--calculator-teal); }
+.calculator-empty h2 { font-size: 28px; letter-spacing: -.025em; }
+.calculator-empty > p { max-width: 330px; margin: 10px 0 26px; color: var(--muted); font-size: 15px; }
+.calculator-empty__labels { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+.calculator-empty__labels span { font-size: 11px; font-weight: 650; padding: 5px 10px; border: 1px solid #cfdfdf; border-radius: 30px; color: #466865; }
+.calculator-result-heading { color: #45656e; font-size: 15px; font-weight: 650; }
+.calculator-result-heading:focus { outline: none; }
+.calculator-day-count { margin-top: 8px; }
+.calculator-day-count strong { display: block; font-size: clamp(48px, 6.3vw, 78px); font-weight: 800; letter-spacing: -.05em; line-height: 1.08; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.calculator-day-count span { font-size: 23px; font-weight: 700; color: var(--calculator-teal); }
+.calculator-weeks { font-size: 14px; margin-top: 12px; }
+.calculator-range { font-size: 12px; margin-top: 4px; color: var(--muted); }
+.calculator-anniversary { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin: 26px 0; padding: 18px 0; border-block: 1px solid #cbdfde; }
+.calculator-eyebrow { font-size: 10px; text-transform: uppercase; letter-spacing: .1em; font-weight: 750; color: #486568; }
+.calculator-anniversary h3 { font-size: 19px; margin-top: 4px; }
+.calculator-anniversary p:last-child { font-size: 13px; color: var(--muted); margin-top: 3px; }
+.calculator-countdown { flex-shrink: 0; font-size: 13px; border-radius: 20px; background: #d5eee6; color: #145e50; padding: 6px 12px; }
+.calculator-milestone-heading { font-size: 14px; margin-bottom: 12px; }
+.calculator-milestones { list-style: none; margin: 0 0 20px; }
+.calculator-milestones li { display: grid; grid-template-columns: 1fr auto; gap: 1px 12px; padding: 10px 0; border-bottom: 1px solid #dbe8e5; font-size: 12px; }
+.calculator-milestones strong { font-size: 14px; }
+.calculator-milestones li > span:not(.calculator-milestone__remaining) { grid-column: 1; color: var(--muted); }
+.calculator-milestone__remaining { grid-column: 2; grid-row: 1 / 3; align-self: center; color: var(--calculator-teal); font-weight: 650; }
+.calculator-counting-note { color: var(--muted); font-size: 12px; text-align: center; margin-top: 18px; }
+.calculator-app { display: grid; grid-template-columns: 72px 1fr auto; align-items: center; gap: 24px; padding: 40px 0; border-bottom: 1px solid var(--line); }
+.calculator-app > img { border-radius: 17px; }
+.calculator-app h2 { font-size: 24px; letter-spacing: -.025em; margin: 7px 0; }
+.calculator-app p:not(.section-kicker) { max-width: 600px; color: var(--muted); font-size: 15px; }
+.calculator-text-link { display: inline-block; margin-top: 12px; color: var(--calculator-blue); font-size: 14px; font-weight: 700; }
+.calculator-app .app-store-badge, .calculator-app .app-store-badge img { height: 48px; }
+.calculator-explainer { display: grid; grid-template-columns: 1.1fr .9fr; gap: 70px; padding: 70px 0; }
+.calculator-explainer h2, .calculator-faq h2 { font-size: 34px; line-height: 1.15; letter-spacing: -.035em; margin: 12px 0 20px; }
+.calculator-explainer p:not(.section-kicker) { margin-top: 16px; color: var(--muted); font-size: 15px; line-height: 1.75; }
+.calculator-use-cases { align-self: center; background: #f6f9fc; border-radius: 20px; padding: 28px; }
+.calculator-use-cases h3 { font-size: 20px; letter-spacing: -.025em; margin-bottom: 20px; }
+.calculator-use-cases ul { list-style: none; }
+.calculator-use-cases li + li { margin-top: 20px; }
+.calculator-use-cases strong, .calculator-use-cases span { display: block; font-size: 14px; }
+.calculator-use-cases span { color: var(--muted); margin-top: 4px; }
+.calculator-faq { max-width: 790px; padding-bottom: 70px; }
+.calculator-faq details { border-bottom: 1px solid var(--line); }
+.calculator-faq summary { cursor: pointer; padding: 20px 0; font-weight: 700; font-size: 16px; }
+.calculator-faq details p { padding-bottom: 20px; font-size: 15px; line-height: 1.75; color: var(--muted); }
+.calculator-faq a, .calculator-text-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+.calculator-more { margin-top: 28px; color: var(--muted); font-size: 14px; }
+.calculator-sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+@media (max-width: 850px) {
+  .calculator-form, .calculator-output { padding: 28px; }
+  .calculator-shell { grid-template-columns: 1fr 1.1fr; }
+  .calculator-app { grid-template-columns: 56px 1fr; }
+  .calculator-app > img { width: 56px; height: 56px; border-radius: 13px; }
+  .calculator-app__download { grid-column: 2; }
+  .calculator-explainer { gap: 32px; }
+  .calculator-anniversary { align-items: flex-start; flex-direction: column; gap: 10px; }
+}
+@media (max-width: 640px) {
+  .calculator-hero { padding-top: 20px; }
+  .calculator-intro { margin-top: 30px; }
+  .calculator-intro h1 { font-size: clamp(32px, 8.6vw, 44px); }
+  .calculator-intro > p:last-child { font-size: 16px; }
+  .calculator-intro .section-kicker { font-size: 10px; }
+  .calculator-shell { grid-template-columns: 1fr; border-radius: 18px; }
+  .calculator-form, .calculator-output { padding: 24px; }
+  .calculator-form h2 { font-size: 22px; }
+  .calculator-output { border-inline-start: 0; border-top: 1px solid #d8e4ed; }
+  .calculator-empty { min-height: 300px; }
+  .calculator-day-count strong { font-size: clamp(46px, 15vw, 72px); }
+  .calculator-anniversary { flex-direction: row; align-items: center; }
+  .calculator-app { gap: 18px; padding: 32px 0; }
+  .calculator-app h2 { font-size: 22px; }
+  .calculator-app > div:not(.calculator-app__download) { grid-column: 1 / -1; }
+  .calculator-app__download { grid-column: 1 / -1; }
+  .calculator-explainer { grid-template-columns: 1fr; padding: 48px 0; }
+  .calculator-explainer h2, .calculator-faq h2 { font-size: 29px; }
+}
+@media (max-width: 360px) {
+  .calculator-form, .calculator-output { padding: 20px; }
+  .calculator-anniversary { flex-direction: column; align-items: flex-start; }
+  .calculator-intro h1 { font-size: 32px; }
+}
+
+.calculator-page h1, .calculator-page h2, .calculator-field label, .calculator-countdown, .calculator-milestones { overflow-wrap: anywhere; }
+.calculator-countdown { flex-shrink: 1; }
+.calculator-milestones li { grid-template-columns: minmax(0, 1fr) minmax(0, auto); }
