@@ -69,7 +69,7 @@ layout: default
 		</article>
 		<aside class="guide-aside" aria-label="{{ app_name | escape }}">
 			<div class="guide-aside__panel">
-				<img src="{{ site.app_icon | relative_url }}" alt="">
+				<img src="{{ '/assets/icons/appicon-128.png' | relative_url }}" srcset="{{ '/assets/icons/appicon-64.png' | relative_url }} 64w, {{ '/assets/icons/appicon-128.png' | relative_url }} 128w" sizes="54px" width="54" height="54" alt="" loading="lazy" decoding="async">
 				<h2>{{ app_name | escape }}</h2>
 				<p>{{ t.app_description }}</p>
 				<ul>

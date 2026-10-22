@@ -358,7 +358,8 @@ and four app icon sizes. Generated assets are checked into the repository;
 GitHub Pages needs no image processing dependency.
 
 To regenerate after replacing a capture or changing `app_icon`, use Ruby, `cwebp`
-from libwebp (the initial generation used 1.6.0), and macOS `sips`:
+from libwebp (the initial generation used 1.6.0), `pngquant` (`brew install pngquant`),
+and macOS `sips`:
 
 ```sh
 rbenv exec ruby scripts/generate-responsive-images.rb

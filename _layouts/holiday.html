@@ -67,5 +67,9 @@ layout: default
 </div>
 {% include tool-data.html %}
 <script id="holiday-data" type="application/json">{{ holiday | jsonify }}</script>
+<link rel="modulepreload" href="{{ '/assets/holiday-dates.mjs' | relative_url }}">
+<link rel="modulepreload" href="{{ '/assets/tool-i18n.mjs' | relative_url }}">
+<link rel="modulepreload" href="{{ '/assets/holiday-country.mjs' | relative_url }}">
+<link rel="modulepreload" href="{{ '/assets/country-data.mjs' | relative_url }}">
 <script type="module" src="{{ '/assets/holiday-countdown.js' | relative_url }}"></script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":{{ app_name | jsonify }},"item":{{ locale_prefix | append: '/' | absolute_url | jsonify }}},{"@type":"ListItem","position":2,"name":{{ tool.holiday_link | jsonify }},"item":{{ locale_prefix | append: '/when-is/' | absolute_url | jsonify }}},{"@type":"ListItem","position":3,"name":{{ holiday_copy.name | jsonify }},"item":{{ page.url | absolute_url | jsonify }}}]}</script>

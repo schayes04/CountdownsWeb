@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-# Requires cwebp (libwebp); generation also uses macOS sips for PNG icons.
+# Requires cwebp (libwebp) and pngquant; generation also uses macOS sips for PNG icons.
 require 'yaml'
 require 'json'
 require 'digest'
@@ -55,6 +55,8 @@ abort 'Usage: ruby scripts/generate-responsive-images.rb [--check]' unless ARGV.
 
 encoder, status = Open3.capture2e('cwebp', '-version')
 abort 'Install libwebp to provide cwebp' unless status.success?
+_, status = Open3.capture2e('pngquant', '--version')
+abort 'Install pngquant to compress the PNG icons' unless status.success?
 sources = YAML.safe_load_file(File.join(ROOT, '_data/screenshots.yml'))
 paths = sources.fetch('locales').values.flat_map(&:values).uniq.sort
 previous = File.exist?(MANIFEST) ? JSON.parse(File.read(MANIFEST)) : {}
@@ -89,6 +91,8 @@ icon = { 'source' => icon_path, 'source_sha256' => digest(icon_path), 'variants'
   path = "/assets/icons/appicon-#{size}.png"
   FileUtils.mkdir_p(File.dirname(asset(path)))
   run('sips', '-z', size.to_s, size.to_s, asset(icon_path), '--out', asset(path))
+  # The header and footer load these on every page; pngquant cuts them by about 65%.
+  run('pngquant', '--quality=85-98', '--speed', '1', '--strip', '--force', '--ext', '.png', asset(path))
   record(path, size, size)
 end }
 manifest = { 'encoder' => encoder.strip, 'quality' => QUALITY, 'widths' => WIDTHS,

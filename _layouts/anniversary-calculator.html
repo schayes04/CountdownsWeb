@@ -83,6 +83,8 @@ layout: default
   </section>
 </div>
 {% include tool-data.html %}
+<link rel="modulepreload" href="{{ '/assets/tool-i18n.mjs' | relative_url }}">
+<link rel="modulepreload" href="{{ '/assets/anniversary-dates.mjs' | relative_url }}">
 <script type="module" src="{{ '/assets/anniversary-calculator.js' | relative_url }}"></script>
 <script type="application/ld+json">
 {

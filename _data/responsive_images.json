@@ -16243,29 +16243,29 @@
         "path": "/assets/icons/appicon-32.png",
         "width": 32,
         "height": 32,
-        "bytes": 2565,
-        "sha256": "ff4df28911e0c07eb188f1d2af4c5626d7f8a8ebafb888b21946f795a56c8b10"
+        "bytes": 1897,
+        "sha256": "9a3d17eb9d72b3eeb7300f87b0265464e0de6b060a11fe58429c5f995924634e"
       },
       {
         "path": "/assets/icons/appicon-64.png",
         "width": 64,
         "height": 64,
-        "bytes": 7234,
-        "sha256": "0da3d7e784ac16889b2a9d60ce79cba08c02e543a36e68f87a5e5ef4de274880"
+        "bytes": 3473,
+        "sha256": "821c2c7b2efd898a510942236465d2229a062ee25d67aaa9422dd9e330d87168"
       },
       {
         "path": "/assets/icons/appicon-128.png",
         "width": 128,
         "height": 128,
-        "bytes": 21009,
-        "sha256": "f0d664f83e6259366bd36d0ac9df28cc93406f02872291159be0d666c2ad3c03"
+        "bytes": 7278,
+        "sha256": "1ca6e6697d4ed15843d5fd45f0e2542dc52d10829b80eef3ecbe5f2848c168c8"
       },
       {
         "path": "/assets/icons/appicon-180.png",
         "width": 180,
         "height": 180,
-        "bytes": 35276,
-        "sha256": "3c7190019f77ff1dfdbb8837c608268873d7596278c333e074b755f5f7c0e836"
+        "bytes": 10554,
+        "sha256": "408ce000c40007a2ca84af3366964a7aa1a9a9a8f508fb44e30dcb6a53e86676"
       }
     ]
   }
