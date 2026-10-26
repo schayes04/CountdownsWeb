@@ -2,21 +2,75 @@
 layout: null
 permalink: /open/
 ---
+{%- assign default_locale = site.data.locales | first -%}
+{%- assign default_strings = site.data.strings[default_locale.code] -%}
 <!doctype html>
-<html lang="en-US">
+<html lang="{{ default_locale.html_lang }}" dir="{{ default_locale.dir }}">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex">
-    <title>Opening {{ site.app_name }}…</title>
+    <title>{{ default_strings.opening_app | replace: 'APP_NAME', default_locale.app_name }}</title>
     <script>
-        window.onload = function() {
-            window.location.replace("countdown-shayesapps://");
-        };
+        window.location.replace("countdown-shayesapps://");
     </script>
 </head>
 <body style="font-family: -apple-system, system-ui, sans-serif; text-align: center; padding: 48px 16px;">
-    <p>Opening {{ site.app_name }}…</p>
-    <p>Don’t have it yet? <a href="{% include app-store-url.html locale="en" %}">Get {{ site.app_name }} on the App Store</a></p>
+    <p id="opening">{{ default_strings.opening_app | replace: 'APP_NAME', default_locale.app_name }}</p>
+    <p><a id="store" href="{% include app-store-url.html locale=default_locale.code %}">{{ default_strings.download_badge }}</a></p>
+    <script>
+        (function() {
+            var locales = [
+                {%- for locale in site.data.locales -%}
+                {%- assign t = site.data.strings[locale.code] -%}
+                {%- capture store_url -%}{% include app-store-url.html locale=locale.code %}{%- endcapture -%}
+                { lang: {{ locale.html_lang | jsonify }}, dir: {{ locale.dir | jsonify }}, opening: {{ t.opening_app | replace: 'APP_NAME', locale.app_name | jsonify }}, download: {{ t.download_badge | jsonify }}, store: {{ store_url | jsonify }} }{% unless forloop.last %},{% endunless %}
+                {%- endfor -%}
+            ];
+
+            // Maps a browser language tag onto the site's locale tags,
+            // e.g. zh-TW -> zh-Hant, pt-PT -> pt, no/nn -> nb.
+            function normalize(tag) {
+                var parts = tag.toLowerCase().split("-");
+                var base = parts[0];
+                if (base === "zh") {
+                    return /^(hant|tw|hk|mo)$/.test(parts[1]) || parts[2] === "tw" || parts[2] === "hk" ? "zh-hant" : "zh-hans";
+                }
+                if (base === "no" || base === "nn") return "nb";
+                if (base === "tl") return "fil";
+                if (base === "iw") return "he";
+                if (base === "in") return "id";
+                if (base === "pt") return parts[1] === "br" ? "pt-br" : "pt";
+                return parts.length > 1 ? base + "-" + parts[1] : base;
+            }
+
+            function find(tag) {
+                var wanted = normalize(tag);
+                var base = wanted.split("-")[0];
+                var fallback = null;
+                for (var i = 0; i < locales.length; i++) {
+                    var lang = locales[i].lang.toLowerCase();
+                    if (lang === wanted) return locales[i];
+                    if (!fallback && lang.split("-")[0] === base) fallback = locales[i];
+                }
+                return fallback;
+            }
+
+            var preferred = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ""];
+            var match = null;
+            for (var i = 0; i < preferred.length && !match; i++) {
+                if (preferred[i]) match = find(preferred[i]);
+            }
+            if (!match) return;
+
+            document.documentElement.lang = match.lang;
+            document.documentElement.dir = match.dir;
+            document.title = match.opening;
+            document.getElementById("opening").textContent = match.opening;
+            var store = document.getElementById("store");
+            store.textContent = match.download;
+            store.href = match.store;
+        })();
+    </script>
 </body>
 </html>

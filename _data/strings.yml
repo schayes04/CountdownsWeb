@@ -20,6 +20,7 @@ en:
   made_by: Made by
   language: Language
   download_badge: Download on the App Store
+  opening_app: Opening APP_NAME…
   app_description: Countdowns helps you count down to important moments, or count
     up from meaningful dates, on iPhone, iPad, Mac, and Apple Watch. Perfect for birthdays,
     holidays, weddings, anniversaries, vacations, retirement, and more!
@@ -205,6 +206,7 @@ es:
   made_by: Creado por
   language: Idioma
   download_badge: Descargar en App Store
+  opening_app: Abriendo APP_NAME…
   app_description: Cuentas atrás te ayuda a contar hacia momentos importantes, o a contar
     desde fechas significativas, en iPhone, iPad, Mac y Apple Watch. Ideal para cumpleaños,
     festivos, bodas, aniversarios, vacaciones, jubilación y más.
@@ -384,6 +386,7 @@ fr:
   made_by: Créé par
   language: Langue
   download_badge: Télécharger dans l’App Store
+  opening_app: Ouverture de APP_NAME…
   app_description: Compte à rebours vous aide à compter jusqu’aux moments importants, ou
     depuis les dates qui comptent, sur iPhone, iPad, Mac et Apple Watch. Parfait pour
     les anniversaires, fêtes, mariages, voyages, départs à la retraite et plus encore.
@@ -564,6 +567,7 @@ ar:
   made_by: من تطوير
   language: اللغة
   download_badge: تنزيل من App Store
+  opening_app: جارٍ فتح APP_NAME…
   app_description: يساعدك تطبيق العدادات التنازلية على العدّ التنازلي إلى اللحظات المهمة، أو العدّ
     التصاعدي منذ تواريخ ذات معنى، على iPhone وiPad وMac وApple Watch. مثالي لأعياد
     الميلاد والعطلات وحفلات الزفاف والرحلات والتقاعد والمزيد.
@@ -738,6 +742,7 @@ ca:
   made_by: Creat per
   language: Idioma
   download_badge: Descarrega'l a l'App Store
+  opening_app: Obrint APP_NAME…
   app_description: Comptes Enrere t'ajuda a comptar fins als moments importants, o des
     de dates significatives, a l'iPhone, l'iPad, el Mac i l'Apple Watch. Ideal per
     a aniversaris, festius, casaments, viatges, jubilacions i molt més.
@@ -915,6 +920,7 @@ da:
   made_by: Lavet af
   language: Sprog
   download_badge: Hent i App Store
+  opening_app: Åbner APP_NAME…
   app_description: Nedtællinger hjælper dig med at tælle ned til vigtige øjeblikke eller
     op fra betydningsfulde datoer på iPhone, iPad, Mac og Apple Watch. Perfekt til
     fødselsdage, helligdage, bryllupper, ferier, pension og mere.
@@ -1089,6 +1095,7 @@ de:
   made_by: Erstellt von
   language: Sprache
   download_badge: Im App Store laden
+  opening_app: APP_NAME wird geöffnet …
   app_description: Countdowns hilft dir, auf wichtige Momente herunterzuzählen oder
     seit bedeutenden Daten hochzuzählen - auf iPhone, iPad, Mac und Apple Watch. Ideal
     für Geburtstage, Feiertage, Hochzeiten, Reisen, Ruhestand und mehr.
@@ -1267,6 +1274,7 @@ fi:
   made_by: Tekijä
   language: Kieli
   download_badge: Lataa App Storesta
+  opening_app: Avataan APP_NAME…
   app_description: Laskurit-sovellus auttaa laskemaan aikaa tärkeisiin hetkiin tai merkityksellisistä
     päivistä iPhonessa, iPadissa, Macissa ja Apple Watchissa. Sopii syntymäpäiviin,
     juhliin, häihin, matkoihin, eläkkeelle jäämiseen ja muuhun.
@@ -1445,6 +1453,7 @@ it:
   made_by: Creato da
   language: Lingua
   download_badge: Scarica su App Store
+  opening_app: Apertura di APP_NAME…
   app_description: Contatore ti aiuta a contare fino ai momenti importanti, o da
     date significative, su iPhone, iPad, Mac e Apple Watch. Perfetto per compleanni,
     festività, matrimoni, viaggi, pensione e altro.
@@ -1619,6 +1628,7 @@ ja:
   made_by: 制作
   language: 言語
   download_badge: App Storeでダウンロード
+  opening_app: APP_NAMEを開いています…
   app_description: カウントダウンは、iPhone、iPad、Mac、Apple Watchで大切な日までの時間や、意味のある日からの経過時間を数えられるアプリです。誕生日、祝日、結婚式、旅行、退職などに最適です。
   title_suffix: Appleデバイス向けカウントダウンタイマー
   hero_eyebrow: iPhone、iPad、Mac、Apple Watch対応
@@ -1774,6 +1784,7 @@ ko:
   made_by: 제작
   language: 언어
   download_badge: App Store에서 다운로드
+  opening_app: APP_NAME 여는 중…
   app_description: 카운트다운은 iPhone, iPad, Mac, Apple Watch에서 중요한 순간까지 남은 시간이나 의미
     있는 날짜 이후의 시간을 세도록 도와줍니다. 생일, 공휴일, 결혼식, 여행, 은퇴 등에 적합합니다.
   title_suffix: Apple 기기용 카운트다운 타이머
@@ -1935,6 +1946,7 @@ nb:
   made_by: Laget av
   language: Språk
   download_badge: Last ned på App Store
+  opening_app: Åpner APP_NAME …
   app_description: Nedtellinger hjelper deg med å telle ned til viktige øyeblikk, eller
     opp fra betydningsfulle datoer, på iPhone, iPad, Mac og Apple Watch. Perfekt for
     bursdager, høytider, bryllup, reiser, pensjon og mer.
@@ -2105,6 +2117,7 @@ nl:
   made_by: Gemaakt door
   language: Taal
   download_badge: Download in de App Store
+  opening_app: APP_NAME wordt geopend…
   app_description: De app Aftellingen helpt je aftellen naar belangrijke momenten, of optellen
     vanaf betekenisvolle datums, op iPhone, iPad, Mac en Apple Watch. Perfect voor
     verjaardagen, feestdagen, bruiloften, reizen, pensioen en meer.
@@ -2281,6 +2294,7 @@ pl:
   made_by: Autor
   language: Język
   download_badge: Pobierz z App Store
+  opening_app: Otwieranie aplikacji APP_NAME…
   app_description: Aplikacja Odliczanie pomaga odliczać do ważnych chwil albo liczyć czas od
     znaczących dat na iPhonie, iPadzie, Macu i Apple Watch. Idealna do urodzin, świąt,
     ślubów, podróży, emerytury i nie tylko.
@@ -2456,6 +2470,7 @@ pt:
   made_by: Criado por
   language: Idioma
   download_badge: Descarregar na App Store
+  opening_app: A abrir a APP_NAME…
   app_description: A aplicação Contagem ajuda-te a contar até momentos importantes, ou desde
     datas significativas, no iPhone, iPad, Mac e Apple Watch. Ideal para aniversários,
     feriados, casamentos, viagens, reforma e muito mais.
@@ -2631,6 +2646,7 @@ pt-BR:
   made_by: Criado por
   language: Idioma
   download_badge: Baixar na App Store
+  opening_app: Abrindo APP_NAME…
   app_description: O app Contagens ajuda você a contar até momentos importantes, ou a partir
     de datas significativas, no iPhone, iPad, Mac e Apple Watch. Perfeito para aniversários,
     feriados, casamentos, viagens, aposentadoria e muito mais.
@@ -2807,6 +2823,7 @@ ru:
   made_by: Создано
   language: Язык
   download_badge: Скачать в App Store
+  opening_app: Открываем APP_NAME…
   app_description: Приложение «Таймеры» помогает считать время до важных моментов или от значимых
     дат на iPhone, iPad, Mac и Apple Watch. Подходит для дней рождения, праздников,
     свадеб, поездок, пенсии и многого другого.
@@ -2982,6 +2999,7 @@ sk:
   made_by: Vytvoril
   language: Jazyk
   download_badge: Stiahnuť v App Store
+  opening_app: Otvára sa APP_NAME…
   app_description: Aplikácia Odpočty ti pomáha odpočítavať k dôležitým chvíľam alebo počítať
     čas od významných dátumov na iPhone, iPade, Macu a Apple Watch. Ideálna na narodeniny,
     sviatky, svadby, cesty, dôchodok a ďalšie udalosti.
@@ -3156,6 +3174,7 @@ sv:
   made_by: Skapad av
   language: Språk
   download_badge: Hämta i App Store
+  opening_app: Öppnar APP_NAME …
   app_description: Nedräkningar hjälper dig att räkna ner till viktiga ögonblick, eller
     räkna upp från betydelsefulla datum, på iPhone, iPad, Mac och Apple Watch. Perfekt
     för födelsedagar, helgdagar, bröllop, resor, pension och mer.
@@ -3329,6 +3348,7 @@ tr:
   made_by: Geliştiren
   language: Dil
   download_badge: App Store'dan indir
+  opening_app: APP_NAME açılıyor…
   app_description: Geri Sayım, iPhone, iPad, Mac ve Apple Watch'ta önemli anlara geri
     saymanıza veya anlamlı tarihlerden itibaren geçen zamanı saymanıza yardımcı olur.
     Doğum günleri, tatiller, düğünler, geziler, emeklilik ve daha fazlası için idealdir.
@@ -3509,6 +3529,7 @@ zh-Hans:
   made_by: 制作
   language: 语言
   download_badge: 在 App Store 下载
+  opening_app: 正在打开APP_NAME…
   app_description: 时光仪 可帮助你在 iPhone、iPad、Mac 和 Apple Watch 上倒数重要时刻，或从有意义的日期开始计时。适合生日、节日、婚礼、旅行、退休等场景。
   title_suffix: 适用于 Apple 设备的倒计时计时器
   hero_eyebrow: 适用于 iPhone、iPad、Mac 和 Apple Watch
@@ -3664,6 +3685,7 @@ zh-Hant:
   made_by: 製作
   language: 語言
   download_badge: 在 App Store 下載
+  opening_app: 正在開啟APP_NAME…
   app_description: 倒數日 可協助你在 iPhone、iPad、Mac 和 Apple Watch 上倒數重要時刻，或從有意義的日期開始計時。適合生日、節日、婚禮、旅行、退休等情境。
   title_suffix: 適用於 Apple 裝置的倒數計時器
   hero_eyebrow: 適用於 iPhone、iPad、Mac 和 Apple Watch
@@ -3819,6 +3841,7 @@ hi:
   made_by: 'निर्माता:'
   language: भाषा
   download_badge: App Store से डाउनलोड करें
+  opening_app: APP_NAME खोला जा रहा है…
   app_description: काउंटडाउन की मदद से iPhone, iPad, Mac और Apple Watch पर अहम पलों तक बचा समय गिनें या यादगार तारीखों से बीता समय देखें। जन्मदिन, त्योहार, शादी, सालगिरह, छुट्टियाँ, सेवानिवृत्ति और बहुत कुछ ट्रैक करने के लिए बेहतरीन!
   title_suffix: Apple डिवाइसों के लिए काउंटडाउन टाइमर
   hero_eyebrow: iPhone, iPad, Mac और Apple Watch के लिए
@@ -3975,6 +3998,7 @@ cs:
   made_by: Vytvořil
   language: Jazyk
   download_badge: Stáhnout v App Storu
+  opening_app: Otevírá se APP_NAME…
   app_description: Odpočty pomáhají odpočítávat čas do důležitých okamžiků nebo počítat
     čas od významných dat na iPhonu, iPadu, Macu a Apple Watch. Hodí se pro narozeniny,
     svátky, svatby, výročí, dovolené, důchod a další události.
@@ -4153,6 +4177,7 @@ fil:
   made_by: Ginawa ni
   language: Wika
   download_badge: I-download sa App Store
+  opening_app: Binubuksan ang APP_NAME…
   app_description: Tinutulungan ka ng Bilang Paurong na magbilang pababa hanggang
     sa mahahalagang sandali o pataas mula sa makabuluhang petsa sa iPhone, iPad, Mac,
     at Apple Watch. Para sa kaarawan, pista opisyal, kasal, anibersaryo, bakasyon,
@@ -4340,6 +4365,7 @@ el:
   made_by: Δημιουργήθηκε από
   language: Γλώσσα
   download_badge: Λήψη από το App Store
+  opening_app: Άνοιγμα της εφαρμογής APP_NAME…
   app_description: Η Αντίστροφη Μέτρηση μετρά τον χρόνο μέχρι σημαντικές στιγμές ή
     από αξέχαστες ημερομηνίες σε iPhone, iPad, Mac και Apple Watch. Ιδανική για γενέθλια,
     γιορτές, γάμους, επετείους, διακοπές, συνταξιοδότηση και άλλα!
@@ -4525,6 +4551,7 @@ he:
   made_by: נוצר על ידי
   language: שפה
   download_badge: להורדה ב-App Store
+  opening_app: פותח את APP_NAME…
   app_description: ספירה לאחור עוזרת לספור את הזמן עד לרגעים חשובים או מתאריכים משמעותיים
     ב-iPhone, ב-iPad, ב-Mac וב-Apple Watch. מתאימה לימי הולדת, חגים, חתונות, ימי שנה,
     חופשות, פרישה ועוד!
@@ -4698,6 +4725,7 @@ hu:
   made_by: Készítette
   language: Nyelv
   download_badge: Letöltés az App Store-ból
+  opening_app: APP_NAME megnyitása…
   app_description: A Visszaszámlálók segít számolni a fontos pillanatokig hátralévő
     vagy a jelentős dátumok óta eltelt időt iPhone-on, iPaden, Macen és Apple Watchon.
     Születésnapokhoz, ünnepekhez, esküvőkhöz, évfordulókhoz, nyaraláshoz, nyugdíjazáshoz
@@ -4885,6 +4913,7 @@ id:
   made_by: Dibuat oleh
   language: Bahasa
   download_badge: Unduh di App Store
+  opening_app: Membuka APP_NAME…
   app_description: Hitung Mundur membantu Anda menghitung waktu menuju momen penting
     atau sejak tanggal bermakna di iPhone, iPad, Mac, dan Apple Watch. Cocok untuk
     ulang tahun, hari raya, pernikahan, hari jadi, liburan, pensiun, dan lainnya!
@@ -5068,6 +5097,7 @@ ms:
   made_by: Dicipta oleh
   language: Bahasa
   download_badge: Muat turun di App Store
+  opening_app: Membuka APP_NAME…
   app_description: Kiraan Detik membantu anda mengira masa menuju detik penting atau
     sejak tarikh bermakna pada iPhone, iPad, Mac dan Apple Watch. Sesuai untuk hari
     lahir, perayaan, perkahwinan, ulang tahun, percutian, persaraan dan banyak lagi!
@@ -5249,6 +5279,7 @@ ro:
   made_by: Creat de
   language: Limbă
   download_badge: Descarcă din App Store
+  opening_app: Se deschide APP_NAME…
   app_description: Numărători inverse te ajută să numeri timpul până la momente importante
     sau de la date semnificative pe iPhone, iPad, Mac și Apple Watch. Ideală pentru
     zile de naștere, sărbători, nunți, aniversări, vacanțe, pensionare și multe altele!
@@ -5433,6 +5464,7 @@ th:
   made_by: สร้างโดย
   language: ภาษา
   download_badge: ดาวน์โหลดบน App Store
+  opening_app: กำลังเปิด APP_NAME…
   app_description: นับถอยหลังช่วยนับเวลาถึงช่วงเวลาสำคัญหรือตั้งแต่วันที่มีความหมายบน
     iPhone, iPad, Mac และ Apple Watch เหมาะสำหรับวันเกิด วันหยุด งานแต่งงาน วันครบรอบ
     วันพักผ่อน วันเกษียณ และอีกมากมาย!
@@ -5600,6 +5632,7 @@ vi:
   made_by: Được tạo bởi
   language: Ngôn ngữ
   download_badge: Tải về trên App Store
+  opening_app: Đang mở APP_NAME…
   app_description: Đếm ngược giúp bạn đếm thời gian đến những khoảnh khắc quan trọng
     hoặc từ các ngày ý nghĩa trên iPhone, iPad, Mac và Apple Watch. Phù hợp cho sinh
     nhật, ngày lễ, đám cưới, kỷ niệm, kỳ nghỉ, nghỉ hưu và nhiều hơn nữa!
@@ -5777,6 +5810,7 @@ uk:
   made_by: Розробник
   language: Мова
   download_badge: Завантажити в App Store
+  opening_app: Відкриваємо APP_NAME…
   app_description: Відліки допомагають рахувати час до важливих подій або від пам’ятних
     дат на iPhone, iPad, Mac і Apple Watch. Для днів народження, свят, весіль, річниць,
     відпусток, виходу на пенсію та іншого!
@@ -5955,6 +5989,7 @@ en-CA:
   made_by: Made by
   language: Language
   download_badge: Download on the App Store
+  opening_app: Opening APP_NAME…
   app_description: >-
     Countdowns helps you count down to important moments, or count up from meaningful dates, on iPhone,
     iPad, Mac, and Apple Watch. Perfect for birthdays, holidays, weddings, anniversaries, vacations, retirement,
@@ -6140,6 +6175,7 @@ en-GB:
   made_by: Made by
   language: Language
   download_badge: Download on the App Store
+  opening_app: Opening APP_NAME…
   app_description: >-
     Countdowns helps you count down to important moments, or count up from meaningful dates, on iPhone,
     iPad, Mac, and Apple Watch. Perfect for birthdays, holidays, weddings, anniversaries, trips, retirement,
@@ -6325,6 +6361,7 @@ en-AU:
   made_by: Made by
   language: Language
   download_badge: Download on the App Store
+  opening_app: Opening APP_NAME…
   app_description: >-
     Countdowns helps you count down to important moments, or count up from meaningful dates, on iPhone,
     iPad, Mac, and Apple Watch. Perfect for birthdays, holidays, weddings, anniversaries, trips, retirement,
