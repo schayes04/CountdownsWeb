@@ -1,0 +1,22 @@
+---
+layout: null
+permalink: /open/
+---
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <title>Opening {{ site.app_name }}…</title>
+    <script>
+        window.onload = function() {
+            window.location.replace("countdown-shayesapps://");
+        };
+    </script>
+</head>
+<body style="font-family: -apple-system, system-ui, sans-serif; text-align: center; padding: 48px 16px;">
+    <p>Opening {{ site.app_name }}…</p>
+    <p>Don’t have it yet? <a href="{% include app-store-url.html locale="en" %}">Get {{ site.app_name }} on the App Store</a></p>
+</body>
+</html>
