@@ -32,7 +32,7 @@ class ScreenshotValidator
   BORROWED_SCREENSHOTS = { 'es-MX' => 'es' }.freeze
   # Native Mac Catalyst captures replace the phone hero on these guides where a
   # locale has one (_data/mac_screenshots.yml); other locales keep the phone frame.
-  MAC_GUIDES = { 'mac-countdown-widget' => 'app-window' }.freeze
+  MAC_GUIDES = { 'mac-countdown-widget' => 'desktop' }.freeze
   MAC_DIMENSIONS = [2048, 1536].freeze
   MAC_WIDTHS = [480, 960, 1440].freeze
   PNG_SIGNATURE = "\x89PNG\r\n\x1a\n".b.freeze

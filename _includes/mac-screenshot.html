@@ -5,14 +5,14 @@
 {%- assign mac_screenshot_variants = site.data.mac_screenshot_variants.screenshots[mac_screenshot_path].variants -%}
 {%- assign mac_screenshot_loading = include.loading | default: "lazy" -%}
 {%- comment -%}
-Keep sizes in sync with .screenshot-mac in layout.scss: the window is 86% of a
-display that fills 88% of the frame less its 24px bezel; the frame is at most
-560px, or half the hero grid between 861px and 1120px.
+Keep sizes in sync with .screenshot-mac in layout.scss: the desktop capture
+fills a display that is 88% of the frame less its 24px bezel; the frame is at
+most 560px, or half the hero grid between 861px and 1120px.
 {%- endcomment -%}
 <div class="screenshot-mac" data-screenshot-locale="{{ mac_screenshot_locale | escape }}" data-screenshot-scene="{{ mac_screenshot_scene | escape }}">
 	<div class="screenshot-mac__screen">
 		<picture>
-			<source type="image/webp" srcset="{% for variant in mac_screenshot_variants %}{{ variant.path | relative_url }} {{ variant.width }}w{% unless forloop.last %}, {% endunless %}{% endfor %}" sizes="(max-width: 860px) min(calc(76vw - 40px), 406px), (max-width: 1120px) calc(38vw - 60px), 406px">
+			<source type="image/webp" srcset="{% for variant in mac_screenshot_variants %}{{ variant.path | relative_url }} {{ variant.width }}w{% unless forloop.last %}, {% endunless %}{% endfor %}" sizes="(max-width: 860px) min(calc(88vw - 46px), 469px), (max-width: 1120px) calc(44vw - 70px), 469px">
 			<img src="{{ mac_screenshot_path | relative_url }}" width="{{ site.data.mac_screenshots.width }}" height="{{ site.data.mac_screenshots.height }}" alt="{{ mac_screenshot_alt | escape }}" loading="{{ mac_screenshot_loading | escape }}" decoding="async"{% if mac_screenshot_loading == "eager" %} fetchpriority="high"{% endif %}>
 		</picture>
 	</div>

@@ -11,6 +11,8 @@ layout: default
 {% assign guide_topic = guide_topics[page.guide_slug] | default: guide_page.short_title | default: guide_page.title %}
 {% assign guide_topic_lower = guide_topic | downcase %}
 {% assign screenshot_scene = site.data.screenshots.guides[page.guide_slug] %}
+{% assign mac_screenshot_scene = site.data.mac_screenshots.guides[page.guide_slug] %}
+{% assign mac_screenshot_path = site.data.mac_screenshots.locales[current_locale][mac_screenshot_scene] %}
 {% assign locale_prefix = "" %}
 {% if locale.folder and locale.folder != "" %}
 	{% assign locale_prefix = "/" | append: locale.folder %}
@@ -25,7 +27,7 @@ layout: default
 </nav>
 
 <section class="guide-hero">
-	<div class="site-container guide-hero__grid">
+	<div class="site-container guide-hero__grid{% if mac_screenshot_path %} guide-hero__grid--mac{% endif %}">
 		<div class="guide-hero__copy">
 			<p class="section-kicker">{{ t.guide_default_kicker }}</p>
 			<h1>{{ t.guide_h1 | replace: "TOPIC_LOWER", guide_topic_lower | replace: "TOPIC", guide_topic }}</h1>
@@ -35,7 +37,11 @@ layout: default
 			</div>
 		</div>
 		<div class="guide-hero__media">
-			{% include screenshot.html scene=screenshot_scene locale=current_locale loading="eager" %}
+			{% if mac_screenshot_path %}
+				{% include mac-screenshot.html scene=mac_screenshot_scene locale=current_locale loading="eager" %}
+			{% else %}
+				{% include screenshot.html scene=screenshot_scene locale=current_locale loading="eager" %}
+			{% endif %}
 		</div>
 	</div>
 </section>

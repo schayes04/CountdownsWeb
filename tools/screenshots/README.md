@@ -19,11 +19,13 @@ Baseline app-only captures predate widget timeline instrumentation; their main D
 dylib matches the baseline widget-capture build. The revised Arabic and new Hindi
 images use their own binary proof. No deployment or publishing is part of this workflow.
 
-## October 21, 2026: Mac app window
+## October 27, 2026: Mac desktop with widgets
 
-The Mac guide's hero for `en` and `en-CA` is a native Mac Catalyst window capture,
-kept apart from the iPhone scene set in `assets/screenshots-mac/` and
-`_data/mac_screenshots.yml`. See [`mac-2026-10-21/`](mac-2026-10-21/).
+The Mac guide's hero in all 38 locales is a native Mac Catalyst desktop: the
+Countdowns window next to three custom desktop widgets, captured in each language.
+It replaces the October 21 English-only app-window capture and is kept apart from
+the iPhone scene set in `assets/screenshots-mac/` and `_data/mac_screenshots.yml`.
+See [`mac-2026-10-27/`](mac-2026-10-27/).
 
 ## October 13, 2026: regional English
 

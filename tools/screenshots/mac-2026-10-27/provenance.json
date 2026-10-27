@@ -1,0 +1,348 @@
+{
+  "generated": "2026-10-27",
+  "source": "Countdowns Beta 12.3 Mac Catalyst desktop composite",
+  "locales": [
+    {
+      "code": "ar",
+      "file": "ar/desktop.png",
+      "bytes": 2403111,
+      "sha256": "d7cf8db224e4ba580b634e7620b68854a42963d10ca447e33ca1e340c6972f58",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "ca",
+      "file": "ca/desktop.png",
+      "bytes": 2439478,
+      "sha256": "8b036c05699162f4bf72bde65113dfacde41b74d6c45c8b308c9dd7c592fd030",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "cs",
+      "file": "cs/desktop.png",
+      "bytes": 2492294,
+      "sha256": "c4f1e0d514cfbe40327ab95c48fe3735f53efdd1210817dbb70458d3bfb265a4",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "da",
+      "file": "da/desktop.png",
+      "bytes": 2496753,
+      "sha256": "d5d6f758f745591c19f2c7f9e6338258059363002b56c6b1c1cfb28d88686f24",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "de",
+      "file": "de/desktop.png",
+      "bytes": 2477303,
+      "sha256": "fefe6ff9d9cc9af27f8b151e36edde32309e42127d261e56ebb219c4908de1de",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x506"
+    },
+    {
+      "code": "el",
+      "file": "el/desktop.png",
+      "bytes": 2448472,
+      "sha256": "567f2d52f184a272a6f88cec3af6bd4dc1f20ee32808a7d7b1376f370b2018dd",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x506"
+    },
+    {
+      "code": "en",
+      "file": "en/desktop.png",
+      "bytes": 2487276,
+      "sha256": "941d4ee34b2d64e8a3f628236e4e7edf3b69f045c4b0770df6247fb282dff68b",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "en-AU",
+      "file": "en-AU/desktop.png",
+      "bytes": 2486078,
+      "sha256": "50dbf51ba245d9618d68abd4af7e1748cbaed39fd72dbd59a1a1312a8c74cb93",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "en-CA",
+      "file": "en-CA/desktop.png",
+      "bytes": 2487035,
+      "sha256": "3c2ba7c197b537b22b9d59b39d071e077992f94b4dd5591deaee424f2eb9977b",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "en-GB",
+      "file": "en-GB/desktop.png",
+      "bytes": 2486212,
+      "sha256": "246c4ad32c00986063dbdc7b333f3282b78c3b7025aa7036307a35c46d302861",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "es",
+      "file": "es/desktop.png",
+      "bytes": 2505791,
+      "sha256": "2d130bfabc90faef9e4154e6d2a97955959a5ec2d331b122234d11fa8b3c08d9",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "es-MX",
+      "file": "es-MX/desktop.png",
+      "bytes": 2502298,
+      "sha256": "c9ffe1bdfb544a5eb3c226c88e96f2295c01fe87e4f7f3dc0c426a2b3b1885d0",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "fi",
+      "file": "fi/desktop.png",
+      "bytes": 2517921,
+      "sha256": "8fe433aed33507ec15433044a0d993f4823ccb04dfe2328047ccfbf07b0864b3",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "fil",
+      "file": "fil/desktop.png",
+      "bytes": 2514210,
+      "sha256": "15b411786b64f75d20cbe3133e3eefde182870e11fb707513e09fa68b2a151f8",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "fr",
+      "file": "fr/desktop.png",
+      "bytes": 2458103,
+      "sha256": "6a7e04176a854c3f4bbfa0b7a73476686cf203e6f7c571cd80b293008e2d56d5",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "he",
+      "file": "he/desktop.png",
+      "bytes": 2436889,
+      "sha256": "9ee6d2c2f45d8ea275d62a9a9b006cd1f37ac6e9fdc524f5ce2c3c6823997bbe",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "hi",
+      "file": "hi/desktop.png",
+      "bytes": 2470885,
+      "sha256": "5f6399537127907672eca183fc5ef06a025864b75449a0e6947f4ae0402b0f16",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "hu",
+      "file": "hu/desktop.png",
+      "bytes": 2440009,
+      "sha256": "1d6180614fffd290817e04fb615d6392405173ee49d65218d9e870732e686588",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "id",
+      "file": "id/desktop.png",
+      "bytes": 2476243,
+      "sha256": "b1eb61877a2c3d111ef309962cc2558bc08a15359519743a4a40593e93ef64fa",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "it",
+      "file": "it/desktop.png",
+      "bytes": 2497089,
+      "sha256": "78753bfa85f2fbfdb7e253da05bfec38905da3871bf132e39929adb0a177a50b",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "ja",
+      "file": "ja/desktop.png",
+      "bytes": 2440180,
+      "sha256": "2d4933849f2e77a05741e6cb48af301bdd2945888e732e8c68d3100a9ccc5a1a",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "ko",
+      "file": "ko/desktop.png",
+      "bytes": 2426663,
+      "sha256": "d996b3da1420ac303302592dedf5ae29c98b392d12a82ce73ff90e30b2801997",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "ms",
+      "file": "ms/desktop.png",
+      "bytes": 2483226,
+      "sha256": "c7982704cebc265da87baa3f1e9dfb85931a41203ab0163b2773024c2ee8975e",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "nb",
+      "file": "nb/desktop.png",
+      "bytes": 2496189,
+      "sha256": "6424acb7ec934f4b662dd517f440c9352b3faf47a89a2b416ea5d0876268f34e",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "nl",
+      "file": "nl/desktop.png",
+      "bytes": 2508537,
+      "sha256": "dc5af2f34b8932ac4fdf9076f127189f7c1c2719587624f515d625e19d4a214a",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "pl",
+      "file": "pl/desktop.png",
+      "bytes": 2496743,
+      "sha256": "22550eab46e83fe4790e2e3b2e5e96da3740b5d61b9665b913a0d82e7031cff4",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "pt",
+      "file": "pt/desktop.png",
+      "bytes": 2498351,
+      "sha256": "c8c31f7d7933c92833cd2b0a1a18c887ca23a3ff805aceb727cb70ce4bf85f8c",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "pt-BR",
+      "file": "pt-BR/desktop.png",
+      "bytes": 2493977,
+      "sha256": "c0e9baf53581fc3d10855194aa2f0733212f2ae6f4fa0b62dac14ce04142c0d6",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "ro",
+      "file": "ro/desktop.png",
+      "bytes": 2442513,
+      "sha256": "78d2ec4f9cf9198255e92353742fe72885157502365bc12832ccf92f4aac162e",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "ru",
+      "file": "ru/desktop.png",
+      "bytes": 2441969,
+      "sha256": "69d55e50840a07503899ad4c246a58f561d70c695a0021a22979104e4ed669e4",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "sk",
+      "file": "sk/desktop.png",
+      "bytes": 2428995,
+      "sha256": "acbb0c0028cae5ba735df95f3b8c2e61ac1fd365c2fb681c1e25b096757fad2f",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "sv",
+      "file": "sv/desktop.png",
+      "bytes": 2437549,
+      "sha256": "b9732b1f7f5deaaf2006441c4f5508faf7a9370b66782f2e25d16e8b8fb44e78",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "th",
+      "file": "th/desktop.png",
+      "bytes": 2437964,
+      "sha256": "acf58245a2f54cc9284e20db1fd0118b229059f321d03b83d447c4619c642b0f",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "tr",
+      "file": "tr/desktop.png",
+      "bytes": 2419365,
+      "sha256": "8e14d3937a2b3ea323f8a7d906d23861206dff918fef0c7a9868674c9307d921",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "uk",
+      "file": "uk/desktop.png",
+      "bytes": 2431047,
+      "sha256": "c71484a8913a1370c0cc3c3f73098718f77d08800708918443d2c0c792ee4e6a",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "vi",
+      "file": "vi/desktop.png",
+      "bytes": 2426146,
+      "sha256": "27a31cda3a468ed189858621038205856028c213072abd07d0c1beeb109907ff",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "zh-Hans",
+      "file": "zh-Hans/desktop.png",
+      "bytes": 2386758,
+      "sha256": "98746a1a04ed47f472be7c45c75a1de8123c68904e4736c45a3bd4c70489aea4",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    },
+    {
+      "code": "zh-Hant",
+      "file": "zh-Hant/desktop.png",
+      "bytes": 2392367,
+      "sha256": "d452641f26f29c6c4170f0320b2460c78d2a2b878d47e0a0e355a6175397186e",
+      "width": 2048,
+      "height": 1536,
+      "appWindowPt": "632x476"
+    }
+  ]
+}

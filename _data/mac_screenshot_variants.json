@@ -7,30 +7,1029 @@
     1440
   ],
   "screenshots": {
-    "/assets/screenshots-mac/en/app-window.png": {
-      "source": "/assets/screenshots-mac/en/app-window.png",
-      "source_sha256": "64a86f1d52e2afb44aa91f6246a5033ca0f2ecb5b1940752e29400b93153b76a",
+    "/assets/screenshots-mac/ar/desktop.png": {
+      "source": "/assets/screenshots-mac/ar/desktop.png",
+      "source_sha256": "d7cf8db224e4ba580b634e7620b68854a42963d10ca447e33ca1e340c6972f58",
       "variants": [
         {
-          "path": "/assets/screenshots-mac/en/app-window-480.webp",
+          "path": "/assets/screenshots-mac/ar/desktop-480.webp",
           "width": 480,
           "height": 360,
-          "bytes": 5142,
-          "sha256": "d37a8a313012cf2d579f415652997cb373c01e3da0ad169129682481f3fb5a3f"
+          "bytes": 16034,
+          "sha256": "1c184697573667048bd2dc05993ecc4a2f0553231c753e69c52f9e54c5cf390f"
         },
         {
-          "path": "/assets/screenshots-mac/en/app-window-960.webp",
+          "path": "/assets/screenshots-mac/ar/desktop-960.webp",
           "width": 960,
           "height": 720,
-          "bytes": 13656,
-          "sha256": "b984ca94e55b910772ca607b12b5706f035048cb76a4083264d1cdcace58bba9"
+          "bytes": 40000,
+          "sha256": "3f8802d8f2c84c89911d9efe788dc825cc50c8eafbabfcefb8a657ccf30360be"
         },
         {
-          "path": "/assets/screenshots-mac/en/app-window-1440.webp",
+          "path": "/assets/screenshots-mac/ar/desktop-1440.webp",
           "width": 1440,
           "height": 1080,
-          "bytes": 24412,
-          "sha256": "924b3062879558cad4cf620de80357961691e3f3677f61abc6da2987ae83abb5"
+          "bytes": 69198,
+          "sha256": "0c7ca30751354dc9f089633e62ba31c2be13aadc10fe4efbe5091520fb681362"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/ca/desktop.png": {
+      "source": "/assets/screenshots-mac/ca/desktop.png",
+      "source_sha256": "8b036c05699162f4bf72bde65113dfacde41b74d6c45c8b308c9dd7c592fd030",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/ca/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 16764,
+          "sha256": "1e938e634382af0dc99abaff3b297a424ef32fc97a3259e7bc47a07d4813eeb3"
+        },
+        {
+          "path": "/assets/screenshots-mac/ca/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 43400,
+          "sha256": "fb4cc928c9e89a04168458cf764bf8d3081ab459418972a027c30eefe5741e90"
+        },
+        {
+          "path": "/assets/screenshots-mac/ca/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 75754,
+          "sha256": "2b8fed633b54d3c165cf2c35c0ef295543c44e07d889337c8425e7d9a1e1979f"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/cs/desktop.png": {
+      "source": "/assets/screenshots-mac/cs/desktop.png",
+      "source_sha256": "c4f1e0d514cfbe40327ab95c48fe3735f53efdd1210817dbb70458d3bfb265a4",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/cs/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 17428,
+          "sha256": "2c3f0c19853c182e5e905767172b3c9a18a850256f2345042986f584f69da34d"
+        },
+        {
+          "path": "/assets/screenshots-mac/cs/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 44258,
+          "sha256": "3eb4f068c4cb88bebe278097db8906e2fce6465e52969357d1fe82bd86555d65"
+        },
+        {
+          "path": "/assets/screenshots-mac/cs/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 76770,
+          "sha256": "03da33f08448a3d58ac655f48483683089b5920bb7d80292e8a4c8d171b289fa"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/da/desktop.png": {
+      "source": "/assets/screenshots-mac/da/desktop.png",
+      "source_sha256": "d5d6f758f745591c19f2c7f9e6338258059363002b56c6b1c1cfb28d88686f24",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/da/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 17360,
+          "sha256": "119675f5cf5bf1f6f803dc45b349997f0e18e757964b678aa662c54a57299835"
+        },
+        {
+          "path": "/assets/screenshots-mac/da/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 45108,
+          "sha256": "e5a0d8bdad7363746d2171dc37d09a5bedd24b51122e91222b09acbbe9e33b11"
+        },
+        {
+          "path": "/assets/screenshots-mac/da/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 77002,
+          "sha256": "6230ef77b9e7b38662e1a69a9f417c1a3df79a5f621afe1c3dc3aaf04f751708"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/de/desktop.png": {
+      "source": "/assets/screenshots-mac/de/desktop.png",
+      "source_sha256": "fefe6ff9d9cc9af27f8b151e36edde32309e42127d261e56ebb219c4908de1de",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/de/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 17822,
+          "sha256": "c8d585700b2ad5d7c4a676cff1b8aad388b91ec991cb2ee386eb67100c088e3a"
+        },
+        {
+          "path": "/assets/screenshots-mac/de/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 46872,
+          "sha256": "83ed3a7c57efc19edef0202f6e050b0aee481e0d3c629fcd3cd7864d6d40d941"
+        },
+        {
+          "path": "/assets/screenshots-mac/de/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 83010,
+          "sha256": "b66d80d949e11ea3082c9cd0aa1ad21c68a08a1d4d6767d7f42ed897be0147ca"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/el/desktop.png": {
+      "source": "/assets/screenshots-mac/el/desktop.png",
+      "source_sha256": "567f2d52f184a272a6f88cec3af6bd4dc1f20ee32808a7d7b1376f370b2018dd",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/el/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 17498,
+          "sha256": "40dc93a266bf9ecfff835ec4a11812530f6e907ad906b4d470d6ad84383436d8"
+        },
+        {
+          "path": "/assets/screenshots-mac/el/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 45860,
+          "sha256": "4464caae364e06606a0d4554be476b836712919c70805d8a384ef1df7d2b1b1f"
+        },
+        {
+          "path": "/assets/screenshots-mac/el/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 81408,
+          "sha256": "a6394dcc49b2892aac74e3edcba5c0cd6f244f91adca49ce03881d4196148f35"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/en-au/desktop.png": {
+      "source": "/assets/screenshots-mac/en-au/desktop.png",
+      "source_sha256": "50dbf51ba245d9618d68abd4af7e1748cbaed39fd72dbd59a1a1312a8c74cb93",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/en-au/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 17678,
+          "sha256": "eecaf6e02513dc481fcc4f358faa5d64979bc942f41c6364f482ee2753a86d1b"
+        },
+        {
+          "path": "/assets/screenshots-mac/en-au/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 45180,
+          "sha256": "3e595c88c30d30f4c37936f1a539019c289254e1da34fc90e5a2eb1a97d3963a"
+        },
+        {
+          "path": "/assets/screenshots-mac/en-au/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 78050,
+          "sha256": "4bdb2f9248fa2302ec0822ebfac621a724cbea35528aed7c2c16c6be68108323"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/en-ca/desktop.png": {
+      "source": "/assets/screenshots-mac/en-ca/desktop.png",
+      "source_sha256": "3c2ba7c197b537b22b9d59b39d071e077992f94b4dd5591deaee424f2eb9977b",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/en-ca/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 17670,
+          "sha256": "34d2beaa7bd61fa5b2dfff13a284441a6b88cd7cf143edeb3769727a90ced903"
+        },
+        {
+          "path": "/assets/screenshots-mac/en-ca/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 45156,
+          "sha256": "9fc8beb3188febdfc0763290008480975504b386e8ab65980f80dd74bf2f3433"
+        },
+        {
+          "path": "/assets/screenshots-mac/en-ca/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 77116,
+          "sha256": "027d69256a2c90c849b6c365f521ba361e94e316cdee40bfff938e2483d6f7ad"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/en-gb/desktop.png": {
+      "source": "/assets/screenshots-mac/en-gb/desktop.png",
+      "source_sha256": "246c4ad32c00986063dbdc7b333f3282b78c3b7025aa7036307a35c46d302861",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/en-gb/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 17676,
+          "sha256": "7854e26a4548ad6c8b406a0d39906775638f0ab734ed2ebc55c8f3e6abe13c39"
+        },
+        {
+          "path": "/assets/screenshots-mac/en-gb/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 45084,
+          "sha256": "31016676328a4e0fc6e915e550e70f7c50c74b377207583c8062105f1dbe5636"
+        },
+        {
+          "path": "/assets/screenshots-mac/en-gb/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 78106,
+          "sha256": "631bb554875eb2c5b3b20ae5a417364d6cf4d65a8ed66e4d7f8f07f223678a8b"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/en/desktop.png": {
+      "source": "/assets/screenshots-mac/en/desktop.png",
+      "source_sha256": "941d4ee34b2d64e8a3f628236e4e7edf3b69f045c4b0770df6247fb282dff68b",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/en/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 17620,
+          "sha256": "b70e9a5721a527e5ac59285d9089d6aea5d8d44a05bf22f4d465cfbb632a2442"
+        },
+        {
+          "path": "/assets/screenshots-mac/en/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 45110,
+          "sha256": "1eaaf2d8101187b1a4cc1d94963418d36d3d999837b4850db1e3605212497edb"
+        },
+        {
+          "path": "/assets/screenshots-mac/en/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 77300,
+          "sha256": "fa3a7e7bf5a4396b6be220a28982a270a1f94e4b32f33a796c4887d4df458126"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/es-mx/desktop.png": {
+      "source": "/assets/screenshots-mac/es-mx/desktop.png",
+      "source_sha256": "c9ffe1bdfb544a5eb3c226c88e96f2295c01fe87e4f7f3dc0c426a2b3b1885d0",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/es-mx/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 17962,
+          "sha256": "021657554e31581ec4a2066af8cd24cb3859a6db67fa3ac623c78e15d0467efe"
+        },
+        {
+          "path": "/assets/screenshots-mac/es-mx/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 46290,
+          "sha256": "8bffb95e952d351882b3c2c30bc5d683b2a42fea121a3574cbd284cec0af249a"
+        },
+        {
+          "path": "/assets/screenshots-mac/es-mx/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 80000,
+          "sha256": "541d1687119fa789fed6fb07ffb389a2093a07f9b5ef13d555bd29df68903a6d"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/es/desktop.png": {
+      "source": "/assets/screenshots-mac/es/desktop.png",
+      "source_sha256": "2d130bfabc90faef9e4154e6d2a97955959a5ec2d331b122234d11fa8b3c08d9",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/es/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 17434,
+          "sha256": "f3fc4f0c4fe23cbd4b045e1d8816cf9f1568ff5acec4cda63f89a20a20c508a3"
+        },
+        {
+          "path": "/assets/screenshots-mac/es/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 44846,
+          "sha256": "e0ac3ef7ab8b67fd784779f970ece8aee54181ca40a29d0411cd1d08b5937866"
+        },
+        {
+          "path": "/assets/screenshots-mac/es/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 78054,
+          "sha256": "d88776dd916a5501ddf762fee9e05dc74ea971449ba2e370ad325472ef3bcd4a"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/fi/desktop.png": {
+      "source": "/assets/screenshots-mac/fi/desktop.png",
+      "source_sha256": "8fe433aed33507ec15433044a0d993f4823ccb04dfe2328047ccfbf07b0864b3",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/fi/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 17634,
+          "sha256": "8cff1856eb4939fdb30125dacd846db15524d369cdd2c98864b0abb01cd3fbb4"
+        },
+        {
+          "path": "/assets/screenshots-mac/fi/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 45640,
+          "sha256": "bf43d85e8877576f36b7f234905121d0e3785a5ce2271168ab9e02d4e08b47a5"
+        },
+        {
+          "path": "/assets/screenshots-mac/fi/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 81268,
+          "sha256": "b2e0de27f749c9ec9f997209030351c473683a554e8c2bb974d98e5ce9bd42d5"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/fil/desktop.png": {
+      "source": "/assets/screenshots-mac/fil/desktop.png",
+      "source_sha256": "15b411786b64f75d20cbe3133e3eefde182870e11fb707513e09fa68b2a151f8",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/fil/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 18140,
+          "sha256": "2579a21fc596ea2b662ae1f94c56fd4b7ce69ea82ec361fe8d3d6ec79e5d36a6"
+        },
+        {
+          "path": "/assets/screenshots-mac/fil/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 47386,
+          "sha256": "b36d33f97d7a14207a9b512f05d3482efaa8a6b2907ad9173384a334aa4cee38"
+        },
+        {
+          "path": "/assets/screenshots-mac/fil/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 80918,
+          "sha256": "eac674c53d0fb57a09de01f14629ea46c2c9c661497000e6d8da6ca7b6159d1c"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/fr/desktop.png": {
+      "source": "/assets/screenshots-mac/fr/desktop.png",
+      "source_sha256": "6a7e04176a854c3f4bbfa0b7a73476686cf203e6f7c571cd80b293008e2d56d5",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/fr/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 17220,
+          "sha256": "21905341c4edd4080c484b487b1af05728850d668512f6307e44630256ad9ba8"
+        },
+        {
+          "path": "/assets/screenshots-mac/fr/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 44846,
+          "sha256": "526d37ba282ebac9105407d5ea2651fd2704defb4189491b1879ff3b26c61897"
+        },
+        {
+          "path": "/assets/screenshots-mac/fr/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 77454,
+          "sha256": "d9f01030a196ba40015c5b18f0a67344816dea94e55d659c058685b856d96e07"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/he/desktop.png": {
+      "source": "/assets/screenshots-mac/he/desktop.png",
+      "source_sha256": "9ee6d2c2f45d8ea275d62a9a9b006cd1f37ac6e9fdc524f5ce2c3c6823997bbe",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/he/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 16484,
+          "sha256": "4b8f5d00f5be0743e747c4dd4bb9288fc0d597ab0b7d60a779ea237072504361"
+        },
+        {
+          "path": "/assets/screenshots-mac/he/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 40726,
+          "sha256": "a229c6929a6c6d3c72166b52ab97b48d7ef177a234765631defedecf22c766ad"
+        },
+        {
+          "path": "/assets/screenshots-mac/he/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 69544,
+          "sha256": "51c91d757acdd70a16c8b9f418e360847892c51558892a50ebf875ba7293c443"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/hi/desktop.png": {
+      "source": "/assets/screenshots-mac/hi/desktop.png",
+      "source_sha256": "5f6399537127907672eca183fc5ef06a025864b75449a0e6947f4ae0402b0f16",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/hi/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 16730,
+          "sha256": "a4618a40882f6e2a222826d4cd5eaa5d52060284bb79443a8e0380613a35c429"
+        },
+        {
+          "path": "/assets/screenshots-mac/hi/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 42122,
+          "sha256": "1ee667e885060ab67a584158be2bd0f7a6251404bcae715d74a1031002f9b73c"
+        },
+        {
+          "path": "/assets/screenshots-mac/hi/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 75264,
+          "sha256": "df21135f7fe1c5b92932b4849ef5ee967fe308ea66f20b1ea58111ecdc01ea93"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/hu/desktop.png": {
+      "source": "/assets/screenshots-mac/hu/desktop.png",
+      "source_sha256": "1d6180614fffd290817e04fb615d6392405173ee49d65218d9e870732e686588",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/hu/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 16946,
+          "sha256": "e1a4721a086db68da86776be0840d145169e9bdb87bad3b703fa3f649c2b253a"
+        },
+        {
+          "path": "/assets/screenshots-mac/hu/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 43836,
+          "sha256": "4a02821a099ff55e91c34ca415279a3e14068a3b71600de932cc256ea620c28f"
+        },
+        {
+          "path": "/assets/screenshots-mac/hu/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 77196,
+          "sha256": "d9eb09563d412dbfd5cb988b31cd32a1b2b48b8ba4d4e17ab54c66d5ec7ebf65"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/id/desktop.png": {
+      "source": "/assets/screenshots-mac/id/desktop.png",
+      "source_sha256": "b1eb61877a2c3d111ef309962cc2558bc08a15359519743a4a40593e93ef64fa",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/id/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 17276,
+          "sha256": "f95e6ab078252e4a197dd18fed2b3987211cd57a89d34de680858dc04fd544b5"
+        },
+        {
+          "path": "/assets/screenshots-mac/id/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 44472,
+          "sha256": "6adfd64dd7920602bd2eb3b2927c30b2069c2dff73ed3d2fa20e754d3f168ed1"
+        },
+        {
+          "path": "/assets/screenshots-mac/id/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 76666,
+          "sha256": "f9a9d8f659f67ef0c1b39c13e594eee201c8bfb4309d8bcea2b0fa3a26199e7d"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/it/desktop.png": {
+      "source": "/assets/screenshots-mac/it/desktop.png",
+      "source_sha256": "78753bfa85f2fbfdb7e253da05bfec38905da3871bf132e39929adb0a177a50b",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/it/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 18004,
+          "sha256": "302fa2a280100a02c140c224e13b5a465bc9f6498e53f1510179b0ac89cd4de9"
+        },
+        {
+          "path": "/assets/screenshots-mac/it/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 46288,
+          "sha256": "566d3092980a9d1f9809ae4fd5a894ea6acec14030ce99284150e677639a16f9"
+        },
+        {
+          "path": "/assets/screenshots-mac/it/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 79790,
+          "sha256": "12b47967abc8a58349f228c49c0b3b27e41b992c26d109bd70c55d90b980d3e5"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/ja/desktop.png": {
+      "source": "/assets/screenshots-mac/ja/desktop.png",
+      "source_sha256": "2d4933849f2e77a05741e6cb48af301bdd2945888e732e8c68d3100a9ccc5a1a",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/ja/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 16802,
+          "sha256": "ba9831ce19accd8197ad5a25d847165fc6477cc07734ee4d06f176e4d5241a8f"
+        },
+        {
+          "path": "/assets/screenshots-mac/ja/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 41106,
+          "sha256": "ac5a5059e484a59cf8f3a4f9c31d5dd8667cf85e26227bbfe414a0f6b5b0631c"
+        },
+        {
+          "path": "/assets/screenshots-mac/ja/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 72704,
+          "sha256": "2d4ce9f4f4cbab4d0fa7b9c943e82486f45e0f9be10d001cf05e42bf09a9f1c8"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/ko/desktop.png": {
+      "source": "/assets/screenshots-mac/ko/desktop.png",
+      "source_sha256": "d996b3da1420ac303302592dedf5ae29c98b392d12a82ce73ff90e30b2801997",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/ko/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 15860,
+          "sha256": "169ae78bc24a73c8f18f7a4656c9771e07c002230a1107506d2379a84d022067"
+        },
+        {
+          "path": "/assets/screenshots-mac/ko/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 38892,
+          "sha256": "eb49bdef8f6350160ad45080e12b89eaacbb96cfda2eb6b7fc1f6c9657852ad3"
+        },
+        {
+          "path": "/assets/screenshots-mac/ko/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 68214,
+          "sha256": "bec8620029dc2a84cbf68f8eac9ea1583304650568fc4eacbf16bd2d6bc06164"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/ms/desktop.png": {
+      "source": "/assets/screenshots-mac/ms/desktop.png",
+      "source_sha256": "c7982704cebc265da87baa3f1e9dfb85931a41203ab0163b2773024c2ee8975e",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/ms/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 17398,
+          "sha256": "a963fbda7033512f8e564d31563a74c3e1c44d96b9cc5549d713c707667d05e1"
+        },
+        {
+          "path": "/assets/screenshots-mac/ms/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 44814,
+          "sha256": "ab7ea8f1f1e3b2ae09ab3253283a54c850597ffb5c90bdb165d9b3e67977fe57"
+        },
+        {
+          "path": "/assets/screenshots-mac/ms/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 76586,
+          "sha256": "abf046b18282552067f81d388208fc493358a4558377e1d539bae73558a413ef"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/nb/desktop.png": {
+      "source": "/assets/screenshots-mac/nb/desktop.png",
+      "source_sha256": "6424acb7ec934f4b662dd517f440c9352b3faf47a89a2b416ea5d0876268f34e",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/nb/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 17496,
+          "sha256": "c66cd4087bb5f4c56ecbebf90da6df975674ae74031df3bda9d436775800ae6f"
+        },
+        {
+          "path": "/assets/screenshots-mac/nb/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 45202,
+          "sha256": "c247f8f0e56ed872f053a98e915dfae1555d0f0f3136ae53f6f0f35006e42187"
+        },
+        {
+          "path": "/assets/screenshots-mac/nb/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 76822,
+          "sha256": "41a404f8b76074f1b49243711b4ef36deff8f8199fedf97fb229d64f1001bd0a"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/nl/desktop.png": {
+      "source": "/assets/screenshots-mac/nl/desktop.png",
+      "source_sha256": "dc5af2f34b8932ac4fdf9076f127189f7c1c2719587624f515d625e19d4a214a",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/nl/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 18144,
+          "sha256": "7b31da6104d773bdadde2efca4b02719ef9368e563b243138cbbe8d98062ba2b"
+        },
+        {
+          "path": "/assets/screenshots-mac/nl/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 46996,
+          "sha256": "456e26cee728a41820a64caf4f156a6b58d389111e7675bd0c84cdf59218b09a"
+        },
+        {
+          "path": "/assets/screenshots-mac/nl/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 81898,
+          "sha256": "1fb906fbf264d906fc1b83183ccf6a010f1cc2f6c993778823a8f34e55b716b7"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/pl/desktop.png": {
+      "source": "/assets/screenshots-mac/pl/desktop.png",
+      "source_sha256": "22550eab46e83fe4790e2e3b2e5e96da3740b5d61b9665b913a0d82e7031cff4",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/pl/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 17638,
+          "sha256": "d5d3ffd042337838a6e9b47a4fbb567ac03ae8f687d6b3b7689806f0fc29fc5c"
+        },
+        {
+          "path": "/assets/screenshots-mac/pl/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 45678,
+          "sha256": "3b875d89f51140307d6aad090d340e8a8828d44d53fa4b087b110c3c7ed8935c"
+        },
+        {
+          "path": "/assets/screenshots-mac/pl/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 77230,
+          "sha256": "d0ed8b4faf40d26edaaab4d4b83fe25aa201a0450776b152489c7cd77990c01e"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/pt-br/desktop.png": {
+      "source": "/assets/screenshots-mac/pt-br/desktop.png",
+      "source_sha256": "c0e9baf53581fc3d10855194aa2f0733212f2ae6f4fa0b62dac14ce04142c0d6",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/pt-br/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 17924,
+          "sha256": "9aac1a36afc1454de2e1df1cad73982e4c6c7370a03df718967b0128f83f9a32"
+        },
+        {
+          "path": "/assets/screenshots-mac/pt-br/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 46144,
+          "sha256": "a4da11ac7ffadab4ffddd12670523362bec6acea95bc14cc75fe2b76b0536b2b"
+        },
+        {
+          "path": "/assets/screenshots-mac/pt-br/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 78526,
+          "sha256": "10d6c34744f4a412c31726e5b3f9051a34900018873c543b4488615f34e90c35"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/pt/desktop.png": {
+      "source": "/assets/screenshots-mac/pt/desktop.png",
+      "source_sha256": "c8c31f7d7933c92833cd2b0a1a18c887ca23a3ff805aceb727cb70ce4bf85f8c",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/pt/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 17348,
+          "sha256": "af38b4c2e70b2b719699bd3e21888944f3b4779d8097e99f681792b67c324f41"
+        },
+        {
+          "path": "/assets/screenshots-mac/pt/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 44994,
+          "sha256": "b3e94b992d13065a663bd9567db45de7cce453d4e86e73715212ffc090290953"
+        },
+        {
+          "path": "/assets/screenshots-mac/pt/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 76924,
+          "sha256": "d9e6e67a18a4417073fa83958336a35fca8baa6f0934ef4a049e11c087eb4b51"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/ro/desktop.png": {
+      "source": "/assets/screenshots-mac/ro/desktop.png",
+      "source_sha256": "78d2ec4f9cf9198255e92353742fe72885157502365bc12832ccf92f4aac162e",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/ro/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 17060,
+          "sha256": "bc2ce6b70a3bed839819bdf8c7c369aa588a67c02002b2a90a1543d46897caa3"
+        },
+        {
+          "path": "/assets/screenshots-mac/ro/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 44084,
+          "sha256": "c6d81d3e4d7d0f72b4c60c23da5117fd948f6ec2f7f6f93d528e8d2e6a8586bc"
+        },
+        {
+          "path": "/assets/screenshots-mac/ro/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 77934,
+          "sha256": "ba5562c8e1b03663b0af58c8f5f591f2e3de6fc15604556f3be0ab9795bfe4a5"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/ru/desktop.png": {
+      "source": "/assets/screenshots-mac/ru/desktop.png",
+      "source_sha256": "69d55e50840a07503899ad4c246a58f561d70c695a0021a22979104e4ed669e4",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/ru/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 17156,
+          "sha256": "014fac88ff819266c3abeb5e78f5afba52ca211adb44c1ed8eee45e4c36d5a9b"
+        },
+        {
+          "path": "/assets/screenshots-mac/ru/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 44176,
+          "sha256": "a7c6ab99724d88c882ace042c12e8396af73ade26b9297d9f0155c54c75c5e06"
+        },
+        {
+          "path": "/assets/screenshots-mac/ru/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 77092,
+          "sha256": "1847b209270cfe4d302d6931a003c89ca8acdf5d761f08014c56d7d111689280"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/sk/desktop.png": {
+      "source": "/assets/screenshots-mac/sk/desktop.png",
+      "source_sha256": "acbb0c0028cae5ba735df95f3b8c2e61ac1fd365c2fb681c1e25b096757fad2f",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/sk/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 16528,
+          "sha256": "79bd175994a08d3011b116bbce23260449030733273603a4c815637512eee8da"
+        },
+        {
+          "path": "/assets/screenshots-mac/sk/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 42496,
+          "sha256": "a4524d2a9c6f7490f40fb7b5ce0ee31ead942506b6120ada2cf87dfba2bb110e"
+        },
+        {
+          "path": "/assets/screenshots-mac/sk/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 74018,
+          "sha256": "0cbe9733e195675934d64484f2d16f93fdb8d20bacded3c47953982e1cce493e"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/sv/desktop.png": {
+      "source": "/assets/screenshots-mac/sv/desktop.png",
+      "source_sha256": "b9732b1f7f5deaaf2006441c4f5508faf7a9370b66782f2e25d16e8b8fb44e78",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/sv/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 16724,
+          "sha256": "d288302a469a5f2f89d9bfa81bd390e84b57696a0a3fa17d3b849933e1bd3ae4"
+        },
+        {
+          "path": "/assets/screenshots-mac/sv/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 43280,
+          "sha256": "081467808ec0c33e83214bde3175c32da602eaa1ced8b3df7776d432180cc7f5"
+        },
+        {
+          "path": "/assets/screenshots-mac/sv/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 75016,
+          "sha256": "11976d1d78b90d89807b9dd9ed10c82c0a3572e217f79f264fd8188662c39156"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/th/desktop.png": {
+      "source": "/assets/screenshots-mac/th/desktop.png",
+      "source_sha256": "acf58245a2f54cc9284e20db1fd0118b229059f321d03b83d447c4619c642b0f",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/th/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 16308,
+          "sha256": "ab68e676b7ffe03759cf8e97765ad58df3ef90bee67853ae01f64bbbc7c7c668"
+        },
+        {
+          "path": "/assets/screenshots-mac/th/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 42002,
+          "sha256": "d7c64c2df5acde09695b22def4b0a10b95370432b899455a6fc875ed92ff6336"
+        },
+        {
+          "path": "/assets/screenshots-mac/th/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 75416,
+          "sha256": "dce590f6d08e3b315f8708d837e2a6e70408e2727c24fdcc8a9cb3fc44de7f54"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/tr/desktop.png": {
+      "source": "/assets/screenshots-mac/tr/desktop.png",
+      "source_sha256": "8e14d3937a2b3ea323f8a7d906d23861206dff918fef0c7a9868674c9307d921",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/tr/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 16256,
+          "sha256": "03df0511076c302cc60b25b96e90f2f42e5649414bfd6e6c903496f200b622fb"
+        },
+        {
+          "path": "/assets/screenshots-mac/tr/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 41670,
+          "sha256": "b5e01fe66d0d1c40dc906d373cbfdc598afe0f1b95713bc3dee4b7c8022b48bb"
+        },
+        {
+          "path": "/assets/screenshots-mac/tr/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 73066,
+          "sha256": "af573321a9b8d7d064cec51de658e9aa46b99ada1309239fb75d93860b6b6043"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/uk/desktop.png": {
+      "source": "/assets/screenshots-mac/uk/desktop.png",
+      "source_sha256": "c71484a8913a1370c0cc3c3f73098718f77d08800708918443d2c0c792ee4e6a",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/uk/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 16812,
+          "sha256": "7127a2c73a58281612b134a9284c297d3b66cff2e3b027ec4b923abf02242f3a"
+        },
+        {
+          "path": "/assets/screenshots-mac/uk/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 43332,
+          "sha256": "6fd8e517c8fd7e35f0475f4dc7786665f3683e2b589c81a20ee2415a8c517e4d"
+        },
+        {
+          "path": "/assets/screenshots-mac/uk/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 74922,
+          "sha256": "af71818bde423f7a74c8de24af1e536894ed8cfd04e6d9d8aa279dddc4cd2058"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/vi/desktop.png": {
+      "source": "/assets/screenshots-mac/vi/desktop.png",
+      "source_sha256": "27a31cda3a468ed189858621038205856028c213072abd07d0c1beeb109907ff",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/vi/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 16638,
+          "sha256": "e7932ae6e1f2da0d492c1b7a18ba6be35d7ee8a3238d828c91e93560ab079ccd"
+        },
+        {
+          "path": "/assets/screenshots-mac/vi/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 42370,
+          "sha256": "65dc078205bcf2becbf0707ac0dbd02e015101419efc6112cc302dd2cd3a98c6"
+        },
+        {
+          "path": "/assets/screenshots-mac/vi/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 73842,
+          "sha256": "dd3672e8961d87ddef9e9828509c812b14572dbd7900033e6314a1dadb5e4323"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/zh-hans/desktop.png": {
+      "source": "/assets/screenshots-mac/zh-hans/desktop.png",
+      "source_sha256": "98746a1a04ed47f472be7c45c75a1de8123c68904e4736c45a3bd4c70489aea4",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/zh-hans/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 15364,
+          "sha256": "32f5955296558184aae579b8414c2f6423d4efc9a548b5d9cfe64365f3f152e1"
+        },
+        {
+          "path": "/assets/screenshots-mac/zh-hans/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 38722,
+          "sha256": "7fc8262473abc4c945ed548442a3210bbf5c417aac7819a860a7e161d1c0d537"
+        },
+        {
+          "path": "/assets/screenshots-mac/zh-hans/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 67834,
+          "sha256": "7bb45bcaeba3720b39a41e9a1c28a0541d95f173b8ab4315076ac039eaaddf32"
+        }
+      ]
+    },
+    "/assets/screenshots-mac/zh-hant/desktop.png": {
+      "source": "/assets/screenshots-mac/zh-hant/desktop.png",
+      "source_sha256": "d452641f26f29c6c4170f0320b2460c78d2a2b878d47e0a0e355a6175397186e",
+      "variants": [
+        {
+          "path": "/assets/screenshots-mac/zh-hant/desktop-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 15324,
+          "sha256": "e695266ddd3addfb2fbe0a763fd81857009b13abd0937a3b60085c056c51047b"
+        },
+        {
+          "path": "/assets/screenshots-mac/zh-hant/desktop-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 38564,
+          "sha256": "257abd22585b934394b5c6c473c0d31cef198e97a2ee6e48d72bb88019116f54"
+        },
+        {
+          "path": "/assets/screenshots-mac/zh-hant/desktop-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 67948,
+          "sha256": "12978790c8ffe065833fe206087e5ef6fcdb5ad533b1bf6a35fab7dc39594cae"
         }
       ]
     }

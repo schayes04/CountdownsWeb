@@ -974,41 +974,39 @@
 	gap: 56px;
 }
 
-// Mac guide hero: a native app-window capture on a MacBook-style display.
-// Keep mac-screenshot.html sizes in sync with these proportions.
+// Mac guide hero: a native desktop capture (app window and widgets) on a
+// MacBook-style display. Keep mac-screenshot.html sizes in sync with these
+// proportions.
 .screenshot-mac {
 	width: 100%;
 	max-width: 560px;
 	min-width: 0;
 }
 
-// The window's empty lower half runs off the bottom of the display, so its
-// countdown rows stay legible at hero size. Pixels are unedited.
+// The 4:3 capture fills the 16:10 display; cropping trims only empty wallpaper
+// above and below the window and widgets. Pixels are unedited.
 .screenshot-mac__screen {
-	display: flex;
-	align-items: flex-start;
-	justify-content: center;
 	overflow: hidden;
 	aspect-ratio: 16 / 10;
 	margin: 0 6%;
-	padding-top: 4.5%;
 	border: 12px solid #1d1d1f;
 	border-bottom-width: 14px;
 	border-radius: 18px 18px 4px 4px;
-	background: linear-gradient(155deg, #8ccbf0 0%, #2f86c1 48%, #164a73 100%);
+	background: #1d1d1f;
 	box-shadow: 0 0 0 1px #48484a;
 }
 
 .screenshot-mac__screen > picture {
 	display: block;
-	width: 86%;
+	width: 100%;
+	height: 100%;
 }
 
 .screenshot-mac__screen > picture > img {
 	display: block;
 	width: 100%;
-	height: auto;
-	filter: drop-shadow(0 8px 16px rgba(5, 22, 38, 0.38));
+	height: 100%;
+	object-fit: cover;
 }
 
 .screenshot-mac__base {
