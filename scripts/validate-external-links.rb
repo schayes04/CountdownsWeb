@@ -21,6 +21,7 @@ class ExternalLinksValidator
     https://americanenglish.state.gov/files/ae/resource_files/mothersday-and-fathersday.pdf
     https://www.canada.ca/en/library-archives/services/public/visit/holiday-closures.html
     https://www.churchofengland.org/media/stories-and-features/mothering-sunday-what-are-its-origins-church
+    https://www.inegi.org.mx/contenidos/saladeprensa/aproposito/2023/EAP_10Mayo23.pdf
     https://www.islhd.health.nsw.gov.au/sites/default/files/Health_Promotion/Healthy_schools/2026_Schools_Calendar.pdf
   ].freeze
 
@@ -75,7 +76,7 @@ class ExternalLinksValidator
     @regions = @apple['locales'].is_a?(Hash) ? @apple['locales'] : {}
     @guide_overrides = @apple['guide_locale_overrides'].is_a?(Hash) ? @apple['guide_locale_overrides'] : {}
     codes = @locales.map { |locale| locale['code'].to_s }
-    check(:source, codes.length == 37 && codes.uniq.length == 37, 'locales.yml must contain 37 unique locale codes')
+    check(:source, codes.length == 38 && codes.uniq.length == 38, 'locales.yml must contain 38 unique locale codes')
     check(:source, @articles.keys.sort == APPLE_ARTICLE_KEYS.sort, 'apple_support.articles must contain exactly the audited article keys')
     check(:source, @regions.keys.sort == codes.sort, 'apple_support.locales must cover exactly the configured locales')
     @articles.each do |key, path|

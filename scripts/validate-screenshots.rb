@@ -27,6 +27,9 @@ class ScreenshotValidator
     'en-GB' => %w[editing settings event-countdown-app normal-display compact-display colors home-screen-widgets vacation-countdown-app lock-screen-widgets christmas-countdown-app],
     'en-AU' => %w[editing settings event-countdown-app normal-display compact-display colors home-screen-widgets vacation-countdown-app lock-screen-widgets christmas-countdown-app]
   }.freeze
+  # Locales that show another locale's native captures until their own exist.
+  # Spanish (Mexico) uses the Spanish set until the 12.3 capture adds es-MX.
+  BORROWED_SCREENSHOTS = { 'es-MX' => 'es' }.freeze
   # Native Mac Catalyst captures replace the phone hero on these guides where a
   # locale has one (_data/mac_screenshots.yml); other locales keep the phone frame.
   MAC_GUIDES = { 'mac-countdown-widget' => 'app-window' }.freeze
@@ -60,6 +63,7 @@ class ScreenshotValidator
 
   def expected_path(locale, scene)
     folder = locale['folder'].to_s.empty? ? 'en' : locale['folder']
+    folder = BORROWED_SCREENSHOTS.fetch(locale['code'], folder)
     updates = REGIONAL_UPDATES[locale['code']]
     folder = 'en' if updates && !updates.include?(scene)
     "/assets/screenshots/#{folder}/#{scene}.png"
@@ -76,7 +80,7 @@ class ScreenshotValidator
     locale_data = read_yaml('_data/locales.yml')
     @locales = locale_data.is_a?(Array) ? locale_data : []
     codes = @locales.map { |locale| locale['code'] }
-    check(:manifest, codes.size == 37 && codes.uniq.size == 37, 'Expected 37 unique locale codes')
+    check(:manifest, codes.size == 38 && codes.uniq.size == 38, 'Expected 38 unique locale codes')
     check(:manifest, @manifest['version'] == 'v12', 'Screenshot version must be v12')
     check(:manifest, @manifest.values_at('width', 'height') == [1206, 2622], 'Screenshot dimensions must be 1206x2622')
     check(:manifest, @manifest['guides'] == GUIDES, 'Guide map must contain the 12 required slug-to-scene mappings')
@@ -373,8 +377,8 @@ class ScreenshotValidator
     @locales.each do |locale|
       ['', 'countdown-ideas', *GUIDES.keys].each { |slug| validate_route(locale, slug) }
     end
-    check(:manifest, @counts[:sources] == 629 && @counts[:alts] == 629, 'Expected 629 source paths and localized alts')
-    check(:routes, @counts[:routes] == 555, 'Expected 555 routes')
+    check(:manifest, @counts[:sources] == 646 && @counts[:alts] == 646, 'Expected 646 source paths and localized alts')
+    check(:routes, @counts[:routes] == 570, 'Expected 570 routes')
     puts "Checked #{@counts[:sources]} source PNG paths, #{@counts[:alts]} localized alts, " \
          "#{@counts[:html]}/#{@counts[:routes]} built routes, #{@counts[:references]} image/preload references."
     @errors.each do |group, errors|

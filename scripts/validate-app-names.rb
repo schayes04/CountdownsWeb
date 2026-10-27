@@ -11,7 +11,7 @@ class AppNameValidator
   # Native CFBundleDisplayName baseline; update together with locales.yml.
   EXPECTED = {
     'en' => 'Countdowns', 'en-CA' => 'Countdowns', 'en-GB' => 'Countdowns', 'en-AU' => 'Countdowns', 'ar' => 'العدادات التنازلية', 'ca' => 'Comptes Enrere',
-    'da' => 'Nedtællinger', 'de' => 'Countdowns', 'es' => 'Cuentas atrás',
+    'da' => 'Nedtællinger', 'de' => 'Countdowns', 'es' => 'Cuentas atrás', 'es-MX' => 'Contadores',
     'fi' => 'Laskurit', 'fr' => 'Compte à rebours', 'hi' => 'काउंटडाउन', 'it' => 'Contatore',
     'ja' => 'カウントダウン', 'ko' => '카운트다운', 'nb' => 'Nedtellinger',
     'nl' => 'Aftellingen', 'pl' => 'Odliczanie', 'pt' => 'Contagem',
@@ -262,7 +262,7 @@ class AppNameValidator
     validate_source
     routes = ['', *ROUTES, *@guides]
     check(:source, routes.size == 16, "Expected 13 guide pages plus home, ideas, and support (found #{@guides.size} guides)")
-    check(:routes, @locales.size * routes.size == 592, "Expected 592 locale routes (found #{@locales.size * routes.size})")
+    check(:routes, @locales.size * routes.size == 608, "Expected 608 locale routes (found #{@locales.size * routes.size})")
     @locales.each { |locale| routes.each { |slug| validate_route(locale, slug) } }
     %w[policies].each do |name|
       file = [@site.join("#{name}.html"), @site.join(name, 'index.html')].find(&:file?)

@@ -18,6 +18,7 @@ apple_support:
     da: da-dk
     de: de-de
     es: es-es
+    es-MX: es-mx
     fi: fi-fi
     fr: fr-fr
     hi: en-us # These standalone articles are not currently available in Hindi.
@@ -65,6 +66,7 @@ app_store:
     da: da-DK
     de: de-DE
     es: es-ES
+    es-MX: es-MX
     fi: fi-FI
     fr: fr-FR
     hi: hi

@@ -27,6 +27,20 @@ es:
   iphone-countdown-widget: Widget de cuenta atrás para iPhone
   lock-screen-countdown-widget: Widget de cuenta atrás en pantalla de bloqueo
   mac-countdown-widget: Widget de cuenta atrás para Mac
+es-MX:
+  wedding-countdown-app: Cuenta regresiva de boda
+  birthday-countdown-app: Cuenta regresiva de cumpleaños
+  vacation-countdown-app: Cuenta regresiva de vacaciones
+  retirement-countdown-app: Cuenta regresiva de jubilación
+  holiday-countdown-app: Cuenta regresiva de días festivos
+  anniversary-countdown-app: Cuenta regresiva de aniversario
+  christmas-countdown-app: Cuenta regresiva de Navidad
+  theme-park-trip-countdown-app: Cuenta regresiva de parque temático
+  pregnancy-countdown-app: Cuenta regresiva de embarazo
+  event-countdown-app: Cuenta regresiva de eventos
+  iphone-countdown-widget: Widget de cuenta regresiva para iPhone
+  lock-screen-countdown-widget: Widget de cuenta regresiva en pantalla de bloqueo
+  mac-countdown-widget: Widget de cuenta regresiva para Mac
 fr:
   wedding-countdown-app: Compte à rebours de mariage
   birthday-countdown-app: Compte à rebours d’anniversaire

@@ -20,6 +20,13 @@
       "source_name": "NSW Health"
     }
   },
+  "MX": {
+    "mothers-day": {
+      "label": "mexico_mother_rule",
+      "source": "https://www.inegi.org.mx/contenidos/saladeprensa/aproposito/2023/EAP_10Mayo23.pdf",
+      "source_name": "INEGI"
+    }
+  },
   "NZ": {
     "fathers-day": {
       "label": "australia_father_rule",

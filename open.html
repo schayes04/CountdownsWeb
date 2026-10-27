@@ -29,7 +29,7 @@ permalink: /open/
             ];
 
             // Maps a browser language tag onto the site's locale tags,
-            // e.g. zh-TW -> zh-Hant, pt-PT -> pt, no/nn -> nb.
+            // e.g. zh-TW -> zh-Hant, pt-PT -> pt, es-419 -> es-MX, no/nn -> nb.
             function normalize(tag) {
                 var parts = tag.toLowerCase().split("-");
                 var base = parts[0];
@@ -41,6 +41,7 @@ permalink: /open/
                 if (base === "iw") return "he";
                 if (base === "in") return "id";
                 if (base === "pt") return parts[1] === "br" ? "pt-br" : "pt";
+                if (base === "es" && parts[1] === "419") return "es-mx";
                 return parts.length > 1 ? base + "-" + parts[1] : base;
             }
 

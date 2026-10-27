@@ -365,6 +365,186 @@ es:
     la fecha.
   guide_cta_heading: Empieza tu TOPIC hoy.
   guide_cta_text: Descarga Cuentas atrás y mantén visible la próxima fecha importante.
+es-MX:
+  menu: "Menú"
+  breadcrumb_label: "Ruta de navegación"
+  on_this_page: "En esta página"
+  app_highlights_label: "Lo más destacado de APP_NAME"
+  home_widgets_preview_label: "Vista previa de los widgets de pantalla de inicio de APP_NAME"
+  countdown_examples_label: "Ejemplos populares de cuentas regresivas"
+  skip: Saltar al contenido
+  home: Inicio
+  primary_nav: Principal
+  features: Funciones
+  widgets: Widgets
+  ideas: Ideas
+  press_kit: Kit de prensa
+  download: Descargar
+  support: Soporte
+  policies: Políticas
+  company_links: Enlaces de la empresa
+  made_by: Creado por
+  language: Idioma
+  download_badge: Descargar en App Store
+  opening_app: Abriendo APP_NAME…
+  app_description: Contadores te ayuda a contar hacia momentos importantes, o a contar
+    desde fechas significativas, en iPhone, iPad, Mac y Apple Watch. Ideal para cumpleaños,
+    días festivos, bodas, aniversarios, vacaciones, jubilación y más.
+  title_suffix: Temporizadores de cuenta regresiva para dispositivos Apple
+  hero_eyebrow: Para iPhone, iPad, Mac y Apple Watch
+  hero_lead: Cuenta hacia lo que viene, o cuenta desde lo que cambió. Crea temporizadores
+    personalizables para cumpleaños, días festivos, hábitos, viajes, días de partido y
+    todo lo que quieras seguir.
+  free: Gratis
+  download_label: descarga
+  languages_label: idiomas
+  home_lock_screen: Pantalla de inicio + bloqueo
+  examples:
+  - Bodas
+  - Cumpleaños
+  - Vacaciones
+  - Jubilación
+  - Día de partido
+  - Nuevos hábitos
+  widgets_kicker: Widgets en todas partes
+  widgets_heading: Mantén visibles los momentos importantes.
+  widgets_body: Pon cuentas regresivas en la pantalla de inicio y de bloqueo, y elige el
+    estilo que encaja con la ocasión. Los grandes eventos, los calendarios recurrentes
+    y las listas favoritas permanecen a la vista.
+  widget_bullets:
+  - Widgets de pantalla de inicio para cuentas y listas favoritas.
+  - Widgets de bloqueo para revisar el progreso rápido.
+  - Compatibilidad con Apple Watch y complicaciones.
+  features_kicker: Hecho para la vida real
+  features_heading: Flexible para todo tipo de temporizador.
+  features_body: Sigue celebraciones, plazos, rutinas e hitos con controles que hacen
+    que cada cuenta sea personal.
+  feature_titles:
+  - Cuentas ilimitadas
+  - Widgets
+  - Unidades personalizables
+  - Eventos recurrentes
+  - Importación de eventos
+  - Sincronización iCloud
+  - Notificaciones
+  - Listas
+  - Archivo
+  - Atajos de Siri
+  - Apple Watch
+  - Localizado
+  feature_descriptions:
+  - Crea cuentas ilimitadas hacia fechas futuras o desde hitos pasados
+  - Ve cuentas en la pantalla de inicio o de bloqueo
+  - Muestra años, meses, semanas, días, horas, minutos, segundos o la mezcla que encaje
+  - Crea repeticiones simples o calendarios recurrentes avanzados
+  - Importa fechas desde Calendario, Contactos y Recordatorios
+  - Sincroniza cuentas y listas entre tus dispositivos
+  - Elige cuándo recibir avisos antes de cada cuenta
+  - Organiza cuentas en listas personalizadas
+  - Conserva y consulta cuentas pasadas
+  - Usa Atajos para consultar cuentas con la voz
+  - Ve cuentas en Apple Watch con complicaciones
+  - Disponible en 33 idiomas
+  personal_kicker: Personal por defecto
+  personal_heading: Elige unidades, colores, íconos, listas y notificaciones para
+    cada evento.
+  personal_body: Cuenta en años, meses, semanas, días, horas, minutos o segundos.
+    Importa fechas desde Calendario, Contactos y Recordatorios, organiza cuentas en
+    listas y sincroniza todo entre dispositivos.
+  mini_titles:
+  - Eventos recurrentes
+  - Notificaciones personalizadas
+  - Archivo
+  mini_bodies:
+  - Crea repeticiones simples o calendarios recurrentes avanzados.
+  - Elige cuándo recibir un aviso antes de que llegue una cuenta.
+  - Guarda cuentas pasadas sin llenar la lista principal.
+  pricing_kicker: Gratis para empezar
+  pricing_heading: Descarga Contadores gratis.
+  pricing_body: Las compras opcionales mensuales, anuales y únicas desbloquean funciones
+    como iCloud, modo compacto, listas, indicadores de dirección, sonidos personalizados
+    y archivo.
+  ideas_kicker: Ideas de cuentas regresivas
+  ideas_heading: Planifica cualquier cuenta desde una sola app.
+  ideas_body: Crea temporizadores para los momentos más buscados y personaliza cada
+    uno con unidades, colores, widgets, listas y notificaciones.
+  browse_all_ideas: Ver todas las ideas
+  start_counting: Empieza a contar
+  home_cta_heading: Haz que el próximo gran día se sienta más cerca.
+  ideas_title: Ideas de cuentas regresivas
+  ideas_meta_title: Ideas de cuentas regresivas para bodas, cumpleaños, vacaciones, días festivos
+    y eventos
+  ideas_description: Explora ideas de cuentas regresivas para bodas, cumpleaños, vacaciones,
+    días festivos, aniversarios, jubilación, widgets y más.
+  ideas_index_heading: Ideas de cuentas regresivas para cada fecha importante
+  ideas_index_body: Explora formas de usar Contadores para celebraciones, viajes,
+    hitos, días festivos, widgets y fechas cotidianas que quieres ver.
+  browse_all: Explorar todo
+  choose_type: Elige un tipo de cuenta para empezar.
+  guide_focus: Cada guía se centra en una intención distinta, con ideas prácticas
+    y enlaces relacionados.
+  create_own: Crea tu propia cuenta regresiva.
+  breadcrumb_ideas: Ideas de cuentas regresivas
+  guide_default_kicker: Guía de cuenta regresiva
+  why_it_helps: Por qué ayuda
+  benefits_default_heading: Una cuenta regresiva que encaja con el momento.
+  how_to_use: Cómo usarlo
+  steps_default_heading: Crea la cuenta en minutos.
+  steps_intro: Empieza con la fecha y haz que el temporizador sea útil en todas partes.
+  faq: Preguntas frecuentes
+  common_questions: Preguntas comunes
+  more_ideas: Más ideas de cuentas regresivas
+  related_heading: Crea el próximo temporizador de tu lista.
+  cta_default_heading: Haz que la fecha se sienta más cerca.
+  aside_bullets:
+  - Widgets para pantalla de inicio y bloqueo
+  - Unidades, colores, listas y notificaciones personalizadas
+  - Sincronización iCloud entre dispositivos Apple
+  guide_meta_title: App TOPIC para iPhone, iPad, Mac y Apple Watch
+  guide_description: Crea un TOPIC con widgets, recordatorios, colores, listas y sincronización
+    iCloud.
+  guide_h1: Un TOPIC para las fechas importantes
+  guide_hero: Sigue un TOPIC y las fechas relacionadas con widgets, recordatorios,
+    unidades flexibles, colores y listas.
+  guide_benefits_heading: Mantén la fecha visible y organizada.
+  benefit_titles:
+  - Cuentas visibles
+  - Planificación flexible
+  - Configuración personal
+  benefit_descriptions:
+  - Pon fechas importantes en iPhone, iPad, Mac, Apple Watch y widgets.
+  - Sigue la fecha principal, hitos, recordatorios, viajes y calendarios recurrentes.
+  - Elige unidades, colores, íconos, listas y notificaciones que encajen con el evento.
+  guide_steps_heading: Configura tu TOPIC.
+  step_titles:
+  - Agrega la fecha
+  - Personaliza la cuenta
+  - Mantenla visible
+  step_descriptions:
+  - Crea la cuenta con el día y la hora importantes.
+  - Elige unidades de visualización, colores, íconos, listas y recordatorios.
+  - Agrega widgets o complicaciones de Apple Watch para revisarla rápido.
+  guide_faq_heading: Preguntas sobre TOPIC
+  faq_questions:
+  - "¿Puedo seguir más de una fecha relacionada?"
+  - "¿Puedo poner la cuenta en la pantalla de inicio o de bloqueo?"
+  - "¿Puedo personalizar la cuenta regresiva?"
+  faq_answers:
+  - Sí. Puedes crear cuentas ilimitadas y organizarlas en listas.
+  - Sí. Contadores admite widgets de pantalla de inicio, pantalla de bloqueo y complicaciones
+    de Apple Watch.
+  - Sí. Puedes personalizar unidades, colores, íconos, listas, notificaciones y más.
+  guide_body_h2_1: Mantén la fecha importante a la vista
+  guide_body_p1: Un TOPIC funciona mejor cuando es fácil de ver. Contadores lo convierte
+    en un temporizador que puedes revisar en los dispositivos que ya usas.
+  guide_body_p2: Crea un temporizador para la fecha principal y agrega hitos, recordatorios
+    y fechas de planificación relacionadas.
+  guide_body_h2_2: Haz que encaje con tu plan
+  guide_body_p3: Elige años, meses, semanas, días, horas, minutos o segundos. Usa
+    colores, íconos, listas, widgets, notificaciones y archivo antes y después de
+    la fecha.
+  guide_cta_heading: Empieza tu TOPIC hoy.
+  guide_cta_text: Descarga Contadores y mantén visible la próxima fecha importante.
 fr:
   menu: "Menu"
   breadcrumb_label: "Fil d’Ariane"

@@ -12,6 +12,7 @@ export const regionalRules = {
   CA: { thanksgiving: { rule: { type:'weekday',month:10,weekday:1,occurrence:2 }, label:'canada_thanksgiving_rule', source:'https://www.canada.ca/en/library-archives/services/public/visit/holiday-closures.html', sourceName:'Library and Archives Canada' } },
   GB: { 'mothers-day': { rule: { type:'easter-offset',offset:-21 }, label:'uk_mother_rule', source:'https://www.churchofengland.org/media/stories-and-features/mothering-sunday-what-are-its-origins-church', sourceName:'Church of England' } },
   AU: { 'fathers-day': { rule: { type:'weekday',month:9,weekday:0,occurrence:1 }, label:'australia_father_rule', source:'https://www.islhd.health.nsw.gov.au/sites/default/files/Health_Promotion/Healthy_schools/2026_Schools_Calendar.pdf', sourceName:'NSW Health' } },
+  MX: { 'mothers-day': { rule: { type:'fixed',month:5,day:10 }, label:'mexico_mother_rule', source:'https://www.inegi.org.mx/contenidos/saladeprensa/aproposito/2023/EAP_10Mayo23.pdf', sourceName:'INEGI' } },
   NZ: { 'fathers-day': { rule: { type:'weekday',month:9,weekday:0,occurrence:1 }, label:'australia_father_rule', source:'https://collections.tepapa.govt.nz/object/1663302', sourceName:'Museum of New Zealand Te Papa Tongarewa' } }
 };
 // Only offer countries whose supported rules can change the displayed dates.

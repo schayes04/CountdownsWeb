@@ -85,6 +85,15 @@
   app_name: Cuentas atrás
   html_lang: es
   dir: ltr
+- code: es-MX
+  folder: es-mx
+  name: Spanish (Mexico)
+  native_name: Español (México)
+  app_name: Contadores
+  html_lang: es-MX
+  dir: ltr
+  # Regional holiday observances rendered by default on this locale's holiday pages.
+  holiday_country: MX
 - code: fi
   folder: fi
   name: Finnish

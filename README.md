@@ -104,7 +104,7 @@ I'd love to see the sites you create using this little tool.
 `/when-is/` links to eight holiday pages: Christmas, Halloween, New Year,
 Thanksgiving, Western Easter, Valentine’s Day, Mother’s Day, and Father’s Day.
 The holiday index, all eight detail pages, the anniversary calculator, and the
-days-until calculator are available in all 37 site locale variants (33 languages):
+days-until calculator are available in all 38 site locale variants:
 407 tool routes. Each
 locale's three-column footer and ideas index link to its own tools. Language
 switching stays on the corresponding page; canonical URLs, translated metadata,
@@ -447,3 +447,18 @@ match these folders; publish these website routes before releasing that app chan
 
 ## License
 [MIT License](LICENSE)
+
+## October 2026 Spanish (Mexico)
+
+Spanish (Mexico) is available under `/es-mx/` (`hreflang="es-MX"`), matching the
+app's es-MX localization in version 12.3, where the app is named **Contadores**.
+Its catalogs start from Spanish and switch to Mexican usage: cuenta regresiva,
+agregar, configuración, ícono, días festivos, Día de las Madres, and ustedes
+forms instead of vosotros. The site now has 38 locale variants.
+
+Mexico's Mother's Day is a fixed May 10 (source: INEGI), added as the `MX`
+regional rule in `assets/holiday-country.mjs`; `/es-mx/` renders it by default
+and every locale's country picker offers it. Until native es-MX captures exist,
+es-MX borrows the Spanish screenshots, Spain's App Store badge artwork, and the
+Spanish link-preview image (`BORROWED_SCREENSHOTS` in
+`scripts/validate-screenshots.rb`).

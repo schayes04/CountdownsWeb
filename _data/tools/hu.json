@@ -51,6 +51,7 @@
     "canada_thanksgiving_rule": "Október második hétfője",
     "uk_mother_rule": "Nagyböjt negyedik vasárnapja",
     "australia_father_rule": "Szeptember első vasárnapja",
+    "mexico_mother_rule": "május 10., minden évben",
     "regional_about": "A dátum ezt az ünnepi hagyományt követi: {scope}.",
     "regional_note": "A dátumok országonként eltérnek. A megjelenített ünnep eltérhet a helyi szokásoktól.",
     "calculator_title": "Évforduló- és közösnap-kalkulátor",

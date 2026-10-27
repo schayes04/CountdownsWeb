@@ -51,6 +51,7 @@
     "canada_thanksgiving_rule": "Lokakuun toinen maanantai",
     "uk_mother_rule": "Paastonajan neljäs sunnuntai",
     "australia_father_rule": "Syyskuun ensimmäinen sunnuntai",
+    "mexico_mother_rule": "10. toukokuuta, joka vuosi",
     "regional_about": "Näytetty päivämäärä noudattaa tätä perinnettä: {scope}.",
     "regional_note": "Päivämäärät vaihtelevat maittain. Näytetty juhla voi poiketa paikallisesta perinteestä.",
     "calculator_title": "Vuosipäivien ja yhteisten päivien laskuri",

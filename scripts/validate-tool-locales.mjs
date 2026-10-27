@@ -12,9 +12,9 @@ const holidays = read('_data/holidays.json');
 const rules = Object.fromEntries(holidays.map(h => [h.slug, h.rule]));
 const tokens = value => [...value.matchAll(/\{(\w+)\}/g)].map(match => match[1]).sort();
 
-test('all 37 tool catalogs include every translated string, placeholder, and holiday', () => {
+test('all 38 tool catalogs include every translated string, placeholder, and holiday', () => {
   const files = readdirSync(new URL('../_data/tools/', import.meta.url)).filter(file => file.endsWith('.json'));
-  assert.equal(files.length, 37);
+  assert.equal(files.length, 38);
   assert.deepEqual(files.map(file => file.slice(0, -5)).sort(), Object.keys(formats).sort());
   for (const file of files) {
     const catalog = read(`_data/tools/${file}`);
@@ -53,9 +53,9 @@ test('unknown locations never infer a country from a language alone', () => {
 });
 
 test('country pickers offer only supported differences for the current page', () => {
-  assert.deepEqual(countriesForHoliday(), ['US', 'CA', 'GB', 'AU', 'NZ']);
+  assert.deepEqual(countriesForHoliday(), ['US', 'CA', 'GB', 'AU', 'MX', 'NZ']);
   assert.deepEqual(countriesForHoliday('thanksgiving'), ['US', 'CA']);
-  assert.deepEqual(countriesForHoliday('mothers-day'), ['US', 'GB']);
+  assert.deepEqual(countriesForHoliday('mothers-day'), ['US', 'GB', 'MX']);
   assert.deepEqual(countriesForHoliday('fathers-day'), ['US', 'AU', 'NZ']);
   for (const slug of ['christmas', 'halloween', 'new-year', 'easter', 'valentines-day']) {
     assert.deepEqual(countriesForHoliday(slug), []);
@@ -66,6 +66,7 @@ test('regional holidays follow their published rules and roll over after the day
   const cases = [
     ['thanksgiving','CA','2026-10-12','2027-10-11'],
     ['mothers-day','GB','2026-03-15','2027-03-07'],
+    ['mothers-day','MX','2026-05-10','2027-05-10'],
     ['fathers-day','AU','2026-09-06','2027-09-05'],
     ['fathers-day','NZ','2026-09-06','2027-09-05']
   ];
