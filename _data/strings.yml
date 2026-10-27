@@ -567,7 +567,7 @@ fr:
   language: Langue
   download_badge: Télécharger dans l’App Store
   opening_app: Ouverture de APP_NAME…
-  app_description: Compte à rebours vous aide à compter jusqu’aux moments importants, ou
+  app_description: Décomptes vous aide à compter jusqu’aux moments importants, ou
     depuis les dates qui comptent, sur iPhone, iPad, Mac et Apple Watch. Parfait pour
     les anniversaires, fêtes, mariages, voyages, départs à la retraite et plus encore.
   title_suffix: Minuteurs de compte à rebours pour appareils Apple
@@ -641,7 +641,7 @@ fr:
   - Choisissez quand recevoir un rappel avant l’arrivée d’un compte.
   - Gardez les anciens comptes sans encombrer la liste principale.
   pricing_kicker: Gratuit pour commencer
-  pricing_heading: Téléchargez Compte à rebours gratuitement.
+  pricing_heading: Téléchargez Décomptes gratuitement.
   pricing_body: Des achats mensuels, annuels ou uniques optionnels débloquent iCloud,
     le mode compact, les listes, indicateurs de direction, sons personnalisés et l’archive.
   ideas_kicker: Idées de comptes à rebours
@@ -657,7 +657,7 @@ fr:
   ideas_description: Parcourez des idées pour mariages, anniversaires, vacances, fêtes,
     retraites, widgets et plus.
   ideas_index_heading: Des idées pour chaque date importante
-  ideas_index_body: Découvrez comment utiliser Compte à rebours pour célébrations, voyages,
+  ideas_index_body: Découvrez comment utiliser Décomptes pour célébrations, voyages,
     étapes, fêtes, widgets et dates du quotidien.
   browse_all: Tout parcourir
   choose_type: Choisissez un type de compte pour commencer.
@@ -711,12 +711,12 @@ fr:
   - Puis-je personnaliser le compte à rebours ?
   faq_answers:
   - Oui. Vous pouvez créer des comptes illimités et les organiser en listes.
-  - Oui. Compte à rebours prend en charge les widgets d’écran d’accueil, d’écran verrouillé
+  - Oui. Décomptes prend en charge les widgets d’écran d’accueil, d’écran verrouillé
     et les complications Apple Watch.
   - Oui. Vous pouvez personnaliser unités, couleurs, icônes, listes, notifications
     et plus encore.
   guide_body_h2_1: Gardez la date importante en vue
-  guide_body_p1: Un TOPIC fonctionne mieux lorsqu’il est facile à voir. Compte à rebours
+  guide_body_p1: Un TOPIC fonctionne mieux lorsqu’il est facile à voir. Décomptes
     en fait un minuteur consultable sur les appareils que vous utilisez déjà.
   guide_body_p2: Créez un minuteur pour la date principale, puis ajoutez les étapes,
     rappels et dates de planification liées.
@@ -725,7 +725,7 @@ fr:
     Utilisez couleurs, icônes, listes, widgets, notifications et archive avant comme
     après la date.
   guide_cta_heading: Commencez votre TOPIC aujourd’hui.
-  guide_cta_text: Téléchargez Compte à rebours et gardez la prochaine date importante visible.
+  guide_cta_text: Téléchargez Décomptes et gardez la prochaine date importante visible.
 ar:
   menu: "القائمة"
   breadcrumb_label: "مسار التنقل"
@@ -748,7 +748,7 @@ ar:
   language: اللغة
   download_badge: تنزيل من App Store
   opening_app: جارٍ فتح APP_NAME…
-  app_description: يساعدك تطبيق العدادات التنازلية على العدّ التنازلي إلى اللحظات المهمة، أو العدّ
+  app_description: يساعدك تطبيق العد التنازلي على العدّ التنازلي إلى اللحظات المهمة، أو العدّ
     التصاعدي منذ تواريخ ذات معنى، على iPhone وiPad وMac وApple Watch. مثالي لأعياد
     الميلاد والعطلات وحفلات الزفاف والرحلات والتقاعد والمزيد.
   title_suffix: مؤقتات عدّ تنازلي لأجهزة Apple
@@ -821,7 +821,7 @@ ar:
   - اختر متى تريد أن يصلك تذكير قبل التاريخ.
   - احتفظ بالعدّادات القديمة دون ازدحام القائمة الرئيسية.
   pricing_kicker: مجاني للبدء
-  pricing_heading: نزّل تطبيق العدادات التنازلية مجانًا.
+  pricing_heading: نزّل تطبيق العد التنازلي مجانًا.
   pricing_body: تفتح عمليات الشراء الشهرية أو السنوية أو لمرة واحدة ميزات iCloud والوضع
     المدمج والقوائم ومؤشرات الاتجاه والأصوات المخصصة والأرشيف.
   ideas_kicker: أفكار العدّ التنازلي
@@ -836,7 +836,7 @@ ar:
   ideas_description: تصفح أفكار عدّ تنازلي للزفاف وأعياد الميلاد والإجازات والعطلات
     والتقاعد والأدوات والمزيد.
   ideas_index_heading: أفكار عدّ تنازلي لكل تاريخ مهم
-  ideas_index_body: اكتشف طرق استخدام تطبيق العدادات التنازلية للاحتفالات والرحلات والمراحل والعطلات
+  ideas_index_body: اكتشف طرق استخدام تطبيق العد التنازلي للاحتفالات والرحلات والمراحل والعطلات
     والأدوات والتواريخ اليومية.
   browse_all: تصفح الكل
   choose_type: اختر نوع العدّ التنازلي للبدء.
@@ -888,10 +888,10 @@ ar:
   - هل يمكنني تخصيص العدّ التنازلي؟
   faq_answers:
   - نعم. يمكنك إنشاء عدّادات غير محدودة وتنظيمها في قوائم.
-  - نعم. يدعم تطبيق العدادات التنازلية أدوات الشاشة الرئيسية وشاشة القفل وتعقيدات Apple Watch.
+  - نعم. يدعم تطبيق العد التنازلي أدوات الشاشة الرئيسية وشاشة القفل وتعقيدات Apple Watch.
   - نعم. يمكنك تخصيص الوحدات والألوان والأيقونات والقوائم والإشعارات والمزيد.
   guide_body_h2_1: أبقِ التاريخ المهم أمامك
-  guide_body_p1: يعمل TOPIC بشكل أفضل عندما يكون سهل الرؤية. يحوّله تطبيق العدادات التنازلية إلى
+  guide_body_p1: يعمل TOPIC بشكل أفضل عندما يكون سهل الرؤية. يحوّله تطبيق العد التنازلي إلى
     مؤقت يمكنك مراجعته على الأجهزة التي تستخدمها يوميًا.
   guide_body_p2: أنشئ مؤقتًا للتاريخ الرئيسي، ثم أضف المراحل والتذكيرات وتواريخ التخطيط
     المرتبطة.
@@ -900,7 +900,7 @@ ar:
     أو الثواني. استخدم الألوان والأيقونات والقوائم والأدوات والإشعارات والأرشيف قبل
     التاريخ وبعده.
   guide_cta_heading: ابدأ TOPIC اليوم.
-  guide_cta_text: نزّل تطبيق العدادات التنازلية وأبقِ التاريخ المهم القادم مرئيًا.
+  guide_cta_text: نزّل تطبيق العد التنازلي وأبقِ التاريخ المهم القادم مرئيًا.
 ca:
   menu: "Menú"
   breadcrumb_label: "Ruta de navegació"
@@ -923,7 +923,7 @@ ca:
   language: Idioma
   download_badge: Descarrega'l a l'App Store
   opening_app: Obrint APP_NAME…
-  app_description: Comptes Enrere t'ajuda a comptar fins als moments importants, o des
+  app_description: Compte enrere t'ajuda a comptar fins als moments importants, o des
     de dates significatives, a l'iPhone, l'iPad, el Mac i l'Apple Watch. Ideal per
     a aniversaris, festius, casaments, viatges, jubilacions i molt més.
   title_suffix: Temporitzadors de compte enrere per a dispositius Apple
@@ -995,7 +995,7 @@ ca:
   - Decideix quan vols rebre un avís abans que arribi la data.
   - Guarda els comptes passats sense omplir la llista principal.
   pricing_kicker: Gratis per començar
-  pricing_heading: Descarrega Comptes Enrere gratis.
+  pricing_heading: Descarrega Compte enrere gratis.
   pricing_body: Les compres mensuals, anuals o úniques opcionals desbloquegen iCloud,
     mode compacte, llistes, indicadors de direcció, sons personalitzats i arxiu.
   ideas_kicker: Idees de compte enrere
@@ -1011,7 +1011,7 @@ ca:
   ideas_description: Explora idees de compte enrere per a casaments, aniversaris,
     vacances, festius, jubilacions, ginys i més.
   ideas_index_heading: Idees de compte enrere per a cada data important
-  ideas_index_body: Descobreix maneres d'usar Comptes Enrere per a celebracions, viatges,
+  ideas_index_body: Descobreix maneres d'usar Compte enrere per a celebracions, viatges,
     fites, festius, ginys i dates quotidianes.
   browse_all: Explorar tot
   choose_type: Tria un tipus de compte enrere per començar.
@@ -1066,11 +1066,11 @@ ca:
   - Puc personalitzar el compte enrere?
   faq_answers:
   - Sí. Pots crear comptes il·limitats i organitzar-los en llistes.
-  - Sí. Comptes Enrere admet ginys de pantalla d'inici, de pantalla bloquejada i complicacions
+  - Sí. Compte enrere admet ginys de pantalla d'inici, de pantalla bloquejada i complicacions
     d'Apple Watch.
   - Sí. Pots personalitzar unitats, colors, icones, llistes, notificacions i més.
   guide_body_h2_1: Mantén la data important a la vista
-  guide_body_p1: Un TOPIC funciona millor quan és fàcil de veure. Comptes Enrere el converteix
+  guide_body_p1: Un TOPIC funciona millor quan és fàcil de veure. Compte enrere el converteix
     en un temporitzador que pots consultar als dispositius que ja fas servir.
   guide_body_p2: Crea un compte per a la data principal i afegeix fites, recordatoris
     i dates de planificació relacionades.
@@ -1078,7 +1078,7 @@ ca:
   guide_body_p3: Tria anys, mesos, setmanes, dies, hores, minuts o segons. Fes servir
     colors, icones, llistes, ginys, notificacions i arxiu abans i després de la data.
   guide_cta_heading: Comença el teu TOPIC avui.
-  guide_cta_text: Descarrega Comptes Enrere i mantén visible la propera data important.
+  guide_cta_text: Descarrega Compte enrere i mantén visible la propera data important.
 da:
   menu: "Menu"
   breadcrumb_label: "Brødkrumme"
@@ -4546,7 +4546,7 @@ el:
   language: Γλώσσα
   download_badge: Λήψη από το App Store
   opening_app: Άνοιγμα της εφαρμογής APP_NAME…
-  app_description: Η Αντίστροφη Μέτρηση μετρά τον χρόνο μέχρι σημαντικές στιγμές ή
+  app_description: Η εφαρμογή Μετρητές μετρά τον χρόνο μέχρι σημαντικές στιγμές ή
     από αξέχαστες ημερομηνίες σε iPhone, iPad, Mac και Apple Watch. Ιδανική για γενέθλια,
     γιορτές, γάμους, επετείους, διακοπές, συνταξιοδότηση και άλλα!
   title_suffix: Αντίστροφες μετρήσεις για συσκευές Apple
@@ -4620,7 +4620,7 @@ el:
   - Επιλέξτε πότε θα λαμβάνετε υπενθύμιση πριν φτάσει η ημερομηνία.
   - Κρατήστε παλιές μετρήσεις χωρίς να γεμίζει η κύρια λίστα.
   pricing_kicker: Ξεκινήστε δωρεάν
-  pricing_heading: Κατεβάστε δωρεάν την Αντίστροφη Μέτρηση.
+  pricing_heading: Κατεβάστε δωρεάν την εφαρμογή Μετρητές.
   pricing_body: Προαιρετικές μηνιαίες, ετήσιες και εφάπαξ αγορές ξεκλειδώνουν συγχρονισμό
     iCloud, συμπαγή προβολή, λίστες, δείκτες κατεύθυνσης, προσαρμοσμένους ήχους και
     αρχείο.
@@ -4636,7 +4636,7 @@ el:
   ideas_description: Ανακαλύψτε ιδέες για γάμους, γενέθλια, διακοπές, γιορτές, επετείους,
     συνταξιοδότηση, widget και άλλα.
   ideas_index_heading: Ιδέες για κάθε ημερομηνία που αξίζει να παρακολουθείτε
-  ideas_index_body: Ανακαλύψτε πώς η Αντίστροφη Μέτρηση βοηθά σε γιορτές, ταξίδια,
+  ideas_index_body: Ανακαλύψτε πώς η εφαρμογή Μετρητές βοηθά σε γιορτές, ταξίδια,
     ορόσημα, widget και καθημερινές ημερομηνίες.
   browse_all: Προβολή όλων
   choose_type: Επιλέξτε έναν τύπο μέτρησης για να ξεκινήσετε.
@@ -4694,13 +4694,13 @@ el:
   faq_answers:
   - Ναι. Μπορείτε να δημιουργήσετε απεριόριστες μετρήσεις και να τις οργανώσετε σε
     λίστες.
-  - Ναι. Η Αντίστροφη Μέτρηση υποστηρίζει widget Αφετηρίας, widget κλειδώματος και
+  - Ναι. Η εφαρμογή Μετρητές υποστηρίζει widget Αφετηρίας, widget κλειδώματος και
     επιπλοκές Apple Watch.
   - Ναι. Μπορείτε να προσαρμόσετε μονάδες, χρώματα, εικονίδια, λίστες, γνωστοποιήσεις
     και άλλα.
   guide_body_h2_1: Κρατήστε τη σημαντική ημερομηνία σε κοινή θέα
-  guide_body_p1: Η μέτρηση είναι πιο χρήσιμη όταν τη βλέπετε εύκολα. Η Αντίστροφη
-    Μέτρηση μετατρέπει το TOPIC_LOWER σε μετρητή στις οθόνες που χρησιμοποιείτε καθημερινά.
+  guide_body_p1: Η μέτρηση είναι πιο χρήσιμη όταν τη βλέπετε εύκολα. Η εφαρμογή
+    Μετρητές μετατρέπει το TOPIC_LOWER σε μετρητή στις οθόνες που χρησιμοποιείτε καθημερινά.
   guide_body_p2: Δημιουργήστε έναν μετρητή για την κύρια ημερομηνία και προσθέστε
     σχετικά ορόσημα, υπομνήσεις και ημερομηνίες σχεδιασμού.
   guide_body_h2_2: Προσαρμόστε τον στο σχέδιό σας
@@ -4708,7 +4708,7 @@ el:
     Χρησιμοποιήστε χρώματα, εικονίδια, λίστες, widget, γνωστοποιήσεις και αρχείο πριν
     και μετά την ημερομηνία.
   guide_cta_heading: 'Ξεκινήστε σήμερα: TOPIC_LOWER.'
-  guide_cta_text: Κατεβάστε την Αντίστροφη Μέτρηση και κρατήστε την επόμενη σημαντική
+  guide_cta_text: Κατεβάστε την εφαρμογή Μετρητές και κρατήστε την επόμενη σημαντική
     ημερομηνία ορατή.
 he:
   menu: תפריט
@@ -4906,11 +4906,11 @@ hu:
   language: Nyelv
   download_badge: Letöltés az App Store-ból
   opening_app: APP_NAME megnyitása…
-  app_description: A Visszaszámlálók segít számolni a fontos pillanatokig hátralévő
+  app_description: A Visszaszámláló segít számolni a fontos pillanatokig hátralévő
     vagy a jelentős dátumok óta eltelt időt iPhone-on, iPaden, Macen és Apple Watchon.
     Születésnapokhoz, ünnepekhez, esküvőkhöz, évfordulókhoz, nyaraláshoz, nyugdíjazáshoz
     és sok máshoz!
-  title_suffix: Visszaszámlálók Apple-eszközökhöz
+  title_suffix: Visszaszámláló Apple-eszközökhöz
   hero_eyebrow: iPhone-ra, iPadre, Macre és Apple Watchra
   hero_lead: Számoljon a következő eseményig vagy egy fontos változás óta. Készítsen
     testreszabható időzítőket születésnapokhoz, ünnepekhez, szokásokhoz, utazásokhoz,
@@ -4982,7 +4982,7 @@ hu:
   - Válassza ki, mikor kér emlékeztetőt a dátum előtt.
   - Őrizze meg a múltbeli visszaszámlálókat a fő lista zsúfolása nélkül.
   pricing_kicker: Kezdje ingyen
-  pricing_heading: Töltse le ingyen a Visszaszámlálók alkalmazást.
+  pricing_heading: Töltse le ingyen a Visszaszámláló alkalmazást.
   pricing_body: Az opcionális havi, éves és egyszeri vásárlások iCloud-szinkronizálást,
     kompakt módot, listákat, irányjelzőket, egyéni hangokat és archívumot nyitnak
     meg.
@@ -4999,7 +4999,7 @@ hu:
   ideas_description: Böngésszen esküvői, születésnapi, nyaralási, ünnepi, évfordulós,
     nyugdíjazási és widgetötleteket.
   ideas_index_heading: Ötletek minden követésre érdemes dátumhoz
-  ideas_index_body: Fedezze fel a Visszaszámlálók használatát ünnepekhez, utazásokhoz,
+  ideas_index_body: Fedezze fel a Visszaszámláló használatát ünnepekhez, utazásokhoz,
     mérföldkövekhez, widgetekhez és mindennapi dátumokhoz.
   browse_all: Összes megtekintése
   choose_type: Kezdésként válasszon visszaszámlálótípust.
@@ -5056,12 +5056,12 @@ hu:
   - Testreszabhatom a visszaszámlálót?
   faq_answers:
   - Igen. Korlátlan visszaszámlálót hozhat létre és listákba rendezheti őket.
-  - Igen. A Visszaszámlálók támogatja a Főképernyő és a zárolási képernyő widgetjeit,
+  - Igen. A Visszaszámláló támogatja a Főképernyő és a zárolási képernyő widgetjeit,
     valamint az Apple Watch-komplikációkat.
   - Igen. Testreszabhatja az egységeket, színeket, ikonokat, listákat, értesítéseket
     és egyebeket.
   guide_body_h2_1: Tartsa szem előtt a fontos dátumot
-  guide_body_p1: A visszaszámláló akkor a leghasznosabb, ha könnyen látható. A Visszaszámlálók
+  guide_body_p1: A visszaszámláló akkor a leghasznosabb, ha könnyen látható. A Visszaszámláló
     alkalmazással a naponta használt képernyőkön követheti a fontos dátumokat.
   guide_body_p2: Készítsen időzítőt a fő dátumhoz, majd adja hozzá a kapcsolódó mérföldköveket,
     emlékeztetőket és tervezési dátumokat.
@@ -5070,7 +5070,7 @@ hu:
     másodperceket. Használjon színeket, ikonokat, listákat, widgeteket, értesítéseket
     és archívumot a dátum előtt és után.
   guide_cta_heading: 'Kezdje el ma: TOPIC_LOWER.'
-  guide_cta_text: Töltse le a Visszaszámlálók alkalmazást, és tartsa szem előtt a
+  guide_cta_text: Töltse le a Visszaszámláló alkalmazást, és tartsa szem előtt a
     következő fontos dátumot.
 id:
   menu: Menu
@@ -5460,10 +5460,10 @@ ro:
   language: Limbă
   download_badge: Descarcă din App Store
   opening_app: Se deschide APP_NAME…
-  app_description: Numărători inverse te ajută să numeri timpul până la momente importante
+  app_description: Numărătoare te ajută să numeri timpul până la momente importante
     sau de la date semnificative pe iPhone, iPad, Mac și Apple Watch. Ideală pentru
     zile de naștere, sărbători, nunți, aniversări, vacanțe, pensionare și multe altele!
-  title_suffix: Numărători inverse pentru dispozitive Apple
+  title_suffix: Numărătoare pentru dispozitive Apple
   hero_eyebrow: Pentru iPhone, iPad, Mac și Apple Watch
   hero_lead: Numără timpul până la ce urmează sau de la o schimbare importantă. Creează
     cronometre personalizabile pentru aniversări, sărbători, obiceiuri, călătorii,
@@ -5533,7 +5533,7 @@ ro:
   - Alege când să primești un mementou înainte să sosească data.
   - Păstrează numărătorile trecute fără să aglomerezi lista principală.
   pricing_kicker: Începe gratuit
-  pricing_heading: Descarcă gratuit Numărători inverse.
+  pricing_heading: Descarcă gratuit Numărătoare.
   pricing_body: Achizițiile opționale lunare, anuale și unice deblochează sincronizarea
     iCloud, modul compact, listele, indicatorii de direcție, sunetele personalizate
     și arhiva.
@@ -5550,7 +5550,7 @@ ro:
   ideas_description: Descoperă idei pentru nunți, zile de naștere, vacanțe, sărbători,
     aniversări, pensionare, widgeturi și altele.
   ideas_index_heading: Idei pentru fiecare dată care merită urmărită
-  ideas_index_body: Descoperă cum să folosești Numărători inverse pentru sărbători,
+  ideas_index_body: Descoperă cum să folosești Numărătoare pentru sărbători,
     călătorii, obiective, vacanțe, widgeturi și date cotidiene.
   browse_all: Vezi tot
   choose_type: Alege un tip de numărătoare pentru a începe.
@@ -5607,12 +5607,12 @@ ro:
   - Pot personaliza numărătoarea?
   faq_answers:
   - Da. Poți crea numărători nelimitate și le poți organiza în liste.
-  - Da. Numărători inverse acceptă widgeturi pe ecranul principal și pe cel blocat,
+  - Da. Numărătoare acceptă widgeturi pe ecranul principal și pe cel blocat,
     precum și complicații Apple Watch.
   - Da. Poți personaliza unitățile, culorile, pictogramele, listele, notificările
     și altele.
   guide_body_h2_1: Păstrează data importantă la vedere
-  guide_body_p1: O numărătoare este mai utilă când o vezi ușor. Cu Numărători inverse,
+  guide_body_p1: O numărătoare este mai utilă când o vezi ușor. Cu Numărătoare,
     urmărești datele importante direct pe ecranele pe care le folosești zilnic.
   guide_body_p2: Creează un cronometru pentru data principală, apoi adaugă obiective,
     mementouri și date de planificare asociate, ca totul să rămână împreună.
@@ -5621,7 +5621,7 @@ ro:
     culori, pictograme, liste, widgeturi, notificări și arhiva înainte și după sosirea
     datei.
   guide_cta_heading: 'Începe azi: TOPIC_LOWER.'
-  guide_cta_text: Descarcă Numărători inverse și păstrează următoarea dată importantă
+  guide_cta_text: Descarcă Numărătoare și păstrează următoarea dată importantă
     la vedere.
 th:
   menu: เมนู

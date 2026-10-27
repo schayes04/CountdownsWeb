@@ -5,10 +5,10 @@ canonical_key: support
 source_version: '2026-09-14'
 permalink: "/ro/support/"
 title: Centru de ajutor
-meta_title: Numărători inverse | Centru de ajutor
-description: Găsește răspunsuri la întrebări frecvente despre Numărători inverse și
+meta_title: Numărătoare | Centru de ajutor
+description: Găsește răspunsuri la întrebări frecvente despre Numărătoare și
   pași de depanare pentru dispozitivele Apple.
-intro: Găsește răspunsuri la întrebări frecvente despre Numărători inverse și pași
+intro: Găsește răspunsuri la întrebări frecvente despre Numărătoare și pași
   de depanare pentru dispozitivele Apple.
 sections:
 - id: icloud-sync
@@ -43,8 +43,8 @@ Dacă numărătorile nu se sincronizează între dispozitive, urmează acești p
 - Atinge numele tău în partea de sus.
 - Verifică dacă este afișat același cont Apple pe care îl folosești pe celelalte dispozitive.
 - Atinge **iCloud**.
-- Găsește **Numărători inverse** în **Salvate în iCloud** (anterior **Aplicații care utilizează iCloud**) și activeaz-o.
-- Verifică dacă **iCloud Drive** este activat și dacă Numărători inverse este activată în lista aplicațiilor care se sincronizează cu iCloud Drive.
+- Găsește **Numărătoare** în **Salvate în iCloud** (anterior **Aplicații care utilizează iCloud**) și activeaz-o.
+- Verifică dacă **iCloud Drive** este activat și dacă Numărătoare este activată în lista aplicațiilor care se sincronizează cu iCloud Drive.
 
 #### Mac
 
@@ -53,8 +53,8 @@ Dacă numărătorile nu se sincronizează între dispozitive, urmează acești p
 - Verifică dacă este afișat același cont Apple pe care îl folosești pe celelalte dispozitive.
 - Fă clic pe **iCloud**.
 - Fă clic pe **Afișează tot** în **Salvate în iCloud** (anterior **Afișează mai multe aplicații** în **Aplicații care utilizează iCloud**).
-- Găsește **Numărători inverse** în listă și activeaz-o.
-- Verifică dacă **iCloud Drive** este activat și dacă Numărători inverse este activată în lista aplicațiilor care se sincronizează cu iCloud Drive.
+- Găsește **Numărătoare** în listă și activeaz-o.
+- Verifică dacă **iCloud Drive** este activat și dacă Numărătoare este activată în lista aplicațiilor care se sincronizează cu iCloud Drive.
 
 ### 2. Verifică spațiul iCloud
 
@@ -62,11 +62,11 @@ Sincronizarea necesită suficient spațiu liber în iCloud. Verifică dacă spa�
 
 ### 3. Actualizează software-ul
 
-Sincronizarea iCloud funcționează cel mai bine cu software actualizat. Instalează cea mai recentă versiune Numărători inverse pe fiecare dispozitiv, precum și actualizările disponibile de iOS, iPadOS și macOS.
+Sincronizarea iCloud funcționează cel mai bine cu software actualizat. Instalează cea mai recentă versiune Numărătoare pe fiecare dispozitiv, precum și actualizările disponibile de iOS, iPadOS și macOS.
 
 ### 4. Repornește dispozitivele
 
-Repornește fiecare dispozitiv afectat, deschide din nou Numărători inverse și așteaptă puțin ca modificările să se sincronizeze.
+Repornește fiecare dispozitiv afectat, deschide din nou Numărătoare și așteaptă puțin ca modificările să se sincronizeze.
 
 ## Sincronizare Apple Watch
 {: #apple-watch-sync}
@@ -79,7 +79,7 @@ Repornește atât iPhone-ul, cât și Apple Watch-ul. De obicei, aceasta rezolv�
 
 ### 2. Actualizează software-ul
 
-Instalează cea mai recentă versiune Numărători inverse și actualizează iOS și watchOS la cele mai recente versiuni disponibile pentru dispozitivele tale.
+Instalează cea mai recentă versiune Numărătoare și actualizează iOS și watchOS la cele mai recente versiuni disponibile pentru dispozitivele tale.
 
 ## Widgeturi
 {: #widgets}
@@ -90,7 +90,7 @@ Instalează cea mai recentă versiune Numărători inverse și actualizează iOS
 - [Schimbarea imaginii de fundal pe iPhone]({% include apple-support-url.html key="iphone_wallpaper" %})
 - [Adăugarea și personalizarea widgeturilor pe Mac]({% include apple-support-url.html key="mac_widgets" %})
 
-Dacă Numărători inverse nu apare în galeria de widgeturi, repornește dispozitivul și deschide aplicația cel puțin o dată.
+Dacă Numărătoare nu apare în galeria de widgeturi, repornește dispozitivul și deschide aplicația cel puțin o dată.
 
 Dacă un widget nu se actualizează, încearcă următoarele:
 
@@ -100,22 +100,22 @@ Repornirea rezolvă de obicei problemele temporare cu widgeturile.
 
 ### 2. Actualizează software-ul
 
-Instalează cea mai recentă versiune Numărători inverse și actualizează iOS, iPadOS sau macOS la cea mai recentă versiune disponibilă.
+Instalează cea mai recentă versiune Numărătoare și actualizează iOS, iPadOS sau macOS la cea mai recentă versiune disponibilă.
 
 ## Partajare familială
 {: #family-sharing}
 
-Numărători inverse acceptă Partajare familială pentru abonamente și achiziții din aplicație. Verifică configurarea partajării achizițiilor în familia Apple și contul Apple folosit de fiecare membru.
+Numărătoare acceptă Partajare familială pentru abonamente și achiziții din aplicație. Verifică configurarea partajării achizițiilor în familia Apple și contul Apple folosit de fiecare membru.
 
 ## Versiuni de sistem acceptate
 {: #supported-os-versions}
 
-Numărători inverse acceptă cel puțin versiunea majoră actuală a sistemului de operare și cele două versiuni majore precedente pe fiecare platformă Apple acceptată.
+Numărătoare acceptă cel puțin versiunea majoră actuală a sistemului de operare și cele două versiuni majore precedente pe fiecare platformă Apple acceptată.
 
 ## Gestionarea sau anularea abonamentelor
 {: #subscriptions}
 
-Pentru a gestiona sau anula abonamentul Numărători inverse, deschide configurările abonamentelor contului Apple. Urmează [instrucțiunile Apple]({% include apple-support-url.html key="subscriptions" %}) pentru anulare.
+Pentru a gestiona sau anula abonamentul Numărătoare, deschide configurările abonamentelor contului Apple. Urmează [instrucțiunile Apple]({% include apple-support-url.html key="subscriptions" %}) pentru anulare.
 
 ## Rambursări
 {: #refunds}

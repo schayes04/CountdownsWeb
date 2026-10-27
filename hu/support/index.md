@@ -5,10 +5,10 @@ canonical_key: support
 source_version: '2026-09-14'
 permalink: "/hu/support/"
 title: Súgóközpont
-meta_title: Visszaszámlálók | Súgóközpont
-description: Válaszok a Visszaszámlálók gyakori kérdéseire és hibaelhárítási lépések
+meta_title: Visszaszámláló | Súgóközpont
+description: Válaszok a Visszaszámláló gyakori kérdéseire és hibaelhárítási lépések
   Apple-eszközökhöz.
-intro: Válaszok a Visszaszámlálók gyakori kérdéseire és hibaelhárítási lépések Apple-eszközökhöz.
+intro: Válaszok a Visszaszámláló gyakori kérdéseire és hibaelhárítási lépések Apple-eszközökhöz.
 sections:
 - id: icloud-sync
   title: iCloud-szinkronizálás
@@ -42,8 +42,8 @@ Ha a visszaszámlálók nem szinkronizálódnak az eszközök között, végezze
 - Koppintson felül a nevére.
 - Ellenőrizze, hogy ugyanazt az Apple-fiókot használja, mint a többi eszközön.
 - Koppintson az **iCloud** lehetőségre.
-- Keresse meg a **Visszaszámlálók** appot az **iCloudba mentve** résznél (korábban **Az iCloudot használó appok**), és engedélyezze.
-- Ellenőrizze, hogy az **iCloud Drive** be van kapcsolva, és a Visszaszámlálók engedélyezett az iCloud Drive-val szinkronizáló appok között.
+- Keresse meg a **Visszaszámláló** appot az **iCloudba mentve** résznél (korábban **Az iCloudot használó appok**), és engedélyezze.
+- Ellenőrizze, hogy az **iCloud Drive** be van kapcsolva, és a Visszaszámláló engedélyezett az iCloud Drive-val szinkronizáló appok között.
 
 #### Mac
 
@@ -52,8 +52,8 @@ Ha a visszaszámlálók nem szinkronizálódnak az eszközök között, végezze
 - Ellenőrizze, hogy ugyanazt az Apple-fiókot használja, mint a többi eszközön.
 - Kattintson az **iCloud** lehetőségre.
 - Kattintson az **Összes megtekintése** gombra az **iCloudba mentve** résznél (korábban **További appok megjelenítése** az **Az iCloudot használó appok** alatt).
-- Keresse meg a **Visszaszámlálók** appot a listában, és engedélyezze.
-- Ellenőrizze, hogy az **iCloud Drive** be van kapcsolva, és a Visszaszámlálók engedélyezett az iCloud Drive-val szinkronizáló appok között.
+- Keresse meg a **Visszaszámláló** appot a listában, és engedélyezze.
+- Ellenőrizze, hogy az **iCloud Drive** be van kapcsolva, és a Visszaszámláló engedélyezett az iCloud Drive-val szinkronizáló appok között.
 
 ### 2. Ellenőrizze az iCloud-tárhelyet
 
@@ -61,11 +61,11 @@ A szinkronizáláshoz elegendő szabad iCloud-tárhely szükséges. Ellenőrizze
 
 ### 3. Frissítse a szoftvert
 
-Az iCloud-szinkronizálás naprakész szoftverrel működik a legjobban. Telepítse minden eszközre a Visszaszámlálók legújabb verzióját, valamint az elérhető iOS-, iPadOS- és macOS-frissítéseket.
+Az iCloud-szinkronizálás naprakész szoftverrel működik a legjobban. Telepítse minden eszközre a Visszaszámláló legújabb verzióját, valamint az elérhető iOS-, iPadOS- és macOS-frissítéseket.
 
 ### 4. Indítsa újra az eszközöket
 
-Indítsa újra az érintett eszközöket, nyissa meg újra a Visszaszámlálók appot, és várjon egy kicsit a szinkronizálásra.
+Indítsa újra az érintett eszközöket, nyissa meg újra a Visszaszámláló appot, és várjon egy kicsit a szinkronizálásra.
 
 ## Apple Watch-szinkronizálás
 {: #apple-watch-sync}
@@ -78,7 +78,7 @@ Indítsa újra az iPhone-t és az Apple Watchot. Ez általában megoldja az átm
 
 ### 2. Frissítse a szoftvert
 
-Telepítse a Visszaszámlálók legújabb verzióját, és frissítse az iOS-t és a watchOS-t az eszközökhöz elérhető legújabb verzióra.
+Telepítse a Visszaszámláló legújabb verzióját, és frissítse az iOS-t és a watchOS-t az eszközökhöz elérhető legújabb verzióra.
 
 ## Widgetek
 {: #widgets}
@@ -89,7 +89,7 @@ Telepítse a Visszaszámlálók legújabb verzióját, és frissítse az iOS-t �
 - [Az iPhone háttérképének módosítása]({% include apple-support-url.html key="iphone_wallpaper" %})
 - [Widgetek hozzáadása és testreszabása Macen]({% include apple-support-url.html key="mac_widgets" %})
 
-Ha a Visszaszámlálók nem jelenik meg a widgetgalériában, indítsa újra az eszközt, és legalább egyszer nyissa meg az appot.
+Ha a Visszaszámláló nem jelenik meg a widgetgalériában, indítsa újra az eszközt, és legalább egyszer nyissa meg az appot.
 
 Ha egy widget nem frissül, próbálja ki az alábbiakat:
 
@@ -99,22 +99,22 @@ Az újraindítás általában megoldja az átmeneti widgetproblémákat.
 
 ### 2. Frissítse a szoftvert
 
-Telepítse a Visszaszámlálók legújabb verzióját, és frissítse az iOS-t, iPadOS-t vagy macOS-t a legújabb elérhető verzióra.
+Telepítse a Visszaszámláló legújabb verzióját, és frissítse az iOS-t, iPadOS-t vagy macOS-t a legújabb elérhető verzióra.
 
 ## Családi megosztás
 {: #family-sharing}
 
-A Visszaszámlálók támogatja a Családi megosztást az előfizetéseknél és az appon belüli vásárlásoknál. Ellenőrizze a vásárlások megosztását az Apple-családi csoportban és minden családtag Apple-fiókját.
+A Visszaszámláló támogatja a Családi megosztást az előfizetéseknél és az appon belüli vásárlásoknál. Ellenőrizze a vásárlások megosztását az Apple-családi csoportban és minden családtag Apple-fiókját.
 
 ## Támogatott rendszerverziók
 {: #supported-os-versions}
 
-A Visszaszámlálók minden támogatott Apple-platformon legalább az aktuális fő rendszerverziót és az azt megelőző két fő verziót támogatja.
+A Visszaszámláló minden támogatott Apple-platformon legalább az aktuális fő rendszerverziót és az azt megelőző két fő verziót támogatja.
 
 ## Előfizetések kezelése vagy lemondása
 {: #subscriptions}
 
-A Visszaszámlálók előfizetésének kezeléséhez vagy lemondásához nyissa meg Apple-fiókja előfizetési beállításait. Kövesse az [Apple útmutatóját]({% include apple-support-url.html key="subscriptions" %}) a lemondáshoz.
+A Visszaszámláló előfizetésének kezeléséhez vagy lemondásához nyissa meg Apple-fiókja előfizetési beállításait. Kövesse az [Apple útmutatóját]({% include apple-support-url.html key="subscriptions" %}) a lemondáshoz.
 
 ## Visszatérítések
 {: #refunds}

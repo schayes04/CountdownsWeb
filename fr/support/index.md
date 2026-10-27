@@ -4,9 +4,9 @@ locale: fr
 canonical_key: support
 permalink: /fr/support/
 title: Centre d’assistance
-meta_title: "Centre d’assistance Compte à rebours | Aide iCloud, widgets et Apple Watch"
-description: "Obtenez de l’aide concernant la synchronisation iCloud et Apple Watch de Compte à rebours, les widgets, le partage familial, les versions de systèmes d’exploitation prises en charge, les remboursements, et plus encore."
-intro: "Trouvez les réponses aux questions fréquentes sur Compte à rebours et suivez les étapes de dépannage pour vos appareils Apple."
+meta_title: "Centre d’assistance Décomptes | Aide iCloud, widgets et Apple Watch"
+description: "Obtenez de l’aide concernant la synchronisation iCloud et Apple Watch de Décomptes, les widgets, le partage familial, les versions de systèmes d’exploitation prises en charge, les remboursements, et plus encore."
+intro: "Trouvez les réponses aux questions fréquentes sur Décomptes et suivez les étapes de dépannage pour vos appareils Apple."
 source_version: '2026-09-14'
 sections:
   - id: icloud-sync
@@ -40,8 +40,8 @@ Si vos comptes à rebours ne se synchronisent pas entre vos appareils, suivez ce
 - Touchez votre nom en haut de l’écran.
 - Assurez-vous que le compte Apple affiché est celui que vous utilisez sur vos autres appareils.
 - Touchez **iCloud**.
-- Recherchez **Compte à rebours** dans **Enregistré dans iCloud** (anciennement **Apps utilisant iCloud**) et assurez-vous que l’option est activée.
-- Assurez-vous que **iCloud Drive** est activé et que Compte à rebours est activé sous **Apps synchronisées avec iCloud Drive**.
+- Recherchez **Décomptes** dans **Enregistré dans iCloud** (anciennement **Apps utilisant iCloud**) et assurez-vous que l’option est activée.
+- Assurez-vous que **iCloud Drive** est activé et que Décomptes est activé sous **Apps synchronisées avec iCloud Drive**.
 
 #### Mac
 
@@ -50,8 +50,8 @@ Si vos comptes à rebours ne se synchronisent pas entre vos appareils, suivez ce
 - Assurez-vous que le compte Apple affiché est celui que vous utilisez sur vos autres appareils.
 - Cliquez sur **iCloud**.
 - Cliquez sur **Tout afficher** sous **Enregistré dans iCloud** (anciennement **Afficher plus d’apps** sous **Apps utilisant iCloud**).
-- Recherchez **Compte à rebours** dans la liste et assurez-vous que l’option est activée.
-- Assurez-vous que **iCloud Drive** est activé et que Compte à rebours est activé sous **Apps synchronisées avec iCloud Drive**.
+- Recherchez **Décomptes** dans la liste et assurez-vous que l’option est activée.
+- Assurez-vous que **iCloud Drive** est activé et que Décomptes est activé sous **Apps synchronisées avec iCloud Drive**.
 
 ### 2. Vérifiez votre espace de stockage iCloud
 
@@ -59,11 +59,11 @@ La synchronisation nécessite suffisamment d’espace de stockage iCloud disponi
 
 ### 3. Mettez à jour vos logiciels
 
-La synchronisation iCloud fonctionne mieux avec des logiciels à jour. Installez la dernière version de Compte à rebours sur chaque appareil, ainsi que les dernières versions disponibles d’iOS, d’iPadOS et de macOS.
+La synchronisation iCloud fonctionne mieux avec des logiciels à jour. Installez la dernière version de Décomptes sur chaque appareil, ainsi que les dernières versions disponibles d’iOS, d’iPadOS et de macOS.
 
 ### 4. Redémarrez vos appareils
 
-Redémarrez chaque appareil concerné, puis ouvrez à nouveau Compte à rebours et laissez un peu de temps aux modifications pour se synchroniser.
+Redémarrez chaque appareil concerné, puis ouvrez à nouveau Décomptes et laissez un peu de temps aux modifications pour se synchroniser.
 
 ## Synchronisation Apple Watch
 {: #apple-watch-sync}
@@ -76,7 +76,7 @@ Redémarrez votre iPhone et votre Apple Watch. Cela résout généralement les p
 
 ### 2. Mettez à jour vos logiciels
 
-Installez la dernière version de Compte à rebours et mettez à jour iOS et watchOS vers les dernières versions disponibles pour vos appareils.
+Installez la dernière version de Décomptes et mettez à jour iOS et watchOS vers les dernières versions disponibles pour vos appareils.
 
 ## Widgets
 {: #widgets}
@@ -87,7 +87,7 @@ Installez la dernière version de Compte à rebours et mettez à jour iOS et wat
 - [Modifier le fond d’écran de votre iPhone]({% include apple-support-url.html key="iphone_wallpaper" %})
 - [Ajouter et personnaliser des widgets sur Mac]({% include apple-support-url.html key="mac_widgets" %})
 
-Si Compte à rebours n’apparaît pas dans la galerie de widgets, redémarrez votre appareil et assurez-vous d’avoir ouvert l’app au moins une fois.
+Si Décomptes n’apparaît pas dans la galerie de widgets, redémarrez votre appareil et assurez-vous d’avoir ouvert l’app au moins une fois.
 
 Si un widget ne se met pas à jour, essayez ce qui suit :
 
@@ -97,22 +97,22 @@ Redémarrer votre appareil résout généralement les problèmes temporaires li�
 
 ### 2. Mettez à jour vos logiciels
 
-Installez la dernière version de Compte à rebours et mettez à jour iOS, iPadOS ou macOS vers la dernière version disponible pour votre appareil.
+Installez la dernière version de Décomptes et mettez à jour iOS, iPadOS ou macOS vers la dernière version disponible pour votre appareil.
 
 ## Partage familial
 {: #family-sharing}
 
-Compte à rebours prend en charge le partage familial pour les abonnements et les achats intégrés. Assurez-vous que le partage des achats est configuré pour votre groupe familial Apple et que chaque membre de la famille est connecté avec le bon compte Apple.
+Décomptes prend en charge le partage familial pour les abonnements et les achats intégrés. Assurez-vous que le partage des achats est configuré pour votre groupe familial Apple et que chaque membre de la famille est connecté avec le bon compte Apple.
 
 ## Versions des OS prises en charge
 {: #supported-os-versions}
 
-Compte à rebours prend en charge au minimum la version majeure actuelle du système d’exploitation et les deux versions majeures précédentes sur chaque plateforme Apple prise en charge.
+Décomptes prend en charge au minimum la version majeure actuelle du système d’exploitation et les deux versions majeures précédentes sur chaque plateforme Apple prise en charge.
 
 ## Gérer ou résilier des abonnements
 {: #subscriptions}
 
-Pour gérer ou résilier votre abonnement à Compte à rebours, ouvrez les réglages des abonnements de votre compte Apple. Pour connaître les étapes de résiliation, suivez [les instructions d’Apple]({% include apple-support-url.html key="subscriptions" %}).
+Pour gérer ou résilier votre abonnement à Décomptes, ouvrez les réglages des abonnements de votre compte Apple. Pour connaître les étapes de résiliation, suivez [les instructions d’Apple]({% include apple-support-url.html key="subscriptions" %}).
 
 ## Remboursements
 {: #refunds}

@@ -93,9 +93,9 @@ alts:
   en-AU:
     desktop: "The Countdowns app on a Mac desktop, next to custom widgets counting down to a beach trip, Mum's birthday and a wedding."
   ar:
-    desktop: "تطبيق العدادات التنازلية على سطح مكتب Mac، بجانب أدوات مخصصة تعدّ تنازليًا لرحلة إلى الشاطئ وعيد ميلاد الأم وحفل زواج."
+    desktop: "تطبيق العد التنازلي على سطح مكتب Mac، بجانب أدوات مخصصة تعدّ تنازليًا لرحلة إلى الشاطئ وعيد ميلاد الأم وحفل زواج."
   ca:
-    desktop: "L'app Comptes Enrere a l'escriptori d'un Mac, al costat de ginys personalitzats amb el compte enrere d'un viatge a la platja, l'aniversari de la mare i un casament."
+    desktop: "L'app Compte enrere a l'escriptori d'un Mac, al costat de ginys personalitzats amb el compte enrere d'un viatge a la platja, l'aniversari de la mare i un casament."
   cs:
     desktop: "Aplikace Odpočty na ploše Macu vedle vlastních widgetů s odpočtem do výletu k moři, maminčiných narozenin a svatby."
   da:
@@ -103,7 +103,7 @@ alts:
   de:
     desktop: "Die Countdowns-App auf einem Mac-Schreibtisch neben eigenen Widgets mit Countdowns zum Strandurlaub, zu Mamas Geburtstag und zu einer Hochzeit."
   el:
-    desktop: "Η εφαρμογή Αντίστροφη Μέτρηση στην επιφάνεια εργασίας ενός Mac, δίπλα σε προσαρμοσμένα widget με αντίστροφη μέτρηση για εκδρομή στην παραλία, τα γενέθλια της μαμάς και έναν γάμο."
+    desktop: "Η εφαρμογή Μετρητές στην επιφάνεια εργασίας ενός Mac, δίπλα σε προσαρμοσμένα widget με αντίστροφη μέτρηση για εκδρομή στην παραλία, τα γενέθλια της μαμάς και έναν γάμο."
   es:
     desktop: "La app Cuentas atrás en el escritorio de un Mac, junto a widgets personalizados con la cuenta atrás de un viaje a la playa, el cumpleaños de mamá y una boda."
   es-MX:
@@ -113,13 +113,13 @@ alts:
   fil:
     desktop: "Ang Bilang Paurong app sa desktop ng Mac, katabi ng mga custom na widget na nagbibilang pababa sa beach trip, kaarawan ni Nanay, at isang kasal."
   fr:
-    desktop: "L'app Compte à rebours sur le bureau d'un Mac, à côté de widgets personnalisés qui décomptent les jours jusqu'à un voyage à la plage, l'anniversaire de maman et un mariage."
+    desktop: "L'app Décomptes sur le bureau d'un Mac, à côté de widgets personnalisés qui décomptent les jours jusqu'à un voyage à la plage, l'anniversaire de maman et un mariage."
   he:
     desktop: "האפליקציה ספירה לאחור בשולחן העבודה של Mac, לצד ווידג׳טים מותאמים אישית שסופרים לאחור לטיול לחוף, ליום ההולדת של אמא ולחתונה."
   hi:
     desktop: "Mac डेस्कटॉप पर काउंटडाउन ऐप, साथ में कस्टम विजेट जो बीच ट्रिप, माँ के जन्मदिन और एक शादी तक की उलटी गिनती दिखाते हैं।"
   hu:
-    desktop: "A Visszaszámlálók app egy Mac asztalán, mellette egyéni widgetek, amelyek egy tengerparti útig, anya születésnapjáig és egy esküvőig számolnak vissza."
+    desktop: "A Visszaszámláló app egy Mac asztalán, mellette egyéni widgetek, amelyek egy tengerparti útig, anya születésnapjáig és egy esküvőig számolnak vissza."
   id:
     desktop: "Aplikasi Hitung Mundur di desktop Mac, di samping widget kustom yang menghitung mundur ke liburan pantai, ulang tahun Ibu, dan pernikahan."
   it:
@@ -141,7 +141,7 @@ alts:
   pt-BR:
     desktop: "O app Contagens na mesa de um Mac, ao lado de widgets personalizados com a contagem regressiva para uma viagem à praia, o aniversário da mãe e um casamento."
   ro:
-    desktop: "Aplicația Numărători inverse pe desktopul unui Mac, lângă widgeturi personalizate care numără invers până la o excursie la plajă, ziua mamei și o nuntă."
+    desktop: "Aplicația Numărătoare pe desktopul unui Mac, lângă widgeturi personalizate care numără invers până la o excursie la plajă, ziua mamei și o nuntă."
   ru:
     desktop: "Приложение «Таймеры» на рабочем столе Mac рядом с собственными виджетами с обратным отсчетом до поездки на пляж, дня рождения мамы и свадьбы."
   sk:

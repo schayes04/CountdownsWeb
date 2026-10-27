@@ -10,9 +10,9 @@ require 'yaml'
 class AppNameValidator
   # Native CFBundleDisplayName baseline; update together with locales.yml.
   EXPECTED = {
-    'en' => 'Countdowns', 'en-CA' => 'Countdowns', 'en-GB' => 'Countdowns', 'en-AU' => 'Countdowns', 'ar' => 'العدادات التنازلية', 'ca' => 'Comptes Enrere',
+    'en' => 'Countdowns', 'en-CA' => 'Countdowns', 'en-GB' => 'Countdowns', 'en-AU' => 'Countdowns', 'ar' => 'العد التنازلي', 'ca' => 'Compte enrere',
     'da' => 'Nedtællinger', 'de' => 'Countdowns', 'es' => 'Cuentas atrás', 'es-MX' => 'Contadores',
-    'fi' => 'Laskurit', 'fr' => 'Compte à rebours', 'hi' => 'काउंटडाउन', 'it' => 'Contatore',
+    'fi' => 'Laskurit', 'fr' => 'Décomptes', 'hi' => 'काउंटडाउन', 'it' => 'Contatore',
     'ja' => 'カウントダウン', 'ko' => '카운트다운', 'nb' => 'Nedtellinger',
     'nl' => 'Aftellingen', 'pl' => 'Odliczanie', 'pt' => 'Contagem',
     'pt-BR' => 'Contagens', 'ru' => 'Таймеры', 'sk' => 'Odpočty',
@@ -20,12 +20,12 @@ class AppNameValidator
     'zh-Hant' => '倒數日',
     'cs' => 'Odpočty',
     'fil' => 'Bilang Paurong',
-    'el' => 'Αντίστροφη Μέτρηση',
+    'el' => 'Μετρητές',
     'he' => 'ספירה לאחור',
-    'hu' => 'Visszaszámlálók',
+    'hu' => 'Visszaszámláló',
     'id' => 'Hitung Mundur',
     'ms' => 'Kiraan Detik',
-    'ro' => 'Numărători inverse',
+    'ro' => 'Numărătoare',
     'th' => 'นับถอยหลัง',
     'vi' => 'Đếm ngược',
     'uk' => 'Відліки'

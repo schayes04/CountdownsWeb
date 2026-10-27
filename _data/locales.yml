@@ -40,14 +40,14 @@
   folder: ar
   name: Arabic
   native_name: العربية
-  app_name: العدادات التنازلية
+  app_name: العد التنازلي
   html_lang: ar
   dir: rtl
 - code: ca
   folder: ca
   name: Catalan
   native_name: Català
-  app_name: Comptes Enrere
+  app_name: Compte enrere
   html_lang: ca
   dir: ltr
 - code: cs
@@ -75,7 +75,7 @@
   folder: el
   name: Greek
   native_name: Ελληνικά
-  app_name: Αντίστροφη Μέτρηση
+  app_name: Μετρητές
   html_lang: el
   dir: ltr
 - code: es
@@ -112,7 +112,7 @@
   folder: fr
   name: French
   native_name: Français
-  app_name: Compte à rebours
+  app_name: Décomptes
   html_lang: fr
   dir: ltr
 - code: he
@@ -133,7 +133,7 @@
   folder: hu
   name: Hungarian
   native_name: Magyar
-  app_name: Visszaszámlálók
+  app_name: Visszaszámláló
   html_lang: hu
   dir: ltr
 - code: id
@@ -210,7 +210,7 @@
   folder: ro
   name: Romanian
   native_name: Română
-  app_name: Numărători inverse
+  app_name: Numărătoare
   html_lang: ro
   dir: ltr
 - code: ru
