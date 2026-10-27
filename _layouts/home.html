@@ -43,7 +43,7 @@ layout: default
 
 		<div class="hero__visual" aria-label="{{ t.home_widgets_preview_label | replace: 'APP_NAME', app_name | escape }}">
 			{% include screenshot.html scene="colors" locale=current_locale class="hero__phone hero__phone--secondary" decorative=true size_role="secondary" %}
-			{% include screenshot.html scene="home-screen-widgets" locale=current_locale class="hero__phone hero__phone--primary" loading="eager" size_role="primary" %}
+			{% include screenshot.html scene="home-screen-custom-widgets" locale=current_locale class="hero__phone hero__phone--primary" loading="eager" size_role="primary" %}
 		</div>
 	</div>
 </section>
@@ -72,7 +72,7 @@ layout: default
 		</div>
 		<div class="screenshot-pair">
 			{% include screenshot.html scene="lock-screen-widgets" locale=current_locale size_role="pair" %}
-			{% include screenshot.html scene="home-screen-custom-widgets" locale=current_locale size_role="pair" %}
+			{% include screenshot.html scene="home-screen-widgets" locale=current_locale size_role="pair" %}
 		</div>
 	</div>
 </section>

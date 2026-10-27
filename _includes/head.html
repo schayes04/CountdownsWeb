@@ -80,7 +80,7 @@
 	{% endif %}
 
 	{% if page.layout == "home" %}
-		{% assign home_screenshot = site.data.screenshots.locales[current_locale]["home-screen-widgets"] %}
+		{% assign home_screenshot = site.data.screenshots.locales[current_locale]["home-screen-custom-widgets"] %}
 		<link rel="preload" as="image" type="image/webp" href="{{ site.data.responsive_images.screenshots[home_screenshot].variants[1].path | relative_url }}" imagesrcset="{% include screenshot-srcset.html path=home_screenshot %}" imagesizes="{% include screenshot-sizes.html role='primary' %}" fetchpriority="high">
 	{% endif %}
 	<link rel="stylesheet" href="{{ '/main.css' | relative_url }}">

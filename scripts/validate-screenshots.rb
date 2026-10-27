@@ -22,7 +22,7 @@ class ScreenshotValidator
     'lock-screen-countdown-widget' => 'lock-screen-widgets',
     'mac-countdown-widget' => 'home-screen-widgets'
   ).freeze
-  HOME_SCENES = %w[colors home-screen-widgets lock-screen-widgets home-screen-custom-widgets editing settings widget-editor normal-display].freeze
+  HOME_SCENES = %w[colors home-screen-custom-widgets lock-screen-widgets home-screen-widgets editing settings widget-editor normal-display].freeze
   REGIONAL_UPDATES = {
     'en-CA' => %w[editing settings event-countdown-app home-screen-custom-widgets widget-editor],
     'en-GB' => %w[editing settings event-countdown-app normal-display compact-display colors home-screen-widgets vacation-countdown-app lock-screen-widgets christmas-countdown-app
@@ -366,7 +366,7 @@ class ScreenshotValidator
       preload['imagesrcset'].to_s.split(',').each { |candidate| validate_reference(candidate.strip.split.first, route, locale) }
     end
     if home
-      path = @baseurl + derivatives(expected_path(locale, 'home-screen-widgets'))[1].fetch('path')
+      path = @baseurl + derivatives(expected_path(locale, 'home-screen-custom-widgets'))[1].fetch('path')
       check(:routes, preloads.size == 1 && preloads.first['href'] == path, "#{route}: preload must match the localized primary hero #{path}")
       hero_source = frames[1]&.at_css('picture > source')
       check(:routes, preloads.first && hero_source && preloads.first['type'] == 'image/webp' && preloads.first['imagesrcset'] == hero_source['srcset'] && preloads.first['imagesizes'] == hero_source['sizes'], "#{route}: preload must match hero type, srcset and sizes")
