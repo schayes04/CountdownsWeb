@@ -15,21 +15,23 @@ class ScreenshotValidator
     theme-park-trip-countdown-app birthday-countdown-app holiday-countdown-app
     retirement-countdown-app pregnancy-countdown-app event-countdown-app christmas-countdown-app
   ].freeze
-  SCENES = (%w[normal-display compact-display colors editing settings home-screen-widgets lock-screen-widgets] + EVENT_SCENES).freeze
+  SCENES = (%w[normal-display compact-display colors editing settings home-screen-widgets lock-screen-widgets
+              home-screen-custom-widgets widget-editor] + EVENT_SCENES).freeze
   GUIDES = EVENT_SCENES.to_h { |scene| [scene, scene] }.merge(
-    'iphone-countdown-widget' => 'home-screen-widgets',
+    'iphone-countdown-widget' => 'home-screen-custom-widgets',
     'lock-screen-countdown-widget' => 'lock-screen-widgets',
     'mac-countdown-widget' => 'home-screen-widgets'
   ).freeze
-  HOME_SCENES = %w[colors home-screen-widgets lock-screen-widgets home-screen-widgets editing settings compact-display normal-display].freeze
+  HOME_SCENES = %w[colors home-screen-widgets lock-screen-widgets home-screen-custom-widgets editing settings widget-editor normal-display].freeze
   REGIONAL_UPDATES = {
-    'en-CA' => %w[editing settings event-countdown-app],
-    'en-GB' => %w[editing settings event-countdown-app normal-display compact-display colors home-screen-widgets vacation-countdown-app lock-screen-widgets christmas-countdown-app],
-    'en-AU' => %w[editing settings event-countdown-app normal-display compact-display colors home-screen-widgets vacation-countdown-app lock-screen-widgets christmas-countdown-app]
+    'en-CA' => %w[editing settings event-countdown-app home-screen-custom-widgets widget-editor],
+    'en-GB' => %w[editing settings event-countdown-app normal-display compact-display colors home-screen-widgets vacation-countdown-app lock-screen-widgets christmas-countdown-app
+                 home-screen-custom-widgets widget-editor],
+    'en-AU' => %w[editing settings event-countdown-app normal-display compact-display colors home-screen-widgets vacation-countdown-app lock-screen-widgets christmas-countdown-app
+                 home-screen-custom-widgets widget-editor]
   }.freeze
   # Locales that show another locale's native captures until their own exist.
-  # Spanish (Mexico) uses the Spanish set until the 12.3 capture adds es-MX.
-  BORROWED_SCREENSHOTS = { 'es-MX' => 'es' }.freeze
+  BORROWED_SCREENSHOTS = {}.freeze
   # Native Mac Catalyst captures replace the phone hero on these guides where a
   # locale has one (_data/mac_screenshots.yml); other locales keep the phone frame.
   MAC_GUIDES = { 'mac-countdown-widget' => 'desktop' }.freeze
@@ -92,7 +94,7 @@ class ScreenshotValidator
     @locales.each do |locale|
       code = locale['code']
       entries = mapping(manifest_locales[code])
-      check(:manifest, entries.keys.sort == SCENES.sort, "#{code}: expected exactly 17 scene keys")
+      check(:manifest, entries.keys.sort == SCENES.sort, "#{code}: expected exactly 19 scene keys")
       SCENES.each do |scene|
         @counts[:sources] += 1
         path = expected_path(locale, scene)
@@ -377,7 +379,7 @@ class ScreenshotValidator
     @locales.each do |locale|
       ['', 'countdown-ideas', *GUIDES.keys].each { |slug| validate_route(locale, slug) }
     end
-    check(:manifest, @counts[:sources] == 646 && @counts[:alts] == 646, 'Expected 646 source paths and localized alts')
+    check(:manifest, @counts[:sources] == 722 && @counts[:alts] == 722, 'Expected 722 source paths and localized alts')
     check(:routes, @counts[:routes] == 570, 'Expected 570 routes')
     puts "Checked #{@counts[:sources]} source PNG paths, #{@counts[:alts]} localized alts, " \
          "#{@counts[:html]}/#{@counts[:routes]} built routes, #{@counts[:references]} image/preload references."

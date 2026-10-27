@@ -1,0 +1,78 @@
+--- a/tools/screenshots/generate-fixtures.py
++++ b/tools/screenshots/generate-fixtures.py
+@@ -17,13 +17,13 @@
+ 
+ 
+ SCRIPT_DIR = Path(__file__).resolve().parent
+-REPO_DIR = SCRIPT_DIR.parents[1]
++REPO_DIR = SCRIPT_DIR  # local copy: _data/screenshots.yml sits beside this script
+ APPLE_LOCALES = {
+     "en-CA": "en_CA", "en-GB": "en_GB", "en-AU": "en_AU",
+     "cs": "cs_CZ", "fil": "fil_PH", "el": "el_GR", "he": "he_IL", "hu": "hu_HU",
+     "id": "id_ID", "ms": "ms_MY", "ro": "ro_RO", "th": "th_TH", "vi": "vi_VN", "uk": "uk_UA",
+     "en": "en_US", "ar": "ar_SA@calendar=gregorian", "ca": "ca_ES", "da": "da_DK",
+-    "de": "de_DE", "es": "es_ES", "fi": "fi_FI", "fr": "fr_FR", "hi": "hi_IN",
++    "de": "de_DE", "es": "es_ES", "es-MX": "es_MX", "fi": "fi_FI", "fr": "fr_FR", "hi": "hi_IN",
+     "it": "it_IT", "ja": "ja_JP", "ko": "ko_KR", "nb": "nb_NO",
+     "nl": "nl_NL", "pl": "pl_PL", "pt": "pt_PT", "pt-BR": "pt_BR",
+     "ru": "ru_RU", "sk": "sk_SK", "sv": "sv_SE", "tr": "tr_TR",
+@@ -141,7 +141,8 @@
+             raise ValueError(f"Duplicate manifest scene: {locale}/{scene}")
+         entries[locale][scene] = json.loads(encoded_path)
+ 
+-    require_keys(entries, APPLE_LOCALES, "Manifest locales")
++    # es-MX is not on the site yet; check the locales it does list.
++    require_keys(entries, set(APPLE_LOCALES) - {"es-MX"}, "Manifest locales")
+     if len(SCENES) != 17 or len(set(SCENES)) != 17:
+         raise ValueError("Expected exactly 17 unique generator scenes")
+     for code, scenes in entries.items():
+--- a/tools/screenshots/capture-app.py
++++ b/tools/screenshots/capture-app.py
+@@ -44,7 +44,7 @@
+     expected = {
+         "scene": fixture["scene"], "requestedLocale": fixture["locale"],
+         "screen": fixture["screen"], "isLifetimeUser": True, "isProUser": True,
+-        "appVersion": "12.2.2", "theme": "light",
++        "appVersion": "12.3.0", "theme": "light",
+         "currentLocaleIdentifier": apple_locale,
+     }
+     for key, value in expected.items():
+--- a/tools/screenshots/fixtures/localizations.json
++++ b/tools/screenshots/fixtures/localizations.json
+@@ -1071,5 +1071,34 @@
+     "babyShower": "Baby Shower",
+     "summerParty": "Summer Party",
+     "concert": "Concert Night"
++  },
++  "es-MX": {
++    "birthday": "Cumpleaños",
++    "vacation": "Vacaciones",
++    "ourWedding": "Nuestra boda",
++    "holidays": "Días festivos",
++    "milestones": "Hitos",
++    "halloween": "Halloween",
++    "christmas": "Navidad",
++    "togetherSince": "Juntos desde",
++    "anniversary": "Nuestro aniversario",
++    "honeymoon": "Luna de miel",
++    "weddingDay": "Día de la boda",
++    "packing": "Hacer las maletas",
++    "flight": "Nuestro vuelo",
++    "themePark": "Viaje al parque de diversiones",
++    "parkDay": "Día en el parque",
++    "tickets": "Boletos listos",
++    "birthdayParty": "Fiesta de cumpleaños",
++    "celebrate": "Hora de celebrar",
++    "newYear": "Año Nuevo",
++    "retirement": "Jubilación",
++    "lastWorkday": "Último día de trabajo",
++    "newChapter": "Una nueva etapa",
++    "babyArrival": "Llega el bebé",
++    "nextScan": "Próximo ultrasonido",
++    "babyShower": "Baby shower",
++    "summerParty": "Fiesta de verano",
++    "concert": "Noche de concierto"
+   }
+-}
++}
+\ No newline at end of file

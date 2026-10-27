@@ -1,0 +1,1028 @@
+[
+  {
+    "code": "ar",
+    "scene": "anniversary-countdown-app",
+    "sha256": "8f2cbabda3dd6d31a7dfb07639eb782915f9fd30fd01f5b319329ff407fbff4e",
+    "bytes": 1982276
+  },
+  {
+    "code": "ar",
+    "scene": "birthday-countdown-app",
+    "sha256": "0332a6e7bc84e3f7b55f4129da8c3805e2c1fa75d4cf455e593521f50b62b326",
+    "bytes": 198360
+  },
+  {
+    "code": "ar",
+    "scene": "colors",
+    "sha256": "5c1f2f3bf750375541303fcaa87e59f0921c9755fa62379f63921212ecfdc5f0",
+    "bytes": 250317
+  },
+  {
+    "code": "ar",
+    "scene": "compact-display",
+    "sha256": "75f39ee5fc02a4f774275222762b6e1daba7649f33234246d8e373ead2be5b97",
+    "bytes": 243799
+  },
+  {
+    "code": "ar",
+    "scene": "holiday-countdown-app",
+    "sha256": "bd098ab95e7f10846956bf0db43967b974d9fd1edbe8cb01f3342ae59eb9b52f",
+    "bytes": 184044
+  },
+  {
+    "code": "ar",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "3d6f301517adfaced36b4ff5cef6b480caa34fa28bb3ca6810a9ce44c3575cd8",
+    "bytes": 4066704
+  },
+  {
+    "code": "ar",
+    "scene": "home-screen-widgets",
+    "sha256": "6669e611dd2b849c820a4c136efb50a01e81df4172e55ae8c86f60b24a0130bc",
+    "bytes": 2006164
+  },
+  {
+    "code": "ar",
+    "scene": "normal-display",
+    "sha256": "75a4a366438c2a17ba12804e4d72ddd61f57dcda704e9e1362b900c84151c3a6",
+    "bytes": 207945
+  },
+  {
+    "code": "ar",
+    "scene": "pregnancy-countdown-app",
+    "sha256": "6c6dc573c15a8f472641e521181b5199acb1df1335adc0d78f309c922c6719c9",
+    "bytes": 202423
+  },
+  {
+    "code": "ar",
+    "scene": "retirement-countdown-app",
+    "sha256": "b710de9cad63cdddf80225d045c559e6fb2af076a48291d9d298e7b763211807",
+    "bytes": 215229
+  },
+  {
+    "code": "ar",
+    "scene": "settings",
+    "sha256": "9068c255110687d8aac91b5f0a042a38dd498cb7ea26e4eb6612474fec871b7b",
+    "bytes": 279667
+  },
+  {
+    "code": "ar",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "c0956da4a22bd82afdc24507b4fdc3825a5ccf5e5517cabf5776de4fc12cc581",
+    "bytes": 1990356
+  },
+  {
+    "code": "ar",
+    "scene": "vacation-countdown-app",
+    "sha256": "6f807cd7f9729ebb4b448dafa439556f8be39693ccd6dbe949ebabd1ce06614f",
+    "bytes": 1973840
+  },
+  {
+    "code": "ar",
+    "scene": "wedding-countdown-app",
+    "sha256": "76e8fafb9fda48dd9e29220cf279f58d90819df61a6f64ae36bad61bd14cb5aa",
+    "bytes": 1960895
+  },
+  {
+    "code": "ar",
+    "scene": "widget-editor",
+    "sha256": "e350f31421735266054ba4f06f7225c5179971a4c9baeef78311b1f8cb43d852",
+    "bytes": 1401080
+  },
+  {
+    "code": "ca",
+    "scene": "anniversary-countdown-app",
+    "sha256": "b3b615caa2693cf84547dbb62c50f265078f25bef8b274c6836f23461602f2fd",
+    "bytes": 1995718
+  },
+  {
+    "code": "ca",
+    "scene": "birthday-countdown-app",
+    "sha256": "ffa070c4662a03733829333937894e76e02f7508c70f6444bf43d0372144609a",
+    "bytes": 202971
+  },
+  {
+    "code": "ca",
+    "scene": "colors",
+    "sha256": "14f27affabf1b5638abd165831c3d15412dbe28ebab87631c187094389ef59a0",
+    "bytes": 264171
+  },
+  {
+    "code": "ca",
+    "scene": "compact-display",
+    "sha256": "aced31a2ff1a0a4c837fad66da7d18bd31560d61125ee5c9bf83658936ac50ae",
+    "bytes": 260184
+  },
+  {
+    "code": "ca",
+    "scene": "holiday-countdown-app",
+    "sha256": "371a939bf00bdd568dabc25ded8fe7136d1029c3a6f244895a619c586b1fc348",
+    "bytes": 186298
+  },
+  {
+    "code": "ca",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "2ab9dc820ec7de4b3e257d364627b36518d1f68735fc33049676f3d61f7a3395",
+    "bytes": 4069914
+  },
+  {
+    "code": "ca",
+    "scene": "home-screen-widgets",
+    "sha256": "c4c181b70dc25acc032c6871d0c99b853dc518717da897be8e41df842049f456",
+    "bytes": 2040537
+  },
+  {
+    "code": "ca",
+    "scene": "normal-display",
+    "sha256": "19808e915c5ac414be655dcebf36205173e29e9c26d41fde53b0a8898611011a",
+    "bytes": 227838
+  },
+  {
+    "code": "ca",
+    "scene": "pregnancy-countdown-app",
+    "sha256": "c1fc8c25b6de650a432f871d20055045f361318f2cda70b62488809844220e4b",
+    "bytes": 206043
+  },
+  {
+    "code": "ca",
+    "scene": "retirement-countdown-app",
+    "sha256": "a6900be3e7e58d3fd5d149876fae43375a4b024180a0c733e8f2b200a1851710",
+    "bytes": 223269
+  },
+  {
+    "code": "ca",
+    "scene": "settings",
+    "sha256": "da7940442ec572c7e70461307f72f537f2c3797f2310b680ec061358a014a2fb",
+    "bytes": 321081
+  },
+  {
+    "code": "ca",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "3d2805c967573087ac51be6e98441dcd527f972b9e1bf0ebf163af6bf16fc569",
+    "bytes": 1996663
+  },
+  {
+    "code": "ca",
+    "scene": "vacation-countdown-app",
+    "sha256": "3f45977fa5967697b4b8dd38e4a9d2e30a375fc0a92ee3e6412e6faaf9f20939",
+    "bytes": 1983352
+  },
+  {
+    "code": "ca",
+    "scene": "wedding-countdown-app",
+    "sha256": "7a4f06e1dbd48061071f456ed34cbe89fa23f37608f571ddd020c7186b84ece2",
+    "bytes": 1989392
+  },
+  {
+    "code": "ca",
+    "scene": "widget-editor",
+    "sha256": "0571adb6c5dcce5f5ef06f6317c0e61c3955f70ade880b74b882e8555e894f17",
+    "bytes": 1406432
+  },
+  {
+    "code": "cs",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "f22f945c715e8b5e4d75943a19207f2ef58760879ec351fe9920a95db41accaa",
+    "bytes": 4064839
+  },
+  {
+    "code": "cs",
+    "scene": "widget-editor",
+    "sha256": "3fb2d4363c4b6470a0a90515913628d9b9320b9f982dea20216376f107485efc",
+    "bytes": 1411980
+  },
+  {
+    "code": "da",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "c859c682588dc14b17a5320de443451d1948c2e689f5d825e6d0ebdb33ba471c",
+    "bytes": 4071140
+  },
+  {
+    "code": "da",
+    "scene": "widget-editor",
+    "sha256": "fd5c3019d78e417a5d86cf2d3a532ff528b285aad66b8f094c283e92bb622aa6",
+    "bytes": 1400211
+  },
+  {
+    "code": "de",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "bd6b4ead8e87a5985ead19d5708d61d39dd7b93132228962ea33dbef563a00a0",
+    "bytes": 4067614
+  },
+  {
+    "code": "de",
+    "scene": "widget-editor",
+    "sha256": "7dfe6061b0577b923cb7ed363427424e65f9b41908998c7e8dbdef9961523a62",
+    "bytes": 1404089
+  },
+  {
+    "code": "el",
+    "scene": "anniversary-countdown-app",
+    "sha256": "cbb6cccb51eed7dbfa6278455a732da5cc3a5badb8f01b24ae85758f8186b350",
+    "bytes": 1994899
+  },
+  {
+    "code": "el",
+    "scene": "birthday-countdown-app",
+    "sha256": "898b946435b79fad8c3b35d764f272df279b74ee9b9c39228c42ad9215aaeb41",
+    "bytes": 206897
+  },
+  {
+    "code": "el",
+    "scene": "colors",
+    "sha256": "16b2e91bd0b467e68082a45fe376d7c1b2f3cf0bb869b737a6f0f82af903c69a",
+    "bytes": 283629
+  },
+  {
+    "code": "el",
+    "scene": "compact-display",
+    "sha256": "d8a17cdbedf731c0fb7fa7e492d586333b03bad160eb6fb6b17259ffe78f6ab3",
+    "bytes": 276542
+  },
+  {
+    "code": "el",
+    "scene": "holiday-countdown-app",
+    "sha256": "52d35d615e74a2e2561b11b80a10c41c3b235489cb9642cde0ab6829bf5789bc",
+    "bytes": 200351
+  },
+  {
+    "code": "el",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "79faa38c278d099ca96c9f0890e176706e521b21652dfb04c72169fee027ad8b",
+    "bytes": 4066520
+  },
+  {
+    "code": "el",
+    "scene": "home-screen-widgets",
+    "sha256": "641e6b68013614518b15bcf4fbfd517d6c7942d1226f74f0bca54060605d0a4d",
+    "bytes": 2046289
+  },
+  {
+    "code": "el",
+    "scene": "normal-display",
+    "sha256": "60d9bf2d5de93779ede58feb360d860b58453adf603af119f7c55db94ae02906",
+    "bytes": 233854
+  },
+  {
+    "code": "el",
+    "scene": "pregnancy-countdown-app",
+    "sha256": "c15b8fbba1e9b46e53c8e814ba8afc781fefba563b5e375f5f82aeb8a8da7172",
+    "bytes": 223234
+  },
+  {
+    "code": "el",
+    "scene": "retirement-countdown-app",
+    "sha256": "1d704fdc6a5057ca9b3518364d31d70bbb83b0dc41bfa2169934baca693f59fc",
+    "bytes": 244439
+  },
+  {
+    "code": "el",
+    "scene": "settings",
+    "sha256": "56b0fb4e6ba817a8fd31e5403f6ccd27e8064f90456273b0b0bd797491585027",
+    "bytes": 335209
+  },
+  {
+    "code": "el",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "4632591ff1cb52e74f0a615913f1e8db71c60ece647633f20ab576a5528a4830",
+    "bytes": 2014288
+  },
+  {
+    "code": "el",
+    "scene": "vacation-countdown-app",
+    "sha256": "3ce0f30dcca5a5cca7092e1c5a3f943c6f5fb11f3a4ecb839e3ca6f74c689d30",
+    "bytes": 1989639
+  },
+  {
+    "code": "el",
+    "scene": "wedding-countdown-app",
+    "sha256": "4eaf87766d0d38b2745a701f3b9b5b837ab18ccbae6ec35be38df9d5a755b021",
+    "bytes": 1994073
+  },
+  {
+    "code": "el",
+    "scene": "widget-editor",
+    "sha256": "0ca028eba94b16221ce35d3cd0dae5bb2e7cfc1b287c55b0c19220603e91ae13",
+    "bytes": 1429394
+  },
+  {
+    "code": "en",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "776e663c11f21a80d9aa43f4fecab2c605c5b68d519ba56d8357f31a53e21aad",
+    "bytes": 4069452
+  },
+  {
+    "code": "en",
+    "scene": "widget-editor",
+    "sha256": "9f5cb29b3f7712bf83cf585ddd08d97a38b88a67bd1860a90334e7150d88d031",
+    "bytes": 1410796
+  },
+  {
+    "code": "en-AU",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "d3cbe8c95e78c72701e576a5f3f9c17b850fadad295bd50805353ce581a3f697",
+    "bytes": 4068882
+  },
+  {
+    "code": "en-AU",
+    "scene": "widget-editor",
+    "sha256": "e336280210b027f0f213c30ca64285288a5d5c2fef4a07ea214cd119f9d6f722",
+    "bytes": 1410042
+  },
+  {
+    "code": "en-CA",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "32ed423fd5140fb66b5655401aa838f7af64776ef47fbb6c409ba06ecaea9f58",
+    "bytes": 4069515
+  },
+  {
+    "code": "en-CA",
+    "scene": "widget-editor",
+    "sha256": "0f7ccdfab991fe3de04adcd7c3cde8ff950d291e5a736f4052d117cfdc61134d",
+    "bytes": 1410736
+  },
+  {
+    "code": "en-GB",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "bb724f07b8c2f41be1b5ee77fdcee7dc874df75e6f674a551ef844995c146ebd",
+    "bytes": 4069396
+  },
+  {
+    "code": "en-GB",
+    "scene": "widget-editor",
+    "sha256": "165ee27d06eac0c1a94c66ff2c77e583a6bba7de70e6431afbceb072d0163b1f",
+    "bytes": 1411234
+  },
+  {
+    "code": "es",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "afa7ca4b0c113c4fe0c4cc989eb4cc45736ee4375c749b98a90728c75dd3f532",
+    "bytes": 4068699
+  },
+  {
+    "code": "es",
+    "scene": "widget-editor",
+    "sha256": "b0ece9cf9019d09969e6bfa2d5b6379b4f0d1598ca1aa00a80b045a04c581fca",
+    "bytes": 1406884
+  },
+  {
+    "code": "es-MX",
+    "scene": "anniversary-countdown-app",
+    "sha256": "25de4c7ac15ea5901a82f35743bd2fbb2e09f7e0d34f5a6efd6618b0b8bd25a9",
+    "bytes": 1997119
+  },
+  {
+    "code": "es-MX",
+    "scene": "birthday-countdown-app",
+    "sha256": "27b400b1fcfb3f65c18c0299dec1fd16833edd39b9409d257df7c4966defb713",
+    "bytes": 214299
+  },
+  {
+    "code": "es-MX",
+    "scene": "christmas-countdown-app",
+    "sha256": "7067890c91991ceca15aa7818f6015685587f172b21e822fa881f4fd7d84873f",
+    "bytes": 4105791
+  },
+  {
+    "code": "es-MX",
+    "scene": "colors",
+    "sha256": "76d55c027714f0d59564534b862cd3df968967115f5f4e241c503c0b6d62b0bc",
+    "bytes": 278349
+  },
+  {
+    "code": "es-MX",
+    "scene": "compact-display",
+    "sha256": "d710903944430eefcce1e13f3fa42a41d0f52e588240c22cb184bcd940eee6e9",
+    "bytes": 270878
+  },
+  {
+    "code": "es-MX",
+    "scene": "editing",
+    "sha256": "0dc65077320ffab5b8d3d58d6da7648d8d5588731d829e90aef3bd342e28a941",
+    "bytes": 252241
+  },
+  {
+    "code": "es-MX",
+    "scene": "event-countdown-app",
+    "sha256": "d7797a979d1b74819627dfed5338f4f341c50f1104fab5e395a791438fef30f6",
+    "bytes": 249087
+  },
+  {
+    "code": "es-MX",
+    "scene": "holiday-countdown-app",
+    "sha256": "bac96dd7e229f2383b8254e56bbc177fcd9a6718383122cd7cfaee6b6b7618c2",
+    "bytes": 194782
+  },
+  {
+    "code": "es-MX",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "f20e9ffbb5d728cb64d69e7a73b59a8314b52e8bc0167e4c2c1995a58cc43a02",
+    "bytes": 4070107
+  },
+  {
+    "code": "es-MX",
+    "scene": "home-screen-widgets",
+    "sha256": "5a139c47e802f70a387b9da27708c49675cd33492c23e9a5b469773b93499674",
+    "bytes": 2043185
+  },
+  {
+    "code": "es-MX",
+    "scene": "lock-screen-widgets",
+    "sha256": "8f9c69653156feeb434ab4bf789e24fd01cedfcdc9c764f6f3cbacd8b0543b2b",
+    "bytes": 4108264
+  },
+  {
+    "code": "es-MX",
+    "scene": "normal-display",
+    "sha256": "10c118a155da9ff67481ea3654abf1ec18bbc3e7f6116b99d39ad0994948c777",
+    "bytes": 242116
+  },
+  {
+    "code": "es-MX",
+    "scene": "pregnancy-countdown-app",
+    "sha256": "e25c41fa470cfb8120420ea8766bb6ac07f153c3df5424d94cd8e231ac79eaa4",
+    "bytes": 211759
+  },
+  {
+    "code": "es-MX",
+    "scene": "retirement-countdown-app",
+    "sha256": "64575a2c564319d91730c81384cd277851d70bc4bd0d3cc696794e057223c8c5",
+    "bytes": 232192
+  },
+  {
+    "code": "es-MX",
+    "scene": "settings",
+    "sha256": "76b69c2ec2bdf26de822da268b3238bf066aa90899fe44684c6da7564dac9925",
+    "bytes": 336439
+  },
+  {
+    "code": "es-MX",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "f2163e3229b6f92fece7adb93e23478723a67a51df15f42c5fbb41c8498eacfa",
+    "bytes": 2004523
+  },
+  {
+    "code": "es-MX",
+    "scene": "vacation-countdown-app",
+    "sha256": "778f0b782ed6020910b7274ed0755ab0e6ae35c4913b35a9fc6cb46109ec6fd8",
+    "bytes": 1987783
+  },
+  {
+    "code": "es-MX",
+    "scene": "wedding-countdown-app",
+    "sha256": "e71f3f9499897f0f13225e0ae2167e20f1a0b4bb3ca1380e1d2a4a1b7fd80c02",
+    "bytes": 1987980
+  },
+  {
+    "code": "es-MX",
+    "scene": "widget-editor",
+    "sha256": "1c54c13c3a9eb6ae982cb1a40b0aee0aaeb1359bafdf67638993f6e899d109a8",
+    "bytes": 1405956
+  },
+  {
+    "code": "fi",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "2da64ab6d9d84d9b291740294ed5b807cd47a14dde5e80f7e0469710fa9ca248",
+    "bytes": 4064133
+  },
+  {
+    "code": "fi",
+    "scene": "widget-editor",
+    "sha256": "e10a97f43500a900bfd7c09f1fcc33d50dbd1c1aa82ade72ef35ea81a151611e",
+    "bytes": 1403641
+  },
+  {
+    "code": "fil",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "f20539f50aee1b3f7e86968e5874fd93bc6cb15d631d31b906bd5341a29657ad",
+    "bytes": 4066876
+  },
+  {
+    "code": "fil",
+    "scene": "widget-editor",
+    "sha256": "d840a09027e18977f0592f651af0e0260280225116e38731598c01437078e63b",
+    "bytes": 1413678
+  },
+  {
+    "code": "fr",
+    "scene": "anniversary-countdown-app",
+    "sha256": "36c7dcb3e385446a0b023b44d17769a1fb329a469d04e7ca77398919df6c1255",
+    "bytes": 1983159
+  },
+  {
+    "code": "fr",
+    "scene": "birthday-countdown-app",
+    "sha256": "55d543b8ac8287a61096f8cc5b698b66000acde92d3e039ff834dc57c506ae5a",
+    "bytes": 204352
+  },
+  {
+    "code": "fr",
+    "scene": "colors",
+    "sha256": "7ae3793d323d1a8531ab7f71436b224bbef348d13f61fd5b62ea9d7e6fcedc18",
+    "bytes": 270959
+  },
+  {
+    "code": "fr",
+    "scene": "compact-display",
+    "sha256": "cd572c301c0b1e7645988a7fefe07d98ff42b55b9db2d4a8da8cfbd505dc875e",
+    "bytes": 265599
+  },
+  {
+    "code": "fr",
+    "scene": "holiday-countdown-app",
+    "sha256": "031375ea467d67daa4a2605d83b728605dcac42d8ac53609f8c51ca8666b88e5",
+    "bytes": 187820
+  },
+  {
+    "code": "fr",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "98c212736998cc003836ae348699776dce8506c75690654c44fde3bc17070719",
+    "bytes": 4065753
+  },
+  {
+    "code": "fr",
+    "scene": "home-screen-widgets",
+    "sha256": "82c0c7264d4b080388596d2600a2a069364471c68b096c5172ae0c9135853210",
+    "bytes": 2014762
+  },
+  {
+    "code": "fr",
+    "scene": "normal-display",
+    "sha256": "b1f4915f91a842d4d644390fa0accf68341500fe553319f90ccc911f6d2c6a84",
+    "bytes": 230237
+  },
+  {
+    "code": "fr",
+    "scene": "pregnancy-countdown-app",
+    "sha256": "3d1bb95b873912a8640d79f3479d348e03e34b2a9ce9db5bb80748fa89c10cd6",
+    "bytes": 211216
+  },
+  {
+    "code": "fr",
+    "scene": "retirement-countdown-app",
+    "sha256": "4eb20917004ce4dd3fe69e42b92dc9ede6aa40cc2b595931d3d17077a128f3d4",
+    "bytes": 230819
+  },
+  {
+    "code": "fr",
+    "scene": "settings",
+    "sha256": "91bef07ccc34b43c813464cfa102c16009e7737eb7d1555ded60ec6303a367dc",
+    "bytes": 310692
+  },
+  {
+    "code": "fr",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "f8e7936c2f400c19bd09a792bb0091c5ed1351767bda4592ea5b6c81ee8d70ac",
+    "bytes": 1985101
+  },
+  {
+    "code": "fr",
+    "scene": "vacation-countdown-app",
+    "sha256": "1420de4a14ea7d46705db0ed6e0c57838974741338680160c8c637ad386343c3",
+    "bytes": 1963034
+  },
+  {
+    "code": "fr",
+    "scene": "wedding-countdown-app",
+    "sha256": "e301907d17abd795e9414d5f0c99300d76ba8ffef8ac6d84bfd8042ceb529790",
+    "bytes": 1974238
+  },
+  {
+    "code": "fr",
+    "scene": "widget-editor",
+    "sha256": "4075b0520feaa08480c7901e167d7cf48e1085425303093a9a5d2263b78b7c80",
+    "bytes": 1412051
+  },
+  {
+    "code": "he",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "7fc247aa789a1688563f609f5b162ccece11a296970165becf14b97818f3143c",
+    "bytes": 4046045
+  },
+  {
+    "code": "he",
+    "scene": "widget-editor",
+    "sha256": "157a70fb9e973bfd3a7635e06c2629bbcacd1c6ba9e677b9c83b066aa2bebfe5",
+    "bytes": 1387807
+  },
+  {
+    "code": "hi",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "a06e62ae1fdcd5690945a473f833f0fe0f5f777f9944565aa0d6fba8fe0ab318",
+    "bytes": 4057584
+  },
+  {
+    "code": "hi",
+    "scene": "widget-editor",
+    "sha256": "0bd7975641d26d7380290e2b3bacdfb752dc4947c1b613ce39b1585711cfcf82",
+    "bytes": 1404978
+  },
+  {
+    "code": "hu",
+    "scene": "anniversary-countdown-app",
+    "sha256": "01c1e09aa4cb9c3b1ca87bc6a7062cc6b2551ba68abdfac34edb59e976ef7c6d",
+    "bytes": 1994441
+  },
+  {
+    "code": "hu",
+    "scene": "birthday-countdown-app",
+    "sha256": "a22ab192aed5c9896dbf3233e9a67ca80147037bf43142aadf626ec4b0d77fb1",
+    "bytes": 205666
+  },
+  {
+    "code": "hu",
+    "scene": "colors",
+    "sha256": "1f15e539dbfea4147a64d2af2c3478fc6086bdb314d7567d36934dc4ed5de5ed",
+    "bytes": 273436
+  },
+  {
+    "code": "hu",
+    "scene": "compact-display",
+    "sha256": "1c4a3193ed1b30e56b0264cb1e9e85ac83f6b3fa5a3791082bd413ed3aa86db4",
+    "bytes": 267381
+  },
+  {
+    "code": "hu",
+    "scene": "holiday-countdown-app",
+    "sha256": "86f0e6315981da2a230db71748fdad870510712ef03e9859e74397691c7f4504",
+    "bytes": 189631
+  },
+  {
+    "code": "hu",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "73e919eb3d3f8056c8238a98854b1348b193cd68b2347ab46e6eb8b7e50511bb",
+    "bytes": 4069220
+  },
+  {
+    "code": "hu",
+    "scene": "home-screen-widgets",
+    "sha256": "c34a9f86345862a3de4b3763ded469dc6311575903a78dcc31b49decd3d3ff1c",
+    "bytes": 2037423
+  },
+  {
+    "code": "hu",
+    "scene": "normal-display",
+    "sha256": "266bbe9a7dbcc069d899b131e2e69e0cf7ef6e994c72085c0364ecab95903ae6",
+    "bytes": 235477
+  },
+  {
+    "code": "hu",
+    "scene": "pregnancy-countdown-app",
+    "sha256": "434015b21ba0971e3ec6e5429dccfbbde30c1c57c3410ac90d6d75271844736d",
+    "bytes": 207686
+  },
+  {
+    "code": "hu",
+    "scene": "retirement-countdown-app",
+    "sha256": "f2c01b5aaa7a9f18afc4b1845dd5acf519ed58ef1a26339426ab2b22fb1806a4",
+    "bytes": 234625
+  },
+  {
+    "code": "hu",
+    "scene": "settings",
+    "sha256": "e69304237d271500ff40889b7ddef64048ff8c54a1f01da0c8e8eb47b48c993d",
+    "bytes": 321802
+  },
+  {
+    "code": "hu",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "315eeb10712fef3d0c17c334c9e28ecd9c62cd0d7595f71e53b44e132fa6a1bd",
+    "bytes": 1999600
+  },
+  {
+    "code": "hu",
+    "scene": "vacation-countdown-app",
+    "sha256": "e4352f5da3a264acedfaa54f80576ff31509c4f595f75166ee4c871f9ec8e5d2",
+    "bytes": 1994028
+  },
+  {
+    "code": "hu",
+    "scene": "wedding-countdown-app",
+    "sha256": "223137be337b412bdd57afd92cd7b4f4b07dc1751ce1c64462ab0e95de8c3a9c",
+    "bytes": 1985237
+  },
+  {
+    "code": "hu",
+    "scene": "widget-editor",
+    "sha256": "643b0d1449b42a0fa68e86686c1744170f573691e3f1c862a77d36b2182380f8",
+    "bytes": 1408247
+  },
+  {
+    "code": "id",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "623a33d316a968658e57746b74c49275d7bfe19993a1bcf883458bdf7eb1e95b",
+    "bytes": 4059367
+  },
+  {
+    "code": "id",
+    "scene": "widget-editor",
+    "sha256": "736cf8e6b1a323fab7154fc2a658957d862bc302d89d6caf5e8ca578fc6777a5",
+    "bytes": 1406623
+  },
+  {
+    "code": "it",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "a2a925a4d2b00c5bbfcd382c25bb1051926183d0bf860a31248df885ce3c5967",
+    "bytes": 4067673
+  },
+  {
+    "code": "it",
+    "scene": "widget-editor",
+    "sha256": "60c495955494d7753bd3e7ef2c2a6aed275b1b027d8beeaf6dbfc61594d12d67",
+    "bytes": 1404523
+  },
+  {
+    "code": "ja",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "79841b61eba9598ebd07570f7d08b23e44a5ab38c9bfc9f2875c5ef5781bc8d8",
+    "bytes": 4067428
+  },
+  {
+    "code": "ja",
+    "scene": "widget-editor",
+    "sha256": "86c14ac052fee55e3a4cb152c7f7225c48c89c8303608e419e79af9449ea1652",
+    "bytes": 1411115
+  },
+  {
+    "code": "ko",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "41d83bd12556d1474f85b82ea0956b6d063648bc3ab262594e7327095514e0dd",
+    "bytes": 4056766
+  },
+  {
+    "code": "ko",
+    "scene": "widget-editor",
+    "sha256": "0287e090d2a463f7145c8339d155a292c81d2e4d7c9a0cd1a89df88949880ccf",
+    "bytes": 1396772
+  },
+  {
+    "code": "ms",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "b37135b7e8108b6039cd13fc1d47113974289ad9fb60342313dbe8c6526a43e0",
+    "bytes": 4060074
+  },
+  {
+    "code": "ms",
+    "scene": "widget-editor",
+    "sha256": "74e0d792b01aabac75313f3f22674e12d5e1459856a2a89774e8865fd81403da",
+    "bytes": 1402484
+  },
+  {
+    "code": "nb",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "228c6eac14de84da7ed6753355d947bdadff1b87c6415dcd3be325d67ce2af00",
+    "bytes": 4068651
+  },
+  {
+    "code": "nb",
+    "scene": "widget-editor",
+    "sha256": "9a1fd0e10858a8c1ce507e2722189743969b7c9c7fec898bdc720fb053210618",
+    "bytes": 1404595
+  },
+  {
+    "code": "nl",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "797fa4164469690ab2ba0c43c9d95f9037e1b21dec0e62296f00e669dd951e69",
+    "bytes": 4066533
+  },
+  {
+    "code": "nl",
+    "scene": "widget-editor",
+    "sha256": "7127d2d721ca2f483e97351c4dc185a47c6462b9e9599225ee254836acb40240",
+    "bytes": 1407169
+  },
+  {
+    "code": "pl",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "3034dd4af840c8c54ee0a9e8afcbacd58e41d9cc497dee02b89110c3200f5a2e",
+    "bytes": 4061715
+  },
+  {
+    "code": "pl",
+    "scene": "widget-editor",
+    "sha256": "1e8bccb9e9981fbe3a6f9f5a47b31258f1fb85fbf5a3e52a9d23cc6cc6bf4c05",
+    "bytes": 1416204
+  },
+  {
+    "code": "pt",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "c1991409bdd2743d6c1979c0ec4f8dbc0d49db0f828a2849b9b771fb71a1a881",
+    "bytes": 4070768
+  },
+  {
+    "code": "pt",
+    "scene": "widget-editor",
+    "sha256": "0c77c1c08697ee3706826cc9a5afd4a7bbedcb43480daf83337ee59605e1ada3",
+    "bytes": 1414560
+  },
+  {
+    "code": "pt-BR",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "7e35b1b615c676b0a7de469d9e1e8772ffb65c99e7219aaf32b61b5735b3341a",
+    "bytes": 4071750
+  },
+  {
+    "code": "pt-BR",
+    "scene": "widget-editor",
+    "sha256": "93f7ae9d5732448ed359e0f54c6701398b73bd79159ed73a851f897217782151",
+    "bytes": 1405929
+  },
+  {
+    "code": "ro",
+    "scene": "anniversary-countdown-app",
+    "sha256": "53048f03803d948e2183747d8e844d11417a3b60b2c6e840415573192aefd2ea",
+    "bytes": 1998844
+  },
+  {
+    "code": "ro",
+    "scene": "birthday-countdown-app",
+    "sha256": "1675902b754173219db4b15746a1284b16e98bf35951284ccd11fd587f7a0c3c",
+    "bytes": 208359
+  },
+  {
+    "code": "ro",
+    "scene": "colors",
+    "sha256": "0caa3b77fbec713fb6b2dac09645b008c8131d90a5824a9fa9b9f7a0a4bbd54a",
+    "bytes": 269851
+  },
+  {
+    "code": "ro",
+    "scene": "compact-display",
+    "sha256": "4dea07e50dd5160d67ef988f6e71e3a206d346cb3d1d243341caca54c2115635",
+    "bytes": 265767
+  },
+  {
+    "code": "ro",
+    "scene": "holiday-countdown-app",
+    "sha256": "4a0ae7ba8c7cab88b253537f8e3b49d4d020a04e3d32b1fbfbab027e748a6c7d",
+    "bytes": 187638
+  },
+  {
+    "code": "ro",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "78be7a293bfc6ac35da60be34ba52bdea4b10647c5a0f63277ae8c3311b6d51f",
+    "bytes": 4063727
+  },
+  {
+    "code": "ro",
+    "scene": "home-screen-widgets",
+    "sha256": "3deaefceeed4c5e1e92b07ce6b35a093dbe1242b751403bd7065b4bd9eef03bd",
+    "bytes": 2029453
+  },
+  {
+    "code": "ro",
+    "scene": "normal-display",
+    "sha256": "adfd61768a42519bb113f69fe8acabaf2c9cba5d292ce5a78fff0c6f3c76d009",
+    "bytes": 230202
+  },
+  {
+    "code": "ro",
+    "scene": "pregnancy-countdown-app",
+    "sha256": "7db6be702277f4064a64d386db8ab1faae59fa6f44bfe22bcd1e4afc72626f3d",
+    "bytes": 216978
+  },
+  {
+    "code": "ro",
+    "scene": "retirement-countdown-app",
+    "sha256": "487c1f19e2a48ad3cbcb6fe66943e438c71fa5d5ae5b3df2d746971a69f4d8ef",
+    "bytes": 232925
+  },
+  {
+    "code": "ro",
+    "scene": "settings",
+    "sha256": "e725a23c3bb9557e18e32ae22ca2c95931d15f91f69c4ed42f126a74432e4a03",
+    "bytes": 308174
+  },
+  {
+    "code": "ro",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "480770cacbd3769e907c4595030a2036ac12d329294d6182d5eb0e38c522672f",
+    "bytes": 1997395
+  },
+  {
+    "code": "ro",
+    "scene": "vacation-countdown-app",
+    "sha256": "802ce43ba5eafe26d94f324a136a4edba3ec274fa48656b117cc9cac5323ce40",
+    "bytes": 1982474
+  },
+  {
+    "code": "ro",
+    "scene": "wedding-countdown-app",
+    "sha256": "9278191e3686dd8dc7c425cc998aaf4ca1d2dff0d6be3e6c3ade4d10aee6efc8",
+    "bytes": 1982995
+  },
+  {
+    "code": "ro",
+    "scene": "widget-editor",
+    "sha256": "22aa95d3cdd2827a8aa1b0ff9e1de0088f1cdfae19cc16503572d418494d771d",
+    "bytes": 1411201
+  },
+  {
+    "code": "ru",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "820e660550d1635f1cea76cf649d6681a75587557304da13cef3ac26a7b73270",
+    "bytes": 4057354
+  },
+  {
+    "code": "ru",
+    "scene": "widget-editor",
+    "sha256": "1f9c97e81f6c369a355fb46088d961fcb0649bf051279c6bbb79f619b2f84c9d",
+    "bytes": 1406613
+  },
+  {
+    "code": "sk",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "7fb588d7758ace40a2b59e2f42e4a21a76acb39bf2f664fb763ff5bd9e90e3de",
+    "bytes": 4061907
+  },
+  {
+    "code": "sk",
+    "scene": "widget-editor",
+    "sha256": "3b21d6d34b0ff0cc05dcf6947dac533be9371230f6c73fa1146ffd668dcd250d",
+    "bytes": 1412678
+  },
+  {
+    "code": "sv",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "2c9ab35f1eb816a1b223ff1fb54f8f907d93bc8c916600ae5f9e35637d709b84",
+    "bytes": 4073146
+  },
+  {
+    "code": "sv",
+    "scene": "widget-editor",
+    "sha256": "6296dfc3bc7134acd028720ca11c2615a9106c96f6eab5af41ce91be039469de",
+    "bytes": 1405825
+  },
+  {
+    "code": "th",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "97f4ffc2a17f9277e6f89476858fbb91adcba80a740637b533154159557fbd5e",
+    "bytes": 4072720
+  },
+  {
+    "code": "th",
+    "scene": "widget-editor",
+    "sha256": "01f39ac2417fbb288d5780fd3422960ebca7b2d5e35e58cfb7375bcd71f40e2a",
+    "bytes": 1412711
+  },
+  {
+    "code": "tr",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "a3937681417cdc6c452ad1f3804c569dc95927522ec00c98d082f9e67143c584",
+    "bytes": 4066871
+  },
+  {
+    "code": "tr",
+    "scene": "widget-editor",
+    "sha256": "392b6580c7e32029778715fa5ee0ad8bc091f88a651f12be2e193959adce8ffb",
+    "bytes": 1410227
+  },
+  {
+    "code": "uk",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "34b170531f328ad46cf3e817c4725c62580e314dbfcda549cd2b77c4edf143b6",
+    "bytes": 4053184
+  },
+  {
+    "code": "uk",
+    "scene": "widget-editor",
+    "sha256": "a31b6053e8158327bfef841d6f7626b657e04834045bee3f53b397c2beac63df",
+    "bytes": 1400735
+  },
+  {
+    "code": "vi",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "2f8af2614a963550d36977d9c94868ca9f67c5f7fd5edeaac86587607e625e89",
+    "bytes": 4067154
+  },
+  {
+    "code": "vi",
+    "scene": "widget-editor",
+    "sha256": "2b7e4ed1b1b305683e6426e733ab8a4c2102d9a99ec2fe907894ad76b7830fbc",
+    "bytes": 1406959
+  },
+  {
+    "code": "zh-Hans",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "86ffc6c5e78addaa86b76083ae08756af1183298ebba40b548bd233c9a51d61d",
+    "bytes": 4064074
+  },
+  {
+    "code": "zh-Hans",
+    "scene": "widget-editor",
+    "sha256": "647562be53832f44e58a75ffcf07821dd7cf4377effa14bfa6767d99f51e820e",
+    "bytes": 1401737
+  },
+  {
+    "code": "zh-Hant",
+    "scene": "home-screen-custom-widgets",
+    "sha256": "50df890e7779d30d0e7fc46c15b3d92a1780c2798d1b0fa1f73af06041aaab38",
+    "bytes": 4064174
+  },
+  {
+    "code": "zh-Hant",
+    "scene": "widget-editor",
+    "sha256": "625ad5caf9dee36f454bc72b190a32c96dfe9da31f89cb2f8684b59931816547",
+    "bytes": 1400567
+  }
+]

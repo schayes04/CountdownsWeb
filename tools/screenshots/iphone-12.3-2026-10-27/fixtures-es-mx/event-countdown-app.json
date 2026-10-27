@@ -1,0 +1,26 @@
+{
+  "scene": "event-countdown-app",
+  "locale": "es-MX",
+  "screen": "editor",
+  "compact": true,
+  "listsEnabled": false,
+  "showDates": false,
+  "showDirection": false,
+  "lists": [],
+  "events": [
+    {
+      "name": "Noche de concierto",
+      "emoji": "🎵",
+      "date": "2027-01-25",
+      "units": [
+        "3"
+      ],
+      "listId": null,
+      "colorIndex": 9,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-1"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "scene": "theme-park-trip-countdown-app",
+  "locale": "es-MX",
+  "screen": "list",
+  "compact": true,
+  "listsEnabled": false,
+  "showDates": false,
+  "showDirection": false,
+  "lists": [],
+  "events": [
+    {
+      "name": "Viaje al parque de diversiones",
+      "emoji": "🎢",
+      "date": "2026-12-11",
+      "units": [
+        "3"
+      ],
+      "listId": null,
+      "colorIndex": 9,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-1"
+    },
+    {
+      "name": "Boletos listos",
+      "emoji": "🎟️",
+      "date": "2026-11-26",
+      "units": [
+        "3"
+      ],
+      "listId": null,
+      "colorIndex": 1,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-2"
+    },
+    {
+      "name": "Día en el parque",
+      "emoji": "🎡",
+      "date": "2026-12-12",
+      "units": [
+        "3"
+      ],
+      "listId": null,
+      "colorIndex": 6,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-3"
+    }
+  ]
+}

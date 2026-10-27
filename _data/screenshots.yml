@@ -8,7 +8,7 @@ guides:
   christmas-countdown-app: christmas-countdown-app
   event-countdown-app: event-countdown-app
   holiday-countdown-app: holiday-countdown-app
-  iphone-countdown-widget: home-screen-widgets
+  iphone-countdown-widget: home-screen-custom-widgets
   lock-screen-countdown-widget: lock-screen-widgets
   mac-countdown-widget: home-screen-widgets
   pregnancy-countdown-app: pregnancy-countdown-app
@@ -35,6 +35,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/en/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/en/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/en/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/en/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/en/widget-editor.png"
   ar:
     normal-display: "/assets/screenshots/ar/normal-display.png"
     compact-display: "/assets/screenshots/ar/compact-display.png"
@@ -53,6 +55,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/ar/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/ar/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/ar/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/ar/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/ar/widget-editor.png"
   ca:
     normal-display: "/assets/screenshots/ca/normal-display.png"
     compact-display: "/assets/screenshots/ca/compact-display.png"
@@ -71,6 +75,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/ca/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/ca/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/ca/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/ca/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/ca/widget-editor.png"
   da:
     normal-display: "/assets/screenshots/da/normal-display.png"
     compact-display: "/assets/screenshots/da/compact-display.png"
@@ -89,6 +95,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/da/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/da/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/da/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/da/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/da/widget-editor.png"
   de:
     normal-display: "/assets/screenshots/de/normal-display.png"
     compact-display: "/assets/screenshots/de/compact-display.png"
@@ -107,6 +115,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/de/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/de/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/de/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/de/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/de/widget-editor.png"
   es:
     normal-display: "/assets/screenshots/es/normal-display.png"
     compact-display: "/assets/screenshots/es/compact-display.png"
@@ -125,24 +135,28 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/es/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/es/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/es/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/es/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/es/widget-editor.png"
   es-MX:
-    normal-display: "/assets/screenshots/es/normal-display.png"
-    compact-display: "/assets/screenshots/es/compact-display.png"
-    colors: "/assets/screenshots/es/colors.png"
-    editing: "/assets/screenshots/es/editing.png"
-    settings: "/assets/screenshots/es/settings.png"
-    home-screen-widgets: "/assets/screenshots/es/home-screen-widgets.png"
-    lock-screen-widgets: "/assets/screenshots/es/lock-screen-widgets.png"
-    wedding-countdown-app: "/assets/screenshots/es/wedding-countdown-app.png"
-    vacation-countdown-app: "/assets/screenshots/es/vacation-countdown-app.png"
-    anniversary-countdown-app: "/assets/screenshots/es/anniversary-countdown-app.png"
-    theme-park-trip-countdown-app: "/assets/screenshots/es/theme-park-trip-countdown-app.png"
-    birthday-countdown-app: "/assets/screenshots/es/birthday-countdown-app.png"
-    holiday-countdown-app: "/assets/screenshots/es/holiday-countdown-app.png"
-    retirement-countdown-app: "/assets/screenshots/es/retirement-countdown-app.png"
-    pregnancy-countdown-app: "/assets/screenshots/es/pregnancy-countdown-app.png"
-    event-countdown-app: "/assets/screenshots/es/event-countdown-app.png"
-    christmas-countdown-app: "/assets/screenshots/es/christmas-countdown-app.png"
+    normal-display: "/assets/screenshots/es-mx/normal-display.png"
+    compact-display: "/assets/screenshots/es-mx/compact-display.png"
+    colors: "/assets/screenshots/es-mx/colors.png"
+    editing: "/assets/screenshots/es-mx/editing.png"
+    settings: "/assets/screenshots/es-mx/settings.png"
+    home-screen-widgets: "/assets/screenshots/es-mx/home-screen-widgets.png"
+    lock-screen-widgets: "/assets/screenshots/es-mx/lock-screen-widgets.png"
+    wedding-countdown-app: "/assets/screenshots/es-mx/wedding-countdown-app.png"
+    vacation-countdown-app: "/assets/screenshots/es-mx/vacation-countdown-app.png"
+    anniversary-countdown-app: "/assets/screenshots/es-mx/anniversary-countdown-app.png"
+    theme-park-trip-countdown-app: "/assets/screenshots/es-mx/theme-park-trip-countdown-app.png"
+    birthday-countdown-app: "/assets/screenshots/es-mx/birthday-countdown-app.png"
+    holiday-countdown-app: "/assets/screenshots/es-mx/holiday-countdown-app.png"
+    retirement-countdown-app: "/assets/screenshots/es-mx/retirement-countdown-app.png"
+    pregnancy-countdown-app: "/assets/screenshots/es-mx/pregnancy-countdown-app.png"
+    event-countdown-app: "/assets/screenshots/es-mx/event-countdown-app.png"
+    christmas-countdown-app: "/assets/screenshots/es-mx/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/es-mx/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/es-mx/widget-editor.png"
   fi:
     normal-display: "/assets/screenshots/fi/normal-display.png"
     compact-display: "/assets/screenshots/fi/compact-display.png"
@@ -161,6 +175,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/fi/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/fi/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/fi/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/fi/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/fi/widget-editor.png"
   fr:
     normal-display: "/assets/screenshots/fr/normal-display.png"
     compact-display: "/assets/screenshots/fr/compact-display.png"
@@ -179,6 +195,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/fr/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/fr/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/fr/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/fr/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/fr/widget-editor.png"
   it:
     normal-display: "/assets/screenshots/it/normal-display.png"
     compact-display: "/assets/screenshots/it/compact-display.png"
@@ -197,6 +215,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/it/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/it/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/it/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/it/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/it/widget-editor.png"
   ja:
     normal-display: "/assets/screenshots/ja/normal-display.png"
     compact-display: "/assets/screenshots/ja/compact-display.png"
@@ -215,6 +235,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/ja/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/ja/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/ja/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/ja/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/ja/widget-editor.png"
   ko:
     normal-display: "/assets/screenshots/ko/normal-display.png"
     compact-display: "/assets/screenshots/ko/compact-display.png"
@@ -233,6 +255,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/ko/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/ko/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/ko/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/ko/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/ko/widget-editor.png"
   nb:
     normal-display: "/assets/screenshots/nb/normal-display.png"
     compact-display: "/assets/screenshots/nb/compact-display.png"
@@ -251,6 +275,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/nb/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/nb/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/nb/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/nb/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/nb/widget-editor.png"
   nl:
     normal-display: "/assets/screenshots/nl/normal-display.png"
     compact-display: "/assets/screenshots/nl/compact-display.png"
@@ -269,6 +295,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/nl/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/nl/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/nl/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/nl/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/nl/widget-editor.png"
   pl:
     normal-display: "/assets/screenshots/pl/normal-display.png"
     compact-display: "/assets/screenshots/pl/compact-display.png"
@@ -287,6 +315,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/pl/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/pl/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/pl/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/pl/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/pl/widget-editor.png"
   pt:
     normal-display: "/assets/screenshots/pt/normal-display.png"
     compact-display: "/assets/screenshots/pt/compact-display.png"
@@ -305,6 +335,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/pt/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/pt/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/pt/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/pt/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/pt/widget-editor.png"
   pt-BR:
     normal-display: "/assets/screenshots/pt-br/normal-display.png"
     compact-display: "/assets/screenshots/pt-br/compact-display.png"
@@ -323,6 +355,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/pt-br/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/pt-br/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/pt-br/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/pt-br/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/pt-br/widget-editor.png"
   ru:
     normal-display: "/assets/screenshots/ru/normal-display.png"
     compact-display: "/assets/screenshots/ru/compact-display.png"
@@ -341,6 +375,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/ru/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/ru/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/ru/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/ru/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/ru/widget-editor.png"
   sk:
     normal-display: "/assets/screenshots/sk/normal-display.png"
     compact-display: "/assets/screenshots/sk/compact-display.png"
@@ -359,6 +395,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/sk/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/sk/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/sk/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/sk/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/sk/widget-editor.png"
   sv:
     normal-display: "/assets/screenshots/sv/normal-display.png"
     compact-display: "/assets/screenshots/sv/compact-display.png"
@@ -377,6 +415,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/sv/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/sv/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/sv/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/sv/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/sv/widget-editor.png"
   tr:
     normal-display: "/assets/screenshots/tr/normal-display.png"
     compact-display: "/assets/screenshots/tr/compact-display.png"
@@ -395,6 +435,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/tr/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/tr/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/tr/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/tr/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/tr/widget-editor.png"
   zh-Hans:
     normal-display: "/assets/screenshots/zh-hans/normal-display.png"
     compact-display: "/assets/screenshots/zh-hans/compact-display.png"
@@ -413,6 +455,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/zh-hans/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/zh-hans/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/zh-hans/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/zh-hans/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/zh-hans/widget-editor.png"
   zh-Hant:
     normal-display: "/assets/screenshots/zh-hant/normal-display.png"
     compact-display: "/assets/screenshots/zh-hant/compact-display.png"
@@ -431,6 +475,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/zh-hant/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/zh-hant/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/zh-hant/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/zh-hant/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/zh-hant/widget-editor.png"
   hi:
     normal-display: "/assets/screenshots/hi/normal-display.png"
     compact-display: "/assets/screenshots/hi/compact-display.png"
@@ -449,6 +495,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/hi/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/hi/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/hi/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/hi/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/hi/widget-editor.png"
 
   cs:
     normal-display: "/assets/screenshots/cs/normal-display.png"
@@ -468,6 +516,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/cs/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/cs/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/cs/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/cs/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/cs/widget-editor.png"
   fil:
     normal-display: "/assets/screenshots/fil/normal-display.png"
     compact-display: "/assets/screenshots/fil/compact-display.png"
@@ -486,6 +536,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/fil/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/fil/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/fil/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/fil/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/fil/widget-editor.png"
   el:
     normal-display: "/assets/screenshots/el/normal-display.png"
     compact-display: "/assets/screenshots/el/compact-display.png"
@@ -504,6 +556,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/el/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/el/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/el/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/el/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/el/widget-editor.png"
   he:
     normal-display: "/assets/screenshots/he/normal-display.png"
     compact-display: "/assets/screenshots/he/compact-display.png"
@@ -522,6 +576,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/he/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/he/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/he/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/he/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/he/widget-editor.png"
   hu:
     normal-display: "/assets/screenshots/hu/normal-display.png"
     compact-display: "/assets/screenshots/hu/compact-display.png"
@@ -540,6 +596,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/hu/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/hu/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/hu/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/hu/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/hu/widget-editor.png"
   id:
     normal-display: "/assets/screenshots/id/normal-display.png"
     compact-display: "/assets/screenshots/id/compact-display.png"
@@ -558,6 +616,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/id/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/id/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/id/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/id/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/id/widget-editor.png"
   ms:
     normal-display: "/assets/screenshots/ms/normal-display.png"
     compact-display: "/assets/screenshots/ms/compact-display.png"
@@ -576,6 +636,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/ms/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/ms/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/ms/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/ms/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/ms/widget-editor.png"
   ro:
     normal-display: "/assets/screenshots/ro/normal-display.png"
     compact-display: "/assets/screenshots/ro/compact-display.png"
@@ -594,6 +656,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/ro/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/ro/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/ro/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/ro/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/ro/widget-editor.png"
   th:
     normal-display: "/assets/screenshots/th/normal-display.png"
     compact-display: "/assets/screenshots/th/compact-display.png"
@@ -612,6 +676,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/th/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/th/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/th/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/th/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/th/widget-editor.png"
   vi:
     normal-display: "/assets/screenshots/vi/normal-display.png"
     compact-display: "/assets/screenshots/vi/compact-display.png"
@@ -630,6 +696,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/vi/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/vi/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/vi/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/vi/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/vi/widget-editor.png"
   uk:
     normal-display: "/assets/screenshots/uk/normal-display.png"
     compact-display: "/assets/screenshots/uk/compact-display.png"
@@ -648,6 +716,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/uk/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/uk/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/uk/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/uk/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/uk/widget-editor.png"
 
   en-CA:
     normal-display: "/assets/screenshots/en/normal-display.png"
@@ -667,6 +737,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/en/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/en-ca/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/en/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/en-ca/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/en-ca/widget-editor.png"
 
   en-GB:
     normal-display: "/assets/screenshots/en-gb/normal-display.png"
@@ -686,6 +758,8 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/en/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/en-gb/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/en-gb/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/en-gb/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/en-gb/widget-editor.png"
 
   en-AU:
     normal-display: "/assets/screenshots/en-au/normal-display.png"
@@ -705,3 +779,5 @@ locales:
     pregnancy-countdown-app: "/assets/screenshots/en/pregnancy-countdown-app.png"
     event-countdown-app: "/assets/screenshots/en-au/event-countdown-app.png"
     christmas-countdown-app: "/assets/screenshots/en-au/christmas-countdown-app.png"
+    home-screen-custom-widgets: "/assets/screenshots/en-au/home-screen-custom-widgets.png"
+    widget-editor: "/assets/screenshots/en-au/widget-editor.png"

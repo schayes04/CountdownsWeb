@@ -1,0 +1,63 @@
+{
+  "scene": "retirement-countdown-app",
+  "locale": "es-MX",
+  "screen": "list",
+  "compact": false,
+  "listsEnabled": false,
+  "showDates": false,
+  "showDirection": false,
+  "lists": [],
+  "events": [
+    {
+      "name": "Jubilación",
+      "emoji": "🌅",
+      "date": "2027-04-25",
+      "units": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "listId": null,
+      "colorIndex": 2,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-1"
+    },
+    {
+      "name": "Último día de trabajo",
+      "emoji": "💼",
+      "date": "2027-04-24",
+      "units": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "listId": null,
+      "colorIndex": 1,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-2"
+    },
+    {
+      "name": "Una nueva etapa",
+      "emoji": "⛵",
+      "date": "2027-04-26",
+      "units": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "listId": null,
+      "colorIndex": 9,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-3"
+    }
+  ]
+}

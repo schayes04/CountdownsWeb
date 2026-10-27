@@ -1,0 +1,57 @@
+{
+  "scene": "pregnancy-countdown-app",
+  "locale": "es-MX",
+  "screen": "list",
+  "compact": true,
+  "listsEnabled": false,
+  "showDates": false,
+  "showDirection": false,
+  "lists": [],
+  "events": [
+    {
+      "name": "Llega el bebé",
+      "emoji": "👶",
+      "date": "2027-03-05",
+      "units": [
+        "2",
+        "3"
+      ],
+      "listId": null,
+      "colorIndex": 2,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-1"
+    },
+    {
+      "name": "Próximo ultrasonido",
+      "emoji": "🩺",
+      "date": "2026-11-12",
+      "units": [
+        "2",
+        "3"
+      ],
+      "listId": null,
+      "colorIndex": 1,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-2"
+    },
+    {
+      "name": "Baby shower",
+      "emoji": "🧸",
+      "date": "2027-01-08",
+      "units": [
+        "2",
+        "3"
+      ],
+      "listId": null,
+      "colorIndex": 9,
+      "allowsCountUp": false,
+      "repeatYearly": false,
+      "showOccurrenceNumber": false,
+      "id": "website-event-3"
+    }
+  ]
+}

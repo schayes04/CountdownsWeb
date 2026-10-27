@@ -19,6 +19,14 @@ Baseline app-only captures predate widget timeline instrumentation; their main D
 dylib matches the baseline widget-capture build. The revised Arabic and new Hindi
 images use their own binary proof. No deployment or publishing is part of this workflow.
 
+## October 27, 2026: iPhone 12.3
+
+The site now has **38 locale variants × 19 scenes = 722 references**. Two new
+scenes, `home-screen-custom-widgets` and `widget-editor`, show 12.3's custom
+widgets in every locale; es-MX has its own native set; and ar, ca, el, fr, hu and
+ro show the shorter 12.3 app names. See
+[`iphone-12.3-2026-10-27/`](iphone-12.3-2026-10-27/).
+
 ## October 27, 2026: Mac desktop with widgets
 
 The Mac guide's hero in all 38 locales is a native Mac Catalyst desktop: the

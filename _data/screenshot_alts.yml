@@ -17,6 +17,8 @@ en:
   pregnancy-countdown-app: "Pregnancy countdowns in Countdowns showing weeks and days until the baby arrives."
   event-countdown-app: "Event editor in Countdowns with date and countdown customization options."
   christmas-countdown-app: "Countdowns widgets on the iPhone Lock Screen counting down to Christmas."
+  home-screen-custom-widgets: "Custom Countdowns widgets on the iPhone Home Screen counting down to a beach trip, Mom's birthday, and a wedding."
+  widget-editor: "The Countdowns widget editor designing a beach trip widget with a photo background."
 ar:
   normal-display: "قائمة مفصّلة في تطبيق العدادات التنازلية تعرض الوقت المتبقي حتى الأحداث القادمة."
   compact-display: "قائمة عدّ تنازلي مدمجة في تطبيق العدادات التنازلية تعرض عدة أحداث بنظرة واحدة."
@@ -35,6 +37,8 @@ ar:
   pregnancy-countdown-app: "عدّ تنازلي للحمل في تطبيق العدادات التنازلية يعرض الأسابيع والأيام المتبقية حتى قدوم المولود."
   event-countdown-app: "محرّر الأحداث في تطبيق العدادات التنازلية مع خيارات التاريخ وتخصيص العدّ التنازلي."
   christmas-countdown-app: "أدوات تطبيق العدادات التنازلية على شاشة قفل الآيفون تعرض العدّ التنازلي لعيد الميلاد المجيد."
+  home-screen-custom-widgets: "أدوات مخصصة من تطبيق العدادات التنازلية على الشاشة الرئيسية للآيفون تعدّ تنازليًا لرحلة إلى الشاطئ وعيد ميلاد الأم وحفل زواج."
+  widget-editor: "محرّر الأدوات في تطبيق العدادات التنازلية يصمّم أداة لرحلة إلى الشاطئ بخلفية من صورة."
 ca:
   normal-display: "Llista detallada de comptes enrere a Comptes Enrere amb el temps que falta per als pròxims esdeveniments."
   compact-display: "Llista compacta de comptes enrere a Comptes Enrere amb diversos esdeveniments visibles d’un cop d’ull."
@@ -53,6 +57,8 @@ ca:
   pregnancy-countdown-app: "Comptes enrere d’embaràs a Comptes Enrere amb les setmanes i els dies que falten perquè arribi el nadó."
   event-countdown-app: "Editor d’esdeveniments de Comptes Enrere amb opcions de data i personalització del compte enrere."
   christmas-countdown-app: "Ginys de Comptes Enrere a la pantalla bloquejada de l’iPhone amb el compte enrere per a Nadal."
+  home-screen-custom-widgets: "Ginys personalitzats de Comptes Enrere a la pantalla d'inici de l'iPhone amb el compte enrere d'un viatge a la platja, l'aniversari de la mare i un casament."
+  widget-editor: "L'editor de ginys de Comptes Enrere dissenyant un giny d'un viatge a la platja amb una foto de fons."
 da:
   normal-display: "Detaljeret nedtællingsliste i Nedtællinger med tiden indtil kommende begivenheder."
   compact-display: "Kompakt nedtællingsliste i Nedtællinger med flere begivenheder synlige på én gang."
@@ -71,6 +77,8 @@ da:
   pregnancy-countdown-app: "Graviditetsnedtællinger i Nedtællinger med uger og dage, indtil babyen kommer."
   event-countdown-app: "Redigering af en begivenhed i Nedtællinger med dato og muligheder for at tilpasse nedtællingen."
   christmas-countdown-app: "Nedtællinger-widgets på iPhones låseskærm med nedtællingen til jul."
+  home-screen-custom-widgets: "Tilpassede Nedtællinger-widgets på iPhones hjemmeskærm, der tæller ned til en strandtur, mors fødselsdag og et bryllup."
+  widget-editor: "Widgeteditoren i Nedtællinger, der designer en widget til en strandtur med et foto som baggrund."
 de:
   normal-display: "Detaillierte Countdown-Liste in Countdowns mit der verbleibenden Zeit bis zu kommenden Ereignissen."
   compact-display: "Kompakte Countdown-Liste in Countdowns mit mehreren Ereignissen auf einen Blick."
@@ -89,6 +97,8 @@ de:
   pregnancy-countdown-app: "Schwangerschafts-Countdowns in Countdowns mit Wochen und Tagen bis zur Geburt."
   event-countdown-app: "Ereignisbearbeitung in Countdowns mit Datum und Anpassungsoptionen für den Countdown."
   christmas-countdown-app: "Countdowns-Widgets auf dem iPhone-Sperrbildschirm mit dem Countdown zu Weihnachten."
+  home-screen-custom-widgets: "Eigene Countdowns-Widgets auf dem iPhone-Home-Bildschirm mit Countdowns zum Strandurlaub, zu Mamas Geburtstag und zu einer Hochzeit."
+  widget-editor: "Der Widget-Editor von Countdowns gestaltet ein Strandurlaub-Widget mit einem Foto als Hintergrund."
 es:
   normal-display: "Lista detallada de cuentas atrás en Cuentas atrás con el tiempo que falta para los próximos eventos."
   compact-display: "Lista compacta de cuentas atrás en Cuentas atrás con varios eventos visibles de un vistazo."
@@ -107,6 +117,8 @@ es:
   pregnancy-countdown-app: "Cuentas atrás de embarazo en Cuentas atrás con las semanas y los días que faltan para la llegada del bebé."
   event-countdown-app: "Editor de eventos de Cuentas atrás con opciones de fecha y personalización de la cuenta atrás."
   christmas-countdown-app: "Widgets de Cuentas atrás en la pantalla de bloqueo del iPhone con la cuenta atrás para Navidad."
+  home-screen-custom-widgets: "Widgets personalizados de Cuentas atrás en la pantalla de inicio del iPhone con la cuenta atrás de un viaje a la playa, el cumpleaños de mamá y una boda."
+  widget-editor: "El editor de widgets de Cuentas atrás diseñando un widget de un viaje a la playa con una foto de fondo."
 es-MX:
   normal-display: "Lista detallada de cuentas regresivas en Contadores con el tiempo que falta para los próximos eventos."
   compact-display: "Lista compacta de cuentas regresivas en Contadores con varios eventos visibles de un vistazo."
@@ -125,6 +137,8 @@ es-MX:
   pregnancy-countdown-app: "Cuentas regresivas de embarazo en Contadores con las semanas y los días que faltan para la llegada del bebé."
   event-countdown-app: "Editor de eventos de Contadores con opciones de fecha y personalización de la cuenta regresiva."
   christmas-countdown-app: "Widgets de Contadores en la pantalla de bloqueo del iPhone con la cuenta regresiva para Navidad."
+  home-screen-custom-widgets: "Widgets personalizados de Contadores en la pantalla de inicio del iPhone con la cuenta regresiva de un viaje a la playa, el cumpleaños de mamá y una boda."
+  widget-editor: "El editor de widgets de Contadores diseñando un widget de un viaje a la playa con una foto de fondo."
 fi:
   normal-display: "Laskurit-sovelluksen yksityiskohtainen laskuriluettelo näyttää tuleviin tapahtumiin jäljellä olevan ajan."
   compact-display: "Laskurit-sovelluksen tiivis laskuriluettelo näyttää useita tapahtumia yhdellä silmäyksellä."
@@ -143,6 +157,8 @@ fi:
   pregnancy-countdown-app: "Laskurit-sovelluksen raskauslaskurit näyttävät vauvan syntymään jäljellä olevat viikot ja päivät."
   event-countdown-app: "Tapahtuman muokkaus Laskurit-sovelluksessa: päivämäärä ja laskurin mukautusvalinnat."
   christmas-countdown-app: "Laskurit-sovelluksen widgetit iPhonen lukitusnäytöllä näyttävät ajan jouluun."
+  home-screen-custom-widgets: "Mukautetut Laskurit-widgetit iPhonen kotivalikossa laskevat aikaa rantalomaan, äidin syntymäpäivään ja häihin."
+  widget-editor: "Laskurit-apin widgetieditori suunnittelee rantaloman widgetiä, jonka taustana on kuva."
 fr:
   normal-display: "Liste détaillée de comptes à rebours dans Compte à rebours avec le temps restant avant les prochains événements."
   compact-display: "Liste compacte de comptes à rebours dans Compte à rebours avec plusieurs événements visibles en un coup d’œil."
@@ -161,6 +177,8 @@ fr:
   pregnancy-countdown-app: "Comptes à rebours de grossesse dans Compte à rebours affichant les semaines et les jours avant l’arrivée de bébé."
   event-countdown-app: "Éditeur d’événement dans Compte à rebours avec la date et les options de personnalisation du compte à rebours."
   christmas-countdown-app: "Widgets Compte à rebours sur l’écran verrouillé de l’iPhone avec le compte à rebours de Noël."
+  home-screen-custom-widgets: "Widgets personnalisés de Compte à rebours sur l'écran d'accueil de l'iPhone, pour un voyage à la plage, l'anniversaire de maman et un mariage."
+  widget-editor: "L'éditeur de widgets de Compte à rebours crée un widget pour un voyage à la plage avec une photo en arrière-plan."
 it:
   normal-display: "Elenco dettagliato di conti alla rovescia in Contatore con il tempo rimanente prima dei prossimi eventi."
   compact-display: "Elenco compatto di conti alla rovescia in Contatore con più eventi visibili a colpo d’occhio."
@@ -179,6 +197,8 @@ it:
   pregnancy-countdown-app: "Conti alla rovescia della gravidanza in Contatore con le settimane e i giorni prima dell’arrivo del bebè."
   event-countdown-app: "Schermata di modifica dell’evento in Contatore con data e opzioni di personalizzazione del conto alla rovescia."
   christmas-countdown-app: "Widget di Contatore sulla schermata di blocco di iPhone con il conto alla rovescia per Natale."
+  home-screen-custom-widgets: "Widget personalizzati di Contatore nella schermata Home dell'iPhone con il conto alla rovescia per una vacanza al mare, il compleanno della mamma e un matrimonio."
+  widget-editor: "L'editor dei widget di Contatore mentre crea un widget per una vacanza al mare con una foto di sfondo."
 ja:
   normal-display: "今後の予定までの残り時間を詳しく表示したカウントダウンのカウントダウン一覧。"
   compact-display: "複数の予定をひと目で確認できるカウントダウンのコンパクトなカウントダウン一覧。"
@@ -197,6 +217,8 @@ ja:
   pregnancy-countdown-app: "赤ちゃんの誕生までの残り週数と日数を表示したカウントダウンの妊娠カウントダウン。"
   event-countdown-app: "日時とカウントダウンのカスタマイズ項目を表示したカウントダウンの予定編集画面。"
   christmas-countdown-app: "クリスマスまでをカウントダウンする、iPhoneのロック画面上のカウントダウンウィジェット。"
+  home-screen-custom-widgets: "iPhoneのホーム画面に置いたカウントダウンのカスタムウィジェット。ビーチ旅行、母の誕生日、結婚式までを数えます。"
+  widget-editor: "カウントダウンのウィジェットエディタで、写真を背景にしたビーチ旅行のウィジェットをデザインしているところ。"
 ko:
   normal-display: "다가오는 일정까지 남은 시간을 자세히 보여 주는 카운트다운의 카운트다운 목록."
   compact-display: "여러 일정을 한눈에 볼 수 있는 카운트다운의 간결한 카운트다운 목록."
@@ -215,6 +237,8 @@ ko:
   pregnancy-countdown-app: "아기가 태어날 때까지 남은 주수와 일수를 보여 주는 카운트다운의 임신 카운트다운."
   event-countdown-app: "날짜와 카운트다운 사용자화 옵션을 보여 주는 카운트다운의 일정 편집 화면."
   christmas-countdown-app: "크리스마스까지 남은 시간을 보여 주는 iPhone 잠금 화면의 카운트다운 위젯."
+  home-screen-custom-widgets: "iPhone 홈 화면에 있는 카운트다운 맞춤 위젯이 해변 여행, 엄마 생일, 결혼식까지 남은 시간을 보여 줍니다."
+  widget-editor: "카운트다운 위젯 편집기에서 사진 배경으로 해변 여행 위젯을 디자인하는 모습."
 nb:
   normal-display: "Detaljert nedtellingsliste i Nedtellinger med tiden frem til kommende hendelser."
   compact-display: "Kompakt nedtellingsliste i Nedtellinger med flere hendelser synlige på én gang."
@@ -233,6 +257,8 @@ nb:
   pregnancy-countdown-app: "Graviditetsnedtellinger i Nedtellinger med uker og dager til babyen kommer."
   event-countdown-app: "Redigering av en hendelse i Nedtellinger med dato og valg for å tilpasse nedtellingen."
   christmas-countdown-app: "Nedtellinger-widgeter på låst skjerm på iPhone med nedtellingen til jul."
+  home-screen-custom-widgets: "Tilpassede Nedtellinger-widgeter på iPhone-hjemskjermen som teller ned til en strandtur, mammas bursdag og et bryllup."
+  widget-editor: "Widgetredigereren i Nedtellinger som designer en widget for en strandtur med et bilde som bakgrunn."
 nl:
   normal-display: "Gedetailleerde aftellijst in Aftellingen met de resterende tijd tot komende evenementen."
   compact-display: "Compacte aftellijst in Aftellingen met meerdere evenementen in één oogopslag."
@@ -251,6 +277,8 @@ nl:
   pregnancy-countdown-app: "Zwangerschapsaftellers in Aftellingen met de weken en dagen tot de komst van de baby."
   event-countdown-app: "Bewerkingsscherm voor een evenement in Aftellingen met de datum en aanpassingsopties voor de afteller."
   christmas-countdown-app: "Aftellingen-widgets op het toegangsscherm van de iPhone die aftellen tot Kerstmis."
+  home-screen-custom-widgets: "Eigen Aftellingen-widgets op het iPhone-beginscherm die aftellen naar een strandvakantie, mama's verjaardag en een bruiloft."
+  widget-editor: "De widgeteditor van Aftellingen ontwerpt een widget voor een strandvakantie met een foto als achtergrond."
 pl:
   normal-display: "Szczegółowa lista odliczania w aplikacji Odliczanie pokazująca czas pozostały do nadchodzących wydarzeń."
   compact-display: "Kompaktowa lista odliczania w aplikacji Odliczanie z kilkoma wydarzeniami widocznymi na pierwszy rzut oka."
@@ -269,6 +297,8 @@ pl:
   pregnancy-countdown-app: "Odliczanie ciąży w aplikacji Odliczanie pokazujące tygodnie i dni do narodzin dziecka."
   event-countdown-app: "Edytor wydarzenia w aplikacji Odliczanie z datą i opcjami dostosowania odliczania."
   christmas-countdown-app: "Widżety aplikacji Odliczanie na ekranie blokady iPhone’a odliczające czas do Bożego Narodzenia."
+  home-screen-custom-widgets: "Własne widżety Odliczanie na ekranie początkowym iPhone'a odliczające czas do wyjazdu na plażę, urodzin mamy i ślubu."
+  widget-editor: "Edytor widżetów w aplikacji Odliczanie projektuje widżet wyjazdu na plażę ze zdjęciem w tle."
 pt:
   normal-display: "Lista detalhada de contagens decrescentes na aplicação Contagem com o tempo que falta para os próximos eventos."
   compact-display: "Lista compacta de contagens decrescentes na aplicação Contagem com vários eventos visíveis de relance."
@@ -287,6 +317,8 @@ pt:
   pregnancy-countdown-app: "Contagens decrescentes da gravidez na aplicação Contagem com as semanas e os dias que faltam para a chegada do bebé."
   event-countdown-app: "Editor de eventos na aplicação Contagem com opções de data e personalização da contagem decrescente."
   christmas-countdown-app: "Widgets da aplicação Contagem no ecrã bloqueado do iPhone com a contagem decrescente para o Natal."
+  home-screen-custom-widgets: "Widgets personalizados da Contagem no ecrã principal do iPhone, com a contagem decrescente para uma viagem à praia, o aniversário da mãe e um casamento."
+  widget-editor: "O editor de widgets da Contagem a criar um widget de uma viagem à praia com uma fotografia de fundo."
 pt-BR:
   normal-display: "Lista detalhada de contagens regressivas no app Contagens com o tempo que falta para os próximos eventos."
   compact-display: "Lista compacta de contagens regressivas no app Contagens com vários eventos visíveis de uma só vez."
@@ -305,6 +337,8 @@ pt-BR:
   pregnancy-countdown-app: "Contagens regressivas da gravidez no app Contagens com as semanas e os dias que faltam para a chegada do bebê."
   event-countdown-app: "Editor de eventos no app Contagens com opções de data e personalização da contagem regressiva."
   christmas-countdown-app: "Widgets do app Contagens na Tela Bloqueada do iPhone com a contagem regressiva para o Natal."
+  home-screen-custom-widgets: "Widgets personalizados do Contagens na Tela de Início do iPhone, com a contagem regressiva para uma viagem à praia, o aniversário da mãe e um casamento."
+  widget-editor: "O editor de widgets do Contagens criando um widget de uma viagem à praia com uma foto de fundo."
 ru:
   normal-display: "Подробный список обратных отсчётов в приложении «Таймеры» со временем до предстоящих событий."
   compact-display: "Компактный список обратных отсчётов в приложении «Таймеры», где сразу видно несколько событий."
@@ -323,6 +357,8 @@ ru:
   pregnancy-countdown-app: "Обратные отсчёты беременности в приложении «Таймеры» показывают недели и дни до рождения малыша."
   event-countdown-app: "Редактор события в приложении «Таймеры» с датой и параметрами настройки обратного отсчёта."
   christmas-countdown-app: "Виджеты приложения «Таймеры» на экране блокировки iPhone с обратным отсчётом до Рождества."
+  home-screen-custom-widgets: "Собственные виджеты «Таймеры» на экране «Домой» iPhone с обратным отсчетом до поездки на пляж, дня рождения мамы и свадьбы."
+  widget-editor: "Редактор виджетов в приложении «Таймеры» создает виджет поездки на пляж с фотографией на фоне."
 sk:
   normal-display: "Podrobný zoznam odpočítavaní v aplikácii Odpočty s časom zostávajúcim do nadchádzajúcich udalostí."
   compact-display: "Kompaktný zoznam odpočítavaní v aplikácii Odpočty s viacerými udalosťami viditeľnými na prvý pohľad."
@@ -341,6 +377,8 @@ sk:
   pregnancy-countdown-app: "Odpočítavania tehotenstva v aplikácii Odpočty zobrazujú týždne a dni do príchodu bábätka."
   event-countdown-app: "Editor udalosti v aplikácii Odpočty s dátumom a možnosťami prispôsobenia odpočítavania."
   christmas-countdown-app: "Widgety aplikácie Odpočty na zamknutej obrazovke iPhonu s odpočítavaním do Vianoc."
+  home-screen-custom-widgets: "Vlastné widgety aplikácie Odpočty na ploche iPhonu s odpočtom do výletu k moru, maminých narodenín a svadby."
+  widget-editor: "Editor widgetov v aplikácii Odpočty navrhuje widget výletu k moru s fotkou v pozadí."
 sv:
   normal-display: "Detaljerad nedräkningslista i Nedräkningar med tiden fram till kommande händelser."
   compact-display: "Kompakt nedräkningslista i Nedräkningar med flera händelser synliga på en gång."
@@ -359,6 +397,8 @@ sv:
   pregnancy-countdown-app: "Graviditetsnedräkningar i Nedräkningar med veckor och dagar tills bebisen kommer."
   event-countdown-app: "Redigering av en händelse i Nedräkningar med datum och alternativ för att anpassa nedräkningen."
   christmas-countdown-app: "Nedräkningar-widgetar på låsskärmen på iPhone med nedräkningen till jul."
+  home-screen-custom-widgets: "Anpassade Nedräkningar-widgetar på iPhones hemskärm som räknar ner till en strandresa, mammas födelsedag och ett bröllop."
+  widget-editor: "Widgetredigeraren i Nedräkningar som designar en widget för en strandresa med ett foto som bakgrund."
 tr:
   normal-display: "Yaklaşan etkinliklere kalan süreyi gösteren ayrıntılı Geri Sayım geri sayım listesi."
   compact-display: "Birden fazla etkinliği bir bakışta gösteren kompakt Geri Sayım geri sayım listesi."
@@ -377,6 +417,8 @@ tr:
   pregnancy-countdown-app: "Geri Sayım’da bebeğin gelişine kalan hafta ve günleri gösteren hamilelik geri sayımları."
   event-countdown-app: "Tarih ve geri sayım özelleştirme seçeneklerini gösteren Geri Sayım etkinlik düzenleyicisi."
   christmas-countdown-app: "iPhone Kilitli Ekranında Noel’e geri sayım yapan Geri Sayım araç takımları."
+  home-screen-custom-widgets: "iPhone Ana Ekranı'nda plaj tatili, annemin doğum günü ve bir düğün için geri sayan özel Geri Sayım widget'ları."
+  widget-editor: "Geri Sayım widget düzenleyicisinde fotoğraf arka planlı bir plaj tatili widget'ı tasarlanıyor."
 zh-Hans:
   normal-display: "时光仪 的详细倒计时列表，显示距离即将到来的活动还有多长时间。"
   compact-display: "时光仪 的紧凑倒计时列表，多个活动一目了然。"
@@ -395,6 +437,8 @@ zh-Hans:
   pregnancy-countdown-app: "时光仪 中的孕期倒计时，以周数和天数显示距离宝宝出生还有多久。"
   event-countdown-app: "时光仪 的活动编辑界面，显示日期和倒计时自定义选项。"
   christmas-countdown-app: "iPhone 锁定屏幕上的 时光仪 小组件，显示圣诞节倒计时。"
+  home-screen-custom-widgets: "iPhone 主屏幕上的时光仪自定小组件，倒数海滩旅行、妈妈生日和婚礼。"
+  widget-editor: "时光仪的小组件编辑器正在设计以照片为背景的海滩旅行小组件。"
 zh-Hant:
   normal-display: "倒數日 的詳細倒數列表，顯示距離即將到來的活動還有多長時間。"
   compact-display: "倒數日 的精簡倒數列表，多個活動一目瞭然。"
@@ -413,6 +457,8 @@ zh-Hant:
   pregnancy-countdown-app: "倒數日 中的孕期倒數，以週數和天數顯示距離寶寶出生還有多久。"
   event-countdown-app: "倒數日 的活動編輯畫面，顯示日期和倒數自訂選項。"
   christmas-countdown-app: "iPhone 鎖定畫面上的 倒數日 小工具，顯示聖誕節倒數。"
+  home-screen-custom-widgets: "iPhone 主畫面上的倒數日自訂小工具，倒數海灘旅行、媽媽生日和婚禮。"
+  widget-editor: "倒數日的小工具編輯器正在設計以照片為背景的海灘旅行小工具。"
 hi:
   normal-display: काउंटडाउन ऐप की विस्तृत सूची, जिसमें आगामी आयोजनों तक बचा समय दिखाया गया है।
   compact-display: काउंटडाउन ऐप की कॉम्पैक्ट सूची, जिसमें एक नज़र में कई आयोजन दिख रहे हैं।
@@ -431,6 +477,8 @@ hi:
   pregnancy-countdown-app: काउंटडाउन ऐप में गर्भावस्था के काउंटडाउन, जिनमें बच्चे के आने तक बचे सप्ताह और दिन दिख रहे हैं।
   event-countdown-app: काउंटडाउन ऐप का आयोजन संपादक, जिसमें तारीख और काउंटडाउन को अपनी पसंद के मुताबिक बदलने के विकल्प हैं।
   christmas-countdown-app: iPhone की लॉक स्क्रीन पर काउंटडाउन के विजेट, जिनमें क्रिसमस तक की उलटी गिनती दिख रही है।
+  home-screen-custom-widgets: "iPhone होम स्क्रीन पर काउंटडाउन के कस्टम विजेट, जो बीच ट्रिप, माँ के जन्मदिन और एक शादी तक की उलटी गिनती दिखाते हैं।"
+  widget-editor: "काउंटडाउन का विजेट एडिटर, जिसमें फ़ोटो बैकग्राउंड वाला बीच ट्रिप विजेट बनाया जा रहा है।"
 
 cs:
   normal-display: Odpočty — Podrobný seznam odpočtů se zbývajícím časem.
@@ -460,6 +508,8 @@ cs:
     odpočtu.
   christmas-countdown-app: Odpočty — Odpočet do Vánoc. Widgety na zamčené obrazovce
     s nadcházejícími událostmi.
+  home-screen-custom-widgets: "Vlastní widgety aplikace Odpočty na ploše iPhonu s odpočtem do výletu k moři, maminčiných narozenin a svatby."
+  widget-editor: "Editor widgetů v aplikaci Odpočty navrhuje widget výletu k moři s fotkou na pozadí."
 fil:
   normal-display: Bilang Paurong — Detalyadong listahan ng mga bilang paurong at natitirang
     oras.
@@ -491,6 +541,8 @@ fil:
     petsa, at mga opsyon ng bilang paurong.
   christmas-countdown-app: Bilang Paurong — Bilang paurong sa Pasko. Mga widget sa
     Lock Screen para sa paparating na kaganapan.
+  home-screen-custom-widgets: "Mga custom na widget ng Bilang Paurong sa Home Screen ng iPhone na nagbibilang pababa sa beach trip, kaarawan ni Nanay, at isang kasal."
+  widget-editor: "Ang widget editor ng Bilang Paurong habang dinidisenyo ang widget ng beach trip na may larawan bilang background."
 el:
   normal-display: Αντίστροφη Μέτρηση — Αναλυτική λίστα μετρήσεων με τον χρόνο που
     απομένει.
@@ -522,6 +574,8 @@ el:
     ονόματος, ημερομηνίας και επιλογών μέτρησης.
   christmas-countdown-app: Αντίστροφη Μέτρηση — Αντίστροφη μέτρηση για Χριστούγεννα.
     Widget στην οθόνη κλειδώματος με προσεχείς εκδηλώσεις.
+  home-screen-custom-widgets: "Προσαρμοσμένα widget της εφαρμογής Αντίστροφη Μέτρηση στην οθόνη αφετηρίας του iPhone με αντίστροφη μέτρηση για εκδρομή στην παραλία, τα γενέθλια της μαμάς και έναν γάμο."
+  widget-editor: "Ο επεξεργαστής widget της εφαρμογής Αντίστροφη Μέτρηση σχεδιάζει ένα widget για εκδρομή στην παραλία με φωτογραφία στο φόντο."
 he:
   normal-display: ספירה לאחור — רשימה מפורטת של ספירות לאחור עם הזמן שנותר.
   compact-display: ספירה לאחור — רשימה קומפקטית של כמה אירועים.
@@ -550,6 +604,8 @@ he:
     של הספירה לאחור.
   christmas-countdown-app: ספירה לאחור — ספירה לאחור לחג המולד. וידג׳טים במסך הנעילה
     עם אירועים קרובים.
+  home-screen-custom-widgets: "ווידג׳טים מותאמים אישית של ספירה לאחור במסך הבית של iPhone, שסופרים לאחור לטיול לחוף, ליום ההולדת של אמא ולחתונה."
+  widget-editor: "עורך הווידג׳טים של ספירה לאחור מעצב ווידג׳ט לטיול לחוף עם תמונה ברקע."
 hu:
   normal-display: Visszaszámlálók — Részletes visszaszámlálólista a hátralévő idővel.
   compact-display: Visszaszámlálók — Több esemény kompakt listája.
@@ -579,6 +635,8 @@ hu:
     nevének, dátumának és beállításainak szerkesztése.
   christmas-countdown-app: Visszaszámlálók — Visszaszámlálás karácsonyig. Zárolási
     képernyős widgetek a közelgő eseményekkel.
+  home-screen-custom-widgets: "Egyéni Visszaszámlálók widgetek az iPhone főképernyőjén, amelyek egy tengerparti útig, anya születésnapjáig és egy esküvőig számolnak vissza."
+  widget-editor: "A Visszaszámlálók widgetszerkesztője egy tengerparti út widgetjét tervezi, fotóval a háttérben."
 id:
   normal-display: Hitung Mundur — Daftar hitung mundur terperinci dengan sisa waktu.
   compact-display: Hitung Mundur — Daftar ringkas beberapa acara.
@@ -607,6 +665,8 @@ id:
     dan opsi hitung mundur.
   christmas-countdown-app: Hitung Mundur — Hitung mundur Natal. Widget Layar Terkunci
     dengan acara mendatang.
+  home-screen-custom-widgets: "Widget kustom Hitung Mundur di Layar Utama iPhone yang menghitung mundur ke liburan pantai, ulang tahun Ibu, dan pernikahan."
+  widget-editor: "Editor widget Hitung Mundur sedang mendesain widget liburan pantai dengan latar belakang foto."
 ms:
   normal-display: Kiraan Detik — Senarai kiraan detik terperinci dengan baki masa.
   compact-display: Kiraan Detik — Senarai padat beberapa acara.
@@ -635,6 +695,8 @@ ms:
     dan pilihan kiraan detik.
   christmas-countdown-app: Kiraan Detik — Kiraan detik Krismas. Widget Skrin Kunci
     dengan acara akan datang.
+  home-screen-custom-widgets: "Widget tersuai Kiraan Detik pada Skrin Utama iPhone yang mengira detik ke percutian pantai, hari jadi Ibu dan majlis perkahwinan."
+  widget-editor: "Editor widget Kiraan Detik sedang mereka bentuk widget percutian pantai dengan latar belakang foto."
 ro:
   normal-display: Numărători inverse — Listă detaliată de numărători inverse cu timpul
     rămas.
@@ -667,6 +729,8 @@ ro:
     Editarea numelui, datei și opțiunilor numărătorii inverse.
   christmas-countdown-app: Numărători inverse — Numărătoare inversă până la Crăciun.
     Widgeturi pe ecranul de blocare cu evenimente viitoare.
+  home-screen-custom-widgets: "Widgeturi personalizate Numărători inverse pe ecranul principal al iPhone-ului, care numără invers până la o excursie la plajă, ziua mamei și o nuntă."
+  widget-editor: "Editorul de widgeturi din Numărători inverse creând un widget pentru o excursie la plajă cu o fotografie pe fundal."
 th:
   normal-display: นับถอยหลัง — รายการนับถอยหลังแบบละเอียดพร้อมเวลาที่เหลือ.
   compact-display: นับถอยหลัง — รายการกิจกรรมหลายรายการแบบกระชับ.
@@ -685,6 +749,8 @@ th:
   pregnancy-countdown-app: นับถอยหลัง — นับถอยหลังสู่วันคลอด. รายการนับถอยหลังแบบละเอียดพร้อมเวลาที่เหลือ.
   event-countdown-app: นับถอยหลัง — นับถอยหลังสู่กิจกรรม. การแก้ไขชื่อ วันที่ และตัวเลือกการนับถอยหลัง.
   christmas-countdown-app: นับถอยหลัง — นับถอยหลังสู่คริสต์มาส. วิดเจ็ตหน้าจอล็อคพร้อมกิจกรรมที่กำลังจะมาถึง.
+  home-screen-custom-widgets: "วิดเจ็ตแบบกำหนดเองของนับถอยหลังบนหน้าจอโฮมของ iPhone ที่นับถอยหลังสู่ทริปทะเล วันเกิดแม่ และงานแต่งงาน"
+  widget-editor: "ตัวแก้ไขวิดเจ็ตของนับถอยหลังกำลังออกแบบวิดเจ็ตทริปทะเลที่ใช้รูปภาพเป็นพื้นหลัง"
 vi:
   normal-display: Đếm ngược — Danh sách đếm ngược chi tiết với thời gian còn lại.
   compact-display: Đếm ngược — Danh sách thu gọn gồm nhiều sự kiện.
@@ -713,6 +779,8 @@ vi:
     chọn đếm ngược.
   christmas-countdown-app: Đếm ngược — Đếm ngược đến Giáng sinh. Tiện ích Màn hình
     khóa với các sự kiện sắp tới.
+  home-screen-custom-widgets: "Các widget Đếm ngược tùy chỉnh trên Màn hình chính iPhone, đếm ngược đến chuyến đi biển, sinh nhật mẹ và một đám cưới."
+  widget-editor: "Trình chỉnh sửa widget của Đếm ngược đang thiết kế widget chuyến đi biển với ảnh làm nền."
 uk:
   normal-display: Відліки — Докладний список відліків із часом, що залишився.
   compact-display: Відліки — Компактний список кількох подій.
@@ -741,6 +809,8 @@ uk:
     відліку.
   christmas-countdown-app: Відліки — Відлік до Різдва. Віджети екрана блокування з
     майбутніми подіями.
+  home-screen-custom-widgets: "Власні віджети «Відліки» на початковому екрані iPhone зі зворотним відліком до поїздки на пляж, дня народження мами та весілля."
+  widget-editor: "Редактор віджетів у застосунку «Відліки» створює віджет поїздки на пляж із фотографією на тлі."
 
 en-CA:
   normal-display: Detailed countdown list in Countdowns showing time remaining until upcoming events.
@@ -764,6 +834,8 @@ en-CA:
   pregnancy-countdown-app: Pregnancy countdowns in Countdowns showing weeks and days until the baby arrives.
   event-countdown-app: Event editor in Countdowns with date and countdown customization options.
   christmas-countdown-app: Countdowns widgets on the iPhone Lock Screen counting down to Christmas.
+  home-screen-custom-widgets: "Custom Countdowns widgets on the iPhone Home Screen counting down to a beach trip, Mom's birthday, and a wedding."
+  widget-editor: "The Countdowns widget editor designing a beach trip widget with a photo background."
 
 en-GB:
   normal-display: Detailed countdown list in Countdowns showing time remaining until upcoming events.
@@ -787,6 +859,8 @@ en-GB:
   pregnancy-countdown-app: Pregnancy countdowns in Countdowns showing weeks and days until the baby arrives.
   event-countdown-app: Event editor in Countdowns with date and countdown customisation options.
   christmas-countdown-app: Countdowns widgets on the iPhone Lock Screen counting down to Christmas.
+  home-screen-custom-widgets: "Custom Countdowns widgets on the iPhone Home Screen counting down to a beach trip, Mum's birthday and a wedding."
+  widget-editor: "The Countdowns widget editor designing a beach trip widget with a photo background."
 
 en-AU:
   normal-display: Detailed countdown list in Countdowns showing time remaining until upcoming events.
@@ -810,3 +884,5 @@ en-AU:
   pregnancy-countdown-app: Pregnancy countdowns in Countdowns showing weeks and days until the baby arrives.
   event-countdown-app: Event editor in Countdowns with date and countdown customisation options.
   christmas-countdown-app: Countdowns widgets on the iPhone Lock Screen counting down to Christmas.
+  home-screen-custom-widgets: "Custom Countdowns widgets on the iPhone Home Screen counting down to a beach trip, Mum's birthday and a wedding."
+  widget-editor: "The Countdowns widget editor designing a beach trip widget with a photo background."
