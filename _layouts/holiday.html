@@ -60,7 +60,7 @@ layout: default
 
   <section class="holiday-app site-container" aria-labelledby="holiday-app-heading" data-holiday-placement="widget">
     <div class="holiday-app__copy"><p class="section-kicker">{{ tool.app_kicker }}</p><h2 id="holiday-app-heading">{{ tool.app_title }}</h2><p>{{ tool.app_body | replace: token_app, app_name }}</p>{% unless holiday_copy.planning == '' %}<p>{{ holiday_copy.planning }}</p>{% endunless %}<div class="holiday-app__actions">{% include app-store-badge.html locale=current_locale %}<a class="holiday-text-link" href="{{ holiday.guide | prepend: '/' | prepend: locale_prefix | append: '/' | relative_url }}">{{ holiday_copy.guide_label }} <span aria-hidden="true">→</span></a></div><p class="holiday-app__note">{{ t.hero_eyebrow }}</p></div>
-    <div class="holiday-app__preview">{% include screenshot.html scene='home-screen-widgets' locale=current_locale size_role='pricing' %}</div>
+    <div class="holiday-app__preview">{% include screenshot.html scene='home-screen-custom-widgets' locale=current_locale size_role='pricing' %}</div>
   </section>
 
   <section class="holiday-related site-container" aria-labelledby="holiday-related-heading"><p class="section-kicker">{{ tool.related_kicker }}</p><h2 id="holiday-related-heading">{{ tool.related_title }}</h2><div class="holiday-related__links">{% for other in site.data.holidays %}{% unless other.slug == holiday.slug %}<a href="{{ other.slug | prepend: '/when-is/' | prepend: locale_prefix | append: '/' | relative_url }}"><span aria-hidden="true">{{ other.icon }}</span> {{ tools_copy.holidays[other.slug].name }} <span aria-hidden="true">↗</span></a>{% endunless %}{% endfor %}</div></section>
