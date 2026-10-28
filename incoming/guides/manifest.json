@@ -1,0 +1,1370 @@
+[
+  {
+    "code": "ar",
+    "scene": "anniversary-countdown-app",
+    "sha256": "0c4203a3f435bd21cd33ed2a373f7a63e0143d99a848d487623f61c692db7b1c",
+    "bytes": 3154314
+  },
+  {
+    "code": "ar",
+    "scene": "christmas-countdown-app",
+    "sha256": "8c276444ccac095bb6aafa3819151fc5e378a42ea78ded276e0cd5d47fb92229",
+    "bytes": 4468483
+  },
+  {
+    "code": "ar",
+    "scene": "holiday-countdown-app",
+    "sha256": "70f775a863144d0538d9efd5bf0ad3f663bc666b124be25a717a572463408055",
+    "bytes": 3587422
+  },
+  {
+    "code": "ar",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "8da06147629e94af37d9ab2c8350a98afea5c55a7846581ea84df6ed5f3f763c",
+    "bytes": 4439378
+  },
+  {
+    "code": "ar",
+    "scene": "vacation-countdown-app",
+    "sha256": "aa69e844443f1d015057342f5be57290fd16a45a9710f8eb57d3cf63f8cfac43",
+    "bytes": 4126008
+  },
+  {
+    "code": "ar",
+    "scene": "wedding-countdown-app",
+    "sha256": "4e610daa5aa690eb7ce430801b4ca70c55dbb30111ebf82d5300653aec3f9270",
+    "bytes": 4114812
+  },
+  {
+    "code": "ca",
+    "scene": "anniversary-countdown-app",
+    "sha256": "4038bd983f266d250717090061f9548e57766a05e0b4f1cb6c91f60b2d44e3e6",
+    "bytes": 3150091
+  },
+  {
+    "code": "ca",
+    "scene": "christmas-countdown-app",
+    "sha256": "b8920e0035ae1930677afce0337ad17976948609403fc5b09845f009237bdcc8",
+    "bytes": 4450787
+  },
+  {
+    "code": "ca",
+    "scene": "holiday-countdown-app",
+    "sha256": "36f9fc29e397106c9083c2181307407db778ec98870dfc9f0eef05d769cf9f63",
+    "bytes": 3575225
+  },
+  {
+    "code": "ca",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "06049b775de89311fda29836805036542dbe88b2ff86e289d9a1335d9e6c6752",
+    "bytes": 4422857
+  },
+  {
+    "code": "ca",
+    "scene": "vacation-countdown-app",
+    "sha256": "1b2d62ba446f51f98e738de9523c947f0147dace806450137f09764d2715eef3",
+    "bytes": 4108072
+  },
+  {
+    "code": "ca",
+    "scene": "wedding-countdown-app",
+    "sha256": "fc3077557702a463601fd881fbcc2af986455ee0f920fd12806976ab07117e32",
+    "bytes": 4114069
+  },
+  {
+    "code": "cs",
+    "scene": "anniversary-countdown-app",
+    "sha256": "f4a9a889ec5071f9149056264d92832b75a2b24f37bc826bba7b917a1e35214b",
+    "bytes": 3145092
+  },
+  {
+    "code": "cs",
+    "scene": "christmas-countdown-app",
+    "sha256": "2e3e2c3ba1fb3a02e0bf0dc426667a86ff49efb52cdf3c0ca1f3567a121a92ac",
+    "bytes": 4447450
+  },
+  {
+    "code": "cs",
+    "scene": "holiday-countdown-app",
+    "sha256": "5b4ab462e4a301a2d0110dedcfec4beb7bbb02f45ccf9320660e85959169966c",
+    "bytes": 3570032
+  },
+  {
+    "code": "cs",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "86832d3a4754791380b59c96866d5b32c58652c47dd23a78a33aaa2e8b1f8baa",
+    "bytes": 4417939
+  },
+  {
+    "code": "cs",
+    "scene": "vacation-countdown-app",
+    "sha256": "98ff55783a49bdd4b6564cb7d848cf6d9e4eaa9fa60ae84ad9bc2dd8882cd2ec",
+    "bytes": 4098126
+  },
+  {
+    "code": "cs",
+    "scene": "wedding-countdown-app",
+    "sha256": "5f4faf4cb3fdac3ad88b23cc82bf85993aaa8664bb5216ad365efb32b412e6b2",
+    "bytes": 4109308
+  },
+  {
+    "code": "da",
+    "scene": "anniversary-countdown-app",
+    "sha256": "b27566e1a1f4b7c4b3617b3369edc4af8a19b3b6229dbd5dfb325dca2ec71eeb",
+    "bytes": 3154453
+  },
+  {
+    "code": "da",
+    "scene": "christmas-countdown-app",
+    "sha256": "643a4cb1053d8e0b8bc5ca400fd6ed64dad92da62562bbfe825e4f0cab369b33",
+    "bytes": 4455232
+  },
+  {
+    "code": "da",
+    "scene": "holiday-countdown-app",
+    "sha256": "1de023cf97ba4eac449e1e187a1bb9ea490f5a7b69cb0253cc3694d3c0107587",
+    "bytes": 3578085
+  },
+  {
+    "code": "da",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "6a3583c8476805c36c34ea8d2682b97df7b48380f1ac3726e549f5faa42abb3f",
+    "bytes": 4421105
+  },
+  {
+    "code": "da",
+    "scene": "vacation-countdown-app",
+    "sha256": "015b16be6251555a72758e495fd1cff28b2955394e2593683c1e32cf6f5cd6c8",
+    "bytes": 4109605
+  },
+  {
+    "code": "da",
+    "scene": "wedding-countdown-app",
+    "sha256": "efae2a1ab74085221cd2a931bf98535aff3395e6e8268e10da24300c0b52e6f0",
+    "bytes": 4115217
+  },
+  {
+    "code": "de",
+    "scene": "anniversary-countdown-app",
+    "sha256": "e826fe331639dcbc77b1b9c65075eeb9b677e441430443a3b031093b92097c07",
+    "bytes": 3149940
+  },
+  {
+    "code": "de",
+    "scene": "christmas-countdown-app",
+    "sha256": "c3a74525aa1175577f11230f63347b6090a6cf0c86df400687d5f12cae89d77f",
+    "bytes": 4448040
+  },
+  {
+    "code": "de",
+    "scene": "holiday-countdown-app",
+    "sha256": "e71356d49b0e2432ef1e793e4820c9795147a2527618676561965a031d3821fc",
+    "bytes": 3572314
+  },
+  {
+    "code": "de",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "1f7932566e774fa89f43bba8f879c59051027acf8e34b41f01a1f1ab6cbdc1ec",
+    "bytes": 4411700
+  },
+  {
+    "code": "de",
+    "scene": "vacation-countdown-app",
+    "sha256": "18335500d091a7c34a8ca3c8799465243db8287c2f29cb55a1c42c38132b2917",
+    "bytes": 4102042
+  },
+  {
+    "code": "de",
+    "scene": "wedding-countdown-app",
+    "sha256": "c1f26c5a8f3933fb7f1b222c8b6629b44d591070b0d02c8a80fd1695c03e238b",
+    "bytes": 4108627
+  },
+  {
+    "code": "el",
+    "scene": "anniversary-countdown-app",
+    "sha256": "39874f4c60fe1d9e8760c79e9a644a2a3634bda5944c025b9b1b0b5d4ec5393c",
+    "bytes": 3144294
+  },
+  {
+    "code": "el",
+    "scene": "christmas-countdown-app",
+    "sha256": "ac0a8b9b981bd65f348e314f51073056ecb50759f5fde8251bf0060ac20533c5",
+    "bytes": 4449564
+  },
+  {
+    "code": "el",
+    "scene": "holiday-countdown-app",
+    "sha256": "41fcfc5e747b63914bedb9fb147b9015001665481ea61f30151b7727b5c2df99",
+    "bytes": 3576563
+  },
+  {
+    "code": "el",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "e831551928b6bf7c0fea591559b6765ea0fbed88512031c7521b2cec0313f75f",
+    "bytes": 4409741
+  },
+  {
+    "code": "el",
+    "scene": "vacation-countdown-app",
+    "sha256": "ae8ff18feb22cc2a649cb9b0f68748b931f2468298cbefc31bdab033dd2d790e",
+    "bytes": 4104598
+  },
+  {
+    "code": "el",
+    "scene": "wedding-countdown-app",
+    "sha256": "8398d67a4afe4fbde06e39bcdb8b93e81a1190bfa002d8e47852d119a2682546",
+    "bytes": 4108970
+  },
+  {
+    "code": "en",
+    "scene": "anniversary-countdown-app",
+    "sha256": "3988e4459fec58673753acab58707ae7499e1451f2649407b36a2469bb3860d7",
+    "bytes": 3151804
+  },
+  {
+    "code": "en",
+    "scene": "christmas-countdown-app",
+    "sha256": "e96b5dd3efd6c04337f375e32df3ba584cae92109c5d81e3fcf8bde4bc5c7591",
+    "bytes": 4451389
+  },
+  {
+    "code": "en",
+    "scene": "holiday-countdown-app",
+    "sha256": "8791cf2605bb74f3c2d7c7382b36ce47c0034caaab1b0aa28d161f98b8bf8d2b",
+    "bytes": 3575893
+  },
+  {
+    "code": "en",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "05abb209119b54f130aa1cf0bf1dca97c6a824411ba8b2d8b2c9eb2512ceba3e",
+    "bytes": 4421778
+  },
+  {
+    "code": "en",
+    "scene": "vacation-countdown-app",
+    "sha256": "faca6350a0bdc3a32f2b020bb56251fd53ad35003509bc8da5e4a5f5c7c8ef74",
+    "bytes": 4106191
+  },
+  {
+    "code": "en",
+    "scene": "wedding-countdown-app",
+    "sha256": "f17d61abf9ab2204e43482658336f5c750661b4650da1ca172acbfcea17357de",
+    "bytes": 4114037
+  },
+  {
+    "code": "en-AU",
+    "scene": "anniversary-countdown-app",
+    "sha256": "516b3186fd77830ed20de9094442e32eca2fb3a1b285402f72e4fa1627965dc1",
+    "bytes": 3151931
+  },
+  {
+    "code": "en-AU",
+    "scene": "christmas-countdown-app",
+    "sha256": "f83e63b58c3d650e30d5c569dffb40e93868845608331d238624ff38ccdd67ab",
+    "bytes": 4451128
+  },
+  {
+    "code": "en-AU",
+    "scene": "holiday-countdown-app",
+    "sha256": "79aebfe80e2a2384f0c0a4e93e96173e29b6e3e948b5f1e79e633d6b6e270d2f",
+    "bytes": 3575494
+  },
+  {
+    "code": "en-AU",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "678021a96839312edd442dc7d83008fa526802714310dc5474ccba69f351e5ca",
+    "bytes": 4421752
+  },
+  {
+    "code": "en-AU",
+    "scene": "vacation-countdown-app",
+    "sha256": "2e23360fb1b1cf91e8f470f51585b2a4a74b6654efefd67711f0c3a7ae0ef000",
+    "bytes": 4103817
+  },
+  {
+    "code": "en-AU",
+    "scene": "wedding-countdown-app",
+    "sha256": "517171b1989e3dea6fc0a9f4176ace2bb75d5db2c51a13f1a7b07a84199d3659",
+    "bytes": 4114071
+  },
+  {
+    "code": "en-CA",
+    "scene": "anniversary-countdown-app",
+    "sha256": "3988e4459fec58673753acab58707ae7499e1451f2649407b36a2469bb3860d7",
+    "bytes": 3151804
+  },
+  {
+    "code": "en-CA",
+    "scene": "christmas-countdown-app",
+    "sha256": "e96b5dd3efd6c04337f375e32df3ba584cae92109c5d81e3fcf8bde4bc5c7591",
+    "bytes": 4451389
+  },
+  {
+    "code": "en-CA",
+    "scene": "holiday-countdown-app",
+    "sha256": "8791cf2605bb74f3c2d7c7382b36ce47c0034caaab1b0aa28d161f98b8bf8d2b",
+    "bytes": 3575893
+  },
+  {
+    "code": "en-CA",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "05abb209119b54f130aa1cf0bf1dca97c6a824411ba8b2d8b2c9eb2512ceba3e",
+    "bytes": 4421778
+  },
+  {
+    "code": "en-CA",
+    "scene": "vacation-countdown-app",
+    "sha256": "faca6350a0bdc3a32f2b020bb56251fd53ad35003509bc8da5e4a5f5c7c8ef74",
+    "bytes": 4106191
+  },
+  {
+    "code": "en-CA",
+    "scene": "wedding-countdown-app",
+    "sha256": "f17d61abf9ab2204e43482658336f5c750661b4650da1ca172acbfcea17357de",
+    "bytes": 4114037
+  },
+  {
+    "code": "en-GB",
+    "scene": "anniversary-countdown-app",
+    "sha256": "b4f839152d5087af6a992ee4845edff3381a716329743ff42ff6250187f73913",
+    "bytes": 3152380
+  },
+  {
+    "code": "en-GB",
+    "scene": "christmas-countdown-app",
+    "sha256": "26399d4598c2fd42424a88c079c8da0b7acd5a0ec85a675ee687e3f4cd4133c8",
+    "bytes": 4451547
+  },
+  {
+    "code": "en-GB",
+    "scene": "holiday-countdown-app",
+    "sha256": "d2b9047ba2a8724a7f079af2a8bf4e7efb73b79534512db8c8b3183349e5bebe",
+    "bytes": 3575959
+  },
+  {
+    "code": "en-GB",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "77bcc03a850f598a9a757163e067e79e4e2a252ec1855711721d25473903d578",
+    "bytes": 4422222
+  },
+  {
+    "code": "en-GB",
+    "scene": "vacation-countdown-app",
+    "sha256": "c9f1d8ed4e446ee845f2526c9b365efab0e53c304ff1252c0cac1b31b20b5fb4",
+    "bytes": 4104254
+  },
+  {
+    "code": "en-GB",
+    "scene": "wedding-countdown-app",
+    "sha256": "c78927288eec7509cb7378e8d61d21311e002e92318bd84b1f241dabd7e8e67a",
+    "bytes": 4114527
+  },
+  {
+    "code": "es",
+    "scene": "anniversary-countdown-app",
+    "sha256": "296eec9474e2ad149dc50904e36184d3a83afbc7623c5b0bb7a66903391d7fcd",
+    "bytes": 3152422
+  },
+  {
+    "code": "es",
+    "scene": "christmas-countdown-app",
+    "sha256": "a431b155e9bd267f3cc983a84ea70de76664e10dc80be4ab1ab6e57451e9c41a",
+    "bytes": 4450168
+  },
+  {
+    "code": "es",
+    "scene": "holiday-countdown-app",
+    "sha256": "c09695b9d01ceb0236fad2fc4665f1f7326853b1ac015e7e3693a9b3cc4b128c",
+    "bytes": 3573838
+  },
+  {
+    "code": "es",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "d011b63995178cfccf11ba21b12d2c65af3f648338413bcbe356474b1d0433a1",
+    "bytes": 4418261
+  },
+  {
+    "code": "es",
+    "scene": "vacation-countdown-app",
+    "sha256": "f357ddde7f1d901050fd591fc66b768ccac0abc7ab82847bce5662849418dc5f",
+    "bytes": 4107191
+  },
+  {
+    "code": "es",
+    "scene": "wedding-countdown-app",
+    "sha256": "5ca0c09924cf9f5fb137da485ebf3918bda8abdbc81ec0f0c3f0d25bcad0466d",
+    "bytes": 4113243
+  },
+  {
+    "code": "es-MX",
+    "scene": "anniversary-countdown-app",
+    "sha256": "f8c5cee16da0a99854cdfccd98321944411b1624c6a68f3e30240553c28d97b5",
+    "bytes": 3152567
+  },
+  {
+    "code": "es-MX",
+    "scene": "christmas-countdown-app",
+    "sha256": "fcabfe71b7b560ec65df2822451a8ba9e3e168162e32e601b739d8fa863e4220",
+    "bytes": 4451263
+  },
+  {
+    "code": "es-MX",
+    "scene": "holiday-countdown-app",
+    "sha256": "86e6826dd3ffc1532d08c15024f1379aabbf07149eaa1988acc84464afa98fa3",
+    "bytes": 3575198
+  },
+  {
+    "code": "es-MX",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "77498d7708f47d17fb919bec184896d8e94980dedaf521f65cedd9aa9d523fa3",
+    "bytes": 4415886
+  },
+  {
+    "code": "es-MX",
+    "scene": "vacation-countdown-app",
+    "sha256": "eb9ec55be7b625b0353b04346212ba7ca22032538c6eb6242b24af6e46ee16aa",
+    "bytes": 4108489
+  },
+  {
+    "code": "es-MX",
+    "scene": "wedding-countdown-app",
+    "sha256": "6bb73ef4c522c0d7bd89d15f708722d70975256cf594e704230195e400cf96ee",
+    "bytes": 4114616
+  },
+  {
+    "code": "fi",
+    "scene": "anniversary-countdown-app",
+    "sha256": "1dd5fb2b9352cf3799f1e2668b4b72805c702d66509ac1ade1b749c47d02b08e",
+    "bytes": 3149403
+  },
+  {
+    "code": "fi",
+    "scene": "christmas-countdown-app",
+    "sha256": "05a9e779f5a6c72891cbf5de8ab9d26601c4daa6237b3531fb22c466f9b9bbdc",
+    "bytes": 4447030
+  },
+  {
+    "code": "fi",
+    "scene": "holiday-countdown-app",
+    "sha256": "66c11704da653fbb1b3fad0c7891378eecebaf49785a8a86fdeec2e173fb544d",
+    "bytes": 3571274
+  },
+  {
+    "code": "fi",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "d19fdc89d9f4aa859ccb956a5d90539ea08a1da1bb59472856e157c52982e637",
+    "bytes": 4407475
+  },
+  {
+    "code": "fi",
+    "scene": "vacation-countdown-app",
+    "sha256": "cd7b6797dc78a6c04421c072e54fcc6465d0b02263f0a2b1ef374043aa98f52f",
+    "bytes": 4101032
+  },
+  {
+    "code": "fi",
+    "scene": "wedding-countdown-app",
+    "sha256": "f777747971b39765e64a6180ca86af5104c39c8847639270bad2d85a076c2eb2",
+    "bytes": 4107506
+  },
+  {
+    "code": "fil",
+    "scene": "anniversary-countdown-app",
+    "sha256": "b39cb0533771f9e74b709e36357aaa125df0ceba4c0f0f4f95ad58fbbc662ab4",
+    "bytes": 3153215
+  },
+  {
+    "code": "fil",
+    "scene": "christmas-countdown-app",
+    "sha256": "5651aec31774c64fbcf3807bc573f56cfc6d7f4b0a399ca7646ff19c75068460",
+    "bytes": 4451560
+  },
+  {
+    "code": "fil",
+    "scene": "holiday-countdown-app",
+    "sha256": "ab370286e446ff3b84406bc9d22be787cf508e5709a196d88b505de147bfff5c",
+    "bytes": 3574877
+  },
+  {
+    "code": "fil",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "f300f9e17efe7946e66466aa238ddd5df47116dbbacddd80a3b791909eb2cf32",
+    "bytes": 4419371
+  },
+  {
+    "code": "fil",
+    "scene": "vacation-countdown-app",
+    "sha256": "25cf022c0631bc8caed1fe609eac5488f95e01d102bf63dd6c0fcf254e41f4b1",
+    "bytes": 4106541
+  },
+  {
+    "code": "fil",
+    "scene": "wedding-countdown-app",
+    "sha256": "a3a191a214bf4e32d2fdf6926b3e90d90eead0fb5e8b916ec6f735c6ccd54bf9",
+    "bytes": 4112881
+  },
+  {
+    "code": "fr",
+    "scene": "anniversary-countdown-app",
+    "sha256": "3983d1ab119052c0b4d8b38402d661ee7deb3cde359369999d2414fc9f59363e",
+    "bytes": 3151032
+  },
+  {
+    "code": "fr",
+    "scene": "christmas-countdown-app",
+    "sha256": "564e7d17d27fdc0879c9177dbb860b7597c65ffa03ad5594ee447cdbd906b375",
+    "bytes": 4448451
+  },
+  {
+    "code": "fr",
+    "scene": "holiday-countdown-app",
+    "sha256": "1d932ef247ec030f1f012d487448db6ccb4df5b4121fb5d4bfbd1ff539f3b0cd",
+    "bytes": 3571644
+  },
+  {
+    "code": "fr",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "07c24dc01c4b2c42b233231fe4de9d540c65ad4c0d9b118cd0504e9706c47366",
+    "bytes": 4416725
+  },
+  {
+    "code": "fr",
+    "scene": "vacation-countdown-app",
+    "sha256": "43450119c50f371987a2505646de2860bf44caee890225703273dffe6fb2c800",
+    "bytes": 4104790
+  },
+  {
+    "code": "fr",
+    "scene": "wedding-countdown-app",
+    "sha256": "530d664e10d3e6aca50a59fbe97495c65caf14cc3a8f3e33b294b9ef0cc172f1",
+    "bytes": 4108155
+  },
+  {
+    "code": "he",
+    "scene": "anniversary-countdown-app",
+    "sha256": "9497b62acba207e754c12388c4e2dadfd05800f2f4bbc88dac5acf5faa94530d",
+    "bytes": 3127940
+  },
+  {
+    "code": "he",
+    "scene": "christmas-countdown-app",
+    "sha256": "cd111754f9132a720fdad353a3446adf437b1c6413ef3f0004b1c5b17c59d16c",
+    "bytes": 4448263
+  },
+  {
+    "code": "he",
+    "scene": "holiday-countdown-app",
+    "sha256": "03171a66cfbaa1576430d0624b668e5ad230ad2d5b29914a7c7b4a38854bbe46",
+    "bytes": 3564150
+  },
+  {
+    "code": "he",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "e9f0e505041417b5e62b5ad7fd21028b1d384a8ee735ba31d0b668cd504fa08b",
+    "bytes": 4407058
+  },
+  {
+    "code": "he",
+    "scene": "vacation-countdown-app",
+    "sha256": "276c6a2001b5fffebf8bfacc863a337d7c2e11f07b941faa043923cc467dee4b",
+    "bytes": 4094831
+  },
+  {
+    "code": "he",
+    "scene": "wedding-countdown-app",
+    "sha256": "aede2f729501f7b001e415d10b426be0c179cb4fc435bc6d8fe7be9b92298b66",
+    "bytes": 4095989
+  },
+  {
+    "code": "hi",
+    "scene": "anniversary-countdown-app",
+    "sha256": "d8d2f6d16b47620e183f6fd3b44b427d2c9444891181f7f9ab8347132825dd70",
+    "bytes": 3133402
+  },
+  {
+    "code": "hi",
+    "scene": "christmas-countdown-app",
+    "sha256": "b07eefb40cbe4c83df78cc9e939e5bb51d7ff6f5a864c5d71ca19b08d251a80d",
+    "bytes": 4440076
+  },
+  {
+    "code": "hi",
+    "scene": "holiday-countdown-app",
+    "sha256": "67d6b7d6094fc2007debf2f2b63a88987f161d70e4cd4d727216cb149d00d578",
+    "bytes": 3567167
+  },
+  {
+    "code": "hi",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "87ce93d4674ebbff210b8815413d161fdda8fc268ecff13dd5d67e36f0d316bb",
+    "bytes": 4413153
+  },
+  {
+    "code": "hi",
+    "scene": "vacation-countdown-app",
+    "sha256": "2e45e859bba4dbc186492b501ce4e9726d95630cacfa982829b89ea48c53205f",
+    "bytes": 4100234
+  },
+  {
+    "code": "hi",
+    "scene": "wedding-countdown-app",
+    "sha256": "8f77070a482d5e1b4c9cd4cd10c11aae13f22f9b3aae1641cc61168072d41497",
+    "bytes": 4101754
+  },
+  {
+    "code": "hu",
+    "scene": "anniversary-countdown-app",
+    "sha256": "f16f5832f5eb783de32427180523ebc26b536a1cddd31ad718b3eccb7ef481a6",
+    "bytes": 3147178
+  },
+  {
+    "code": "hu",
+    "scene": "christmas-countdown-app",
+    "sha256": "dfb2643bcf65379f1b944edd4e3203b55a4f74b3eb77fb213a781ddedd77ef1f",
+    "bytes": 4453709
+  },
+  {
+    "code": "hu",
+    "scene": "holiday-countdown-app",
+    "sha256": "19e4698b9c0d78d72b7ced3ccec331636fd080c9c7f6dac0586ecbb044fcbe10",
+    "bytes": 3576346
+  },
+  {
+    "code": "hu",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "ec83299690b34c2f3c1553de05c6d048e6117ee5807a9ea1c439eea0141fef6d",
+    "bytes": 4420937
+  },
+  {
+    "code": "hu",
+    "scene": "vacation-countdown-app",
+    "sha256": "f8d5c0c5a4eeabbc6e914e95de5ea1e3a70c95d6f93b562d41d8a68192a21eb9",
+    "bytes": 4110095
+  },
+  {
+    "code": "hu",
+    "scene": "wedding-countdown-app",
+    "sha256": "5831fa188a08ed807ff2801787e4060ca37e082bcee983807f7af7eb1cebca77",
+    "bytes": 4108795
+  },
+  {
+    "code": "id",
+    "scene": "anniversary-countdown-app",
+    "sha256": "5c5bd93aefa50cd0a570e879e4094f50ec1973d95d17c799aea27e84ccad427c",
+    "bytes": 3148541
+  },
+  {
+    "code": "id",
+    "scene": "christmas-countdown-app",
+    "sha256": "3b0d4837f3f89981b0edf064df1b5d968b68f99390620ff508ae0adc509c2143",
+    "bytes": 4444021
+  },
+  {
+    "code": "id",
+    "scene": "holiday-countdown-app",
+    "sha256": "3b278b67d543664f90b34dae921b2388186bdb02446669b0b0dff15db6b19afb",
+    "bytes": 3569251
+  },
+  {
+    "code": "id",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "f7e0826bd6ddfd6540339169633cef8cb27558925c41e9aa5761e5fc56f5cfba",
+    "bytes": 4414426
+  },
+  {
+    "code": "id",
+    "scene": "vacation-countdown-app",
+    "sha256": "0f5c6a0f94b7a15d00f42218d0ca5d7f0ae5012eadcd2ea1e8efc0eef25732f7",
+    "bytes": 4102635
+  },
+  {
+    "code": "id",
+    "scene": "wedding-countdown-app",
+    "sha256": "e311832faa8dd46ad721e1dddc602af800e99f778fcefe695d5243806223d240",
+    "bytes": 4108128
+  },
+  {
+    "code": "it",
+    "scene": "anniversary-countdown-app",
+    "sha256": "ef9a3985550675fccfd0e649f6995775cf558840feab2c98c1d4656cca49cfd0",
+    "bytes": 3143953
+  },
+  {
+    "code": "it",
+    "scene": "christmas-countdown-app",
+    "sha256": "50c051e29360165b1ec28204f1bda5a3f8a3170676b74ca5ff19ca31f5ab95c1",
+    "bytes": 4447931
+  },
+  {
+    "code": "it",
+    "scene": "holiday-countdown-app",
+    "sha256": "581328c6e890fbb72c75c757ed3849cd72ddcc9f2dc9798ec6610cc08fcdf2d6",
+    "bytes": 3571762
+  },
+  {
+    "code": "it",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "54b025885cb1ba6939946395756af9dca11cb74a87cf5c1c4a86c5c0aea6c517",
+    "bytes": 4412518
+  },
+  {
+    "code": "it",
+    "scene": "vacation-countdown-app",
+    "sha256": "07c58b6bd4589bd47f8c1c5692fd5346064f8bac92006c19b7159af8e953b129",
+    "bytes": 4105352
+  },
+  {
+    "code": "it",
+    "scene": "wedding-countdown-app",
+    "sha256": "9cd2c6c48117f0498d64b9d4883dae8512b82d6cc58a84491d084f6075c123f3",
+    "bytes": 4104270
+  },
+  {
+    "code": "ja",
+    "scene": "anniversary-countdown-app",
+    "sha256": "1b6a873275ef0eb1cc968a92df55999b520fa6bb2f952098bcba40976bb44d3f",
+    "bytes": 3156674
+  },
+  {
+    "code": "ja",
+    "scene": "christmas-countdown-app",
+    "sha256": "cb59d37c58f0eb0829cc2f7b5cd8a76adc7342726dac9b8637962a989e39fc2d",
+    "bytes": 4450171
+  },
+  {
+    "code": "ja",
+    "scene": "holiday-countdown-app",
+    "sha256": "1513081017204688364965997cbaa124d076f088c6d7636d93251d536bf1ed6d",
+    "bytes": 3573535
+  },
+  {
+    "code": "ja",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "199e4fdb6843a97a1d3422bf2240209d728ac7c884c053a963ac0bdd9b5266a4",
+    "bytes": 4435898
+  },
+  {
+    "code": "ja",
+    "scene": "vacation-countdown-app",
+    "sha256": "e3eb39642bb5cae79684c922d1bdc448297b4f9704b5ff996210f65c862775c9",
+    "bytes": 4105234
+  },
+  {
+    "code": "ja",
+    "scene": "wedding-countdown-app",
+    "sha256": "e1904f6159f3de964c5bf6a22e171df193d7efd4d1964561c7179ef43797c083",
+    "bytes": 4106324
+  },
+  {
+    "code": "ko",
+    "scene": "anniversary-countdown-app",
+    "sha256": "451576e469628d561451912322bcf36edc7119a2258db05103d96a1f340e34e2",
+    "bytes": 3134470
+  },
+  {
+    "code": "ko",
+    "scene": "christmas-countdown-app",
+    "sha256": "ebd5e7f61f477b27a7f88ff487d9171ca358c1a267ae6a0dd26b262990558573",
+    "bytes": 4441541
+  },
+  {
+    "code": "ko",
+    "scene": "holiday-countdown-app",
+    "sha256": "2e9601593b4c8e93494c8656794d8e0e6c799a24731b8709bf8618f29c61a955",
+    "bytes": 3566187
+  },
+  {
+    "code": "ko",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "396583a5e590dd8b4eb298eef06bc86ee0a22a67d19668cab38a3c7c74194a44",
+    "bytes": 4417434
+  },
+  {
+    "code": "ko",
+    "scene": "vacation-countdown-app",
+    "sha256": "36a6f5328c7254189b8174027ed4f96a012b450a552b54c81dc977a25b974c67",
+    "bytes": 4096066
+  },
+  {
+    "code": "ko",
+    "scene": "wedding-countdown-app",
+    "sha256": "b4fe9ca20cd20dad21ccdc73e0059155a0b69e8d93355a0beddc022fa5a1ba20",
+    "bytes": 4095382
+  },
+  {
+    "code": "ms",
+    "scene": "anniversary-countdown-app",
+    "sha256": "83bc4a17915602d673e21037840d58a7791274d419c0dccd9096325990f61301",
+    "bytes": 3148949
+  },
+  {
+    "code": "ms",
+    "scene": "christmas-countdown-app",
+    "sha256": "c5e9285bb570de2c5e1ee1df79af2cb89816e2fa549e6e7667c6500a7d66532d",
+    "bytes": 4445735
+  },
+  {
+    "code": "ms",
+    "scene": "holiday-countdown-app",
+    "sha256": "664b4647113e7452cc2684374c8bd56556e4e99de3cbf120cbddaf89a74af58b",
+    "bytes": 3569977
+  },
+  {
+    "code": "ms",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "3df5fd17961628f6580d6d4e43a4dc53bb58fa9ab4115686da3d741a02768e48",
+    "bytes": 4413633
+  },
+  {
+    "code": "ms",
+    "scene": "vacation-countdown-app",
+    "sha256": "88e93e5c0fb677ed2bcfd9b41a0cdf2f216eebac267a71786fcc12c7cf8ee619",
+    "bytes": 4102801
+  },
+  {
+    "code": "ms",
+    "scene": "wedding-countdown-app",
+    "sha256": "4ecf0b7227c336eb3649f5e94ef606cfb12a0319fb263b7f166c95ef53273dfe",
+    "bytes": 4108312
+  },
+  {
+    "code": "nb",
+    "scene": "anniversary-countdown-app",
+    "sha256": "d0df70bb229f480c2547ae97085219d75a3159eb69fb3e250fe2644466720553",
+    "bytes": 3152148
+  },
+  {
+    "code": "nb",
+    "scene": "christmas-countdown-app",
+    "sha256": "27e32710582cb8e24355eec7eee42470ec76df16d7c4d3512e97ad1b596595ff",
+    "bytes": 4454068
+  },
+  {
+    "code": "nb",
+    "scene": "holiday-countdown-app",
+    "sha256": "b4fa8d04c685c15b9029c2e136e03acf234fb3b5068d027095765e0c425851e7",
+    "bytes": 3576149
+  },
+  {
+    "code": "nb",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "39efe7905f5341575e24d742d490e321c78baf18706134a7c04ab37dec625051",
+    "bytes": 4418912
+  },
+  {
+    "code": "nb",
+    "scene": "vacation-countdown-app",
+    "sha256": "cce87e42936a96523d8b41de939518f98e89ef2dc4a6fa753556b9d545b666f8",
+    "bytes": 4108623
+  },
+  {
+    "code": "nb",
+    "scene": "wedding-countdown-app",
+    "sha256": "9dc8638cf20966f5f71bb9c693bc975d9eebf6ffa21f2028dbca907ddb31782c",
+    "bytes": 4111443
+  },
+  {
+    "code": "nl",
+    "scene": "anniversary-countdown-app",
+    "sha256": "69101a3cc0811ead09551cec546f84f5fcdea137ddf781344da2cc5f3fb48676",
+    "bytes": 3148417
+  },
+  {
+    "code": "nl",
+    "scene": "christmas-countdown-app",
+    "sha256": "f22fac0ea81f860f9ce2c39a5c88dad9036448cfcd79ef706a24ad3eb3f63971",
+    "bytes": 4449719
+  },
+  {
+    "code": "nl",
+    "scene": "holiday-countdown-app",
+    "sha256": "f0c943e20f026109e67ec7b6c80f257fadbfaedcbd2e099ae5ddcfca3d412387",
+    "bytes": 3573662
+  },
+  {
+    "code": "nl",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "b4b461578766ba1ecc5f1f5b16b201d2016485c0d432abb663c1932824717229",
+    "bytes": 4409996
+  },
+  {
+    "code": "nl",
+    "scene": "vacation-countdown-app",
+    "sha256": "cac05fba619e4a36308e0e2e0f510bbbee81136a141cd4b87b1ca0f80ad51e78",
+    "bytes": 4106189
+  },
+  {
+    "code": "nl",
+    "scene": "wedding-countdown-app",
+    "sha256": "e023e3b1856a6412d7117948fecb4fbc0818137908dc40d7b62f7358684a92ea",
+    "bytes": 4110197
+  },
+  {
+    "code": "pl",
+    "scene": "anniversary-countdown-app",
+    "sha256": "9bfd513d756d8b69b3ba6d61c00757f8a8ecc5b995b7516982f0718625f30ceb",
+    "bytes": 3141164
+  },
+  {
+    "code": "pl",
+    "scene": "christmas-countdown-app",
+    "sha256": "38167abc7585653840488748ff45b26c237b808f08bb61b398a6d1696acf4b1d",
+    "bytes": 4443197
+  },
+  {
+    "code": "pl",
+    "scene": "holiday-countdown-app",
+    "sha256": "2c6139d111349e21e3d74c909ee3639b0f62f424f1837959792a5f848693fa5d",
+    "bytes": 3570176
+  },
+  {
+    "code": "pl",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "66df66186a03e8742fae86cd8d1a491676aacf1e3be038e46446aaba4e02315c",
+    "bytes": 4416648
+  },
+  {
+    "code": "pl",
+    "scene": "vacation-countdown-app",
+    "sha256": "c49b942fc04f691b79804349ce97cf5327979636be29333b026a534ebb1379fd",
+    "bytes": 4102658
+  },
+  {
+    "code": "pl",
+    "scene": "wedding-countdown-app",
+    "sha256": "326113f4c4e68b5e8750f700c002d1b507395e27a2b2f95a76e346c627b393aa",
+    "bytes": 4108823
+  },
+  {
+    "code": "pt",
+    "scene": "anniversary-countdown-app",
+    "sha256": "c92b7c5f88ab5ce921d07066e0e75bed681c233947ae34d62a2d4bea5bf0a7d9",
+    "bytes": 3151969
+  },
+  {
+    "code": "pt",
+    "scene": "christmas-countdown-app",
+    "sha256": "3f854e2e85c486715e7ef08142dbeb0503bbb799b2a334bb2f82eb4fa53b880d",
+    "bytes": 4449031
+  },
+  {
+    "code": "pt",
+    "scene": "holiday-countdown-app",
+    "sha256": "6c5ce35a96eb80d775e69a0a00f00804307aa2162e4eecebd975355ae101e7e9",
+    "bytes": 3573338
+  },
+  {
+    "code": "pt",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "16040e0930704342793382b322bb3daf9c5c42c2adff8fa44e160fe41c2eab0c",
+    "bytes": 4418483
+  },
+  {
+    "code": "pt",
+    "scene": "vacation-countdown-app",
+    "sha256": "e1dc245ab6f24a3b8453aa885c1d477092b1728fcdfd3812a6db5c7d396d8531",
+    "bytes": 4105550
+  },
+  {
+    "code": "pt",
+    "scene": "wedding-countdown-app",
+    "sha256": "de63b35f8dae5c351c07e94ac322550c7264572e7d664b75a2bfebf4b3ff9900",
+    "bytes": 4116917
+  },
+  {
+    "code": "pt-BR",
+    "scene": "anniversary-countdown-app",
+    "sha256": "b491e1d1ea99c3abfa4d802f25de952b14b254354db6e666d723fbd118fd296e",
+    "bytes": 3155621
+  },
+  {
+    "code": "pt-BR",
+    "scene": "christmas-countdown-app",
+    "sha256": "9aa14a91e3b51a9a010916ede6525fc8b454aed8b29f1b69a854aabe133f5d5b",
+    "bytes": 4450805
+  },
+  {
+    "code": "pt-BR",
+    "scene": "holiday-countdown-app",
+    "sha256": "85c32452acb2612a0a2e82a1b0090876f9630d7f4c866b29585e211755ef65e7",
+    "bytes": 3574747
+  },
+  {
+    "code": "pt-BR",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "ab9ddcb36cc003ee6b15caf645448585418481bc9132198969b1259b66a8a66a",
+    "bytes": 4416129
+  },
+  {
+    "code": "pt-BR",
+    "scene": "vacation-countdown-app",
+    "sha256": "171c624f5b1a61717f74c4bd0a4934d654221671675c680d4d9550147e0a6a0f",
+    "bytes": 4106520
+  },
+  {
+    "code": "pt-BR",
+    "scene": "wedding-countdown-app",
+    "sha256": "8fa5db72a9a84d47da5f002b0dcfe8379c198d2a2e7dc8ca39d79dcad689f384",
+    "bytes": 4115732
+  },
+  {
+    "code": "ro",
+    "scene": "anniversary-countdown-app",
+    "sha256": "d997226d9d9714f9c5759771ab722e4620aa046125ee3398279588220944ea50",
+    "bytes": 3144294
+  },
+  {
+    "code": "ro",
+    "scene": "christmas-countdown-app",
+    "sha256": "87141abcc07b16fc535496f2ef30be7691085c3b230888f8089303448eb56d69",
+    "bytes": 4447069
+  },
+  {
+    "code": "ro",
+    "scene": "holiday-countdown-app",
+    "sha256": "1454787cc615943102ea4cea945dfc2ada62532ab4ebced7968cb0c3f471328c",
+    "bytes": 3569731
+  },
+  {
+    "code": "ro",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "46cd24718a746e1f82c4c5dee9797ccd935ae516a618ca3c493da879987912cb",
+    "bytes": 4402243
+  },
+  {
+    "code": "ro",
+    "scene": "vacation-countdown-app",
+    "sha256": "d6f8d6baabe3e0db7f4439145ef6438b2948231cb7a8225de9aeb93e4e881ccc",
+    "bytes": 4104352
+  },
+  {
+    "code": "ro",
+    "scene": "wedding-countdown-app",
+    "sha256": "3b74ef4c5b0eaa086db21f093f688b5255066285cfad5acc8385c0c5535ba01b",
+    "bytes": 4108182
+  },
+  {
+    "code": "ru",
+    "scene": "anniversary-countdown-app",
+    "sha256": "d07283f6f97f6bddfda895d14da6755b1a4c630fbe7dc64fe19cbaf181dd6f96",
+    "bytes": 3134688
+  },
+  {
+    "code": "ru",
+    "scene": "christmas-countdown-app",
+    "sha256": "a6ce223babbab605d4429f807817fc4b1af7e3a973040c9ba91f2d33fe94a7b8",
+    "bytes": 4440792
+  },
+  {
+    "code": "ru",
+    "scene": "holiday-countdown-app",
+    "sha256": "03a96d9046a8de4f3f318372862432d94a1f0a1eb37644a0775b0223eae2e3c7",
+    "bytes": 3565662
+  },
+  {
+    "code": "ru",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "97718f0b9854bc4aabfda8cbef43e381539e76d383589e4b55fbc227dd4c59d1",
+    "bytes": 4397564
+  },
+  {
+    "code": "ru",
+    "scene": "vacation-countdown-app",
+    "sha256": "7c0b16bc609788ff7cba30ce4ccfe548abc987b6f5616e714cd54b97e57c51e7",
+    "bytes": 4099617
+  },
+  {
+    "code": "ru",
+    "scene": "wedding-countdown-app",
+    "sha256": "589f74f815f043e66c512fb0fc4667c635dacfe685b824d88c01f60f11d37ad4",
+    "bytes": 4099171
+  },
+  {
+    "code": "sk",
+    "scene": "anniversary-countdown-app",
+    "sha256": "3a04602a5e65636b5c017242a629dda6eea4e956e9328f716c70590e758f8df4",
+    "bytes": 3139677
+  },
+  {
+    "code": "sk",
+    "scene": "christmas-countdown-app",
+    "sha256": "0392f95031001c89d1bd2d4e7d0331ba8616008a0c4fc660cfc77343bcfab4b9",
+    "bytes": 4443768
+  },
+  {
+    "code": "sk",
+    "scene": "holiday-countdown-app",
+    "sha256": "657abc1a3c2d549f6eb87fa254f5e6f87e3b89b29a82750c3cb697f69f00f9ca",
+    "bytes": 3565768
+  },
+  {
+    "code": "sk",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "3f9cd99e6fee31dfc6d46d12d1394dcab9091b43d6d4ef5edd963146b6d23cfd",
+    "bytes": 4412238
+  },
+  {
+    "code": "sk",
+    "scene": "vacation-countdown-app",
+    "sha256": "049e54ca4ca8e5bb5c1e074d9791af952ea3d4948d2874ad805b783b67f0d5e6",
+    "bytes": 4096100
+  },
+  {
+    "code": "sk",
+    "scene": "wedding-countdown-app",
+    "sha256": "690b6017330a4ac46bda1eadb6cd20f3dcad13ffc48676b722755ac366783ba5",
+    "bytes": 4108396
+  },
+  {
+    "code": "sv",
+    "scene": "anniversary-countdown-app",
+    "sha256": "808b67fd6df8fca5013077633b8222c43bee52857b9077465188bda3280d17d8",
+    "bytes": 3154646
+  },
+  {
+    "code": "sv",
+    "scene": "christmas-countdown-app",
+    "sha256": "81c3d628596fd9c888d3232e6b7d5661306c98b53bc4a6c2cf5f8db2ccf5fcb8",
+    "bytes": 4455088
+  },
+  {
+    "code": "sv",
+    "scene": "holiday-countdown-app",
+    "sha256": "0c181f256a56ebf37652d8ad948b53ee4085c958b42d4dba75f6859679d1f509",
+    "bytes": 3578031
+  },
+  {
+    "code": "sv",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "b34bf3f9ff020588bc61bb16eab90d62d60ca8c7407fb5ddfffa5747dcf93846",
+    "bytes": 4419364
+  },
+  {
+    "code": "sv",
+    "scene": "vacation-countdown-app",
+    "sha256": "2ea224a1efd8630367ab3471a821f5d32debf6ca45a045cb72be33701d2344a8",
+    "bytes": 4109308
+  },
+  {
+    "code": "sv",
+    "scene": "wedding-countdown-app",
+    "sha256": "900484f5b80afa5fa0af651aa678fe8a807de826df24c91a11b8955717a3cec5",
+    "bytes": 4115861
+  },
+  {
+    "code": "th",
+    "scene": "anniversary-countdown-app",
+    "sha256": "4704a7272b8585504c7bdd867c6be4751ae086dbdcc52222826817a48136ae47",
+    "bytes": 3162993
+  },
+  {
+    "code": "th",
+    "scene": "christmas-countdown-app",
+    "sha256": "55aa4fe24c8b1b9142e09432f63f15ef639529cc407c5fde60bbdba3cdda16d1",
+    "bytes": 4453462
+  },
+  {
+    "code": "th",
+    "scene": "holiday-countdown-app",
+    "sha256": "b99cc9623d951a74b3c1116eb92101847f4b6993a7448e8f19db96459a6fba1a",
+    "bytes": 3579413
+  },
+  {
+    "code": "th",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "68f5ffc6d8da63e6e34d247e8c26beeae58232082e78e7c6e75ca54d2b5b1c5b",
+    "bytes": 4439624
+  },
+  {
+    "code": "th",
+    "scene": "vacation-countdown-app",
+    "sha256": "390045f02777406804cb1d7ff1f7ed7b02c743a6dd11e0a14752d585305908f0",
+    "bytes": 4109125
+  },
+  {
+    "code": "th",
+    "scene": "wedding-countdown-app",
+    "sha256": "853d7382c609a6653e47ac74f4ff6f802967eb67024123c9f66d4d0a5599c3e1",
+    "bytes": 4123692
+  },
+  {
+    "code": "tr",
+    "scene": "anniversary-countdown-app",
+    "sha256": "686ea835445c589cd43ef61e90773ba6d0f6c1efdd855042a9c838a1c1bfa818",
+    "bytes": 3149687
+  },
+  {
+    "code": "tr",
+    "scene": "christmas-countdown-app",
+    "sha256": "5dcea95ae7f2c39d2bfa2bd80afc689aaeecae3fdac59d847bc0875bbae1c8c4",
+    "bytes": 4449935
+  },
+  {
+    "code": "tr",
+    "scene": "holiday-countdown-app",
+    "sha256": "86662e919daa97501bfc30331ba0c75585b2589d1e7c3e6d21e86f7e6b6758ce",
+    "bytes": 3571714
+  },
+  {
+    "code": "tr",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "3a9a13aa8afd4ca7421e2189236e1e9e5f0b127acf7e25dbbdad00467c8e673e",
+    "bytes": 4422619
+  },
+  {
+    "code": "tr",
+    "scene": "vacation-countdown-app",
+    "sha256": "a75f0f1a8ca85205106dc404c979c48a5bdbee48ea6442455e6bc437517b2e38",
+    "bytes": 4103331
+  },
+  {
+    "code": "tr",
+    "scene": "wedding-countdown-app",
+    "sha256": "6986f9dea26aa9453d28929279b93cf56aa9439defcab809da8076c1fd90b08f",
+    "bytes": 4111822
+  },
+  {
+    "code": "uk",
+    "scene": "anniversary-countdown-app",
+    "sha256": "1ed5b0535c3177e2e7073b794617f5e92c4e7b86ab3271c6e8fae07f79144f3b",
+    "bytes": 3133316
+  },
+  {
+    "code": "uk",
+    "scene": "christmas-countdown-app",
+    "sha256": "ca0c123d6724288ea44cd6f1f13fd42d702e68eb48863848856e91d6ad049fed",
+    "bytes": 4437752
+  },
+  {
+    "code": "uk",
+    "scene": "holiday-countdown-app",
+    "sha256": "dad17c83e8b081d0f6d7bbb6cb277ea7329f04f8bf39f9fea080375f02d995a5",
+    "bytes": 3562093
+  },
+  {
+    "code": "uk",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "a2997fc3d26e22beed87b9aa2ebd69631e05e28464f317f938faa5f54dad1ca8",
+    "bytes": 4401254
+  },
+  {
+    "code": "uk",
+    "scene": "vacation-countdown-app",
+    "sha256": "302885b4beb94774b1b37eb20a4e50f3c43278854f4694700b415c622ecd0b1f",
+    "bytes": 4091155
+  },
+  {
+    "code": "uk",
+    "scene": "wedding-countdown-app",
+    "sha256": "7cbca06ba9fe4fd768f9e96749446dc62fc3ab272caa136c976a983962b92a90",
+    "bytes": 4094680
+  },
+  {
+    "code": "vi",
+    "scene": "anniversary-countdown-app",
+    "sha256": "d784cae62da0097a6301d60c3938b28ec827d0c15939761ef6df34865af81a59",
+    "bytes": 3152710
+  },
+  {
+    "code": "vi",
+    "scene": "christmas-countdown-app",
+    "sha256": "2496ef8d6204689162e58bbfbede25979173770fda46cd5386488d507f0b66d6",
+    "bytes": 4448917
+  },
+  {
+    "code": "vi",
+    "scene": "holiday-countdown-app",
+    "sha256": "efe617641a6daed9b6c04a69b9795e3f40c0923629c991781c7dcee606e8a530",
+    "bytes": 3572054
+  },
+  {
+    "code": "vi",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "18fec1c0857d82ca84944be1601c770ee5bca1038741a55e1b068ba7dfb1795d",
+    "bytes": 4414165
+  },
+  {
+    "code": "vi",
+    "scene": "vacation-countdown-app",
+    "sha256": "7d81222afa5ebab7aadde0463745bf4270071fd4888c5d6d063eb83236a99434",
+    "bytes": 4111002
+  },
+  {
+    "code": "vi",
+    "scene": "wedding-countdown-app",
+    "sha256": "65caabf50f144997fb88a4d017a3a61d44fdf25463e01c8093261a4eb7014216",
+    "bytes": 4112574
+  },
+  {
+    "code": "zh-Hans",
+    "scene": "anniversary-countdown-app",
+    "sha256": "4ada56f6b3d4979d38acd926d4ed126c638cf0f6c204ccdebaef2dcd18d4e675",
+    "bytes": 3139345
+  },
+  {
+    "code": "zh-Hans",
+    "scene": "christmas-countdown-app",
+    "sha256": "7f7ed74f152fd5b270a3426952d05e94e5d3496005d3b5b3bd257e2459f2d8f0",
+    "bytes": 4443105
+  },
+  {
+    "code": "zh-Hans",
+    "scene": "holiday-countdown-app",
+    "sha256": "eb17c0240c25def161bfda476bbe46e0ff43b3141ec5e89118905e6ee424960f",
+    "bytes": 3570181
+  },
+  {
+    "code": "zh-Hans",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "59dc9e22d2a196323ebdd6f7ca820062187aca054c795c41c4ca7dfc7e1497d1",
+    "bytes": 4424289
+  },
+  {
+    "code": "zh-Hans",
+    "scene": "vacation-countdown-app",
+    "sha256": "3023f193ffd884f80a4d5ab48a66d41ad33bfafaa0497f3e7fad4d795e292637",
+    "bytes": 4100071
+  },
+  {
+    "code": "zh-Hans",
+    "scene": "wedding-countdown-app",
+    "sha256": "d549b43fcc056758ec78011bb8aeeec4a5d680258ecf0b9cd26ffa47e3046bd4",
+    "bytes": 4103147
+  },
+  {
+    "code": "zh-Hant",
+    "scene": "anniversary-countdown-app",
+    "sha256": "029f41925d37148e7cbcd9dd551020567b6c2d593019934870adb20c41bd9874",
+    "bytes": 3138941
+  },
+  {
+    "code": "zh-Hant",
+    "scene": "christmas-countdown-app",
+    "sha256": "d6e2bc8c810506ac03fb56517b0ad94f61f3a33600b4c39c25c926d3a374f173",
+    "bytes": 4439923
+  },
+  {
+    "code": "zh-Hant",
+    "scene": "holiday-countdown-app",
+    "sha256": "aff01250faadd8d70fae26a2978d76258ab0a3273e69b1fb8d50b95d98b257a0",
+    "bytes": 3567410
+  },
+  {
+    "code": "zh-Hant",
+    "scene": "theme-park-trip-countdown-app",
+    "sha256": "b3a66aec339086df3a30f755661768a1d8da045d78364e62d57cb3e24e6c674b",
+    "bytes": 4424690
+  },
+  {
+    "code": "zh-Hant",
+    "scene": "vacation-countdown-app",
+    "sha256": "cc16848ca14ecd78828599f25298ac38de6adc3b586aafd14fad643d453735f7",
+    "bytes": 4099525
+  },
+  {
+    "code": "zh-Hant",
+    "scene": "wedding-countdown-app",
+    "sha256": "e5fdbeeea1c305345fc6722ed96416a9616bbe65305639cfab8e10dd769e01dd",
+    "bytes": 4100112
+  }
+]
