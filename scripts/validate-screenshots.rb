@@ -25,9 +25,9 @@ class ScreenshotValidator
   HOME_SCENES = %w[colors home-screen-custom-widgets lock-screen-widgets home-screen-widgets editing settings widget-editor normal-display].freeze
   REGIONAL_UPDATES = {
     'en-CA' => %w[editing settings event-countdown-app home-screen-custom-widgets widget-editor],
-    'en-GB' => %w[editing settings event-countdown-app normal-display compact-display colors home-screen-widgets vacation-countdown-app lock-screen-widgets christmas-countdown-app
+    'en-GB' => %w[wedding-countdown-app anniversary-countdown-app theme-park-trip-countdown-app holiday-countdown-app editing settings event-countdown-app normal-display compact-display colors home-screen-widgets vacation-countdown-app lock-screen-widgets christmas-countdown-app
                  home-screen-custom-widgets widget-editor],
-    'en-AU' => %w[editing settings event-countdown-app normal-display compact-display colors home-screen-widgets vacation-countdown-app lock-screen-widgets christmas-countdown-app
+    'en-AU' => %w[wedding-countdown-app anniversary-countdown-app theme-park-trip-countdown-app holiday-countdown-app editing settings event-countdown-app normal-display compact-display colors home-screen-widgets vacation-countdown-app lock-screen-widgets christmas-countdown-app
                  home-screen-custom-widgets widget-editor]
   }.freeze
   # Locales that show another locale's native captures until their own exist.
