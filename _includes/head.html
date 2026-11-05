@@ -3,7 +3,7 @@
 	{% assign locale = site.data.locales | where: "code", current_locale | first %}
 	{% assign t = site.data.strings[current_locale] | default: site.data.strings.en %}
 	{% assign app_name = locale.app_name | default: site.app_name %}
-	{% assign default_title = app_name | append: " - " | append: t.title_suffix %}
+	{% assign default_title = t.home_title | replace: "APP_NAME", app_name %}
 	{% assign meta_title = page.meta_title | default: page.title | default: default_title %}
 	{% assign meta_description = page.description | default: t.app_description | default: site.app_description %}
 	{% assign locale_image = site.data.social_previews[current_locale] | default: site.data.social_previews.en %}
@@ -15,6 +15,9 @@
 		{% elsif page.url == "/countdown-ideas/" %}
 			{% assign canonical_key = "countdown-ideas" %}
 		{% endif %}
+	{% endif %}
+	{% if canonical_key == "home" %}
+		{% assign meta_description = t.home_description | default: meta_description %}
 	{% endif %}
 	{% if canonical_key == "countdown-ideas" %}
 		{% assign meta_title = t.ideas_meta_title | default: meta_title %}

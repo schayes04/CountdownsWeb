@@ -24,7 +24,8 @@ en:
   app_description: Countdowns helps you count down to important moments, or count
     up from meaningful dates, on iPhone, iPad, Mac, and Apple Watch. Perfect for birthdays,
     holidays, weddings, anniversaries, vacations, retirement, and more!
-  title_suffix: Countdown timers for Apple devices
+  home_title: "APP_NAME: Countdown App & Widgets for iPhone and Mac"
+  home_description: "Count down to birthdays, holidays, weddings, and vacations with custom photo widgets for iPhone, iPad, Mac, and Apple Watch. Free to download."
   share_card_tagline: "Count down to the moments that matter"
   hero_eyebrow: For iPhone, iPad, Mac, and Apple Watch
   hero_lead: Count down to what is next, or count up from what changed. Build customizable
@@ -211,7 +212,8 @@ es:
   app_description: Cuentas atrás te ayuda a contar hacia momentos importantes, o a contar
     desde fechas significativas, en iPhone, iPad, Mac y Apple Watch. Ideal para cumpleaños,
     festivos, bodas, aniversarios, vacaciones, jubilación y más.
-  title_suffix: Temporizadores de cuenta atrás para dispositivos Apple
+  home_title: "APP_NAME: app de cuenta atrás y widgets para iPhone y Mac"
+  home_description: "Cuenta atrás para cumpleaños, fiestas, bodas y vacaciones con widgets de fotos personalizados para iPhone, iPad, Mac y Apple Watch. Descarga gratuita."
   share_card_tagline: "Cuenta atrás para los momentos que importan"
   hero_eyebrow: Para iPhone, iPad, Mac y Apple Watch
   hero_lead: Cuenta hacia lo que viene, o cuenta desde lo que cambió. Crea temporizadores
@@ -392,7 +394,8 @@ es-MX:
   app_description: Contadores te ayuda a contar hacia momentos importantes, o a contar
     desde fechas significativas, en iPhone, iPad, Mac y Apple Watch. Ideal para cumpleaños,
     días festivos, bodas, aniversarios, vacaciones, jubilación y más.
-  title_suffix: Temporizadores de cuenta regresiva para dispositivos Apple
+  home_title: "APP_NAME: app de cuenta regresiva y widgets para iPhone y Mac"
+  home_description: "Cuenta regresiva para cumpleaños, fiestas, bodas y vacaciones con widgets de fotos personalizados para iPhone, iPad, Mac y Apple Watch. Descarga gratis."
   share_card_tagline: "Cuenta regresiva para los momentos que importan"
   hero_eyebrow: Para iPhone, iPad, Mac y Apple Watch
   hero_lead: Cuenta hacia lo que viene, o cuenta desde lo que cambió. Crea temporizadores
@@ -573,7 +576,8 @@ fr:
   app_description: Décomptes vous aide à compter jusqu’aux moments importants, ou
     depuis les dates qui comptent, sur iPhone, iPad, Mac et Apple Watch. Parfait pour
     les anniversaires, fêtes, mariages, voyages, départs à la retraite et plus encore.
-  title_suffix: Minuteurs de compte à rebours pour appareils Apple
+  home_title: "APP_NAME : app de compte à rebours et widgets pour iPhone et Mac"
+  home_description: "Comptez les jours jusqu’aux anniversaires, fêtes, mariages et vacances avec des widgets photo personnalisés sur iPhone, iPad, Mac et Apple Watch. Gratuit."
   share_card_tagline: "Le compte à rebours des moments qui comptent"
   hero_eyebrow: Pour iPhone, iPad, Mac et Apple Watch
   hero_lead: Comptez jusqu’à ce qui arrive, ou depuis ce qui a changé. Créez des minuteurs
@@ -755,7 +759,8 @@ ar:
   app_description: يساعدك تطبيق العد التنازلي على العدّ التنازلي إلى اللحظات المهمة، أو العدّ
     التصاعدي منذ تواريخ ذات معنى، على iPhone وiPad وMac وApple Watch. مثالي لأعياد
     الميلاد والعطلات وحفلات الزفاف والرحلات والتقاعد والمزيد.
-  title_suffix: مؤقتات عدّ تنازلي لأجهزة Apple
+  home_title: "APP_NAME: تطبيق عدّ تنازلي وأدوات لـ iPhone وMac"
+  home_description: "عُدّ تنازليًا لأعياد الميلاد والعطلات والأعراس والإجازات مع أدوات صور مخصّصة على iPhone وiPad وMac وApple Watch. تنزيل مجاني."
   share_card_tagline: "عُدّ تنازليًا للحظات التي تهمّك"
   hero_eyebrow: لأجهزة iPhone وiPad وMac وApple Watch
   hero_lead: عدّ تنازليًا إلى ما هو قادم، أو عدّ تصاعديًا منذ ما تغيّر. أنشئ مؤقتات
@@ -931,7 +936,8 @@ ca:
   app_description: Compte enrere t'ajuda a comptar fins als moments importants, o des
     de dates significatives, a l'iPhone, l'iPad, el Mac i l'Apple Watch. Ideal per
     a aniversaris, festius, casaments, viatges, jubilacions i molt més.
-  title_suffix: Temporitzadors de compte enrere per a dispositius Apple
+  home_title: "APP_NAME: app de compte enrere i ginys per a iPhone i Mac"
+  home_description: "Compte enrere per a aniversaris, festes, casaments i vacances amb ginys de fotos personalitzats per a iPhone, iPad, Mac i Apple Watch. Descàrrega gratuïta."
   share_card_tagline: "Compte enrere per als moments que importen"
   hero_eyebrow: Per a iPhone, iPad, Mac i Apple Watch
   hero_lead: Compta fins al que ve, o des del que ha canviat. Crea temporitzadors
@@ -1110,7 +1116,8 @@ da:
   app_description: Nedtællinger hjælper dig med at tælle ned til vigtige øjeblikke eller
     op fra betydningsfulde datoer på iPhone, iPad, Mac og Apple Watch. Perfekt til
     fødselsdage, helligdage, bryllupper, ferier, pension og mere.
-  title_suffix: Nedtællingstimere til Apple-enheder
+  home_title: "APP_NAME: nedtællingsapp og widgets til iPhone og Mac"
+  home_description: "Tæl ned til fødselsdage, højtider, bryllupper og ferier med tilpassede fotowidgets til iPhone, iPad, Mac og Apple Watch. Gratis at hente."
   share_card_tagline: "Tæl ned til de øjeblikke, der betyder noget"
   hero_eyebrow: Til iPhone, iPad, Mac og Apple Watch
   hero_lead: Tæl ned til det næste, eller tæl op fra det, der ændrede sig. Lav tilpassede
@@ -1286,7 +1293,8 @@ de:
   app_description: Countdowns hilft dir, auf wichtige Momente herunterzuzählen oder
     seit bedeutenden Daten hochzuzählen - auf iPhone, iPad, Mac und Apple Watch. Ideal
     für Geburtstage, Feiertage, Hochzeiten, Reisen, Ruhestand und mehr.
-  title_suffix: Countdown-Timer für Apple-Geräte
+  home_title: "APP_NAME: Countdown-App & Widgets für iPhone und Mac"
+  home_description: "Countdowns für Geburtstage, Feiertage, Hochzeiten und Urlaube – mit eigenen Foto-Widgets für iPhone, iPad, Mac und Apple Watch. Kostenloser Download."
   share_card_tagline: "Der Countdown für Momente, die zählen"
   hero_eyebrow: Für iPhone, iPad, Mac und Apple Watch
   hero_lead: Zähle herunter bis zum nächsten Ereignis oder hoch seit dem, was sich
@@ -1466,7 +1474,8 @@ fi:
   app_description: Laskurit-sovellus auttaa laskemaan aikaa tärkeisiin hetkiin tai merkityksellisistä
     päivistä iPhonessa, iPadissa, Macissa ja Apple Watchissa. Sopii syntymäpäiviin,
     juhliin, häihin, matkoihin, eläkkeelle jäämiseen ja muuhun.
-  title_suffix: Lähtölaskenta-ajastimet Apple-laitteille
+  home_title: "APP_NAME: lähtölaskentasovellus ja widgetit iPhonelle ja Macille"
+  home_description: "Laske päiviä syntymäpäiviin, juhlapyhiin, häihin ja lomiin omilla kuvawidgeteillä iPhonessa, iPadissa, Macissa ja Apple Watchissa. Ilmainen ladata."
   share_card_tagline: "Laske päiviä tärkeisiin hetkiin"
   hero_eyebrow: iPhonelle, iPadille, Macille ja Apple Watchille
   hero_lead: Laske aikaa seuraavaan hetkeen tai siitä, mikä muuttui. Luo mukautettavia
@@ -1646,7 +1655,8 @@ it:
   app_description: Contatore ti aiuta a contare fino ai momenti importanti, o da
     date significative, su iPhone, iPad, Mac e Apple Watch. Perfetto per compleanni,
     festività, matrimoni, viaggi, pensione e altro.
-  title_suffix: Timer conto alla rovescia per dispositivi Apple
+  home_title: "APP_NAME: app conto alla rovescia e widget per iPhone e Mac"
+  home_description: "Il conto alla rovescia per compleanni, feste, matrimoni e vacanze con widget fotografici personalizzati per iPhone, iPad, Mac e Apple Watch. Download gratuito."
   share_card_tagline: "Il conto alla rovescia per i momenti che contano"
   hero_eyebrow: Per iPhone, iPad, Mac e Apple Watch
   hero_lead: Conta fino a ciò che arriva, o da ciò che è cambiato. Crea timer personalizzabili
@@ -1820,7 +1830,8 @@ ja:
   download_badge: App Storeでダウンロード
   opening_app: APP_NAMEを開いています…
   app_description: カウントダウンは、iPhone、iPad、Mac、Apple Watchで大切な日までの時間や、意味のある日からの経過時間を数えられるアプリです。誕生日、祝日、結婚式、旅行、退職などに最適です。
-  title_suffix: Appleデバイス向けカウントダウンタイマー
+  home_title: "APP_NAME：iPhone・Mac用カウントダウンアプリ＆ウィジェット"
+  home_description: "誕生日、祝日、結婚式、旅行までをカウントダウン。写真入りのカスタムウィジェットをiPhone、iPad、Mac、Apple Watchで。無料でダウンロード。"
   share_card_tagline: "大切な瞬間までカウントダウン"
   hero_eyebrow: iPhone、iPad、Mac、Apple Watch対応
   hero_lead: 次の予定までをカウントダウンしたり、変化した日からカウントアップしたりできます。誕生日、祝日、習慣、旅行、試合の日などを自由に管理できます。
@@ -1978,7 +1989,8 @@ ko:
   opening_app: APP_NAME 여는 중…
   app_description: 카운트다운은 iPhone, iPad, Mac, Apple Watch에서 중요한 순간까지 남은 시간이나 의미
     있는 날짜 이후의 시간을 세도록 도와줍니다. 생일, 공휴일, 결혼식, 여행, 은퇴 등에 적합합니다.
-  title_suffix: Apple 기기용 카운트다운 타이머
+  home_title: "APP_NAME: iPhone 및 Mac용 카운트다운 앱 및 위젯"
+  home_description: "생일, 휴일, 결혼식, 여행까지 카운트다운하세요. iPhone, iPad, Mac, Apple Watch에서 나만의 사진 위젯을 사용할 수 있습니다. 무료 다운로드."
   share_card_tagline: "소중한 순간까지 카운트다운"
   hero_eyebrow: iPhone, iPad, Mac, Apple Watch용
   hero_lead: 다음 순간까지 카운트다운하거나 변화가 있었던 날부터 카운트업하세요. 생일, 공휴일, 습관, 여행, 경기일 등 추적할 모든 날짜에
@@ -2142,7 +2154,8 @@ nb:
   app_description: Nedtellinger hjelper deg med å telle ned til viktige øyeblikk, eller
     opp fra betydningsfulle datoer, på iPhone, iPad, Mac og Apple Watch. Perfekt for
     bursdager, høytider, bryllup, reiser, pensjon og mer.
-  title_suffix: Nedtellingstimere for Apple-enheter
+  home_title: "APP_NAME: nedtellingsapp og widgeter for iPhone og Mac"
+  home_description: "Tell ned til bursdager, høytider, bryllup og ferier med egne fotowidgeter for iPhone, iPad, Mac og Apple Watch. Gratis å laste ned."
   share_card_tagline: "Tell ned til øyeblikkene som betyr noe"
   hero_eyebrow: For iPhone, iPad, Mac og Apple Watch
   hero_lead: Tell ned til det som kommer, eller opp fra det som endret seg. Lag tilpassede
@@ -2314,7 +2327,8 @@ nl:
   app_description: De app Aftellingen helpt je aftellen naar belangrijke momenten, of optellen
     vanaf betekenisvolle datums, op iPhone, iPad, Mac en Apple Watch. Perfect voor
     verjaardagen, feestdagen, bruiloften, reizen, pensioen en meer.
-  title_suffix: Afteltimers voor Apple-apparaten
+  home_title: "APP_NAME: aftel-app en widgets voor iPhone en Mac"
+  home_description: "Tel af naar verjaardagen, feestdagen, bruiloften en vakanties met eigen fotowidgets voor iPhone, iPad, Mac en Apple Watch. Gratis te downloaden."
   share_card_tagline: "Tel af naar de momenten die ertoe doen"
   hero_eyebrow: Voor iPhone, iPad, Mac en Apple Watch
   hero_lead: Tel af naar wat komt, of tel op vanaf wat veranderde. Maak aanpasbare
@@ -2492,7 +2506,8 @@ pl:
   app_description: Aplikacja Odliczanie pomaga odliczać do ważnych chwil albo liczyć czas od
     znaczących dat na iPhonie, iPadzie, Macu i Apple Watch. Idealna do urodzin, świąt,
     ślubów, podróży, emerytury i nie tylko.
-  title_suffix: Liczniki odliczania dla urządzeń Apple
+  home_title: "APP_NAME: aplikacja do odliczania i widżety na iPhone’a i Maca"
+  home_description: "Odliczaj dni do urodzin, świąt, ślubów i wakacji z własnymi widżetami ze zdjęciami na iPhonie, iPadzie, Macu i Apple Watch. Pobierz za darmo."
   share_card_tagline: "Odliczaj czas do ważnych chwil"
   hero_eyebrow: Na iPhone'a, iPada, Maca i Apple Watch
   hero_lead: Odliczaj do tego, co przed Tobą, albo licz czas od tego, co się zmieniło.
@@ -2669,7 +2684,8 @@ pt:
   app_description: A aplicação Contagem ajuda-te a contar até momentos importantes, ou desde
     datas significativas, no iPhone, iPad, Mac e Apple Watch. Ideal para aniversários,
     feriados, casamentos, viagens, reforma e muito mais.
-  title_suffix: Temporizadores de contagem para dispositivos Apple
+  home_title: "APP_NAME: app de contagem decrescente e widgets para iPhone e Mac"
+  home_description: "Faça a contagem decrescente para aniversários, feriados, casamentos e férias com widgets de fotos personalizados para iPhone, iPad, Mac e Apple Watch. Grátis."
   share_card_tagline: "Contagem decrescente para os momentos que importam"
   hero_eyebrow: Para iPhone, iPad, Mac e Apple Watch
   hero_lead: Conta até ao que vem a seguir, ou desde o que mudou. Cria temporizadores
@@ -2846,7 +2862,8 @@ pt-BR:
   app_description: O app Contagens ajuda você a contar até momentos importantes, ou a partir
     de datas significativas, no iPhone, iPad, Mac e Apple Watch. Perfeito para aniversários,
     feriados, casamentos, viagens, aposentadoria e muito mais.
-  title_suffix: Temporizadores de contagem regressiva para dispositivos Apple
+  home_title: "APP_NAME: app de contagem regressiva e widgets para iPhone e Mac"
+  home_description: "Faça a contagem regressiva para aniversários, feriados, casamentos e férias com widgets de fotos personalizados no iPhone, iPad, Mac e Apple Watch. Grátis."
   share_card_tagline: "Contagem regressiva para os momentos que importam"
   hero_eyebrow: Para iPhone, iPad, Mac e Apple Watch
   hero_lead: Conte até o que vem a seguir, ou a partir do que mudou. Crie temporizadores
@@ -3024,7 +3041,8 @@ ru:
   app_description: Приложение «Таймеры» помогает считать время до важных моментов или от значимых
     дат на iPhone, iPad, Mac и Apple Watch. Подходит для дней рождения, праздников,
     свадеб, поездок, пенсии и многого другого.
-  title_suffix: Таймеры обратного отсчета для устройств Apple
+  home_title: "APP_NAME: приложение обратного отсчёта и виджеты для iPhone и Mac"
+  home_description: "Обратный отсчёт до дней рождения, праздников, свадеб и отпуска с виджетами из ваших фото на iPhone, iPad, Mac и Apple Watch. Бесплатно."
   share_card_tagline: "Обратный отсчёт до важных моментов"
   hero_eyebrow: Для iPhone, iPad, Mac и Apple Watch
   hero_lead: Считайте время до следующего события или от даты, которая что-то изменила.
@@ -3201,7 +3219,8 @@ sk:
   app_description: Aplikácia Odpočty ti pomáha odpočítavať k dôležitým chvíľam alebo počítať
     čas od významných dátumov na iPhone, iPade, Macu a Apple Watch. Ideálna na narodeniny,
     sviatky, svadby, cesty, dôchodok a ďalšie udalosti.
-  title_suffix: Odpočítavacie časovače pre zariadenia Apple
+  home_title: "APP_NAME: aplikácia na odpočítavanie a widgety pre iPhone a Mac"
+  home_description: "Odpočítavajte dni do narodenín, sviatkov, svadieb a dovoleniek s vlastnými fotowidgetmi pre iPhone, iPad, Mac a Apple Watch. Na stiahnutie zadarmo."
   share_card_tagline: "Odpočítavajte čas do dôležitých chvíľ"
   hero_eyebrow: Pre iPhone, iPad, Mac a Apple Watch
   hero_lead: Odpočítavaj k tomu, čo príde, alebo počítaj od toho, čo sa zmenilo. Vytváraj
@@ -3377,7 +3396,8 @@ sv:
   app_description: Nedräkningar hjälper dig att räkna ner till viktiga ögonblick, eller
     räkna upp från betydelsefulla datum, på iPhone, iPad, Mac och Apple Watch. Perfekt
     för födelsedagar, helgdagar, bröllop, resor, pension och mer.
-  title_suffix: Nedräkningstimers för Apple-enheter
+  home_title: "APP_NAME: nedräkningsapp och widgetar för iPhone och Mac"
+  home_description: "Räkna ner till födelsedagar, helgdagar, bröllop och semestrar med egna fotowidgetar för iPhone, iPad, Mac och Apple Watch. Gratis att hämta."
   share_card_tagline: "Räkna ner till ögonblicken som betyder något"
   hero_eyebrow: För iPhone, iPad, Mac och Apple Watch
   hero_lead: Räkna ner till det som kommer, eller upp från det som förändrades. Skapa
@@ -3552,7 +3572,8 @@ tr:
   app_description: Geri Sayım, iPhone, iPad, Mac ve Apple Watch'ta önemli anlara geri
     saymanıza veya anlamlı tarihlerden itibaren geçen zamanı saymanıza yardımcı olur.
     Doğum günleri, tatiller, düğünler, geziler, emeklilik ve daha fazlası için idealdir.
-  title_suffix: Apple aygıtları için geri sayım zamanlayıcıları
+  home_title: "APP_NAME: iPhone ve Mac için geri sayım uygulaması ve widget’lar"
+  home_description: "Doğum günlerine, bayramlara, düğünlere ve tatillere geri sayın. iPhone, iPad, Mac ve Apple Watch için özel fotoğraf widget’ları. Ücretsiz indirin."
   share_card_tagline: "Önemli anlara geri sayın"
   hero_eyebrow: iPhone, iPad, Mac ve Apple Watch için
   hero_lead: Sıradaki ana geri sayın veya değişen şeyden itibaren sayın. Doğum günleri,
@@ -3732,7 +3753,8 @@ zh-Hans:
   download_badge: 在 App Store 下载
   opening_app: 正在打开APP_NAME…
   app_description: 时光仪 可帮助你在 iPhone、iPad、Mac 和 Apple Watch 上倒数重要时刻，或从有意义的日期开始计时。适合生日、节日、婚礼、旅行、退休等场景。
-  title_suffix: 适用于 Apple 设备的倒计时计时器
+  home_title: "APP_NAME：适用于 iPhone 和 Mac 的倒计时 App 与小组件"
+  home_description: "为生日、节日、婚礼和旅行倒计时，在 iPhone、iPad、Mac 和 Apple Watch 上使用自定照片小组件。免费下载。"
   share_card_tagline: "为重要时刻倒计时"
   hero_eyebrow: 适用于 iPhone、iPad、Mac 和 Apple Watch
   hero_lead: 倒数即将到来的时刻，或从已经改变的日期开始计时。为生日、节日、习惯、旅行、比赛日和所有值得跟踪的事情创建可自定义计时器。
@@ -3889,7 +3911,8 @@ zh-Hant:
   download_badge: 在 App Store 下載
   opening_app: 正在開啟APP_NAME…
   app_description: 倒數日 可協助你在 iPhone、iPad、Mac 和 Apple Watch 上倒數重要時刻，或從有意義的日期開始計時。適合生日、節日、婚禮、旅行、退休等情境。
-  title_suffix: 適用於 Apple 裝置的倒數計時器
+  home_title: "APP_NAME：適用於 iPhone 和 Mac 的倒數計時 App 與小工具"
+  home_description: "為生日、節日、婚禮和旅行倒數，在 iPhone、iPad、Mac 和 Apple Watch 上使用自訂照片小工具。免費下載。"
   share_card_tagline: "為重要時刻倒數"
   hero_eyebrow: 適用於 iPhone、iPad、Mac 和 Apple Watch
   hero_lead: 倒數即將到來的時刻，或從已經改變的日期開始計時。為生日、節日、習慣、旅行、比賽日和所有值得追蹤的事情建立可自訂計時器。
@@ -4046,7 +4069,8 @@ hi:
   download_badge: App Store से डाउनलोड करें
   opening_app: APP_NAME खोला जा रहा है…
   app_description: काउंटडाउन की मदद से iPhone, iPad, Mac और Apple Watch पर अहम पलों तक बचा समय गिनें या यादगार तारीखों से बीता समय देखें। जन्मदिन, त्योहार, शादी, सालगिरह, छुट्टियाँ, सेवानिवृत्ति और बहुत कुछ ट्रैक करने के लिए बेहतरीन!
-  title_suffix: Apple डिवाइसों के लिए काउंटडाउन टाइमर
+  home_title: "APP_NAME: iPhone और Mac के लिए काउंटडाउन ऐप और विजेट"
+  home_description: "जन्मदिन, त्योहार, शादी और छुट्टियों का काउंटडाउन करें, iPhone, iPad, Mac और Apple Watch पर अपनी फ़ोटो वाले विजेट के साथ। मुफ़्त डाउनलोड।"
   share_card_tagline: "खास पलों का काउंटडाउन"
   hero_eyebrow: iPhone, iPad, Mac और Apple Watch के लिए
   hero_lead: आने वाले पल तक बचा समय गिनें या किसी अहम बदलाव के बाद बीता समय देखें। जन्मदिन, त्योहार, आदतों, यात्राओं, मैच के दिनों और हर उस चीज़ के लिए अपनी पसंद के टाइमर बनाएँ जिस पर आप नज़र रखना चाहते हैं।
@@ -4206,7 +4230,8 @@ cs:
   app_description: Odpočty pomáhají odpočítávat čas do důležitých okamžiků nebo počítat
     čas od významných dat na iPhonu, iPadu, Macu a Apple Watch. Hodí se pro narozeniny,
     svátky, svatby, výročí, dovolené, důchod a další události.
-  title_suffix: Odpočítávání pro zařízení Apple
+  home_title: "APP_NAME: aplikace pro odpočítávání a widgety pro iPhone a Mac"
+  home_description: "Odpočítávejte dny do narozenin, svátků, svateb a dovolených s vlastními fotowidgety pro iPhone, iPad, Mac a Apple Watch. Ke stažení zdarma."
   share_card_tagline: "Odpočítávejte čas do důležitých chvil"
   hero_eyebrow: Pro iPhone, iPad, Mac a Apple Watch
   hero_lead: Odpočítávejte do budoucích událostí nebo počítejte čas od důležitých
@@ -4387,7 +4412,8 @@ fil:
     sa mahahalagang sandali o pataas mula sa makabuluhang petsa sa iPhone, iPad, Mac,
     at Apple Watch. Para sa kaarawan, pista opisyal, kasal, anibersaryo, bakasyon,
     pagreretiro, at higit pa!
-  title_suffix: Mga countdown para sa mga Apple device
+  home_title: "APP_NAME: Countdown App at Widget para sa iPhone at Mac"
+  home_description: "Mag-countdown sa mga kaarawan, holiday, kasal at bakasyon gamit ang sariling photo widget sa iPhone, iPad, Mac at Apple Watch. Libreng i-download."
   share_card_tagline: "Mag-countdown sa mga sandaling mahalaga"
   hero_eyebrow: Para sa iPhone, iPad, Mac, at Apple Watch
   hero_lead: Magbilang hanggang sa susunod na pangyayari o mula sa isang mahalagang
@@ -4575,7 +4601,8 @@ el:
   app_description: Η εφαρμογή Μετρητές μετρά τον χρόνο μέχρι σημαντικές στιγμές ή
     από αξέχαστες ημερομηνίες σε iPhone, iPad, Mac και Apple Watch. Ιδανική για γενέθλια,
     γιορτές, γάμους, επετείους, διακοπές, συνταξιοδότηση και άλλα!
-  title_suffix: Αντίστροφες μετρήσεις για συσκευές Apple
+  home_title: "APP_NAME: εφαρμογή αντίστροφης μέτρησης και widget για iPhone και Mac"
+  home_description: "Μετρήστε αντίστροφα για γενέθλια, γιορτές, γάμους και διακοπές με προσαρμοσμένα widget φωτογραφιών σε iPhone, iPad, Mac και Apple Watch. Δωρεάν."
   share_card_tagline: "Αντίστροφη μέτρηση για τις στιγμές που μετράνε"
   hero_eyebrow: Για iPhone, iPad, Mac και Apple Watch
   hero_lead: Μετρήστε μέχρι το επόμενο γεγονός ή από μια σημαντική αλλαγή. Δημιουργήστε
@@ -4762,7 +4789,8 @@ he:
   app_description: ספירה לאחור עוזרת לספור את הזמן עד לרגעים חשובים או מתאריכים משמעותיים
     ב-iPhone, ב-iPad, ב-Mac וב-Apple Watch. מתאימה לימי הולדת, חגים, חתונות, ימי שנה,
     חופשות, פרישה ועוד!
-  title_suffix: ספירה לאחור למכשירי Apple
+  home_title: "APP_NAME: אפליקציית ספירה לאחור ווידג׳טים ל-iPhone ול-Mac"
+  home_description: "ספירה לאחור לימי הולדת, חגים, חתונות וחופשות עם וידג׳טים מותאמים עם תמונות ל-iPhone, ל-iPad, ל-Mac ול-Apple Watch. הורדה בחינם."
   share_card_tagline: "ספירה לאחור לרגעים שחשובים לך"
   hero_eyebrow: ל-iPhone, ל-iPad, ל-Mac ול-Apple Watch
   hero_lead: ספרו את הזמן עד לאירוע הבא או מאז שינוי חשוב. צרו טיימרים מותאמים לימי
@@ -4938,7 +4966,8 @@ hu:
     vagy a jelentős dátumok óta eltelt időt iPhone-on, iPaden, Macen és Apple Watchon.
     Születésnapokhoz, ünnepekhez, esküvőkhöz, évfordulókhoz, nyaraláshoz, nyugdíjazáshoz
     és sok máshoz!
-  title_suffix: Visszaszámláló Apple-eszközökhöz
+  home_title: "APP_NAME: visszaszámláló app és widgetek iPhone-ra és Macre"
+  home_description: "Számolj vissza születésnapokig, ünnepekig, esküvőkig és nyaralásokig saját fotós widgetekkel iPhone-on, iPaden, Macen és Apple Watchon. Ingyenes."
   share_card_tagline: "Visszaszámlálás a fontos pillanatokig"
   hero_eyebrow: iPhone-ra, iPadre, Macre és Apple Watchra
   hero_lead: Számoljon a következő eseményig vagy egy fontos változás óta. Készítsen
@@ -5126,7 +5155,8 @@ id:
   app_description: Hitung Mundur membantu Anda menghitung waktu menuju momen penting
     atau sejak tanggal bermakna di iPhone, iPad, Mac, dan Apple Watch. Cocok untuk
     ulang tahun, hari raya, pernikahan, hari jadi, liburan, pensiun, dan lainnya!
-  title_suffix: Penghitung waktu untuk perangkat Apple
+  home_title: "APP_NAME: Aplikasi & Widget Hitung Mundur untuk iPhone dan Mac"
+  home_description: "Hitung mundur ke ulang tahun, hari libur, pernikahan, dan liburan dengan widget foto kustom untuk iPhone, iPad, Mac, dan Apple Watch. Unduh gratis."
   share_card_tagline: "Hitung mundur menuju momen yang berarti"
   hero_eyebrow: Untuk iPhone, iPad, Mac, dan Apple Watch
   hero_lead: Hitung waktu menuju momen berikutnya atau sejak perubahan penting. Buat
@@ -5311,7 +5341,8 @@ ms:
   app_description: Kiraan Detik membantu anda mengira masa menuju detik penting atau
     sejak tarikh bermakna pada iPhone, iPad, Mac dan Apple Watch. Sesuai untuk hari
     lahir, perayaan, perkahwinan, ulang tahun, percutian, persaraan dan banyak lagi!
-  title_suffix: Pengira masa untuk peranti Apple
+  home_title: "APP_NAME: Apl & Widget Kiraan Detik untuk iPhone dan Mac"
+  home_description: "Kira detik ke hari jadi, cuti umum, perkahwinan dan percutian dengan widget foto tersuai untuk iPhone, iPad, Mac dan Apple Watch. Muat turun percuma."
   share_card_tagline: "Kira detik ke saat-saat yang bermakna"
   hero_eyebrow: Untuk iPhone, iPad, Mac dan Apple Watch
   hero_lead: Kira masa menuju detik seterusnya atau sejak perubahan penting. Cipta
@@ -5494,7 +5525,8 @@ ro:
   app_description: Numărătoare te ajută să numeri timpul până la momente importante
     sau de la date semnificative pe iPhone, iPad, Mac și Apple Watch. Ideală pentru
     zile de naștere, sărbători, nunți, aniversări, vacanțe, pensionare și multe altele!
-  title_suffix: Numărătoare pentru dispozitive Apple
+  home_title: "APP_NAME: aplicație de numărătoare inversă și widgeturi pentru iPhone și Mac"
+  home_description: "Numără invers până la zile de naștere, sărbători, nunți și vacanțe cu widgeturi foto personalizate pe iPhone, iPad, Mac și Apple Watch. Gratuit."
   share_card_tagline: "Numărătoare inversă până la momentele care contează"
   hero_eyebrow: Pentru iPhone, iPad, Mac și Apple Watch
   hero_lead: Numără timpul până la ce urmează sau de la o schimbare importantă. Creează
@@ -5680,7 +5712,8 @@ th:
   app_description: นับถอยหลังช่วยนับเวลาถึงช่วงเวลาสำคัญหรือตั้งแต่วันที่มีความหมายบน
     iPhone, iPad, Mac และ Apple Watch เหมาะสำหรับวันเกิด วันหยุด งานแต่งงาน วันครบรอบ
     วันพักผ่อน วันเกษียณ และอีกมากมาย!
-  title_suffix: ตัวนับเวลาสำหรับอุปกรณ์ Apple
+  home_title: "APP_NAME: แอปนับถอยหลังและวิดเจ็ตสำหรับ iPhone และ Mac"
+  home_description: "นับถอยหลังสู่วันเกิด วันหยุด งานแต่งงาน และทริปเที่ยว พร้อมวิดเจ็ตรูปภาพที่ปรับแต่งได้บน iPhone, iPad, Mac และ Apple Watch ดาวน์โหลดฟรี"
   share_card_tagline: "นับถอยหลังสู่ช่วงเวลาสำคัญ"
   hero_eyebrow: สำหรับ iPhone, iPad, Mac และ Apple Watch
   hero_lead: นับเวลาถึงสิ่งที่จะเกิดขึ้นหรือตั้งแต่การเปลี่ยนแปลงสำคัญ สร้างตัวนับที่ปรับแต่งได้สำหรับวันเกิด
@@ -5849,7 +5882,8 @@ vi:
   app_description: Đếm ngược giúp bạn đếm thời gian đến những khoảnh khắc quan trọng
     hoặc từ các ngày ý nghĩa trên iPhone, iPad, Mac và Apple Watch. Phù hợp cho sinh
     nhật, ngày lễ, đám cưới, kỷ niệm, kỳ nghỉ, nghỉ hưu và nhiều hơn nữa!
-  title_suffix: Đếm ngược cho thiết bị Apple
+  home_title: "APP_NAME: Ứng dụng & Widget đếm ngược cho iPhone và Mac"
+  home_description: "Đếm ngược đến sinh nhật, ngày lễ, đám cưới và kỳ nghỉ với widget ảnh tùy chỉnh trên iPhone, iPad, Mac và Apple Watch. Tải về miễn phí."
   share_card_tagline: "Đếm ngược đến những khoảnh khắc ý nghĩa"
   hero_eyebrow: Dành cho iPhone, iPad, Mac và Apple Watch
   hero_lead: Đếm đến sự kiện tiếp theo hoặc từ một thay đổi quan trọng. Tạo bộ đếm
@@ -6028,7 +6062,8 @@ uk:
   app_description: Відліки допомагають рахувати час до важливих подій або від пам’ятних
     дат на iPhone, iPad, Mac і Apple Watch. Для днів народження, свят, весіль, річниць,
     відпусток, виходу на пенсію та іншого!
-  title_suffix: Відліки для пристроїв Apple
+  home_title: "APP_NAME: застосунок зворотного відліку та віджети для iPhone і Mac"
+  home_description: "Зворотний відлік до днів народження, свят, весіль і відпусток із віджетами з ваших фото на iPhone, iPad, Mac і Apple Watch. Безкоштовно."
   share_card_tagline: "Зворотний відлік до важливих моментів"
   hero_eyebrow: Для iPhone, iPad, Mac і Apple Watch
   hero_lead: Рахуйте час до наступної події або від важливої зміни. Створюйте власні
@@ -6209,7 +6244,8 @@ en-CA:
     Countdowns helps you count down to important moments, or count up from meaningful dates, on iPhone,
     iPad, Mac, and Apple Watch. Perfect for birthdays, holidays, weddings, anniversaries, vacations, retirement,
     and more!
-  title_suffix: Countdown timers for Apple devices
+  home_title: "APP_NAME: Countdown App & Widgets for iPhone and Mac"
+  home_description: "Count down to birthdays, holidays, weddings, and vacations with custom photo widgets for iPhone, iPad, Mac, and Apple Watch. Free to download."
   share_card_tagline: "Count down to the moments that matter"
   hero_eyebrow: For iPhone, iPad, Mac, and Apple Watch
   hero_lead: >-
@@ -6396,7 +6432,8 @@ en-GB:
     Countdowns helps you count down to important moments, or count up from meaningful dates, on iPhone,
     iPad, Mac, and Apple Watch. Perfect for birthdays, holidays, weddings, anniversaries, trips, retirement,
     and more!
-  title_suffix: Countdown timers for Apple devices
+  home_title: "APP_NAME: Countdown App & Widgets for iPhone and Mac"
+  home_description: "Count down to birthdays, holidays, weddings and trips with custom photo widgets for iPhone, iPad, Mac and Apple Watch. Free to download."
   share_card_tagline: "Count down to the moments that matter"
   hero_eyebrow: For iPhone, iPad, Mac, and Apple Watch
   hero_lead: >-
@@ -6583,7 +6620,8 @@ en-AU:
     Countdowns helps you count down to important moments, or count up from meaningful dates, on iPhone,
     iPad, Mac, and Apple Watch. Perfect for birthdays, holidays, weddings, anniversaries, trips, retirement,
     and more!
-  title_suffix: Countdown timers for Apple devices
+  home_title: "APP_NAME: Countdown App & Widgets for iPhone and Mac"
+  home_description: "Count down to birthdays, holidays, weddings and trips with custom photo widgets for iPhone, iPad, Mac and Apple Watch. Free to download."
   share_card_tagline: "Count down to the moments that matter"
   hero_eyebrow: For iPhone, iPad, Mac, and Apple Watch
   hero_lead: >-
