@@ -56,7 +56,7 @@ function card(locale) {
   <div class="copy">
     <img class="icon" src="${fileUrl('/assets/appicon.png')}" alt="">
     <h1>${escape(locale.app_name)}</h1>
-    <p>${escape(t.title_suffix)}</p>
+    <p>${escape(t.share_card_tagline)}</p>
   </div>
   <div class="phone"><div class="frame"><img src="${fileUrl(shot)}" alt=""></div></div>
   </body></html>`;
