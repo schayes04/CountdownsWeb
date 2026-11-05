@@ -38,9 +38,8 @@ function card(locale) {
   * { box-sizing: border-box; margin: 0; }
   html, body { width: 1200px; height: 630px; overflow: hidden; }
   body { font-family: ${fonts}; color: #fff; -webkit-font-smoothing: antialiased;
-    background: radial-gradient(900px 600px at 85% 10%, #6f9cff 0%, transparent 60%),
-                radial-gradient(700px 500px at 0% 100%, #1b2f7a 0%, transparent 70%),
-                linear-gradient(135deg, #2a56c6 0%, #1d3c9c 55%, #172d78 100%);
+    background: radial-gradient(800px 600px at ${locale.dir === 'rtl' ? '20%' : '80%'} 10%, #2b4fb8 0%, transparent 60%),
+                linear-gradient(135deg, #141a33 0%, #0b0f22 100%);
     display: flex; align-items: center; padding-inline: 84px 0; }
   .copy { flex: 1; min-width: 0; padding-inline-end: 40px; }
   .icon { width: 132px; height: 132px; border-radius: 30px; display: block; margin-bottom: 34px;
