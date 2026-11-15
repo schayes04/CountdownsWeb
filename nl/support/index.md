@@ -24,7 +24,7 @@ sections:
     title: Terugbetalingen
   - id: contact
     title: Contact
-source_version: '2026-09-14'
+source_version: '2026-11-15'
 ---
 
 ## iCloud-synchronisatie
@@ -41,7 +41,6 @@ Als je aftellingen niet op je apparaten worden gesynchroniseerd, volg je deze st
 - Zorg dat de weergegeven Apple Account dezelfde is als die je op je andere apparaten gebruikt.
 - Tik op **iCloud**.
 - Zoek **Aftellingen** in **Bewaard in iCloud** (voorheen **Apps die iCloud gebruiken**) en zorg dat deze is ingeschakeld.
-- Zorg dat **iCloud Drive** is ingeschakeld en dat de app Aftellingen is ingeschakeld onder **Apps die synchroniseren met iCloud Drive**.
 
 #### Mac
 
@@ -51,7 +50,6 @@ Als je aftellingen niet op je apparaten worden gesynchroniseerd, volg je deze st
 - Klik op **iCloud**.
 - Klik op **Toon alles** onder **Bewaard in iCloud** (voorheen **Toon meer apps** onder **Apps die iCloud gebruiken**).
 - Zoek **Aftellingen** in de lijst en zorg dat deze is ingeschakeld.
-- Zorg dat **iCloud Drive** is ingeschakeld en dat de app Aftellingen is ingeschakeld onder **Apps die synchroniseren met iCloud Drive**.
 
 ### 2. Controleer je iCloud-opslag
 

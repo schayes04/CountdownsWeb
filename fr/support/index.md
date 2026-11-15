@@ -7,7 +7,7 @@ title: Centre d’assistance
 meta_title: "Centre d’assistance Décomptes | Aide iCloud, widgets et Apple Watch"
 description: "Obtenez de l’aide concernant la synchronisation iCloud et Apple Watch de Décomptes, les widgets, le partage familial, les versions de systèmes d’exploitation prises en charge, les remboursements, et plus encore."
 intro: "Trouvez les réponses aux questions fréquentes sur Décomptes et suivez les étapes de dépannage pour vos appareils Apple."
-source_version: '2026-09-14'
+source_version: '2026-11-15'
 sections:
   - id: icloud-sync
     title: Synchronisation iCloud
@@ -41,7 +41,6 @@ Si vos comptes à rebours ne se synchronisent pas entre vos appareils, suivez ce
 - Assurez-vous que le compte Apple affiché est celui que vous utilisez sur vos autres appareils.
 - Touchez **iCloud**.
 - Recherchez **Décomptes** dans **Enregistré dans iCloud** (anciennement **Apps utilisant iCloud**) et assurez-vous que l’option est activée.
-- Assurez-vous que **iCloud Drive** est activé et que Décomptes est activé sous **Apps synchronisées avec iCloud Drive**.
 
 #### Mac
 
@@ -51,7 +50,6 @@ Si vos comptes à rebours ne se synchronisent pas entre vos appareils, suivez ce
 - Cliquez sur **iCloud**.
 - Cliquez sur **Tout afficher** sous **Enregistré dans iCloud** (anciennement **Afficher plus d’apps** sous **Apps utilisant iCloud**).
 - Recherchez **Décomptes** dans la liste et assurez-vous que l’option est activée.
-- Assurez-vous que **iCloud Drive** est activé et que Décomptes est activé sous **Apps synchronisées avec iCloud Drive**.
 
 ### 2. Vérifiez votre espace de stockage iCloud
 

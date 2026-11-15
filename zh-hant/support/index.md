@@ -7,7 +7,7 @@ title: 支援中心
 meta_title: 倒數日支援中心 | iCloud、小工具與 Apple Watch 支援
 description: 取得倒數日 iCloud 和 Apple Watch 同步、小工具、家人共享、支援的作業系統版本、退款等方面的協助。
 intro: 尋找倒數日常見問題的解答，並依照疑難排解步驟處理您的 Apple 裝置。
-source_version: '2026-09-14'
+source_version: '2026-11-15'
 sections:
   - id: icloud-sync
     title: iCloud 同步
@@ -41,7 +41,6 @@ sections:
 - 確認顯示的 Apple 帳號與您在其他裝置上使用的帳號相同。
 - 點一下**iCloud**。
 - 在**已儲存至 iCloud**（以前稱為**使用 iCloud 的 App**）中找到**倒數日**，並確認已啟用。
-- 確認**iCloud Drive**已啟用，且**倒數日**已在**與 iCloud Drive 同步的 App**下啟用。
 
 #### Mac
 
@@ -51,7 +50,6 @@ sections:
 - 按一下**iCloud**。
 - 按一下**已儲存至 iCloud**下方的**顯示全部**（以前稱為**使用 iCloud 的 App**下方的**顯示更多 App**）。
 - 在列表中找到**倒數日**，並確認已啟用。
-- 確認**iCloud Drive**已啟用，且**倒數日**已在**與 iCloud Drive 同步的 App**下啟用。
 
 ### 2. 檢查您的 iCloud 儲存空間
 

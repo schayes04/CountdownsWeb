@@ -2,7 +2,7 @@
 layout: resource-page
 locale: ro
 canonical_key: support
-source_version: '2026-09-14'
+source_version: '2026-11-15'
 permalink: "/ro/support/"
 title: Centru de ajutor
 meta_title: Numărătoare | Centru de ajutor
@@ -44,7 +44,6 @@ Dacă numărătorile nu se sincronizează între dispozitive, urmează acești p
 - Verifică dacă este afișat același cont Apple pe care îl folosești pe celelalte dispozitive.
 - Atinge **iCloud**.
 - Găsește **Numărătoare** în **Salvate în iCloud** (anterior **Aplicații care utilizează iCloud**) și activeaz-o.
-- Verifică dacă **iCloud Drive** este activat și dacă Numărătoare este activată în lista aplicațiilor care se sincronizează cu iCloud Drive.
 
 #### Mac
 
@@ -54,7 +53,6 @@ Dacă numărătorile nu se sincronizează între dispozitive, urmează acești p
 - Fă clic pe **iCloud**.
 - Fă clic pe **Afișează tot** în **Salvate în iCloud** (anterior **Afișează mai multe aplicații** în **Aplicații care utilizează iCloud**).
 - Găsește **Numărătoare** în listă și activeaz-o.
-- Verifică dacă **iCloud Drive** este activat și dacă Numărătoare este activată în lista aplicațiilor care se sincronizează cu iCloud Drive.
 
 ### 2. Verifică spațiul iCloud
 

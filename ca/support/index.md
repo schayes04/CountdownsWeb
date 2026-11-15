@@ -7,7 +7,7 @@ title: "Centre d'ajuda"
 meta_title: "Centre d'ajuda de Compte enrere | Ajuda sobre iCloud, ginys i Apple Watch"
 description: "Obtén ajuda amb la sincronització d'iCloud i Apple Watch de Compte enrere, els ginys, Compartir en família, les versions de sistemes operatius compatibles, els reemborsaments i més."
 intro: "Troba respostes a preguntes habituals sobre Compte enrere i segueix els passos de resolució de problemes per als teus dispositius Apple."
-source_version: '2026-09-14'
+source_version: '2026-11-15'
 sections:
   - id: icloud-sync
     title: "Sincronització d'iCloud"
@@ -41,7 +41,6 @@ Si els teus comptes enrere no se sincronitzen entre els teus dispositius, seguei
 - Assegura't que el Compte d'Apple que es mostra és el mateix que fas servir als altres dispositius.
 - Toca **iCloud**.
 - Cerca **Compte enrere** a **Desat a l'iCloud** (abans **Apps que fan servir iCloud**) i assegura't que està activat.
-- Assegura't que **iCloud Drive** està activat i que Compte enrere està activat a **Apps que se sincronitzen amb iCloud Drive**.
 
 #### Mac
 
@@ -51,7 +50,6 @@ Si els teus comptes enrere no se sincronitzen entre els teus dispositius, seguei
 - Fes clic a **iCloud**.
 - Fes clic a **Veure-ho tot** a **Desat a l'iCloud** (abans **Veure més apps** a **Apps que fan servir iCloud**).
 - Cerca **Compte enrere** a la llista i assegura't que està activat.
-- Assegura't que **iCloud Drive** està activat i que Compte enrere està activat a **Apps que se sincronitzen amb iCloud Drive**.
 
 ### 2. Comprova l'emmagatzematge d'iCloud
 

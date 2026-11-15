@@ -7,7 +7,7 @@ title: Centro assistenza
 meta_title: "Centro assistenza Contatore | Aiuto per iCloud, widget e Apple Watch"
 description: "Ricevi assistenza per la sincronizzazione iCloud e Apple Watch di Contatore, i widget, la condivisione in famiglia, le versioni dei sistemi operativi supportate, i rimborsi e altro ancora."
 intro: "Trova le risposte alle domande più frequenti su Contatore e segui i passaggi per risolvere i problemi sui tuoi dispositivi Apple."
-source_version: '2026-09-14'
+source_version: '2026-11-15'
 sections:
   - id: icloud-sync
     title: Sincronizzazione iCloud
@@ -41,7 +41,6 @@ Se i tuoi contatori non si sincronizzano tra i dispositivi, segui questi passagg
 - Assicurati che l’Account Apple mostrato sia lo stesso usato sugli altri dispositivi.
 - Tocca **iCloud**.
 - Trova **Contatore** in **Salvato su iCloud** (in precedenza **App che usano iCloud**) e assicurati che sia attivato.
-- Assicurati che **iCloud Drive** sia attivato e che Contatore sia attivato in **App che si sincronizzano con iCloud Drive**.
 
 #### Mac
 
@@ -51,7 +50,6 @@ Se i tuoi contatori non si sincronizzano tra i dispositivi, segui questi passagg
 - Fai clic su **iCloud**.
 - Fai clic su **Mostra tutto** in **Salvato su iCloud** (in precedenza **Mostra altre app** in **App che usano iCloud**).
 - Trova **Contatore** nell’elenco e assicurati che sia attivato.
-- Assicurati che **iCloud Drive** sia attivato e che Contatore sia attivato in **App che si sincronizzano con iCloud Drive**.
 
 ### 2. Controlla lo spazio di archiviazione iCloud
 

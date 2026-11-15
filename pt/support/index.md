@@ -7,7 +7,7 @@ title: Centro de ajuda
 meta_title: "Centro de ajuda Contagem | Ajuda sobre iCloud, widgets e Apple Watch"
 description: "Obtenha ajuda com a sincronização do iCloud e do Apple Watch do Contagem, widgets, Partilha com a família, versões de sistemas operativos suportadas, reembolsos e muito mais."
 intro: "Encontre respostas a perguntas comuns sobre o Contagem e siga os passos de resolução de problemas para os seus dispositivos Apple."
-source_version: '2026-09-14'
+source_version: '2026-11-15'
 sections:
   - id: icloud-sync
     title: Sincronização do iCloud
@@ -41,7 +41,6 @@ Se as suas contagens não estiverem a sincronizar entre os seus dispositivos, si
 - Certifique-se de que a Conta Apple apresentada é a mesma que utiliza nos outros dispositivos.
 - Toque em **iCloud**.
 - Procure **Contagem** em **Guardado em iCloud** (anteriormente **Apps que usam o iCloud**) e certifique-se de que está ativado.
-- Certifique-se de que o **iCloud Drive** está ativado e de que Contagem está ativado em **Apps a sincronizar com o iCloud Drive**.
 
 #### Mac
 
@@ -51,7 +50,6 @@ Se as suas contagens não estiverem a sincronizar entre os seus dispositivos, si
 - Clique em **iCloud**.
 - Clique em **Ver tudo** em **Guardado em iCloud** (anteriormente **Mostrar mais apps** em **Apps que usam o iCloud**).
 - Procure **Contagem** na lista e certifique-se de que está ativado.
-- Certifique-se de que o **iCloud Drive** está ativado e de que Contagem está ativado em **Apps a sincronizar com o iCloud Drive**.
 
 ### 2. Verifique o armazenamento do iCloud
 

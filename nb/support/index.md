@@ -24,7 +24,7 @@ sections:
     title: Refusjoner
   - id: contact
     title: Kontakt
-source_version: '2026-09-14'
+source_version: '2026-11-15'
 ---
 
 ## iCloud-synkronisering
@@ -41,7 +41,6 @@ Hvis nedtellingene dine ikke synkroniseres på tvers av enhetene dine, følger d
 - Kontroller at Apple-kontoen som vises, er den samme som brukes på de andre enhetene dine.
 - Trykk på **iCloud**.
 - Finn **Nedtellinger** i **Lagret i iCloud** (tidligere **Apper som bruker iCloud**), og kontroller at den er aktivert.
-- Kontroller at **iCloud Drive** er aktivert, og at Nedtellinger er aktivert under **Apper som synkroniseres med iCloud Drive**.
 
 #### Mac
 
@@ -51,7 +50,6 @@ Hvis nedtellingene dine ikke synkroniseres på tvers av enhetene dine, følger d
 - Klikk på **iCloud**.
 - Klikk på **Vis alle** under **Lagret i iCloud** (tidligere **Vis flere apper** under **Apper som bruker iCloud**).
 - Finn **Nedtellinger** i listen, og kontroller at den er aktivert.
-- Kontroller at **iCloud Drive** er aktivert, og at Nedtellinger er aktivert under **Apper som synkroniseres med iCloud Drive**.
 
 ### 2. Sjekk iCloud-lagringen din
 

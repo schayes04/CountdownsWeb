@@ -24,7 +24,7 @@ sections:
     title: Återbetalningar
   - id: contact
     title: Kontakt
-source_version: '2026-09-14'
+source_version: '2026-11-15'
 ---
 
 ## iCloud-synkronisering
@@ -41,7 +41,6 @@ Om dina nedräkningar inte synkroniseras mellan dina enheter följer du de här 
 - Kontrollera att Apple-kontot som visas är samma konto som används på dina andra enheter.
 - Tryck på **iCloud**.
 - Leta upp **Nedräkningar** i **Sparat i iCloud** (tidigare **Appar som använder iCloud**) och kontrollera att det är aktiverat.
-- Kontrollera att **iCloud Drive** är aktiverat och att Nedräkningar är aktiverat under **Appar som synkroniserar med iCloud Drive**.
 
 #### Mac
 
@@ -51,7 +50,6 @@ Om dina nedräkningar inte synkroniseras mellan dina enheter följer du de här 
 - Klicka på **iCloud**.
 - Klicka på **Visa alla** under **Sparat i iCloud** (tidigare **Visa fler appar** under **Appar som använder iCloud**).
 - Leta upp **Nedräkningar** i listan och kontrollera att det är aktiverat.
-- Kontrollera att **iCloud Drive** är aktiverat och att Nedräkningar är aktiverat under **Appar som synkroniserar med iCloud Drive**.
 
 ### 2. Kontrollera ditt iCloud-lagringsutrymme
 

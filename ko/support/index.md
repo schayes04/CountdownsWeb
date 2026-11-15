@@ -7,7 +7,7 @@ title: 도움말 센터
 meta_title: 카운트다운 도움말 센터 | iCloud, 위젯 및 Apple Watch 도움말
 description: 카운트다운의 iCloud 및 Apple Watch 동기화, 위젯, 가족 공유, 지원되는 운영 체제 버전, 환불 등에 관한 도움말을 확인하세요.
 intro: 카운트다운에 관한 일반적인 질문의 답변을 찾고 Apple 기기의 문제 해결 단계를 따르세요.
-source_version: '2026-09-14'
+source_version: '2026-11-15'
 sections:
   - id: icloud-sync
     title: iCloud 동기화
@@ -41,7 +41,6 @@ sections:
 - 표시된 Apple 계정이 다른 기기에서 사용하는 계정과 동일한지 확인하세요.
 - **iCloud**를 탭하세요.
 - **iCloud에 저장됨**(이전의 **iCloud를 사용하는 앱**)에서 **카운트다운**을 찾아 활성화되어 있는지 확인하세요.
-- **iCloud Drive**가 활성화되어 있고 **iCloud Drive와 동기화되는 앱**에서 카운트다운이 활성화되어 있는지 확인하세요.
 
 #### Mac
 
@@ -51,7 +50,6 @@ sections:
 - **iCloud**를 클릭하세요.
 - **iCloud에 저장됨** 아래의 **모두 보기**를 클릭하세요(이전의 **iCloud를 사용하는 앱** 아래 **더 많은 앱 보기**).
 - 목록에서 **카운트다운**을 찾아 활성화되어 있는지 확인하세요.
-- **iCloud Drive**가 활성화되어 있고 **iCloud Drive와 동기화되는 앱**에서 카운트다운이 활성화되어 있는지 확인하세요.
 
 ### 2. iCloud 저장 공간 확인
 

@@ -2,7 +2,7 @@
 layout: resource-page
 locale: hu
 canonical_key: support
-source_version: '2026-09-14'
+source_version: '2026-11-15'
 permalink: "/hu/support/"
 title: Súgóközpont
 meta_title: Visszaszámláló | Súgóközpont
@@ -43,7 +43,6 @@ Ha a visszaszámlálók nem szinkronizálódnak az eszközök között, végezze
 - Ellenőrizze, hogy ugyanazt az Apple-fiókot használja, mint a többi eszközön.
 - Koppintson az **iCloud** lehetőségre.
 - Keresse meg a **Visszaszámláló** appot az **iCloudba mentve** résznél (korábban **Az iCloudot használó appok**), és engedélyezze.
-- Ellenőrizze, hogy az **iCloud Drive** be van kapcsolva, és a Visszaszámláló engedélyezett az iCloud Drive-val szinkronizáló appok között.
 
 #### Mac
 
@@ -53,7 +52,6 @@ Ha a visszaszámlálók nem szinkronizálódnak az eszközök között, végezze
 - Kattintson az **iCloud** lehetőségre.
 - Kattintson az **Összes megtekintése** gombra az **iCloudba mentve** résznél (korábban **További appok megjelenítése** az **Az iCloudot használó appok** alatt).
 - Keresse meg a **Visszaszámláló** appot a listában, és engedélyezze.
-- Ellenőrizze, hogy az **iCloud Drive** be van kapcsolva, és a Visszaszámláló engedélyezett az iCloud Drive-val szinkronizáló appok között.
 
 ### 2. Ellenőrizze az iCloud-tárhelyet
 

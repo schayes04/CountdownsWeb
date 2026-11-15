@@ -2,7 +2,7 @@
 layout: resource-page
 locale: fil
 canonical_key: support
-source_version: '2026-09-14'
+source_version: '2026-11-15'
 permalink: "/fil/support/"
 title: Sentro ng Tulong
 meta_title: Bilang Paurong | Sentro ng Tulong
@@ -44,7 +44,6 @@ Kung hindi nagsi-sync ang mga countdown sa iyong mga device, sundin ang mga hakb
 - Tiyaking pareho ang Apple Account na ginagamit sa iba mong device.
 - I-tap ang **iCloud**.
 - Hanapin ang **Bilang Paurong** sa **Saved to iCloud** (dating **Apps Using iCloud**) at tiyaking naka-enable ito.
-- Tiyaking naka-enable ang **iCloud Drive** at ang Bilang Paurong sa **Apps Syncing to iCloud Drive**.
 
 #### Mac
 
@@ -54,7 +53,6 @@ Kung hindi nagsi-sync ang mga countdown sa iyong mga device, sundin ang mga hakb
 - I-click ang **iCloud**.
 - I-click ang **See All** sa **Saved to iCloud** (dating **Show More Apps** sa **Apps Using iCloud**).
 - Hanapin ang **Bilang Paurong** sa listahan at tiyaking naka-enable ito.
-- Tiyaking naka-enable ang **iCloud Drive** at ang Bilang Paurong sa **Apps Syncing to iCloud Drive**.
 
 ### 2. Suriin ang storage ng iCloud
 

@@ -7,7 +7,7 @@ title: Hilfe-Center
 meta_title: "Countdowns Hilfe-Center | Hilfe zu iCloud, Widgets und Apple Watch"
 description: "Erhalte Hilfe zur iCloud- und Apple-Watch-Synchronisierung von Countdowns, zu Widgets, Familienfreigabe, unterstützten Betriebssystemversionen, Rückerstattungen und mehr."
 intro: "Finde Antworten auf häufige Fragen zu Countdowns und folge den Schritten zur Fehlerbehebung für deine Apple-Geräte."
-source_version: '2026-09-14'
+source_version: '2026-11-15'
 sections:
   - id: icloud-sync
     title: iCloud-Synchronisierung
@@ -41,7 +41,6 @@ Wenn deine Countdowns nicht zwischen deinen Geräten synchronisiert werden, füh
 - Stelle sicher, dass der angezeigte Apple Account derselbe ist, den du auf deinen anderen Geräten verwendest.
 - Tippe auf **iCloud**.
 - Suche unter **In iCloud gesichert** (früher **Apps, die iCloud verwenden**) nach **Countdowns** und stelle sicher, dass die App aktiviert ist.
-- Stelle sicher, dass **iCloud Drive** aktiviert ist und Countdowns unter **Apps, die mit iCloud Drive synchronisieren** aktiviert ist.
 
 #### Mac
 
@@ -51,7 +50,6 @@ Wenn deine Countdowns nicht zwischen deinen Geräten synchronisiert werden, füh
 - Klicke auf **iCloud**.
 - Klicke unter **In iCloud gesichert** auf **Alle anzeigen** (früher unter **Apps, die iCloud verwenden** auf **Weitere Apps anzeigen**).
 - Suche in der Liste nach **Countdowns** und stelle sicher, dass die App aktiviert ist.
-- Stelle sicher, dass **iCloud Drive** aktiviert ist und Countdowns unter **Apps, die mit iCloud Drive synchronisieren** aktiviert ist.
 
 ### 2. Überprüfe deinen iCloud-Speicher
 

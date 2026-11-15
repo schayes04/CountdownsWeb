@@ -24,7 +24,7 @@ sections:
     title: Zwroty środków
   - id: contact
     title: Kontakt
-source_version: '2026-09-14'
+source_version: '2026-11-15'
 ---
 
 ## Synchronizacja z iCloud
@@ -41,7 +41,6 @@ Jeśli Twoje odliczania nie synchronizują się między urządzeniami, wykonaj p
 - Upewnij się, że wyświetlane Konto Apple jest tym samym kontem, którego używasz na innych urządzeniach.
 - Stuknij **iCloud**.
 - Znajdź **Odliczanie** w sekcji **Zachowane w iCloud** (wcześniej **Aplikacje korzystające z iCloud**) i upewnij się, że jest włączone.
-- Upewnij się, że **iCloud Drive** jest włączony oraz że Odliczanie jest włączone w sekcji **Aplikacje synchronizujące się z iCloud Drive**.
 
 #### Mac
 
@@ -51,7 +50,6 @@ Jeśli Twoje odliczania nie synchronizują się między urządzeniami, wykonaj p
 - Kliknij **iCloud**.
 - Kliknij **Pokaż wszystko** pod nagłówkiem **Zachowane w iCloud** (wcześniej **Pokaż więcej aplikacji** pod nagłówkiem **Aplikacje korzystające z iCloud**).
 - Znajdź **Odliczanie** na liście i upewnij się, że jest włączone.
-- Upewnij się, że **iCloud Drive** jest włączony oraz że Odliczanie jest włączone w sekcji **Aplikacje synchronizujące się z iCloud Drive**.
 
 ### 2. Sprawdź miejsce w iCloud
 

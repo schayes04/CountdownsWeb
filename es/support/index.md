@@ -7,7 +7,7 @@ title: Centro de ayuda
 meta_title: "Centro de ayuda de Cuentas atrás | Ayuda sobre iCloud, widgets y Apple Watch"
 description: "Obtén ayuda con la sincronización de iCloud y Apple Watch de Cuentas atrás, widgets, En familia, versiones de sistemas operativos compatibles, reembolsos y más."
 intro: "Encuentra respuestas a preguntas frecuentes sobre Cuentas atrás y sigue los pasos para solucionar problemas en tus dispositivos Apple."
-source_version: '2026-09-14'
+source_version: '2026-11-15'
 sections:
   - id: icloud-sync
     title: Sincronización con iCloud
@@ -41,7 +41,6 @@ Si tus cuentas atrás no se sincronizan entre tus dispositivos, sigue estos paso
 - Asegúrate de que la Cuenta de Apple mostrada sea la misma que usas en tus otros dispositivos.
 - Toca **iCloud**.
 - Busca **Cuentas atrás** en **Guardado en iCloud** (antes **Apps que usan iCloud**) y asegúrate de que esté activada.
-- Asegúrate de que **iCloud Drive** esté activado y de que Cuentas atrás esté activada en **Apps que se sincronizan con iCloud Drive**.
 
 #### Mac
 
@@ -51,7 +50,6 @@ Si tus cuentas atrás no se sincronizan entre tus dispositivos, sigue estos paso
 - Haz clic en **iCloud**.
 - Haz clic en **Ver todo** en **Guardado en iCloud** (antes **Mostrar más apps** en **Apps que usan iCloud**).
 - Busca **Cuentas atrás** en la lista y asegúrate de que esté activada.
-- Asegúrate de que **iCloud Drive** esté activado y de que Cuentas atrás esté activada en **Apps que se sincronizan con iCloud Drive**.
 
 ### 2. Comprueba el almacenamiento de iCloud
 

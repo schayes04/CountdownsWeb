@@ -24,7 +24,7 @@ sections:
     title: Refundácie
   - id: contact
     title: Kontakt
-source_version: '2026-09-14'
+source_version: '2026-11-15'
 ---
 
 ## Synchronizácia s iCloudom
@@ -41,7 +41,6 @@ Ak sa vaše odpočty nesynchronizujú medzi vašimi zariadeniami, postupujte pod
 - Uistite sa, že zobrazený účet Apple je ten istý, ktorý používate na ostatných zariadeniach.
 - Klepnite na **iCloud**.
 - Nájdite **Odpočty** v časti **Uložené v iCloude** (predtým **Apky používajúce iCloud**) a uistite sa, že sú zapnuté.
-- Uistite sa, že je zapnutý **iCloud Drive** a že sú Odpočty zapnuté v časti **Apky synchronizujúce sa s iCloud Drivom**.
 
 #### Mac
 
@@ -51,7 +50,6 @@ Ak sa vaše odpočty nesynchronizujú medzi vašimi zariadeniami, postupujte pod
 - Kliknite na **iCloud**.
 - Kliknite na **Zobraziť všetko** v časti **Uložené v iCloude** (predtým **Zobraziť viac apiek** v časti **Apky používajúce iCloud**).
 - Nájdite v zozname **Odpočty** a uistite sa, že sú zapnuté.
-- Uistite sa, že je zapnutý **iCloud Drive** a že sú Odpočty zapnuté v časti **Apky synchronizujúce sa s iCloud Drivom**.
 
 ### 2. Skontrolujte úložisko iCloud
 

@@ -2,7 +2,7 @@
 layout: resource-page
 locale: id
 canonical_key: support
-source_version: '2026-09-14'
+source_version: '2026-11-15'
 permalink: "/id/support/"
 title: Pusat Bantuan
 meta_title: Hitung Mundur | Pusat Bantuan
@@ -44,7 +44,6 @@ Jika hitung mundur tidak terselaraskan antarperangkat, ikuti langkah berikut di 
 - Pastikan Akun Apple yang ditampilkan sama dengan yang digunakan di perangkat lain.
 - Ketuk **iCloud**.
 - Temukan **Hitung Mundur** di **Disimpan ke iCloud** (sebelumnya **App yang Menggunakan iCloud**) dan pastikan aktif.
-- Pastikan **iCloud Drive** aktif dan Hitung Mundur diaktifkan di bagian aplikasi yang diselaraskan ke iCloud Drive.
 
 #### Mac
 
@@ -54,7 +53,6 @@ Jika hitung mundur tidak terselaraskan antarperangkat, ikuti langkah berikut di 
 - Klik **iCloud**.
 - Klik **Lihat Semua** di **Disimpan ke iCloud** (sebelumnya **Tampilkan App Lainnya** di **App yang Menggunakan iCloud**).
 - Temukan **Hitung Mundur** dalam daftar dan pastikan aktif.
-- Pastikan **iCloud Drive** aktif dan Hitung Mundur diaktifkan di bagian aplikasi yang diselaraskan ke iCloud Drive.
 
 ### 2. Periksa penyimpanan iCloud
 

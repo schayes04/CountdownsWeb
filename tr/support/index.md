@@ -7,7 +7,7 @@ title: Yardım Merkezi
 meta_title: Geri Sayım Yardım Merkezi | iCloud, Widget'lar ve Apple Watch Yardımı
 description: Geri Sayım için iCloud ve Apple Watch eşzamanlama, widget'lar, Aile Paylaşımı, desteklenen işletim sistemi sürümleri, para iadesi ve daha fazlasıyla ilgili yardım alın.
 intro: Geri Sayım ile ilgili sık sorulan soruların yanıtlarını bulun ve Apple aygıtlarınız için sorun giderme adımlarını izleyin.
-source_version: '2026-09-14'
+source_version: '2026-11-15'
 sections:
   - id: icloud-sync
     title: iCloud Eşzamanlama
@@ -41,7 +41,6 @@ Geri Sayımlarınız aygıtlarınız arasında eşzamanlanmıyorsa her aygıtta 
 - Gösterilen Apple Hesabının diğer aygıtlarınızda kullanılanla aynı olduğundan emin olun.
 - **iCloud**'a dokunun.
 - **iCloud'a Kaydedilenler** bölümünde (eski adıyla **iCloud Kullanan Uygulamalar**) **Geri Sayım**'ı bulun ve etkin olduğundan emin olun.
-- **iCloud Drive**'ın etkin olduğundan ve **iCloud Drive ile Eşzamanlanan Uygulamalar** altında Geri Sayım uygulamasının etkin olduğundan emin olun.
 
 #### Mac
 
@@ -51,7 +50,6 @@ Geri Sayımlarınız aygıtlarınız arasında eşzamanlanmıyorsa her aygıtta 
 - **iCloud**'u tıklayın.
 - **iCloud'a Kaydedilenler** altında **Tümünü Göster**'i tıklayın (eski adıyla **iCloud Kullanan Uygulamalar** altında **Daha Fazla Uygulama Göster**).
 - Listede **Geri Sayım**'ı bulun ve etkin olduğundan emin olun.
-- **iCloud Drive**'ın etkin olduğundan ve **iCloud Drive ile Eşzamanlanan Uygulamalar** altında Geri Sayım uygulamasının etkin olduğundan emin olun.
 
 ### 2. iCloud saklama alanınızı kontrol edin
 

@@ -2,7 +2,7 @@
 layout: resource-page
 locale: en
 canonical_key: support
-source_version: '2026-09-14'
+source_version: '2026-11-15'
 permalink: /support/
 title: Help Center
 meta_title: Countdowns Help Center | iCloud, Widgets & Apple Watch Help
@@ -41,7 +41,6 @@ If your countdowns are not syncing across your devices, follow these steps on ea
 - Make sure the Apple Account shown is the same one used on your other devices.
 - Tap **iCloud**.
 - Find **Countdowns** in **Saved to iCloud** (formerly **Apps Using iCloud**) and make sure it is enabled.
-- Make sure **iCloud Drive** is enabled and that Countdowns is enabled under **Apps Syncing to iCloud Drive**.
 
 #### Mac
 
@@ -51,7 +50,6 @@ If your countdowns are not syncing across your devices, follow these steps on ea
 - Click **iCloud**.
 - Click **See All** under **Saved to iCloud** (formerly **Show More Apps** under **Apps Using iCloud**).
 - Find **Countdowns** in the list and make sure it is enabled.
-- Make sure **iCloud Drive** is enabled and that Countdowns is enabled under **Apps Syncing to iCloud Drive**.
 
 ### 2. Check your iCloud storage
 

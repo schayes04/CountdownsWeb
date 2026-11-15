@@ -24,7 +24,7 @@ sections:
     title: Hyvitykset
   - id: contact
     title: Yhteystiedot
-source_version: '2026-09-14'
+source_version: '2026-11-15'
 ---
 
 ## iCloud-synkronointi
@@ -41,7 +41,6 @@ Jos laskurisi eivät synkronoidu laitteidesi välillä, noudata näitä ohjeita 
 - Varmista, että näkyvä Apple-tili on sama kuin muilla laitteillasi käytetty tili.
 - Napauta **iCloud**.
 - Etsi **Laskurit** kohdasta **Tallennettu iCloudiin** (aiemmin **iCloudia käyttävät apit**) ja varmista, että se on käytössä.
-- Varmista, että **iCloud Drive** on käytössä ja että Laskurit on käytössä kohdassa **iCloud Driveen synkronoivat apit**.
 
 #### Mac
 
@@ -51,7 +50,6 @@ Jos laskurisi eivät synkronoidu laitteidesi välillä, noudata näitä ohjeita 
 - Klikkaa **iCloud**.
 - Klikkaa **Näytä kaikki** kohdassa **Tallennettu iCloudiin** (aiemmin **Näytä lisää appeja** kohdassa **iCloudia käyttävät apit**).
 - Etsi **Laskurit** luettelosta ja varmista, että se on käytössä.
-- Varmista, että **iCloud Drive** on käytössä ja että Laskurit on käytössä kohdassa **iCloud Driveen synkronoivat apit**.
 
 ### 2. Tarkista iCloud-tallennustilasi
 

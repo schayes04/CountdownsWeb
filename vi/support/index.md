@@ -2,7 +2,7 @@
 layout: resource-page
 locale: vi
 canonical_key: support
-source_version: '2026-09-14'
+source_version: '2026-11-15'
 permalink: "/vi/support/"
 title: Trung tâm trợ giúp
 meta_title: Đếm ngược | Trung tâm trợ giúp
@@ -44,7 +44,6 @@ Nếu các mục đếm ngược không đồng bộ giữa các thiết bị, h
 - Đảm bảo Tài khoản Apple hiển thị giống với tài khoản trên các thiết bị khác.
 - Chạm vào **iCloud**.
 - Tìm **Đếm ngược** trong **Đã lưu vào iCloud** (trước đây là **Ứng dụng sử dụng iCloud**) và đảm bảo đã bật.
-- Đảm bảo **iCloud Drive** đã bật và Đếm ngược được bật trong phần ứng dụng đồng bộ hóa với iCloud Drive.
 
 #### Mac
 
@@ -54,7 +53,6 @@ Nếu các mục đếm ngược không đồng bộ giữa các thiết bị, h
 - Bấm vào **iCloud**.
 - Bấm **Xem tất cả** trong **Đã lưu vào iCloud** (trước đây là **Hiển thị thêm ứng dụng** trong **Ứng dụng sử dụng iCloud**).
 - Tìm **Đếm ngược** trong danh sách và đảm bảo đã bật.
-- Đảm bảo **iCloud Drive** đã bật và Đếm ngược được bật trong phần ứng dụng đồng bộ hóa với iCloud Drive.
 
 ### 2. Kiểm tra dung lượng iCloud
 

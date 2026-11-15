@@ -2,7 +2,7 @@
 layout: resource-page
 locale: cs
 canonical_key: support
-source_version: '2026-09-14'
+source_version: '2026-11-15'
 permalink: "/cs/support/"
 title: Centrum nápovědy
 meta_title: Odpočty | Centrum nápovědy
@@ -44,7 +44,6 @@ Pokud se odpočty nesynchronizují mezi zařízeními, proveďte na každém za�
 - Ověřte, že používáte stejný účet Apple jako na ostatních zařízeních.
 - Klepněte na **iCloud**.
 - Najděte **Odpočty** v části **Uloženo na iCloudu** (dříve **Aplikace využívající iCloud**) a povolte je.
-- Ověřte, že je zapnutý **iCloud Drive** a že jsou Odpočty povolené mezi aplikacemi synchronizovanými s iCloud Drivem.
 
 #### Mac
 
@@ -54,7 +53,6 @@ Pokud se odpočty nesynchronizují mezi zařízeními, proveďte na každém za�
 - Klikněte na **iCloud**.
 - Klikněte na **Zobrazit vše** v části **Uloženo na iCloudu** (dříve **Zobrazit další aplikace** v části **Aplikace využívající iCloud**).
 - Najděte **Odpočty** v seznamu a povolte je.
-- Ověřte, že je zapnutý **iCloud Drive** a že jsou Odpočty povolené mezi aplikacemi synchronizovanými s iCloud Drivem.
 
 ### 2. Zkontrolujte úložiště iCloudu
 

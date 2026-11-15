@@ -24,7 +24,7 @@ sections:
     title: Refusioner
   - id: contact
     title: Kontakt
-source_version: '2026-09-14'
+source_version: '2026-11-15'
 ---
 
 ## iCloud-synkronisering
@@ -41,7 +41,6 @@ Hvis dine nedtællinger ikke synkroniseres på tværs af dine enheder, skal du f
 - Sørg for, at den viste Apple-konto er den samme, som bruges på dine andre enheder.
 - Tryk på **iCloud**.
 - Find **Nedtællinger** under **Gemt i iCloud** (tidligere **Apps, der bruger iCloud**), og sørg for, at den er slået til.
-- Sørg for, at **iCloud Drive** er slået til, og at Nedtællinger er slået til under **Apps, der synkroniserer med iCloud Drive**.
 
 #### Mac
 
@@ -51,7 +50,6 @@ Hvis dine nedtællinger ikke synkroniseres på tværs af dine enheder, skal du f
 - Klik på **iCloud**.
 - Klik på **Se alle** under **Gemt i iCloud** (tidligere **Vis flere apps** under **Apps, der bruger iCloud**).
 - Find **Nedtællinger** på listen, og sørg for, at den er slået til.
-- Sørg for, at **iCloud Drive** er slået til, og at Nedtællinger er slået til under **Apps, der synkroniserer med iCloud Drive**.
 
 ### 2. Tjek din iCloud-lagring
 

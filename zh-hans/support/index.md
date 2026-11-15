@@ -7,7 +7,7 @@ title: 帮助中心
 meta_title: 时光仪帮助中心 | iCloud、小组件与 Apple Watch 帮助
 description: 获取有关时光仪 iCloud 和 Apple Watch 同步、小组件、家人共享、支持的操作系统版本、退款等方面的帮助。
 intro: 查找有关时光仪的常见问题解答，并按照步骤排查 Apple 设备的问题。
-source_version: '2026-09-14'
+source_version: '2026-11-15'
 sections:
   - id: icloud-sync
     title: iCloud 同步
@@ -41,7 +41,6 @@ sections:
 - 确保显示的 Apple 账户与您在其他设备上使用的账户相同。
 - 轻点**iCloud**。
 - 在**已存储到 iCloud**（原为**使用 iCloud 的 App**）中找到**时光仪**，并确保已启用。
-- 确保**iCloud Drive**已启用，并且**时光仪**已在**与 iCloud Drive 同步的 App**下启用。
 
 #### Mac
 
@@ -51,7 +50,6 @@ sections:
 - 点按**iCloud**。
 - 点按**已存储到 iCloud**下方的**显示全部**（原为**使用 iCloud 的 App**下方的**显示更多 App**）。
 - 在列表中找到**时光仪**，并确保已启用。
-- 确保**iCloud Drive**已启用，并且**时光仪**已在**与 iCloud Drive 同步的 App**下启用。
 
 ### 2. 检查您的 iCloud 储存空间
 

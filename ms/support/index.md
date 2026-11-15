@@ -2,7 +2,7 @@
 layout: resource-page
 locale: ms
 canonical_key: support
-source_version: '2026-09-14'
+source_version: '2026-11-15'
 permalink: "/ms/support/"
 title: Pusat Bantuan
 meta_title: Kiraan Detik | Pusat Bantuan
@@ -44,7 +44,6 @@ Jika kiraan detik tidak disegerakkan antara peranti, ikuti langkah ini pada seti
 - Pastikan Akaun Apple yang dipaparkan sama dengan yang digunakan pada peranti lain.
 - Ketik **iCloud**.
 - Cari **Kiraan Detik** dalam **Disimpan ke iCloud** (dahulunya **App Menggunakan iCloud**) dan pastikan ia diaktifkan.
-- Pastikan **iCloud Drive** diaktifkan dan Kiraan Detik diaktifkan dalam bahagian aplikasi yang menyegerak ke iCloud Drive.
 
 #### Mac
 
@@ -54,7 +53,6 @@ Jika kiraan detik tidak disegerakkan antara peranti, ikuti langkah ini pada seti
 - Klik **iCloud**.
 - Klik **Lihat Semua** di bawah **Disimpan ke iCloud** (dahulunya **Tunjukkan Lebih Banyak App** di bawah **App Menggunakan iCloud**).
 - Cari **Kiraan Detik** dalam senarai dan pastikan ia diaktifkan.
-- Pastikan **iCloud Drive** diaktifkan dan Kiraan Detik diaktifkan dalam bahagian aplikasi yang menyegerak ke iCloud Drive.
 
 ### 2. Semak storan iCloud
 
