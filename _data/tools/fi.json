@@ -173,7 +173,12 @@
     "days_add_result_before": "{duration} ennen päivää {start}: {date}",
     "days_add_error": "Anna kokonainen määrä päiviä, enintään 100 000.",
     "days_popular_title": "Päiviä suosittuihin päivämääriin",
-    "days_more_link": "Laske päivät johonkin muuhun päivämäärään"
+    "days_more_link": "Laske päivät johonkin muuhun päivämäärään",
+    "milestone_dates_title": "Merkkipäivät: 100 päivästä 10 vuoteen",
+    "milestone_dates_example": "Esimerkki parille, joka on ollut yhdessä {date} alkaen. Syötä aloituspäivä yllä nähdäksesi omat päivämääräsi.",
+    "milestone_dates_yours": "Teidän merkkipäivänne, laskettuna {date} alkaen.",
+    "milestone_dates_col_name": "Merkkipäivä",
+    "milestone_dates_col_date": "Päivämäärä"
   },
   "holidays": {
     "christmas": {

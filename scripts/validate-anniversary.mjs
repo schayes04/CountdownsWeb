@@ -101,3 +101,14 @@ test('today uses the visitor’s local calendar date', () => {
     else process.env.TZ = original;
   }
 });
+
+test('milestone dates stay in date order and follow the leap-day choice', async () => {
+  const { milestoneDates } = await import('../assets/anniversary-dates.mjs');
+  for (const start of ['2025-02-14', '2024-02-29', '2023-12-31', '2026-06-01']) {
+    const dates = milestoneDates(start).map(item => item.date.getTime());
+    assert.deepEqual(dates, [...dates].sort((a, b) => a - b), start);
+  }
+  const leap = milestoneDates('2024-02-29', 'mar1').filter(item => item.unit === 'year').map(item => dateString(item.date));
+  assert.deepEqual(leap, ['2025-03-01', '2026-03-01', '2029-03-01', '2034-03-01']);
+  assert.equal(dateString(milestoneDates('2025-02-14')[6].date), '2027-11-11');
+});

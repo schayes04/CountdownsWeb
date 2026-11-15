@@ -173,7 +173,12 @@
     "days_add_result_before": "{duration} før {start}: {date}",
     "days_add_error": "Angiv et helt antal dage, op til 100.000.",
     "days_popular_title": "Dage til populære datoer",
-    "days_more_link": "Tæl dagene til en anden dato"
+    "days_more_link": "Tæl dagene til en anden dato",
+    "milestone_dates_title": "Datoer for milepæle: fra 100 dage til 10 år",
+    "milestone_dates_example": "Eksempel for et par, der har været sammen siden {date}. Indtast jeres startdato ovenfor for at se jeres egne datoer.",
+    "milestone_dates_yours": "Jeres milepælsdatoer, regnet fra {date}.",
+    "milestone_dates_col_name": "Milepæl",
+    "milestone_dates_col_date": "Dato"
   },
   "holidays": {
     "christmas": {

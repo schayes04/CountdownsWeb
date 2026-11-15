@@ -62,3 +62,13 @@ export function calculateAnniversary(startValue, asOfValue, leapDay = 'feb28') {
   return { start, asOf, days, weeks: Math.floor(days / 7), extraDays: days % 7,
     nextAnniversary, anniversaryNumber, anniversaryRemaining: daysBetween(asOf, nextAnniversary), milestones };
 }
+
+// The milestones in the "Milestone dates" table, in date order for any start date.
+export const MILESTONE_STEPS = [['day', 100], ['day', 200], ['day', 300], ['year', 1], ['day', 500], ['year', 2], ['day', 1000], ['year', 5], ['year', 10]];
+
+export function milestoneDates(startValue, leapDay = 'feb28') {
+  const start = parseDate(startValue);
+  if (!start) throw new RangeError('Enter a valid start date between years 0001 and 9998.');
+  return MILESTONE_STEPS.map(([unit, amount]) => ({ unit, amount,
+    date: unit === 'day' ? addDays(start, amount) : anniversaryInYear(start, start.getUTCFullYear() + amount, leapDay) }));
+}

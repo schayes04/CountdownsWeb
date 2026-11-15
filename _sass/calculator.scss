@@ -119,3 +119,12 @@
 .calculator-page h1, .calculator-page h2, .calculator-field label, .calculator-countdown, .calculator-milestones { overflow-wrap: anywhere; }
 .calculator-countdown { flex-shrink: 1; }
 .calculator-milestones li { grid-template-columns: minmax(0, 1fr) minmax(0, auto); }
+
+.anniversary-milestones { margin-top: 28px; padding: 28px; border: 1px solid #d8e4ed; border-radius: 18px; background: #fff; }
+.anniversary-milestones h2 { font-size: 22px; letter-spacing: -.02em; margin-bottom: 6px; overflow-wrap: anywhere; }
+.anniversary-milestones > p { color: var(--muted); font-size: 15px; overflow-wrap: anywhere; }
+.anniversary-milestones__table { width: 100%; margin-top: 14px; border-collapse: collapse; font-size: 15px; }
+.anniversary-milestones__table th, .anniversary-milestones__table td { padding: 11px 0; border-bottom: 1px solid #e3ecf2; text-align: start; vertical-align: top; overflow-wrap: anywhere; }
+.anniversary-milestones__table thead th { color: var(--muted); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; }
+.anniversary-milestones__table tbody th { width: 38%; padding-inline-end: 16px; font-weight: 750; white-space: nowrap; }
+@media (max-width: 760px) { .anniversary-milestones { padding: 22px 18px; } }

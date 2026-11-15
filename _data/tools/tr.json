@@ -173,7 +173,12 @@
     "days_add_result_before": "{start} tarihinden {duration} önce: {date}",
     "days_add_error": "100.000’e kadar tam sayı olarak gün girin.",
     "days_popular_title": "Popüler tarihlere kaç gün kaldı",
-    "days_more_link": "Başka bir tarihe kalan günleri say"
+    "days_more_link": "Başka bir tarihe kalan günleri say",
+    "milestone_dates_title": "Yıl dönümü tarihleri: 100 günden 10 yıla",
+    "milestone_dates_example": "{date} tarihinden beri birlikte olan bir çift için örnek. Kendi tarihlerinizi görmek için yukarıya başlangıç tarihinizi girin.",
+    "milestone_dates_yours": "{date} tarihinden itibaren sayılan önemli günleriniz.",
+    "milestone_dates_col_name": "Önemli gün",
+    "milestone_dates_col_date": "Tarih"
   },
   "holidays": {
     "christmas": {

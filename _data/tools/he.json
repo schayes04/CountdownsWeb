@@ -173,7 +173,12 @@
     "days_add_result_before": "{duration} לפני {start}: {date}",
     "days_add_error": "הזינו מספר שלם של ימים, עד 100,000.",
     "days_popular_title": "כמה ימים נותרו עד תאריכים פופולריים",
-    "days_more_link": "ספרו את הימים עד תאריך אחר"
+    "days_more_link": "ספרו את הימים עד תאריך אחר",
+    "milestone_dates_title": "תאריכי ציוני דרך: מ־100 ימים עד 10 שנים",
+    "milestone_dates_example": "דוגמה לזוג שביחד מאז {date}. הזינו את תאריך ההתחלה שלכם למעלה כדי לראות את התאריכים שלכם.",
+    "milestone_dates_yours": "תאריכי ציוני הדרך שלכם, החל מ־{date}.",
+    "milestone_dates_col_name": "ציון דרך",
+    "milestone_dates_col_date": "תאריך"
   },
   "holidays": {
     "christmas": {

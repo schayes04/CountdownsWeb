@@ -173,7 +173,12 @@
     "days_add_result_before": "{start} előtt {duration}: {date}",
     "days_add_error": "Adj meg egész számú napot, legfeljebb 100 000-et.",
     "days_popular_title": "Hány nap van hátra népszerű dátumokig",
-    "days_more_link": "Napok számolása egy másik dátumig"
+    "days_more_link": "Napok számolása egy másik dátumig",
+    "milestone_dates_title": "Mérföldkövek dátumai: 100 naptól 10 évig",
+    "milestone_dates_example": "Példa egy párra, akik {date} óta vannak együtt. Add meg fent a kezdő dátumot, és megjelennek a saját dátumaitok.",
+    "milestone_dates_yours": "A ti mérföldköveitek dátumai, {date} óta számolva.",
+    "milestone_dates_col_name": "Mérföldkő",
+    "milestone_dates_col_date": "Dátum"
   },
   "holidays": {
     "christmas": {

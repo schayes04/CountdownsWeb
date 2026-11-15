@@ -173,7 +173,12 @@
     "days_add_result_before": "{start}の{duration}前：{date}",
     "days_add_error": "日数を整数で入力してください（最大100,000）。",
     "days_popular_title": "人気の日付まであと何日",
-    "days_more_link": "ほかの日付までの日数を数える"
+    "days_more_link": "ほかの日付までの日数を数える",
+    "milestone_dates_title": "記念日の日付：100日記念から10周年まで",
+    "milestone_dates_example": "{date}から付き合っているカップルの例です。上で始まりの日を入力すると、ふたりの記念日がわかります。",
+    "milestone_dates_yours": "{date}から数えた、ふたりの記念日です。",
+    "milestone_dates_col_name": "記念日",
+    "milestone_dates_col_date": "日付"
   },
   "holidays": {
     "christmas": {

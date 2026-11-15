@@ -173,7 +173,12 @@
     "days_add_result_before": "{duration} pred {start}: {date}",
     "days_add_error": "Zadajte celý počet dní, najviac 100 000.",
     "days_popular_title": "Koľko dní zostáva do obľúbených dátumov",
-    "days_more_link": "Spočítať dni do iného dátumu"
+    "days_more_link": "Spočítať dni do iného dátumu",
+    "milestone_dates_title": "Dátumy míľnikov: od 100 dní po 10 rokov",
+    "milestone_dates_example": "Príklad pre pár, ktorý je spolu od {date}. Zadajte hore svoj dátum začiatku a uvidíte svoje dátumy.",
+    "milestone_dates_yours": "Vaše dátumy míľnikov, počítané od {date}.",
+    "milestone_dates_col_name": "Míľnik",
+    "milestone_dates_col_date": "Dátum"
   },
   "holidays": {
     "christmas": {

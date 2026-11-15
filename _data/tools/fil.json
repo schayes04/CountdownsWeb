@@ -173,7 +173,12 @@
     "days_add_result_before": "{duration} bago ang {start}: {date}",
     "days_add_error": "Maglagay ng buong bilang ng araw, hanggang 100,000.",
     "days_popular_title": "Ilang araw pa bago ang mga sikat na petsa",
-    "days_more_link": "Bilangin ang araw hanggang sa ibang petsa"
+    "days_more_link": "Bilangin ang araw hanggang sa ibang petsa",
+    "milestone_dates_title": "Mga petsa ng milestone: mula 100 araw hanggang 10 taon",
+    "milestone_dates_example": "Halimbawa para sa magkasintahang magkasama mula noong {date}. Ilagay ang petsa ng simula ninyo sa itaas para makita ang sarili ninyong mga petsa.",
+    "milestone_dates_yours": "Ang mga petsa ng milestone ninyo, mula {date}.",
+    "milestone_dates_col_name": "Milestone",
+    "milestone_dates_col_date": "Petsa"
   },
   "holidays": {
     "christmas": {

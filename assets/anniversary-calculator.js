@@ -1,5 +1,5 @@
 import { interpolate, toolFormatters } from './tool-i18n.mjs';
-import { calculateAnniversary, localToday, parseDate } from './anniversary-dates.mjs';
+import { calculateAnniversary, localToday, milestoneDates, parseDate } from './anniversary-dates.mjs';
 
 const form = document.querySelector('#anniversary-form');
 const startInput = form.elements.start;
@@ -79,6 +79,15 @@ form.addEventListener('submit', event => {
     item.append(label, date, remaining);
     milestones.append(item);
   }
+  // Replace the worked example with the visitor's own milestone dates.
+  show('milestone-dates-caption', interpolate(copy.milestone_dates_yours, { date: fmt.date(result.start) }));
+  const rows = document.querySelectorAll('#milestone-dates tr');
+  milestoneDates(startInput.value, leapInput.value).forEach(({ date }, index) => {
+    const time = rows[index]?.querySelector('time');
+    if (!time) return;
+    time.dateTime = date.toISOString().slice(0, 10);
+    time.textContent = fmt.date(date);
+  });
   empty.hidden = true;
   results.hidden = false;
   document.querySelector('#result-heading').focus({ preventScroll: true });

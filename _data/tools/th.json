@@ -173,7 +173,12 @@
     "days_add_result_before": "{duration}ก่อน{start}: {date}",
     "days_add_error": "ใส่จำนวนวันเป็นจำนวนเต็ม ไม่เกิน 100,000",
     "days_popular_title": "อีกกี่วันจะถึงวันยอดนิยม",
-    "days_more_link": "นับวันไปยังวันที่อื่น"
+    "days_more_link": "นับวันไปยังวันที่อื่น",
+    "milestone_dates_title": "วันครบรอบสำคัญ: ตั้งแต่ 100 วันถึง 10 ปี",
+    "milestone_dates_example": "ตัวอย่างสำหรับคู่ที่คบกันตั้งแต่{date} ใส่วันที่เริ่มคบด้านบนเพื่อดูวันครบรอบของคุณเอง",
+    "milestone_dates_yours": "วันครบรอบของคุณ นับจาก{date}",
+    "milestone_dates_col_name": "ครบรอบ",
+    "milestone_dates_col_date": "วันที่"
   },
   "holidays": {
     "christmas": {

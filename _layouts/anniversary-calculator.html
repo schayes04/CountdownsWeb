@@ -2,6 +2,8 @@
 layout: default
 ---
 {% include tool-context.html %}
+{%- assign anniversary_seo = site.data.holiday_seo[current_locale] -%}
+{%- assign anniversary_heading = anniversary_seo.anniversary_title | default: tool.calculator_title -%}
 
 
 <div class="calculator-page anniversary-page">
@@ -10,7 +12,7 @@ layout: default
       <nav class="calculator-breadcrumbs" aria-label="{{ t.breadcrumb_label | escape }}"><a href="{{ locale_prefix | append: '/' | relative_url }}">{{ app_name }}</a><span aria-hidden="true">/</span><span>{{ tool.free_tools }}</span></nav>
       <div class="calculator-intro">
         <p class="section-kicker">{{ tool.calculator_kicker }}</p>
-        <h1>{{ tool.calculator_title }}</h1>
+        <h1>{{ anniversary_heading }}</h1>
         <p>{{ tool.calculator_intro }}</p>
       </div>
 
@@ -61,6 +63,29 @@ layout: default
         </div>
       </div>
       <p class="calculator-counting-note">{{ tool.counting_note }}</p>
+
+      {%- comment -%}A worked example in the HTML: milestone dates for a couple together since February 14 last year. The page script swaps in the visitor's own dates after they calculate.{%- endcomment -%}
+      {%- assign example_year = site.time | date: '%Y' | minus: 1 -%}
+      {%- assign example_start = example_year | append: '-02-14' -%}
+      {%- assign example_seconds = example_start | date: '%s' | plus: 43200 -%}
+      {%- capture example_date %}{% include tool-date.html date=example_start %}{% endcapture -%}
+      {%- assign milestone_labels = site.data.milestone_labels[current_locale] -%}
+      {%- assign milestone_steps = 'day:100,day:200,day:300,year:1,day:500,year:2,day:1000,year:5,year:10' | split: ',' -%}
+      <section class="anniversary-milestones" aria-labelledby="milestone-dates-heading">
+        <h2 id="milestone-dates-heading">{{ tool.milestone_dates_title }}</h2>
+        <p id="milestone-dates-caption">{{ tool.milestone_dates_example | replace: token_date, example_date }}</p>
+        <table class="anniversary-milestones__table">
+          <thead><tr><th scope="col">{{ tool.milestone_dates_col_name }}</th><th scope="col">{{ tool.milestone_dates_col_date }}</th></tr></thead>
+          <tbody id="milestone-dates">
+          {%- for step in milestone_steps -%}
+            {%- assign parts = step | split: ':' -%}{%- assign amount = parts[1] | plus: 0 -%}
+            {%- if parts[0] == 'day' -%}{%- assign milestone_date = amount | times: 86400 | plus: example_seconds | date: '%Y-%m-%d' -%}
+            {%- else -%}{%- assign milestone_date = example_year | plus: amount | append: '-02-14' -%}{%- endif %}
+            <tr data-unit="{{ parts[0] }}" data-amount="{{ amount }}"><th scope="row">{{ milestone_labels[forloop.index0] }}</th><td><time datetime="{{ milestone_date }}">{% include tool-date.html date=milestone_date %}</time></td></tr>
+          {%- endfor %}
+          </tbody>
+        </table>
+      </section>
     </div>
   </section>
 
@@ -90,9 +115,9 @@ layout: default
 {
   "@context": "https://schema.org",
   "@type": "WebApplication",
-  "name": {{ tool.calculator_title | jsonify }},
+  "name": {{ anniversary_heading | jsonify }},
   "url": {{ page.url | absolute_url | jsonify }},
-  "description": {{ tool.calculator_description | jsonify }},
+  "description": {{ anniversary_seo.anniversary_description | default: tool.calculator_description | jsonify }},
   "applicationCategory": "LifestyleApplication",
   "operatingSystem": "Any",
   "browserRequirements": "Requires JavaScript",

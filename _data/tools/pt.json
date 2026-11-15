@@ -173,7 +173,12 @@
     "days_add_result_before": "{duration} antes de {start}: {date}",
     "days_add_error": "Introduza um número inteiro de dias, até 100 000.",
     "days_popular_title": "Quantos dias faltam para datas populares",
-    "days_more_link": "Conte os dias até outra data"
+    "days_more_link": "Conte os dias até outra data",
+    "milestone_dates_title": "Datas de marcos: de 100 dias a 10 anos",
+    "milestone_dates_example": "Exemplo para um casal junto desde {date}. Introduza a sua data de início acima para ver as suas datas.",
+    "milestone_dates_yours": "As vossas datas de marcos, contadas a partir de {date}.",
+    "milestone_dates_col_name": "Marco",
+    "milestone_dates_col_date": "Data"
   },
   "holidays": {
     "christmas": {

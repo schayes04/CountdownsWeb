@@ -5,7 +5,9 @@
     "christmas_eve": "Christmas Eve",
     "sundays_left": "Sundays left before Christmas",
     "advent_start": "First Sunday of Advent",
-    "days_title": "Days Until Calculator: Count Days Between Dates"
+    "days_title": "Days Until Calculator: Count Days Between Dates",
+    "anniversary_title": "Anniversary Calculator: How Many Days Together?",
+    "anniversary_description": "How many days have you been together? See your next anniversary and the dates of your 100-day, 1,000-day and yearly milestones."
   },
   "en-CA": {
     "title": "{heading} {weekday}, {monthday} · Days Left",
@@ -13,7 +15,9 @@
     "christmas_eve": "Christmas Eve",
     "sundays_left": "Sundays left before Christmas",
     "advent_start": "First Sunday of Advent",
-    "days_title": "Days Until Calculator: Count Days Between Dates"
+    "days_title": "Days Until Calculator: Count Days Between Dates",
+    "anniversary_title": "Anniversary Calculator: How Many Days Together?",
+    "anniversary_description": "How many days have you been together? See your next anniversary and the dates of your 100-day, 1,000-day and yearly milestones."
   },
   "en-GB": {
     "title": "{heading} {weekday} {monthday} · Days Left",
@@ -21,7 +25,9 @@
     "christmas_eve": "Christmas Eve",
     "sundays_left": "Sundays left before Christmas",
     "advent_start": "First Sunday of Advent",
-    "days_title": "Days Until Calculator: Count Days Between Dates"
+    "days_title": "Days Until Calculator: Count Days Between Dates",
+    "anniversary_title": "Anniversary Calculator: How Many Days Together?",
+    "anniversary_description": "How many days have you been together? See your next anniversary and the dates of your 100-day, 1,000-day and yearly milestones."
   },
   "en-AU": {
     "title": "{heading} {weekday} {monthday} · Days Left",
@@ -29,7 +35,9 @@
     "christmas_eve": "Christmas Eve",
     "sundays_left": "Sundays left before Christmas",
     "advent_start": "First Sunday of Advent",
-    "days_title": "Days Until Calculator: Count Days Between Dates"
+    "days_title": "Days Until Calculator: Count Days Between Dates",
+    "anniversary_title": "Anniversary Calculator: How Many Days Together?",
+    "anniversary_description": "How many days have you been together? See your next anniversary and the dates of your 100-day, 1,000-day and yearly milestones."
   },
   "ar": {
     "title": "{heading} {weekday} {monthday} · كم يومًا بقي",
@@ -37,7 +45,9 @@
     "christmas_eve": "ليلة عيد الميلاد",
     "sundays_left": "أيام الأحد المتبقية قبل عيد الميلاد",
     "advent_start": "الأحد الأول من زمن المجيء",
-    "days_title": "حاسبة الأيام: كم يومًا بقي وكم يومًا بين تاريخين"
+    "days_title": "حاسبة الأيام: كم يومًا بقي وكم يومًا بين تاريخين",
+    "anniversary_title": "حساب ذكرى الزواج: كم مضى على زواجنا؟",
+    "anniversary_description": "احسب كم مضى على زواجكما أو علاقتكما بالأيام، وموعد ذكرى الزواج القادمة، وتواريخ 100 يوم و1000 يوم وكل سنة."
   },
   "ca": {
     "title": "{heading} {weekday}, {monthday} · Dies que falten",
@@ -153,7 +163,9 @@
     "christmas_eve": "Malam Natal",
     "sundays_left": "Hari Minggu tersisa sebelum Natal",
     "advent_start": "Minggu Adven Pertama",
-    "days_title": "Kalkulator Hari & Tanggal: Berapa Hari Lagi?"
+    "days_title": "Kalkulator Hari & Tanggal: Berapa Hari Lagi?",
+    "anniversary_title": "Kalkulator Anniversary: Sudah Berapa Hari Jadian?",
+    "anniversary_description": "Hitung sudah berapa hari kalian jadian, kapan anniversary berikutnya, dan tanggal 100 hari, 1.000 hari, serta tiap tahun. Bisa untuk anniversary pernikahan."
   },
   "it": {
     "title": "{heading} {weekday} {monthday} · Quanti giorni mancano",
@@ -161,7 +173,9 @@
     "christmas_eve": "Vigilia di Natale",
     "sundays_left": "Domeniche che mancano a Natale",
     "advent_start": "Prima domenica di Avvento",
-    "days_title": "Calcolatore giorni: quanti giorni mancano?"
+    "days_title": "Calcolatore giorni: quanti giorni mancano?",
+    "anniversary_title": "Calcolo Anniversario: Da Quanti Giorni State Insieme?",
+    "anniversary_description": "Calcola da quanti giorni state insieme, il vostro prossimo anniversario e le date di 100 giorni, 1000 giorni e di ogni anno, anche per il matrimonio."
   },
   "ja": {
     "title": "{counter}{date}",
@@ -169,7 +183,9 @@
     "christmas_eve": "クリスマスイブ",
     "sundays_left": "クリスマスまでの残りの日曜日",
     "advent_start": "待降節（アドベント）の始まり",
-    "days_title": "日数計算：あと何日？何日後は何日？"
+    "days_title": "日数計算：あと何日？何日後は何日？",
+    "anniversary_title": "記念日計算：付き合って何日・100日記念がすぐわかる",
+    "anniversary_description": "記念日計算ツール。付き合って何日か、次の記念日、100日・1000日記念や1周年の日付をすぐに計算できます。カップルにも結婚記念日にも。"
   },
   "ko": {
     "title": "{counter} {date}",
@@ -177,7 +193,9 @@
     "christmas_eve": "크리스마스 이브",
     "sundays_left": "크리스마스 전까지 남은 일요일",
     "advent_start": "대림절 첫 주일",
-    "days_title": "D-day 계산기: 날짜 계산과 남은 일수"
+    "days_title": "D-day 계산기: 날짜 계산과 남은 일수",
+    "anniversary_title": "기념일 계산기: 사귄 지 며칠, 100일·1주년 날짜",
+    "anniversary_description": "기념일 계산기로 사귄 지 며칠째인지, 다음 기념일과 100일·1000일·1주년 날짜를 바로 계산하세요. 연애 기념일과 결혼기념일 모두 가능해요."
   },
   "ms": {
     "title": "{counter} {date}",
@@ -185,7 +203,9 @@
     "christmas_eve": "Malam Krismas",
     "sundays_left": "Hari Ahad berbaki sebelum Krismas",
     "advent_start": "Ahad Pertama Adven",
-    "days_title": "Kalkulator Hari: Kira Hari dari Tarikh"
+    "days_title": "Kalkulator Hari: Kira Hari dari Tarikh",
+    "anniversary_title": "Kalkulator Anniversary: Kira Hari Bersama",
+    "anniversary_description": "Kira berapa hari anda telah bersama, tarikh anniversary seterusnya, dan tarikh 100 hari, 1,000 hari serta setiap tahun. Sesuai untuk ulang tahun perkahwinan."
   },
   "nb": {
     "title": "{heading} {weekday} {monthday} · Dager igjen",
@@ -202,7 +222,9 @@
     "christmas_eve": "Kerstavond",
     "sundays_left": "Zondagen tot Kerstmis",
     "advent_start": "Eerste zondag van de advent",
-    "days_title": "Dagencalculator: hoeveel dagen nog?"
+    "days_title": "Dagencalculator: hoeveel dagen nog?",
+    "anniversary_title": "Jubileum Calculator: Hoeveel Dagen Samen?",
+    "anniversary_description": "Bereken hoeveel dagen jullie samen zijn, wanneer jullie volgende jubileum is en de datums van 100 dagen, 1000 dagen en elk jaar samen."
   },
   "pl": {
     "title": "{heading} {weekday}, {monthday} · Ile dni zostało",
@@ -275,7 +297,9 @@
     "christmas_eve": "Noel arifesi",
     "sundays_left": "Noel’e kalan pazar günleri",
     "advent_start": "Advent’in ilk pazarı",
-    "days_title": "Kaç Gün Kaldı? Gün Hesaplama"
+    "days_title": "Kaç Gün Kaldı? Gün Hesaplama",
+    "anniversary_title": "Yıl Dönümü Hesaplama: Kaç Gün Oldu?",
+    "anniversary_description": "Birlikte kaç gün olduğunu, bir sonraki yıl dönümünüzü ve 100 gün, 1000 gün ve yıllık tarihlerinizi öğrenin. Evlilik yıl dönümü için de kullanılır."
   },
   "uk": {
     "title": "{heading} {weekday}, {monthday} · Скільки днів залишилося",
@@ -290,7 +314,9 @@
     "christmas_eve": "Đêm Giáng sinh",
     "sundays_left": "Số Chúa nhật còn lại trước Giáng sinh",
     "advent_start": "Chúa nhật thứ nhất Mùa Vọng",
-    "days_title": "Tính số ngày: còn bao nhiêu ngày?"
+    "days_title": "Tính số ngày: còn bao nhiêu ngày?",
+    "anniversary_title": "Tính Ngày Yêu Nhau: Đếm Ngày Kỷ Niệm",
+    "anniversary_description": "Tính số ngày yêu nhau, ngày kỷ niệm tiếp theo và ngày của mốc 100 ngày, 1.000 ngày và từng năm. Dùng được cả cho kỷ niệm ngày cưới."
   },
   "zh-Hans": {
     "title": "{heading}{monthday}{weekday}·还有几天",
@@ -298,7 +324,9 @@
     "christmas_eve": "平安夜",
     "sundays_left": "圣诞节前剩余的星期日",
     "advent_start": "将临期第一主日",
-    "days_title": "天数计算器：还有几天？日期加减计算"
+    "days_title": "天数计算器：还有几天？日期加减计算",
+    "anniversary_title": "纪念日计算：在一起多少天、周年日期",
+    "anniversary_description": "纪念日计算器：算出你们在一起多少天、下一个周年纪念日，以及100天、1000天和每年纪念日的日期。也适用于结婚纪念日。"
   },
   "zh-Hant": {
     "title": "{heading}{monthday} {weekday}・還有幾天",
@@ -306,6 +334,8 @@
     "christmas_eve": "平安夜",
     "sundays_left": "聖誕節前剩餘的星期日",
     "advent_start": "將臨期第一主日",
-    "days_title": "天數計算器：還有幾天？日期加減計算"
+    "days_title": "天數計算器：還有幾天？日期加減計算",
+    "anniversary_title": "紀念日計算：交往天數與週年日期",
+    "anniversary_description": "紀念日計算機：算出你們交往幾天、下一個週年紀念日，以及100天、1000天和每年紀念日的日期。也適用於結婚紀念日。"
   }
 }

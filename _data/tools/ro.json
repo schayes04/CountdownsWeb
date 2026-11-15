@@ -173,7 +173,12 @@
     "days_add_result_before": "{duration} înainte de {start}: {date}",
     "days_add_error": "Introdu un număr întreg de zile, până la 100.000.",
     "days_popular_title": "Câte zile mai sunt până la date populare",
-    "days_more_link": "Numără zilele până la altă dată"
+    "days_more_link": "Numără zilele până la altă dată",
+    "milestone_dates_title": "Datele momentelor importante: de la 100 de zile la 10 ani",
+    "milestone_dates_example": "Exemplu pentru un cuplu împreună din {date}. Introdu data de început mai sus ca să vezi datele voastre.",
+    "milestone_dates_yours": "Datele momentelor voastre importante, numărate de la {date}.",
+    "milestone_dates_col_name": "Moment",
+    "milestone_dates_col_date": "Data"
   },
   "holidays": {
     "christmas": {

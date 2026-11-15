@@ -173,7 +173,12 @@
     "days_add_result_before": "{duration} voor {start}: {date}",
     "days_add_error": "Vul een heel aantal dagen in, tot 100.000.",
     "days_popular_title": "Hoeveel dagen nog tot populaire data",
-    "days_more_link": "Tel de dagen tot een andere datum"
+    "days_more_link": "Tel de dagen tot een andere datum",
+    "milestone_dates_title": "Datums van mijlpalen: van 100 dagen tot 10 jaar",
+    "milestone_dates_example": "Voorbeeld voor een stel dat sinds {date} samen is. Vul hierboven je startdatum in om je eigen datums te zien.",
+    "milestone_dates_yours": "Jullie mijlpaaldatums, gerekend vanaf {date}.",
+    "milestone_dates_col_name": "Mijlpaal",
+    "milestone_dates_col_date": "Datum"
   },
   "holidays": {
     "christmas": {

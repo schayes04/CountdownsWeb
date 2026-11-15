@@ -173,7 +173,12 @@
     "days_add_result_before": "{duration} до {start}: {date}",
     "days_add_error": "Введіть ціле число днів, не більше 100 000.",
     "days_popular_title": "Скільки днів до популярних дат",
-    "days_more_link": "Порахувати дні до іншої дати"
+    "days_more_link": "Порахувати дні до іншої дати",
+    "milestone_dates_title": "Дати пам’ятних днів: від 100 днів до 10 років",
+    "milestone_dates_example": "Приклад для пари, яка разом з {date}. Введіть дату початку вище, щоб побачити свої дати.",
+    "milestone_dates_yours": "Ваші пам’ятні дати, відлік від {date}.",
+    "milestone_dates_col_name": "Пам’ятний день",
+    "milestone_dates_col_date": "Дата"
   },
   "holidays": {
     "christmas": {

@@ -173,7 +173,12 @@
     "days_add_result_before": "{duration} sebelum {start}: {date}",
     "days_add_error": "Masukkan bilangan hari dalam nombor bulat, sehingga 100,000.",
     "days_popular_title": "Berapa hari lagi ke tarikh popular",
-    "days_more_link": "Kira hari ke tarikh lain"
+    "days_more_link": "Kira hari ke tarikh lain",
+    "milestone_dates_title": "Tarikh ulang tahun: dari 100 hari hingga 10 tahun",
+    "milestone_dates_example": "Contoh untuk pasangan yang bersama sejak {date}. Masukkan tarikh mula anda di atas untuk melihat tarikh anda sendiri.",
+    "milestone_dates_yours": "Tarikh ulang tahun anda, dikira dari {date}.",
+    "milestone_dates_col_name": "Pencapaian",
+    "milestone_dates_col_date": "Tarikh"
   },
   "holidays": {
     "christmas": {

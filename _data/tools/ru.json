@@ -173,7 +173,12 @@
     "days_add_result_before": "{duration} до {start}: {date}",
     "days_add_error": "Введите целое число дней, не больше 100 000.",
     "days_popular_title": "Сколько дней осталось до популярных дат",
-    "days_more_link": "Посчитать дни до другой даты"
+    "days_more_link": "Посчитать дни до другой даты",
+    "milestone_dates_title": "Даты памятных дней: от 100 дней до 10 лет",
+    "milestone_dates_example": "Пример для пары, которая вместе с {date}. Введите дату начала выше, чтобы увидеть свои даты.",
+    "milestone_dates_yours": "Ваши памятные даты, отсчёт с {date}.",
+    "milestone_dates_col_name": "Памятный день",
+    "milestone_dates_col_date": "Дата"
   },
   "holidays": {
     "christmas": {

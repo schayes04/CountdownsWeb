@@ -173,7 +173,12 @@
     "days_add_result_before": "{start} से {duration} पहले: {date}",
     "days_add_error": "दिनों की पूरी संख्या लिखें, 1,00,000 तक।",
     "days_popular_title": "लोकप्रिय तारीखों में कितने दिन बाकी हैं",
-    "days_more_link": "किसी और तारीख तक के दिन गिनें"
+    "days_more_link": "किसी और तारीख तक के दिन गिनें",
+    "milestone_dates_title": "खास पड़ावों की तारीखें: 100 दिन से 10 साल तक",
+    "milestone_dates_example": "{date} से साथ रहने वाले जोड़े का उदाहरण। अपनी तारीखें देखने के लिए ऊपर अपनी शुरुआत की तारीख डालें।",
+    "milestone_dates_yours": "आपके खास पड़ावों की तारीखें, {date} से गिनकर।",
+    "milestone_dates_col_name": "पड़ाव",
+    "milestone_dates_col_date": "तारीख"
   },
   "holidays": {
     "christmas": {

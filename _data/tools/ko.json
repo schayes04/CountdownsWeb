@@ -173,7 +173,12 @@
     "days_add_result_before": "{start}부터 {duration} 전: {date}",
     "days_add_error": "일수를 정수로 입력하세요(최대 100,000).",
     "days_popular_title": "인기 날짜까지 남은 일수",
-    "days_more_link": "다른 날짜까지 남은 일수 계산하기"
+    "days_more_link": "다른 날짜까지 남은 일수 계산하기",
+    "milestone_dates_title": "기념일 날짜: 100일부터 10주년까지",
+    "milestone_dates_example": "{date}부터 사귄 커플의 예시예요. 위에 시작일을 입력하면 두 사람의 기념일을 볼 수 있어요.",
+    "milestone_dates_yours": "{date}부터 계산한 두 사람의 기념일이에요.",
+    "milestone_dates_col_name": "기념일",
+    "milestone_dates_col_date": "날짜"
   },
   "holidays": {
     "christmas": {

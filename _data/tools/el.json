@@ -173,7 +173,12 @@
     "days_add_result_before": "{duration} πριν από τις {start}: {date}",
     "days_add_error": "Εισαγάγετε ακέραιο αριθμό ημερών, έως 100.000.",
     "days_popular_title": "Πόσες ημέρες μένουν για δημοφιλείς ημερομηνίες",
-    "days_more_link": "Μετρήστε τις ημέρες έως οποιαδήποτε άλλη ημερομηνία"
+    "days_more_link": "Μετρήστε τις ημέρες έως οποιαδήποτε άλλη ημερομηνία",
+    "milestone_dates_title": "Ημερομηνίες ορόσημων: από 100 ημέρες έως 10 χρόνια",
+    "milestone_dates_example": "Παράδειγμα για ένα ζευγάρι μαζί από {date}. Βάλτε την ημερομηνία έναρξης παραπάνω για να δείτε τις δικές σας ημερομηνίες.",
+    "milestone_dates_yours": "Οι ημερομηνίες των ορόσημών σας, από {date}.",
+    "milestone_dates_col_name": "Ορόσημο",
+    "milestone_dates_col_date": "Ημερομηνία"
   },
   "holidays": {
     "christmas": {

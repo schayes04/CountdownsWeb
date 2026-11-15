@@ -173,7 +173,12 @@
     "days_add_result_before": "{duration} przed {start}: {date}",
     "days_add_error": "Wpisz całkowitą liczbę dni, maksymalnie 100 000.",
     "days_popular_title": "Ile dni zostało do popularnych dat",
-    "days_more_link": "Policz dni do innej daty"
+    "days_more_link": "Policz dni do innej daty",
+    "milestone_dates_title": "Daty rocznic: od 100 dni do 10 lat",
+    "milestone_dates_example": "Przykład dla pary, która jest razem od {date}. Wpisz powyżej swoją datę początkową, aby zobaczyć własne daty.",
+    "milestone_dates_yours": "Wasze ważne daty, liczone od {date}.",
+    "milestone_dates_col_name": "Rocznica",
+    "milestone_dates_col_date": "Data"
   },
   "holidays": {
     "christmas": {

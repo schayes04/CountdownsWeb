@@ -173,7 +173,12 @@
     "days_add_result_before": "{duration} avant le {start} : {date}",
     "days_add_error": "Saisissez un nombre entier de jours, jusqu’à 100 000.",
     "days_popular_title": "Jours restants avant des dates populaires",
-    "days_more_link": "Comptez les jours jusqu’à une autre date"
+    "days_more_link": "Comptez les jours jusqu’à une autre date",
+    "milestone_dates_title": "Dates des étapes : de 100 jours à 10 ans",
+    "milestone_dates_example": "Exemple pour un couple ensemble depuis le {date}. Saisissez votre date de début ci-dessus pour voir vos propres dates.",
+    "milestone_dates_yours": "Vos dates d’étapes, à partir du {date}.",
+    "milestone_dates_col_name": "Étape",
+    "milestone_dates_col_date": "Date"
   },
   "holidays": {
     "christmas": {

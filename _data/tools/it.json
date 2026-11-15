@@ -173,7 +173,12 @@
     "days_add_result_before": "{duration} prima del {start}: {date}",
     "days_add_error": "Inserisci un numero intero di giorni, fino a 100.000.",
     "days_popular_title": "Quanti giorni mancano alle date più cercate",
-    "days_more_link": "Conta i giorni fino a un’altra data"
+    "days_more_link": "Conta i giorni fino a un’altra data",
+    "milestone_dates_title": "Date dei traguardi: da 100 giorni a 10 anni",
+    "milestone_dates_example": "Esempio per una coppia insieme dal {date}. Inserisci la tua data di inizio qui sopra per vedere le tue date.",
+    "milestone_dates_yours": "Le date dei vostri traguardi, contando dal {date}.",
+    "milestone_dates_col_name": "Traguardo",
+    "milestone_dates_col_date": "Data"
   },
   "holidays": {
     "christmas": {

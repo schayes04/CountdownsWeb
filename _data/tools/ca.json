@@ -173,7 +173,12 @@
     "days_add_result_before": "{duration} abans del {start}: {date}",
     "days_add_error": "Introdueix un nombre enter de dies, fins a 100.000.",
     "days_popular_title": "Dies que falten per a dates populars",
-    "days_more_link": "Compta els dies fins a qualsevol altra data"
+    "days_more_link": "Compta els dies fins a qualsevol altra data",
+    "milestone_dates_title": "Dates de fites: de 100 dies a 10 anys",
+    "milestone_dates_example": "Exemple per a una parella junta des del {date}. Introdueix la teva data d’inici a dalt per veure les teves dates.",
+    "milestone_dates_yours": "Les teves dates de fites, comptant des del {date}.",
+    "milestone_dates_col_name": "Fita",
+    "milestone_dates_col_date": "Data"
   },
   "holidays": {
     "christmas": {

@@ -173,7 +173,12 @@
     "days_add_result_before": "{duration} before {start}: {date}",
     "days_add_error": "Enter a whole number of days, up to 100,000.",
     "days_popular_title": "Days until popular dates",
-    "days_more_link": "Count the days to any other date"
+    "days_more_link": "Count the days to any other date",
+    "milestone_dates_title": "Milestone dates: from 100 days to 10 years",
+    "milestone_dates_example": "Example for a couple together since {date}. Enter your start date above to see your own dates.",
+    "milestone_dates_yours": "Your milestone dates, counting from {date}.",
+    "milestone_dates_col_name": "Milestone",
+    "milestone_dates_col_date": "Date"
   },
   "holidays": {
     "christmas": {

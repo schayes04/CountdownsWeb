@@ -173,7 +173,12 @@
     "days_add_result_before": "{duration} sebelum {start}: {date}",
     "days_add_error": "Masukkan jumlah hari berupa bilangan bulat, maksimal 100.000.",
     "days_popular_title": "Berapa hari lagi menuju tanggal populer",
-    "days_more_link": "Hitung hari menuju tanggal lain"
+    "days_more_link": "Hitung hari menuju tanggal lain",
+    "milestone_dates_title": "Tanggal hari jadi: dari 100 hari sampai 10 tahun",
+    "milestone_dates_example": "Contoh untuk pasangan yang bersama sejak {date}. Masukkan tanggal jadian di atas untuk melihat tanggal kalian sendiri.",
+    "milestone_dates_yours": "Tanggal hari jadi kalian, dihitung dari {date}.",
+    "milestone_dates_col_name": "Hari jadi",
+    "milestone_dates_col_date": "Tanggal"
   },
   "holidays": {
     "christmas": {

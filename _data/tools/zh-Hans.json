@@ -173,7 +173,12 @@
     "days_add_result_before": "{start}之前{duration}：{date}",
     "days_add_error": "请输入整数天数，最多 100,000。",
     "days_popular_title": "距离热门日期还有几天",
-    "days_more_link": "计算到其他日期的天数"
+    "days_more_link": "计算到其他日期的天数",
+    "milestone_dates_title": "纪念日日期：从100天到10周年",
+    "milestone_dates_example": "以从{date}开始在一起的情侣为例。在上方输入你们的开始日期，即可查看你们自己的纪念日。",
+    "milestone_dates_yours": "从{date}算起的你们的纪念日。",
+    "milestone_dates_col_name": "纪念日",
+    "milestone_dates_col_date": "日期"
   },
   "holidays": {
     "christmas": {

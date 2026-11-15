@@ -173,7 +173,12 @@
     "days_add_result_before": "{duration} vor dem {start}: {date}",
     "days_add_error": "Gib eine ganze Zahl von Tagen ein, höchstens 100.000.",
     "days_popular_title": "Tage bis zu beliebten Terminen",
-    "days_more_link": "Tage bis zu einem anderen Datum zählen"
+    "days_more_link": "Tage bis zu einem anderen Datum zählen",
+    "milestone_dates_title": "Meilenstein-Daten: von 100 Tagen bis 10 Jahre",
+    "milestone_dates_example": "Beispiel für ein Paar, das seit {date} zusammen ist. Gib oben euer Startdatum ein, um eure eigenen Daten zu sehen.",
+    "milestone_dates_yours": "Eure Meilenstein-Daten, gezählt ab {date}.",
+    "milestone_dates_col_name": "Meilenstein",
+    "milestone_dates_col_date": "Datum"
   },
   "holidays": {
     "christmas": {

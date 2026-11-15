@@ -173,7 +173,12 @@
     "days_add_result_before": "{duration} före {start}: {date}",
     "days_add_error": "Ange ett helt antal dagar, högst 100 000.",
     "days_popular_title": "Dagar kvar till populära datum",
-    "days_more_link": "Räkna dagarna till ett annat datum"
+    "days_more_link": "Räkna dagarna till ett annat datum",
+    "milestone_dates_title": "Datum för milstolpar: från 100 dagar till 10 år",
+    "milestone_dates_example": "Exempel för ett par som varit tillsammans sedan {date}. Ange ert startdatum ovan för att se era egna datum.",
+    "milestone_dates_yours": "Era milstolpsdatum, räknat från {date}.",
+    "milestone_dates_col_name": "Milstolpe",
+    "milestone_dates_col_date": "Datum"
   },
   "holidays": {
     "christmas": {

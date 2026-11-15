@@ -173,7 +173,12 @@
     "days_add_result_before": "{duration} antes del {start}: {date}",
     "days_add_error": "Escribe un número entero de días, hasta 100.000.",
     "days_popular_title": "Días que faltan para fechas populares",
-    "days_more_link": "Cuenta los días hasta cualquier otra fecha"
+    "days_more_link": "Cuenta los días hasta cualquier otra fecha",
+    "milestone_dates_title": "Fechas de aniversario: de 100 días a 10 años",
+    "milestone_dates_example": "Ejemplo para una pareja que está junta desde el {date}. Introduce tu fecha de inicio arriba para ver tus fechas.",
+    "milestone_dates_yours": "Tus fechas especiales, contando desde el {date}.",
+    "milestone_dates_col_name": "Hito",
+    "milestone_dates_col_date": "Fecha"
   },
   "holidays": {
     "christmas": {

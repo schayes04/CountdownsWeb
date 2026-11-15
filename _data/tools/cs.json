@@ -173,7 +173,12 @@
     "days_add_result_before": "{duration} před {start}: {date}",
     "days_add_error": "Zadejte celý počet dní, nejvýše 100 000.",
     "days_popular_title": "Kolik dní zbývá do oblíbených dat",
-    "days_more_link": "Spočítat dny do jiného data"
+    "days_more_link": "Spočítat dny do jiného data",
+    "milestone_dates_title": "Data milníků: od 100 dnů po 10 let",
+    "milestone_dates_example": "Příklad pro pár, který je spolu od {date}. Zadejte nahoře své datum začátku a uvidíte svá data.",
+    "milestone_dates_yours": "Vaše data milníků, počítáno od {date}.",
+    "milestone_dates_col_name": "Milník",
+    "milestone_dates_col_date": "Datum"
   },
   "holidays": {
     "christmas": {

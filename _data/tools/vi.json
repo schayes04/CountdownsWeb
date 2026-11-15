@@ -173,7 +173,12 @@
     "days_add_result_before": "{duration} trước {start}: {date}",
     "days_add_error": "Nhập số ngày là số nguyên, tối đa 100.000.",
     "days_popular_title": "Còn bao nhiêu ngày đến các ngày phổ biến",
-    "days_more_link": "Đếm ngày đến một ngày khác"
+    "days_more_link": "Đếm ngày đến một ngày khác",
+    "milestone_dates_title": "Ngày kỷ niệm: từ 100 ngày đến 10 năm",
+    "milestone_dates_example": "Ví dụ cho một cặp đôi bên nhau từ {date}. Nhập ngày bắt đầu ở trên để xem các ngày của bạn.",
+    "milestone_dates_yours": "Các ngày kỷ niệm của bạn, tính từ {date}.",
+    "milestone_dates_col_name": "Cột mốc",
+    "milestone_dates_col_date": "Ngày"
   },
   "holidays": {
     "christmas": {

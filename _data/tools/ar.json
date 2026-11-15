@@ -173,7 +173,12 @@
     "days_add_result_before": "{duration} قبل {start}: {date}",
     "days_add_error": "أدخل عددًا صحيحًا من الأيام حتى 100000.",
     "days_popular_title": "كم يومًا بقي حتى المناسبات الشائعة",
-    "days_more_link": "احسب الأيام حتى أي تاريخ آخر"
+    "days_more_link": "احسب الأيام حتى أي تاريخ آخر",
+    "milestone_dates_title": "تواريخ المناسبات: من 100 يوم إلى 10 سنوات",
+    "milestone_dates_example": "مثال لشخصين معًا منذ {date}. أدخل تاريخ البداية في الأعلى لترى تواريخك.",
+    "milestone_dates_yours": "تواريخ مناسباتك بدءًا من {date}.",
+    "milestone_dates_col_name": "المناسبة",
+    "milestone_dates_col_date": "التاريخ"
   },
   "holidays": {
     "christmas": {

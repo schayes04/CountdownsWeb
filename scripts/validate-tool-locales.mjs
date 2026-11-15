@@ -37,6 +37,7 @@ test('holiday search titles and Christmas key dates cover every locale', () => {
   const allowed = ['counter', 'date', 'heading', 'holiday', 'monthday', 'weekday', 'year'];
   for (const [locale, entry] of Object.entries(seo)) {
     for (const key of ['title', 'christmas_key_title', 'christmas_eve', 'sundays_left', 'days_title']) assert.ok(entry[key]?.trim(), `${locale}: ${key}`);
+    if (entry.anniversary_title) assert.ok(entry.anniversary_description?.trim() && entry.anniversary_description.length <= 160, `${locale}: anniversary_description`);
     for (const key of ['title', 'christmas_title']) {
       if (entry[key] === undefined) continue;
       assert.ok(tokens(entry[key]).every(token => allowed.includes(token)), `${locale}: ${key} placeholders`);
