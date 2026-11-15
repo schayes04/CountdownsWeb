@@ -28,9 +28,13 @@ try {
       assert.equal(await page.locator('.holiday-answer time').innerText(), formatHolidayDate(state.date));
       assert.equal(await page.locator('h1').count(), 1);
       assert.equal(await page.locator('#holiday-date-rows tr').count(), 5);
-      assert.equal(await page.locator('link[rel="alternate"]').count(), 35);
+      assert.equal(await page.locator('link[rel="alternate"]').count(), 39);
       assert.equal(await page.locator('link[rel="canonical"]').getAttribute('href'), `${canonicalBase}/when-is/${holiday.slug}/`);
       assert.ok((await page.title()).includes(String(state.year)));
+      if (holiday.slug === 'christmas') {
+        assert.equal(await page.locator('[data-eve-days]').innerText(), String(state.days - 1));
+        assert.equal(await page.locator('[data-sundays-left]').innerText(), '10');
+      }
       assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `${holiday.slug} overflows at ${width}px`);
       await page.locator('.holiday-app').scrollIntoViewIfNeeded();
       await page.waitForFunction(() => [...document.querySelectorAll('img')].every(image => image.complete && image.naturalWidth > 0));
@@ -102,8 +106,11 @@ try {
   for (const holiday of holidays) {
     await staticPage.goto(`${base}/when-is/${holiday.slug}/`);
     assert.ok(await staticPage.locator('.holiday-answer time').isVisible());
-    assert.ok(await staticPage.locator('#holiday-fallback').isVisible());
-    assert.ok(!await staticPage.locator('.holiday-live').isVisible());
+    // The HTML carries the build-date count so crawlers and no-JS visitors still see a number.
+    assert.ok(!await staticPage.locator('#holiday-fallback').isVisible());
+    assert.ok(await staticPage.locator('.holiday-live').isVisible());
+    assert.match(await staticPage.locator('#holiday-days').innerText(), /^\d+$/);
+    assert.equal(await staticPage.locator('[data-christmas-key-dates]').count(), holiday.slug === 'christmas' ? 1 : 0);
     assert.equal(await staticPage.locator('#holiday-date-rows tr').count(), 5);
     const scripts = await staticPage.locator('script[type="application/ld+json"]').allTextContents();
     scripts.forEach(value => JSON.parse(value));

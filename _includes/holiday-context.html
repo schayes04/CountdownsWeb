@@ -8,12 +8,24 @@
 {%- if holiday_region -%}{%- assign holiday_dates_key = page.holiday | append: '@' | append: holiday_country -%}{%- endif -%}
 {%- assign holiday_dates = site.data.holiday_dates[holiday_dates_key] | where_exp: 'date', 'date >= holiday_today' -%}
 {%- assign holiday_next_date = holiday_dates | first -%}
-{%- capture holiday_year -%}{%- include tool-date.html date=holiday_next_date style='year' -%}{%- endcapture -%}
+{%- comment -%}The bare localized year: holiday titles add their own suffix such as 年 or a period.{%- endcomment -%}
+{%- assign holiday_year_key = holiday_next_date | date: '%Y' -%}
+{%- assign holiday_year = calendar.year.years[holiday_year_key] | default: holiday_year_key -%}
 {%- capture holiday_full_date -%}{%- include tool-date.html date=holiday_next_date -%}{%- endcapture -%}
 {%- capture holiday_month_day -%}{%- include tool-date.html date=holiday_next_date style='monthDay' -%}{%- endcapture -%}
 {%- assign holiday_heading = tool.holiday_title | replace: token_holiday, holiday_copy.name | replace: token_year, holiday_year -%}
-{%- assign holiday_title = holiday_heading | append: ' ' | append: tool.title_suffix | append: ' | ' | append: app_name -%}
+{%- capture holiday_weekday -%}{%- include tool-date.html date=holiday_next_date style='weekday' -%}{%- endcapture -%}
+{%- assign holiday_counter = tool.counter_title | replace: token_holiday, holiday_copy.name -%}
+{%- comment -%}Whole days from the build date. The site rebuilds daily, and the page script replaces this with the visitor's own count.{%- endcomment -%}
+{%- assign holiday_today_seconds = holiday_today | date: '%s' | plus: 0 -%}
+{%- assign holiday_next_seconds = holiday_next_date | date: '%s' | plus: 0 -%}
+{%- assign holiday_days_left = holiday_next_seconds | minus: holiday_today_seconds | plus: 43200 | divided_by: 86400 -%}
+{%- assign holiday_seo = site.data.holiday_seo[current_locale] -%}
+{%- assign holiday_title_key = page.holiday | append: '_title' | replace: '-', '_' -%}
+{%- assign holiday_title_pattern = holiday_seo[holiday_title_key] | default: holiday_seo.title -%}
+{%- assign holiday_title = holiday_title_pattern | replace: '{heading}', holiday_heading | replace: '{counter}', holiday_counter | replace: token_date, holiday_full_date | replace: token_weekday, holiday_weekday | replace: '{monthday}', holiday_month_day | replace: token_year, holiday_year | replace: token_holiday, holiday_copy.name -%}
 {%- assign holiday_description = tool.holiday_description | replace: token_holiday, holiday_copy.name | replace: token_date, holiday_full_date -%}
+{%- if holiday_days_left > 0 -%}{%- assign holiday_description = holiday_description | append: ' ' | append: tool.remaining_days | append: ': ' | append: holiday_days_left -%}{%- endif -%}
 {%- assign holiday_scope = calendar.countries.US -%}
 {%- case holiday.rule.type -%}
   {%- when 'fixed' -%}

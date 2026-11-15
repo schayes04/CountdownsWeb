@@ -19,11 +19,12 @@ layout: default
         <section class="holiday-counter" aria-labelledby="countdown-heading">
           <div class="holiday-counter__top"><span class="holiday-symbol" aria-hidden="true">{{ holiday.icon }}</span><span class="holiday-counter__tag">{{ tool.upcoming }}</span></div>
           <h2 id="countdown-heading">{{ tool.counter_title | replace: token_holiday, holiday_copy.name }}</h2>
-          <div class="holiday-live" hidden>
-            <p class="holiday-counter__number"><strong id="holiday-days"></strong><span id="holiday-unit">{{ tool.remaining_days }}</span></p>
+          {%- comment -%}The build-date count keeps a real number in the HTML; the page script swaps in the visitor's local count.{%- endcomment -%}
+          <div class="holiday-live"{% unless holiday_days_left > 0 %} hidden{% endunless %}>
+            <p class="holiday-counter__number"><strong id="holiday-days">{% if holiday_days_left > 0 %}{{ holiday_days_left }}{% endif %}</strong><span id="holiday-unit">{{ tool.remaining_days }}</span></p>
             <p id="holiday-weeks" class="holiday-counter__weeks"></p>
           </div>
-          <p id="holiday-fallback" class="holiday-counter__fallback">{{ holiday_rule_label }}<small>{{ tool.enable_countdown }}</small></p>
+          <p id="holiday-fallback" class="holiday-counter__fallback"{% if holiday_days_left > 0 %} hidden{% endif %}>{{ holiday_rule_label }}<small>{{ tool.enable_countdown }}</small></p>
           <div class="holiday-counter__date"><span class="holiday-date-tile" aria-hidden="true"><span data-holiday-month>{% include tool-date.html date=holiday_next_date style='month' %}</span><strong data-holiday-day>{% include tool-date.html date=holiday_next_date style='day' %}</strong></span><div><strong>{{ holiday_copy.date_name }}</strong><time data-holiday-date datetime="{{ holiday_next_date }}">{{ holiday_full_date }}</time></div></div>
           <p class="holiday-counter__note" id="holiday-clock-note">{{ tool.calendar_days | replace: token_zone, '' }}</p>
         </section>
@@ -56,6 +57,28 @@ layout: default
         </tbody>
       </table>
     </div>
+    {%- if holiday.slug == 'christmas' -%}
+    {%- comment -%}Christmas Eve, Advent and Sundays left, computed from the next Christmas Day.{%- endcomment -%}
+    {%- assign xmas_seconds = holiday_next_date | date: '%s' | plus: 0 -%}
+    {%- assign xmas_weekday = holiday_next_date | date: '%w' | plus: 0 -%}
+    {%- assign eve_date = xmas_seconds | minus: 86400 | date: '%Y-%m-%d' -%}
+    {%- assign advent_back = xmas_weekday | plus: 21 -%}{%- if xmas_weekday == 0 -%}{%- assign advent_back = 28 -%}{%- endif -%}
+    {%- assign advent_date = advent_back | times: 86400 | minus: xmas_seconds | times: -1 | date: '%Y-%m-%d' -%}
+    {%- assign eve_days_left = holiday_days_left | minus: 1 -%}
+    {%- assign today_weekday = holiday_today | date: '%w' | plus: 0 -%}
+    {%- assign first_sunday = 7 | minus: today_weekday | modulo: 7 -%}{%- if first_sunday == 0 -%}{%- assign first_sunday = 7 -%}{%- endif -%}
+    {%- assign sundays_left = 0 -%}{%- if first_sunday < holiday_days_left -%}{%- assign sundays_left = holiday_days_left | minus: 1 | minus: first_sunday | divided_by: 7 | plus: 1 -%}{%- endif -%}
+    <div class="holiday-key-dates" id="christmas-key-dates" data-christmas-key-dates>
+      <h2>{{ holiday_seo.christmas_key_title }}</h2>
+      <dl>
+        <div><dt>{{ holiday_seo.christmas_eve }}</dt><dd><time datetime="{{ eve_date }}">{% include tool-date.html date=eve_date %}</time>{% if eve_days_left > 0 %}<span class="holiday-key-dates__left">{{ tool.remaining_days }}: <span data-eve-days>{{ eve_days_left }}</span></span>{% endif %}</dd></div>
+        {%- if holiday_seo.advent_start %}
+        <div><dt>{{ holiday_seo.advent_start }}</dt><dd><time datetime="{{ advent_date }}">{% include tool-date.html date=advent_date %}</time></dd></div>
+        {%- endif %}
+        <div><dt>{{ holiday_seo.sundays_left }}</dt><dd data-sundays-left>{{ sundays_left }}</dd></div>
+      </dl>
+    </div>
+    {%- endif %}
   </section>
 
   <section class="holiday-app site-container" aria-labelledby="holiday-app-heading" data-holiday-placement="widget">

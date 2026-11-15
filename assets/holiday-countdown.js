@@ -1,4 +1,6 @@
-import { localDateString, holidayDate, holidayState } from './holiday-dates.mjs';
+import { localDateString, holidayDate, holidayState, calendarDay } from './holiday-dates.mjs';
+
+const DAY_MS = 86_400_000;
 import { interpolate, toolFormatters } from './tool-i18n.mjs';
 import { COUNTRIES, suggestCountry, holidayObservance, countriesForHoliday } from './holiday-country.mjs';
 
@@ -31,6 +33,23 @@ function observance(slug, baseRule, date) {
   if (baseRule.type === 'western-easter') return { ...result, scope:copy.western_easter, label:copy.easter_rule };
   return { ...result, scope:config.countries[result.country], label:copy[result.label || labels[slug]] };
 }
+function renderChristmasKeyDates(state, today) {
+  const block = document.querySelector('[data-christmas-key-dates]');
+  if (!block) return;
+  const christmas = calendarDay(state.date);
+  const weekday = new Date(christmas * DAY_MS).getUTCDay();
+  const iso = day => new Date(day * DAY_MS).toISOString().slice(0, 10);
+  const [eveTime, adventTime] = block.querySelectorAll('time');
+  const eve = iso(christmas - 1);
+  eveTime.dateTime = eve; eveTime.textContent = fmt.date(eve);
+  if (adventTime) { const advent = iso(christmas - (weekday === 0 ? 28 : weekday + 21)); adventTime.dateTime = advent; adventTime.textContent = fmt.date(advent); }
+  const eveDays = block.querySelector('[data-eve-days]');
+  if (eveDays) { eveDays.textContent = fmt.number(state.days - 1); eveDays.closest('.holiday-key-dates__left').hidden = state.days <= 1; }
+  // Sundays strictly between today and Christmas Day.
+  const todayWeekday = new Date(calendarDay(today) * DAY_MS).getUTCDay();
+  const firstSunday = (7 - todayWeekday) % 7 || 7;
+  block.querySelector('[data-sundays-left]').textContent = fmt.number(firstSunday < state.days ? Math.floor((state.days - 1 - firstSunday) / 7) + 1 : 0);
+}
 function renderHoliday(today) {
   const rule = holidayObservance(holiday.slug, holiday.rule, country).rule;
   const state = holidayState(rule, today);
@@ -48,6 +67,7 @@ function renderHoliday(today) {
   document.getElementById('holiday-unit').textContent = state.days===0 ? name : copy.remaining_days;
   document.getElementById('holiday-weeks').textContent = state.days===0 ? '' : interpolate(copy.remaining,{duration:fmt.list([fmt.unit(state.weeks,'week'),...(state.extraDays ? [fmt.unit(state.extraDays,'day')] : [])])});
   document.getElementById('holiday-clock-note').textContent = interpolate(copy.calendar_days,{zone:Intl.DateTimeFormat().resolvedOptions().timeZone.replaceAll('_',' ')});
+  renderChristmasKeyDates(state, today);
   document.getElementById('holiday-fallback').hidden=true;
   document.querySelector('.holiday-live').hidden=false;
   document.getElementById('holiday-table-caption').textContent = rule.type==='fixed' ? selected.label : `${selected.scope} · ${selected.label}`;

@@ -31,6 +31,20 @@ test('all 38 tool catalogs include every translated string, placeholder, and hol
   }
 });
 
+test('holiday search titles and Christmas key dates cover every locale', () => {
+  const seo = read('_data/holiday_seo.json');
+  assert.deepEqual(Object.keys(seo).sort(), Object.keys(formats).sort());
+  const allowed = ['counter', 'date', 'heading', 'holiday', 'monthday', 'weekday', 'year'];
+  for (const [locale, entry] of Object.entries(seo)) {
+    for (const key of ['title', 'christmas_key_title', 'christmas_eve', 'sundays_left']) assert.ok(entry[key]?.trim(), `${locale}: ${key}`);
+    for (const key of ['title', 'christmas_title']) {
+      if (entry[key] === undefined) continue;
+      assert.ok(tokens(entry[key]).every(token => allowed.includes(token)), `${locale}: ${key} placeholders`);
+      assert.ok(/\{(heading|counter)\}|\{year\}/.test(entry[key]), `${locale}: ${key} names the holiday and year`);
+    }
+  }
+});
+
 test('browser country suggestions use a known time zone, then explicit locale region', () => {
   assert.equal(suggestCountry(['en-US'], 'America/Toronto'), 'CA');
   assert.equal(suggestCountry(['en-US'], 'Europe/London'), 'GB');
