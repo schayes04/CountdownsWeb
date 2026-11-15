@@ -45,3 +45,15 @@ export function calculateSpan(startValue, endValue, { includeEnd = false, weeken
     years: Math.floor(totalMonths / 12), months: totalMonths % 12, totalMonths,
     monthDays: daysBetween(addMonths(from, totalMonths), until), weekdays: days - weekendDays, weekendDays };
 }
+
+export const MAX_SHIFT_DAYS = 100_000;
+
+// The date a whole number of calendar days after (positive) or before (negative)
+// a start date. Returns null for invalid input or results outside years 0001–9998.
+export function shiftDate(startValue, days) {
+  const start = parseDate(startValue);
+  if (!start || !Number.isInteger(days) || Math.abs(days) > MAX_SHIFT_DAYS) return null;
+  const result = addDays(start, days);
+  const year = result.getUTCFullYear();
+  return year >= 1 && year <= 9998 ? result : null;
+}

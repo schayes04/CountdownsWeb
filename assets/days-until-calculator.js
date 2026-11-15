@@ -1,6 +1,6 @@
 import { interpolate, toolFormatters } from './tool-i18n.mjs';
-import { localToday, parseDate } from './anniversary-dates.mjs';
-import { calculateSpan } from './days-until-dates.mjs';
+import { daysBetween, localToday, parseDate } from './anniversary-dates.mjs';
+import { MAX_SHIFT_DAYS, calculateSpan, shiftDate } from './days-until-dates.mjs';
 import { holidayState } from './holiday-dates.mjs';
 
 const form = document.querySelector('#days-form');
@@ -82,6 +82,11 @@ function revealResult() {
 }
 
 startInput.value = localToday();
+// Open with an answer: today to the soonest quick holiday, until the visitor picks dates.
+const soonest = [...document.querySelectorAll('.days-quick button')]
+  .map(button => holidayState(JSON.parse(button.dataset.rule), startInput.value).date)
+  .sort()[0];
+if (soonest && !endInput.value) endInput.value = soonest;
 document.querySelector('#use-today').addEventListener('click', () => {
   startInput.value = localToday();
   form.dispatchEvent(new Event('change'));
@@ -94,6 +99,7 @@ function update() {
 }
 form.addEventListener('input', update);
 form.addEventListener('change', update);
+update();
 
 for (const button of document.querySelectorAll('.days-quick button')) {
   button.addEventListener('click', () => {
@@ -119,6 +125,38 @@ form.addEventListener('submit', event => {
   render(calculate());
   revealResult();
 });
+
+// Add or subtract days: "30 days after Nov 15, 2026: Tuesday, Dec 15, 2026".
+const addForm = document.querySelector('#days-add-form');
+const addError = document.querySelector('#days-add-error');
+const addOutput = document.querySelector('#days-add-output');
+addForm.elements.start.value = localToday();
+function updateShift() {
+  const { start, count, direction } = addForm.elements;
+  const raw = count.value.trim();
+  const days = /^\d+$/.test(raw) ? Number(raw) : NaN;
+  const sign = Number(direction.value);
+  const result = days <= MAX_SHIFT_DAYS ? shiftDate(start.value, days * sign) : null;
+  // An empty field is still being typed, not an error.
+  const invalidCount = raw !== '' && !(days <= MAX_SHIFT_DAYS);
+  addError.hidden = !invalidCount;
+  count.toggleAttribute('aria-invalid', invalidCount);
+  if (!result) { addOutput.textContent = ''; return; }
+  addOutput.textContent = interpolate(sign > 0 ? copy.days_add_result_after : copy.days_add_result_before, {
+    duration: fmt.unit(days, 'day'), start: formatDate(parseDate(start.value)), date: formatDate(result),
+  });
+}
+addForm.addEventListener('input', updateShift);
+addForm.addEventListener('change', updateShift);
+addForm.addEventListener('submit', event => event.preventDefault());
+updateShift();
+document.querySelector('#days-add-fields').disabled = false;
+
+// Popular dates carry build-day counts; recount from the visitor's own date.
+const today = parseDate(localToday());
+for (const count of document.querySelectorAll('[data-popular-date]')) {
+  count.textContent = fmt.number(Math.max(0, daysBetween(today, parseDate(count.dataset.popularDate))));
+}
 
 // Enable the form only after the calculator has loaded successfully.
 document.querySelector('#calculator-fields').disabled = false;

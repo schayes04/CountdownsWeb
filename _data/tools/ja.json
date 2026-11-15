@@ -163,7 +163,17 @@
     "days_faq_past_q": "過去の日付からの日数も数えられますか？",
     "days_faq_past_a": "はい。終了日に過去の日付を選ぶか、開始日をさかのぼらせてください。どちらの方向でも、2つの日付の間の日数を表示します。",
     "days_faq_app_q": "アプリは必要ですか？",
-    "days_faq_app_a": "いいえ。この計算ツールはアカウントなしで使え、日付はブラウザの外に送信されません。ホーム画面でカウントダウンを表示したい場合は、{app}に日付を追加してください。"
+    "days_faq_app_a": "いいえ。この計算ツールはアカウントなしで使え、日付はブラウザの外に送信されません。ホーム画面でカウントダウンを表示したい場合は、{app}に日付を追加してください。",
+    "days_add_title": "日付の足し算・引き算：何日後は何月何日？",
+    "days_add_intro": "任意の日付から指定した日数後・日数前の日付と曜日を調べます。",
+    "days_add_count": "日数",
+    "days_add_after": "後",
+    "days_add_before": "前",
+    "days_add_result_after": "{start}の{duration}後：{date}",
+    "days_add_result_before": "{start}の{duration}前：{date}",
+    "days_add_error": "日数を整数で入力してください（最大100,000）。",
+    "days_popular_title": "人気の日付まであと何日",
+    "days_more_link": "ほかの日付までの日数を数える"
   },
   "holidays": {
     "christmas": {

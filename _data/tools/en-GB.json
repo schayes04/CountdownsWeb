@@ -163,7 +163,17 @@
     "days_faq_past_q": "Can I count the days since a past date?",
     "days_faq_past_a": "Yes. Choose an end date in the past, or move the start date back. The calculator shows how many days lie between the two dates in either direction.",
     "days_faq_app_q": "Do I need the app?",
-    "days_faq_app_a": "No. The calculator works here without an account, and your dates stay in your browser. To keep a countdown on your Home Screen, add the date in {app}."
+    "days_faq_app_a": "No. The calculator works here without an account, and your dates stay in your browser. To keep a countdown on your Home Screen, add the date in {app}.",
+    "days_add_title": "Add or subtract days: what date will it be?",
+    "days_add_intro": "Find the date and weekday a number of days after or before any date.",
+    "days_add_count": "Number of days",
+    "days_add_after": "After",
+    "days_add_before": "Before",
+    "days_add_result_after": "{duration} after {start}: {date}",
+    "days_add_result_before": "{duration} before {start}: {date}",
+    "days_add_error": "Enter a whole number of days, up to 100,000.",
+    "days_popular_title": "Days until popular dates",
+    "days_more_link": "Count the days to any other date"
   },
   "holidays": {
     "christmas": {

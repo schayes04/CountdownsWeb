@@ -163,7 +163,17 @@
     "days_faq_past_q": "Geçmişteki bir tarihten bu yana geçen günleri sayabilir miyim?",
     "days_faq_past_a": "Evet. Geçmişte bir bitiş tarihi seçin veya başlangıç tarihini geriye alın. Hesaplayıcı, iki tarih arasında kaç gün olduğunu her iki yönde de gösterir.",
     "days_faq_app_q": "Uygulamaya ihtiyacım var mı?",
-    "days_faq_app_a": "Hayır. Hesaplayıcı burada hesap gerektirmeden çalışır ve tarihleriniz tarayıcınızda kalır. Ana Ekranınızda bir geri sayım görmek için tarihi {app} uygulamasına ekleyin."
+    "days_faq_app_a": "Hayır. Hesaplayıcı burada hesap gerektirmeden çalışır ve tarihleriniz tarayıcınızda kalır. Ana Ekranınızda bir geri sayım görmek için tarihi {app} uygulamasına ekleyin.",
+    "days_add_title": "Gün ekle veya çıkar: hangi tarih olacak?",
+    "days_add_intro": "Herhangi bir tarihten belirli gün sonrasını veya öncesini, haftanın günüyle birlikte bulun.",
+    "days_add_count": "Gün sayısı",
+    "days_add_after": "Sonra",
+    "days_add_before": "Önce",
+    "days_add_result_after": "{start} tarihinden {duration} sonra: {date}",
+    "days_add_result_before": "{start} tarihinden {duration} önce: {date}",
+    "days_add_error": "100.000’e kadar tam sayı olarak gün girin.",
+    "days_popular_title": "Popüler tarihlere kaç gün kaldı",
+    "days_more_link": "Başka bir tarihe kalan günleri say"
   },
   "holidays": {
     "christmas": {

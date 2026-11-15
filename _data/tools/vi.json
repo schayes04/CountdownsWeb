@@ -163,7 +163,17 @@
     "days_faq_past_q": "Tôi có thể đếm số ngày kể từ một ngày trong quá khứ không?",
     "days_faq_past_a": "Có. Chọn ngày kết thúc trong quá khứ hoặc lùi ngày bắt đầu về trước. Công cụ hiển thị số ngày giữa hai ngày theo bất kỳ chiều nào.",
     "days_faq_app_q": "Tôi có cần ứng dụng không?",
-    "days_faq_app_a": "Không. Công cụ hoạt động ngay tại đây mà không cần tài khoản, và các ngày của bạn chỉ lưu trong trình duyệt. Để giữ đếm ngược trên Màn hình chính, hãy thêm ngày vào {app}."
+    "days_faq_app_a": "Không. Công cụ hoạt động ngay tại đây mà không cần tài khoản, và các ngày của bạn chỉ lưu trong trình duyệt. Để giữ đếm ngược trên Màn hình chính, hãy thêm ngày vào {app}.",
+    "days_add_title": "Cộng hoặc trừ ngày: sẽ là ngày nào?",
+    "days_add_intro": "Tìm ngày và thứ trong tuần sau hoặc trước một ngày bất kỳ một số ngày nhất định.",
+    "days_add_count": "Số ngày",
+    "days_add_after": "Sau",
+    "days_add_before": "Trước",
+    "days_add_result_after": "{duration} sau {start}: {date}",
+    "days_add_result_before": "{duration} trước {start}: {date}",
+    "days_add_error": "Nhập số ngày là số nguyên, tối đa 100.000.",
+    "days_popular_title": "Còn bao nhiêu ngày đến các ngày phổ biến",
+    "days_more_link": "Đếm ngày đến một ngày khác"
   },
   "holidays": {
     "christmas": {

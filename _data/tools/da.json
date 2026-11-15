@@ -163,7 +163,17 @@
     "days_faq_past_q": "Kan jeg tælle dagene siden en dato i fortiden?",
     "days_faq_past_a": "Ja. Vælg en slutdato i fortiden, eller ryk startdatoen tilbage. Beregneren viser, hvor mange dage der ligger mellem de to datoer i begge retninger.",
     "days_faq_app_q": "Skal jeg bruge appen?",
-    "days_faq_app_a": "Nej. Beregneren virker her uden konto, og dine datoer bliver i din browser. Vil du have en nedtælling på din hjemmeskærm, så tilføj datoen i {app}."
+    "days_faq_app_a": "Nej. Beregneren virker her uden konto, og dine datoer bliver i din browser. Vil du have en nedtælling på din hjemmeskærm, så tilføj datoen i {app}.",
+    "days_add_title": "Læg dage til eller træk fra: hvilken dato bliver det?",
+    "days_add_intro": "Find datoen og ugedagen et antal dage efter eller før en hvilken som helst dato.",
+    "days_add_count": "Antal dage",
+    "days_add_after": "Efter",
+    "days_add_before": "Før",
+    "days_add_result_after": "{duration} efter {start}: {date}",
+    "days_add_result_before": "{duration} før {start}: {date}",
+    "days_add_error": "Angiv et helt antal dage, op til 100.000.",
+    "days_popular_title": "Dage til populære datoer",
+    "days_more_link": "Tæl dagene til en anden dato"
   },
   "holidays": {
     "christmas": {

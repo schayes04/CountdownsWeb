@@ -163,7 +163,17 @@
     "days_faq_past_q": "지난 날짜부터의 일수도 셀 수 있나요?",
     "days_faq_past_a": "네. 종료일을 과거로 고르거나 시작일을 앞당기세요. 어느 방향이든 두 날짜 사이의 일수를 보여 줘요.",
     "days_faq_app_q": "앱이 꼭 필요한가요?",
-    "days_faq_app_a": "아니요. 계산기는 계정 없이 여기서 바로 쓸 수 있고, 날짜는 브라우저에만 남아요. 홈 화면에 카운트다운을 두려면 {app}에 날짜를 추가하세요."
+    "days_faq_app_a": "아니요. 계산기는 계정 없이 여기서 바로 쓸 수 있고, 날짜는 브라우저에만 남아요. 홈 화면에 카운트다운을 두려면 {app}에 날짜를 추가하세요.",
+    "days_add_title": "날짜 더하기·빼기: 며칠 후는 몇 월 며칠?",
+    "days_add_intro": "원하는 날짜로부터 며칠 후나 며칠 전의 날짜와 요일을 확인하세요.",
+    "days_add_count": "일수",
+    "days_add_after": "후",
+    "days_add_before": "전",
+    "days_add_result_after": "{start}부터 {duration} 후: {date}",
+    "days_add_result_before": "{start}부터 {duration} 전: {date}",
+    "days_add_error": "일수를 정수로 입력하세요(최대 100,000).",
+    "days_popular_title": "인기 날짜까지 남은 일수",
+    "days_more_link": "다른 날짜까지 남은 일수 계산하기"
   },
   "holidays": {
     "christmas": {

@@ -163,7 +163,17 @@
     "days_faq_past_q": "Posso contar os dias desde uma data passada?",
     "days_faq_past_a": "Sim. Escolhe uma data final no passado ou recua a data inicial. A calculadora mostra quantos dias há entre as duas datas, em qualquer sentido.",
     "days_faq_app_q": "Preciso da app?",
-    "days_faq_app_a": "Não. A calculadora funciona aqui sem conta e as tuas datas ficam no teu navegador. Para teres uma contagem decrescente no ecrã principal, adiciona a data em {app}."
+    "days_faq_app_a": "Não. A calculadora funciona aqui sem conta e as tuas datas ficam no teu navegador. Para teres uma contagem decrescente no ecrã principal, adiciona a data em {app}.",
+    "days_add_title": "Somar ou subtrair dias: que data será?",
+    "days_add_intro": "Descubra a data e o dia da semana alguns dias depois ou antes de qualquer data.",
+    "days_add_count": "Número de dias",
+    "days_add_after": "Depois",
+    "days_add_before": "Antes",
+    "days_add_result_after": "{duration} depois de {start}: {date}",
+    "days_add_result_before": "{duration} antes de {start}: {date}",
+    "days_add_error": "Introduza um número inteiro de dias, até 100 000.",
+    "days_popular_title": "Quantos dias faltam para datas populares",
+    "days_more_link": "Conte os dias até outra data"
   },
   "holidays": {
     "christmas": {

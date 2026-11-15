@@ -75,6 +75,8 @@
 .holiday-related__links { display: flex; flex-wrap: wrap; gap: 12px; }
 .holiday-related__links a { padding: 12px 18px; border: 1px solid var(--line); border-radius: 12px; font-weight: 650; font-size: 14px; }
 .holiday-related__links a:hover { background: var(--holiday-tint); }
+.holiday-related__more { margin-top: 18px; font-size: 15px; font-weight: 700; }
+.holiday-related__more a { color: var(--holiday-accent, #0a66c2); }
 .holiday-related__links span:first-child { margin-inline-end: 6px; }
 .holiday-related__links span:last-child { margin-inline-start: 8px; color: var(--muted); }
 .holiday-hub__intro { padding-bottom: 36px; }

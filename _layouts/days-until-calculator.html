@@ -60,6 +60,59 @@ layout: default
         </div>
       </div>
       <p class="calculator-counting-note">{{ tool.days_counting_note }}</p>
+
+      <form id="days-add-form" class="days-add" aria-labelledby="days-add-heading" novalidate>
+        <div class="days-add__copy">
+          <h2 id="days-add-heading">{{ tool.days_add_title }}</h2>
+          <p>{{ tool.days_add_intro }}</p>
+        </div>
+        <fieldset id="days-add-fields" class="days-add__fields" disabled>
+          <legend class="calculator-sr-only">{{ tool.days_add_title }}</legend>
+          <div class="calculator-field">
+            <label for="add-start">{{ tool.days_start }}</label>
+            <input id="add-start" name="start" type="date" min="0001-01-01" max="9998-12-31" required>
+          </div>
+          <div class="calculator-field">
+            <label for="add-count">{{ tool.days_add_count }}</label>
+            <input id="add-count" name="count" type="number" inputmode="numeric" min="0" max="100000" step="1" value="30" required aria-describedby="days-add-error">
+          </div>
+          <div class="days-add__direction" role="radiogroup" aria-label="{{ tool.days_add_title | escape }}">
+            <label><input type="radio" name="direction" value="1" checked> <span>{{ tool.days_add_after }}</span></label>
+            <label><input type="radio" name="direction" value="-1"> <span>{{ tool.days_add_before }}</span></label>
+          </div>
+        </fieldset>
+        <div class="days-add__result" aria-live="polite">
+          <p id="days-add-error" class="calculator-error" role="alert" hidden>{{ tool.days_add_error }}</p>
+          <p id="days-add-output" class="days-add__output"></p>
+        </div>
+      </form>
+
+      {%- comment -%}Days to each holiday from the build date, soonest first. The daily rebuild keeps them current and the page script recounts from the visitor's own date.{%- endcomment -%}
+      {%- assign popular_today = site.time | date: '%Y-%m-%d' -%}
+      {%- assign popular_today_seconds = popular_today | date: '%s' | plus: 0 -%}
+      {%- assign popular_rows = '' -%}
+      {%- for holiday in site.data.holidays -%}
+        {%- assign dates_key = holiday.slug -%}
+        {%- if site.data.holiday_regions[locale.holiday_country][holiday.slug] -%}{%- assign dates_key = holiday.slug | append: '@' | append: locale.holiday_country -%}{%- endif -%}
+        {%- assign popular_dates = site.data.holiday_dates[dates_key] | where_exp: 'date', 'date >= popular_today' -%}
+        {%- assign popular_date = popular_dates | first -%}
+        {%- if popular_date -%}
+          {%- assign popular_seconds = popular_date | date: '%s' | plus: 0 -%}
+          {%- assign popular_days = popular_seconds | minus: popular_today_seconds | plus: 43200 | divided_by: 86400 -%}
+          {%- assign popular_key = popular_days | plus: 100000 -%}
+          {%- assign popular_rows = popular_rows | append: popular_key | append: '|' | append: holiday.slug | append: '|' | append: popular_date | append: '|' | append: popular_days | append: ';' -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- assign popular_rows = popular_rows | split: ';' | sort -%}
+      <section class="days-popular" aria-labelledby="days-popular-heading">
+        <h2 id="days-popular-heading">{{ tool.days_popular_title }}</h2>
+        <ul>
+          {%- for row in popular_rows -%}{%- assign cells = row | split: '|' -%}{%- assign slug = cells[1] -%}{%- assign popular_date = cells[2] -%}{%- assign holiday = site.data.holidays | where: 'slug', slug | first %}
+          <li><a href="{{ locale_prefix | append: '/when-is/' | append: slug | append: '/' | relative_url }}"><span class="days-popular__name"><span aria-hidden="true">{{ holiday.icon }}</span> {{ tools_copy.holidays[slug].name }}</span><time datetime="{{ popular_date }}">{% include tool-date.html date=popular_date %}</time><span class="days-popular__count" data-popular-date="{{ popular_date }}">{{ cells[3] }}</span></a></li>
+          {%- endfor %}
+        </ul>
+        <p class="days-popular__unit">{{ tool.remaining_days }}</p>
+      </section>
     </div>
   </section>
 

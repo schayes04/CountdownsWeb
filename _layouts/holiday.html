@@ -86,7 +86,7 @@ layout: default
     <div class="holiday-app__preview">{% include screenshot.html scene='home-screen-custom-widgets' locale=current_locale size_role='pricing' %}</div>
   </section>
 
-  <section class="holiday-related site-container" aria-labelledby="holiday-related-heading"><p class="section-kicker">{{ tool.related_kicker }}</p><h2 id="holiday-related-heading">{{ tool.related_title }}</h2><div class="holiday-related__links">{% for other in site.data.holidays %}{% unless other.slug == holiday.slug %}<a href="{{ other.slug | prepend: '/when-is/' | prepend: locale_prefix | append: '/' | relative_url }}"><span aria-hidden="true">{{ other.icon }}</span> {{ tools_copy.holidays[other.slug].name }} <span aria-hidden="true">↗</span></a>{% endunless %}{% endfor %}</div></section>
+  <section class="holiday-related site-container" aria-labelledby="holiday-related-heading"><p class="section-kicker">{{ tool.related_kicker }}</p><h2 id="holiday-related-heading">{{ tool.related_title }}</h2><div class="holiday-related__links">{% for other in site.data.holidays %}{% unless other.slug == holiday.slug %}<a href="{{ other.slug | prepend: '/when-is/' | prepend: locale_prefix | append: '/' | relative_url }}"><span aria-hidden="true">{{ other.icon }}</span> {{ tools_copy.holidays[other.slug].name }} <span aria-hidden="true">↗</span></a>{% endunless %}{% endfor %}</div><p class="holiday-related__more"><a href="{{ locale_prefix | append: '/days-until-calculator/' | relative_url }}">{{ tool.days_more_link }} <span aria-hidden="true">→</span></a></p></section>
 </div>
 {% include tool-data.html %}
 <script id="holiday-data" type="application/json">{{ holiday | jsonify }}</script>

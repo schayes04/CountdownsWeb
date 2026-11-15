@@ -163,7 +163,17 @@
     "days_faq_past_q": "Bisakah saya menghitung hari sejak tanggal yang sudah lewat?",
     "days_faq_past_a": "Bisa. Pilih tanggal akhir di masa lalu, atau mundurkan tanggal mulai. Kalkulator menampilkan jumlah hari di antara kedua tanggal ke arah mana pun.",
     "days_faq_app_q": "Apakah saya perlu aplikasinya?",
-    "days_faq_app_a": "Tidak. Kalkulator ini berfungsi di sini tanpa akun, dan tanggal Anda tetap di browser. Untuk menyimpan hitung mundur di Layar Utama, tambahkan tanggal di {app}."
+    "days_faq_app_a": "Tidak. Kalkulator ini berfungsi di sini tanpa akun, dan tanggal Anda tetap di browser. Untuk menyimpan hitung mundur di Layar Utama, tambahkan tanggal di {app}.",
+    "days_add_title": "Tambah atau kurangi hari: tanggal berapa nanti?",
+    "days_add_intro": "Cari tanggal dan hari beberapa hari setelah atau sebelum tanggal apa pun, misalnya 12 hari lagi tanggal berapa.",
+    "days_add_count": "Jumlah hari",
+    "days_add_after": "Setelah",
+    "days_add_before": "Sebelum",
+    "days_add_result_after": "{duration} setelah {start}: {date}",
+    "days_add_result_before": "{duration} sebelum {start}: {date}",
+    "days_add_error": "Masukkan jumlah hari berupa bilangan bulat, maksimal 100.000.",
+    "days_popular_title": "Berapa hari lagi menuju tanggal populer",
+    "days_more_link": "Hitung hari menuju tanggal lain"
   },
   "holidays": {
     "christmas": {

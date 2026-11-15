@@ -163,7 +163,17 @@
     "days_faq_past_q": "Kann ich die Tage seit einem vergangenen Datum zählen?",
     "days_faq_past_a": "Ja. Wähle ein Enddatum in der Vergangenheit oder verschiebe das Startdatum nach vorn. Der Rechner zeigt in beide Richtungen, wie viele Tage zwischen den beiden Daten liegen.",
     "days_faq_app_q": "Brauche ich die App?",
-    "days_faq_app_a": "Nein. Der Rechner funktioniert hier ohne Konto, und deine Daten bleiben in deinem Browser. Um einen Countdown auf deinem Home-Bildschirm zu behalten, füge das Datum in {app} hinzu."
+    "days_faq_app_a": "Nein. Der Rechner funktioniert hier ohne Konto, und deine Daten bleiben in deinem Browser. Um einen Countdown auf deinem Home-Bildschirm zu behalten, füge das Datum in {app} hinzu.",
+    "days_add_title": "Tage addieren oder abziehen: Welches Datum ist dann?",
+    "days_add_intro": "Finde Datum und Wochentag eine bestimmte Anzahl von Tagen nach oder vor einem Datum.",
+    "days_add_count": "Anzahl der Tage",
+    "days_add_after": "Danach",
+    "days_add_before": "Davor",
+    "days_add_result_after": "{duration} nach dem {start}: {date}",
+    "days_add_result_before": "{duration} vor dem {start}: {date}",
+    "days_add_error": "Gib eine ganze Zahl von Tagen ein, höchstens 100.000.",
+    "days_popular_title": "Tage bis zu beliebten Terminen",
+    "days_more_link": "Tage bis zu einem anderen Datum zählen"
   },
   "holidays": {
     "christmas": {

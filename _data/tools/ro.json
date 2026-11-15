@@ -163,7 +163,17 @@
     "days_faq_past_q": "Pot număra zilele de la o dată din trecut?",
     "days_faq_past_a": "Da. Alege o dată de sfârșit din trecut sau mută data de început înapoi. Calculatorul arată câte zile sunt între cele două date, în orice direcție.",
     "days_faq_app_q": "Am nevoie de aplicație?",
-    "days_faq_app_a": "Nu. Calculatorul funcționează aici fără cont, iar datele tale rămân în browser. Ca să ai o numărătoare inversă pe ecranul principal, adaugă data în {app}."
+    "days_faq_app_a": "Nu. Calculatorul funcționează aici fără cont, iar datele tale rămân în browser. Ca să ai o numărătoare inversă pe ecranul principal, adaugă data în {app}.",
+    "days_add_title": "Adună sau scade zile: ce dată va fi?",
+    "days_add_intro": "Află data și ziua săptămânii la câteva zile după sau înainte de orice dată.",
+    "days_add_count": "Număr de zile",
+    "days_add_after": "După",
+    "days_add_before": "Înainte",
+    "days_add_result_after": "{duration} după {start}: {date}",
+    "days_add_result_before": "{duration} înainte de {start}: {date}",
+    "days_add_error": "Introdu un număr întreg de zile, până la 100.000.",
+    "days_popular_title": "Câte zile mai sunt până la date populare",
+    "days_more_link": "Numără zilele până la altă dată"
   },
   "holidays": {
     "christmas": {

@@ -163,7 +163,17 @@
     "days_faq_past_q": "可以計算過去某個日期至今的天數嗎？",
     "days_faq_past_a": "可以。把結束日期選在過去，或把開始日期往前調。無論哪個方向，計算器都會顯示兩個日期之間相隔的天數。",
     "days_faq_app_q": "需要下載App嗎？",
-    "days_faq_app_a": "不需要。計算器無需帳號即可在這裡使用，你的日期只會保存在瀏覽器中。如果想在主畫面上顯示倒數，請在{app}中加入日期。"
+    "days_faq_app_a": "不需要。計算器無需帳號即可在這裡使用，你的日期只會保存在瀏覽器中。如果想在主畫面上顯示倒數，請在{app}中加入日期。",
+    "days_add_title": "日期加減：幾天後是幾月幾號？",
+    "days_add_intro": "計算任何日期之後或之前若干天的日期和星期。",
+    "days_add_count": "天數",
+    "days_add_after": "之後",
+    "days_add_before": "之前",
+    "days_add_result_after": "{start}之後{duration}：{date}",
+    "days_add_result_before": "{start}之前{duration}：{date}",
+    "days_add_error": "請輸入整數天數，最多 100,000。",
+    "days_popular_title": "距離熱門日期還有幾天",
+    "days_more_link": "計算到其他日期的天數"
   },
   "holidays": {
     "christmas": {

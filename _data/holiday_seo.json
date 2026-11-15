@@ -4,42 +4,48 @@
     "christmas_key_title": "Key Christmas dates",
     "christmas_eve": "Christmas Eve",
     "sundays_left": "Sundays left before Christmas",
-    "advent_start": "First Sunday of Advent"
+    "advent_start": "First Sunday of Advent",
+    "days_title": "Days Until Calculator: Count Days Between Dates"
   },
   "en-CA": {
     "title": "{heading} {weekday}, {monthday} · Days Left",
     "christmas_key_title": "Key Christmas dates",
     "christmas_eve": "Christmas Eve",
     "sundays_left": "Sundays left before Christmas",
-    "advent_start": "First Sunday of Advent"
+    "advent_start": "First Sunday of Advent",
+    "days_title": "Days Until Calculator: Count Days Between Dates"
   },
   "en-GB": {
     "title": "{heading} {weekday} {monthday} · Days Left",
     "christmas_key_title": "Key Christmas dates",
     "christmas_eve": "Christmas Eve",
     "sundays_left": "Sundays left before Christmas",
-    "advent_start": "First Sunday of Advent"
+    "advent_start": "First Sunday of Advent",
+    "days_title": "Days Until Calculator: Count Days Between Dates"
   },
   "en-AU": {
     "title": "{heading} {weekday} {monthday} · Days Left",
     "christmas_key_title": "Key Christmas dates",
     "christmas_eve": "Christmas Eve",
     "sundays_left": "Sundays left before Christmas",
-    "advent_start": "First Sunday of Advent"
+    "advent_start": "First Sunday of Advent",
+    "days_title": "Days Until Calculator: Count Days Between Dates"
   },
   "ar": {
     "title": "{heading} {weekday} {monthday} · كم يومًا بقي",
     "christmas_key_title": "تواريخ مهمة في عيد الميلاد",
     "christmas_eve": "ليلة عيد الميلاد",
     "sundays_left": "أيام الأحد المتبقية قبل عيد الميلاد",
-    "advent_start": "الأحد الأول من زمن المجيء"
+    "advent_start": "الأحد الأول من زمن المجيء",
+    "days_title": "حاسبة الأيام: كم يومًا بقي وكم يومًا بين تاريخين"
   },
   "ca": {
     "title": "{heading} {weekday}, {monthday} · Dies que falten",
     "christmas_key_title": "Dates clau de Nadal",
     "christmas_eve": "Nit de Nadal",
     "sundays_left": "Diumenges que queden abans de Nadal",
-    "advent_start": "Primer diumenge d’Advent"
+    "advent_start": "Primer diumenge d’Advent",
+    "days_title": "Calculadora de dies: quants dies falten?"
   },
   "cs": {
     "title": "{heading} {weekday} {monthday} · Kolik dní zbývá",
@@ -47,7 +53,8 @@
     "christmas_eve": "Štědrý den",
     "sundays_left": "Neděle zbývající do Vánoc",
     "advent_start": "První neděle adventní",
-    "christmas_title": "Kolik dní zbývá do Štědrého dne a Vánoc {year}? Odpočet"
+    "christmas_title": "Kolik dní zbývá do Štědrého dne a Vánoc {year}? Odpočet",
+    "days_title": "Kalkulačka dní: kolik dní zbývá do data?"
   },
   "da": {
     "title": "{heading} {weekday} {monthday} · Dage tilbage",
@@ -55,7 +62,8 @@
     "christmas_eve": "Juleaften",
     "sundays_left": "Søndage tilbage før jul",
     "advent_start": "Første søndag i advent",
-    "christmas_title": "Hvor mange dage til juleaften og jul {year}? Dato og nedtælling"
+    "christmas_title": "Hvor mange dage til juleaften og jul {year}? Dato og nedtælling",
+    "days_title": "Dageberegner: dage til og mellem datoer"
   },
   "de": {
     "title": "{heading} {weekday}, {monthday} · Wie viele Tage noch?",
@@ -63,27 +71,31 @@
     "christmas_eve": "Heiligabend",
     "sundays_left": "Verbleibende Sonntage bis Weihnachten",
     "advent_start": "Erster Advent",
-    "christmas_title": "Wie viele Tage bis Heiligabend und Weihnachten {year}? Countdown"
+    "christmas_title": "Wie viele Tage bis Heiligabend und Weihnachten {year}? Countdown",
+    "days_title": "Tagerechner: Wie viele Tage bis zum Datum?"
   },
   "el": {
     "title": "{counter} {year} · {weekday} {monthday}",
     "christmas_key_title": "Σημαντικές ημερομηνίες των Χριστουγέννων",
     "christmas_eve": "Παραμονή Χριστουγέννων",
-    "sundays_left": "Κυριακές που απομένουν μέχρι τα Χριστούγεννα"
+    "sundays_left": "Κυριακές που απομένουν μέχρι τα Χριστούγεννα",
+    "days_title": "Υπολογισμός ημερών: πόσες μέρες μένουν;"
   },
   "es": {
     "title": "{heading} {weekday} {monthday} · Días que faltan",
     "christmas_key_title": "Fechas clave de Navidad",
     "christmas_eve": "Nochebuena",
     "sundays_left": "Domingos que quedan antes de Navidad",
-    "advent_start": "Primer domingo de Adviento"
+    "advent_start": "Primer domingo de Adviento",
+    "days_title": "Calculadora de días: ¿cuántos días faltan?"
   },
   "es-MX": {
     "title": "{heading} {weekday} {monthday} · Días que faltan",
     "christmas_key_title": "Fechas clave de Navidad",
     "christmas_eve": "Nochebuena",
     "sundays_left": "Domingos que quedan antes de Navidad",
-    "advent_start": "Primer domingo de Adviento"
+    "advent_start": "Primer domingo de Adviento",
+    "days_title": "Calculadora de días: ¿cuántos días faltan?"
   },
   "fi": {
     "title": "{heading} {weekday} {monthday} · Päiviä jäljellä",
@@ -91,35 +103,40 @@
     "christmas_eve": "Jouluaatto",
     "sundays_left": "Sunnuntaita jäljellä ennen joulua",
     "advent_start": "Ensimmäinen adventtisunnuntai",
-    "christmas_title": "Joululaskuri {year}: montako päivää jouluaattoon ja jouluun?"
+    "christmas_title": "Joululaskuri {year}: montako päivää jouluaattoon ja jouluun?",
+    "days_title": "Päivälaskuri: laske päivät ja päivämäärät"
   },
   "fil": {
     "title": "{heading} {weekday}, {monthday} · Ilang araw pa",
     "christmas_key_title": "Mahahalagang petsa ng Pasko",
     "christmas_eve": "Bisperas ng Pasko",
     "sundays_left": "Natitirang Linggo bago ang Pasko",
-    "advent_start": "Unang Linggo ng Adbiyento"
+    "advent_start": "Unang Linggo ng Adbiyento",
+    "days_title": "Calculator ng araw: ilang araw pa?"
   },
   "fr": {
     "title": "{heading} {weekday} {monthday} · Jours restants",
     "christmas_key_title": "Dates clés de Noël",
     "christmas_eve": "Réveillon de Noël",
     "sundays_left": "Dimanches restants avant Noël",
-    "advent_start": "Premier dimanche de l’Avent"
+    "advent_start": "Premier dimanche de l’Avent",
+    "days_title": "Calculateur de jours : combien de jours restent ?"
   },
   "he": {
     "title": "{heading} {weekday}, {monthday} · כמה ימים נותרו",
     "christmas_key_title": "תאריכים חשובים בחג המולד",
     "christmas_eve": "ערב חג המולד",
     "sundays_left": "ימי ראשון שנותרו עד חג המולד",
-    "advent_start": "יום ראשון הראשון של האדוונט"
+    "advent_start": "יום ראשון הראשון של האדוונט",
+    "days_title": "מחשבון ימים: כמה ימים נשארו עד תאריך?"
   },
   "hi": {
     "title": "{heading} {weekday}, {monthday} · कितने दिन बाकी",
     "christmas_key_title": "क्रिसमस की खास तारीखें",
     "christmas_eve": "क्रिसमस ईव",
     "sundays_left": "क्रिसमस से पहले बचे रविवार",
-    "advent_start": "आगमन काल का पहला रविवार"
+    "advent_start": "आगमन काल का पहला रविवार",
+    "days_title": "कितने दिन बाकी हैं? दिन कैलकुलेटर"
   },
   "hu": {
     "title": "{heading} {monthday}, {weekday} · Hány nap van hátra",
@@ -127,42 +144,48 @@
     "christmas_eve": "Szenteste",
     "sundays_left": "Hátralévő vasárnapok karácsonyig",
     "advent_start": "Advent első vasárnapja",
-    "christmas_title": "Hány nap van hátra szentestéig és karácsonyig {year}? Visszaszámláló"
+    "christmas_title": "Hány nap van hátra szentestéig és karácsonyig {year}? Visszaszámláló",
+    "days_title": "Napkalkulátor: hány nap van hátra?"
   },
   "id": {
     "title": "{counter} {date}",
     "christmas_key_title": "Tanggal penting Natal",
     "christmas_eve": "Malam Natal",
     "sundays_left": "Hari Minggu tersisa sebelum Natal",
-    "advent_start": "Minggu Adven Pertama"
+    "advent_start": "Minggu Adven Pertama",
+    "days_title": "Kalkulator Hari & Tanggal: Berapa Hari Lagi?"
   },
   "it": {
     "title": "{heading} {weekday} {monthday} · Quanti giorni mancano",
     "christmas_key_title": "Date importanti del Natale",
     "christmas_eve": "Vigilia di Natale",
     "sundays_left": "Domeniche che mancano a Natale",
-    "advent_start": "Prima domenica di Avvento"
+    "advent_start": "Prima domenica di Avvento",
+    "days_title": "Calcolatore giorni: quanti giorni mancano?"
   },
   "ja": {
     "title": "{counter}{date}",
     "christmas_key_title": "クリスマスの主な日付",
     "christmas_eve": "クリスマスイブ",
     "sundays_left": "クリスマスまでの残りの日曜日",
-    "advent_start": "待降節（アドベント）の始まり"
+    "advent_start": "待降節（アドベント）の始まり",
+    "days_title": "日数計算：あと何日？何日後は何日？"
   },
   "ko": {
     "title": "{counter} {date}",
     "christmas_key_title": "크리스마스 주요 날짜",
     "christmas_eve": "크리스마스 이브",
     "sundays_left": "크리스마스 전까지 남은 일요일",
-    "advent_start": "대림절 첫 주일"
+    "advent_start": "대림절 첫 주일",
+    "days_title": "D-day 계산기: 날짜 계산과 남은 일수"
   },
   "ms": {
     "title": "{counter} {date}",
     "christmas_key_title": "Tarikh penting Krismas",
     "christmas_eve": "Malam Krismas",
     "sundays_left": "Hari Ahad berbaki sebelum Krismas",
-    "advent_start": "Ahad Pertama Adven"
+    "advent_start": "Ahad Pertama Adven",
+    "days_title": "Kalkulator Hari: Kira Hari dari Tarikh"
   },
   "nb": {
     "title": "{heading} {weekday} {monthday} · Dager igjen",
@@ -170,14 +193,16 @@
     "christmas_eve": "Julaften",
     "sundays_left": "Søndager igjen før jul",
     "advent_start": "Første søndag i advent",
-    "christmas_title": "Hvor mange dager til julaften og jul {year}? Dato og nedtelling"
+    "christmas_title": "Hvor mange dager til julaften og jul {year}? Dato og nedtelling",
+    "days_title": "Dagekalkulator: dager til og mellom datoer"
   },
   "nl": {
     "title": "{heading} {weekday} {monthday} · Hoeveel dagen nog",
     "christmas_key_title": "Belangrijke kerstdata",
     "christmas_eve": "Kerstavond",
     "sundays_left": "Zondagen tot Kerstmis",
-    "advent_start": "Eerste zondag van de advent"
+    "advent_start": "Eerste zondag van de advent",
+    "days_title": "Dagencalculator: hoeveel dagen nog?"
   },
   "pl": {
     "title": "{heading} {weekday}, {monthday} · Ile dni zostało",
@@ -185,33 +210,38 @@
     "christmas_eve": "Wigilia",
     "sundays_left": "Niedziele pozostałe do świąt",
     "advent_start": "Pierwsza niedziela Adwentu",
-    "christmas_title": "Ile dni do Wigilii i Bożego Narodzenia {year}? Odliczanie"
+    "christmas_title": "Ile dni do Wigilii i Bożego Narodzenia {year}? Odliczanie",
+    "days_title": "Kalkulator dni: ile dni do daty?"
   },
   "pt": {
     "title": "{heading} {weekday}, {monthday} · Quantos dias faltam",
     "christmas_key_title": "Datas importantes do Natal",
     "christmas_eve": "Véspera de Natal",
     "sundays_left": "Domingos que faltam até ao Natal",
-    "advent_start": "Primeiro domingo do Advento"
+    "advent_start": "Primeiro domingo do Advento",
+    "days_title": "Calculadora de dias: quantos dias faltam?"
   },
   "pt-BR": {
     "title": "{heading} {weekday}, {monthday} · Quantos dias faltam",
     "christmas_key_title": "Datas importantes do Natal",
     "christmas_eve": "Véspera de Natal",
     "sundays_left": "Domingos que faltam até o Natal",
-    "advent_start": "Primeiro domingo do Advento"
+    "advent_start": "Primeiro domingo do Advento",
+    "days_title": "Calculadora de dias: quantos dias faltam?"
   },
   "ro": {
     "title": "{heading} {weekday}, {monthday} · Câte zile mai sunt",
     "christmas_key_title": "Date importante de Crăciun",
     "christmas_eve": "Ajunul Crăciunului",
-    "sundays_left": "Duminici rămase până la Crăciun"
+    "sundays_left": "Duminici rămase până la Crăciun",
+    "days_title": "Calculator zile: câte zile mai sunt?"
   },
   "ru": {
     "title": "{heading} {weekday}, {monthday} · Сколько дней осталось",
     "christmas_key_title": "Важные даты Рождества",
     "christmas_eve": "Сочельник",
-    "sundays_left": "Воскресений до Рождества"
+    "sundays_left": "Воскресений до Рождества",
+    "days_title": "Калькулятор дней: сколько дней до даты?"
   },
   "sk": {
     "title": "{heading} {weekday} {monthday} · Koľko dní zostáva",
@@ -219,7 +249,8 @@
     "christmas_eve": "Štedrý deň",
     "sundays_left": "Nedele zostávajúce do Vianoc",
     "advent_start": "Prvá adventná nedeľa",
-    "christmas_title": "Koľko dní zostáva do Štedrého dňa a Vianoc {year}? Odpočet"
+    "christmas_title": "Koľko dní zostáva do Štedrého dňa a Vianoc {year}? Odpočet",
+    "days_title": "Kalkulačka dní: koľko dní zostáva?"
   },
   "sv": {
     "title": "{heading} {weekday} {monthday} · Dagar kvar",
@@ -227,47 +258,54 @@
     "christmas_eve": "Julafton",
     "sundays_left": "Söndagar kvar till jul",
     "advent_start": "Första advent",
-    "christmas_title": "Hur många dagar till julafton och jul {year}? Datum och nedräkning"
+    "christmas_title": "Hur många dagar till julafton och jul {year}? Datum och nedräkning",
+    "days_title": "Dagräknare: dagar kvar och mellan datum"
   },
   "th": {
     "title": "{counter} {date}",
     "christmas_key_title": "วันสำคัญช่วงคริสต์มาส",
     "christmas_eve": "คืนก่อนวันคริสต์มาส",
     "sundays_left": "วันอาทิตย์ที่เหลือก่อนคริสต์มาส",
-    "advent_start": "วันอาทิตย์แรกของเทศกาลรอคอย"
+    "advent_start": "วันอาทิตย์แรกของเทศกาลรอคอย",
+    "days_title": "คำนวณวัน: อีกกี่วัน นับจำนวนวันระหว่างวันที่"
   },
   "tr": {
     "title": "{heading} {date}, kaç gün kaldı?",
     "christmas_key_title": "Noel’in önemli tarihleri",
     "christmas_eve": "Noel arifesi",
     "sundays_left": "Noel’e kalan pazar günleri",
-    "advent_start": "Advent’in ilk pazarı"
+    "advent_start": "Advent’in ilk pazarı",
+    "days_title": "Kaç Gün Kaldı? Gün Hesaplama"
   },
   "uk": {
     "title": "{heading} {weekday}, {monthday} · Скільки днів залишилося",
     "christmas_key_title": "Важливі дати Різдва",
     "christmas_eve": "Святвечір",
-    "sundays_left": "Неділь до Різдва"
+    "sundays_left": "Неділь до Різдва",
+    "days_title": "Калькулятор днів: скільки днів до дати?"
   },
   "vi": {
     "title": "{heading} {weekday}, {monthday} · Còn bao nhiêu ngày",
     "christmas_key_title": "Những ngày quan trọng dịp Giáng sinh",
     "christmas_eve": "Đêm Giáng sinh",
     "sundays_left": "Số Chúa nhật còn lại trước Giáng sinh",
-    "advent_start": "Chúa nhật thứ nhất Mùa Vọng"
+    "advent_start": "Chúa nhật thứ nhất Mùa Vọng",
+    "days_title": "Tính số ngày: còn bao nhiêu ngày?"
   },
   "zh-Hans": {
     "title": "{heading}{monthday}{weekday}·还有几天",
     "christmas_key_title": "圣诞节重要日期",
     "christmas_eve": "平安夜",
     "sundays_left": "圣诞节前剩余的星期日",
-    "advent_start": "将临期第一主日"
+    "advent_start": "将临期第一主日",
+    "days_title": "天数计算器：还有几天？日期加减计算"
   },
   "zh-Hant": {
     "title": "{heading}{monthday} {weekday}・還有幾天",
     "christmas_key_title": "聖誕節重要日期",
     "christmas_eve": "平安夜",
     "sundays_left": "聖誕節前剩餘的星期日",
-    "advent_start": "將臨期第一主日"
+    "advent_start": "將臨期第一主日",
+    "days_title": "天數計算器：還有幾天？日期加減計算"
   }
 }

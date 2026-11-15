@@ -163,7 +163,17 @@
     "days_faq_past_q": "Môžem spočítať dni od dátumu v minulosti?",
     "days_faq_past_a": "Áno. Vyberte koncový dátum v minulosti alebo posuňte počiatočný dátum dozadu. Kalkulačka ukáže, koľko dní delí oba dátumy, v ľubovoľnom smere.",
     "days_faq_app_q": "Potrebujem aplikáciu?",
-    "days_faq_app_a": "Nie. Kalkulačka funguje tu bez účtu a vaše dátumy zostávajú vo vašom prehliadači. Ak chcete mať odpočet na ploche, pridajte dátum do aplikácie {app}."
+    "days_faq_app_a": "Nie. Kalkulačka funguje tu bez účtu a vaše dátumy zostávajú vo vašom prehliadači. Ak chcete mať odpočet na ploche, pridajte dátum do aplikácie {app}.",
+    "days_add_title": "Pripočítať alebo odpočítať dni: aký bude dátum?",
+    "days_add_intro": "Zistite dátum a deň v týždni určitý počet dní po ľubovoľnom dátume alebo pred ním.",
+    "days_add_count": "Počet dní",
+    "days_add_after": "Po",
+    "days_add_before": "Pred",
+    "days_add_result_after": "{duration} po {start}: {date}",
+    "days_add_result_before": "{duration} pred {start}: {date}",
+    "days_add_error": "Zadajte celý počet dní, najviac 100 000.",
+    "days_popular_title": "Koľko dní zostáva do obľúbených dátumov",
+    "days_more_link": "Spočítať dni do iného dátumu"
   },
   "holidays": {
     "christmas": {

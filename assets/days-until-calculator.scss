@@ -22,3 +22,33 @@
   .days-breakdown > div { grid-template-columns: 1fr; }
   .days-breakdown dd { text-align: start; }
 }
+
+.days-add, .days-popular { margin-top: 28px; padding: 28px; border: 1px solid #d8e4ed; border-radius: 18px; background: #fff; }
+.days-add { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: 8px 32px; }
+.days-add h2, .days-popular h2 { font-size: 22px; letter-spacing: -.02em; margin-bottom: 6px; }
+.days-add__copy p { color: var(--muted); font-size: 15px; }
+.days-add__fields { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 0 16px; min-width: 0; margin: 0; padding: 0; border: 0; }
+.days-add__fields .calculator-field { margin-bottom: 14px; }
+.days-add__direction { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 8px; }
+.days-add__direction label { display: flex; align-items: center; gap: 8px; min-height: 44px; padding: 6px 14px; border: 1px solid #b9cfdd; border-radius: 30px; font-size: 14px; font-weight: 650; cursor: pointer; }
+.days-add__direction label:has(input:checked) { background: #e3f0fa; border-color: var(--calculator-blue); color: #12507e; }
+.days-add__direction input { margin: 0; accent-color: var(--calculator-blue); }
+.days-add__result { grid-column: 2; min-width: 0; }
+.days-add__output { margin-top: 10px; font-size: 18px; font-weight: 750; line-height: 1.4; overflow-wrap: anywhere; }
+.days-add__output:empty { display: none; }
+.days-popular ul { list-style: none; margin: 14px 0 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 32px; }
+.days-popular a { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 12px; padding: 12px 0; border-bottom: 1px solid #e3ecf2; color: var(--ink); text-decoration: none; }
+.days-popular a:hover .days-popular__name { color: var(--calculator-blue); }
+.days-popular__name { font-weight: 700; overflow-wrap: anywhere; }
+.days-popular time { grid-row: 2; color: var(--muted); font-size: 13px; overflow-wrap: anywhere; }
+.days-popular__count { grid-row: 1 / 3; grid-column: 2; align-self: center; font-size: 22px; font-weight: 800; font-variant-numeric: tabular-nums; color: #12507e; }
+.days-popular__unit { margin-top: 10px; color: var(--muted); font-size: 12px; }
+
+@media (max-width: 760px) {
+  .days-add, .days-popular ul { grid-template-columns: minmax(0, 1fr); }
+  .days-add__result { grid-column: 1; }
+  .days-add, .days-popular { padding: 22px 18px; }
+}
+@media (max-width: 420px) {
+  .days-add__fields { grid-template-columns: minmax(0, 1fr); }
+}

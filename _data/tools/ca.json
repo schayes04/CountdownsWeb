@@ -163,7 +163,17 @@
     "days_faq_past_q": "Puc comptar els dies des d’una data passada?",
     "days_faq_past_a": "Sí. Tria una data final en el passat o fes enrere la data d’inici. La calculadora mostra quants dies hi ha entre les dues dates en qualsevol sentit.",
     "days_faq_app_q": "Necessito l’app?",
-    "days_faq_app_a": "No. La calculadora funciona aquí sense compte i les dates es queden al teu navegador. Per tenir un compte enrere a la pantalla d’inici, afegeix la data a {app}."
+    "days_faq_app_a": "No. La calculadora funciona aquí sense compte i les dates es queden al teu navegador. Per tenir un compte enrere a la pantalla d’inici, afegeix la data a {app}.",
+    "days_add_title": "Suma o resta dies: quina data serà?",
+    "days_add_intro": "Troba la data i el dia de la setmana uns quants dies després o abans de qualsevol data.",
+    "days_add_count": "Nombre de dies",
+    "days_add_after": "Després",
+    "days_add_before": "Abans",
+    "days_add_result_after": "{duration} després del {start}: {date}",
+    "days_add_result_before": "{duration} abans del {start}: {date}",
+    "days_add_error": "Introdueix un nombre enter de dies, fins a 100.000.",
+    "days_popular_title": "Dies que falten per a dates populars",
+    "days_more_link": "Compta els dies fins a qualsevol altra data"
   },
   "holidays": {
     "christmas": {

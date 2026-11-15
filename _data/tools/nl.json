@@ -163,7 +163,17 @@
     "days_faq_past_q": "Kan ik de dagen sinds een datum in het verleden tellen?",
     "days_faq_past_a": "Ja. Kies een einddatum in het verleden of zet de begindatum terug. De calculator toont in beide richtingen hoeveel dagen er tussen de twee datums liggen.",
     "days_faq_app_q": "Heb ik de app nodig?",
-    "days_faq_app_a": "Nee. De calculator werkt hier zonder account en je datums blijven in je browser. Wil je een aftelling op je beginscherm, voeg de datum dan toe in {app}."
+    "days_faq_app_a": "Nee. De calculator werkt hier zonder account en je datums blijven in je browser. Wil je een aftelling op je beginscherm, voeg de datum dan toe in {app}.",
+    "days_add_title": "Dagen optellen of aftrekken: welke datum is het dan?",
+    "days_add_intro": "Vind de datum en weekdag een aantal dagen na of voor elke datum.",
+    "days_add_count": "Aantal dagen",
+    "days_add_after": "Na",
+    "days_add_before": "Voor",
+    "days_add_result_after": "{duration} na {start}: {date}",
+    "days_add_result_before": "{duration} voor {start}: {date}",
+    "days_add_error": "Vul een heel aantal dagen in, tot 100.000.",
+    "days_popular_title": "Hoeveel dagen nog tot populaire data",
+    "days_more_link": "Tel de dagen tot een andere datum"
   },
   "holidays": {
     "christmas": {

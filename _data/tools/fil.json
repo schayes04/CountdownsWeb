@@ -163,7 +163,17 @@
     "days_faq_past_q": "Puwede ko bang bilangin ang mga araw mula sa isang lumipas na petsa?",
     "days_faq_past_a": "Oo. Pumili ng petsa ng pagtatapos sa nakaraan, o iurong ang petsa ng simula. Ipinapakita ng calculator kung ilang araw ang pagitan ng dalawang petsa sa alinmang direksyon.",
     "days_faq_app_q": "Kailangan ko ba ang app?",
-    "days_faq_app_a": "Hindi. Gumagana ang calculator dito nang walang account, at nananatili sa browser mo ang mga petsa mo. Para magkaroon ng countdown sa Home Screen mo, idagdag ang petsa sa {app}."
+    "days_faq_app_a": "Hindi. Gumagana ang calculator dito nang walang account, at nananatili sa browser mo ang mga petsa mo. Para magkaroon ng countdown sa Home Screen mo, idagdag ang petsa sa {app}.",
+    "days_add_title": "Magdagdag o magbawas ng araw: anong petsa ito?",
+    "days_add_intro": "Alamin ang petsa at araw ng linggo ilang araw pagkatapos o bago ang anumang petsa.",
+    "days_add_count": "Bilang ng araw",
+    "days_add_after": "Pagkatapos",
+    "days_add_before": "Bago",
+    "days_add_result_after": "{duration} pagkatapos ng {start}: {date}",
+    "days_add_result_before": "{duration} bago ang {start}: {date}",
+    "days_add_error": "Maglagay ng buong bilang ng araw, hanggang 100,000.",
+    "days_popular_title": "Ilang araw pa bago ang mga sikat na petsa",
+    "days_more_link": "Bilangin ang araw hanggang sa ibang petsa"
   },
   "holidays": {
     "christmas": {

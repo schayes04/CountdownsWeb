@@ -163,7 +163,17 @@
     "days_faq_past_q": "Kiszámolhatom a napokat egy múltbeli dátum óta?",
     "days_faq_past_a": "Igen. Válassz múltbeli záró dátumot, vagy állítsd korábbra a kezdő dátumot. A kalkulátor bármelyik irányban megmutatja, hány nap telik el a két dátum között.",
     "days_faq_app_q": "Szükségem van az alkalmazásra?",
-    "days_faq_app_a": "Nem. A kalkulátor itt is működik fiók nélkül, és a dátumaid a böngésződben maradnak. Ha visszaszámlálást szeretnél a főképernyőn, add hozzá a dátumot a(z) {app} alkalmazásban."
+    "days_faq_app_a": "Nem. A kalkulátor itt is működik fiók nélkül, és a dátumaid a böngésződben maradnak. Ha visszaszámlálást szeretnél a főképernyőn, add hozzá a dátumot a(z) {app} alkalmazásban.",
+    "days_add_title": "Napok hozzáadása vagy kivonása: milyen dátum lesz?",
+    "days_add_intro": "Számold ki a dátumot és a hét napját adott számú nappal egy dátum után vagy előtt.",
+    "days_add_count": "Napok száma",
+    "days_add_after": "Után",
+    "days_add_before": "Előtt",
+    "days_add_result_after": "{start} után {duration}: {date}",
+    "days_add_result_before": "{start} előtt {duration}: {date}",
+    "days_add_error": "Adj meg egész számú napot, legfeljebb 100 000-et.",
+    "days_popular_title": "Hány nap van hátra népszerű dátumokig",
+    "days_more_link": "Napok számolása egy másik dátumig"
   },
   "holidays": {
     "christmas": {

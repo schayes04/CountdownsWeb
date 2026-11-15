@@ -163,7 +163,17 @@
     "days_faq_past_q": "Voinko laskea päivät menneestä päivämäärästä?",
     "days_faq_past_a": "Kyllä. Valitse loppupäivä menneisyydestä tai siirrä alkupäivää taaksepäin. Laskuri näyttää, montako päivää päivämäärien välillä on, kumpaan suuntaan tahansa.",
     "days_faq_app_q": "Tarvitsenko sovellusta?",
-    "days_faq_app_a": "Et. Laskuri toimii täällä ilman tiliä, ja päivämääräsi pysyvät selaimessasi. Jos haluat laskurin Koti-valikkoon, lisää päivämäärä sovellukseen {app}."
+    "days_faq_app_a": "Et. Laskuri toimii täällä ilman tiliä, ja päivämääräsi pysyvät selaimessasi. Jos haluat laskurin Koti-valikkoon, lisää päivämäärä sovellukseen {app}.",
+    "days_add_title": "Lisää tai vähennä päiviä: mikä päivämäärä silloin on?",
+    "days_add_intro": "Selvitä päivämäärä ja viikonpäivä tietyn päivämäärän jälkeen tai ennen sitä.",
+    "days_add_count": "Päivien määrä",
+    "days_add_after": "Jälkeen",
+    "days_add_before": "Ennen",
+    "days_add_result_after": "{duration} päivästä {start}: {date}",
+    "days_add_result_before": "{duration} ennen päivää {start}: {date}",
+    "days_add_error": "Anna kokonainen määrä päiviä, enintään 100 000.",
+    "days_popular_title": "Päiviä suosittuihin päivämääriin",
+    "days_more_link": "Laske päivät johonkin muuhun päivämäärään"
   },
   "holidays": {
     "christmas": {

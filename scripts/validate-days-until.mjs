@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { addMonths, calculateSpan } from '../assets/days-until-dates.mjs';
+import { MAX_SHIFT_DAYS, addMonths, calculateSpan, shiftDate } from '../assets/days-until-dates.mjs';
 import { addDays, dateString, parseDate } from '../assets/anniversary-dates.mjs';
 
 test('the published example: January 1 to December 25, 2026', () => {
@@ -84,4 +84,32 @@ test('the full supported date range and invalid input', () => {
   for (const [start, end] of [['', '2026-01-01'], ['2026-02-30', '2026-03-01'], ['2026-01-01', '9999-01-01'], ['20260101', '2026-01-02']]) {
     assert.throws(() => calculateSpan(start, end), RangeError);
   }
+});
+
+test('shiftDate adds and subtracts calendar days', () => {
+  assert.equal(dateString(shiftDate('2026-11-15', 30)), '2026-12-15');
+  assert.equal(dateString(shiftDate('2026-11-15', -30)), '2026-10-16');
+  assert.equal(dateString(shiftDate('2026-11-15', 0)), '2026-11-15');
+  // Leap days and year ends.
+  assert.equal(dateString(shiftDate('2028-02-28', 1)), '2028-02-29');
+  assert.equal(dateString(shiftDate('2026-12-31', 1)), '2027-01-01');
+  assert.equal(dateString(shiftDate('2026-03-01', -1)), '2026-02-28');
+  // Daylight-saving weeks never move the date.
+  assert.equal(dateString(shiftDate('2026-03-01', 14)), '2026-03-15');
+  assert.equal(dateString(shiftDate('2026-10-25', 7)), '2026-11-01');
+});
+
+test('shiftDate is the inverse of calculateSpan', () => {
+  for (const days of [1, 12, 90, 365, 1000]) {
+    assert.equal(calculateSpan('2026-11-15', dateString(shiftDate('2026-11-15', days))).days, days);
+  }
+});
+
+test('shiftDate rejects bad input and out-of-range results', () => {
+  assert.equal(shiftDate('2026-11-15', 1.5), null);
+  assert.equal(shiftDate('2026-11-15', MAX_SHIFT_DAYS + 1), null);
+  assert.equal(shiftDate('not a date', 3), null);
+  assert.equal(shiftDate('0001-01-01', -1), null);
+  assert.equal(shiftDate('9998-12-31', 1), null);
+  assert.ok(shiftDate('2026-11-15', MAX_SHIFT_DAYS));
 });

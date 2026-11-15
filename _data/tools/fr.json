@@ -163,7 +163,17 @@
     "days_faq_past_q": "Puis-je compter les jours depuis une date passée ?",
     "days_faq_past_a": "Oui. Choisissez une date de fin dans le passé ou reculez la date de début. Le calculateur indique combien de jours séparent les deux dates, dans un sens comme dans l’autre.",
     "days_faq_app_q": "Ai-je besoin de l’app ?",
-    "days_faq_app_a": "Non. Le calculateur fonctionne ici sans compte, et vos dates restent dans votre navigateur. Pour garder un compte à rebours sur votre écran d’accueil, ajoutez la date dans {app}."
+    "days_faq_app_a": "Non. Le calculateur fonctionne ici sans compte, et vos dates restent dans votre navigateur. Pour garder un compte à rebours sur votre écran d’accueil, ajoutez la date dans {app}.",
+    "days_add_title": "Ajouter ou soustraire des jours : quelle date ce sera ?",
+    "days_add_intro": "Trouvez la date et le jour de la semaine quelques jours après ou avant n’importe quelle date.",
+    "days_add_count": "Nombre de jours",
+    "days_add_after": "Après",
+    "days_add_before": "Avant",
+    "days_add_result_after": "{duration} après le {start} : {date}",
+    "days_add_result_before": "{duration} avant le {start} : {date}",
+    "days_add_error": "Saisissez un nombre entier de jours, jusqu’à 100 000.",
+    "days_popular_title": "Jours restants avant des dates populaires",
+    "days_more_link": "Comptez les jours jusqu’à une autre date"
   },
   "holidays": {
     "christmas": {

@@ -163,7 +163,17 @@
     "days_faq_past_q": "Kan jag räkna dagarna sedan ett datum i det förflutna?",
     "days_faq_past_a": "Ja. Välj ett slutdatum i det förflutna eller flytta startdatumet bakåt. Räknaren visar hur många dagar det är mellan de två datumen i båda riktningarna.",
     "days_faq_app_q": "Behöver jag appen?",
-    "days_faq_app_a": "Nej. Räknaren fungerar här utan konto, och dina datum stannar i webbläsaren. Vill du ha en nedräkning på hemskärmen lägger du till datumet i {app}."
+    "days_faq_app_a": "Nej. Räknaren fungerar här utan konto, och dina datum stannar i webbläsaren. Vill du ha en nedräkning på hemskärmen lägger du till datumet i {app}.",
+    "days_add_title": "Lägg till eller dra ifrån dagar: vilket datum blir det?",
+    "days_add_intro": "Ta reda på datum och veckodag ett antal dagar efter eller före valfritt datum.",
+    "days_add_count": "Antal dagar",
+    "days_add_after": "Efter",
+    "days_add_before": "Före",
+    "days_add_result_after": "{duration} efter {start}: {date}",
+    "days_add_result_before": "{duration} före {start}: {date}",
+    "days_add_error": "Ange ett helt antal dagar, högst 100 000.",
+    "days_popular_title": "Dagar kvar till populära datum",
+    "days_more_link": "Räkna dagarna till ett annat datum"
   },
   "holidays": {
     "christmas": {

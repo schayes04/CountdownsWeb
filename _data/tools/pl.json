@@ -163,7 +163,17 @@
     "days_faq_past_q": "Czy mogę policzyć dni od daty w przeszłości?",
     "days_faq_past_a": "Tak. Wybierz datę końcową w przeszłości albo przesuń datę początkową wstecz. Kalkulator pokazuje, ile dni dzieli obie daty, w dowolnym kierunku.",
     "days_faq_app_q": "Czy potrzebuję aplikacji?",
-    "days_faq_app_a": "Nie. Kalkulator działa tutaj bez konta, a Twoje daty zostają w przeglądarce. Aby mieć odliczanie na ekranie początkowym, dodaj datę w {app}."
+    "days_faq_app_a": "Nie. Kalkulator działa tutaj bez konta, a Twoje daty zostają w przeglądarce. Aby mieć odliczanie na ekranie początkowym, dodaj datę w {app}.",
+    "days_add_title": "Dodaj lub odejmij dni: jaka to będzie data?",
+    "days_add_intro": "Sprawdź datę i dzień tygodnia określoną liczbę dni po dowolnej dacie lub przed nią.",
+    "days_add_count": "Liczba dni",
+    "days_add_after": "Po",
+    "days_add_before": "Przed",
+    "days_add_result_after": "{duration} po {start}: {date}",
+    "days_add_result_before": "{duration} przed {start}: {date}",
+    "days_add_error": "Wpisz całkowitą liczbę dni, maksymalnie 100 000.",
+    "days_popular_title": "Ile dni zostało do popularnych dat",
+    "days_more_link": "Policz dni do innej daty"
   },
   "holidays": {
     "christmas": {
