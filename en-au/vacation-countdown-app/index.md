@@ -1,8 +1,7 @@
 ---
 title: Holiday Countdown App
-meta_title: Holiday Countdown App for Trips, Travel Dates, and Widgets
-description: >-
-  Count down to holidays, flights, hotel check-ins, and travel plans with customisable widgets and notifications.
+meta_title: "Holiday Countdown App & Widget for iPhone: Count Down to Your Trip"
+description: "A holiday countdown app with Home Screen and Lock Screen widgets. Count down the days to your trip, flight, cruise, or road trip on iPhone, iPad, and Mac."
 permalink: "/en-au/vacation-countdown-app/"
 slug: vacation-countdown-app
 nav_order: 30

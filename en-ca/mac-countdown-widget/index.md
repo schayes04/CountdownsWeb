@@ -1,6 +1,6 @@
 ---
 title: "Countdown App & Widget for Mac"
-meta_title: "Countdown App for Mac with Desktop Widgets | Countdowns"
+meta_title: "Countdown Widget for Mac & MacBook Desktop | Countdowns"
 description: "A countdown app for Mac and MacBook with desktop widgets you design yourself. Count down to trips, birthdays, and deadlines, synced with your iPhone."
 permalink: "/en-ca/mac-countdown-widget/"
 slug: mac-countdown-widget

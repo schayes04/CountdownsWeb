@@ -29,6 +29,8 @@
 		{% assign guide_topic_lower = guide_topic | downcase %}
 		{% assign meta_title = t.guide_meta_title | replace: "TOPIC_LOWER", guide_topic_lower | replace: "TOPIC", guide_topic %}
 		{% assign meta_description = t.guide_description | replace: "TOPIC_LOWER", guide_topic_lower | replace: "TOPIC", guide_topic %}
+		{% assign guide_seo = site.data.guide_seo[current_locale][page.guide_slug] %}
+		{% if guide_seo %}{% assign meta_title = guide_seo.title %}{% assign meta_description = guide_seo.description %}{% endif %}
 	{% endif %}
 	{% if page.canonical_key == 'when-is' or page.canonical_key == 'anniversary-calculator' or page.canonical_key == 'days-until-calculator' %}
         {% include tool-context.html %}

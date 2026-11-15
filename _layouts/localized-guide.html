@@ -30,7 +30,8 @@ layout: default
 	<div class="site-container guide-hero__grid{% if mac_screenshot_path %} guide-hero__grid--mac{% endif %}">
 		<div class="guide-hero__copy">
 			<p class="section-kicker">{{ t.guide_default_kicker }}</p>
-			<h1>{{ t.guide_h1 | replace: "TOPIC_LOWER", guide_topic_lower | replace: "TOPIC", guide_topic }}</h1>
+			{%- assign guide_seo = site.data.guide_seo[current_locale][page.guide_slug] %}
+			<h1>{% if guide_seo.h1 %}{{ guide_seo.h1 }}{% else %}{{ t.guide_h1 | replace: "TOPIC_LOWER", guide_topic_lower | replace: "TOPIC", guide_topic }}{% endif %}</h1>
 			<p>{{ t.guide_hero | replace: "TOPIC_LOWER", guide_topic_lower | replace: "TOPIC", guide_topic }}</p>
 			{%- if page.guide_slug == "christmas-countdown-app" -%}
 				{%- assign guide_holiday = site.data.holidays | where: "slug", "christmas" | first -%}

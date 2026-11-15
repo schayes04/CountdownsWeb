@@ -1,0 +1,80 @@
+{
+  "ja": {
+    "lock-screen-countdown-widget": {
+      "title": "iPhoneのロック画面・ホーム画面にカウントダウンを表示する方法",
+      "h1": "iPhoneのロック画面にカウントダウンを表示する方法",
+      "description": "iPhoneのロック画面やホーム画面にカウントダウンウィジェットを表示する方法。旅行、誕生日、記念日、締め切りまであと何日かをひと目で確認できます。"
+    },
+    "anniversary-countdown-app": {
+      "title": "記念日カウントダウンアプリ：iPhoneのウィジェットで記念日まであと何日",
+      "h1": "記念日まであと何日かをウィジェットで",
+      "description": "付き合った記念日や結婚記念日までのカウントダウンをiPhoneのホーム画面やロック画面に。毎年のリマインダーで記念日を忘れません。"
+    }
+  },
+  "de": {
+    "lock-screen-countdown-widget": {
+      "title": "Countdown auf dem iPhone-Sperrbildschirm: so geht’s",
+      "h1": "So zeigst du einen Countdown auf dem iPhone-Sperrbildschirm an",
+      "description": "So fügst du ein Countdown-Widget zum Sperrbildschirm deines iPhone hinzu und siehst die Tage bis zu Urlaub, Geburtstag oder Abgabetermin auf einen Blick."
+    },
+    "vacation-countdown-app": {
+      "title": "Urlaubscountdown für iPhone: App und Widget",
+      "h1": "Dein Urlaubscountdown auf dem iPhone",
+      "description": "Erstelle einen Urlaubscountdown mit Widgets für Home- und Sperrbildschirm. Zähle die Tage bis zu Flug, Kreuzfahrt oder Roadtrip auf iPhone, iPad und Mac."
+    }
+  },
+  "zh-Hant": {
+    "lock-screen-countdown-widget": {
+      "title": "如何在 iPhone 鎖定畫面顯示倒數計時",
+      "h1": "如何在 iPhone 鎖定畫面加入倒數計時",
+      "description": "在 iPhone 鎖定畫面與主畫面加入倒數計時小工具，一眼看到距離旅行、生日、紀念日或截止日還有幾天。"
+    }
+  },
+  "nb": {
+    "lock-screen-countdown-widget": {
+      "title": "Nedtelling på låseskjermen: slik gjør du det på iPhone",
+      "h1": "Slik legger du en nedtelling på låseskjermen på iPhone",
+      "description": "Slik legger du til en nedtellingswidget på låseskjermen på iPhone, så du ser dagene til ferie, bursdag eller frist uten å låse opp."
+    },
+    "vacation-countdown-app": {
+      "title": "Nedtelling til ferie: app og widget for iPhone",
+      "h1": "Nedtelling til ferien på iPhone",
+      "description": "Lag en nedtelling til ferien med widgeter for hjemskjermen og låseskjermen. Tell ned dagene til flyreisen, cruiset eller bilturen på iPhone, iPad og Mac."
+    }
+  },
+  "tr": {
+    "lock-screen-countdown-widget": {
+      "title": "iPhone Kilit Ekranına Geri Sayım Nasıl Eklenir?",
+      "h1": "iPhone kilit ekranına geri sayım nasıl eklenir",
+      "description": "iPhone kilit ekranına geri sayım widget’ı ekleyin; tatile, doğum gününe veya son teslim tarihine kaç gün kaldığını kilidi açmadan görün."
+    }
+  },
+  "pl": {
+    "vacation-countdown-app": {
+      "title": "Odliczanie do wakacji: aplikacja i widżet na iPhone’a",
+      "h1": "Odliczanie do wakacji na iPhonie",
+      "description": "Odliczaj dni do wakacji z widżetami na ekranie początkowym i blokady. Lot, rejs albo wyjazd samochodem: wszystko na iPhonie, iPadzie i Macu."
+    }
+  },
+  "nl": {
+    "vacation-countdown-app": {
+      "title": "Aftellen naar je vakantie: app en widget voor iPhone",
+      "h1": "Aftellen naar je vakantie op je iPhone",
+      "description": "Tel af naar je vakantie met widgets voor je beginscherm en toegangsscherm. Tel de dagen tot je vlucht, cruise of roadtrip op iPhone, iPad en Mac."
+    }
+  },
+  "fi": {
+    "vacation-countdown-app": {
+      "title": "Lomalaskuri: laske päivät lomaan iPhonella",
+      "h1": "Lomalaskuri iPhonelle",
+      "description": "Laske päivät lomaan widgeteillä koti- ja lukitusnäytöllä. Lento, risteily tai automatka: näe montako päivää on jäljellä iPhonella, iPadilla ja Macilla."
+    }
+  },
+  "ru": {
+    "vacation-countdown-app": {
+      "title": "Обратный отсчёт до отпуска: приложение и виджет для iPhone",
+      "h1": "Обратный отсчёт до отпуска на iPhone",
+      "description": "Считайте дни до отпуска с виджетами на экране «Домой» и экране блокировки. Перелёт, круиз или поездка на машине: на iPhone, iPad и Mac."
+    }
+  }
+}

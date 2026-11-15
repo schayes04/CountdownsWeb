@@ -1,7 +1,7 @@
 ---
 title: "Anniversary Countdown App"
-meta_title: "Anniversary Countdown App with Recurring Reminders and Widgets"
-description: "Create anniversary countdowns with recurring dates, custom notifications, widgets, and iCloud sync."
+meta_title: "Anniversary Countdown App & Reminder Widget for iPhone"
+description: "Count down to your anniversary with yearly reminders and Home Screen widgets. See how many days are left, and never miss a dating or wedding anniversary."
 permalink: /anniversary-countdown-app/
 slug: anniversary-countdown-app
 nav_order: 60

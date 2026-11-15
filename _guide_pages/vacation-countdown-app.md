@@ -1,7 +1,7 @@
 ---
 title: "Vacation Countdown App"
-meta_title: "Vacation Countdown App for Trips, Travel Dates, and Widgets"
-description: "Count down to vacations, flights, hotel check-ins, and travel plans with customizable widgets and notifications."
+meta_title: "Vacation Countdown App & Widget for iPhone: Count Down to Your Trip"
+description: "A vacation countdown app with Home Screen and Lock Screen widgets. Count down the days to your trip, flight, cruise, or road trip on iPhone, iPad, and Mac."
 permalink: /vacation-countdown-app/
 slug: vacation-countdown-app
 nav_order: 30
