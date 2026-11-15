@@ -57,6 +57,22 @@ layout: default
         </tbody>
       </table>
     </div>
+    {%- if holiday.slug == 'new-year' and holiday_seo.ny_key_title -%}
+    {%- comment -%}New Year's Eve, and where midnight arrives first (Kiribati, UTC+14) and last (American Samoa, UTC−11). The page script adds each moment in the visitor's own time and a live countdown to their midnight.{%- endcomment -%}
+    {%- assign ny_seconds = holiday_next_date | date: '%s' | plus: 0 -%}
+    {%- assign ny_eve_date = ny_seconds | minus: 86400 | date: '%Y-%m-%d' -%}
+    {%- assign ny_eve_days = holiday_days_left | minus: 1 -%}
+    {%- assign ny_places = site.data.new_year_places[current_locale] -%}
+    <div class="holiday-key-dates" id="new-year-key-dates" data-new-year-key-dates data-your-time="{{ holiday_seo.ny_your_time | escape }}">
+      <h2>{{ holiday_seo.ny_key_title }}</h2>
+      <dl>
+        <div><dt>{{ holiday_seo.ny_eve }}</dt><dd><time data-eve datetime="{{ ny_eve_date }}">{% include tool-date.html date=ny_eve_date %}</time>{% if ny_eve_days > 0 %}<span class="holiday-key-dates__left">{{ tool.remaining_days }}: <span data-eve-days>{{ ny_eve_days }}</span></span>{% endif %}</dd></div>
+        <div><dt>{{ holiday_seo.ny_first }}</dt><dd>{{ ny_places.first }} · UTC+14<span class="holiday-key-dates__left" data-ny-local="14" hidden></span></dd></div>
+        <div><dt>{{ holiday_seo.ny_last }}</dt><dd>{{ ny_places.last }} · UTC−11<span class="holiday-key-dates__left" data-ny-local="-11" hidden></span></dd></div>
+        <div data-ny-midnight-row hidden><dt>{{ holiday_seo.ny_your_midnight }}</dt><dd data-ny-midnight></dd></div>
+      </dl>
+    </div>
+    {%- endif -%}
     {%- if holiday.slug == 'christmas' -%}
     {%- comment -%}Christmas Eve, Advent and Sundays left, computed from the next Christmas Day.{%- endcomment -%}
     {%- assign xmas_seconds = holiday_next_date | date: '%s' | plus: 0 -%}

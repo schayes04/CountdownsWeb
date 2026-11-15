@@ -7,7 +7,13 @@
     "advent_start": "First Sunday of Advent",
     "days_title": "Days Until Calculator: Count Days Between Dates",
     "anniversary_title": "Anniversary Calculator: How Many Days Together?",
-    "anniversary_description": "How many days have you been together? See your next anniversary and the dates of your 100-day, 1,000-day and yearly milestones."
+    "anniversary_description": "How many days have you been together? See your next anniversary and the dates of your 100-day, 1,000-day and yearly milestones.",
+    "ny_key_title": "Key New Year dates",
+    "ny_eve": "New Year’s Eve",
+    "ny_first": "First place to reach midnight",
+    "ny_last": "Last place to reach midnight",
+    "ny_your_midnight": "Until midnight where you are",
+    "ny_your_time": "Your time: {time}"
   },
   "en-CA": {
     "title": "{heading} {weekday}, {monthday} · Days Left",
@@ -18,7 +24,13 @@
     "days_title": "Days Until Calculator: Count Days Between Dates",
     "anniversary_title": "Anniversary Calculator: How Many Days Together?",
     "anniversary_description": "How many days have you been together? See your next anniversary and the dates of your 100-day, 1,000-day and yearly milestones.",
-    "boxing_day": "Boxing Day"
+    "boxing_day": "Boxing Day",
+    "ny_key_title": "Key New Year dates",
+    "ny_eve": "New Year’s Eve",
+    "ny_first": "First place to reach midnight",
+    "ny_last": "Last place to reach midnight",
+    "ny_your_midnight": "Until midnight where you are",
+    "ny_your_time": "Your time: {time}"
   },
   "en-GB": {
     "title": "{heading} {weekday} {monthday} · Days Left",
@@ -29,7 +41,13 @@
     "days_title": "Days Until Calculator: Count Days Between Dates",
     "anniversary_title": "Anniversary Calculator: How Many Days Together?",
     "anniversary_description": "How many days have you been together? See your next anniversary and the dates of your 100-day, 1,000-day and yearly milestones.",
-    "boxing_day": "Boxing Day"
+    "boxing_day": "Boxing Day",
+    "ny_key_title": "Key New Year dates",
+    "ny_eve": "New Year’s Eve",
+    "ny_first": "First place to reach midnight",
+    "ny_last": "Last place to reach midnight",
+    "ny_your_midnight": "Until midnight where you are",
+    "ny_your_time": "Your time: {time}"
   },
   "en-AU": {
     "title": "{heading} {weekday} {monthday} · Days Left",
@@ -40,7 +58,13 @@
     "days_title": "Days Until Calculator: Count Days Between Dates",
     "anniversary_title": "Anniversary Calculator: How Many Days Together?",
     "anniversary_description": "How many days have you been together? See your next anniversary and the dates of your 100-day, 1,000-day and yearly milestones.",
-    "boxing_day": "Boxing Day"
+    "boxing_day": "Boxing Day",
+    "ny_key_title": "Key New Year dates",
+    "ny_eve": "New Year’s Eve",
+    "ny_first": "First place to reach midnight",
+    "ny_last": "Last place to reach midnight",
+    "ny_your_midnight": "Until midnight where you are",
+    "ny_your_time": "Your time: {time}"
   },
   "ar": {
     "title": "{heading} {weekday} {monthday} · كم يومًا بقي",
@@ -50,7 +74,13 @@
     "advent_start": "الأحد الأول من زمن المجيء",
     "days_title": "حاسبة الأيام: كم يومًا بقي وكم يومًا بين تاريخين",
     "anniversary_title": "حساب ذكرى الزواج: كم مضى على زواجنا؟",
-    "anniversary_description": "احسب كم مضى على زواجكما أو علاقتكما بالأيام، وموعد ذكرى الزواج القادمة، وتواريخ 100 يوم و1000 يوم وكل سنة."
+    "anniversary_description": "احسب كم مضى على زواجكما أو علاقتكما بالأيام، وموعد ذكرى الزواج القادمة، وتواريخ 100 يوم و1000 يوم وكل سنة.",
+    "ny_key_title": "مواعيد رأس السنة",
+    "ny_eve": "ليلة رأس السنة",
+    "ny_first": "أول مكان يبلغ منتصف الليل",
+    "ny_last": "آخر مكان يبلغ منتصف الليل",
+    "ny_your_midnight": "حتى منتصف الليل عندك",
+    "ny_your_time": "بتوقيتك: {time}"
   },
   "ca": {
     "title": "{heading} {weekday}, {monthday} · Dies que falten",
@@ -58,7 +88,13 @@
     "christmas_eve": "Nit de Nadal",
     "sundays_left": "Diumenges que queden abans de Nadal",
     "advent_start": "Primer diumenge d’Advent",
-    "days_title": "Calculadora de dies: quants dies falten?"
+    "days_title": "Calculadora de dies: quants dies falten?",
+    "ny_key_title": "Dates clau de Cap d’Any",
+    "ny_eve": "Nit de Cap d’Any",
+    "ny_first": "Primer lloc on arriba la mitjanit",
+    "ny_last": "Últim lloc on arriba la mitjanit",
+    "ny_your_midnight": "Fins a la mitjanit on ets",
+    "ny_your_time": "La teva hora: {time}"
   },
   "cs": {
     "title": "{heading} {weekday} {monthday} · Kolik dní zbývá",
@@ -67,7 +103,13 @@
     "sundays_left": "Neděle zbývající do Vánoc",
     "advent_start": "První neděle adventní",
     "christmas_title": "Kolik dní zbývá do Štědrého dne a Vánoc {year}? Odpočet",
-    "days_title": "Kalkulačka dní: kolik dní zbývá do data?"
+    "days_title": "Kalkulačka dní: kolik dní zbývá do data?",
+    "ny_key_title": "Důležitá data Nového roku",
+    "ny_eve": "Silvestr",
+    "ny_first": "První místo, kde odbije půlnoc",
+    "ny_last": "Poslední místo, kde odbije půlnoc",
+    "ny_your_midnight": "Do půlnoci u vás",
+    "ny_your_time": "Váš čas: {time}"
   },
   "da": {
     "title": "{heading} {weekday} {monthday} · Dage tilbage",
@@ -76,7 +118,13 @@
     "sundays_left": "Søndage tilbage før jul",
     "advent_start": "Første søndag i advent",
     "christmas_title": "Hvor mange dage til juleaften og jul {year}? Dato og nedtælling",
-    "days_title": "Dageberegner: dage til og mellem datoer"
+    "days_title": "Dageberegner: dage til og mellem datoer",
+    "ny_key_title": "Vigtige datoer ved nytår",
+    "ny_eve": "Nytårsaften",
+    "ny_first": "Første sted, der når midnat",
+    "ny_last": "Sidste sted, der når midnat",
+    "ny_your_midnight": "Til midnat, hvor du er",
+    "ny_your_time": "Din tid: {time}"
   },
   "de": {
     "title": "{heading} {weekday}, {monthday} · Wie viele Tage noch?",
@@ -85,14 +133,26 @@
     "sundays_left": "Verbleibende Sonntage bis Weihnachten",
     "advent_start": "Erster Advent",
     "christmas_title": "Wie viele Tage bis Heiligabend und Weihnachten {year}? Countdown",
-    "days_title": "Tagerechner: Wie viele Tage bis zum Datum?"
+    "days_title": "Tagerechner: Wie viele Tage bis zum Datum?",
+    "ny_key_title": "Wichtige Daten zum Jahreswechsel",
+    "ny_eve": "Silvester",
+    "ny_first": "Hier ist zuerst Mitternacht",
+    "ny_last": "Hier ist zuletzt Mitternacht",
+    "ny_your_midnight": "Bis Mitternacht bei dir",
+    "ny_your_time": "Deine Zeit: {time}"
   },
   "el": {
     "title": "{counter} {year} · {weekday} {monthday}",
     "christmas_key_title": "Σημαντικές ημερομηνίες των Χριστουγέννων",
     "christmas_eve": "Παραμονή Χριστουγέννων",
     "sundays_left": "Κυριακές που απομένουν μέχρι τα Χριστούγεννα",
-    "days_title": "Υπολογισμός ημερών: πόσες μέρες μένουν;"
+    "days_title": "Υπολογισμός ημερών: πόσες μέρες μένουν;",
+    "ny_key_title": "Βασικές ημερομηνίες Πρωτοχρονιάς",
+    "ny_eve": "Παραμονή Πρωτοχρονιάς",
+    "ny_first": "Πρώτο μέρος που φτάνει τα μεσάνυχτα",
+    "ny_last": "Τελευταίο μέρος που φτάνει τα μεσάνυχτα",
+    "ny_your_midnight": "Μέχρι τα μεσάνυχτα στην περιοχή σας",
+    "ny_your_time": "Η ώρα σας: {time}"
   },
   "es": {
     "title": "{heading} {weekday} {monthday} · Días que faltan",
@@ -100,7 +160,13 @@
     "christmas_eve": "Nochebuena",
     "sundays_left": "Domingos que quedan antes de Navidad",
     "advent_start": "Primer domingo de Adviento",
-    "days_title": "Calculadora de días: ¿cuántos días faltan?"
+    "days_title": "Calculadora de días: ¿cuántos días faltan?",
+    "ny_key_title": "Fechas clave de Año Nuevo",
+    "ny_eve": "Nochevieja",
+    "ny_first": "Primer lugar en llegar a medianoche",
+    "ny_last": "Último lugar en llegar a medianoche",
+    "ny_your_midnight": "Hasta la medianoche donde estás",
+    "ny_your_time": "Tu hora: {time}"
   },
   "es-MX": {
     "title": "{heading} {weekday} {monthday} · Días que faltan",
@@ -108,7 +174,13 @@
     "christmas_eve": "Nochebuena",
     "sundays_left": "Domingos que quedan antes de Navidad",
     "advent_start": "Primer domingo de Adviento",
-    "days_title": "Calculadora de días: ¿cuántos días faltan?"
+    "days_title": "Calculadora de días: ¿cuántos días faltan?",
+    "ny_key_title": "Fechas clave de Año Nuevo",
+    "ny_eve": "Fin de Año",
+    "ny_first": "Primer lugar en llegar a la medianoche",
+    "ny_last": "Último lugar en llegar a la medianoche",
+    "ny_your_midnight": "Hasta la medianoche donde estás",
+    "ny_your_time": "Tu hora: {time}"
   },
   "fi": {
     "title": "{heading} {weekday} {monthday} · Päiviä jäljellä",
@@ -117,7 +189,13 @@
     "sundays_left": "Sunnuntaita jäljellä ennen joulua",
     "advent_start": "Ensimmäinen adventtisunnuntai",
     "christmas_title": "Joululaskuri {year}: montako päivää jouluaattoon ja jouluun?",
-    "days_title": "Päivälaskuri: laske päivät ja päivämäärät"
+    "days_title": "Päivälaskuri: laske päivät ja päivämäärät",
+    "ny_key_title": "Uudenvuoden tärkeät päivät",
+    "ny_eve": "Uudenvuodenaatto",
+    "ny_first": "Ensimmäinen paikka, jossa on keskiyö",
+    "ny_last": "Viimeinen paikka, jossa on keskiyö",
+    "ny_your_midnight": "Keskiyöhön sinun aikavyöhykkeelläsi",
+    "ny_your_time": "Sinun aikasi: {time}"
   },
   "fil": {
     "title": "{heading} {weekday}, {monthday} · Ilang araw pa",
@@ -125,7 +203,13 @@
     "christmas_eve": "Bisperas ng Pasko",
     "sundays_left": "Natitirang Linggo bago ang Pasko",
     "advent_start": "Unang Linggo ng Adbiyento",
-    "days_title": "Calculator ng araw: ilang araw pa?"
+    "days_title": "Calculator ng araw: ilang araw pa?",
+    "ny_key_title": "Mahahalagang petsa ng Bagong Taon",
+    "ny_eve": "Bisperas ng Bagong Taon",
+    "ny_first": "Unang lugar na aabot sa hatinggabi",
+    "ny_last": "Huling lugar na aabot sa hatinggabi",
+    "ny_your_midnight": "Hanggang hatinggabi kung nasaan ka",
+    "ny_your_time": "Oras mo: {time}"
   },
   "fr": {
     "title": "{heading} {weekday} {monthday} · Jours restants",
@@ -133,7 +217,13 @@
     "christmas_eve": "Réveillon de Noël",
     "sundays_left": "Dimanches restants avant Noël",
     "advent_start": "Premier dimanche de l’Avent",
-    "days_title": "Calculateur de jours : combien de jours restent ?"
+    "days_title": "Calculateur de jours : combien de jours restent ?",
+    "ny_key_title": "Dates clés du Nouvel An",
+    "ny_eve": "Saint-Sylvestre",
+    "ny_first": "Premier endroit à passer minuit",
+    "ny_last": "Dernier endroit à passer minuit",
+    "ny_your_midnight": "Jusqu’à minuit chez vous",
+    "ny_your_time": "Votre heure : {time}"
   },
   "he": {
     "title": "{heading} {weekday}, {monthday} · כמה ימים נותרו",
@@ -141,7 +231,13 @@
     "christmas_eve": "ערב חג המולד",
     "sundays_left": "ימי ראשון שנותרו עד חג המולד",
     "advent_start": "יום ראשון הראשון של האדוונט",
-    "days_title": "מחשבון ימים: כמה ימים נשארו עד תאריך?"
+    "days_title": "מחשבון ימים: כמה ימים נשארו עד תאריך?",
+    "ny_key_title": "תאריכים חשובים לשנה החדשה",
+    "ny_eve": "ערב השנה החדשה",
+    "ny_first": "המקום הראשון שמגיע לחצות",
+    "ny_last": "המקום האחרון שמגיע לחצות",
+    "ny_your_midnight": "עד חצות אצלכם",
+    "ny_your_time": "השעה אצלכם: {time}"
   },
   "hi": {
     "title": "{heading} {weekday}, {monthday} · कितने दिन बाकी",
@@ -149,7 +245,13 @@
     "christmas_eve": "क्रिसमस ईव",
     "sundays_left": "क्रिसमस से पहले बचे रविवार",
     "advent_start": "आगमन काल का पहला रविवार",
-    "days_title": "कितने दिन बाकी हैं? दिन कैलकुलेटर"
+    "days_title": "कितने दिन बाकी हैं? दिन कैलकुलेटर",
+    "ny_key_title": "नए साल की मुख्य तारीखें",
+    "ny_eve": "नए साल की पूर्व संध्या",
+    "ny_first": "सबसे पहले आधी रात कहाँ होती है",
+    "ny_last": "सबसे आखिर में आधी रात कहाँ होती है",
+    "ny_your_midnight": "आपके यहाँ आधी रात तक",
+    "ny_your_time": "आपका समय: {time}"
   },
   "hu": {
     "title": "{heading} {monthday}, {weekday} · Hány nap van hátra",
@@ -158,7 +260,13 @@
     "sundays_left": "Hátralévő vasárnapok karácsonyig",
     "advent_start": "Advent első vasárnapja",
     "christmas_title": "Hány nap van hátra szentestéig és karácsonyig {year}? Visszaszámláló",
-    "days_title": "Napkalkulátor: hány nap van hátra?"
+    "days_title": "Napkalkulátor: hány nap van hátra?",
+    "ny_key_title": "Az újév fontos dátumai",
+    "ny_eve": "Szilveszter",
+    "ny_first": "Itt van először éjfél",
+    "ny_last": "Itt van utoljára éjfél",
+    "ny_your_midnight": "Nálad éjfélig",
+    "ny_your_time": "A te időd: {time}"
   },
   "id": {
     "title": "{counter} {date}",
@@ -168,7 +276,13 @@
     "advent_start": "Minggu Adven Pertama",
     "days_title": "Kalkulator Hari & Tanggal: Berapa Hari Lagi?",
     "anniversary_title": "Kalkulator Anniversary: Sudah Berapa Hari Jadian?",
-    "anniversary_description": "Hitung sudah berapa hari kalian jadian, kapan anniversary berikutnya, dan tanggal 100 hari, 1.000 hari, serta tiap tahun. Bisa untuk anniversary pernikahan."
+    "anniversary_description": "Hitung sudah berapa hari kalian jadian, kapan anniversary berikutnya, dan tanggal 100 hari, 1.000 hari, serta tiap tahun. Bisa untuk anniversary pernikahan.",
+    "ny_key_title": "Tanggal penting Tahun Baru",
+    "ny_eve": "Malam Tahun Baru",
+    "ny_first": "Tempat pertama yang mencapai tengah malam",
+    "ny_last": "Tempat terakhir yang mencapai tengah malam",
+    "ny_your_midnight": "Menuju tengah malam di tempatmu",
+    "ny_your_time": "Waktumu: {time}"
   },
   "it": {
     "title": "{heading} {weekday} {monthday} · Quanti giorni mancano",
@@ -178,7 +292,13 @@
     "advent_start": "Prima domenica di Avvento",
     "days_title": "Calcolatore giorni: quanti giorni mancano?",
     "anniversary_title": "Calcolo Anniversario: Da Quanti Giorni State Insieme?",
-    "anniversary_description": "Calcola da quanti giorni state insieme, il vostro prossimo anniversario e le date di 100 giorni, 1000 giorni e di ogni anno, anche per il matrimonio."
+    "anniversary_description": "Calcola da quanti giorni state insieme, il vostro prossimo anniversario e le date di 100 giorni, 1000 giorni e di ogni anno, anche per il matrimonio.",
+    "ny_key_title": "Date chiave di Capodanno",
+    "ny_eve": "Vigilia di Capodanno",
+    "ny_first": "Primo luogo a raggiungere la mezzanotte",
+    "ny_last": "Ultimo luogo a raggiungere la mezzanotte",
+    "ny_your_midnight": "Alla mezzanotte dove sei",
+    "ny_your_time": "La tua ora: {time}"
   },
   "ja": {
     "title": "{counter}{date}",
@@ -188,7 +308,13 @@
     "advent_start": "待降節（アドベント）の始まり",
     "days_title": "日数計算：あと何日？何日後は何日？",
     "anniversary_title": "記念日計算：付き合って何日・100日記念がすぐわかる",
-    "anniversary_description": "記念日計算ツール。付き合って何日か、次の記念日、100日・1000日記念や1周年の日付をすぐに計算できます。カップルにも結婚記念日にも。"
+    "anniversary_description": "記念日計算ツール。付き合って何日か、次の記念日、100日・1000日記念や1周年の日付をすぐに計算できます。カップルにも結婚記念日にも。",
+    "ny_key_title": "年末年始の主な日付",
+    "ny_eve": "大晦日",
+    "ny_first": "最初に新年を迎える場所",
+    "ny_last": "最後に新年を迎える場所",
+    "ny_your_midnight": "あなたの地域の午前0時まで",
+    "ny_your_time": "あなたの時刻：{time}"
   },
   "ko": {
     "title": "{counter} {date}",
@@ -198,7 +324,13 @@
     "advent_start": "대림절 첫 주일",
     "days_title": "D-day 계산기: 날짜 계산과 남은 일수",
     "anniversary_title": "기념일 계산기: 사귄 지 며칠, 100일·1주년 날짜",
-    "anniversary_description": "기념일 계산기로 사귄 지 며칠째인지, 다음 기념일과 100일·1000일·1주년 날짜를 바로 계산하세요. 연애 기념일과 결혼기념일 모두 가능해요."
+    "anniversary_description": "기념일 계산기로 사귄 지 며칠째인지, 다음 기념일과 100일·1000일·1주년 날짜를 바로 계산하세요. 연애 기념일과 결혼기념일 모두 가능해요.",
+    "ny_key_title": "새해 주요 날짜",
+    "ny_eve": "12월 31일 (새해 전야)",
+    "ny_first": "가장 먼저 자정을 맞는 곳",
+    "ny_last": "가장 늦게 자정을 맞는 곳",
+    "ny_your_midnight": "내 지역 자정까지",
+    "ny_your_time": "내 시간: {time}"
   },
   "ms": {
     "title": "{counter} {date}",
@@ -208,7 +340,13 @@
     "advent_start": "Ahad Pertama Adven",
     "days_title": "Kalkulator Hari: Kira Hari dari Tarikh",
     "anniversary_title": "Kalkulator Anniversary: Kira Hari Bersama",
-    "anniversary_description": "Kira berapa hari anda telah bersama, tarikh anniversary seterusnya, dan tarikh 100 hari, 1,000 hari serta setiap tahun. Sesuai untuk ulang tahun perkahwinan."
+    "anniversary_description": "Kira berapa hari anda telah bersama, tarikh anniversary seterusnya, dan tarikh 100 hari, 1,000 hari serta setiap tahun. Sesuai untuk ulang tahun perkahwinan.",
+    "ny_key_title": "Tarikh penting Tahun Baharu",
+    "ny_eve": "Malam Tahun Baharu",
+    "ny_first": "Tempat pertama mencapai tengah malam",
+    "ny_last": "Tempat terakhir mencapai tengah malam",
+    "ny_your_midnight": "Hingga tengah malam di tempat anda",
+    "ny_your_time": "Waktu anda: {time}"
   },
   "nb": {
     "title": "{heading} {weekday} {monthday} · Dager igjen",
@@ -217,7 +355,13 @@
     "sundays_left": "Søndager igjen før jul",
     "advent_start": "Første søndag i advent",
     "christmas_title": "Hvor mange dager til julaften og jul {year}? Dato og nedtelling",
-    "days_title": "Dagekalkulator: dager til og mellom datoer"
+    "days_title": "Dagekalkulator: dager til og mellom datoer",
+    "ny_key_title": "Viktige datoer rundt nyttår",
+    "ny_eve": "Nyttårsaften",
+    "ny_first": "Første sted som når midnatt",
+    "ny_last": "Siste sted som når midnatt",
+    "ny_your_midnight": "Til midnatt der du er",
+    "ny_your_time": "Din tid: {time}"
   },
   "nl": {
     "title": "{heading} {weekday} {monthday} · Hoeveel dagen nog",
@@ -227,7 +371,13 @@
     "advent_start": "Eerste zondag van de advent",
     "days_title": "Dagencalculator: hoeveel dagen nog?",
     "anniversary_title": "Jubileum Calculator: Hoeveel Dagen Samen?",
-    "anniversary_description": "Bereken hoeveel dagen jullie samen zijn, wanneer jullie volgende jubileum is en de datums van 100 dagen, 1000 dagen en elk jaar samen."
+    "anniversary_description": "Bereken hoeveel dagen jullie samen zijn, wanneer jullie volgende jubileum is en de datums van 100 dagen, 1000 dagen en elk jaar samen.",
+    "ny_key_title": "Belangrijke data rond Nieuwjaar",
+    "ny_eve": "Oudejaarsavond",
+    "ny_first": "Eerste plek waar het middernacht wordt",
+    "ny_last": "Laatste plek waar het middernacht wordt",
+    "ny_your_midnight": "Tot middernacht bij jou",
+    "ny_your_time": "Jouw tijd: {time}"
   },
   "pl": {
     "title": "{heading} {weekday}, {monthday} · Ile dni zostało",
@@ -236,7 +386,13 @@
     "sundays_left": "Niedziele pozostałe do świąt",
     "advent_start": "Pierwsza niedziela Adwentu",
     "christmas_title": "Ile dni do Wigilii i Bożego Narodzenia {year}? Odliczanie",
-    "days_title": "Kalkulator dni: ile dni do daty?"
+    "days_title": "Kalkulator dni: ile dni do daty?",
+    "ny_key_title": "Ważne daty Nowego Roku",
+    "ny_eve": "Sylwester",
+    "ny_first": "Pierwsze miejsce, gdzie wybija północ",
+    "ny_last": "Ostatnie miejsce, gdzie wybija północ",
+    "ny_your_midnight": "Do północy u ciebie",
+    "ny_your_time": "Twój czas: {time}"
   },
   "pt": {
     "title": "{heading} {weekday}, {monthday} · Quantos dias faltam",
@@ -244,7 +400,13 @@
     "christmas_eve": "Véspera de Natal",
     "sundays_left": "Domingos que faltam até ao Natal",
     "advent_start": "Primeiro domingo do Advento",
-    "days_title": "Calculadora de dias: quantos dias faltam?"
+    "days_title": "Calculadora de dias: quantos dias faltam?",
+    "ny_key_title": "Datas importantes do Ano Novo",
+    "ny_eve": "Passagem de Ano",
+    "ny_first": "Primeiro lugar a chegar à meia-noite",
+    "ny_last": "Último lugar a chegar à meia-noite",
+    "ny_your_midnight": "Até à meia-noite onde está",
+    "ny_your_time": "A sua hora: {time}"
   },
   "pt-BR": {
     "title": "{heading} {weekday}, {monthday} · Quantos dias faltam",
@@ -252,21 +414,39 @@
     "christmas_eve": "Véspera de Natal",
     "sundays_left": "Domingos que faltam até o Natal",
     "advent_start": "Primeiro domingo do Advento",
-    "days_title": "Calculadora de dias: quantos dias faltam?"
+    "days_title": "Calculadora de dias: quantos dias faltam?",
+    "ny_key_title": "Datas importantes do Ano-Novo",
+    "ny_eve": "Réveillon",
+    "ny_first": "Primeiro lugar a chegar à meia-noite",
+    "ny_last": "Último lugar a chegar à meia-noite",
+    "ny_your_midnight": "Até a meia-noite onde você está",
+    "ny_your_time": "Seu horário: {time}"
   },
   "ro": {
     "title": "{heading} {weekday}, {monthday} · Câte zile mai sunt",
     "christmas_key_title": "Date importante de Crăciun",
     "christmas_eve": "Ajunul Crăciunului",
     "sundays_left": "Duminici rămase până la Crăciun",
-    "days_title": "Calculator zile: câte zile mai sunt?"
+    "days_title": "Calculator zile: câte zile mai sunt?",
+    "ny_key_title": "Date importante de Anul Nou",
+    "ny_eve": "Revelion",
+    "ny_first": "Primul loc unde se face miezul nopții",
+    "ny_last": "Ultimul loc unde se face miezul nopții",
+    "ny_your_midnight": "Până la miezul nopții la tine",
+    "ny_your_time": "Ora ta: {time}"
   },
   "ru": {
     "title": "{heading} {weekday}, {monthday} · Сколько дней осталось",
     "christmas_key_title": "Важные даты Рождества",
     "christmas_eve": "Сочельник",
     "sundays_left": "Воскресений до Рождества",
-    "days_title": "Калькулятор дней: сколько дней до даты?"
+    "days_title": "Калькулятор дней: сколько дней до даты?",
+    "ny_key_title": "Главные даты Нового года",
+    "ny_eve": "Канун Нового года",
+    "ny_first": "Где полночь наступает первой",
+    "ny_last": "Где полночь наступает последней",
+    "ny_your_midnight": "До полуночи у вас",
+    "ny_your_time": "Ваше время: {time}"
   },
   "sk": {
     "title": "{heading} {weekday} {monthday} · Koľko dní zostáva",
@@ -275,7 +455,13 @@
     "sundays_left": "Nedele zostávajúce do Vianoc",
     "advent_start": "Prvá adventná nedeľa",
     "christmas_title": "Koľko dní zostáva do Štedrého dňa a Vianoc {year}? Odpočet",
-    "days_title": "Kalkulačka dní: koľko dní zostáva?"
+    "days_title": "Kalkulačka dní: koľko dní zostáva?",
+    "ny_key_title": "Dôležité dátumy Nového roka",
+    "ny_eve": "Silvester",
+    "ny_first": "Prvé miesto, kde odbije polnoc",
+    "ny_last": "Posledné miesto, kde odbije polnoc",
+    "ny_your_midnight": "Do polnoci u vás",
+    "ny_your_time": "Váš čas: {time}"
   },
   "sv": {
     "title": "{heading} {weekday} {monthday} · Dagar kvar",
@@ -284,7 +470,13 @@
     "sundays_left": "Söndagar kvar till jul",
     "advent_start": "Första advent",
     "christmas_title": "Hur många dagar till julafton och jul {year}? Datum och nedräkning",
-    "days_title": "Dagräknare: dagar kvar och mellan datum"
+    "days_title": "Dagräknare: dagar kvar och mellan datum",
+    "ny_key_title": "Viktiga datum kring nyår",
+    "ny_eve": "Nyårsafton",
+    "ny_first": "Första platsen som når midnatt",
+    "ny_last": "Sista platsen som når midnatt",
+    "ny_your_midnight": "Till midnatt där du är",
+    "ny_your_time": "Din tid: {time}"
   },
   "th": {
     "title": "{counter} {date}",
@@ -292,7 +484,13 @@
     "christmas_eve": "คืนก่อนวันคริสต์มาส",
     "sundays_left": "วันอาทิตย์ที่เหลือก่อนคริสต์มาส",
     "advent_start": "วันอาทิตย์แรกของเทศกาลรอคอย",
-    "days_title": "คำนวณวัน: อีกกี่วัน นับจำนวนวันระหว่างวันที่"
+    "days_title": "คำนวณวัน: อีกกี่วัน นับจำนวนวันระหว่างวันที่",
+    "ny_key_title": "วันสำคัญช่วงปีใหม่",
+    "ny_eve": "วันสิ้นปี",
+    "ny_first": "ที่แรกที่ถึงเที่ยงคืน",
+    "ny_last": "ที่สุดท้ายที่ถึงเที่ยงคืน",
+    "ny_your_midnight": "จนถึงเที่ยงคืนที่คุณอยู่",
+    "ny_your_time": "เวลาของคุณ: {time}"
   },
   "tr": {
     "title": "{heading} {date}, kaç gün kaldı?",
@@ -302,14 +500,26 @@
     "advent_start": "Advent’in ilk pazarı",
     "days_title": "Kaç Gün Kaldı? Gün Hesaplama",
     "anniversary_title": "Yıl Dönümü Hesaplama: Kaç Gün Oldu?",
-    "anniversary_description": "Birlikte kaç gün olduğunu, bir sonraki yıl dönümünüzü ve 100 gün, 1000 gün ve yıllık tarihlerinizi öğrenin. Evlilik yıl dönümü için de kullanılır."
+    "anniversary_description": "Birlikte kaç gün olduğunu, bir sonraki yıl dönümünüzü ve 100 gün, 1000 gün ve yıllık tarihlerinizi öğrenin. Evlilik yıl dönümü için de kullanılır.",
+    "ny_key_title": "Yılbaşı için önemli tarihler",
+    "ny_eve": "Yılbaşı gecesi",
+    "ny_first": "Gece yarısına ilk ulaşan yer",
+    "ny_last": "Gece yarısına son ulaşan yer",
+    "ny_your_midnight": "Bulunduğun yerde gece yarısına",
+    "ny_your_time": "Senin saatin: {time}"
   },
   "uk": {
     "title": "{heading} {weekday}, {monthday} · Скільки днів залишилося",
     "christmas_key_title": "Важливі дати Різдва",
     "christmas_eve": "Святвечір",
     "sundays_left": "Неділь до Різдва",
-    "days_title": "Калькулятор днів: скільки днів до дати?"
+    "days_title": "Калькулятор днів: скільки днів до дати?",
+    "ny_key_title": "Головні дати Нового року",
+    "ny_eve": "Переддень Нового року",
+    "ny_first": "Де опівніч настає першою",
+    "ny_last": "Де опівніч настає останньою",
+    "ny_your_midnight": "До опівночі у вас",
+    "ny_your_time": "Ваш час: {time}"
   },
   "vi": {
     "title": "{heading} {weekday}, {monthday} · Còn bao nhiêu ngày",
@@ -319,7 +529,13 @@
     "advent_start": "Chúa nhật thứ nhất Mùa Vọng",
     "days_title": "Tính số ngày: còn bao nhiêu ngày?",
     "anniversary_title": "Tính Ngày Yêu Nhau: Đếm Ngày Kỷ Niệm",
-    "anniversary_description": "Tính số ngày yêu nhau, ngày kỷ niệm tiếp theo và ngày của mốc 100 ngày, 1.000 ngày và từng năm. Dùng được cả cho kỷ niệm ngày cưới."
+    "anniversary_description": "Tính số ngày yêu nhau, ngày kỷ niệm tiếp theo và ngày của mốc 100 ngày, 1.000 ngày và từng năm. Dùng được cả cho kỷ niệm ngày cưới.",
+    "ny_key_title": "Các ngày quan trọng dịp Năm Mới",
+    "ny_eve": "Đêm Giao thừa Dương lịch",
+    "ny_first": "Nơi đầu tiên đón nửa đêm",
+    "ny_last": "Nơi cuối cùng đón nửa đêm",
+    "ny_your_midnight": "Đến nửa đêm nơi bạn ở",
+    "ny_your_time": "Giờ của bạn: {time}"
   },
   "zh-Hans": {
     "title": "{heading}{monthday}{weekday}·还有几天",
@@ -329,7 +545,13 @@
     "advent_start": "将临期第一主日",
     "days_title": "天数计算器：还有几天？日期加减计算",
     "anniversary_title": "纪念日计算：在一起多少天、周年日期",
-    "anniversary_description": "纪念日计算器：算出你们在一起多少天、下一个周年纪念日，以及100天、1000天和每年纪念日的日期。也适用于结婚纪念日。"
+    "anniversary_description": "纪念日计算器：算出你们在一起多少天、下一个周年纪念日，以及100天、1000天和每年纪念日的日期。也适用于结婚纪念日。",
+    "ny_key_title": "新年重要日期",
+    "ny_eve": "跨年夜",
+    "ny_first": "最早迎来午夜的地方",
+    "ny_last": "最晚迎来午夜的地方",
+    "ny_your_midnight": "距离你所在地的午夜",
+    "ny_your_time": "你的时间：{time}"
   },
   "zh-Hant": {
     "title": "{heading}{monthday} {weekday}・還有幾天",
@@ -339,6 +561,12 @@
     "advent_start": "將臨期第一主日",
     "days_title": "天數計算器：還有幾天？日期加減計算",
     "anniversary_title": "紀念日計算：交往天數與週年日期",
-    "anniversary_description": "紀念日計算機：算出你們交往幾天、下一個週年紀念日，以及100天、1000天和每年紀念日的日期。也適用於結婚紀念日。"
+    "anniversary_description": "紀念日計算機：算出你們交往幾天、下一個週年紀念日，以及100天、1000天和每年紀念日的日期。也適用於結婚紀念日。",
+    "ny_key_title": "新年重要日期",
+    "ny_eve": "跨年夜",
+    "ny_first": "最早迎來午夜的地方",
+    "ny_last": "最晚迎來午夜的地方",
+    "ny_your_midnight": "距離你所在地的午夜",
+    "ny_your_time": "你的時間：{time}"
   }
 }

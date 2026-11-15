@@ -36,7 +36,8 @@ test('holiday search titles and Christmas key dates cover every locale', () => {
   assert.deepEqual(Object.keys(seo).sort(), Object.keys(formats).sort());
   const allowed = ['counter', 'date', 'heading', 'holiday', 'monthday', 'weekday', 'year'];
   for (const [locale, entry] of Object.entries(seo)) {
-    for (const key of ['title', 'christmas_key_title', 'christmas_eve', 'sundays_left', 'days_title']) assert.ok(entry[key]?.trim(), `${locale}: ${key}`);
+    for (const key of ['title', 'christmas_key_title', 'christmas_eve', 'sundays_left', 'days_title', 'ny_key_title', 'ny_eve', 'ny_first', 'ny_last', 'ny_your_midnight', 'ny_your_time']) assert.ok(entry[key]?.trim(), `${locale}: ${key}`);
+    assert.ok(entry.ny_your_time.includes('{time}'), `${locale}: ny_your_time needs {time}`);
     if (entry.anniversary_title) assert.ok(entry.anniversary_description?.trim() && entry.anniversary_description.length <= 160, `${locale}: anniversary_description`);
     for (const key of ['title', 'christmas_title']) {
       if (entry[key] === undefined) continue;

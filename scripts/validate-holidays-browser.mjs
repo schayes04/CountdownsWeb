@@ -35,6 +35,12 @@ try {
         assert.equal(await page.locator('[data-eve-days]').innerText(), String(state.days - 1));
         assert.equal(await page.locator('[data-sundays-left]').innerText(), '10');
       }
+      if (holiday.slug === 'new-year') {
+        assert.equal(await page.locator('#new-year-key-dates [data-eve-days]').innerText(), String(state.days - 1));
+        // Kiribati reaches midnight at 10:00 UTC on Dec 31, which is 5:00 AM in New York.
+        assert.match(await page.locator('[data-ny-local="14"]').innerText(), /Dec 31.*5:00/);
+        assert.match(await page.locator('[data-ny-midnight]').innerText(), /^\d+ days \d\d:\d\d:\d\d$/);
+      }
       assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `${holiday.slug} overflows at ${width}px`);
       await page.locator('.holiday-app').scrollIntoViewIfNeeded();
       await page.waitForFunction(() => [...document.querySelectorAll('img')].every(image => image.complete && image.naturalWidth > 0));
@@ -111,6 +117,7 @@ try {
     assert.ok(await staticPage.locator('.holiday-live').isVisible());
     assert.match(await staticPage.locator('#holiday-days').innerText(), /^\d+$/);
     assert.equal(await staticPage.locator('[data-christmas-key-dates]').count(), holiday.slug === 'christmas' ? 1 : 0);
+    assert.equal(await staticPage.locator('[data-new-year-key-dates]').count(), holiday.slug === 'new-year' ? 1 : 0);
     assert.equal(await staticPage.locator('#holiday-date-rows tr').count(), 5);
     const scripts = await staticPage.locator('script[type="application/ld+json"]').allTextContents();
     scripts.forEach(value => JSON.parse(value));

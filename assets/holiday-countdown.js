@@ -53,6 +53,40 @@ function renderChristmasKeyDates(state, today) {
   const firstSunday = (7 - todayWeekday) % 7 || 7;
   block.querySelector('[data-sundays-left]').textContent = fmt.number(firstSunday < state.days ? Math.floor((state.days - 1 - firstSunday) / 7) + 1 : 0);
 }
+// New Year: midnight in UTC+14 and UTC−11 shown in the visitor's time, and a live countdown to their own midnight.
+let newYearTicker;
+function renderNewYear(state) {
+  const block = document.querySelector('[data-new-year-key-dates]');
+  if (!block) return;
+  const eve = new Date((calendarDay(state.date) - 1) * DAY_MS).toISOString().slice(0, 10);
+  const eveTime = block.querySelector('[data-eve]');
+  eveTime.dateTime = eve; eveTime.textContent = fmt.date(eve);
+  const eveDays = block.querySelector('[data-eve-days]');
+  if (eveDays) { eveDays.textContent = fmt.number(state.days - 1); eveDays.closest('.holiday-key-dates__left').hidden = state.days <= 1; }
+  const yourTime = new Intl.DateTimeFormat(config.locale, { weekday: 'short', day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit' });
+  for (const local of block.querySelectorAll('[data-ny-local]')) {
+    const offset = Number(local.dataset.nyLocal);
+    // Midnight on January 1 at UTC+offset is that many hours before 00:00 UTC.
+    const instant = new Date(calendarDay(state.date) * DAY_MS - offset * 3_600_000);
+    local.textContent = interpolate(block.dataset.yourTime, { time: yourTime.format(instant) });
+    local.hidden = false;
+  }
+  const [year, month, day] = state.date.split('-').map(Number);
+  const midnight = new Date(year, month - 1, day);
+  const output = block.querySelector('[data-ny-midnight]');
+  const pad = value => String(value).padStart(2, '0');
+  const tick = () => {
+    const left = Math.max(0, midnight - Date.now());
+    const totalSeconds = Math.floor(left / 1000);
+    const days = Math.floor(totalSeconds / 86400);
+    const clock = `${pad(Math.floor(totalSeconds % 86400 / 3600))}:${pad(Math.floor(totalSeconds % 3600 / 60))}:${pad(totalSeconds % 60)}`;
+    output.textContent = days > 0 ? `${fmt.unit(days, 'day')} ${clock}` : clock;
+  };
+  clearInterval(newYearTicker);
+  tick();
+  newYearTicker = setInterval(tick, 1000);
+  block.querySelector('[data-ny-midnight-row]').hidden = false;
+}
 function renderHoliday(today) {
   const rule = holidayObservance(holiday.slug, holiday.rule, country).rule;
   const state = holidayState(rule, today);
@@ -71,6 +105,7 @@ function renderHoliday(today) {
   document.getElementById('holiday-weeks').textContent = state.days===0 ? '' : interpolate(copy.remaining,{duration:fmt.list([fmt.unit(state.weeks,'week'),...(state.extraDays ? [fmt.unit(state.extraDays,'day')] : [])])});
   document.getElementById('holiday-clock-note').textContent = interpolate(copy.calendar_days,{zone:Intl.DateTimeFormat().resolvedOptions().timeZone.replaceAll('_',' ')});
   renderChristmasKeyDates(state, today);
+  renderNewYear(state);
   document.getElementById('holiday-fallback').hidden=true;
   document.querySelector('.holiday-live').hidden=false;
   document.getElementById('holiday-table-caption').textContent = rule.type==='fixed' ? selected.label : `${selected.scope} · ${selected.label}`;
