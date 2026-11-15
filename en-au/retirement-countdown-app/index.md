@@ -38,6 +38,8 @@ faq:
   answer: Yes. Countdowns can count down to a date or count up from a date.
 - question: Can I keep the countdown on my Apple Watch?
   answer: Countdowns supports Apple Watch and complications for glanceable tracking.
+- question: Which Australian retirement dates can I track?
+  answer: Many people count down to their preservation age for super (60 for anyone born after 30 June 1964), Age Pension age (67), the end of long service leave, or their last day at work.
 related_pages:
 - event-countdown-app
 - vacation-countdown-app
@@ -58,3 +60,9 @@ Countdowns can also track the smaller dates around retirement, such as paperwork
 ## Count down before, count up after
 
 When retirement begins, the date does not have to disappear. You can keep the event in your archive or use count-up behavior to see how long it has been since the milestone.
+
+## Count down to Australian retirement milestones
+
+Retirement in Australia often has more than one date. You might track the day you reach preservation age and can access your super, the day you reach Age Pension age, a block of long service leave before you finish, and your final day at work.
+
+Give each one its own countdown, then keep the date that matters most on your Home Screen. Rules can change, so confirm your dates with your super fund and Services Australia.

@@ -36,6 +36,8 @@ faq:
   answer: Yes. You can customise units, colours, icons, lists, and notifications.
 - question: Can Countdowns replace medical guidance?
   answer: No. Countdowns is a date-tracking app and should not be used for medical advice.
+- question: Which Australian pregnancy dates are worth a countdown?
+  answer: Common ones are the 12-week scan, the 18 to 20-week morphology scan, the date to lodge your Parental Leave Pay claim, the date you give your employer notice of parental leave, and adding your baby to Medicare after the birth.
 related_pages:
 - birthday-countdown-app
 - event-countdown-app
@@ -52,6 +54,12 @@ include_software_schema: true
 A pregnancy countdown can make the due date feel more concrete while still leaving room for the many dates that happen before it. Countdowns can track the main due date and also hold appointments, classes, preparation tasks, or family travel plans.
 
 Because every pregnancy timeline is personal, the app lets you choose your own labels, units, reminders, and organisation.
+
+## Plan around Australian pregnancy milestones
+
+Alongside the due date, many Australian families track a few practical dates: the 12-week scan, the morphology scan at around 18 to 20 weeks, hospital or midwife bookings, and antenatal classes.
+
+Work and paperwork dates matter too. Under the National Employment Standards, employees usually give at least 10 weeks’ written notice before starting unpaid parental leave, and Services Australia lets you lodge a Parental Leave Pay claim up to 97 days before the expected birth. A separate countdown for each date, with a reminder a week before, keeps them from sneaking up on you. Check the details that apply to you with your employer and Services Australia.
 
 ## Flexible for practical planning
 

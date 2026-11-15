@@ -17,7 +17,8 @@
     "advent_start": "First Sunday of Advent",
     "days_title": "Days Until Calculator: Count Days Between Dates",
     "anniversary_title": "Anniversary Calculator: How Many Days Together?",
-    "anniversary_description": "How many days have you been together? See your next anniversary and the dates of your 100-day, 1,000-day and yearly milestones."
+    "anniversary_description": "How many days have you been together? See your next anniversary and the dates of your 100-day, 1,000-day and yearly milestones.",
+    "boxing_day": "Boxing Day"
   },
   "en-GB": {
     "title": "{heading} {weekday} {monthday} · Days Left",
@@ -27,7 +28,8 @@
     "advent_start": "First Sunday of Advent",
     "days_title": "Days Until Calculator: Count Days Between Dates",
     "anniversary_title": "Anniversary Calculator: How Many Days Together?",
-    "anniversary_description": "How many days have you been together? See your next anniversary and the dates of your 100-day, 1,000-day and yearly milestones."
+    "anniversary_description": "How many days have you been together? See your next anniversary and the dates of your 100-day, 1,000-day and yearly milestones.",
+    "boxing_day": "Boxing Day"
   },
   "en-AU": {
     "title": "{heading} {weekday} {monthday} · Days Left",
@@ -37,7 +39,8 @@
     "advent_start": "First Sunday of Advent",
     "days_title": "Days Until Calculator: Count Days Between Dates",
     "anniversary_title": "Anniversary Calculator: How Many Days Together?",
-    "anniversary_description": "How many days have you been together? See your next anniversary and the dates of your 100-day, 1,000-day and yearly milestones."
+    "anniversary_description": "How many days have you been together? See your next anniversary and the dates of your 100-day, 1,000-day and yearly milestones.",
+    "boxing_day": "Boxing Day"
   },
   "ar": {
     "title": "{heading} {weekday} {monthday} · كم يومًا بقي",

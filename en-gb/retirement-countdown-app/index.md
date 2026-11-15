@@ -38,6 +38,8 @@ faq:
   answer: Yes. Countdowns can count down to a date or count up from a date.
 - question: Can I keep the countdown on my Apple Watch?
   answer: Countdowns supports Apple Watch and complications for glanceable tracking.
+- question: Can I count down to my State Pension age?
+  answer: Yes. Add the date you reach State Pension age as its own countdown. The age is 66 and is rising to 67 between 2026 and 2028, so check your exact date on GOV.UK.
 related_pages:
 - event-countdown-app
 - vacation-countdown-app
@@ -58,3 +60,9 @@ Countdowns can also track the smaller dates around retirement, such as paperwork
 ## Count down before, count up after
 
 When retirement begins, the date does not have to disappear. You can keep the event in your archive or use count-up behavior to see how long it has been since the milestone.
+
+## Count down to UK retirement milestones
+
+Many people in the UK track more than their last day at work. You might count down to your State Pension age, the date you can take money from a workplace or personal pension, the end of your notice period, and a leaving do.
+
+Give each date its own countdown and keep the one that matters most on your Home Screen. Check your State Pension date on GOV.UK, because it depends on when you were born.

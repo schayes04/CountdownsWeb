@@ -39,10 +39,13 @@ function renderChristmasKeyDates(state, today) {
   const christmas = calendarDay(state.date);
   const weekday = new Date(christmas * DAY_MS).getUTCDay();
   const iso = day => new Date(day * DAY_MS).toISOString().slice(0, 10);
-  const [eveTime, adventTime] = block.querySelectorAll('time');
-  const eve = iso(christmas - 1);
-  eveTime.dateTime = eve; eveTime.textContent = fmt.date(eve);
-  if (adventTime) { const advent = iso(christmas - (weekday === 0 ? 28 : weekday + 21)); adventTime.dateTime = advent; adventTime.textContent = fmt.date(advent); }
+  const setDate = (selector, day) => {
+    const time = block.querySelector(selector);
+    if (time) { time.dateTime = iso(day); time.textContent = fmt.date(iso(day)); }
+  };
+  setDate('[data-eve]', christmas - 1);
+  setDate('[data-boxing]', christmas + 1);
+  setDate('[data-advent]', christmas - (weekday === 0 ? 28 : weekday + 21));
   const eveDays = block.querySelector('[data-eve-days]');
   if (eveDays) { eveDays.textContent = fmt.number(state.days - 1); eveDays.closest('.holiday-key-dates__left').hidden = state.days <= 1; }
   // Sundays strictly between today and Christmas Day.

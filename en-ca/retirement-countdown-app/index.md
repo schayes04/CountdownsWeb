@@ -38,6 +38,8 @@ faq:
   answer: Yes. Countdowns can count down to a date or count up from a date.
 - question: Can I keep the countdown on my Apple Watch?
   answer: Countdowns supports Apple Watch and complications for glanceable tracking.
+- question: Can I count down to CPP and OAS dates?
+  answer: Yes. Add each date as its own countdown. You can start CPP between 60 and 70, and OAS usually starts at 65, so many people track the dates they have chosen for each.
 related_pages:
 - event-countdown-app
 - vacation-countdown-app
@@ -58,3 +60,9 @@ Countdowns can also track the smaller dates around retirement, such as paperwork
 ## Count down before, count up after
 
 When retirement begins, the date does not have to disappear. You can keep the event in your archive or use count-up behavior to see how long it has been since the milestone.
+
+## Count down to Canadian retirement milestones
+
+Retirement in Canada often involves a few dates: the day your Canada Pension Plan payments start (anywhere from 60 to 70), Old Age Security from 65, the date you convert an RRSP to a RRIF, and your last day at work.
+
+Give each date its own countdown and keep the main one on your Home Screen. Confirm your dates with Service Canada.
