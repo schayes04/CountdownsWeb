@@ -312,6 +312,34 @@
 	max-width: 650px;
 }
 
+.hero__season {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 6px 10px;
+	width: fit-content;
+	max-width: 100%;
+	margin-bottom: 16px;
+	padding: 8px 14px;
+	border: 1px solid rgba(21, 128, 61, 0.24);
+	border-radius: 999px;
+	background: rgba(240, 253, 244, 0.88);
+	color: #14532d;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.hero__season:hover,
+.hero__season:focus-visible {
+	background: #dcfce7;
+}
+
+.hero__season-cta {
+	color: #15803d;
+	font-weight: 800;
+}
+
 .hero__eyebrow {
 	display: inline-flex;
 	align-items: center;
@@ -1941,4 +1969,20 @@
 // The Hungarian name is one long word; a slightly smaller scale keeps it intact.
 :lang(hu) .hero h1 {
 	font-size: min(var(--hero-title-max-size), 12cqi);
+}
+
+.guide-hero__holiday-link {
+	margin-top: 16px;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.guide-hero__holiday-link a {
+	color: #15803d;
+	text-decoration: none;
+}
+
+.guide-hero__holiday-link a:hover,
+.guide-hero__holiday-link a:focus-visible {
+	text-decoration: underline;
 }

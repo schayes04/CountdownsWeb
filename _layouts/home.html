@@ -14,6 +14,14 @@ layout: default
 <section class="hero">
 	<div class="site-container hero__grid">
 		<div class="hero__content">
+			{%- comment -%}Seasonal link to the Christmas countdown, Nov 20 to Dec 25. The site rebuilds daily, so it appears and disappears on its own.{%- endcomment -%}
+			{%- assign season_day = site.time | date: '%m%d' | plus: 0 -%}
+			{%- if season_day >= 1120 and season_day <= 1225 -%}
+				{%- assign season_tools = site.data.tools[current_locale] -%}
+				{%- assign season_name = season_tools.holidays.christmas.name -%}
+				{%- assign season_label = season_tools.strings.counter_title | replace: '{holiday}', season_name -%}
+				<a class="hero__season" href="{{ locale_prefix | append: '/when-is/christmas/' | relative_url }}"><span aria-hidden="true">🎄</span> {{ season_label }} <span class="hero__season-cta">{{ season_tools.strings.see_countdown }} <span aria-hidden="true">→</span></span></a>
+			{%- endif %}
 			<div class="hero__eyebrow">
 				<img src="{{ '/assets/icons/appicon-64.png' | relative_url }}" srcset="{{ '/assets/icons/appicon-64.png' | relative_url }} 64w, {{ '/assets/icons/appicon-128.png' | relative_url }} 128w" sizes="28px" width="28" height="28" alt="">
 				<span>{{ t.hero_eyebrow }}</span>

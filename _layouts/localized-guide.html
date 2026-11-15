@@ -32,6 +32,13 @@ layout: default
 			<p class="section-kicker">{{ t.guide_default_kicker }}</p>
 			<h1>{{ t.guide_h1 | replace: "TOPIC_LOWER", guide_topic_lower | replace: "TOPIC", guide_topic }}</h1>
 			<p>{{ t.guide_hero | replace: "TOPIC_LOWER", guide_topic_lower | replace: "TOPIC", guide_topic }}</p>
+			{%- if page.guide_slug == "christmas-countdown-app" -%}
+				{%- assign guide_holiday = site.data.holidays | where: "slug", "christmas" | first -%}
+				{%- assign guide_tools = site.data.tools[current_locale] -%}
+				{%- assign guide_holiday_name = guide_tools.holidays[guide_holiday.slug].name -%}
+				{%- assign guide_holiday_label = guide_tools.strings.counter_title | replace: '{holiday}', guide_holiday_name -%}
+				<p class="guide-hero__holiday-link"><a href="{{ locale_prefix | append: '/when-is/' | append: guide_holiday.slug | append: '/' | relative_url }}"><span aria-hidden="true">{{ guide_holiday.icon }}</span> {{ guide_holiday_label }} <span aria-hidden="true">→</span></a></p>
+			{%- endif %}
 			<div class="hero__actions">
 				{% include app-store-badge.html locale=current_locale %}
 			</div>
