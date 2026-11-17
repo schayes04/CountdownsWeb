@@ -1,0 +1,44 @@
+{%- comment -%}
+Make clicks on internal links feel instant. Chrome and Edge prerender a
+link when the pointer rests on it (Speculation Rules). Safari and Firefox
+fetch the page on hover, touch or focus instead, so the click is served
+from the HTTP cache (GitHub Pages sends max-age=600).
+{%- endcomment -%}
+<script type="speculationrules">{"prerender":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/assets/*","/open/*","/*.zip"]}},{"not":{"selector_matches":"[download], [target=_blank], [rel~=nofollow]"}}]},"eagerness":"moderate"}]}</script>
+<script>
+(() => {
+	if (window.HTMLScriptElement && HTMLScriptElement.supports && HTMLScriptElement.supports("speculationrules")) return;
+	const done = new Set();
+	const useLink = document.createElement("link").relList.supports?.("prefetch");
+	const target = (event) => {
+		const link = event.target.closest?.("a[href]");
+		if (!link || link.origin !== location.origin || link.hasAttribute("download") || link.target === "_blank") return null;
+		if (/^\/(assets|open)\/|\.zip$/.test(link.pathname)) return null;
+		if (link.pathname === location.pathname && link.search === location.search) return null;
+		return link;
+	};
+	const prefetch = (link) => {
+		const url = link.origin + link.pathname + link.search;
+		if (done.has(url)) return;
+		done.add(url);
+		if (useLink) {
+			const hint = document.createElement("link");
+			hint.rel = "prefetch";
+			hint.href = url;
+			document.head.appendChild(hint);
+		} else {
+			fetch(url, { credentials: "same-origin", priority: "low" }).catch(() => done.delete(url));
+		}
+	};
+	let timer;
+	document.addEventListener("pointerover", (event) => {
+		const link = target(event);
+		if (!link || event.pointerType === "touch") return;
+		clearTimeout(timer);
+		timer = setTimeout(() => prefetch(link), 65);
+	}, { passive: true });
+	document.addEventListener("pointerout", () => clearTimeout(timer), { passive: true });
+	document.addEventListener("touchstart", (event) => { const link = target(event); if (link) prefetch(link); }, { passive: true, capture: true });
+	document.addEventListener("focusin", (event) => { const link = target(event); if (link) prefetch(link); });
+})();
+</script>
